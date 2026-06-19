@@ -49,6 +49,7 @@ async function loadWriteup(strain) {
     setWriteupHtml(panel, renderMarkdown(md));
     insertRelated(strain);
     fillLinkSections(strain);
+    addFootnotes(strain);
     decorateWriteupSections(strain);
   } catch {
     if (reqId === currentId) { setWriteupMissing(panel); insertRelated(strain); }
@@ -70,6 +71,60 @@ function decorateWriteupSections(strain) {
     h.appendChild(btn);
     btn.addEventListener('click', () => openSectionSubmit(strain, label));
   });
+}
+
+// Adds the matched vendor page to the References list and a "sources" footnote
+// marker at the end of each prose section that jumps to the References.
+// Honest by design: the marker attributes a section to the real reference set,
+// not each sentence (which would be fabricated precision for AI-drafted prose).
+function headText(h) { return (h.firstChild ? h.firstChild.textContent : h.textContent).trim(); }
+
+function addFootnotes(strain) {
+  const writeup = panel.querySelector('.writeup');
+  if (!writeup) return;
+  const heads = [...writeup.querySelectorAll('h2')];
+  const refH = heads.find((h) => headText(h) === 'References');
+
+  // Add the strain's seed-vendor page(s) as numbered references.
+  if (refH && strain.seedSources && strain.seedSources.length) {
+    let ul = refH.nextElementSibling;
+    while (ul && ul.tagName !== 'UL' && ul.tagName !== 'H2') ul = ul.nextElementSibling;
+    if (ul && ul.tagName === 'UL') {
+      for (const s of strain.seedSources) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode('Seed-bank listing — '));
+        const a = document.createElement('a');
+        a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        a.textContent = `${s.vendor}: ${s.product}`;
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+    }
+  }
+
+  // Footnote marker at the end of each prose section.
+  for (const label of ['Overview', 'History', 'Description']) {
+    const h = heads.find((x) => headText(x) === label);
+    if (!h) continue;
+    let last = null, el = h.nextElementSibling;
+    while (el && el.tagName !== 'H2') { last = el; el = el.nextElementSibling; }
+    if (!last) continue;
+    const sup = document.createElement('sup');
+    sup.className = 'fnref';
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = 'sources';
+    btn.title = 'Sources informing this section';
+    btn.addEventListener('click', () => {
+      if (!refH) return;
+      refH.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      refH.classList.add('ref-flash');
+      setTimeout(() => refH.classList.remove('ref-flash'), 1200);
+    });
+    sup.appendChild(btn);
+    last.appendChild(document.createTextNode(' '));
+    last.appendChild(sup);
+  }
 }
 
 // Replaces a section's empty-slot note with real vendor/forum/photo links when present.
