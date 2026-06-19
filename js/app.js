@@ -14,6 +14,8 @@ const submitBtn = document.getElementById('submit-btn');
 const modal = document.getElementById('modal');
 const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
+const menuBtn = document.getElementById('menu-btn');
+const appMenu = document.getElementById('app-menu');
 
 let strains = [];
 let map = null;
@@ -301,15 +303,117 @@ function openSectionSubmit(strain, section) {
 submitBtn.addEventListener('click', openFeedbackSubmit);
 modal.addEventListener('click', (e) => { if (e.target.hasAttribute('data-close')) closeModal(); });
 
+// ---- Hamburger menu ----
+function toggleMenu(force) {
+  const show = force !== undefined ? force : appMenu.hidden;
+  appMenu.hidden = !show;
+  menuBtn.setAttribute('aria-expanded', String(show));
+}
+menuBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleMenu(); });
+appMenu.addEventListener('click', (e) => {
+  const item = e.target.closest('.app-menu-item');
+  if (!item) return;
+  toggleMenu(false);
+  ({ about: openAbout, index: openIndex, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
+});
+
+function openContentModal(title, build) {
+  modalTitle.textContent = title;
+  modalBody.innerHTML = '';
+  build(modalBody);
+  modal.hidden = false;
+}
+
+function openAbout() {
+  openContentModal('About', (body) => {
+    const p1 = document.createElement('p');
+    p1.textContent = 'The Cannabis Landrace Atlas is an interactive map of traditional cannabis landraces, heirlooms, and wild populations from around the world. Select a marker — or search and browse the Index — to explore each variety.';
+    const p2 = document.createElement('p');
+    p2.className = 'modal-note';
+    p2.textContent = 'Strain write-ups are AI-generated drafts and are unverified — corrections welcome. Coordinates are approximate. This is an early version; more is coming.';
+    body.append(p1, p2);
+  });
+}
+
+function openLicense() {
+  openContentModal('License', (body) => {
+    const dl = document.createElement('dl');
+    dl.className = 'modal-dl';
+    for (const [t, d] of [['Code', 'MIT License.'], ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).']]) {
+      const dt = document.createElement('dt'); dt.textContent = t;
+      const dd = document.createElement('dd'); dd.textContent = d;
+      dl.append(dt, dd);
+    }
+    const p = document.createElement('p');
+    p.className = 'modal-note';
+    p.textContent = 'Initial dataset adapted from a community list by Dankk1 on the Overgrow forum — always credited. See LICENSE and LICENSE-DATA in the repository.';
+    body.append(dl, p);
+  });
+}
+
+function openReferences() {
+  openContentModal('References', (body) => {
+    const intro = document.createElement('p');
+    intro.textContent = 'General background on cannabis landraces and their ethnobotany:';
+    const ul = document.createElement('ul');
+    ul.className = 'modal-refs';
+    for (const r of [
+      'Clarke, R. C., & Merlin, M. D. (2013). Cannabis: Evolution and Ethnobotany. University of California Press.',
+      'Clarke, R. C. (1998). Hashish! Red Eye Press.'
+    ]) {
+      const li = document.createElement('li'); li.textContent = r; ul.appendChild(li);
+    }
+    const li = document.createElement('li');
+    li.append(document.createTextNode('Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the '));
+    const a = document.createElement('a');
+    a.href = 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462';
+    a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = 'Overgrow forum';
+    li.append(a, document.createTextNode('.'));
+    ul.appendChild(li);
+    body.append(intro, ul);
+  });
+}
+
+function openIndex() {
+  openContentModal('Index', (body) => {
+    const intro = document.createElement('p');
+    intro.className = 'modal-note';
+    intro.textContent = 'Browse all varieties by type — select one to open it.';
+    const h1 = document.createElement('h2');
+    h1.className = 'index-h1';
+    h1.textContent = 'Type';
+    body.append(intro, h1);
+    const byCat = {};
+    for (const s of strains) (byCat[s.category] ||= []).push(s);
+    for (const cat of Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length)) {
+      const h = document.createElement('h3');
+      h.className = 'index-h2';
+      h.textContent = `${cat} (${byCat[cat].length})`;
+      const p = document.createElement('p');
+      p.className = 'index-list';
+      byCat[cat].sort((a, b) => a.name.localeCompare(b.name)).forEach((s, i) => {
+        if (i > 0) p.appendChild(document.createTextNode(', '));
+        const btn = document.createElement('button');
+        btn.type = 'button'; btn.className = 'related-link'; btn.textContent = s.name;
+        btn.addEventListener('click', () => { closeModal(); openPanel(s); });
+        p.appendChild(btn);
+      });
+      body.append(h, p);
+    }
+  });
+}
+
 // ---- Global keys / outside click ----
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
-  if (!modal.hidden) closeModal();
+  if (!appMenu.hidden) toggleMenu(false);
+  else if (!modal.hidden) closeModal();
   else if (!resultsList.hidden) hideResults();
   else if (document.body.classList.contains('panel-open')) closePanel();
 });
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.search')) hideResults();
+  if (!e.target.closest('.app-menu') && !e.target.closest('.menu-btn')) toggleMenu(false);
 });
 
 // ---- Boot ----
