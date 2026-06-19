@@ -35,7 +35,7 @@ _No verified forum links yet — use the button below to suggest one._
 
 ## References
 
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+General background on cannabis landraces and their ethnobotany:
 
 - Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
 - Clarke, R. C. (1998). *Hashish!* Red Eye Press.

@@ -109,6 +109,9 @@ Field notes:
 - `id` — unique, kebab-case, stable identifier (derived from the name; a numeric
   suffix disambiguates intentional pairs like the two Transkei entries).
 - `name` — the landrace name (panel header, marker tooltip, search).
+- `aka` — array of alternate names, extracted deterministically from the source
+  notes (quoted names and explicit "Also …" lists); often empty. Shown as the panel's
+  AKA row when non-empty. Not fabricated; can be enriched later.
 - `continent` — the source grouping ("Africa" or "Middle East / Central Asia").
   Searchable; available for future grouping/filtering.
 - `country` and `region` — kept distinct. The panel shows
@@ -284,17 +287,29 @@ space below it.
 
 1. Name + region/country header.
 2. Type badge.
-3. Quick facts (small definition list: type, height, flowering, climate, region;
-   plus an "approximate location" note when `coordsApproximate`).
+3. Quick facts (small definition list): **AKA** (alternate names, when known — see
+   `aka` field), then Type, Height, Flowering, Climate, Region; plus an "approximate
+   location" note when `coordsApproximate`. The **Type, Height, Climate, and Region**
+   values are **clickable facets**: clicking lists all varieties matching that value
+   (each a link that opens the strain). When a value contains a slash (e.g.
+   "Middle East / Central Asia"), each part is a separate clickable facet.
 4. **Markdown write-up** — fetched from `data/writeups/<id>.md` and rendered to HTML.
-   Sections: Overview, History, Description, Grow Information, then Photos, Seed
-   Sources, Forum Discussions, References. While loading, a quiet placeholder shows;
-   if the file is missing, "Write-up pending" shows in place of the write-up.
+   Sections: Overview, History, Description, Grow Information; then **exploration
+   cross-links** — *Nearby Varieties* (closest by distance), *Regional Varieties*
+   (same continent), *Similar Varieties* (same category), each a list of links that
+   open the strain; then Photos, Seed Sources, Forum Discussions (each with a **+**
+   button to submit additions), and a generated **References** section (real
+   foundational sources). While loading, a quiet placeholder shows; if the file is
+   missing, "Write-up pending" shows.
 5. Any structured `links[]` (from enrichment): `embed: true` → inline iframe with a
    caption + fallback link; `embed: false` → outbound link (new tab).
-6. **Bottom submit button** — "Suggest a correction / add forum & seed links" for
-   this strain. Like the ribbon button, it is a placeholder (opens the same kind of
-   modal) until the GitHub repo exists, then opens a pre-filled per-strain issue.
+6. **Bottom submit button** — "Suggest Corrections" for this strain. Like the ribbon
+   button, it is a placeholder (opens a modal) until the GitHub repo exists, then
+   opens a pre-filled per-strain issue.
+
+The faceted-filter and exploration cross-link logic is pure (`js/search.js`-style)
+and lives in `js/relations.js` (tested). The clickable facets and per-section "+"
+buttons reuse the same modal as the submit flow (a list modal for facets).
 
 ### Search & autocomplete
 

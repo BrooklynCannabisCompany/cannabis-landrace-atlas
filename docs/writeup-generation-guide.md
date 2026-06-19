@@ -81,7 +81,7 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
   ```
   ## References
 
-  General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+  General background on cannabis landraces and their ethnobotany:
 
   - Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
   - Clarke, R. C. (1998). *Hashish!* Red Eye Press.
