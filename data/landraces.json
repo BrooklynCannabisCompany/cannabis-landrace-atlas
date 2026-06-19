@@ -284,7 +284,9 @@
   {
     "id": "durban-basin",
     "name": "Durban basin",
-    "aka": [],
+    "aka": [
+      "Durban"
+    ],
     "continent": "Africa",
     "country": "South Africa",
     "region": "",
@@ -687,7 +689,10 @@
   {
     "id": "malawi",
     "name": "Malawi",
-    "aka": [],
+    "aka": [
+      "Malawi Gold",
+      "Chamba"
+    ],
     "continent": "Africa",
     "country": "Malawi",
     "region": "",
@@ -1107,7 +1112,10 @@
   {
     "id": "swazi-gold",
     "name": "Swazi Gold",
-    "aka": [],
+    "aka": [
+      "Swazi",
+      "Swaziland Gold"
+    ],
     "continent": "Africa",
     "country": "Eswatini",
     "region": "",
@@ -1272,7 +1280,9 @@
   {
     "id": "afghani",
     "name": "Afghani",
-    "aka": [],
+    "aka": [
+      "Afghan"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Afghanistan",
     "region": "",
@@ -1652,7 +1662,9 @@
   {
     "id": "chitral",
     "name": "Chitral",
-    "aka": [],
+    "aka": [
+      "Chitral Kush"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Pakistan",
     "region": "",
@@ -1963,7 +1975,9 @@
   {
     "id": "hindu-kush",
     "name": "Hindu Kush",
-    "aka": [],
+    "aka": [
+      "Kush"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Afghanistan",
     "region": "Hindu Kush Mountain Range",
@@ -2211,7 +2225,9 @@
   {
     "id": "ketama",
     "name": "Ketama",
-    "aka": [],
+    "aka": [
+      "Ketama Gold"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Morocco",
     "region": "",
@@ -2424,7 +2440,9 @@
   {
     "id": "lebanese",
     "name": "Lebanese",
-    "aka": [],
+    "aka": [
+      "Leb"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Lebanon",
     "region": "",
@@ -2453,7 +2471,10 @@
   {
     "id": "lebanese-blonde",
     "name": "Lebanese Blonde",
-    "aka": [],
+    "aka": [
+      "Blonde Lebanese",
+      "Blond Leb"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Lebanon",
     "region": "",
@@ -2476,7 +2497,10 @@
   {
     "id": "lebanese-red",
     "name": "Lebanese Red",
-    "aka": [],
+    "aka": [
+      "Red Lebanese",
+      "Red Leb"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Lebanon",
     "region": "",
@@ -2568,7 +2592,9 @@
   {
     "id": "mazar-i-sharif",
     "name": "Mazar I Sharif",
-    "aka": [],
+    "aka": [
+      "Mazar"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Afghanistan",
     "region": "",
@@ -2597,7 +2623,10 @@
   {
     "id": "moroccan-rif",
     "name": "Moroccan Rif",
-    "aka": [],
+    "aka": [
+      "Rif",
+      "Rifian"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Morocco",
     "region": "",
@@ -2695,7 +2724,9 @@
   {
     "id": "pamir-gold",
     "name": "Pamir Gold",
-    "aka": [],
+    "aka": [
+      "Pamir"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Tajikistan",
     "region": "Pamir Highlands",
@@ -3832,7 +3863,10 @@
   {
     "id": "kullu-valley",
     "name": "Kullu Valley",
-    "aka": [],
+    "aka": [
+      "Kullu",
+      "Kulu"
+    ],
     "continent": "South Asia",
     "country": "India",
     "region": "",
@@ -3907,7 +3941,9 @@
   {
     "id": "malana",
     "name": "Malana",
-    "aka": [],
+    "aka": [
+      "Malana Cream"
+    ],
     "continent": "South Asia",
     "country": "India",
     "region": "",
@@ -4063,7 +4099,10 @@
   {
     "id": "nepalese-highland",
     "name": "Nepalese Highland",
-    "aka": [],
+    "aka": [
+      "Nepalese",
+      "Nepal"
+    ],
     "continent": "South Asia",
     "country": "Nepal",
     "region": "",
@@ -4149,7 +4188,9 @@
   {
     "id": "parvati-valley-complex",
     "name": "Parvati Valley Complex",
-    "aka": [],
+    "aka": [
+      "Parvati Valley"
+    ],
     "continent": "South Asia",
     "country": "India",
     "region": "",
@@ -4437,7 +4478,9 @@
   {
     "id": "aceh",
     "name": "Aceh",
-    "aka": [],
+    "aka": [
+      "Atjeh"
+    ],
     "continent": "Southeast Asia",
     "country": "Indonesia",
     "region": "",
@@ -4604,7 +4647,9 @@
   {
     "id": "cambodian-native",
     "name": "Cambodian Native",
-    "aka": [],
+    "aka": [
+      "Cambodian"
+    ],
     "continent": "Southeast Asia",
     "country": "Cambodia",
     "region": "",
@@ -4696,7 +4741,9 @@
   {
     "id": "chocolate-thai",
     "name": "Chocolate Thai",
-    "aka": [],
+    "aka": [
+      "Choc Thai"
+    ],
     "continent": "Southeast Asia",
     "country": "Thailand",
     "region": "",
@@ -4944,7 +4991,9 @@
   {
     "id": "lao",
     "name": "Lao",
-    "aka": [],
+    "aka": [
+      "Laotian"
+    ],
     "continent": "Southeast Asia",
     "country": "Laos",
     "region": "",
@@ -5019,7 +5068,9 @@
   {
     "id": "meo-thai",
     "name": "Meo Thai",
-    "aka": [],
+    "aka": [
+      "Meo"
+    ],
     "continent": "Southeast Asia",
     "country": "Thailand",
     "region": "",
@@ -5341,7 +5392,10 @@
   {
     "id": "thai-highland",
     "name": "Thai Highland",
-    "aka": [],
+    "aka": [
+      "Thai",
+      "Thai Stick"
+    ],
     "continent": "Southeast Asia",
     "country": "Thailand",
     "region": "",
@@ -6842,7 +6896,9 @@
   {
     "id": "guerrero",
     "name": "Guerrero",
-    "aka": [],
+    "aka": [
+      "Guerrero Green"
+    ],
     "continent": "Americas",
     "country": "Mexico",
     "region": "",
@@ -6957,7 +7013,10 @@
   {
     "id": "lambs-bread",
     "name": "Lamb's Bread",
-    "aka": [],
+    "aka": [
+      "Lamb's Breath",
+      "Lambsbread"
+    ],
     "continent": "Americas",
     "country": "Jamaica",
     "region": "",
@@ -7118,7 +7177,10 @@
   {
     "id": "maui-wowie",
     "name": "Maui Wowie",
-    "aka": [],
+    "aka": [
+      "Maui Waui",
+      "Maui"
+    ],
     "continent": "Americas",
     "country": "Hawaii",
     "region": "",
@@ -7187,7 +7249,9 @@
   {
     "id": "michoacan",
     "name": "Michoacán",
-    "aka": [],
+    "aka": [
+      "Michoacan Gold"
+    ],
     "continent": "Americas",
     "country": "Mexico",
     "region": "",
@@ -7279,7 +7343,10 @@
   {
     "id": "oaxaca",
     "name": "Oaxaca",
-    "aka": [],
+    "aka": [
+      "Oaxacan",
+      "Oaxacan Gold"
+    ],
     "continent": "Americas",
     "country": "Mexico",
     "region": "",
@@ -7302,7 +7369,9 @@
   {
     "id": "panama-red",
     "name": "Panama Red",
-    "aka": [],
+    "aka": [
+      "Panama"
+    ],
     "continent": "Americas",
     "country": "Panama",
     "region": "",
@@ -7601,7 +7670,9 @@
   {
     "id": "santa-marta-gold",
     "name": "Santa Marta Gold",
-    "aka": [],
+    "aka": [
+      "Colombian Gold"
+    ],
     "continent": "Americas",
     "country": "Colombia",
     "region": "Sierra Nevada de Santa Marta",
@@ -7854,7 +7925,9 @@
   {
     "id": "zacatecas-purple",
     "name": "Zacatecas Purple",
-    "aka": [],
+    "aka": [
+      "Zacatecas"
+    ],
     "continent": "Americas",
     "country": "Mexico",
     "region": "",
@@ -8677,7 +8750,9 @@
   {
     "id": "acapulco-gold",
     "name": "Acapulco Gold",
-    "aka": [],
+    "aka": [
+      "Acapulco"
+    ],
     "continent": "Americas",
     "country": "Mexico",
     "region": "Acapulco, Guerrero State",
@@ -8769,7 +8844,9 @@
   {
     "id": "blue-mountain-jamaica",
     "name": "Blue Mountain Jamaica",
-    "aka": [],
+    "aka": [
+      "Blue Mountain"
+    ],
     "continent": "Americas",
     "country": "Jamaica",
     "region": "",
@@ -9091,7 +9168,9 @@
   {
     "id": "kona-gold",
     "name": "Kona Gold",
-    "aka": [],
+    "aka": [
+      "Kona"
+    ],
     "continent": "Americas",
     "country": "Hawaii",
     "region": "Kona District, Hawaiʻi",
@@ -9298,7 +9377,10 @@
   {
     "id": "road-kill-skunk",
     "name": "Road Kill Skunk",
-    "aka": [],
+    "aka": [
+      "RKS",
+      "Roadkill Skunk"
+    ],
     "continent": "Americas",
     "country": "United States",
     "region": "Commonly associated with Northern California and Pacific Northwest preservation circles",
@@ -9850,7 +9932,9 @@
   {
     "id": "mullumbimby-madness",
     "name": "Mullumbimby Madness",
-    "aka": [],
+    "aka": [
+      "Mullumbimby"
+    ],
     "continent": "Oceania",
     "country": "Australia",
     "region": "",

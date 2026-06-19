@@ -196,8 +196,13 @@ function insertRelated(strain) {
 
 // ---- Facet filter list ----
 function openFacet(field, token) {
-  const t = token.toLowerCase();
-  const matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
+  let matches;
+  if (field === 'category') {
+    matches = strains.filter((s) => s.category === token); // exact category match
+  } else {
+    const t = token.toLowerCase();
+    matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
+  }
   openListModal(`${token} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
 }
 

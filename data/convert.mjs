@@ -14,6 +14,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Real seed-vendor links matched during scraping (RSC). Real URLs only.
 const vendorLinks = JSON.parse(readFileSync(join(__dirname, 'vendor-links.json'), 'utf8'));
+// Curated, well-attested alternate names (strict generated pass). id -> [names].
+const akaGenerated = JSON.parse(readFileSync(join(__dirname, 'aka-generated.json'), 'utf8'));
 
 // Header line -> continent. Lines exactly matching a key switch the current continent.
 const HEADERS = {
@@ -67,7 +69,16 @@ for (const file of FILES) {
     records.push({
       id,
       name: p.name,
-      aka: extractAka([p.summary, p.regionRaw].filter(Boolean).join('. '), p.name),
+      aka: (() => {
+        const src = extractAka([p.summary, p.regionRaw].filter(Boolean).join('. '), p.name);
+        const seen = new Set([p.name.toLowerCase()]);
+        const out = [];
+        for (const a of [...src, ...(akaGenerated[id] || [])]) {
+          const k = a.toLowerCase();
+          if (!seen.has(k)) { seen.add(k); out.push(a); }
+        }
+        return out;
+      })(),
       continent: continent || 'Unknown',
       country,
       region: cleanRegion(p.regionRaw, country).region,

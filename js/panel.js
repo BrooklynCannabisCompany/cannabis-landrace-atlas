@@ -18,20 +18,30 @@ function traitRow(dl, label, value) {
 
 // A fact row whose value is clickable. Splits on "/" so each part (e.g.
 // "Middle East" / "Central Asia") is its own clickable filter chip.
-function facetRow(dl, label, field, value, onFacet, title) {
+function facetRow(dl, label, field, value, onFacet, title, facetToken) {
   if (!value) return;
   dl.appendChild(el('dt', null, label));
   const dd = el('dd', null);
   if (title && title !== value) dd.title = title; // preserve the original detail on hover
-  const parts = String(value).split('/').map((p) => p.trim()).filter(Boolean);
-  parts.forEach((part, i) => {
-    if (i > 0) dd.appendChild(document.createTextNode(' / '));
-    const chip = el('button', 'facet', part);
+  if (facetToken) {
+    // Single chip with an explicit facet token (e.g. Type displays the descriptor
+    // but filters by normalized category).
+    const chip = el('button', 'facet', value);
     chip.type = 'button';
-    chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${part}`);
-    if (onFacet) chip.addEventListener('click', () => onFacet(field, part));
+    chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${facetToken}`);
+    if (onFacet) chip.addEventListener('click', () => onFacet(field, facetToken));
     dd.appendChild(chip);
-  });
+  } else {
+    const parts = String(value).split('/').map((p) => p.trim()).filter(Boolean);
+    parts.forEach((part, i) => {
+      if (i > 0) dd.appendChild(document.createTextNode(' / '));
+      const chip = el('button', 'facet', part);
+      chip.type = 'button';
+      chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${part}`);
+      if (onFacet) chip.addEventListener('click', () => onFacet(field, part));
+      dd.appendChild(chip);
+    });
+  }
   dl.appendChild(dd);
 }
 
@@ -58,7 +68,7 @@ export function renderStrain(container, strain, handlers = {}) {
 
   const dl = el('dl', 'panel-traits');
   if (Array.isArray(strain.aka) && strain.aka.length) traitRow(dl, 'AKA', strain.aka.join(', '));
-  facetRow(dl, 'Type', 'type', strain.type, onFacet);
+  facetRow(dl, 'Type', 'category', strain.type, onFacet, null, strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
   facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
