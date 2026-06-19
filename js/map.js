@@ -86,6 +86,7 @@ export function addMarkers(map, strains, onSelect) {
   for (const s of strains) {
     if (s.lat === null || s.lng === null || typeof s.lat !== 'number') continue;
     const marker = L.marker([s.lat, s.lng], { icon: LEAF_ICON, title: s.name });
+    marker.bindTooltip(s.name, { direction: 'top', offset: [0, -26] });
     marker.on('click', () => onSelect(s));
     marker.addTo(map);
     byId.set(s.id, marker);
