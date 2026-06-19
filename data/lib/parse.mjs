@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 // Parses one raw text block (the lines for a single strain) into a partial record.
 
 const HEIGHT_WORDS = [

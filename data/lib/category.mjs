@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 export const CATEGORIES = new Set([
   'Sativa', 'Indica', 'Ruderalis', 'Hybrid-Intermediate', 'Hemp', 'Feral', 'Mixed'
 ]);

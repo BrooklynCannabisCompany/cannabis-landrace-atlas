@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 // Approximate centroids [lat, lng] for countries/territories present in the dataset.
 export const COUNTRY_CENTROIDS = {
   // Africa

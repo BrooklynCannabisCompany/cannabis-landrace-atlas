@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { resolveCoords, jitter, COUNTRY_CENTROIDS, inferCountry } from './coords.mjs';
