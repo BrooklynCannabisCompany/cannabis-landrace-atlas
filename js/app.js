@@ -400,6 +400,16 @@ function openAbout() {
   });
 }
 
+// Appends the shared data-credit text (with the Overgrow link) into an element,
+// so References and License show the exact same wording.
+function appendDataCredit(el) {
+  el.append('Initial dataset adapted from the list compiled by Dankk1 on the ');
+  const a = document.createElement('a');
+  a.href = 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462';
+  a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = 'Overgrow forum';
+  el.append(a, '. Used with permission.');
+}
+
 function openLicense() {
   openContentModal('License', (body) => {
     const dl = document.createElement('dl');
@@ -411,7 +421,7 @@ function openLicense() {
     }
     const p = document.createElement('p');
     p.className = 'modal-note';
-    p.textContent = 'Initial dataset adapted from a community list by Dankk1 on the Overgrow forum — always credited. See LICENSE and LICENSE-DATA in the repository.';
+    appendDataCredit(p);
     body.append(dl, p);
   });
 }
@@ -429,11 +439,7 @@ function openReferences() {
       const li = document.createElement('li'); li.textContent = r; ul.appendChild(li);
     }
     const li = document.createElement('li');
-    li.append(document.createTextNode('Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the '));
-    const a = document.createElement('a');
-    a.href = 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462';
-    a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = 'Overgrow forum';
-    li.append(a, document.createTextNode('.'));
+    appendDataCredit(li);
     ul.appendChild(li);
     body.append(intro, ul);
   });
