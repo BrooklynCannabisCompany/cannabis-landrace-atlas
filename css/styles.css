@@ -77,7 +77,28 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
 summary.index-h1 { font-family: var(--serif); font-size: 17px; cursor: pointer; padding: 4px 0; }
 .index-group { margin: 2px 0 2px 16px; }
 summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; padding: 3px 0; }
-.index-list { font-size: 14px; line-height: 1.75; margin: 2px 0 8px 18px; }
+.index-list { font-size: 14px; line-height: 1.5; margin: 2px 0 8px 18px; }
+.index-variety {
+  display: block; width: 100%; text-align: left; background: none; border: none;
+  padding: 3px 0; font: inherit; font-size: 14px; color: var(--green-dark); cursor: pointer;
+}
+.index-variety:hover { text-decoration: underline; }
+
+/* Height range slider in the Index */
+.height-slider { margin: 6px 0 6px 16px; }
+.height-range-label { font-size: 13px; color: var(--green-dark); margin: 2px 0 4px; }
+.height-slider input[type="range"] { width: 100%; margin: 2px 0; accent-color: var(--green); }
+
+/* Ribbon icon button (Index) */
+.icon-btn {
+  flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center;
+  background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px;
+  cursor: pointer; color: var(--ink);
+}
+.icon-btn:hover { border-color: var(--green); background: #eef0e9; color: var(--green-dark); }
+
+/* Index-heading search results */
+.search-result.search-heading { color: var(--green-dark); font-size: 13px; font-style: italic; }
 
 .search-results {
   list-style: none; margin: 4px 0 0; padding: 4px;
