@@ -8,7 +8,7 @@ import { normalizeCategory } from './lib/category.mjs';
 import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
 import { extractAka } from './lib/aka.mjs';
-import { cleanType, cleanRegion } from './lib/normalize.mjs';
+import { cleanType, cleanRegion, cleanClimate } from './lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -78,7 +78,8 @@ for (const file of FILES) {
       category: normalizeCategory(p.type),
       height: p.height || '',
       flowering: p.flowering || '',
-      climate: p.climate || '',
+      climate: cleanClimate(p.climate),
+      climateFull: p.climate || '',
       summary: p.summary || '',
       incomplete: p.incomplete,
       seedSources: (vendorLinks[id] && vendorLinks[id].seed) || [],

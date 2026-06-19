@@ -18,10 +18,11 @@ function traitRow(dl, label, value) {
 
 // A fact row whose value is clickable. Splits on "/" so each part (e.g.
 // "Middle East" / "Central Asia") is its own clickable filter chip.
-function facetRow(dl, label, field, value, onFacet) {
+function facetRow(dl, label, field, value, onFacet, title) {
   if (!value) return;
   dl.appendChild(el('dt', null, label));
   const dd = el('dd', null);
+  if (title && title !== value) dd.title = title; // preserve the original detail on hover
   const parts = String(value).split('/').map((p) => p.trim()).filter(Boolean);
   parts.forEach((part, i) => {
     if (i > 0) dd.appendChild(document.createTextNode(' / '));
@@ -60,7 +61,7 @@ export function renderStrain(container, strain, handlers = {}) {
   facetRow(dl, 'Type', 'type', strain.type, onFacet);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
-  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
   facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
   if (dl.children.length) container.appendChild(dl);
 

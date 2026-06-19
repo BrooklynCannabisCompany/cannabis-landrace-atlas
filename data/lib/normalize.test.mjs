@@ -2,7 +2,21 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { cleanType, cleanRegion } from './normalize.mjs';
+import { cleanType, cleanRegion, cleanClimate } from './normalize.mjs';
+
+test('cleanClimate maps varied descriptors to canonical buckets', () => {
+  assert.equal(cleanClimate('Tropical mountain'), 'Tropical Highland');
+  assert.equal(cleanClimate('Equatorial rainforest'), 'Tropical Rainforest');
+  assert.equal(cleanClimate('Mediterranean mountain'), 'Mediterranean');
+  assert.equal(cleanClimate('Subarctic'), 'Boreal / Subarctic');
+  assert.equal(cleanClimate('Tropical island'), 'Tropical Island / Maritime');
+  assert.equal(cleanClimate('Desert oasis'), 'Desert / Arid');
+  assert.equal(cleanClimate('Continental steppe'), 'Steppe / Semi-arid');
+  assert.equal(cleanClimate('High alpine'), 'Alpine / High Mountain');
+  assert.equal(cleanClimate('Temperate'), 'Temperate / Continental');
+  assert.equal(cleanClimate(''), '');
+  assert.equal(cleanClimate('Variable'), '');
+});
 
 test('cleanType joins pipe-separated descriptors', () => {
   assert.equal(cleanType('Highland African landrace | Sativa'), 'Highland African landrace, Sativa');
