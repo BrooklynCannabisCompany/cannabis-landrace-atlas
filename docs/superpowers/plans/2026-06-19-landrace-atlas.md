@@ -1701,6 +1701,80 @@ Per the spec's "Enrichment sources" section, scraping The Real Seed Company and 
 
 ---
 
+## Addendum (2026-06-19): write-ups, submissions, licensing, rename
+
+After Tasks 1–11 were implemented, the project gained new requirements. App renamed
+to **"The Cannabis Landrace Atlas."** Decisions: write-ups are **prose-only drafts
+with no fabricated links**; **MIT (code) + CC BY-SA 4.0 (data)**; **≤200 changed
+lines per contribution**; **generate all ~446 write-ups** after the display system is
+verified. These revise/extend the remaining tasks. The data dataset is ~446 entries
+(not ~300).
+
+### Task 12: Map module — unchanged (see original Task 12 above).
+
+### Task A1: Vendor a Markdown renderer + wrapper
+- Vendor `marked` locally (no CDN): `curl -fsSL https://cdn.jsdelivr.net/npm/marked@12/marked.min.js -o lib/marked.min.js` (verify it's real JS, >20KB; `marked` is MIT). Keep upstream license — do NOT add our SPDX header to vendored files.
+- Create `js/markdown.js`: a thin first-party ES module wrapping the global `marked`, e.g. `export function renderMarkdown(md){ return marked.parse(md, { breaks:false, gfm:true }); }`. Loaded after `lib/marked.min.js`. Add SPDX header.
+- Smoke: rendered in Task 13/14.
+
+### Task 13 (revised): Panel module
+Renders, in order: name + place header; category badge; quick-facts `<dl>` (type, height, flowering, climate, region; "Location is approximate" note when `coordsApproximate`); a **write-up container** (filled by the caller after a lazy fetch — `renderStrain` accepts the strain and exposes a `setWriteupHtml(html)` / `setWriteupState('loading'|'missing')` hook, OR app.js fetches then calls a `renderWriteup(container, html)`); structured `links[]` (iframe w/ fallback for `embed:true`, outbound for `embed:false`); and a **bottom submit button** ("Suggest a correction / add forum & seed links") that calls an injected `onSubmit(strain)` callback. SPDX header. Keep DOM-built (no innerHTML for strain fields); write-up HTML is the one place innerHTML is used (trusted first-party content).
+
+### Task 14 (revised): App wiring + index.html + ribbon
+- index.html: title + wordmark "The Cannabis Landrace Atlas"; ribbon gets a **Submit** button; include `<script src="lib/marked.min.js"></script>` before the module script; add a hidden modal container.
+- app.js: on marker/search select → open panel, then `fetch('data/writeups/'+id+'.md')` → on ok render via `renderMarkdown`; on 404 set "Write-up pending"; on network error quiet message. Ribbon Submit and panel submit both open a shared **placeholder modal**: heading + body "Submissions open once The Cannabis Landrace Atlas has a public GitHub repository. For now, thank you for your interest." + close button + Escape/backdrop close. No network calls. SPDX headers.
+
+### Task 15 (revised): Styling
+Original academic styling PLUS: `.writeup` typography (headings, paragraphs, lists, links, `img{max-width:100%}`), the disclaimer line style (muted/italic), the empty-slot note style, ribbon `.submit-btn`, panel `.panel-submit` button, and `.modal`/`.modal-backdrop` styles. Responsive bottom-sheet unchanged.
+
+### Task B1: Write-up system + samples + generation guide
+- Create `data/writeups/` and `data/writeups/TEMPLATE.md` (the section skeleton + disclaimer).
+- Create `docs/writeup-generation-guide.md`: the rules a generator (subagent) MUST follow — sections/order; disclaimer first line; prose-only for the 4 prose sections; honest hedging; obscure strains stay to regional generalities; **never invent URLs**; Photos/Seed Sources/Forum Discussions/References are empty labeled slots with the standard "No verified links yet — use the button below to suggest one." note; CC BY-SA 4.0; markdown only (no HTML).
+- Write 2–3 real sample write-ups (well-known strains: `afghani`, `acapulco-gold`, `durban-basin` or similar real ids — confirm ids from landraces.json) to verify rendering end-to-end in the browser.
+
+**Write-up file template (`data/writeups/<id>.md`):**
+```markdown
+> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+
+## Overview
+<2–4 sentences; hedged where uncertain>
+
+## History
+<origin/lineage; "commonly reported"/"grower accounts" hedging; generalities if obscure>
+
+## Description
+<morphology, aroma, effect as reported>
+
+## Grow Information
+<climate fit, height, flowering, vigor, resistances>
+
+## Photos
+_No verified photos yet — use the button below to suggest one._
+
+## Seed Sources
+_No verified seed sources yet — use the button below to suggest one._
+
+## Forum Discussions
+_No verified forum links yet — use the button below to suggest one._
+
+## References
+_No verified references yet — use the button below to suggest one._
+```
+
+### Task C1: Project docs + licensing
+- `LICENSE` — MIT, copyright "The Cannabis Landrace Atlas contributors", year 2026.
+- `LICENSE-DATA` — CC BY-SA 4.0 full text (or the standard CC deed pointer + summary), covering `data/` and `data/writeups/`.
+- `README.md` — what the app is; how to run (`npm run serve`); the no-backend/static design; **prominent data credit** to Dankk1 on Overgrow (https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462); the licensing split (MIT code / CC BY-SA 4.0 data); a note that write-ups are AI-generated unverified drafts; link to CONTRIBUTING.
+- `CONTRIBUTING.md` — data vs code changes in **separate** PRs; **≤200 changed lines** per submission; clear complete description + evidence of testing (`npm test`/`npm run validate` for data/logic, screenshot/note for UI); the "always credit sources" principle; how the Submit buttons will map to issues later.
+- **SPDX headers** on first-party source files (`index.html`, `css/styles.css`, `js/*.js`, `data/*.mjs`, `data/lib/*.mjs`): `SPDX-License-Identifier: MIT` + `Copyright (c) 2026 The Cannabis Landrace Atlas contributors`, in the correct comment syntax per file type (HTML comment, CSS/JS block comment). Do NOT add headers to vendored `lib/` files or to data/JSON/markdown.
+
+### Task D1: Generate all ~446 write-ups (batched)
+After B1/C1 verify rendering: generate `data/writeups/<id>.md` for every strain in `landraces.json`, in batches (group by continent/region), each batch a subagent following `docs/writeup-generation-guide.md` exactly. **Each strain's full record is passed to the generator** (id, name, continent, country, region, type, category, height, flowering, climate, summary) so the write-up is unmistakably about the correct strain in the correct country/region — names are often ambiguous or shared across regions, so the prose must anchor on the supplied country/region and never describe a different same-named strain/place. The batch dispatch gives the subagent the exact records (as JSON) plus the guide; the subagent writes one file per record. Validate after: every id has a file; every file starts with the disclaimer and contains the 8 section headings; no `http`/`https`/`www` URLs appear in any generated file (assert zero URLs — proves no fabricated links). Commit per batch.
+
+### Task 16 (revised): Error handling — adds write-up 404 → "Write-up pending"; submit modal opens/closes (Escape/backdrop); existing data-load/marker/iframe/search behaviors unchanged.
+
+### Task 17 (revised): Final smoke — original checklist PLUS: write-up renders as styled markdown for a strain that has one; "Write-up pending" shows for one without; ribbon Submit and panel Submit both open the placeholder modal and close cleanly; README/LICENSE/LICENSE-DATA/CONTRIBUTING exist; SPDX headers present on first-party source; `npm test` + `npm run validate` green.
+
 ## Self-review notes
 
 - **Spec coverage:** scaffold (T1), vendored deps/icon (T2), data model + ingestion + stub handling (T4–T10), coordinates approximate + flag (T6), search incl. all six fields (T11), map with GeoJSON-no-tiles + leaf markers + fly-to (T12), panel order/badge/traits/links/embeds + fallback (T13), ribbon/layout/default-closed/reflow (T14), tone + responsive bottom sheet (T15), all four error-handling behaviors (T16), full smoke + data-validation test (T9, T17), enrichment flagged out of scope. No spec section left without a task.

@@ -1,0 +1,42 @@
+> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+
+## Overview
+
+The Yenisei Basin landrace refers to feral cannabis populations associated with the Yenisei River corridor and surrounding Siberian taiga in Russia. The Yenisei is one of the world's great rivers, draining a vast swath of central Siberia from the Sayan Mountains northward to the Arctic Ocean. Cannabis found along this corridor is a feral boreal population — descended from plants that escaped cultivation and naturalised in forest-edge and river-margin habitats over generations. Its intermediate indica–sativa character likely reflects both the mixed ancestry of historical hemp cultivation in the region and the strong selective pressure imposed by Siberia's extreme seasonality.
+
+## History
+
+Hemp cultivation has a documented history across Siberia and southern Russia, where fibre and seed were important agricultural products for rural communities. Along major river valleys like the Yenisei, hemp plots and escaped feral populations are associated with settlement sites stretching back several centuries. As cultivation declined or shifted, feral populations persisted along disturbed ground, river margins, and forest clearings. The Yenisei Basin's isolation and the severity of its winters have likely acted as a strong natural filter, favouring plants able to complete their life cycle in a very compressed warm season. Grower accounts and botanical records suggest that these populations are intermediate in character rather than strongly sativa or indica — consistent with Eurasian hemp landrace ancestry.
+
+## Description
+
+Yenisei Basin plants are typically described as medium-height, adapted to the taiga river corridor's short, intense summers and very long winter dormancy. Their intermediate morphology — neither fully sativa nor indica — likely reflects the mixed background of Siberian hemp. Long summer daylight hours at high latitudes compress the vegetative and flowering phases into a short window.
+
+- **Height:** Medium
+- **Flowering:** Approximately 10–14 weeks (adapted to complete before hard frost)
+- **Climate adaptation:** Taiga river corridor — boreal, short warm season, extreme winter cold, very long summer days
+- **Type:** Feral boreal population, intermediate (indica–sativa)
+
+## Grow Information
+
+This population is adapted to one of the harshest climates in which cannabis is known to persist. Plants are commonly inferred to be highly cold-tolerant and capable of rapid development under long summer photoperiods. In cultivation outside Siberia, growers have noted that such northern feral populations can behave somewhat auto-flower-adjacent — tending to transition quickly once temperatures and day length begin to shift. Their intermediate morphology makes indoor cultivation straightforward in terms of canopy management. Mould resistance in humid conditions is not well documented for this specific population; performance in high-humidity climates should be assessed with caution.
+
+## Photos
+
+_No verified photos yet — use the button below to suggest one._
+
+## Seed Sources
+
+_No verified seed sources yet — use the button below to suggest one._
+
+## Forum Discussions
+
+_No verified forum links yet — use the button below to suggest one._
+
+## References
+
+General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).

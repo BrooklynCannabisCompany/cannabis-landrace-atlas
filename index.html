@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (c) 2026 The Cannabis Landrace Atlas contributors -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Cannabis Landrace Atlas</title>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="panel-closed">
+    <header class="ribbon">
+      <div class="wordmark">The Cannabis Landrace Atlas</div>
+      <div class="search">
+        <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search strains, regions, countries…" aria-label="Search landraces" />
+        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+      </div>
+      <button id="submit-btn" class="submit-btn" type="button">Contribute</button>
+    </header>
+
+    <main class="layout">
+      <div id="map" class="map"></div>
+      <aside id="panel" class="panel" aria-live="polite"></aside>
+    </main>
+
+    <div id="modal" class="modal" hidden>
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close" data-close>×</button>
+        <h2 id="modal-title" class="modal-title"></h2>
+        <div id="modal-body" class="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Vendored globals (classic scripts) must load before the module that uses them. -->
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/marked.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

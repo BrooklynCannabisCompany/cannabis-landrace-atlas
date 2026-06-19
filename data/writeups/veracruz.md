@@ -1,0 +1,45 @@
+> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+
+## Overview
+
+The Veracruz landrace is associated with the Gulf Coast state of Veracruz, Mexico — a long, narrow coastal state running along the western shore of the Gulf of Mexico. The region encompasses tropical lowland rainforest, cloud forest transition zones, and fertile coastal plains shaped by a warm, humid tropical climate with pronounced seasonal rainfall. As a sativa-type landrace adapted to tropical lowland conditions, Veracruz cannabis is typically described as a tall, moderately long-flowering plant suited to Mexico's Gulf Coast environment.
+
+## History
+
+Veracruz has been one of Mexico's most historically significant states since colonial times, serving as a major port and agricultural hub. Cannabis cultivation in Mexico's tropical lowland states, including Veracruz, has longstanding informal roots, though documented landrace collection from this specific state is limited. Mexico's cannabis landraces have been influential in the development of many North American varieties, and coastal lowland populations from states like Veracruz represent a distinct ecological niche compared to the better-known highland populations of states such as Oaxaca or Michoacán.
+
+## Description
+
+- **Category:** Sativa
+- **Height:** Tall; typical of Mexican lowland sativas with unrestricted tropical growth
+- **Flowering:** 11–14 weeks; somewhat shorter than equatorial landraces, consistent with Mexico's shifting tropical photoperiod
+- **Climate:** Tropical lowland — warm and humid, with significant Gulf moisture and a pronounced wet season
+- **Morphology:** Grower accounts of Mexican coastal sativas generally describe tall, branchy plants with medium-narrow leaflets. Terpene profiles associated with Gulf Coast Mexican landraces often lean toward earthy, herbal, and fuel-adjacent expressions, though specific documentation for Veracruz is sparse.
+
+## Grow Information
+
+- Adapted to warm, humid, and rainy conditions — performs well in tropical and subtropical outdoor environments
+- Flowering time of 11–14 weeks is more manageable than equatorial landraces, making it accessible to a wider range of growers
+- Tall stature benefits from staking or training in environments with strong seasonal winds
+- Coastal lowland adaptation suggests tolerance for higher humidity than highland Mexican varieties
+- Well-drained fertile soils with consistent moisture reflect the natural growing conditions of the Veracruz lowlands
+
+## Photos
+
+_No verified photos yet — use the button below to suggest one._
+
+## Seed Sources
+
+_No verified seed sources yet — use the button below to suggest one._
+
+## Forum Discussions
+
+_No verified forum links yet — use the button below to suggest one._
+
+## References
+
+General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).

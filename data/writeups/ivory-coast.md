@@ -1,0 +1,42 @@
+> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+
+## Overview
+
+The Ivory Coast (Côte d'Ivoire) entry describes a feral sativa complex associated with the rainforest coastal belt of Ivory Coast in West Africa. Part of the broader Liberia Belt feral sativa complex, this very tall population grows in the equatorial rainforest and coastal jungle zone that stretches across the Upper Guinea region of West Africa. A mango and tropical fruit terpene expression is commonly associated with this material, and its mold resistance is noted as a feature of its coastal jungle adaptation.
+
+## History
+
+Ivory Coast's southern coastal zone is part of the Upper Guinean forest ecosystem, one of West Africa's most biodiverse and historically significant forest regions. Cannabis in this area occupies a feral and semi-cultivated status, part of a broader equatorial West African cannabis tradition. The Liberia Belt feral sativa complex, of which this population is a part, encompasses material from Ivory Coast, Liberia, Sierra Leone, and neighboring countries — a region where traditional cannabis use has occurred for generations but specific documentation of distinct sub-populations is limited. The mango-fruit expression noted in grower accounts aligns with terpene profiles commonly associated with West African sativa populations.
+
+## Description
+
+- **Type:** Feral sativa complex (Liberia Belt)
+- **Height:** Very tall
+- **Flowering:** Approximately 11–16 weeks from equinox; variable across phenotypes
+- **Climate adaptation:** Rainforest coastal — equatorial humidity, heavy rainfall, coastal West African conditions
+- **Aroma/Effect:** Commonly associated with mango and tropical fruit terpene expressions; mold resistance noted
+- **Genetic status:** Feral, with high phenotypic variability expected across the complex
+
+## Grow Information
+
+This feral complex is best suited to warm, humid outdoor growing conditions. Its mold resistance is a practical advantage in wet climates. Very tall stature and variable phenotypes are characteristic of the unselected feral status. The 11–16 week flowering window limits outdoor practicality in temperate climates. As a feral complex rather than a selected cultivar, significant plant-to-plant variation should be anticipated. Breeding potential lies particularly in the humidity tolerance and fruit terpene expressions.
+
+## Photos
+
+_No verified photos yet — use the button below to suggest one._
+
+## Seed Sources
+
+_No verified seed sources yet — use the button below to suggest one._
+
+## Forum Discussions
+
+_No verified forum links yet — use the button below to suggest one._
+
+## References
+
+General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).

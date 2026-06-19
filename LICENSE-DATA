@@ -1,0 +1,48 @@
+Dataset and Write-Up License — Creative Commons Attribution-ShareAlike 4.0 International
+==========================================================================================
+
+The following project assets are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):
+
+  • data/landraces.json   — the compiled landrace dataset
+  • data/raw/             — raw source data files used to build the dataset
+  • data/writeups/        — per-strain write-up files (Markdown)
+
+Human-readable summary
+----------------------
+You are free to:
+  Share  — copy and redistribute the material in any medium or format.
+  Adapt  — remix, transform, and build upon the material for any purpose,
+            even commercially.
+
+Under the following terms:
+  Attribution   — You must give appropriate credit (see below), provide a link
+                  to the license, and indicate if changes were made. You may do
+                  so in any reasonable manner, but not in any way that suggests
+                  the licensor endorses you or your use.
+  ShareAlike    — If you remix, transform, or build upon the material, you must
+                  distribute your contributions under the same license as the
+                  original.
+  No additional restrictions — You may not apply legal terms or technological
+                  measures that legally restrict others from doing anything the
+                  license permits.
+
+Canonical license text
+----------------------
+Deed (human-readable):  https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code:        https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Attribution requirement
+-----------------------
+The initial dataset is adapted from a community landrace / heirloom strain list
+compiled by Dankk1 on the Overgrow forum:
+
+  https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462
+
+Any use, redistribution, or derivative work MUST preserve this credit.
+
+Note on write-ups
+-----------------
+The strain write-ups in data/writeups/ are AI-generated, unverified drafts.
+They are provided as a starting point only. Corrections and verified additions
+are welcome via the project's contribution process.
