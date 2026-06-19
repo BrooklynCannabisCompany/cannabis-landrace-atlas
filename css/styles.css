@@ -138,6 +138,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .writeup blockquote p { margin: 0; font-size: 13px; }
 .writeup em { color: var(--muted); }
 
+/* Real links injected into Photos / Seed Sources / Forum Discussions */
+.section-links { font-size: 14.5px; line-height: 1.6; margin: 8px 0; }
+.section-links a { color: var(--green-dark); }
+.section-photo { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; margin: 4px 0; }
+
 /* ---- Structured links / embeds ---- */
 .panel-links-title { font-family: var(--serif); font-size: 16px; margin: 18px 0 8px; }
 .panel-link a, .panel-embed-fallback a { color: var(--green-dark); }

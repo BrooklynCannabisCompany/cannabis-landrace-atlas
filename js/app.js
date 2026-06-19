@@ -48,6 +48,7 @@ async function loadWriteup(strain) {
     if (reqId !== currentId) return;
     setWriteupHtml(panel, renderMarkdown(md));
     insertRelated(strain);
+    fillLinkSections(strain);
     decorateWriteupSections(strain);
   } catch {
     if (reqId === currentId) { setWriteupMissing(panel); insertRelated(strain); }
@@ -68,6 +69,43 @@ function decorateWriteupSections(strain) {
     btn.setAttribute('aria-label', `Suggest ${label} for ${strain.name}`);
     h.appendChild(btn);
     btn.addEventListener('click', () => openSectionSubmit(strain, label));
+  });
+}
+
+// Replaces a section's empty-slot note with real vendor/forum/photo links when present.
+const SECTION_DATA = {
+  'Photos': (s) => (s.photos || []).map((url) => ({ img: url })),
+  'Seed Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })),
+  'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url }))
+};
+function fillLinkSections(strain) {
+  panel.querySelectorAll('.writeup h2').forEach((h) => {
+    const label = (h.firstChild ? h.firstChild.textContent : h.textContent).trim();
+    const getter = SECTION_DATA[label];
+    if (!getter) return;
+    const items = getter(strain);
+    if (!items.length) return;
+    const note = h.nextElementSibling;
+    if (!note || note.tagName !== 'P') return;
+    const wrap = document.createElement('p');
+    wrap.className = 'section-links';
+    items.forEach((it, i) => {
+      const a = document.createElement('a');
+      a.href = it.img || it.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      if (it.img) {
+        const im = document.createElement('img');
+        im.src = it.img; im.alt = strain.name; im.className = 'section-photo';
+        a.appendChild(im);
+        wrap.appendChild(a);
+      } else {
+        if (i > 0) wrap.appendChild(document.createTextNode(' · '));
+        a.textContent = it.label;
+        wrap.appendChild(a);
+      }
+    });
+    note.replaceWith(wrap);
   });
 }
 
