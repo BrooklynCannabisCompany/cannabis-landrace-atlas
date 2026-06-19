@@ -85,10 +85,26 @@ summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; p
 }
 .index-variety:hover { text-decoration: underline; }
 
-/* Height range slider in the Index */
-.height-slider { margin: 6px 0 6px 16px; }
-.height-range-label { font-size: 13px; color: var(--green-dark); margin: 2px 0 4px; }
-.height-slider input[type="range"] { width: 100%; margin: 2px 0; accent-color: var(--green); }
+/* Range-slider facets (Height, Flowering Time) in the Index */
+.slider-facet { margin: 6px 0 6px 16px; }
+.height-range-label { font-size: 13px; color: var(--green-dark); margin: 2px 0 6px; }
+.dual-slider { position: relative; height: 28px; margin: 2px 8px 6px 4px; }
+.ds-track { position: absolute; top: 12px; left: 0; right: 0; height: 4px; background: var(--line); border-radius: 2px; }
+.ds-fill { position: absolute; top: 0; bottom: 0; background: var(--green); border-radius: 2px; }
+.ds-input {
+  position: absolute; top: 0; left: 0; width: 100%; height: 28px; margin: 0;
+  background: none; pointer-events: none; -webkit-appearance: none; appearance: none;
+}
+.ds-input::-webkit-slider-thumb {
+  -webkit-appearance: none; pointer-events: auto; width: 16px; height: 16px;
+  border-radius: 50%; background: #fff; border: 2px solid var(--green); cursor: pointer;
+}
+.ds-input::-moz-range-thumb {
+  pointer-events: auto; width: 16px; height: 16px; border-radius: 50%;
+  background: #fff; border: 2px solid var(--green); cursor: pointer;
+}
+.ds-input::-webkit-slider-runnable-track { background: none; height: 28px; }
+.ds-input::-moz-range-track { background: none; }
 
 /* Ribbon icon button (Index) */
 .icon-btn {

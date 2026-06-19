@@ -446,36 +446,81 @@ function varietyLineList(list) {
   return wrap;
 }
 
-// Height facet body: min/max range slider over the ordinal scale + live list.
+// A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).
+function makeDualSlider(absMin, absMax, onChange) {
+  const wrap = document.createElement('div');
+  wrap.className = 'dual-slider';
+  const track = document.createElement('div'); track.className = 'ds-track';
+  const fill = document.createElement('div'); fill.className = 'ds-fill';
+  track.appendChild(fill);
+  const lo = document.createElement('input');
+  lo.type = 'range'; lo.min = absMin; lo.max = absMax; lo.value = absMin; lo.className = 'ds-input';
+  lo.setAttribute('aria-label', 'Minimum');
+  const hi = document.createElement('input');
+  hi.type = 'range'; hi.min = absMin; hi.max = absMax; hi.value = absMax; hi.className = 'ds-input';
+  hi.setAttribute('aria-label', 'Maximum');
+  const span = absMax - absMin || 1;
+  const pct = (v) => ((v - absMin) / span) * 100;
+  function update() {
+    let l = +lo.value; let h = +hi.value;
+    if (l > h) { // prevent crossing
+      if (document.activeElement === lo) { l = h; lo.value = l; } else { h = l; hi.value = h; }
+    }
+    fill.style.left = `${pct(l)}%`;
+    fill.style.right = `${100 - pct(h)}%`;
+    onChange(l, h);
+  }
+  lo.addEventListener('input', update);
+  hi.addEventListener('input', update);
+  wrap.append(track, lo, hi);
+  return { wrap, update };
+}
+
+// Height facet: single-bar dual-thumb slider over the ordinal scale + live list.
 function buildHeightSlider(facet) {
   const ranked = strains.map((s) => ({ s, r: heightRank(s.height) })).filter((x) => x.r >= 0);
-  const wrap = document.createElement('div');
-  wrap.className = 'height-slider';
-  const label = document.createElement('div');
-  label.className = 'height-range-label';
-  const minR = document.createElement('input');
-  minR.type = 'range'; minR.min = '0'; minR.max = String(HEIGHT_SCALE.length - 1); minR.value = '0';
-  minR.setAttribute('aria-label', 'Minimum height');
-  const maxR = document.createElement('input');
-  maxR.type = 'range'; maxR.min = '0'; maxR.max = String(HEIGHT_SCALE.length - 1); maxR.value = String(HEIGHT_SCALE.length - 1);
-  maxR.setAttribute('aria-label', 'Maximum height');
+  const box = document.createElement('div'); box.className = 'slider-facet';
+  const label = document.createElement('div'); label.className = 'height-range-label';
   const listHost = document.createElement('div');
-  function render() {
-    let lo = +minR.value; let hi = +maxR.value;
-    if (lo > hi) { const t = lo; lo = hi; hi = t; }
+  const ds = makeDualSlider(0, HEIGHT_SCALE.length - 1, (lo, hi) => {
     label.textContent = `${HEIGHT_SCALE[lo]} – ${HEIGHT_SCALE[hi]}`;
     const matched = ranked.filter((x) => x.r >= lo && x.r <= hi).map((x) => x.s);
     listHost.innerHTML = '';
-    const count = document.createElement('p');
-    count.className = 'modal-note';
-    count.textContent = `${matched.length} varieties`;
+    const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
-  }
-  minR.addEventListener('input', render);
-  maxR.addEventListener('input', render);
-  wrap.append(label, minR, maxR, listHost);
-  facet.appendChild(wrap);
-  render();
+  });
+  box.append(label, ds.wrap, listHost);
+  facet.appendChild(box);
+  ds.update();
+}
+
+// Parse a flowering descriptor into a week range, or null.
+function floweringWeeks(f) {
+  const r = String(f || '').match(/(\d+)\s*[–-]\s*(\d+)/);
+  if (r) return { min: +r[1], max: +r[2] };
+  const s = String(f || '').match(/(\d+)\s*w/i);
+  if (s) return { min: +s[1], max: +s[1] };
+  return null;
+}
+
+// Flowering Time facet: weeks dual-thumb slider; lists varieties whose range overlaps.
+function buildFloweringSlider(facet) {
+  const ranged = strains.map((s) => ({ s, w: floweringWeeks(s.flowering) })).filter((x) => x.w);
+  const absMin = Math.min(...ranged.map((x) => x.w.min));
+  const absMax = Math.max(...ranged.map((x) => x.w.max));
+  const box = document.createElement('div'); box.className = 'slider-facet';
+  const label = document.createElement('div'); label.className = 'height-range-label';
+  const listHost = document.createElement('div');
+  const ds = makeDualSlider(absMin, absMax, (lo, hi) => {
+    label.textContent = `${lo}–${hi} weeks`;
+    const matched = ranged.filter((x) => x.w.min <= hi && x.w.max >= lo).map((x) => x.s);
+    listHost.innerHTML = '';
+    const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
+    listHost.append(count, varietyLineList(matched));
+  });
+  box.append(label, ds.wrap, listHost);
+  facet.appendChild(box);
+  ds.update();
 }
 
 // Collapsible value groups (one-per-line lists), with persisted open state.
@@ -516,6 +561,7 @@ function openIndex(target) {
       fsum.textContent = label;
       facet.appendChild(fsum);
       if (label === 'Height') buildHeightSlider(facet);
+      else if (label === 'Flowering Time') buildFloweringSlider(facet);
       else buildValueGroups(facet, label, field, fmt, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
       body.appendChild(facet);
