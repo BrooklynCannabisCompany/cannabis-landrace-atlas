@@ -1,0 +1,170 @@
+/* SPDX-License-Identifier: MIT */
+/* Copyright (c) 2026 The Cannabis Landrace Atlas contributors */
+
+:root {
+  --paper: #f6f4ef;
+  --ink: #23211c;
+  --muted: #6f6b61;
+  --line: #d9d5cc;
+  --green: #4f7a43;
+  --green-dark: #3c5f33;
+  --panel-w: 33vw;
+  --ribbon-h: 60px;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
+
+/* ---- Ribbon ---- */
+.ribbon {
+  height: var(--ribbon-h);
+  display: flex; align-items: center; gap: 18px;
+  padding: 0 20px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  position: relative; z-index: 1000;
+}
+.wordmark {
+  font-family: var(--serif); font-size: 20px; letter-spacing: 0.02em;
+  color: var(--ink); white-space: nowrap; flex: 0 0 auto;
+}
+.search { position: relative; flex: 1 1 auto; max-width: 420px; margin: 0 auto; }
+#search-input {
+  width: 100%; padding: 9px 12px; font-size: 14px; font-family: var(--sans);
+  color: var(--ink); background: #fff;
+  border: 1px solid var(--line); border-radius: 6px; outline: none;
+}
+#search-input:focus { border-color: var(--green); }
+
+.submit-btn {
+  flex: 0 0 auto;
+  font-family: var(--sans); font-size: 13px; color: var(--green-dark);
+  background: #fff; border: 1px solid var(--line); border-radius: 6px;
+  padding: 8px 14px; cursor: pointer;
+}
+.submit-btn:hover { border-color: var(--green); background: #eef0e9; }
+
+.search-results {
+  list-style: none; margin: 4px 0 0; padding: 4px;
+  position: absolute; top: 100%; right: 0; left: 0; z-index: 1100;
+  background: #fff; border: 1px solid var(--line); border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06); max-height: 60vh; overflow-y: auto;
+}
+.search-result {
+  display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+  padding: 8px 10px; border-radius: 4px; cursor: pointer;
+}
+.search-result:hover, .search-result:focus { background: #eef0e9; outline: none; }
+.r-name { font-weight: 600; }
+.r-place { color: var(--muted); font-size: 12px; text-align: right; }
+.search-empty { padding: 8px 10px; color: var(--muted); }
+
+/* ---- Layout ---- */
+.layout { height: calc(100% - var(--ribbon-h)); display: flex; }
+.map { flex: 1 1 auto; height: 100%; background: #eef1f4; }
+.map-error {
+  display: flex; height: 100%; align-items: center; justify-content: center;
+  color: var(--muted); font-size: 15px;
+}
+
+/* ---- Panel ---- */
+.panel {
+  flex: 0 0 0; width: 0; height: 100%; overflow-y: auto;
+  background: #fff; border-left: 1px solid var(--line);
+  transition: flex-basis 0.22s ease, width 0.22s ease;
+  padding: 0;
+}
+body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padding: 22px 24px 40px; }
+
+.panel-close {
+  float: right; border: none; background: none; cursor: pointer;
+  font-size: 26px; line-height: 1; color: var(--muted);
+}
+.panel-close:hover { color: var(--ink); }
+.panel-name { font-family: var(--serif); font-size: 24px; margin: 4px 0 2px; }
+.panel-place { color: var(--muted); margin: 0 0 12px; font-size: 14px; }
+.panel-badge {
+  display: inline-block; font-size: 12px; letter-spacing: 0.03em;
+  padding: 3px 9px; border-radius: 999px;
+  background: #eef0e9; color: var(--green-dark); border: 1px solid #d6ddcf;
+}
+.panel-traits { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0; font-size: 14px; }
+.panel-traits dt { color: var(--muted); }
+.panel-traits dd { margin: 0; }
+.panel-note { color: var(--muted); font-size: 12px; margin: 2px 0 0; }
+
+/* ---- Write-up (rendered markdown) ---- */
+.writeup { margin: 18px 0 8px; border-top: 1px solid var(--line); padding-top: 6px; }
+.writeup-status { color: var(--muted); font-style: italic; font-size: 14px; }
+.writeup h2 {
+  font-family: var(--serif); font-size: 16px; margin: 20px 0 6px;
+  padding-bottom: 3px; border-bottom: 1px solid var(--line);
+}
+.writeup h3 { font-family: var(--serif); font-size: 14.5px; margin: 14px 0 4px; }
+.writeup p { font-size: 14.5px; line-height: 1.58; margin: 8px 0; }
+.writeup ul, .writeup ol { font-size: 14.5px; line-height: 1.55; padding-left: 20px; margin: 8px 0; }
+.writeup a { color: var(--green-dark); }
+.writeup img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; margin: 6px 0; }
+.writeup blockquote {
+  margin: 0 0 12px; padding: 8px 12px;
+  background: #f0efe9; border-left: 3px solid var(--green);
+  color: var(--muted); font-size: 13px; font-style: italic;
+}
+.writeup blockquote p { margin: 0; font-size: 13px; }
+.writeup em { color: var(--muted); }
+
+/* ---- Structured links / embeds ---- */
+.panel-links-title { font-family: var(--serif); font-size: 16px; margin: 18px 0 8px; }
+.panel-link a, .panel-embed-fallback a { color: var(--green-dark); }
+.panel-embed { margin: 0 0 16px; }
+.panel-embed iframe { width: 100%; height: 320px; border: 1px solid var(--line); border-radius: 6px; }
+.panel-embed-cap { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.panel-embed-fallback { color: var(--muted); font-size: 13px; }
+
+/* ---- Panel submit button ---- */
+.panel-submit {
+  display: block; width: 100%; margin: 24px 0 0; padding: 11px 14px;
+  font-family: var(--sans); font-size: 13.5px; cursor: pointer;
+  color: var(--green-dark); background: #eef0e9;
+  border: 1px solid #d6ddcf; border-radius: 6px;
+}
+.panel-submit:hover { background: #e4e8db; border-color: var(--green); }
+
+/* ---- Marker tint (SVG uses currentColor) ---- */
+.leaf-marker { color: var(--green); }
+
+/* ---- Modal ---- */
+.modal { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; }
+.modal[hidden] { display: none; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(35,33,28,0.38); }
+.modal-card {
+  position: relative; z-index: 1; width: min(440px, 90vw);
+  background: #fff; border: 1px solid var(--line); border-radius: 10px;
+  padding: 24px 26px 26px; box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+}
+.modal-close {
+  position: absolute; top: 10px; right: 14px; border: none; background: none;
+  font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer;
+}
+.modal-close:hover { color: var(--ink); }
+.modal-title { font-family: var(--serif); font-size: 19px; margin: 0 0 10px; }
+.modal-body { font-size: 14.5px; line-height: 1.55; color: var(--ink); }
+
+/* ---- Responsive: panel becomes a bottom sheet ---- */
+@media (max-width: 720px) {
+  :root { --panel-w: 100vw; }
+  .layout { display: block; position: relative; }
+  .map { height: 100%; }
+  .panel {
+    position: fixed; left: 0; right: 0; bottom: 0; top: auto;
+    width: 100%; height: 0; border-left: none; border-top: 1px solid var(--line);
+    border-radius: 14px 14px 0 0; transition: height 0.22s ease;
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.12); z-index: 1500;
+  }
+  body.panel-open .panel { width: 100%; height: 72vh; padding: 18px 18px 32px; }
+  .wordmark { font-size: 16px; }
+  .search { max-width: none; }
+}
