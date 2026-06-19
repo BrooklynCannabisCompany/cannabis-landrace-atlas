@@ -371,32 +371,54 @@ function openReferences() {
   });
 }
 
+// Index facets: [label, record field]. Morphotype/Chemotype added once those fields exist.
+const INDEX_FACETS = [
+  ['Type', 'category'],
+  ['Height', 'height'],
+  ['Flowering Time', 'flowering'],
+  ['Climate', 'climate'],
+  ['Region', 'continent']
+];
 function openIndex() {
   openContentModal('Index', (body) => {
     const intro = document.createElement('p');
     intro.className = 'modal-note';
-    intro.textContent = 'Browse all varieties by type — select one to open it.';
-    const h1 = document.createElement('h2');
-    h1.className = 'index-h1';
-    h1.textContent = 'Type';
-    body.append(intro, h1);
-    const byCat = {};
-    for (const s of strains) (byCat[s.category] ||= []).push(s);
-    for (const cat of Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length)) {
-      const h = document.createElement('h3');
-      h.className = 'index-h2';
-      h.textContent = `${cat} (${byCat[cat].length})`;
-      const p = document.createElement('p');
-      p.className = 'index-list';
-      byCat[cat].sort((a, b) => a.name.localeCompare(b.name)).forEach((s, i) => {
-        if (i > 0) p.appendChild(document.createTextNode(', '));
-        const btn = document.createElement('button');
-        btn.type = 'button'; btn.className = 'related-link'; btn.textContent = s.name;
-        btn.addEventListener('click', () => { closeModal(); openPanel(s); });
-        p.appendChild(btn);
-      });
-      body.append(h, p);
-    }
+    intro.textContent = 'Browse all varieties — expand a facet, then a value, then select a variety.';
+    body.appendChild(intro);
+    INDEX_FACETS.forEach(([label, field], fi) => {
+      const facet = document.createElement('details');
+      facet.className = 'index-facet';
+      if (fi === 0) facet.open = true;
+      const fsum = document.createElement('summary');
+      fsum.className = 'index-h1';
+      fsum.textContent = label;
+      facet.appendChild(fsum);
+      const groups = {};
+      for (const s of strains) {
+        const v = (s[field] || '').toString().trim() || '—';
+        (groups[v] ||= []).push(s);
+      }
+      for (const v of Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length)) {
+        const g = document.createElement('details');
+        g.className = 'index-group';
+        const gsum = document.createElement('summary');
+        gsum.className = 'index-h2';
+        gsum.textContent = `${v} (${groups[v].length})`;
+        g.appendChild(gsum);
+        const p = document.createElement('p');
+        p.className = 'index-list';
+        groups[v].sort((a, b) => a.name.localeCompare(b.name)).forEach((s, i) => {
+          if (i > 0) p.appendChild(document.createTextNode(', '));
+          const btn = document.createElement('button');
+          btn.type = 'button'; btn.className = 'related-link'; btn.textContent = s.name;
+          btn.addEventListener('click', () => { closeModal(); openPanel(s); });
+          p.appendChild(btn);
+        });
+        g.appendChild(p);
+        facet.appendChild(g);
+      }
+      body.appendChild(facet);
+    });
   });
 }
 
