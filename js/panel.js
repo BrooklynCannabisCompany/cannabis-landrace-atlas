@@ -16,9 +16,38 @@ function traitRow(dl, label, value) {
   dl.appendChild(el('dd', null, value));
 }
 
-// Renders `strain` into `container`. handlers: { onClose, onSubmit }.
+// A fact row whose value is clickable. Splits on "/" so each part (e.g.
+// "Middle East" / "Central Asia") is its own clickable filter chip.
+function facetRow(dl, label, field, value, onFacet, title, facetToken) {
+  if (!value) return;
+  dl.appendChild(el('dt', null, label));
+  const dd = el('dd', null);
+  if (title && title !== value) dd.title = title; // preserve the original detail on hover
+  if (facetToken) {
+    // Single chip with an explicit facet token (e.g. Type displays the descriptor
+    // but filters by normalized category).
+    const chip = el('button', 'facet', value);
+    chip.type = 'button';
+    chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${facetToken}`);
+    if (onFacet) chip.addEventListener('click', () => onFacet(field, facetToken));
+    dd.appendChild(chip);
+  } else {
+    const parts = String(value).split('/').map((p) => p.trim()).filter(Boolean);
+    parts.forEach((part, i) => {
+      if (i > 0) dd.appendChild(document.createTextNode(' / '));
+      const chip = el('button', 'facet', part);
+      chip.type = 'button';
+      chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${part}`);
+      if (onFacet) chip.addEventListener('click', () => onFacet(field, part));
+      dd.appendChild(chip);
+    });
+  }
+  dl.appendChild(dd);
+}
+
+// Renders `strain` into `container`. handlers: { onClose, onSubmit, onFacet }.
 export function renderStrain(container, strain, handlers = {}) {
-  const { onClose, onSubmit } = handlers;
+  const { onClose, onSubmit, onFacet } = handlers;
   container.innerHTML = '';
 
   const closeBtn = el('button', 'panel-close', '×');
@@ -27,18 +56,23 @@ export function renderStrain(container, strain, handlers = {}) {
   if (onClose) closeBtn.addEventListener('click', onClose);
   container.appendChild(closeBtn);
 
-  const place = [strain.region, strain.country].filter(Boolean).join(', ');
+  // Subtitle: region + country, but never echo the country if the region already names it.
+  const place = (strain.region && strain.country &&
+    strain.region.toLowerCase().includes(strain.country.toLowerCase()))
+    ? strain.region
+    : [strain.region, strain.country].filter(Boolean).join(', ');
   container.appendChild(el('h2', 'panel-name', strain.name));
   if (place) container.appendChild(el('p', 'panel-place', place));
 
   if (strain.category) container.appendChild(el('span', 'panel-badge', strain.category));
 
   const dl = el('dl', 'panel-traits');
-  traitRow(dl, 'Type', strain.type);
-  traitRow(dl, 'Height', strain.height);
+  if (Array.isArray(strain.aka) && strain.aka.length) traitRow(dl, 'AKA', strain.aka.join(', '));
+  facetRow(dl, 'Type', 'category', strain.type, onFacet, null, strain.category);
+  facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
-  traitRow(dl, 'Climate', strain.climate);
-  traitRow(dl, 'Region', strain.continent);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
+  facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
   if (dl.children.length) container.appendChild(dl);
 
   if (strain.coordsApproximate) {

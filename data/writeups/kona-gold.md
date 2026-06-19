@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -16,6 +16,8 @@ Kona Gold developed a reputation during the 1970s as a standout Hawaiian cannabi
 - **Climate:** Volcanic tropical highland — fertile volcanic soils, relatively dry western-slope conditions, intense sunlight, year-round warmth, consistent oceanic airflow
 - **Morphology:** Tall and vigorous sativa structure. Grower accounts consistently describe tropical fruit, spice, and citrus terpene expressions. The Kona coffee terroir parallel — rich volcanic minerals, excellent drainage, consistent sun — is considered to contribute to this population's notable terpene expression.
 
+_Recorded locality detail: Big Island._
+
 ## Grow Information
 
 - Year-round growing potential in the native Kona environment; outdoor cultivation in tropical or sub-tropical climates is most suitable
@@ -26,20 +28,15 @@ Kona Gold developed a reputation during the 1970s as a standout Hawaiian cannabi
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -47,6 +47,36 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
 }
 .submit-btn:hover { border-color: var(--green); background: #eef0e9; }
 
+/* Hamburger menu */
+.menu-btn {
+  flex: 0 0 auto; font-size: 18px; line-height: 1; cursor: pointer;
+  background: none; border: 1px solid var(--line); border-radius: 6px;
+  padding: 6px 10px; color: var(--ink);
+}
+.menu-btn:hover { border-color: var(--green); background: #eef0e9; }
+.app-menu {
+  position: absolute; top: calc(var(--ribbon-h) - 6px); left: 16px; z-index: 1200;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1); padding: 4px; min-width: 160px;
+  display: flex; flex-direction: column;
+}
+.app-menu[hidden] { display: none; }
+.app-menu-item {
+  text-align: left; background: none; border: none; padding: 8px 12px;
+  font: inherit; cursor: pointer; border-radius: 4px; color: var(--ink);
+}
+.app-menu-item:hover { background: #eef0e9; color: var(--green-dark); }
+
+/* Menu modal content */
+.modal-note { color: var(--muted); font-size: 13px; }
+.modal-dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0 0 10px; }
+.modal-dl dt { color: var(--muted); } .modal-dl dd { margin: 0; }
+.modal-refs { padding-left: 18px; font-size: 14px; line-height: 1.5; margin: 8px 0; }
+.modal-refs a { color: var(--green-dark); }
+.index-h1 { font-family: var(--serif); font-size: 18px; margin: 10px 0 4px; }
+.index-h2 { font-family: var(--serif); font-size: 15px; margin: 14px 0 4px; color: var(--green-dark); }
+.index-list { font-size: 14px; line-height: 1.75; margin: 0 0 6px; }
+
 .search-results {
   list-style: none; margin: 4px 0 0; padding: 4px;
   position: absolute; top: 100%; right: 0; left: 0; z-index: 1100;
@@ -96,6 +126,21 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .panel-traits dd { margin: 0; }
 .panel-note { color: var(--muted); font-size: 12px; margin: 2px 0 0; }
 
+/* Clickable fact value (faceted filter) */
+.facet {
+  background: none; border: none; padding: 0; font: inherit; cursor: pointer;
+  color: var(--green-dark); text-decoration: underline dotted;
+}
+.facet:hover { color: var(--green); text-decoration: underline; }
+
+/* Related-variety exploration links */
+.related-list { font-size: 14.5px; line-height: 1.75; margin: 6px 0 4px; }
+.related-link {
+  background: none; border: none; padding: 0; font: inherit; cursor: pointer;
+  color: var(--green-dark);
+}
+.related-link:hover { text-decoration: underline; }
+
 /* ---- Write-up (rendered markdown) ---- */
 .writeup { margin: 18px 0 8px; border-top: 1px solid var(--line); padding-top: 6px; }
 .writeup-status { color: var(--muted); font-style: italic; font-size: 14px; }
@@ -123,6 +168,19 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .writeup blockquote p { margin: 0; font-size: 13px; }
 .writeup em { color: var(--muted); }
 
+/* Real links injected into Photos / Seed Sources / Forum Discussions */
+.section-links { font-size: 14.5px; line-height: 1.6; margin: 8px 0; }
+.section-links a { color: var(--green-dark); }
+.section-photo { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; margin: 4px 0; }
+
+/* Section "sources" footnote marker */
+sup.fnref { line-height: 0; }
+sup.fnref button {
+  font: inherit; font-size: 0.7em; background: none; border: none; cursor: pointer;
+  color: var(--green-dark); text-decoration: underline; padding: 0 0 0 2px; vertical-align: super;
+}
+.writeup h2.ref-flash { background: #eef0e9; transition: background 0.3s ease; }
+
 /* ---- Structured links / embeds ---- */
 .panel-links-title { font-family: var(--serif); font-size: 16px; margin: 18px 0 8px; }
 .panel-link a, .panel-embed-fallback a { color: var(--green-dark); }
@@ -140,6 +198,10 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .panel-submit:hover { background: #e4e8db; border-color: var(--green); }
 
+/* ---- Reset-view control (stacks below +/- zoom, same size) ---- */
+.reset-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
+.reset-control a:hover { color: var(--green-dark); }
+
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
 .leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
@@ -149,10 +211,18 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .modal[hidden] { display: none; }
 .modal-backdrop { position: absolute; inset: 0; background: rgba(35,33,28,0.38); }
 .modal-card {
-  position: relative; z-index: 1; width: min(440px, 90vw);
+  position: relative; z-index: 1; width: min(460px, 90vw);
   background: #fff; border: 1px solid var(--line); border-radius: 10px;
   padding: 24px 26px 26px; box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+  max-height: 85vh; overflow-y: auto;
 }
+.modal-list { list-style: none; margin: 8px 0 0; padding: 0; }
+.modal-list-link {
+  display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+  width: 100%; text-align: left; font: inherit; cursor: pointer; color: var(--ink);
+  background: none; border: none; border-bottom: 1px solid var(--line); padding: 8px 2px;
+}
+.modal-list-link:hover { background: #eef0e9; }
 .modal-close {
   position: absolute; top: 10px; right: 14px; border: none; background: none;
   font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer;

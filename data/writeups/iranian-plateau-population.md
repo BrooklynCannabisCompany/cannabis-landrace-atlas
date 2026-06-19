@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 The Iranian Plateau Population refers to the broad regional cannabis gene pool distributed across the Central Iranian Plateau — a vast, high-elevation basin stretching across much of Iran's interior. This is not a single cultivar but a mosaic of landrace populations adapted over centuries to drought, alkaline soils, and extreme seasonal temperature swings. It is widely considered a transitional zone where Central Asian, Afghan, and Middle Eastern cannabis gene pools converge and overlap.
@@ -16,18 +16,13 @@ Cannabis cultivation across the Iranian Plateau has a long history intertwined w
 Suited to arid and semi-arid conditions with large diurnal temperature swings. Flowering ranges widely, commonly reported at 9–12 weeks, reflecting the genetic diversity of this broad regional pool. The population's alkaline-soil adaptation and low water requirements make it notably resilient in resource-limited growing conditions. As an intermediate population, individual plants may express traits ranging from compact indica types to taller, more open structures. Cold nights during late flowering are tolerated well.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

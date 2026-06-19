@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Kashgar is a cannabis population associated with the historic oasis city of Kashgar (Kashi) in the Xinjiang Uyghur Autonomous Region of western China, situated at the western edge of the Tarim Basin where the Pamir, Karakoram, and Tian Shan mountain systems converge. As one of the Silk Road's most significant trading hubs, Kashgar has historically been a crossroads of Central Asian, South Asian, and Chinese influence — and its cannabis population likely reflects this broad heritage.
@@ -16,18 +16,13 @@ Cannabis cultivation in the Kashgar region is associated with Uyghur and other i
 Adapted to the arid desert-edge climate of the Tarim Basin margin, with hot summers, cold winters, and very low rainfall. Flowering is commonly reported at 9–12 weeks for oasis-type populations in this zone. Drought tolerance and heat resistance are expected strengths. The intermediate morphology suggests some variability in plant structure and maturation timing. Well-suited to continental climates with hot, dry summers; mold pressure should be low in its native environment.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

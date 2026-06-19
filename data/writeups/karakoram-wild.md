@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Karakoram Wild refers to a wild or semi-feral cannabis population associated with the Karakoram mountain range of northern Pakistan — one of the world's most extreme high-altitude environments, home to K2 and numerous other peaks above 7,000 meters. The Karakoram sits at the junction of the Himalaya, Hindu Kush, and Pamir ranges, making it a potential contact zone for multiple distinct cannabis gene pools. Information on this specific population is limited.
@@ -16,18 +16,13 @@ Cannabis grows across a range of elevations in northern Pakistan, from the triba
 The Karakoram environment is among the harshest on Earth for plant survival: extremely high UV, very short growing seasons, minimal rainfall in many valley corridors, and high altitude. Any cannabis persisting in this region would be strongly selected for stress tolerance, early maturity, and cold hardiness. Specific grow information for this population is not documented; growers working with Karakoram-origin genetics should anticipate variable expression and treat available plants as raw landraces requiring further selection.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

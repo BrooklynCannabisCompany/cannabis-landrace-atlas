@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Despite the "Shanghai Basin" name — which refers to a coastal Chinese city — the record in this atlas places this entry in the Congo (DRC), categorized as a feral sativa complex adapted to a Central African rainforest basin environment. The name appears to be a geographic mismatch in the dataset; the entry's actual context is a tall, variable-flowering feral sativa population from equatorial Central Africa, likely associated with the Congo Basin's rainforest gene reservoir.
@@ -16,18 +16,13 @@ Feral sativa populations in the Congo Basin are generally understood to be long-
 A rainforest basin environment in the Congo region means near-equatorial conditions: consistent high temperatures, high humidity, abundant rainfall, and relatively stable daylengths throughout the year. These conditions produce very tall plants with long, variable flowering windows. This population is suited to warm, humid outdoor environments and would likely struggle in temperate or low-humidity conditions without adaptation. The feral nature of the population suggests robustness and self-sufficiency in its native range.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -17,26 +17,23 @@ Plants commonly reported from high-altitude Tibetan river valleys tend toward me
 - **Climate adaptation:** Alpine river valley — intense UV, cold nights, low oxygen, short season
 - **Type:** High-altitude feral-landrace population
 
+_Recorded locality detail: Upper Brahmaputra._
+
 ## Grow Information
 
 Cultivators working with material associated with this population report that acclimatisation to lower-altitude environments can require several generations. Plants are said to tolerate cold snaps better than most tropical landraces and may perform reasonably in temperate outdoor climates with a long summer, though their true expression is tied to high-altitude stress conditions. Nutrient demands are typically described as moderate. Grower accounts suggest resistance to cold-related mould, though performance under humid lowland conditions is less consistently documented. Indoor cultivation may require attention to temperature variation to approximate the diurnal swings of the original environment.
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

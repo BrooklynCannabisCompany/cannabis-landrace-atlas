@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Lebanese Blonde is a traditional highland hash landrace from Lebanon's Bekaa Valley, historically the source of the pale, lightly pressed hashish known as "Lebanese blonde" or "blond Lebanese." This medium-tall population is adapted to the semi-arid mountain valley conditions of the Bekaa, with drought tolerance and cool mountain nights as defining environmental pressures. It is distinct from Lebanese Red in its processing tradition and typically lighter resin color.
@@ -16,18 +16,13 @@ The Bekaa Valley has been Lebanon's primary cannabis-growing region for many dec
 Adapted to the semi-arid mountain valley climate of the Bekaa — hot, dry summers, cool nights at elevation, and minimal summer rainfall. Flowering runs 9–12 weeks, toward the longer end for Lebanese types, which may reflect the taller stature and slightly extended maturation of blonde-associated plants. Drought tolerance is a primary adaptive trait. Cool nights during late flowering are part of the native environment. Performance in humid climates is expected to be limited.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Tian Shan Wild is a ruderalis population from the Tian Shan mountain region of Kyrgyzstan, classified as a feral auto-adapted population. Distinct from the Tien Shan Alpine Valley landrace entry, this entry specifically represents the wild, ruderalis-type cannabis that grows without cultivation in the high cold-alpine zones of the Kyrgyz Tian Shan, where short growing seasons and extreme temperatures have driven adaptation toward automatic (day-length independent) flowering behavior.
@@ -16,18 +16,13 @@ Wild ruderalis-type cannabis has been documented across the northern latitudes o
 As a ruderalis population from a cold alpine environment, this population is adapted to the absolute minimum growing season that the Kyrgyz Tian Shan permits. Flowering onset is automatic rather than photoperiod-triggered, completing in approximately 6–10 weeks. Short stature and rapid maturation are the defining characteristics. This population's value lies primarily in its auto-flowering genetics and cold tolerance, which are of interest for breeding short-season and automatic cultivars. Growing conditions should replicate the cool, well-drained, low-humidity alpine environment of its origin.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

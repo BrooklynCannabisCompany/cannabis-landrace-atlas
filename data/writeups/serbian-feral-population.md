@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -17,26 +17,23 @@ As a medium-height, intermediate (indica–sativa) feral population with a 9–1
 - **Type:** Naturalized feral population, Intermediate (Indica–Sativa)
 - **Climate:** River plain-continental
 
+_Recorded locality detail: Danube, Morava, and Sava Basins._
+
 ## Grow Information
 
 The high adaptability of Serbian feral cannabis populations — naturalized across diverse agricultural regions and river corridors — suggests broad environmental tolerance and robust growth across temperate continental conditions. The 9–13 week flowering window suits outdoor cultivation across Central and Eastern Europe. Cannabinoid content is variable given the mixed hemp and naturalized origins, with some populations retaining higher THC levels than typical industrial hemp. Genetic diversity is expected to be high across the river basin populations.
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

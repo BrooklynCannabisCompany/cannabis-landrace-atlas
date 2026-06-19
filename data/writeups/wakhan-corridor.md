@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Wakhan Corridor is a highland landrace complex from the Wakhan Corridor of northeastern Afghanistan, the long narrow panhandle of territory that extends eastward between Tajikistan and Pakistan to meet China's Xinjiang region. This remote, high-altitude valley — largely populated by Wakhi and Kyrgyz communities — sits between the Hindu Kush and Pamir mountain systems at elevations of 2,800–4,500 meters, making it one of the most geographically isolated cannabis-growing zones in the world.
@@ -16,18 +16,13 @@ The Wakhan Corridor's extreme isolation — accessible historically only by diff
 The Wakhan Corridor's alpine mountain valley climate is extreme: very cold winters, a short frost-free season typically from late spring to early autumn, intense UV radiation at altitude, and thin mountain soils. Cannabis populations here must complete their lifecycle rapidly under these constraints. Flowering is typically reported at 10–14 weeks. The cold tolerance and geographic isolation of this population make it a high-priority candidate for preservation collections. Growers interested in extreme cold-climate genetics will find the Wakhan Corridor one of the most compelling populations in the Hindu Kush-Pamir zone.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Sinai is an indica landrace associated with the Sinai Peninsula of Egypt, a triangular desert landmass bridging northeastern Africa and the Middle East between the Gulf of Suez and the Gulf of Aqaba. The Sinai's dramatic desert mountain landscape — centered on the high granite peaks of the southern peninsula — produces extreme temperature swings between day and night, and between summer and winter, a climate that would shape a highly stress-tolerant cannabis population.
@@ -16,18 +16,13 @@ Cannabis use in the Sinai region is historically documented, with the peninsula 
 The Sinai desert mountain climate is characterized by very hot, dry summers and cold winters, with sharp day-to-night temperature variation throughout the year. Cannabis adapted here must tolerate both extremes. Flowering is typically reported at 8–10 weeks. The short stature and resinous character typical of indica landraces from desert mountain environments suggest this population prioritizes stress tolerance and resin production over vegetative bulk. Low-humidity growing conditions are recommended to match its native environment.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

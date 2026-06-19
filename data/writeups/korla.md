@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Korla (also romanized as Ku'erle) is an oasis landrace associated with the city of Korla in central Xinjiang, China, situated along the Konqi River in the eastern Tarim Basin. Korla sits at a geographic and commercial crossroads within Xinjiang, and its cannabis population — categorized as a mixed oasis landrace — likely reflects the long history of Silk Road commerce and multi-directional plant material exchange that characterized this trade hub.
@@ -16,18 +16,13 @@ Korla's position near the junction of the northern and southern Silk Road branch
 Adapted to the arid river-oasis environment of central Xinjiang, with very hot summers, cold winters, and low rainfall supplemented by river irrigation. Flowering runs 9–13 weeks — toward the longer end for Central Asian types, reflecting the relatively southerly latitude and extended warm season of the Tarim Basin. Heat tolerance and drought resistance are expected strengths. The mixed morphology suggests variability in maturation timing. Well-suited to continental, warm-summer climates; poor humidity tolerance expected.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

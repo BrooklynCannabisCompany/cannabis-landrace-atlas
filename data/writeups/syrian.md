@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Syrian is a sativa-leaning (NLD, narrow-leaf drug) landrace from Syria, classified here under the Sativa Subsp. Indica designation — reflecting the terminological complexity around Syrian cannabis, which is often described as a compact, short-season, narrow-leaf hashplant rather than a classic broad-leaf indica. Syria sits in the semi-arid Levant, a historically pivotal region for cannabis movement between the Mediterranean world, the Arabian Peninsula, and Central Asia.
@@ -16,18 +16,13 @@ Syria has a documented history of cannabis use and hashish production, with Syri
 Syria's semi-arid climate features hot, dry summers and mild winters, with most precipitation occurring in winter months. Cannabis adapted here is suited to dry conditions with minimal supplemental water during the growing season. The short 8–10 week flowering window makes this population well-suited to temperate climates where the season ends early. Its stable hash-plant character is valued by growers seeking reliable resin production in a compact plant. Low humidity tolerance is expected.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

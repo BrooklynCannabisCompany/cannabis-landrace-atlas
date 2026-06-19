@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -16,26 +16,23 @@ Owairaka 'Orrible's origin is not formally documented. Grower accounts situate i
 - **Climate:** Maritime temperate — Auckland's characteristic mix of warm summers, cool wet winters, and variable weather driven by Pacific and Tasman Sea air masses.
 - **Reported traits:** Mold resistance, outdoor vigor, adaptation to variable maritime weather; regional underground heirloom character.
 
+_Recorded locality detail: Mount Albert area._
+
 ## Grow Information
 
 Owairaka 'Orrible, as an Auckland-area maritime temperate sativa heirloom, is adapted to the variable cool and wet conditions characteristic of New Zealand's North Island. Mold resistance is a practically important trait given the region's humidity. The 11–15 week flowering window is appropriate for the Auckland outdoor season. Tall growth requires space and benefits from early training. For cultivators in comparable cool maritime climates — similar latitudes in the southern hemisphere or analogous maritime temperate climates elsewhere — this cultivar's heritage suggests good adaptation to variable, challenging outdoor conditions. As a rare underground line, available seed stock may have limited documentation and variable expression.
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

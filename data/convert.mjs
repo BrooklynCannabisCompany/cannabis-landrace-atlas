@@ -7,8 +7,15 @@ import { parseEntry } from './lib/parse.mjs';
 import { normalizeCategory } from './lib/category.mjs';
 import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
+import { extractAka } from './lib/aka.mjs';
+import { cleanType, cleanRegion, cleanClimate } from './lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Real seed-vendor links matched during scraping (RSC). Real URLs only.
+const vendorLinks = JSON.parse(readFileSync(join(__dirname, 'vendor-links.json'), 'utf8'));
+// Curated, well-attested alternate names (strict generated pass). id -> [names].
+const akaGenerated = JSON.parse(readFileSync(join(__dirname, 'aka-generated.json'), 'utf8'));
 
 // Header line -> continent. Lines exactly matching a key switch the current continent.
 const HEADERS = {
@@ -58,22 +65,37 @@ for (const file of FILES) {
     const id = makeUniqueId(p.name, seen);
     const coords = resolveCoords({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name, id });
     if (!coords) unresolved.push({ id, name: p.name, countryRaw: p.countryRaw });
+    const country = resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '';
     records.push({
       id,
       name: p.name,
+      aka: (() => {
+        const src = extractAka([p.summary, p.regionRaw].filter(Boolean).join('. '), p.name);
+        const seen = new Set([p.name.toLowerCase()]);
+        const out = [];
+        for (const a of [...src, ...(akaGenerated[id] || [])]) {
+          const k = a.toLowerCase();
+          if (!seen.has(k)) { seen.add(k); out.push(a); }
+        }
+        return out;
+      })(),
       continent: continent || 'Unknown',
-      country: resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '',
-      region: p.regionRaw || '',
+      country,
+      region: cleanRegion(p.regionRaw, country).region,
       lat: coords ? coords.lat : null,
       lng: coords ? coords.lng : null,
       coordsApproximate: true,
-      type: p.type || '',
+      type: cleanType(p.type),
       category: normalizeCategory(p.type),
       height: p.height || '',
       flowering: p.flowering || '',
-      climate: p.climate || '',
+      climate: cleanClimate(p.climate),
+      climateFull: p.climate || '',
       summary: p.summary || '',
       incomplete: p.incomplete,
+      seedSources: (vendorLinks[id] && vendorLinks[id].seed) || [],
+      photos: (vendorLinks[id] && vendorLinks[id].photo) ? [vendorLinks[id].photo] : [],
+      forums: (vendorLinks[id] && vendorLinks[id].forums) || [],
       links: []
     });
   }

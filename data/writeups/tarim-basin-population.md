@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 The Tarim Basin Population is a feral-landrace cannabis complex from the Tarim Basin in China's Xinjiang region — an enormous inland basin rimmed by the Tian Shan, Kunlun, and Pamir mountain ranges. The Tarim is one of the world's largest enclosed drainage basins and one of the driest non-polar regions on Earth. Cannabis populations surviving under these hyper-arid conditions represent exceptionally stress-adapted gene pools.
@@ -16,18 +16,13 @@ The Tarim Basin's ancient history as the core of the Silk Road — encompassing 
 The hyper-arid basin climate of the Tarim is characterized by extremely low annual rainfall (often under 25 mm in interior areas), intense summer heat, cold winters, and persistent desiccating winds. Cannabis surviving here without consistent irrigation represents genuine extremes of drought adaptation. Growers working with material from this region should expect highly variable phenotypes given the complex's feral character and broad reported flowering range. Heat resistance and minimal-water adaptations are the population's most notable traits for breeding purposes.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

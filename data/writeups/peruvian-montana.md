@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -18,26 +18,23 @@ This population is described as a tall sativa with a 13–18 week flowering wind
 - **Category:** Sativa
 - **Region:** Peruvian Montaña (Eastern Andes)
 
+_Recorded locality detail: Eastern Andes._
+
 ## Grow Information
 
 Cloud forest and Montaña-adapted populations are typically long-flowering sativas that have developed in humid, diffuse-light conditions. The 13–18 week flowering window demands patience, and the persistent-humidity origin may correlate with some resistance to mold, though this is not verified for this specific population. Outdoor cultivation in humid subtropical or tropical montane environments best replicates the conditions of origin. Indoor cultivation is feasible with adequate lighting and humidity management. Grow data specific to this population is sparse.
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -80,6 +80,10 @@ JS file plus its CSS) rather than loaded from a CDN, so there is no runtime
 third-party dependency. Leaflet provides pan/zoom and custom marker icons for
 free; the green pot-leaf markers are rendered as custom icons.
 
+**Map controls:** the standard Leaflet zoom in/out (+/−) buttons, plus a **reset-view**
+icon button directly below them (same size/style, part of the same control stack) that
+returns the map to its original center/zoom.
+
 ## Data model
 
 Each landrace is one object in `landraces.json`:
@@ -109,6 +113,9 @@ Field notes:
 - `id` — unique, kebab-case, stable identifier (derived from the name; a numeric
   suffix disambiguates intentional pairs like the two Transkei entries).
 - `name` — the landrace name (panel header, marker tooltip, search).
+- `aka` — array of alternate names, extracted deterministically from the source
+  notes (quoted names and explicit "Also …" lists); often empty. Shown as the panel's
+  AKA row when non-empty. Not fabricated; can be enriched later.
 - `continent` — the source grouping ("Africa" or "Middle East / Central Asia").
   Searchable; available for future grouping/filtering.
 - `country` and `region` — kept distinct. The panel shows
@@ -128,12 +135,24 @@ Field notes:
   fixed set: Sativa, Indica, Ruderalis, Hybrid-Intermediate, Hemp, Feral, Mixed.
   Used for search and future filtering. (Markers use the same leaf icon regardless
   of category.)
+- `morphotype` — derived botanical morphotype shown below Type in the panel, as a
+  full name (Narrow-Leaf Drug / Broad-Leaf Drug / Narrow-Leaf Hemp / Broad-Leaf Hemp
+  / Ruderalis) with its definition in a tooltip. Mapped from category/type/region
+  (Sativa→NLD, Indica→BLD, Ruderalis→Ruderalis, Hemp→NLH or BLH; intermediate/feral/
+  mixed mapping TBD with the user).
+- `chemotype` — derived cannabinoid profile shown below Morphotype, with a fuller
+  description in a tooltip: Chemotype I (THC-dominant), II (balanced 1:1), III
+  (CBD-dominant), IV (CBG-dominant), V (cannabinoid-free / fiber-seed hemp). Inferred
+  (no lab data) and hedged; default assumptions (e.g. drug landraces → I, hemp → V)
+  confirmed with the user.
 - `height` — plant height descriptor as given (e.g. "Short", "Tall (2–4m)",
   "Very tall"). Shown in the traits list.
 - `flowering` — flowering-time descriptor as given (e.g. "7–9w", "Variable").
   Shown in the traits list.
-- `climate` — climate/habitat descriptor as given (e.g. "Cold arid mountain").
-  Shown in the traits list.
+- `climate` — climate/habitat descriptor. Normalized to a consistent controlled
+  vocabulary for clean display and sensible facet grouping; the original full
+  descriptor is preserved (kept in data and/or moved to the Description) so no detail
+  is lost.
 - `summary` — the curated description, sourced from the `Notes:` line in the raw
   data; will be expanded during enrichment.
 - `links[]` — empty in this first dataset; populated during enrichment. Each link
@@ -254,9 +273,20 @@ space below it.
 
 ### Top ribbon
 
-- Spans the full viewport width: site title/wordmark ("The Cannabis Landrace Atlas")
-  on the left, search box (with autocomplete) in the center/right, and a **Submit**
-  button at the far right.
+- Spans the full viewport width: a **hamburger (☰) menu** in the top-left corner, then
+  the site title/wordmark ("The Cannabis Landrace Atlas"), the search box (with
+  autocomplete) in the center/right, and a **Suggest Additions** button at the far right.
+- **Hamburger menu** items: **About** (standard about box, placeholder for now),
+  **Index** (a browsable index grouped by facet — e.g. a "Type" H1 with category H2s
+  Sativa/Indica/Ruderalis/Hybrid-Intermediate/Hemp/Feral/Mixed, each listing the
+  matching varieties as clickable links), **References** (the global foundational
+  reference list — Clarke & Merlin 2013; Clarke 1998; Overgrow data credit — moved here
+  out of the per-strain panels), and **License** (MIT code / CC BY-SA 4.0 data).
+
+The general foundational references live ONLY on the global References screen. A
+strain's own References section holds only strain-specific sources (its matched
+seed-vendor listing, where present); the section "sources" footnote markers link to
+the global References screen.
 - The **Submit** button covers feature requests, bug reports, and strain additions.
   For now it opens a small modal explaining that submissions will be available once
   the project's public GitHub repo exists; later it links to pre-filled GitHub issue
@@ -284,17 +314,32 @@ space below it.
 
 1. Name + region/country header.
 2. Type badge.
-3. Quick facts (small definition list: type, height, flowering, climate, region;
-   plus an "approximate location" note when `coordsApproximate`).
+3. Quick facts (small definition list): **AKA** (alternate names, when known — see
+   `aka` field), then Type, Height, Flowering, Climate, Region; plus an "approximate
+   location" note when `coordsApproximate`. The **Type, Height, Climate, and Region**
+   values are **clickable facets**: clicking lists all varieties matching that value
+   (each a link that opens the strain). When a value contains a slash (e.g.
+   "Middle East / Central Asia"), each part is a separate clickable facet.
 4. **Markdown write-up** — fetched from `data/writeups/<id>.md` and rendered to HTML.
-   Sections: Overview, History, Description, Grow Information, then Photos, Seed
-   Sources, Forum Discussions, References. While loading, a quiet placeholder shows;
-   if the file is missing, "Write-up pending" shows in place of the write-up.
+   Sections: Overview, History, Description, Grow Information; then **exploration
+   cross-links** — *Nearby Varieties* (closest by distance), *Regional Varieties*
+   (same continent), *Similar Varieties* (same category), each a list of links that
+   open the strain; then Photos, Seed Sources, Forum Discussions (each with a **+**
+   button to submit additions), and a **Sources** section holding only this strain's
+   specific sources (e.g. its matched seed-vendor listing). The general foundational
+   references live on the global References screen (hamburger), not here. A section
+   "sources" footnote marker appears after Overview/History/Description **only when a
+   real source exists** for that strain — never on general AI-drafted prose. While
+   loading, a quiet placeholder shows; if the file is missing, "Write-up pending" shows.
 5. Any structured `links[]` (from enrichment): `embed: true` → inline iframe with a
    caption + fallback link; `embed: false` → outbound link (new tab).
-6. **Bottom submit button** — "Suggest a correction / add forum & seed links" for
-   this strain. Like the ribbon button, it is a placeholder (opens the same kind of
-   modal) until the GitHub repo exists, then opens a pre-filled per-strain issue.
+6. **Bottom submit button** — "Suggest Corrections" for this strain. Like the ribbon
+   button, it is a placeholder (opens a modal) until the GitHub repo exists, then
+   opens a pre-filled per-strain issue.
+
+The faceted-filter and exploration cross-link logic is pure (`js/search.js`-style)
+and lives in `js/relations.js` (tested). The clickable facets and per-section "+"
+buttons reuse the same modal as the submit flow (a list modal for facets).
 
 ### Search & autocomplete
 

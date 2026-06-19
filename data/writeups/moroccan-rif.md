@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Moroccan Rif is an indica cannabis landrace from the Rif Mountains of northern Morocco — the primary hashish-producing region of the country and one of the most important cannabis-cultivating zones in the Mediterranean world. The Rif cannabis population has been shaped by centuries of hashish cultivation by Berber communities, resulting in a medium-height, early-finishing indica type strongly associated with kif and pressed Moroccan hashish.
@@ -16,18 +16,13 @@ The Rif Mountains have hosted cannabis cultivation for many centuries, with loca
 Adapted to the Mediterranean mountain climate of the Moroccan Rif — hot, dry summers with cooler, sometimes wet winters at elevation. Flowering typically runs 8–10 weeks, making it an early finisher well-suited to Mediterranean and temperate-dry outdoor environments. Drought tolerance is characteristic. Dense flower structure is susceptible to botrytis in high-humidity climates outside the native zone. A reliable outdoor performer in dry, warm conditions.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

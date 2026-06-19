@@ -117,6 +117,12 @@ const SUBNATIONAL_RULES = [
   [/russian far east|sea of japan coast/,         { lat: 45.0, lng: 135.0 }],
   // USA
   [/\balaska\b|\balaskan\b/,                      { lat: 64.2, lng: -149.5 }],
+  // Hawaiian islands (more specific than the generic Hawaii centroid; must come first)
+  [/\bkona\b|big island|\bvolcano\b/,             { lat: 19.6, lng: -155.5 }],
+  [/\bkauai\b/,                                   { lat: 22.05, lng: -159.5 }],
+  [/moloka/,                                      { lat: 21.13, lng: -157.02 }],
+  [/\bmaui\b/,                                    { lat: 20.8, lng: -156.33 }],
+  [/\boahu\b/,                                    { lat: 21.46, lng: -157.97 }],
   [/\bhawaii\b|\bhawaiian\b/,                     { lat: 20.8, lng: -156.3 }],
   [/\bappalachia\b|\bappalachian\b/,              { lat: 37.5, lng: -81.0 }],
   [/california.*heirloom|\bcalifornia\b/,         { lat: 37.0, lng: -120.0 }],
@@ -259,7 +265,7 @@ export function jitter(seed) {
   }
   const a = ((h >>> 0) % 1000) / 1000;      // 0..1
   const b = (((h >>> 10) >>> 0) % 1000) / 1000;
-  return { dLat: (a - 0.5) * 1.0, dLng: (b - 0.5) * 1.0 }; // ±0.5°
+  return { dLat: (a - 0.5) * 0.6, dLng: (b - 0.5) * 0.6 }; // ±0.3°
 }
 
 // Optional per-region overrides keyed by an exact regionRaw or name string.

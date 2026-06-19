@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Tirah Valley is a resin-heavy indica landrace from the Tirah Valley of Pakistan, a remote mountainous area in the Khyber tribal region west of Peshawar, bordering Afghanistan's Nangarhar Province. Tirah is one of the most historically isolated regions of the Hindu Kush foothills — a rugged, densely forested valley traditionally governed by the Afridi and Orakzai Pashtun tribes. Its isolation and proximity to the Afghanistan border place it within the broader Afghan-Pakistani indica cannabis zone.
@@ -16,18 +16,13 @@ Cannabis cultivation in the Tirah Valley is commonly associated with traditional
 The Tirah Valley occupies a mountain tribal climate — a transitional zone between the dry, arid conditions of the Afghan plains and the wetter monsoon-influenced areas further east in Pakistan. Cannabis here is adapted to a relatively dry but variable mountain environment. Flowering is typically reported at 8–10 weeks. The resinous character and compact stature of this population are traits associated with selection pressure for hash production across generations. Low humidity tolerance is expected; the valley's terrain promotes good drainage and airflow around plants.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

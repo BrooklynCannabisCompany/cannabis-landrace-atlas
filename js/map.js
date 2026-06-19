@@ -14,10 +14,13 @@ const LEAF_ICON = L.icon({
   className: 'leaf-marker'
 });
 
-export function createMap(elementId, worldGeoJson) {
+const INITIAL_VIEW = { center: [20, 10], zoom: 2 };
+
+// `onReset` (optional) runs after the view resets — e.g. to close the panel.
+export function createMap(elementId, worldGeoJson, onReset) {
   const map = L.map(elementId, {
-    center: [20, 10],
-    zoom: 2,
+    center: INITIAL_VIEW.center,
+    zoom: INITIAL_VIEW.zoom,
     minZoom: 2,
     maxZoom: 7,
     worldCopyJump: true,
@@ -34,6 +37,29 @@ export function createMap(elementId, worldGeoJson) {
     },
     interactive: false
   }).addTo(map);
+
+  // Reset-view control: same-size icon button stacked below the +/- zoom buttons.
+  const ResetControl = L.Control.extend({
+    options: { position: 'topleft' },
+    onAdd() {
+      const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control reset-control');
+      const link = L.DomUtil.create('a', '', container);
+      link.href = '#';
+      link.title = 'Reset view';
+      link.setAttribute('role', 'button');
+      link.setAttribute('aria-label', 'Reset map to the whole world');
+      link.innerHTML =
+        '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">' +
+        '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg>';
+      L.DomEvent.on(link, 'click', L.DomEvent.stop);
+      L.DomEvent.on(link, 'click', () => {
+        map.setView(INITIAL_VIEW.center, INITIAL_VIEW.zoom);
+        if (typeof onReset === 'function') onReset();
+      });
+      return container;
+    }
+  });
+  map.addControl(new ResetControl());
 
   return map;
 }

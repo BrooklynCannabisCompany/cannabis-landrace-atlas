@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Nuristan is an indica cannabis landrace from Nuristan Province in northeastern Afghanistan — a remote, heavily forested mountainous region in the Hindu Kush system bordering Pakistan's Chitral district. Nuristan is one of Afghanistan's most geographically isolated and culturally distinct provinces, and its cannabis population is associated with the wild Hindu Kush lineage that has long been considered foundational to classic indica genetics.
@@ -16,18 +16,13 @@ Nuristan's isolation — deep river gorges, dense conifer forests, and limited r
 Adapted to the forested mountain climate of Nuristan — cooler and wetter than most of Afghanistan, with significant snowfall at altitude and a shorter growing season than southern Afghan provinces. Flowering runs 8–10 weeks. The forested environment may confer some tolerance to humidity relative to desert Afghan types, though specific performance data is limited. Cold hardiness is expected given the high-elevation native habitat. Well-suited to mountain or highland outdoor environments.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

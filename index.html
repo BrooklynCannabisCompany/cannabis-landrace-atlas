@@ -11,13 +11,20 @@
   </head>
   <body class="panel-closed">
     <header class="ribbon">
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-haspopup="true" aria-expanded="false">☰</button>
+      <nav id="app-menu" class="app-menu" hidden>
+        <button type="button" class="app-menu-item" data-menu="about">About</button>
+        <button type="button" class="app-menu-item" data-menu="index">Index</button>
+        <button type="button" class="app-menu-item" data-menu="references">References</button>
+        <button type="button" class="app-menu-item" data-menu="license">License</button>
+      </nav>
       <div class="wordmark">The Cannabis Landrace Atlas</div>
       <div class="search">
         <input id="search-input" type="search" autocomplete="off" spellcheck="false"
                placeholder="Search strains, regions, countries…" aria-label="Search landraces" />
         <ul id="search-results" class="search-results" role="listbox" hidden></ul>
       </div>
-      <button id="submit-btn" class="submit-btn" type="button">Contribute</button>
+      <button id="submit-btn" class="submit-btn" type="button">Suggest Additions</button>
     </header>
 
     <main class="layout">

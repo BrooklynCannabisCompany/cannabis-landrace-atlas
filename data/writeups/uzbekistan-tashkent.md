@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Uzbekistan Tashkent is a Central Asian intermediate landrace from the Tashkent Region of Uzbekistan, associated with the capital city and its surrounding fertile agricultural zone in the foothills of the western Tian Shan. Tashkent sits at the crossroads of the Fergana Valley and the broader Uzbek steppe, historically one of the most important Central Asian cities on the Silk Road and a major hub connecting Afghan, Kazakh, and Chinese cannabis populations.
@@ -16,18 +16,13 @@ Cannabis cultivation in the Tashkent region reflects Uzbekistan's long position 
 The Tashkent Region experiences an irrigated continental steppe climate: hot, dry summers reaching 35–40°C, cold winters, and moderate precipitation supplemented by Chirchiq River irrigation. Cannabis here is adapted to warm-season cultivation with good soil fertility. Flowering is typically reported at 9–13 weeks. The intermediate character of this population makes it adaptable to a range of growing conditions between pure indica and pure sativa regimens. Its Silk Road heritage suggests broad genetic heterogeneity and potential for interesting phenotypic variation.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

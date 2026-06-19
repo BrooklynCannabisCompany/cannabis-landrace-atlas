@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 
@@ -17,6 +17,8 @@ Deep Chunk is associated in grower accounts with Tom Hill, an American cannabis 
 - **Resin:** Extremely high; this is the characteristic for which Deep Chunk is most widely celebrated in breeding literature
 - The hash-producing heritage of this selection is reflected in both its resin expression and its dense, resin-coated bud structure.
 
+_Recorded locality detail: South-Central Asia._
+
 ## Grow Information
 
 - **Climate:** Adapted to the arid mountain valley conditions of the Hindu Kush — hot days, cold nights, low humidity, and intense UV; performs well under similar conditions but has been grown successfully across a wide range of environments in its time in Western cultivation
@@ -27,20 +29,15 @@ Deep Chunk is associated in grower accounts with Tom Hill, an American cannabis 
 
 ## Photos
 
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
 
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
 
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._
