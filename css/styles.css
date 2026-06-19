@@ -25,13 +25,14 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   padding: 0 20px;
   background: var(--paper);
   border-bottom: 1px solid var(--line);
-  position: relative; z-index: 1000;
+  position: relative; z-index: 1500; /* above Leaflet controls (z-index 1000) */
 }
 .wordmark {
   font-family: var(--serif); font-size: 20px; letter-spacing: 0.02em;
   color: var(--ink); white-space: nowrap; flex: 0 0 auto;
 }
-.search { position: relative; flex: 1 1 auto; max-width: 420px; margin: 0 auto; }
+.search-group { display: flex; align-items: center; gap: 8px; flex: 1 1 auto; max-width: 440px; margin: 0 auto; }
+.search { position: relative; flex: 1 1 auto; }
 #search-input {
   width: 100%; padding: 9px 12px; font-size: 14px; font-family: var(--sans);
   color: var(--ink); background: #fff;
@@ -73,9 +74,48 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
 .modal-dl dt { color: var(--muted); } .modal-dl dd { margin: 0; }
 .modal-refs { padding-left: 18px; font-size: 14px; line-height: 1.5; margin: 8px 0; }
 .modal-refs a { color: var(--green-dark); }
-.index-h1 { font-family: var(--serif); font-size: 18px; margin: 10px 0 4px; }
-.index-h2 { font-family: var(--serif); font-size: 15px; margin: 14px 0 4px; color: var(--green-dark); }
-.index-list { font-size: 14px; line-height: 1.75; margin: 0 0 6px; }
+.index-facet { margin: 2px 0; border-top: 1px solid var(--line); padding-top: 4px; }
+summary.index-h1 { font-family: var(--serif); font-size: 17px; cursor: pointer; padding: 4px 0; }
+.index-group { margin: 2px 0 2px 16px; }
+summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; padding: 3px 0; }
+.index-list { font-size: 14px; line-height: 1.5; margin: 2px 0 8px 18px; }
+.index-variety {
+  display: block; width: 100%; text-align: left; background: none; border: none;
+  padding: 3px 0; font: inherit; font-size: 14px; color: var(--green-dark); cursor: pointer;
+}
+.index-variety:hover { text-decoration: underline; }
+
+/* Range-slider facets (Height, Flowering Time) in the Index */
+.slider-facet { margin: 6px 0 6px 16px; }
+.height-range-label { font-size: 13px; color: var(--green-dark); margin: 2px 0 6px; }
+.dual-slider { position: relative; height: 28px; margin: 2px 8px 6px 4px; }
+.ds-track { position: absolute; top: 12px; left: 0; right: 0; height: 4px; background: var(--line); border-radius: 2px; }
+.ds-fill { position: absolute; top: 0; bottom: 0; background: var(--green); border-radius: 2px; }
+.ds-input {
+  position: absolute; top: 0; left: 0; width: 100%; height: 28px; margin: 0;
+  background: none; pointer-events: none; -webkit-appearance: none; appearance: none;
+}
+.ds-input::-webkit-slider-thumb {
+  -webkit-appearance: none; pointer-events: auto; width: 16px; height: 16px;
+  border-radius: 50%; background: #fff; border: 2px solid var(--green); cursor: pointer;
+}
+.ds-input::-moz-range-thumb {
+  pointer-events: auto; width: 16px; height: 16px; border-radius: 50%;
+  background: #fff; border: 2px solid var(--green); cursor: pointer;
+}
+.ds-input::-webkit-slider-runnable-track { background: none; height: 28px; }
+.ds-input::-moz-range-track { background: none; }
+
+/* Ribbon icon button (Index) */
+.icon-btn {
+  flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center;
+  background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px;
+  cursor: pointer; color: var(--ink);
+}
+.icon-btn:hover { border-color: var(--green); background: #eef0e9; color: var(--green-dark); }
+
+/* Index-heading search results */
+.search-result.search-heading { color: var(--green-dark); font-size: 13px; font-style: italic; }
 
 .search-results {
   list-style: none; margin: 4px 0 0; padding: 4px;
@@ -121,6 +161,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   padding: 3px 9px; border-radius: 999px;
   background: #eef0e9; color: var(--green-dark); border: 1px solid #d6ddcf;
 }
+.facet-badge { font-family: inherit; cursor: pointer; }
+.facet-badge:hover { background: var(--green); color: #fff; border-color: var(--green); }
 .panel-traits { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0; font-size: 14px; }
 .panel-traits dt { color: var(--muted); }
 .panel-traits dd { margin: 0; }
@@ -205,6 +247,23 @@ sup.fnref button {
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
 .leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
+
+/* Selected variety: inverted (white) leaf in a purple circle */
+.leaf-marker-selected { background: none; border: none; }
+.leaf-marker-selected .sel-leaf {
+  display: flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: #6b3fa0; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+.leaf-marker-selected img { filter: brightness(0) invert(1); }
+
+/* Marker name tooltip — match the paper/ink palette */
+.leaflet-tooltip {
+  background: var(--paper); color: var(--ink); border: 1px solid var(--line);
+  font-family: var(--sans); font-size: 12px; padding: 3px 7px; border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+.leaflet-tooltip-top::before { border-top-color: var(--line); }
 
 /* ---- Modal ---- */
 .modal { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; }

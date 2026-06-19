@@ -14,6 +14,21 @@ const LEAF_ICON = L.icon({
   className: 'leaf-marker'
 });
 
+// Highlighted icon for the currently selected variety: the leaf inverted (white)
+// inside a purple circle.
+const SELECTED_ICON = L.divIcon({
+  html: '<span class="sel-leaf"><img src="assets/leaf.svg" alt="" width="16" height="20"></span>',
+  className: 'leaf-marker-selected',
+  iconSize: [30, 30],
+  iconAnchor: [15, 27],
+  popupAnchor: [0, -26]
+});
+
+// Toggles the selected (purple, inverted) highlight on a marker.
+export function setMarkerSelected(marker, on) {
+  if (marker) marker.setIcon(on ? SELECTED_ICON : LEAF_ICON);
+}
+
 const INITIAL_VIEW = { center: [20, 10], zoom: 2 };
 
 // `onReset` (optional) runs after the view resets — e.g. to close the panel.
@@ -71,6 +86,7 @@ export function addMarkers(map, strains, onSelect) {
   for (const s of strains) {
     if (s.lat === null || s.lng === null || typeof s.lat !== 'number') continue;
     const marker = L.marker([s.lat, s.lng], { icon: LEAF_ICON, title: s.name });
+    marker.bindTooltip(s.name, { direction: 'top', offset: [0, -26] });
     marker.on('click', () => onSelect(s));
     marker.addTo(map);
     byId.set(s.id, marker);

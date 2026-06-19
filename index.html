@@ -19,10 +19,17 @@
         <button type="button" class="app-menu-item" data-menu="license">License</button>
       </nav>
       <div class="wordmark">The Cannabis Landrace Atlas</div>
-      <div class="search">
-        <input id="search-input" type="search" autocomplete="off" spellcheck="false"
-               placeholder="Search strains, regions, countries…" aria-label="Search landraces" />
-        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+      <div class="search-group">
+        <button id="index-btn" class="icon-btn" type="button" aria-label="Open index" title="Index">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
+          </svg>
+        </button>
+        <div class="search">
+          <input id="search-input" type="search" autocomplete="off" spellcheck="false"
+                 placeholder="Search strains, regions, countries…" aria-label="Search landraces" />
+          <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+        </div>
       </div>
       <button id="submit-btn" class="submit-btn" type="button">Suggest Additions</button>
     </header>

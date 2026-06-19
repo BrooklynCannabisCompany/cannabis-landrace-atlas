@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-import { createMap, addMarkers, flyToStrain } from './map.js';
+import { createMap, addMarkers, flyToStrain, setMarkerSelected } from './map.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -16,14 +16,18 @@ const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
 const menuBtn = document.getElementById('menu-btn');
 const appMenu = document.getElementById('app-menu');
+const indexBtn = document.getElementById('index-btn');
 
 let strains = [];
 let map = null;
+let markersById = new Map();
 let currentId = null;
 
 // ---- Panel ----
 function openPanel(strain) {
+  if (currentId) setMarkerSelected(markersById.get(currentId), false); // clear previous highlight
   currentId = strain.id;
+  setMarkerSelected(markersById.get(strain.id), true);
   renderStrain(panel, strain, { onClose: closePanel, onSubmit: openStrainSubmit, onFacet: openFacet });
   document.body.classList.remove('panel-closed');
   document.body.classList.add('panel-open');
@@ -33,6 +37,7 @@ function openPanel(strain) {
 }
 
 function closePanel() {
+  if (currentId) setMarkerSelected(markersById.get(currentId), false);
   currentId = null;
   document.body.classList.remove('panel-open');
   document.body.classList.add('panel-closed');
@@ -67,7 +72,7 @@ function wireDisclaimer(strain) {
 }
 
 // Adds a "+" submit button beside the link-collecting write-up sections.
-const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'Sources'];
+const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'References'];
 function decorateWriteupSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
     const label = h.textContent.trim();
@@ -94,7 +99,7 @@ function addFootnotes(strain) {
   const writeup = panel.querySelector('.writeup');
   if (!writeup) return;
   const heads = [...writeup.querySelectorAll('h2')];
-  const srcH = heads.find((h) => headText(h) === 'Sources');
+  const srcH = heads.find((h) => headText(h) === 'References');
   if (!srcH) return;
 
   for (const label of ['Overview', 'History', 'Description']) {
@@ -125,7 +130,7 @@ const SECTION_DATA = {
   'Photos': (s) => (s.photos || []).map((url) => ({ img: url })),
   'Seed Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })),
   'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url })),
-  'Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
+  'References': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
 };
 function fillLinkSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
@@ -195,15 +200,17 @@ function insertRelated(strain) {
 }
 
 // ---- Facet filter list ----
+const EXACT_FACET_FIELDS = ['category', 'morphotype', 'chemotype', 'domestication'];
 function openFacet(field, token) {
   let matches;
-  if (field === 'category') {
-    matches = strains.filter((s) => s.category === token); // exact category match
+  if (EXACT_FACET_FIELDS.includes(field)) {
+    matches = strains.filter((s) => s[field] === token);
   } else {
     const t = token.toLowerCase();
     matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
   }
-  openListModal(`${token} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
+  const title = field === 'chemotype' ? `Chemotype ${token}` : token;
+  openListModal(`${title} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
 }
 
 function openListModal(title, list) {
@@ -229,15 +236,30 @@ function openListModal(title, list) {
 }
 
 // ---- Search ----
-function showResults(items) {
+function renderSearch(query) {
+  showResults(matchHeadings(query), filterStrains(query, strains));
+}
+
+function showResults(headings, items) {
   resultsList.innerHTML = '';
-  if (!items.length) {
+  if (!headings.length && !items.length) {
     const li = document.createElement('li');
     li.className = 'search-empty';
     li.textContent = 'No matches';
     resultsList.appendChild(li);
     resultsList.hidden = false;
     return;
+  }
+  for (const h of headings) {
+    const li = document.createElement('li');
+    li.className = 'search-result search-heading';
+    li.setAttribute('role', 'option');
+    li.tabIndex = 0;
+    li.textContent = h.value ? `Index › ${h.facet} › ${h.value}` : `Index › ${h.facet}`;
+    const go = () => { hideResults(); openIndex({ facet: h.facet, value: h.value }); };
+    li.addEventListener('click', go);
+    li.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
+    resultsList.appendChild(li);
   }
   for (const s of items) {
     const li = document.createElement('li');
@@ -267,8 +289,18 @@ function selectStrain(s) {
   openPanel(s);
 }
 
-input.addEventListener('input', () => showResults(filterStrains(input.value, strains)));
-input.addEventListener('focus', () => { if (input.value.trim()) showResults(filterStrains(input.value, strains)); });
+input.addEventListener('input', () => renderSearch(input.value));
+input.addEventListener('focus', () => { if (input.value.trim()) renderSearch(input.value); });
+// Enter: if the query exactly matches an Index heading, jump there; else open the top strain.
+input.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  const q = input.value.trim();
+  if (!q) return;
+  const exact = matchHeadings(q).find((h) => h.text.toLowerCase() === q.toLowerCase());
+  if (exact) { hideResults(); openIndex({ facet: exact.facet, value: exact.value }); return; }
+  const sm = filterStrains(q, strains);
+  if (sm.length) selectStrain(sm[0]);
+});
 
 // ---- Submit modal (placeholder; no network) ----
 function openModal(title, body) {
@@ -298,6 +330,7 @@ function openSectionSubmit(strain, section) {
 }
 
 submitBtn.addEventListener('click', openFeedbackSubmit);
+indexBtn.addEventListener('click', () => openIndex());
 modal.addEventListener('click', (e) => { if (e.target.hasAttribute('data-close')) closeModal(); });
 
 // ---- Hamburger menu ----
@@ -371,33 +404,201 @@ function openReferences() {
   });
 }
 
-function openIndex() {
+// Index facets: [label, record field, optional value formatter].
+const INDEX_FACETS = [
+  ['Morphotype', 'morphotype'],
+  ['Chemotype', 'chemotype', (v) => `Type ${v}`],
+  ['Domestication', 'domestication'],
+  ['Type (vernacular)', 'category'],
+  ['Height', 'height'],
+  ['Flowering Time', 'flowering'],
+  ['Climate', 'climate'],
+  ['Region', 'continent']
+];
+const INDEX_STATE_KEY = 'cla-index-state';
+function loadIndexState() { try { return JSON.parse(localStorage.getItem(INDEX_STATE_KEY)) || {}; } catch { return {}; } }
+function saveIndexState(st) { try { localStorage.setItem(INDEX_STATE_KEY, JSON.stringify(st)); } catch { /* ignore */ } }
+
+// Ordinal height scale for the Height slider.
+const HEIGHT_SCALE = ['Short', 'Medium-short', 'Medium', 'Medium-tall', 'Tall', 'Very tall', 'Extremely tall'];
+function heightRank(h) {
+  const t = (h || '').toLowerCase();
+  if (/extremely/.test(t)) return 6;
+  if (/very tall/.test(t)) return 5;
+  if (/medium-tall|medium tall/.test(t)) return 3;
+  if (/short-medium|medium-short|medium short/.test(t)) return 1;
+  if (/\btall\b/.test(t)) return 4;
+  if (/\bmedium\b/.test(t)) return 2;
+  if (/\bshort\b/.test(t)) return 0;
+  return -1; // variable / unknown
+}
+
+// One-variety-per-line list of links.
+function varietyLineList(list) {
+  const wrap = document.createElement('div');
+  wrap.className = 'index-list';
+  list.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach((s) => {
+    const btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'index-variety'; btn.textContent = s.name;
+    btn.addEventListener('click', () => { closeModal(); openPanel(s); });
+    wrap.appendChild(btn);
+  });
+  return wrap;
+}
+
+// A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).
+function makeDualSlider(absMin, absMax, onChange) {
+  const wrap = document.createElement('div');
+  wrap.className = 'dual-slider';
+  const track = document.createElement('div'); track.className = 'ds-track';
+  const fill = document.createElement('div'); fill.className = 'ds-fill';
+  track.appendChild(fill);
+  const lo = document.createElement('input');
+  lo.type = 'range'; lo.min = absMin; lo.max = absMax; lo.value = absMin; lo.className = 'ds-input';
+  lo.setAttribute('aria-label', 'Minimum');
+  const hi = document.createElement('input');
+  hi.type = 'range'; hi.min = absMin; hi.max = absMax; hi.value = absMax; hi.className = 'ds-input';
+  hi.setAttribute('aria-label', 'Maximum');
+  const span = absMax - absMin || 1;
+  const pct = (v) => ((v - absMin) / span) * 100;
+  function update() {
+    let l = +lo.value; let h = +hi.value;
+    if (l > h) { // prevent crossing
+      if (document.activeElement === lo) { l = h; lo.value = l; } else { h = l; hi.value = h; }
+    }
+    fill.style.left = `${pct(l)}%`;
+    fill.style.right = `${100 - pct(h)}%`;
+    onChange(l, h);
+  }
+  lo.addEventListener('input', update);
+  hi.addEventListener('input', update);
+  wrap.append(track, lo, hi);
+  return { wrap, update };
+}
+
+// Height facet: single-bar dual-thumb slider over the ordinal scale + live list.
+function buildHeightSlider(facet) {
+  const ranked = strains.map((s) => ({ s, r: heightRank(s.height) })).filter((x) => x.r >= 0);
+  const box = document.createElement('div'); box.className = 'slider-facet';
+  const label = document.createElement('div'); label.className = 'height-range-label';
+  const listHost = document.createElement('div');
+  const ds = makeDualSlider(0, HEIGHT_SCALE.length - 1, (lo, hi) => {
+    label.textContent = `${HEIGHT_SCALE[lo]} – ${HEIGHT_SCALE[hi]}`;
+    const matched = ranked.filter((x) => x.r >= lo && x.r <= hi).map((x) => x.s);
+    listHost.innerHTML = '';
+    const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
+    listHost.append(count, varietyLineList(matched));
+  });
+  box.append(label, ds.wrap, listHost);
+  facet.appendChild(box);
+  ds.update();
+}
+
+// Parse a flowering descriptor into a week range, or null.
+function floweringWeeks(f) {
+  const r = String(f || '').match(/(\d+)\s*[–-]\s*(\d+)/);
+  if (r) return { min: +r[1], max: +r[2] };
+  const s = String(f || '').match(/(\d+)\s*w/i);
+  if (s) return { min: +s[1], max: +s[1] };
+  return null;
+}
+
+// Flowering Time facet: weeks dual-thumb slider; lists varieties whose range overlaps.
+function buildFloweringSlider(facet) {
+  const ranged = strains.map((s) => ({ s, w: floweringWeeks(s.flowering) })).filter((x) => x.w);
+  const absMin = Math.min(...ranged.map((x) => x.w.min));
+  const absMax = Math.max(...ranged.map((x) => x.w.max));
+  const box = document.createElement('div'); box.className = 'slider-facet';
+  const label = document.createElement('div'); label.className = 'height-range-label';
+  const listHost = document.createElement('div');
+  const ds = makeDualSlider(absMin, absMax, (lo, hi) => {
+    label.textContent = `${lo}–${hi} weeks`;
+    const matched = ranged.filter((x) => x.w.min <= hi && x.w.max >= lo).map((x) => x.s);
+    listHost.innerHTML = '';
+    const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
+    listHost.append(count, varietyLineList(matched));
+  });
+  box.append(label, ds.wrap, listHost);
+  facet.appendChild(box);
+  ds.update();
+}
+
+// Collapsible value groups (one-per-line lists), with persisted open state.
+function buildValueGroups(facet, label, field, fmt, target, state) {
+  const groups = {};
+  for (const s of strains) {
+    const v = (s[field] || '').toString().trim() || '—';
+    (groups[v] ||= []).push(s);
+  }
+  for (const v of Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length)) {
+    const g = document.createElement('details');
+    g.className = 'index-group';
+    const key = `group:${label}::${v}`;
+    g.open = target ? (target.facet === label && target.value === v) : !!state[key];
+    if (target && target.facet === label && target.value === v) g.dataset.scrollTarget = '1';
+    const gsum = document.createElement('summary');
+    gsum.className = 'index-h2';
+    gsum.textContent = `${fmt ? fmt(v) : v} (${groups[v].length})`;
+    g.appendChild(gsum);
+    g.appendChild(varietyLineList(groups[v]));
+    if (!target) g.addEventListener('toggle', () => { const s = loadIndexState(); s[key] = g.open; saveIndexState(s); });
+    facet.appendChild(g);
+  }
+}
+
+// Opens the Index. `target` = { facet, value } forces only that heading open (others folded).
+function openIndex(target) {
   openContentModal('Index', (body) => {
-    const intro = document.createElement('p');
-    intro.className = 'modal-note';
-    intro.textContent = 'Browse all varieties by type — select one to open it.';
-    const h1 = document.createElement('h2');
-    h1.className = 'index-h1';
-    h1.textContent = 'Type';
-    body.append(intro, h1);
-    const byCat = {};
-    for (const s of strains) (byCat[s.category] ||= []).push(s);
-    for (const cat of Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length)) {
-      const h = document.createElement('h3');
-      h.className = 'index-h2';
-      h.textContent = `${cat} (${byCat[cat].length})`;
-      const p = document.createElement('p');
-      p.className = 'index-list';
-      byCat[cat].sort((a, b) => a.name.localeCompare(b.name)).forEach((s, i) => {
-        if (i > 0) p.appendChild(document.createTextNode(', '));
-        const btn = document.createElement('button');
-        btn.type = 'button'; btn.className = 'related-link'; btn.textContent = s.name;
-        btn.addEventListener('click', () => { closeModal(); openPanel(s); });
-        p.appendChild(btn);
-      });
-      body.append(h, p);
+    const state = target ? {} : loadIndexState();
+    INDEX_FACETS.forEach(([label, field, fmt]) => {
+      const facet = document.createElement('details');
+      facet.className = 'index-facet';
+      const fkey = `facet:${label}`;
+      facet.open = target ? (target.facet === label) : !!state[fkey];
+      if (target && target.facet === label && !target.value) facet.dataset.scrollTarget = '1';
+      const fsum = document.createElement('summary');
+      fsum.className = 'index-h1';
+      fsum.textContent = label;
+      facet.appendChild(fsum);
+      if (label === 'Height') buildHeightSlider(facet);
+      else if (label === 'Flowering Time') buildFloweringSlider(facet);
+      else buildValueGroups(facet, label, field, fmt, target, state);
+      if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
+      body.appendChild(facet);
+    });
+    if (target) {
+      const tEl = body.querySelector('[data-scroll-target]');
+      if (tEl) requestAnimationFrame(() => tEl.scrollIntoView({ block: 'start' }));
     }
   });
+}
+
+// ---- Index heading search (jump to a facet/value) ----
+let headingEntriesCache = null;
+function headingEntries() {
+  if (headingEntriesCache) return headingEntriesCache;
+  const entries = [];
+  for (const [label, field, fmt] of INDEX_FACETS) {
+    entries.push({ facet: label, value: null, text: label });
+    const vals = new Set();
+    for (const s of strains) { const v = (s[field] || '').toString().trim(); if (v) vals.add(v); }
+    for (const v of vals) entries.push({ facet: label, value: v, text: fmt ? fmt(v) : v });
+  }
+  headingEntriesCache = entries;
+  return entries;
+}
+function matchHeadings(q) {
+  const t = q.trim().toLowerCase();
+  if (!t) return [];
+  const scored = [];
+  for (const e of headingEntries()) {
+    const lt = e.text.toLowerCase();
+    if (lt === t) scored.push({ e, s: 0 });
+    else if (lt.startsWith(t)) scored.push({ e, s: 1 });
+    else if (lt.includes(t)) scored.push({ e, s: 2 });
+  }
+  scored.sort((a, b) => a.s - b.s);
+  return scored.slice(0, 5).map((x) => x.e);
 }
 
 // ---- Global keys / outside click ----
@@ -422,7 +623,7 @@ async function boot() {
     ]);
     strains = data;
     map = createMap('map', world, closePanel);
-    addMarkers(map, strains, openPanel);
+    markersById = addMarkers(map, strains, openPanel);
   } catch (err) {
     document.getElementById('map').innerHTML = '<div class="map-error">Unable to load map data.</div>';
     console.error('The Cannabis Landrace Atlas failed to load:', err);

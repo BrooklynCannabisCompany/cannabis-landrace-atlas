@@ -45,6 +45,24 @@ function facetRow(dl, label, field, value, onFacet, title, facetToken) {
   dl.appendChild(dd);
 }
 
+// Tooltip definitions for the botanical classifications.
+const MORPHOTYPE_DEF = {
+  'Narrow-Leaf Drug': 'Historically called "Sativa." From hot, humid regions (India, Africa, Central America). Tall, long flowering cycles, thin narrow leaflets.',
+  'Broad-Leaf Drug': 'Historically called "Indica." From cooler, mountainous regions (Afghanistan, Pakistan). Short and bushy, matures quickly, wide leaflets.',
+  'Narrow-Leaf Hemp': 'Traditional industrial hemp (Europe/Asia) grown for fiber and seed. Very tall, narrow leaves, almost no THC.',
+  'Broad-Leaf Hemp': 'Eastern-Asian broad-leaf hemp, used for fiber and seed rather than intoxicating effect.',
+  'Ruderalis (wild-type)': 'Short, auto-flowering wild cannabis (Eastern Europe/Russia). Low THC, aggressively cold-adapted; a feral/wild morphotype.',
+  'Intermediate (NLD–BLD)': 'Intermediate between narrow-leaf and broad-leaf drug types.',
+  'Unclassified': 'Leaf/biotype not determinable from the available records.'
+};
+const CHEMOTYPE_DEF = {
+  I: 'Type I — THC-dominant (THC ≫ CBD). High psychoactivity; intoxicating, euphoric, or relaxing depending on terpenes.',
+  II: 'Type II — Balanced ~1:1 THC:CBD. Mild psychoactivity; high therapeutic value with reduced impairment.',
+  III: 'Type III — CBD-dominant (CBD ≫ THC). Non-intoxicating; clear-headed, anti-inflammatory.',
+  IV: 'Type IV — CBG-dominant. Non-intoxicating; studied for neuroprotective and gastrointestinal benefits.',
+  V: 'Type V — Cannabinoid-free. Primarily industrial hemp bred for fiber or seed.'
+};
+
 // Renders `strain` into `container`. handlers: { onClose, onSubmit, onFacet }.
 export function renderStrain(container, strain, handlers = {}) {
   const { onClose, onSubmit, onFacet } = handlers;
@@ -64,11 +82,24 @@ export function renderStrain(container, strain, handlers = {}) {
   container.appendChild(el('h2', 'panel-name', strain.name));
   if (place) container.appendChild(el('p', 'panel-place', place));
 
-  if (strain.category) container.appendChild(el('span', 'panel-badge', strain.category));
+  // Primary classification badge: morphotype (clickable facet, with definition tooltip).
+  if (strain.morphotype) {
+    const badge = el('button', 'panel-badge facet-badge', strain.morphotype);
+    badge.type = 'button';
+    if (MORPHOTYPE_DEF[strain.morphotype]) badge.title = MORPHOTYPE_DEF[strain.morphotype];
+    if (onFacet) badge.addEventListener('click', () => onFacet('morphotype', strain.morphotype));
+    container.appendChild(badge);
+  }
 
   const dl = el('dl', 'panel-traits');
   if (Array.isArray(strain.aka) && strain.aka.length) traitRow(dl, 'AKA', strain.aka.join(', '));
-  facetRow(dl, 'Type', 'category', strain.type, onFacet, null, strain.category);
+  if (strain.chemotype) {
+    facetRow(dl, 'Chemotype', 'chemotype', `Type ${strain.chemotype} (inferred)`, onFacet,
+      CHEMOTYPE_DEF[strain.chemotype], strain.chemotype);
+  }
+  facetRow(dl, 'Domestication', 'domestication', strain.domestication, onFacet, null, strain.domestication);
+  facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet,
+    'A common/vernacular label — botanical classification is the Morphotype above.', strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
   facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
