@@ -1,54 +1,75 @@
-# Landrace Atlas — Design Spec
+# The Cannabis Landrace Atlas — Design Spec
 
 **Date:** 2026-06-19
-**Status:** Approved design, pending implementation plan
+**Status:** Approved design; in implementation. Updated with per-strain write-ups,
+submission flows, open-source licensing, and source-credit requirements.
 
 ## Overview
 
-A simple web app for displaying cannabis landraces on a world map. Each landrace
-location is marked with a small green pot-leaf icon. Selecting a marker opens a
-side panel (~1/3 of screen width) showing curated information about the strain,
-including outbound links and — where the source permits — embedded pages from
-other sites. A full-width top ribbon holds the site title and a search box with
-autocomplete.
+**The Cannabis Landrace Atlas** is a web app for displaying cannabis landraces on a
+world map. Each landrace location is marked with a small green pot-leaf icon.
+Selecting a marker opens a side panel (~1/3 of screen width) showing the strain's
+quick facts plus a Markdown write-up (overview, history, description, grow
+information, and — where verified — photos and links to seed sources and forum
+discussions). A full-width top ribbon holds the site title and a search box with
+autocomplete, plus a button for submitting feedback. Each strain panel has a button
+for submitting corrections and links.
 
 The app is intentionally minimal: a static site with **no backend, no database,
-and no build step**. The bundled data file is the entire content store.
+and no build step**. The bundled data files (the dataset plus per-strain write-ups)
+are the entire content store. Submission buttons are placeholders for now; once the
+project has a public GitHub repository they will open pre-filled GitHub issues.
 
 ### Design principles
 
-- **Minimum dependencies.** Plain HTML/CSS/JS. One vendored map library, no CDN.
+- **Minimum dependencies.** Plain HTML/CSS/JS. Vendored libraries (map + markdown
+  renderer), no CDN.
 - **Static and free to host.** Deployable as a folder of files to any free static
   host (GitHub Pages, Cloudflare Pages, Netlify, Vercel hobby tier).
 - **Calm, academic tone.** Serious in an academic, reference-document way; modern,
   flat, uncluttered, and easy to use. Not deeply layered.
 - **Degrade quietly.** Errors never produce a blank screen or a broken box.
+- **Credit our sources.** Whenever the project uses someone else's data, it credits
+  and links them prominently. Generated content never fabricates citations or links.
+- **Truthful content.** AI-generated write-ups are labeled as unverified drafts, use
+  honest hedging, and never invent specific references, photos, or links.
 
 ## Architecture & file structure
 
 A static site, no build step, deployable as-is:
 
 ```
-landrace-map/
+the-cannabis-landrace-atlas/
 ├── index.html          # single page: ribbon + map + panel
 ├── css/styles.css      # all styling
 ├── js/
-│   ├── app.js          # wiring: load data, init map, search, panel
+│   ├── app.js          # wiring: load data, init map, search, panel, submit modals
 │   ├── map.js          # Leaflet setup, GeoJSON world layer, markers
-│   ├── panel.js        # render strain info into side panel
-│   └── search.js       # autocomplete over the dataset
+│   ├── panel.js        # render strain facts + markdown write-up into side panel
+│   ├── search.js       # autocomplete over the dataset
+│   └── markdown.js     # thin wrapper around the vendored markdown renderer
 ├── data/
-│   ├── landraces.json  # the dataset (strains + lat/long + content)
-│   └── world.geojson   # bundled country borders for the base map
+│   ├── landraces.json  # the dataset (strains + lat/long + facts)
+│   ├── world.geojson   # bundled country borders for the base map
+│   ├── writeups/       # one markdown write-up per strain: <id>.md
+│   ├── raw/            # source text (ingestion source of truth)
+│   ├── convert.mjs     # one-time ingestion → landraces.json (Node, not shipped)
+│   ├── validate.mjs    # schema validation (Node, not shipped)
+│   └── lib/            # pure ingestion helpers + tests (Node, not shipped)
 ├── lib/
-│   └── leaflet/        # vendored Leaflet (js + css), no CDN
-└── assets/
-    └── leaf.svg        # the green pot-leaf marker icon
+│   ├── leaflet/        # vendored Leaflet (js + css), no CDN
+│   └── marked.min.js   # vendored markdown renderer, no CDN
+├── assets/
+│   └── leaf.svg        # the green pot-leaf marker icon
+├── README.md           # about, data credit, usage
+├── CONTRIBUTING.md     # contribution & submission guidelines
+├── LICENSE             # MIT (code)
+└── LICENSE-DATA        # CC BY-SA 4.0 (dataset + write-ups)
 ```
 
-There is no backend and no database. `landraces.json` *is* the data store; it is
-loaded with `fetch` at startup. All strain content is hand-curated text — nothing
-is scraped at runtime.
+There is no backend and no database. `landraces.json` *is* the data store, loaded
+with `fetch` at startup; each strain's Markdown write-up is fetched lazily from
+`data/writeups/<id>.md` when its panel opens. No content is scraped at runtime.
 
 ### Map rendering
 
@@ -233,8 +254,13 @@ space below it.
 
 ### Top ribbon
 
-- Spans the full viewport width: site title/wordmark on the left, search box (with
-  autocomplete) on the right or center.
+- Spans the full viewport width: site title/wordmark ("The Cannabis Landrace Atlas")
+  on the left, search box (with autocomplete) in the center/right, and a **Submit**
+  button at the far right.
+- The **Submit** button covers feature requests, bug reports, and strain additions.
+  For now it opens a small modal explaining that submissions will be available once
+  the project's public GitHub repo exists; later it links to pre-filled GitHub issue
+  templates. It does not POST anywhere.
 - Thin and flat, with a subtle bottom divider — a quiet header bar, not a heavy
   toolbar.
 - Stays fixed while the map pans/zooms beneath it.
@@ -258,10 +284,17 @@ space below it.
 
 1. Name + region/country header.
 2. Type badge.
-3. Summary.
-4. Traits (small definition list).
-5. Links section: `embed: true` links render as inline iframes captioned with the
-   label; `embed: false` links render as a tidy list of outbound links (new tab).
+3. Quick facts (small definition list: type, height, flowering, climate, region;
+   plus an "approximate location" note when `coordsApproximate`).
+4. **Markdown write-up** — fetched from `data/writeups/<id>.md` and rendered to HTML.
+   Sections: Overview, History, Description, Grow Information, then Photos, Seed
+   Sources, Forum Discussions, References. While loading, a quiet placeholder shows;
+   if the file is missing, "Write-up pending" shows in place of the write-up.
+5. Any structured `links[]` (from enrichment): `embed: true` → inline iframe with a
+   caption + fallback link; `embed: false` → outbound link (new tab).
+6. **Bottom submit button** — "Suggest a correction / add forum & seed links" for
+   this strain. Like the ribbon button, it is a placeholder (opens the same kind of
+   modal) until the GitHub repo exists, then opens a pre-filled per-strain issue.
 
 ### Search & autocomplete
 
@@ -327,12 +360,72 @@ Kept proportional to a no-build static site:
     renders as an outbound link.
 - No heavyweight test framework — that would contradict the minimum-dependency goal.
 
+## Strain write-ups
+
+Each strain has a Markdown write-up at `data/writeups/<id>.md`, fetched lazily when
+its panel opens and rendered to HTML by the vendored Markdown renderer
+(`lib/marked.min.js`). Sections, in order: **Overview, History, Description, Grow
+Information, Photos, Seed Sources, Forum Discussions, References.**
+
+- The first four are AI-generated **prose drafts**. Each file opens with a disclaimer
+  line (e.g. *"AI-generated draft — unverified. Help us improve it."*). Prose uses
+  honest hedging ("commonly reported", "grower accounts suggest"); for obscure feral
+  populations with little documented record it stays to regional climate/landrace
+  generalities rather than inventing specifics.
+- **No fabricated links or citations.** Photos / Seed Sources / Forum Discussions /
+  References are left as clearly-labeled empty slots ("No verified links yet — use
+  the button below to suggest one"). They are filled only from real sources: the
+  enrichment scraping (seed sources) and community submissions. The generation step
+  never invents URLs.
+- Photos with a verified image URL embed via Markdown image syntax; seed/forum/
+  reference entries are outbound links.
+- Rendering: content is first-party (our repo files) and therefore trusted; the panel
+  styles headings/lists/links/images for the calm academic look. A missing write-up
+  (404) degrades to "Write-up pending" beneath the quick facts.
+
+Generation: write-ups for all ~446 strains are generated (in batches) after the
+display system is built and verified end-to-end.
+
+## Submissions & contributions
+
+Two submission entry points, **non-functional for now** — each opens a small modal
+explaining that submissions open once the public GitHub repo exists; neither POSTs
+anywhere. Later they will open pre-filled GitHub issues:
+
+- **Ribbon "Submit"** — feature requests, bug reports, strain additions.
+- **Panel bottom button** (per strain) — corrections, forum links, seed links.
+
+Contribution guidelines (`CONTRIBUTING.md`):
+
+- **Data changes and code changes go in separate submissions** (separate PRs).
+- **At most 200 changed lines per submission.**
+- Each submission needs a **clear, complete description** and **evidence of testing**
+  where appropriate (`npm test` / `npm run validate` output for data or logic
+  changes; a screenshot or note for UI changes).
+
+## Licensing & credit
+
+- **Code:** MIT (`LICENSE`). First-party source files (`.js`, `.css`, `.html`, and
+  the ingestion `.mjs`) carry a short header: an `SPDX-License-Identifier: MIT` line
+  plus a copyright line. (Vendored `lib/` files keep their own upstream licenses.)
+- **Data + write-ups:** CC BY-SA 4.0 (`LICENSE-DATA`), noted in the README.
+- **Credit is mandatory.** The initial dataset is adapted from a community list by
+  **Dankk1** on Overgrow
+  (https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462);
+  the README credits this prominently. Any future incorporated data (e.g. seed-bank
+  enrichment) is likewise credited and linked. This is a standing project principle.
+- **README.md** describes the app, how to run it, the data source/credit, and the
+  licensing split.
+
 ## Out of scope (YAGNI)
 
-- No backend, database, accounts, or user-generated content.
+- No backend or database. Submissions are **client-side only** for now (placeholder
+  modals); the eventual GitHub-issue wiring is deferred until the repo is public.
 - No runtime scraping or fetching of third-party data.
 - No build step, bundler, or framework.
 - No tile-based map imagery.
-- No filtering/grouping UI beyond search (the `country` key leaves room for it later).
+- No filtering/grouping UI beyond search (the `country`/`category` keys leave room).
+- Seed/photo/forum links in write-ups are **not** generated now — they come from the
+  later enrichment phase and community submissions.
 ```
 
