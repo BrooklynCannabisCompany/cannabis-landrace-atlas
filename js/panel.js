@@ -105,11 +105,10 @@ export function renderStrain(container, strain, handlers = {}) {
   }
   facetRow(dl, 'Domestication', 'domestication', strain.domestication, onFacet,
     DOMESTICATION_DEF[strain.domestication], strain.domestication);
-  facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet,
-    'A common/vernacular label — botanical classification is the Morphotype above.', strain.category);
+  facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet, null, strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
-  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
   facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
   if (dl.children.length) container.appendChild(dl);
 
