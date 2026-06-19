@@ -145,6 +145,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   padding: 3px 9px; border-radius: 999px;
   background: #eef0e9; color: var(--green-dark); border: 1px solid #d6ddcf;
 }
+.facet-badge { font-family: inherit; cursor: pointer; }
+.facet-badge:hover { background: var(--green); color: #fff; border-color: var(--green); }
 .panel-traits { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0; font-size: 14px; }
 .panel-traits dt { color: var(--muted); }
 .panel-traits dd { margin: 0; }

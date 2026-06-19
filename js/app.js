@@ -200,15 +200,17 @@ function insertRelated(strain) {
 }
 
 // ---- Facet filter list ----
+const EXACT_FACET_FIELDS = ['category', 'morphotype', 'chemotype', 'domestication'];
 function openFacet(field, token) {
   let matches;
-  if (field === 'category') {
-    matches = strains.filter((s) => s.category === token); // exact category match
+  if (EXACT_FACET_FIELDS.includes(field)) {
+    matches = strains.filter((s) => s[field] === token);
   } else {
     const t = token.toLowerCase();
     matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
   }
-  openListModal(`${token} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
+  const title = field === 'chemotype' ? `Chemotype ${token}` : token;
+  openListModal(`${title} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
 }
 
 function openListModal(title, list) {
@@ -402,9 +404,12 @@ function openReferences() {
   });
 }
 
-// Index facets: [label, record field]. Morphotype/Chemotype added once those fields exist.
+// Index facets: [label, record field, optional value formatter].
 const INDEX_FACETS = [
-  ['Type', 'category'],
+  ['Morphotype', 'morphotype'],
+  ['Chemotype', 'chemotype', (v) => `Type ${v}`],
+  ['Domestication', 'domestication'],
+  ['Type (vernacular)', 'category'],
   ['Height', 'height'],
   ['Flowering Time', 'flowering'],
   ['Climate', 'climate'],
@@ -474,7 +479,7 @@ function buildHeightSlider(facet) {
 }
 
 // Collapsible value groups (one-per-line lists), with persisted open state.
-function buildValueGroups(facet, label, field, target, state) {
+function buildValueGroups(facet, label, field, fmt, target, state) {
   const groups = {};
   for (const s of strains) {
     const v = (s[field] || '').toString().trim() || '—';
@@ -488,7 +493,7 @@ function buildValueGroups(facet, label, field, target, state) {
     if (target && target.facet === label && target.value === v) g.dataset.scrollTarget = '1';
     const gsum = document.createElement('summary');
     gsum.className = 'index-h2';
-    gsum.textContent = `${v} (${groups[v].length})`;
+    gsum.textContent = `${fmt ? fmt(v) : v} (${groups[v].length})`;
     g.appendChild(gsum);
     g.appendChild(varietyLineList(groups[v]));
     if (!target) g.addEventListener('toggle', () => { const s = loadIndexState(); s[key] = g.open; saveIndexState(s); });
@@ -500,7 +505,7 @@ function buildValueGroups(facet, label, field, target, state) {
 function openIndex(target) {
   openContentModal('Index', (body) => {
     const state = target ? {} : loadIndexState();
-    INDEX_FACETS.forEach(([label, field]) => {
+    INDEX_FACETS.forEach(([label, field, fmt]) => {
       const facet = document.createElement('details');
       facet.className = 'index-facet';
       const fkey = `facet:${label}`;
@@ -511,7 +516,7 @@ function openIndex(target) {
       fsum.textContent = label;
       facet.appendChild(fsum);
       if (label === 'Height') buildHeightSlider(facet);
-      else buildValueGroups(facet, label, field, target, state);
+      else buildValueGroups(facet, label, field, fmt, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
       body.appendChild(facet);
     });
@@ -527,11 +532,11 @@ let headingEntriesCache = null;
 function headingEntries() {
   if (headingEntriesCache) return headingEntriesCache;
   const entries = [];
-  for (const [label, field] of INDEX_FACETS) {
+  for (const [label, field, fmt] of INDEX_FACETS) {
     entries.push({ facet: label, value: null, text: label });
     const vals = new Set();
     for (const s of strains) { const v = (s[field] || '').toString().trim(); if (v) vals.add(v); }
-    for (const v of vals) entries.push({ facet: label, value: v, text: v });
+    for (const v of vals) entries.push({ facet: label, value: v, text: fmt ? fmt(v) : v });
   }
   headingEntriesCache = entries;
   return entries;

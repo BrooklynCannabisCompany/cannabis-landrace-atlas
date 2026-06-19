@@ -9,6 +9,7 @@ import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
 import { extractAka } from './lib/aka.mjs';
 import { cleanType, cleanRegion, cleanClimate } from './lib/normalize.mjs';
+import { deriveMorphotype, deriveChemotype, deriveDomestication } from './lib/taxonomy.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -66,6 +67,7 @@ for (const file of FILES) {
     const coords = resolveCoords({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name, id });
     if (!coords) unresolved.push({ id, name: p.name, countryRaw: p.countryRaw });
     const country = resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '';
+    const cat = normalizeCategory(p.type);
     records.push({
       id,
       name: p.name,
@@ -86,7 +88,11 @@ for (const file of FILES) {
       lng: coords ? coords.lng : null,
       coordsApproximate: true,
       type: cleanType(p.type),
-      category: normalizeCategory(p.type),
+      category: cat,
+      morphotype: deriveMorphotype(cat, p.type),
+      chemotype: deriveChemotype(cat, p.type, p.summary),
+      chemotypeInferred: true,
+      domestication: deriveDomestication(cat, p.type),
       height: p.height || '',
       flowering: p.flowering || '',
       climate: cleanClimate(p.climate),

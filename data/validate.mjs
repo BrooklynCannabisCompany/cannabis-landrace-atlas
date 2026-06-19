@@ -2,6 +2,10 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { CATEGORIES } from './lib/category.mjs';
 import { readFileSync } from 'node:fs';
+
+const MORPHOTYPES = new Set(['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Ruderalis (wild-type)', 'Intermediate (NLD–BLD)', 'Unclassified']);
+const CHEMOTYPES = new Set(['I', 'II', 'III', 'IV', 'V']);
+const DOMESTICATIONS = new Set(['Domesticated', 'Heirloom', 'Feral (escaped)', 'Wild']);
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -23,6 +27,9 @@ export function validateRecords(records) {
     ids.add(r.id);
     if (!r.name) errors.push(`${where}: missing name`);
     if (!CATEGORIES.has(r.category)) errors.push(`${where}: invalid category "${r.category}"`);
+    if (!MORPHOTYPES.has(r.morphotype)) errors.push(`${where}: invalid morphotype "${r.morphotype}"`);
+    if (!CHEMOTYPES.has(r.chemotype)) errors.push(`${where}: invalid chemotype "${r.chemotype}"`);
+    if (!DOMESTICATIONS.has(r.domestication)) errors.push(`${where}: invalid domestication "${r.domestication}"`);
     if (typeof r.coordsApproximate !== 'boolean') errors.push(`${where}: coordsApproximate not boolean`);
     if (!Array.isArray(r.links)) errors.push(`${where}: links not an array`);
     for (const link of r.links || []) {
