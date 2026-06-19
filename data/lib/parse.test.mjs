@@ -58,3 +58,20 @@ test('flags an incomplete stub', () => {
   assert.equal(r.name, 'Colombian Boyaca High Plateau');
   assert.equal(r.incomplete, true);
 });
+
+test('does not mistake "Variable height" for the flowering field', () => {
+  const block = 'Hungarian Basin- Mixed wild cannabis/ LandRace | Variable height | Variable length | Desert Basin\nNotes: Ancient migration corridor.';
+  const r = parseEntry(block);
+  assert.equal(r.height, 'Variable height');
+  assert.equal(r.flowering, 'Variable length');
+  assert.equal(r.climate, 'Desert Basin');
+});
+
+test('keeps parenthetical height detail like "Tall (2–4m)"', () => {
+  const block = 'Angola Roja (Angola) – Tropical African landrace | Tall (2–4m) | 11–15w | Tropical highland\nNotes: Red-pistil expressions.';
+  const r = parseEntry(block);
+  assert.equal(r.height, 'Tall (2–4m)');
+  assert.equal(r.flowering, '11–15w');
+  assert.equal(r.climate, 'Tropical highland');
+  assert.equal(r.type, 'Tropical African landrace');
+});

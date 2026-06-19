@@ -1,8 +1,8 @@
 // Parses one raw text block (the lines for a single strain) into a partial record.
 
 const HEIGHT_WORDS = [
-  'Extremely Tall', 'Very tall', 'Very Tall', 'Medium-tall', 'Medium-short',
-  'Short-medium', 'Short-Medium', 'Variable height', 'Tall', 'Medium', 'Short', 'Variable'
+  'Extremely Tall', 'Very tall', 'Medium-tall', 'Medium-short',
+  'Short-medium', 'Variable height', 'Tall', 'Medium', 'Short', 'Variable'
 ];
 
 const FLOWERING_RE = /(\d+\s*[–-]\s*\d+\s*w(?:eeks)?|\d+\s*[–-]\s*\d+\s*weeks|Variable(?:\s*length)?)/i;
@@ -24,11 +24,8 @@ export function parseEntry(block) {
       summary = line.replace(/^Notes:\s*/i, '').trim();
     } else if (/^Region:/i.test(line)) {
       regionRaw = line.replace(/^Region:\s*/i, '').trim();
-    } else if (!summary) {
-      // a bare line before any Notes — treat as region context
-      regionRaw = regionRaw || line;
     } else {
-      // a bare line after Notes — also region context (e.g. "Shashamane, Oromia...")
+      // a bare line (before or after Notes) — treat as region context
       regionRaw = regionRaw || line;
     }
   }
@@ -78,12 +75,31 @@ export function parseEntry(block) {
   let climate = null;
 
   if (pieces.length > 0 && !incomplete) {
-    let flowerIdx = pieces.findIndex((p) => FLOWERING_RE.test(p));
+    // Prefer a numeric range WITH a weeks suffix for the flowering field.
+    // Fall back to any numeric range (but not inside height annotations like
+    // "Tall (2–4m)"), then to a whole-token Variable/Variable-length match
+    // (anchored so it does NOT accidentally match "Variable height").
+    let flowerIdx = pieces.findIndex((p) => /\d+\s*[–-]\s*\d+\s*w(?:eeks)?/i.test(p));
+    if (flowerIdx === -1) {
+      // Bare numeric range only if the piece is not a height word with a
+      // parenthetical annotation (e.g. "Tall (2–4m)").
+      flowerIdx = pieces.findIndex((p) => {
+        if (!/\d+\s*[–-]\s*\d+/.test(p)) return false;
+        const withoutParen = p.replace(/\s*\(.*\)\s*$/, '').trim();
+        return !isHeightToken(withoutParen);
+      });
+    }
+    if (flowerIdx === -1) {
+      flowerIdx = pieces.findIndex((p) => /^Variable(?:\s*length)?$/i.test(p));
+    }
+
     if (flowerIdx === -1) {
       // No flowering field; first piece is the type, rest unknown.
       type = pieces[0];
     } else {
-      flowering = (pieces[flowerIdx].match(FLOWERING_RE) || [pieces[flowerIdx]])[0].trim();
+      const fpiece = pieces[flowerIdx];
+      const fmatch = fpiece.match(/\d+\s*[–-]\s*\d+\s*w(?:eeks)?|\d+\s*[–-]\s*\d+\s*weeks|^Variable(?:\s*length)?$/i);
+      flowering = (fmatch ? fmatch[0] : fpiece).trim();
       climate = pieces[flowerIdx + 1] || null;
       const heightIdx = flowerIdx - 1;
       height = heightIdx >= 0 ? pieces[heightIdx] : null;
@@ -91,9 +107,13 @@ export function parseEntry(block) {
       const typeEnd = heightIdx >= 0 ? heightIdx : flowerIdx;
       type = pieces.slice(0, typeEnd).join(' | ').trim();
       // Guard: if height slot doesn't look like a height, fold it into type.
-      if (height && !isHeightToken(height)) {
-        type = pieces.slice(0, flowerIdx).join(' | ').trim();
-        height = null;
+      // Strip trailing parentheticals for the check only — keep full value if valid.
+      if (height) {
+        const heightCheck = height.replace(/\s*\(.*\)\s*$/, '').trim();
+        if (!isHeightToken(heightCheck)) {
+          type = pieces.slice(0, flowerIdx).join(' | ').trim();
+          height = null;
+        }
       }
     }
   }
