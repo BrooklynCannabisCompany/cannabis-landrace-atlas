@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-import { createMap, addMarkers, flyToStrain } from './map.js';
+import { createMap, addMarkers, flyToStrain, setMarkerSelected } from './map.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -19,11 +19,14 @@ const appMenu = document.getElementById('app-menu');
 
 let strains = [];
 let map = null;
+let markersById = new Map();
 let currentId = null;
 
 // ---- Panel ----
 function openPanel(strain) {
+  if (currentId) setMarkerSelected(markersById.get(currentId), false); // clear previous highlight
   currentId = strain.id;
+  setMarkerSelected(markersById.get(strain.id), true);
   renderStrain(panel, strain, { onClose: closePanel, onSubmit: openStrainSubmit, onFacet: openFacet });
   document.body.classList.remove('panel-closed');
   document.body.classList.add('panel-open');
@@ -33,6 +36,7 @@ function openPanel(strain) {
 }
 
 function closePanel() {
+  if (currentId) setMarkerSelected(markersById.get(currentId), false);
   currentId = null;
   document.body.classList.remove('panel-open');
   document.body.classList.add('panel-closed');
@@ -444,7 +448,7 @@ async function boot() {
     ]);
     strains = data;
     map = createMap('map', world, closePanel);
-    addMarkers(map, strains, openPanel);
+    markersById = addMarkers(map, strains, openPanel);
   } catch (err) {
     document.getElementById('map').innerHTML = '<div class="map-error">Unable to load map data.</div>';
     console.error('The Cannabis Landrace Atlas failed to load:', err);

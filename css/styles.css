@@ -208,6 +208,15 @@ sup.fnref button {
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
 .leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
 
+/* Selected variety: inverted (white) leaf in a purple circle */
+.leaf-marker-selected { background: none; border: none; }
+.leaf-marker-selected .sel-leaf {
+  display: flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: #6b3fa0; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+.leaf-marker-selected img { filter: brightness(0) invert(1); }
+
 /* ---- Modal ---- */
 .modal { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; }
 .modal[hidden] { display: none; }
