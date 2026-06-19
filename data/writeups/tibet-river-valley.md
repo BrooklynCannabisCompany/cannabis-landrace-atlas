@@ -17,6 +17,8 @@ Plants commonly reported from high-altitude Tibetan river valleys tend toward me
 - **Climate adaptation:** Alpine river valley — intense UV, cold nights, low oxygen, short season
 - **Type:** High-altitude feral-landrace population
 
+_Recorded locality detail: Upper Brahmaputra._
+
 ## Grow Information
 
 Cultivators working with material associated with this population report that acclimatisation to lower-altitude environments can require several generations. Plants are said to tolerate cold snaps better than most tropical landraces and may perform reasonably in temperate outdoor climates with a long summer, though their true expression is tied to high-altitude stress conditions. Nutrient demands are typically described as moderate. Grower accounts suggest resistance to cold-related mould, though performance under humid lowland conditions is less consistently documented. Indoor cultivation may require attention to temperature variation to approximate the diurnal swings of the original environment.

@@ -12,6 +12,8 @@ Cannabis cultivation in Jowzjan Province is historically associated with traditi
 - Typically associated with earthy, hashy aromatics consistent with northern Afghan hash-producing populations.
 - Expected to show good drought tolerance and heat resilience.
 
+_Recorded locality detail: Sheberghan/Sherberghan._
+
 ## Grow Information
 The Jowzjan Province climate is semi-arid with hot, dry summers and cold winters — notably different from the high-altitude, cooler conditions of Afghan mountain valleys. This population is adapted to fertile steppe plains with limited precipitation, making it suited to dry-climate growing. Flowering is typically reported at 8–11 weeks. Medium height and compact flower production are consistent with the indica classification. Plants from this region are generally expected to perform well in low-humidity environments.
 

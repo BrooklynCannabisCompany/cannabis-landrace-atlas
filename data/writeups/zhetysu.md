@@ -12,6 +12,8 @@ Zhetysu is among the Kazakh regions most frequently cited in discussions of Cent
 - Adapted to the continental grassland steppe climate of southeastern Kazakhstan.
 - Likely includes both cultivated-type and naturalized feral phenotypes within the complex.
 
+_Recorded locality detail: Semirechye._
+
 ## Grow Information
 The Zhetysu grassland steppe climate is continental with warm to hot summers, cold winters, and moderate precipitation, particularly from Tian Shan snowmelt rivers. The diverse topography of the region — from lowland plains to mountain foothill zones — means this complex likely encompasses a range of adapted ecotypes. Flowering is typically reported at 10–14 weeks. Tall stature and strong vegetative growth under good soil and water conditions are characteristic. This population's rich genetic diversity makes it of high interest for preservation and research into Central Asian cannabis genetics.
 

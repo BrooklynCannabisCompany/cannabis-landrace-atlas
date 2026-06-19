@@ -12,6 +12,8 @@ Cannabis in the Semey region is generally understood to be a naturalized feral p
 - Likely exhibits robust cold tolerance and early maturation suited to the region's short growing season.
 - Commonly shows wider leaf patterns than southern Central Asian populations.
 
+_Recorded locality detail: formerly Semey._
+
 ## Grow Information
 The Abai Region experiences a harsh continental grassland climate with severe winter cold, dry summers, and significant temperature swings year-round. This feral population has adapted to these conditions without human intervention, suggesting strong cold hardiness and drought tolerance. Flowering is commonly reported at 10–14 weeks. The short warm season typical of northeastern Kazakhstan would have favored earlier-maturing phenotypes. This population potentially preserves ancient Central Asian feral genetics of interest for cold-climate breeding.
 

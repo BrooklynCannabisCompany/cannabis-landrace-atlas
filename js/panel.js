@@ -45,7 +45,11 @@ export function renderStrain(container, strain, handlers = {}) {
   if (onClose) closeBtn.addEventListener('click', onClose);
   container.appendChild(closeBtn);
 
-  const place = [strain.region, strain.country].filter(Boolean).join(', ');
+  // Subtitle: region + country, but never echo the country if the region already names it.
+  const place = (strain.region && strain.country &&
+    strain.region.toLowerCase().includes(strain.country.toLowerCase()))
+    ? strain.region
+    : [strain.region, strain.country].filter(Boolean).join(', ');
   container.appendChild(el('h2', 'panel-name', strain.name));
   if (place) container.appendChild(el('p', 'panel-place', place));
 

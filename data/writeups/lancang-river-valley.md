@@ -16,6 +16,8 @@ The Lancang-Mekong corridor has been a route for human movement, trade, and cult
 - **Flowering:** 12–18 weeks — an extended response typical of low-latitude highland cannabis populations
 - **Aroma/effect:** Not well documented; the multi-directional genetic influence of the Mekong corridor suggests potential complexity
 
+_Recorded locality detail: Mekong._
+
 ## Grow Information
 
 - **Climate:** River canyon; characterized by warm sheltered microclimates, high humidity at lower elevations, cooler and drier at higher reaches, significant monsoon rainfall

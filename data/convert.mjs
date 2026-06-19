@@ -8,6 +8,7 @@ import { normalizeCategory } from './lib/category.mjs';
 import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
 import { extractAka } from './lib/aka.mjs';
+import { cleanType, cleanRegion } from './lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -59,17 +60,18 @@ for (const file of FILES) {
     const id = makeUniqueId(p.name, seen);
     const coords = resolveCoords({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name, id });
     if (!coords) unresolved.push({ id, name: p.name, countryRaw: p.countryRaw });
+    const country = resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '';
     records.push({
       id,
       name: p.name,
       aka: extractAka([p.summary, p.regionRaw].filter(Boolean).join('. '), p.name),
       continent: continent || 'Unknown',
-      country: resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '',
-      region: p.regionRaw || '',
+      country,
+      region: cleanRegion(p.regionRaw, country).region,
       lat: coords ? coords.lat : null,
       lng: coords ? coords.lng : null,
       coordsApproximate: true,
-      type: p.type || '',
+      type: cleanType(p.type),
       category: normalizeCategory(p.type),
       height: p.height || '',
       flowering: p.flowering || '',

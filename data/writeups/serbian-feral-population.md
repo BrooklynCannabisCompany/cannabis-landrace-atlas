@@ -17,6 +17,8 @@ As a medium-height, intermediate (indica–sativa) feral population with a 9–1
 - **Type:** Naturalized feral population, Intermediate (Indica–Sativa)
 - **Climate:** River plain-continental
 
+_Recorded locality detail: Danube, Morava, and Sava Basins._
+
 ## Grow Information
 
 The high adaptability of Serbian feral cannabis populations — naturalized across diverse agricultural regions and river corridors — suggests broad environmental tolerance and robust growth across temperate continental conditions. The 9–13 week flowering window suits outdoor cultivation across Central and Eastern Europe. Cannabinoid content is variable given the mixed hemp and naturalized origins, with some populations retaining higher THC levels than typical industrial hemp. Genetic diversity is expected to be high across the river basin populations.

@@ -17,6 +17,8 @@ Deep Chunk is associated in grower accounts with Tom Hill, an American cannabis 
 - **Resin:** Extremely high; this is the characteristic for which Deep Chunk is most widely celebrated in breeding literature
 - The hash-producing heritage of this selection is reflected in both its resin expression and its dense, resin-coated bud structure.
 
+_Recorded locality detail: South-Central Asia._
+
 ## Grow Information
 
 - **Climate:** Adapted to the arid mountain valley conditions of the Hindu Kush — hot days, cold nights, low humidity, and intense UV; performs well under similar conditions but has been grown successfully across a wide range of environments in its time in Western cultivation

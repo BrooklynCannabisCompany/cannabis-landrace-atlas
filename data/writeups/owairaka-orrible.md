@@ -16,6 +16,8 @@ Owairaka 'Orrible's origin is not formally documented. Grower accounts situate i
 - **Climate:** Maritime temperate — Auckland's characteristic mix of warm summers, cool wet winters, and variable weather driven by Pacific and Tasman Sea air masses.
 - **Reported traits:** Mold resistance, outdoor vigor, adaptation to variable maritime weather; regional underground heirloom character.
 
+_Recorded locality detail: Mount Albert area._
+
 ## Grow Information
 
 Owairaka 'Orrible, as an Auckland-area maritime temperate sativa heirloom, is adapted to the variable cool and wet conditions characteristic of New Zealand's North Island. Mold resistance is a practically important trait given the region's humidity. The 11–15 week flowering window is appropriate for the Auckland outdoor season. Tall growth requires space and benefits from early training. For cultivators in comparable cool maritime climates — similar latitudes in the southern hemisphere or analogous maritime temperate climates elsewhere — this cultivar's heritage suggests good adaptation to variable, challenging outdoor conditions. As a rare underground line, available seed stock may have limited documentation and variable expression.

@@ -18,6 +18,8 @@ The Hmong (historically also called Meao or Miao) are a highland ethnic group wi
 - **Terpene profile:** Commonly described as incense, spice, and tropical fruit — characteristic of high-altitude Northern Thai cannabis
 - **Effects:** Associated with the cerebral, long-duration psychoactive expression typical of traditional Thai highland genetics
 
+_Recorded locality detail: Chiang Mai / Chiang Rai Region._
+
 ## Grow Information
 
 - **Climate:** Tropical mountain; warm wet monsoon season followed by a cooler, drier period — both phases shape the plant's development cycle

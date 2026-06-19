@@ -16,6 +16,8 @@ Kona Gold developed a reputation during the 1970s as a standout Hawaiian cannabi
 - **Climate:** Volcanic tropical highland — fertile volcanic soils, relatively dry western-slope conditions, intense sunlight, year-round warmth, consistent oceanic airflow
 - **Morphology:** Tall and vigorous sativa structure. Grower accounts consistently describe tropical fruit, spice, and citrus terpene expressions. The Kona coffee terroir parallel — rich volcanic minerals, excellent drainage, consistent sun — is considered to contribute to this population's notable terpene expression.
 
+_Recorded locality detail: Big Island._
+
 ## Grow Information
 
 - Year-round growing potential in the native Kona environment; outdoor cultivation in tropical or sub-tropical climates is most suitable

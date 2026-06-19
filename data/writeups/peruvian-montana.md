@@ -18,6 +18,8 @@ This population is described as a tall sativa with a 13–18 week flowering wind
 - **Category:** Sativa
 - **Region:** Peruvian Montaña (Eastern Andes)
 
+_Recorded locality detail: Eastern Andes._
+
 ## Grow Information
 
 Cloud forest and Montaña-adapted populations are typically long-flowering sativas that have developed in humid, diffuse-light conditions. The 13–18 week flowering window demands patience, and the persistent-humidity origin may correlate with some resistance to mold, though this is not verified for this specific population. Outdoor cultivation in humid subtropical or tropical montane environments best replicates the conditions of origin. Indoor cultivation is feasible with adequate lighting and humidity management. Grow data specific to this population is sparse.
