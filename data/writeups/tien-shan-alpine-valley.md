@@ -1,0 +1,33 @@
+> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+
+## Overview
+Tien Shan Alpine Valley is an intermediate landrace from the Tien Shan (Tian Shan) mountain system in Kyrgyzstan, a country where this range dominates the landscape. The Tien Shan — meaning "Celestial Mountains" — is one of the world's major mountain systems, running east-west across Central Asia and reaching elevations above 7,000 meters. Kyrgyzstan sits within one of the regions most frequently discussed as a possible ancestral homeland of Cannabis sativa, making populations from the Tien Shan of exceptional genetic interest.
+
+## History
+The Tien Shan Mountains of Kyrgyzstan are among the areas sometimes cited in scientific literature as being within or near the center of cannabis's geographic origin, based on phylogenetic and ecological modeling studies. Cannabis populations here are understood to represent ancient naturalized or semi-cultivated lineages, shaped by the region's extreme mountain environment and proximity to early human populations along trade routes connecting China and the West. Grower accounts of Kyrgyz mountain cannabis describe exceptional cold tolerance and adaptation to alpine meadow conditions. Specific documentation of a distinct "Tien Shan Alpine Valley" cultivar or population is limited; the entry reflects regional landrace characteristics.
+
+## Description
+- Intermediate indica-sativa morphology; medium-tall stature adapted to alpine meadow conditions.
+- Strong cold tolerance, a defining characteristic for populations at Tien Shan elevations.
+- Likely exhibits wide phenotypic variation consistent with a geographically diverse mountain system.
+- Resinous flowers adapted to high UV radiation at altitude and rapid season completion.
+
+## Grow Information
+Kyrgyzstan's Tien Shan alpine valleys experience a high-altitude continental climate: cold winters with heavy snowpack, short cool summers, and intense solar radiation. The growing season is brief, and cannabis populations here have adapted to complete their lifecycle rapidly under these constraints. Flowering is typically reported at 10–14 weeks, though altitude-adapted phenotypes may show pressure toward earlier completion. Cold tolerance and resilience to poor, rocky, well-drained soils are key traits. This population is of particular interest to cold-climate breeders and genetic preservationists.
+
+## Photos
+_No verified photos yet — use the button below to suggest one._
+
+## Seed Sources
+_No verified seed sources yet — use the button below to suggest one._
+
+## Forum Discussions
+_No verified forum links yet — use the button below to suggest one._
+
+## References
+
+General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).

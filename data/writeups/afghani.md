@@ -35,4 +35,9 @@ _No verified seed sources yet — use the button below to suggest one._
 _No verified forum links yet — use the button below to suggest one._
 
 ## References
-_No verified references yet — use the button below to suggest one._
+
+General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).

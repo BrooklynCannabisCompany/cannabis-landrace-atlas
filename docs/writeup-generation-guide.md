@@ -57,20 +57,39 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
   height, flowering, climate) and genuine general knowledge. When unsure, say so or
   keep it general.
 
-## The four link sections (Photos, Seed Sources, Forum Discussions, References)
+## The link sections (Photos, Seed Sources, Forum Discussions)
 
 - **NEVER invent URLs.** Do not write any `http://`, `https://`, or `www.` link in a
   generated write-up. Fabricated citations/links are the worst failure mode for this
   project.
-- Each of these four sections contains ONLY the standard empty-slot note (italic):
+- These three sections contain ONLY the standard empty-slot note (italic):
 
   - Photos: `_No verified photos yet — use the button below to suggest one._`
   - Seed Sources: `_No verified seed sources yet — use the button below to suggest one._`
   - Forum Discussions: `_No verified forum links yet — use the button below to suggest one._`
-  - References: `_No verified references yet — use the button below to suggest one._`
 
-- These sections are filled later from real sources (the seed-bank enrichment phase
-  and community submissions), not by generation.
+- They are filled later from real sources (the seed-bank enrichment phase and
+  community submissions via the per-section **+** button), not by generation.
+
+## The References section (generated, real foundational sources only)
+
+- References IS generated (alongside the prose sections), but using **only genuinely
+  real, well-known foundational works** — NEVER fabricated or plausible-but-fake
+  per-strain papers, and NEVER any URL.
+- Use this exact standard block (text citations only):
+
+  ```
+  ## References
+
+  General background on cannabis landraces and their ethnobotany (strain-specific sources welcome via the + button):
+
+  - Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
+  - Clarke, R. C. (1998). *Hashish!* Red Eye Press.
+  - Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+  ```
+
+- Do not add strain-specific citations unless they are real and you are certain of
+  them; when uncertain, the standard block above is sufficient.
 
 ## Validation (run after a batch)
 
