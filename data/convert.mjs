@@ -14,11 +14,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Real seed-vendor links matched during scraping (RSC). Real URLs only.
 const vendorLinks = JSON.parse(readFileSync(join(__dirname, 'vendor-links.json'), 'utf8'));
-// The community thread our dataset is adapted from — a real, on-topic forum discussion.
-const OVERGROW_FORUM = {
-  label: 'Overgrow — Global Landrace & Heirloom List (source thread)',
-  url: 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462'
-};
 
 // Header line -> continent. Lines exactly matching a key switch the current continent.
 const HEADERS = {
@@ -88,7 +83,7 @@ for (const file of FILES) {
       incomplete: p.incomplete,
       seedSources: (vendorLinks[id] && vendorLinks[id].seed) || [],
       photos: (vendorLinks[id] && vendorLinks[id].photo) ? [vendorLinks[id].photo] : [],
-      forums: [OVERGROW_FORUM],
+      forums: (vendorLinks[id] && vendorLinks[id].forums) || [],
       links: []
     });
   }

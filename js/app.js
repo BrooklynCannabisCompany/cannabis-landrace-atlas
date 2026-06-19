@@ -281,7 +281,7 @@ function closeModal() { modal.hidden = true; }
 
 function openFeedbackSubmit() {
   openModal(
-    'Contribute',
+    'Suggest Additions',
     'Feature requests, bug reports, and strain additions will open a pre-filled GitHub issue once The Cannabis Landrace Atlas has a public repository. For now nothing is sent — thank you for your interest.'
   );
 }
@@ -320,7 +320,7 @@ async function boot() {
       fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); })
     ]);
     strains = data;
-    map = createMap('map', world);
+    map = createMap('map', world, closePanel);
     addMarkers(map, strains, openPanel);
   } catch (err) {
     document.getElementById('map').innerHTML = '<div class="map-error">Unable to load map data.</div>';

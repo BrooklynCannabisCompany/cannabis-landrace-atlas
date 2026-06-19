@@ -168,6 +168,10 @@ sup.fnref button {
 }
 .panel-submit:hover { background: #e4e8db; border-color: var(--green); }
 
+/* ---- Reset-view control (stacks below +/- zoom, same size) ---- */
+.reset-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
+.reset-control a:hover { color: var(--green-dark); }
+
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
 .leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
