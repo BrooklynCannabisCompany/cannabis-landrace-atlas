@@ -1,0 +1,14 @@
+{
+  "name": "landrace-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static world map of cannabis landraces.",
+  "scripts": {
+    "test": "node --test",
+    "convert": "node data/convert.mjs",
+    "validate": "node data/validate.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {}
+}
