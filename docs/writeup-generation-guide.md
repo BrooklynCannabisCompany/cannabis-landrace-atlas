@@ -10,8 +10,10 @@ CC BY-SA 4.0.
 - The file MUST begin with this exact disclaimer line (a blockquote):
 
   ```
-  > _AI-generated draft — unverified. Help us improve it via the button in the panel._
+  > _AI-generated draft — unverified. [Help us improve it.](#suggest)_
   ```
+
+  (`#suggest` is wired by the app to open the Suggest Corrections flow.)
 
 - Then these eight `##` section headings, in this order, every time:
 
@@ -22,7 +24,7 @@ CC BY-SA 4.0.
   5. `## Photos`
   6. `## Seed Sources`
   7. `## Forum Discussions`
-  8. `## References`
+  8. `## Sources`
 
 ## Input context per strain (disambiguation is mandatory)
 
@@ -62,34 +64,28 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
 - **NEVER invent URLs.** Do not write any `http://`, `https://`, or `www.` link in a
   generated write-up. Fabricated citations/links are the worst failure mode for this
   project.
-- These three sections contain ONLY the standard empty-slot note (italic):
+- These sections contain ONLY the standard empty-slot note (italic):
 
-  - Photos: `_No verified photos yet — use the button below to suggest one._`
-  - Seed Sources: `_No verified seed sources yet — use the button below to suggest one._`
-  - Forum Discussions: `_No verified forum links yet — use the button below to suggest one._`
+  - Photos: `_No verified photos yet — use the ⊕ button to suggest one._`
+  - Seed Sources: `_No verified seed sources yet — use the ⊕ button to suggest one._`
+  - Forum Discussions: `_No verified forum links yet — use the ⊕ button to suggest one._`
 
 - They are filled later from real sources (the seed-bank enrichment phase and
-  community submissions via the per-section **+** button), not by generation.
+  community submissions via the per-section **⊕** button), not by generation.
 
-## The References section (generated, real foundational sources only)
+## The Sources section (strain-specific only)
 
-- References IS generated (alongside the prose sections), but using **only genuinely
-  real, well-known foundational works** — NEVER fabricated or plausible-but-fake
-  per-strain papers, and NEVER any URL.
-- Use this exact standard block (text citations only):
+- The general foundational references (Clarke & Merlin; Clarke; Overgrow credit) now
+  live ONLY on the global References screen (hamburger menu) — do NOT repeat them per
+  strain.
+- The per-strain `## Sources` section holds only strain-specific sources (e.g. a
+  matched seed-vendor listing, injected at runtime). The generated file uses the
+  empty-slot note; never invent URLs or citations here:
 
   ```
-  ## References
-
-  General background on cannabis landraces and their ethnobotany:
-
-  - Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-  - Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-  - Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+  ## Sources
+  _No verified sources for this variety yet — use the ⊕ button to suggest one._
   ```
-
-- Do not add strain-specific citations unless they are real and you are certain of
-  them; when uncertain, the standard block above is sufficient.
 
 ## Validation (run after a batch)
 

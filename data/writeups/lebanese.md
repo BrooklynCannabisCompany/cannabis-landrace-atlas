@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Lebanese is a traditional cannabis landrace from Lebanon, historically associated with the country's hashish-producing regions, particularly the Bekaa Valley. Classified as a short-season narrow-leaf drug (NLD) type within a sativa subspecies indica framework, this population has been central to Lebanon's long resin-hash tradition and has contributed genetics to both regional and Western breeding programs.
@@ -16,18 +16,13 @@ Lebanon has one of the oldest documented cannabis and hashish traditions in the 
 Adapted to the semi-arid Mediterranean climate of Lebanon — dry, hot summers and cool winters, with most cultivation concentrated in the Bekaa Valley's rain shadow. The short 8–10 week flowering window makes Lebanese one of the more practical NLD landraces for growers in temperate climates. Drought tolerance is a notable trait. Performance in humid climates is typically limited given the native aridity of the Bekaa Valley.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

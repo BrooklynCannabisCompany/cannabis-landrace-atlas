@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 The Tajikistan Feral Mountain Population is a feral indica landrace complex found in the high-altitude terrain of Tajikistan, a country dominated by the Pamir Mountains in the east and the western outliers of the Tian Shan to the north. Tajikistan's rugged mountain geography, with elevations frequently exceeding 3,000–4,000 meters, creates extreme cold-stress growing conditions that have shaped a distinctly cold-tolerant, compact cannabis population.
@@ -16,18 +16,13 @@ Cannabis has a long history in the Central Asian mountain regions that include T
 The Pamir Mountains and adjacent ranges in Tajikistan present extreme growing conditions: very short frost-free seasons, intense UV radiation at altitude, cold nights even in summer, and thin, rocky soils. Cannabis populations here must mature quickly and withstand cold stress. Flowering is typically reported at 10–14 weeks. The purple coloration commonly observed likely reflects anthocyanin expression triggered by cold temperatures. This population's cold tolerance and potentially ancient genetics make it of interest for preservation and cold-climate breeding programs.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

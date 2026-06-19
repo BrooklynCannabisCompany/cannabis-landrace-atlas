@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Taklamakan Interior Oasis Remnants refers to cannabis populations associated with the isolated oasis settlements within and around the Taklamakan Desert in China's Xinjiang region. The Taklamakan is one of the world's largest and driest sand deserts, largely inhospitable to most plant life, but dotted with oasis settlements fed by meltwater rivers descending from surrounding mountains. Cannabis adapted to survive in these hyper-arid oasis environments represents some of the most drought-tolerant populations documented.
@@ -16,18 +16,13 @@ The oasis towns of the Tarim Basin — including historical Silk Road stops such
 The interior Taklamakan oasis climate is hyper-arid with extremely hot summers, cold winters, and very low annual precipitation. Cannabis here depends on irrigation from mountain snowmelt rivers. These conditions have produced populations adapted to heat, drought, and saline soils. Flowering is typically reported at 9–13 weeks. The oasis isolation of individual populations across the vast desert may have produced locally distinct phenotypes. These plants are considered among the most drought-adapted cannabis populations known, making them of significant interest for arid-climate breeding.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

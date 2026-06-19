@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Tarbagatai Range is a mountain cannabis population associated with the Tarbagatai Mountains (Tarbagatay), a range straddling the border between Kazakhstan and the Xinjiang region of China. Located in a remote and sparsely populated zone of eastern Kazakhstan, this population occupies an alpine steppe environment that has historically seen little outside contact, potentially preserving relic wild cannabis genetics of significant interest.
@@ -16,18 +16,13 @@ The Tarbagatai Mountains represent a geographically isolated zone between the br
 The Tarbagatai Mountains experience a cold alpine steppe climate: short, cool summers; cold, dry winters; and significant wind exposure. Cannabis populations here would need to complete their lifecycle rapidly during the brief frost-free season. Flowering is typically reported at 10–14 weeks, though alpine-adapted populations often show phenotypic pressure toward earlier maturation. The remote location and limited human interference make this one of the less-studied cannabis populations in the Central Asian mountain zone. Cold hardiness and resilience to poor, rocky soils are expected traits.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

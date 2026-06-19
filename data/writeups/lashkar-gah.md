@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Lashkar Gah is a short, fast-flowering indica landrace from the desert environment of southern Afghanistan, associated with the city and province of Lashkar Gah in Helmand Province. This is a deep desert Afghan type — adapted to one of the hottest and driest regions of Afghanistan — and is reported as a sedative landrace in the classic Afghan indica tradition.
@@ -16,18 +16,13 @@ Helmand Province and its capital Lashkar Gah sit in the arid Helmand River valle
 Adapted to the desert Afghan climate of the Helmand valley — extremely hot and dry summers with very low rainfall. Flowering is fast at 7–9 weeks, reflecting adaptation to the desert season. Short stature and rapid development make it practical for cultivation in confined spaces or short outdoor seasons. Drought tolerance is a primary trait. Dense flower structure typical of desert indica types is susceptible to botrytis in humid environments; low-humidity growing conditions are strongly preferred.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Pamir Highlands refers to the broad highland landrace complex of the Pamir Mountains in Tajikistan — one of the world's most isolated and extreme mountain systems, situated at the junction of the Tian Shan, Hindu Kush, Karakoram, and Himalayan ranges. This is described as a highland landrace complex of mixed character, representing populations distributed across the Tajik Pamir rather than a single selected cultivar. It is considered a potential ancestral migration corridor linking Central and South Asian cannabis gene pools.
@@ -16,18 +16,13 @@ The Pamir Mountains have served as a geographic crossroads and corridor for huma
 The Pamir environment imposes some of the most extreme conditions faced by any cannabis population: very high UV radiation, cold temperatures even in summer, very short frost-free seasons, and minimal rainfall supplemented by snowmelt. Flowering runs 10–14 weeks consistent with other highland Pamir material. Cold hardiness and UV tolerance are the defining adaptive traits. As a broad complex rather than a selected line, phenotypic consistency will be variable. Seed material from this population is of primary interest for its genetic diversity and stress-tolerance alleles.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

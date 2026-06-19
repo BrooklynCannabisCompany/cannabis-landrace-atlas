@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Tuva Feral is a cold-adapted feral hemp population from the Republic of Tuva (Tyva), a federal subject of Russia located in south-central Siberia, bordering Mongolia. Tuva sits in a landlocked basin surrounded by mountain ranges, producing an extreme continental climate that is one of the coldest inhabited regions in Asia outside of northeastern Siberia. Cannabis naturalized in this environment represents an exceptionally cold-hardy gene pool.
@@ -16,18 +16,13 @@ Cannabis is understood to have naturalized across the southern Siberian steppe a
 Tuva experiences an extreme continental climate: very cold winters (sometimes reaching -50°C in the basin), short summers, and significant temperature swings. Precipitation is low, and growing seasons are brief. This feral population must complete its lifecycle within the narrow warm window available. Flowering is reported at 10–14 weeks, though early-maturing phenotypes within the population may finish considerably faster. The potential ruderalis influence makes this population of interest for cold-climate and auto-flowering breeding programs. Hardiness and resilience under minimal care conditions are expected strengths.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

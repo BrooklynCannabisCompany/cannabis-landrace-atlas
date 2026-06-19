@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Lebanese Red is a traditional highland hash landrace from Lebanon's Bekaa Valley, associated with the production of red Lebanese hashish — a darker, more heavily pressed variety that was distinguished from blonde Lebanese hash in the international trade. This medium-tall, highly resinous population is adapted to the Bekaa Valley's semi-arid mountain valley climate, with seasonal drought and cool mountain nights as key environmental conditions.
@@ -16,18 +16,13 @@ Red Lebanese hashish was one of the most sought-after products of the Middle Eas
 Adapted to the Bekaa Valley's semi-arid mountain climate — hot, dry summers with cool nights and minimal in-season rainfall. Flowering runs 10–13 weeks, longer than the blonde type, consistent with the later harvest associated with red-hash production. Drought tolerance and adaptation to thin, well-drained mountain valley soils are expected traits. Dense flower structure typical of this type is susceptible to botrytis outside the native dry climate; low-humidity environments are preferred.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

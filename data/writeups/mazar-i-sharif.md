@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Mazar I Sharif is a short, fast-finishing indica landrace from the northern Afghan city and region of Mazar-i-Sharif in Balkh Province — an area situated between the Hindu Kush foothills and the Amu Darya river plain bordering Uzbekistan and Turkmenistan. This strain is associated with high resin production and is one of the most recognized Afghan indica names in both hashish tradition and Western cannabis breeding.
@@ -17,18 +17,13 @@ Mazar-i-Sharif and the surrounding Balkh region have been a major cannabis and h
 Adapted to the northern Afghan climate — hot, dry summers with cool nights and cold winters. Flowering is fast at 7–9 weeks, making it practical for outdoor cultivation in shorter seasons. Short stature and rapid maturation make it well-suited to indoor growing as well. High resin output is consistent across reported cultivation accounts. Dense flowers are susceptible to botrytis in humid climates; low-humidity growing conditions are strongly preferred.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

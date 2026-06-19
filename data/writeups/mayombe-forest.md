@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Mayombe Forest refers to a feral sativa cannabis complex associated with the Mayombe forest region of the Republic of Congo — a dense, ancient equatorial rainforest zone spanning the coastal lowlands of the Congo Basin's western margin. This is described as an ancient rainforest corridor population of very tall sativa character, growing in one of central Africa's most biologically rich and isolated forest ecosystems.
@@ -16,18 +16,13 @@ The Mayombe forest is one of the most intact remaining patches of Central Africa
 The equatorial rainforest environment of the Congolese Mayombe is characterized by high humidity, consistent warmth, high rainfall, and relatively stable day length year-round. Plants adapted to this environment are typically very tall, have extended flowering periods, and show strong adaptation to humid conditions — traits that may include some mold resistance developed under selection pressure from the rainforest's high moisture load. Indoor cultivation of equatorial African feral types is challenging due to extreme height requirements and very long flowering times. Best suited to tropical or subtropical outdoor environments.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

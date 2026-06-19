@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Khotan is a cannabis landrace associated with the ancient oasis city of Khotan (Hotan) located at the southern margin of the Tarim Basin in Xinjiang, China, at the foot of the Kunlun Mountains. Khotan has one of the longest recorded histories of any Central Asian oasis city, and its cannabis population is associated with ancient cultivation traditions adapted to the extreme heat and aridity of the Tarim Basin's desert edge.
@@ -16,18 +16,13 @@ Khotan's position on the southern branch of the Silk Road made it a center of cu
 The Tarim Basin is one of the driest and hottest inland environments in Asia. Khotan's cannabis population is therefore expected to show exceptional heat and drought tolerance alongside adaptation to high UV radiation from the clear desert atmosphere. Flowering runs 10–14 weeks — longer than many Central Asian types — which may reflect photoperiodic adaptation to the relatively southerly latitude and hot summer conditions. Oasis-grown plants would have had access to irrigation, so soil quality tolerance may be a secondary trait.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

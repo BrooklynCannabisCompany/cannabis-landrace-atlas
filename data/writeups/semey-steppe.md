@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Semey Steppe is a feral steppe cannabis population from the Abai Region (historically known as Semey) in northeastern Kazakhstan, situated along the Irtysh River near the border with Russia and China. This population is adapted to the open grasslands and extreme continental climate of the Kazakh steppe, where cannabis is believed to have naturalized over centuries, persisting without consistent cultivation management.
@@ -18,18 +18,13 @@ _Recorded locality detail: formerly Semey._
 The Abai Region experiences a harsh continental grassland climate with severe winter cold, dry summers, and significant temperature swings year-round. This feral population has adapted to these conditions without human intervention, suggesting strong cold hardiness and drought tolerance. Flowering is commonly reported at 10–14 weeks. The short warm season typical of northeastern Kazakhstan would have favored earlier-maturing phenotypes. This population potentially preserves ancient Central Asian feral genetics of interest for cold-climate breeding.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

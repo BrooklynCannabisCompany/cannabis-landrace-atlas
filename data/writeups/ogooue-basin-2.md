@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Ogooué Basin refers to a feral sativa cannabis population associated with the remote river basins of the Ogooué River system in Gabon — one of the most biologically diverse equatorial rainforest environments in central Africa. This is a very tall, equatorial feral type noted for its extreme mold resistance, an adaptation consistent with the permanently humid conditions of the Gabonese rainforest.
@@ -16,18 +16,13 @@ The Ogooué River is Gabon's principal waterway, draining a vast network of equa
 Adapted to the equatorial rainforest climate of the Gabonese Ogooué basin — consistently hot, extremely humid, high-rainfall conditions with minimal seasonality. The extreme mold resistance is the primary trait of interest for breeders working in humid environments. Very tall stature requires substantial growing space. Variable flowering time reflects the equatorial adaptation where photoperiod cues are weak. This is a feral population with no documented selection; phenotypic consistency will be low. Most practical use would be as a mold-resistance donor in breeding programs.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

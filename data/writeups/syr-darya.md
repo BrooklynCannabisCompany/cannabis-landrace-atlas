@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Syr Darya is an intermediate landrace associated with the Syr Darya River basin in Kazakhstan, one of the two major river systems draining Central Asia into the Aral Sea. The Syr Darya corridor runs from the Tian Shan Mountains through the Fergana Valley and across the Kazakh steppe, historically serving as a critical Silk Road route and agricultural lifeline through an otherwise arid region.
@@ -16,18 +16,13 @@ The Syr Darya River basin has supported sedentary agriculture for millennia, and
 The Syr Darya River basin in Kazakhstan spans a semi-arid to arid continental climate with hot summers and cold winters. Irrigation agriculture has historically supported dense cultivation along the riverbanks. Cannabis here would be adapted to warm, dry conditions with seasonal flood or irrigation water access. Flowering is typically reported at 10–14 weeks, consistent with a longer-season intermediate type. The population's Silk Road corridor position suggests broad adaptability and genetic heterogeneity.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

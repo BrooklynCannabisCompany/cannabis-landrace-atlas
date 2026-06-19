@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Zhetysu (also known as Semirechye — "Land of Seven Rivers") is a steppe-landrace complex from southeastern Kazakhstan, in the region east of Almaty bounded by the Ili River basin, Lake Balkhash, and the foothills of the Tian Shan and Dzungarian Alatau mountains. One of Kazakhstan's most fertile and ecologically diverse zones, Zhetysu has a long history of cannabis cultivation and is recognized for its significant genetic diversity and ancient cultivation heritage.
@@ -18,18 +18,13 @@ _Recorded locality detail: Semirechye._
 The Zhetysu grassland steppe climate is continental with warm to hot summers, cold winters, and moderate precipitation, particularly from Tian Shan snowmelt rivers. The diverse topography of the region — from lowland plains to mountain foothill zones — means this complex likely encompasses a range of adapted ecotypes. Flowering is typically reported at 10–14 weeks. Tall stature and strong vegetative growth under good soil and water conditions are characteristic. This population's rich genetic diversity makes it of high interest for preservation and research into Central Asian cannabis genetics.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

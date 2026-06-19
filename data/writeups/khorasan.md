@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Khorasan refers to a cannabis landrace associated with the Greater Khorasan region of northeastern Iran — a historic geographic area bordering Afghanistan to the east and Turkmenistan to the north. This semi-arid steppe zone was a critical corridor on the ancient Silk Road, and the Khorasan population is considered an indica-leaning desert-edge landrace adapted to drought, seasonal temperature extremes, and mountain-steppe environments.
@@ -16,18 +16,13 @@ Greater Khorasan was historically one of the most significant cultural and comme
 Suited to semi-arid climates with cold winters, hot summers, and low annual precipitation. Flowering ranges from 9–12 weeks, reflecting the moderate to broad maturation range typical of transitional landrace populations. Strong drought tolerance and adaptation to alkaline soils are expected traits. Cold hardiness is a secondary adaptive trait given the continental climate of northeastern Iran. Performance in humid environments is likely poor given the native aridity of the region.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Trans-Baikal Wild Cannabis is a ruderalis population from the Transbaikal (Zabaykalsky) region of Russia, a vast territory of steppe, taiga, and semi-arid grasslands east of Lake Baikal, bordering Mongolia and China. This is among the northernmost and easternmost cannabis populations documented in Central Asia, persisting as wild plants in one of the most climatically extreme inhabited regions on Earth.
@@ -16,18 +16,13 @@ Wild ruderalis cannabis has long been documented across the Russian steppe and S
 The Siberian steppe climate of the Transbaikal is defined by extremely cold winters (among the coldest inhabited regions on Earth), short warm summers, and significant drought stress. Cannabis surviving here must germinate, grow, flower, and set seed within a narrow window. Flowering is reported at 6–10 weeks. Short stature and automatic flowering are essential adaptive traits. This population's value to breeders lies primarily in its extreme cold tolerance and ruderalis genetics, useful for developing cold-hardy auto-flowering cultivars.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

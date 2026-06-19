@@ -1,4 +1,4 @@
-> _AI-generated draft — unverified. Help us improve it via the button in the panel._
+> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
 
 ## Overview
 Uzbekistan Hemp Belt is a fiber and hemp selection line from Uzbekistan, categorized as a hemp population rather than a drug landrace. Uzbekistan's agricultural history — shaped by Soviet-era large-scale crop management and centuries of pre-Soviet Central Asian cultivation — included significant hemp production, particularly for fiber. This population represents the cultivated hemp tradition of the Uzbek steppe rather than a wild or drug-producing landrace.
@@ -16,18 +16,13 @@ Hemp cultivation in Central Asia, including in the territories of modern Uzbekis
 Uzbekistan's steppe climate — hot, dry summers and cold winters — shapes a population adapted to continental agricultural conditions with reliable warm seasons and low humidity. Tall stature and long flowering duration are consistent with fiber hemp selections optimized for biomass production. This population is best suited to large-scale open field cultivation with irrigation. Its primary interest to the cannabis landrace community lies in its genetic diversity as a Central Asian hemp selection and potential source of unique fiber or seed traits.
 
 ## Photos
-_No verified photos yet — use the button below to suggest one._
+_No verified photos yet — use the ⊕ button to suggest one._
 
 ## Seed Sources
-_No verified seed sources yet — use the button below to suggest one._
+_No verified seed sources yet — use the ⊕ button to suggest one._
 
 ## Forum Discussions
-_No verified forum links yet — use the button below to suggest one._
+_No verified forum links yet — use the ⊕ button to suggest one._
 
-## References
-
-General background on cannabis landraces and their ethnobotany:
-
-- Clarke, R. C., & Merlin, M. D. (2013). *Cannabis: Evolution and Ethnobotany*. University of California Press.
-- Clarke, R. C. (1998). *Hashish!* Red Eye Press.
-- Initial regional data adapted from the community landrace/heirloom list compiled by Dankk1 on the Overgrow forum (see project credits and LICENSE-DATA).
+## Sources
+_No verified sources for this variety yet — use the ⊕ button to suggest one._

@@ -49,6 +49,7 @@ async function loadWriteup(strain) {
     const md = await res.text();
     if (reqId !== currentId) return;
     setWriteupHtml(panel, renderMarkdown(md));
+    wireDisclaimer(strain);
     insertRelated(strain);
     fillLinkSections(strain);
     addFootnotes(strain);
@@ -58,8 +59,15 @@ async function loadWriteup(strain) {
   }
 }
 
+// Wires the disclaimer's "Help us improve it." link to the Suggest Corrections flow.
+function wireDisclaimer(strain) {
+  const link = panel.querySelector('.writeup a[href="#suggest"]');
+  if (!link) return;
+  link.addEventListener('click', (e) => { e.preventDefault(); openStrainSubmit(strain); });
+}
+
 // Adds a "+" submit button beside the link-collecting write-up sections.
-const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions'];
+const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'Sources'];
 function decorateWriteupSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
     const label = h.textContent.trim();
@@ -75,36 +83,20 @@ function decorateWriteupSections(strain) {
   });
 }
 
-// Adds the matched vendor page to the References list and a "sources" footnote
-// marker at the end of each prose section that jumps to the References.
-// Honest by design: the marker attributes a section to the real reference set,
-// not each sentence (which would be fabricated precision for AI-drafted prose).
 function headText(h) { return (h.firstChild ? h.firstChild.textContent : h.textContent).trim(); }
 
+// Adds a "source" footnote marker after each prose section — but ONLY when the strain
+// has a real, citable source (its matched seed-vendor listing). The marker jumps to the
+// strain's Sources section. General foundational background lives on the global
+// References screen (hamburger), so unsourced prose gets no marker.
 function addFootnotes(strain) {
+  if (!strain.seedSources || !strain.seedSources.length) return;
   const writeup = panel.querySelector('.writeup');
   if (!writeup) return;
   const heads = [...writeup.querySelectorAll('h2')];
-  const refH = heads.find((h) => headText(h) === 'References');
+  const srcH = heads.find((h) => headText(h) === 'Sources');
+  if (!srcH) return;
 
-  // Add the strain's seed-vendor page(s) as numbered references.
-  if (refH && strain.seedSources && strain.seedSources.length) {
-    let ul = refH.nextElementSibling;
-    while (ul && ul.tagName !== 'UL' && ul.tagName !== 'H2') ul = ul.nextElementSibling;
-    if (ul && ul.tagName === 'UL') {
-      for (const s of strain.seedSources) {
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode('Seed-bank listing — '));
-        const a = document.createElement('a');
-        a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-        a.textContent = `${s.vendor}: ${s.product}`;
-        li.appendChild(a);
-        ul.appendChild(li);
-      }
-    }
-  }
-
-  // Footnote marker at the end of each prose section.
   for (const label of ['Overview', 'History', 'Description']) {
     const h = heads.find((x) => headText(x) === label);
     if (!h) continue;
@@ -115,13 +107,12 @@ function addFootnotes(strain) {
     sup.className = 'fnref';
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.textContent = 'sources';
-    btn.title = 'Sources informing this section';
+    btn.textContent = 'source';
+    btn.title = 'Source for this variety';
     btn.addEventListener('click', () => {
-      if (!refH) return;
-      refH.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      refH.classList.add('ref-flash');
-      setTimeout(() => refH.classList.remove('ref-flash'), 1200);
+      srcH.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      srcH.classList.add('ref-flash');
+      setTimeout(() => srcH.classList.remove('ref-flash'), 1200);
     });
     sup.appendChild(btn);
     last.appendChild(document.createTextNode(' '));
@@ -133,7 +124,8 @@ function addFootnotes(strain) {
 const SECTION_DATA = {
   'Photos': (s) => (s.photos || []).map((url) => ({ img: url })),
   'Seed Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })),
-  'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url }))
+  'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url })),
+  'Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
 };
 function fillLinkSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
