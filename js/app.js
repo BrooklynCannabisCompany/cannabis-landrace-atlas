@@ -214,6 +214,7 @@ function openFacet(field, token) {
 }
 
 function openListModal(title, list) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   const ul = document.createElement('ul');
@@ -304,11 +305,12 @@ input.addEventListener('keydown', (e) => {
 
 // ---- Submit modal (placeholder; no network) ----
 function openModal(title, body) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.textContent = body;
   modal.hidden = false;
 }
-function closeModal() { modal.hidden = true; }
+function closeModal() { modal.hidden = true; modal.classList.remove('wide'); }
 
 function openFeedbackSubmit() {
   openModal(
@@ -344,14 +346,47 @@ appMenu.addEventListener('click', (e) => {
   const item = e.target.closest('.app-menu-item');
   if (!item) return;
   toggleMenu(false);
-  ({ about: openAbout, index: openIndex, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
+  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
 });
 
 function openContentModal(title, build) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);
   modal.hidden = false;
+}
+
+function openDatabase() {
+  openContentModal('Database', (body) => {
+    const note = document.createElement('p');
+    note.className = 'modal-note';
+    note.append('Searchable database of the ');
+    const dsLink = document.createElement('a');
+    dsLink.href = 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462';
+    dsLink.target = '_blank'; dsLink.rel = 'noopener noreferrer';
+    dsLink.textContent = 'original dataset';
+    note.append(dsLink, '.');
+    const frame = document.createElement('iframe');
+    frame.src = 'https://simpletestsite.neocities.org/global%20landraces.HTML';
+    frame.className = 'db-frame';
+    frame.title = 'Searchable database of original dataset';
+    frame.loading = 'lazy';
+    // Defense-in-depth for the third-party embed: allow only scripts (treat as an
+    // opaque origin — no top navigation, cookies, or storage on the host), send no
+    // referrer, and deny all Permissions-Policy features.
+    frame.setAttribute('sandbox', 'allow-scripts allow-popups allow-popups-to-escape-sandbox');
+    frame.referrerPolicy = 'no-referrer';
+    frame.setAttribute('allow', '');
+    const fallback = document.createElement('p');
+    fallback.className = 'modal-note';
+    const a = document.createElement('a');
+    a.href = frame.src; a.target = '_blank'; a.rel = 'noopener noreferrer';
+    a.textContent = 'Open the database in a new tab';
+    fallback.append('If the embed does not load, ', a, '.');
+    body.append(note, frame, fallback);
+  });
+  modal.classList.add('wide');
 }
 
 function openAbout() {
@@ -404,16 +439,17 @@ function openReferences() {
   });
 }
 
-// Index facets: [label, record field, optional value formatter].
+// Index facets: [label, record field, optional value formatter, optional value order].
+// Region first — this atlas is about place. Each facet's groups follow the given order.
 const INDEX_FACETS = [
-  ['Morphotype', 'morphotype'],
-  ['Chemotype', 'chemotype', (v) => `Type ${v}`],
-  ['Domestication', 'domestication'],
-  ['Type (vernacular)', 'category'],
+  ['Region', 'continent', null, ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia']],
+  ['Morphotype', 'morphotype', null, ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified']],
+  ['Chemotype', 'chemotype', (v) => `Type ${v}`, ['I', 'II', 'III', 'IV', 'V']],
+  ['Domestication', 'domestication', null, ['Heirloom', 'Domesticated', 'Feral (escaped)', 'Wild']],
+  ['Type (vernacular)', 'category', null, ['Hemp', 'Sativa', 'Indica', 'Mixed', 'Hybrid-Intermediate', 'Ruderalis', 'Feral']],
   ['Height', 'height'],
   ['Flowering Time', 'flowering'],
-  ['Climate', 'climate'],
-  ['Region', 'continent']
+  ['Climate', 'climate', null, ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown']]
 ];
 const INDEX_STATE_KEY = 'cla-index-state';
 function loadIndexState() { try { return JSON.parse(localStorage.getItem(INDEX_STATE_KEY)) || {}; } catch { return {}; } }
@@ -524,13 +560,16 @@ function buildFloweringSlider(facet) {
 }
 
 // Collapsible value groups (one-per-line lists), with persisted open state.
-function buildValueGroups(facet, label, field, fmt, target, state) {
+function buildValueGroups(facet, label, field, fmt, order, target, state) {
   const groups = {};
   for (const s of strains) {
-    const v = (s[field] || '').toString().trim() || '—';
+    const v = (s[field] || '').toString().trim() || 'Unknown';
     (groups[v] ||= []).push(s);
   }
-  for (const v of Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length)) {
+  const keys = Object.keys(groups).sort(order
+    ? (a, b) => order.indexOf(a) - order.indexOf(b)
+    : (a, b) => groups[b].length - groups[a].length);
+  for (const v of keys) {
     const g = document.createElement('details');
     g.className = 'index-group';
     const key = `group:${label}::${v}`;
@@ -550,7 +589,7 @@ function buildValueGroups(facet, label, field, fmt, target, state) {
 function openIndex(target) {
   openContentModal('Index', (body) => {
     const state = target ? {} : loadIndexState();
-    INDEX_FACETS.forEach(([label, field, fmt]) => {
+    INDEX_FACETS.forEach(([label, field, fmt, order]) => {
       const facet = document.createElement('details');
       facet.className = 'index-facet';
       const fkey = `facet:${label}`;
@@ -562,7 +601,7 @@ function openIndex(target) {
       facet.appendChild(fsum);
       if (label === 'Height') buildHeightSlider(facet);
       else if (label === 'Flowering Time') buildFloweringSlider(facet);
-      else buildValueGroups(facet, label, field, fmt, target, state);
+      else buildValueGroups(facet, label, field, fmt, order, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
       body.appendChild(facet);
     });
