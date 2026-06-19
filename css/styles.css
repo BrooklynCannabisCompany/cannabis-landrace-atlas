@@ -133,8 +133,10 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .panel-submit:hover { background: #e4e8db; border-color: var(--green); }
 
-/* ---- Marker tint (SVG uses currentColor) ---- */
-.leaf-marker { color: var(--green); }
+/* ---- Marker (inline SVG divIcon; tinted via currentColor) ---- */
+.leaf-marker { color: var(--green); background: none; border: none; }
+.leaf-marker svg { display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
+.leaf-marker:hover { color: var(--green-dark); }
 
 /* ---- Modal ---- */
 .modal { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; }
