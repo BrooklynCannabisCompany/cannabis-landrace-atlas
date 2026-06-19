@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { resolveCoords, jitter, COUNTRY_CENTROIDS } from './coords.mjs';
+import { resolveCoords, jitter, COUNTRY_CENTROIDS, inferCountry } from './coords.mjs';
 
 test('resolves a known country to its centroid (with jitter applied)', () => {
   const c = resolveCoords({ countryRaw: 'Morocco', regionRaw: null, id: 'atlas-mountain' });
@@ -23,4 +23,11 @@ test('jitter is deterministic for a given id', () => {
 test('returns null when no country can be resolved', () => {
   const c = resolveCoords({ countryRaw: 'Atlantis', regionRaw: null, id: 'x' });
   assert.equal(c, null);
+});
+
+test('infers country from the name when no parenthetical country', () => {
+  assert.ok(resolveCoords({ countryRaw: null, regionRaw: null, name: 'Afghani', id: 'afghani' }));
+  assert.ok(resolveCoords({ countryRaw: null, regionRaw: null, name: 'Yunnan Highland/Valley', id: 'y' }));
+  assert.ok(resolveCoords({ countryRaw: 'PNG', regionRaw: null, name: 'Enga Province', id: 'e' }));
+  assert.equal(inferCountry('zamal réunion island'), 'Réunion');
 });

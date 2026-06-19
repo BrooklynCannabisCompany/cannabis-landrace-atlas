@@ -15,6 +15,7 @@ export const COUNTRY_CENTROIDS = {
   'DRC': { lat: -2.9, lng: 23.7 }, 'DR Congo': { lat: -2.9, lng: 23.7 },
   'Congo': { lat: -0.7, lng: 15.5 }, 'Central African Republic': { lat: 6.6, lng: 20.9 },
   'Réunion': { lat: -21.1, lng: 55.5 }, 'Eswatini': { lat: -26.5, lng: 31.5 },
+  'Ivory Coast': { lat: 7.5, lng: -5.5 },
   // Middle East / Central Asia
   'Afghanistan': { lat: 33.9, lng: 67.7 }, 'Pakistan': { lat: 30.4, lng: 69.3 },
   'Iran': { lat: 32.4, lng: 53.7 }, 'Turkey': { lat: 39.0, lng: 35.2 },
@@ -71,7 +72,8 @@ export const COUNTRY_CENTROIDS = {
   'Saint Vincent & the Grenadines': { lat: 13.25, lng: -61.2 },
   'Trinidad & Tobago': { lat: 10.5, lng: -61.3 }, 'United States': { lat: 39.8, lng: -98.6 },
   'USA': { lat: 39.8, lng: -98.6 }, 'Canada': { lat: 56.1, lng: -106.3 },
-  'Hawaii': { lat: 20.8, lng: -156.3 }
+  'Hawaii': { lat: 20.8, lng: -156.3 },
+  'Alaska': { lat: 64.2, lng: -149.5 },
 };
 
 // Synonyms / alternate spellings normalized to a table key.
@@ -111,12 +113,124 @@ export const REGION_OVERRIDES = {
   // 'Kona District, Hawaiʻi (Big Island)': { lat: 19.6, lng: -155.9 },
 };
 
-export function resolveCoords({ countryRaw, regionRaw, id }) {
+// Keyword-to-country inference rules (ordered, more specific first).
+// Each entry: [regex applied to lowercased combined text, countryKey in COUNTRY_CENTROIDS].
+const INFER_RULES = [
+  // Must come before shorter overlapping patterns
+  // Africa — specific
+  [/réunion|zamal/,                     'Réunion'],
+  [/ivory coast/,                       'Ivory Coast'],
+  [/sierra leone/,                      'Sierra Leone'],
+  [/south africa|southern africa|cape wild|eastern cape|pondoland|transkei|durban/i, 'South Africa'],
+  [/swazi/,                             'Eswatini'],
+  [/lesotho/,                           'Lesotho'],
+  [/zimbabwe|mashonaland/,              'Zimbabwe'],
+  [/namibia|namibian/,                  'Namibia'],
+  [/malawi/,                            'Malawi'],
+  [/madagascar/,                        'Madagascar'],
+  [/cameroon/,                          'Cameroon'],
+  [/sangha basin|congo basin|central african rainforest/i, 'DRC'],
+  [/gabon/,                             'Gabon'],
+  [/angola|angolan/,                    'Angola'],
+  [/ethiopia|ethiopian|rift valley corridor/i, 'Ethiopia'],
+  [/tanzania|tanzanian/,                'Tanzania'],
+  [/uganda|lake victoria/,              'Uganda'],
+  [/nigeria|nigerian/,                  'Nigeria'],
+  [/kenya/,                             'Kenya'],
+  // Middle East / Central Asia
+  [/afghani|badakhshan|balkh|nuristan|lashkar|mazar/i, 'Afghanistan'],
+  [/iranian|sinai.*persia/i,            'Iran'],
+  [/sinai/,                             'Egypt'],
+  [/ketama|moroccan rif|rif/,           'Morocco'],
+  [/lebanese/,                          'Lebanon'],
+  [/syrian/,                            'Syria'],
+  [/khyber|tirah|chitral|karakoram|northern pakistan/i, 'Pakistan'],
+  [/ferghana/,                          'Uzbekistan'],
+  [/fann mountains/,                    'Tajikistan'],
+  [/kazakh|semirechye|seven rivers/i,   'Kazakhstan'],
+  [/kyrgyz|tian shan/,                  'Kyrgyzstan'],
+  [/turkestan/,                         'Uzbekistan'],
+  [/uzbekistan/,                        'Uzbekistan'],
+  [/altai|siberia|trans.baikal|russian ruderalis|bashkortostan|volga|ural|russian far east|sea of japan coast/i, 'Russia'],
+  [/anatolian|turkey interior/,         'Turkey'],
+  [/mongolian steppe|mongolia/,         'Mongolia'],
+  // South Asia
+  [/parvati valley/,                    'India'],
+  [/nepalese|nepal terai|nepal/i,       'Nepal'],
+  // Southeast Asia
+  [/bali|lombok|borneo|kalimantan|flores island|sulawesi|sumatra/i, 'Indonesia'],
+  [/timor/,                             'Timor-Leste'],
+  [/cambodian|cambodia/,                'Cambodia'],
+  [/golden triangle/,                   'Laos'],
+  [/hmong/,                             'Laos'],
+  [/vietnam/,                           'Vietnam'],
+  // East Asia
+  [/xishuangbanna|yunnan|sichuan|gansu|heilongjiang|jilin|qinghai|tibetan plateau|xinjiang|yarkand/i, 'China'],
+  [/japanese hemp|japan/i,              'Japan'],
+  [/north korea/,                       'North Korea'],
+  [/korean native|south korea/,         'South Korea'],
+  // Europe
+  [/albanian/,                          'Albania'],
+  [/balkan|southeastern europe/i,       'Serbia'],
+  [/cretan|crete/,                      'Greece'],
+  [/danube basin|central.*eastern europe|hungarian/i, 'Hungary'],
+  [/french corsica|corsica/,            'France'],
+  [/italian calabria|calabria/,         'Italy'],
+  [/portuguese algarve|algarve/,        'Portugal'],
+  [/spanish sierra nevada/,             'Spain'],
+  [/caucasus feral|georgia/,            'Georgia'],
+  // Oceania / Pacific
+  [/papua new guinea|png|chimbu|eastern highlands|enga|gulf province|hela|madang|morobe|sepik|new guinea|buka island|manus island|new britain|new ireland/i, 'Papua New Guinea'],
+  [/fiji/,                              'Fiji'],
+  [/solomon islands/,                   'Solomon Islands'],
+  [/tahiti|french polynesia/,           'French Polynesia'],
+  [/vanuatu/,                           'Vanuatu'],
+  [/northland feral|new zealand/,       'New Zealand'],
+  [/australian|cape york|northern territory|northern queensland/i, 'Australia'],
+  // Americas
+  [/alaskan/,                           'Alaska'],
+  [/appalachian|california.*heirloom|florida everglades|midwest prairie|oregon cascadia|texas rio grande/i, 'United States'],
+  [/hawaiian|hawaii/,                   'Hawaii'],
+  [/british columbia|canadian prairie|northern ontario|northern quebec/i, 'Canada'],
+  [/bolivian yungas|bolivia/,           'Bolivia'],
+  [/colombian|colombia|sierra nevada de santa marta|llanos/i, 'Colombia'],
+  [/ecuador|ecuadorian/,                'Ecuador'],
+  [/guatemala/,                         'Guatemala'],
+  [/honduras/,                          'Honduras'],
+  [/mexican|mexico/,                    'Mexico'],
+  [/panama|darién|darien/,              'Panama'],
+  [/peruvian|peru/,                     'Peru'],
+  [/venezuela/,                         'Venezuela'],
+  [/brazilian|brazil/,                  'Brazil'],
+];
+
+/**
+ * Scans a lowercased combined text against the ordered inference rules and
+ * returns the first matching country key present in COUNTRY_CENTROIDS, or null.
+ */
+export function inferCountry(text) {
+  if (!text) return null;
+  const lower = text.toLowerCase();
+  for (const [re, key] of INFER_RULES) {
+    if (re.test(lower) && COUNTRY_CENTROIDS[key]) return key;
+  }
+  return null;
+}
+
+export function resolveCoords({ countryRaw, regionRaw, name, id }) {
   let base = null;
+  // 1. Explicit region override
   if (regionRaw && REGION_OVERRIDES[regionRaw]) base = REGION_OVERRIDES[regionRaw];
+  // 2. Resolve from parenthetical country
   if (!base) {
     const key = resolveCountryKey(countryRaw);
     if (key) base = COUNTRY_CENTROIDS[key];
+  }
+  // 3. Infer from combined text
+  if (!base) {
+    const combined = [countryRaw, name, regionRaw].filter(Boolean).join(' ');
+    const inferred = inferCountry(combined);
+    if (inferred) base = COUNTRY_CENTROIDS[inferred];
   }
   if (!base) return null;
   const { dLat, dLng } = jitter(id || regionRaw || countryRaw || 'seed');

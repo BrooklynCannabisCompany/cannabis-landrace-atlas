@@ -34,17 +34,46 @@ export function parseEntry(block) {
   // Prefer en dash "–"; fall back to a hyphen that is followed by a space.
   // Only treat an en dash as the separator if it appears before the first pipe
   // (en dashes also appear inside flowering ranges like "9–11w").
+  // Crucially, ignore any "–" or "-" that is inside parentheses (depth > 0),
+  // so that "Rift Valley Corridor (Kenya–Ethiopia–Tanzania) – ..." splits at
+  // the outer en-dash, not the ones inside the parens.
   let head = first;
   let rest = '';
   const firstPipeIdx = first.indexOf('|');
   const searchBoundary = firstPipeIdx === -1 ? first.length : firstPipeIdx;
-  const enDashIdx = first.indexOf('–');
-  if (enDashIdx !== -1 && enDashIdx < searchBoundary) {
-    head = first.slice(0, enDashIdx);
-    rest = first.slice(enDashIdx + 1);
+
+  // Scan character-by-character tracking paren depth to find the first
+  // depth-0 en-dash, then as a fallback the first depth-0 hyphen followed by
+  // a space — both must be before the first pipe.
+  let depth0EnDash = -1;
+  let depth0HyphenSpace = -1;
+  let parenDepth = 0;
+  for (let i = 0; i < searchBoundary; i++) {
+    const ch = first[i];
+    if (ch === '(') { parenDepth++; continue; }
+    if (ch === ')') { parenDepth = Math.max(0, parenDepth - 1); continue; }
+    if (parenDepth === 0) {
+      if (ch === '–' && depth0EnDash === -1) {
+        depth0EnDash = i;
+        break; // en-dash wins immediately
+      }
+      if (ch === '-' && depth0HyphenSpace === -1 && first[i + 1] === ' ') {
+        depth0HyphenSpace = i;
+        // keep scanning in case there's a later en-dash (but en-dash breaks early)
+      }
+    }
+  }
+
+  if (depth0EnDash !== -1) {
+    head = first.slice(0, depth0EnDash);
+    rest = first.slice(depth0EnDash + 1);
+  } else if (depth0HyphenSpace !== -1) {
+    head = first.slice(0, depth0HyphenSpace);
+    rest = first.slice(depth0HyphenSpace + 2); // skip "- "
   } else {
-    const m = first.match(/-\s+/);
-    if (m) {
+    // Final fallback: hyphen without space (e.g. "Name- descriptor")
+    const m = first.match(/-\s*/);
+    if (m && m.index < searchBoundary) {
       head = first.slice(0, m.index);
       rest = first.slice(m.index + m[0].length);
     } else {

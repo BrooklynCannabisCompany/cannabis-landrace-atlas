@@ -75,3 +75,12 @@ test('keeps parenthetical height detail like "Tall (2–4m)"', () => {
   assert.equal(r.climate, 'Tropical highland');
   assert.equal(r.type, 'Tropical African landrace');
 });
+
+test('ignores en-dashes inside a parenthetical country', () => {
+  const block = 'Rift Valley Corridor (Kenya–Ethiopia–Tanzania) – Regional landrace complex | Tall | 11–16w | Highland savanna\nNotes: Ancient migration corridor.';
+  const r = parseEntry(block);
+  assert.equal(r.name, 'Rift Valley Corridor');
+  assert.equal(r.countryRaw, 'Kenya–Ethiopia–Tanzania');
+  assert.equal(r.type, 'Regional landrace complex');
+  assert.equal(r.height, 'Tall');
+});
