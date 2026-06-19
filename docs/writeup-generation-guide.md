@@ -24,7 +24,7 @@ CC BY-SA 4.0.
   5. `## Photos`
   6. `## Seed Sources`
   7. `## Forum Discussions`
-  8. `## Sources`
+  8. `## References`
 
 ## Input context per strain (disambiguation is mandatory)
 
@@ -73,18 +73,18 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
 - They are filled later from real sources (the seed-bank enrichment phase and
   community submissions via the per-section **⊕** button), not by generation.
 
-## The Sources section (strain-specific only)
+## The References section (strain-specific only)
 
 - The general foundational references (Clarke & Merlin; Clarke; Overgrow credit) now
   live ONLY on the global References screen (hamburger menu) — do NOT repeat them per
   strain.
-- The per-strain `## Sources` section holds only strain-specific sources (e.g. a
+- The per-strain `## References` section holds only strain-specific sources (e.g. a
   matched seed-vendor listing, injected at runtime). The generated file uses the
   empty-slot note; never invent URLs or citations here:
 
   ```
-  ## Sources
-  _No verified sources for this variety yet — use the ⊕ button to suggest one._
+  ## References
+  _No verified references for this variety yet — use the ⊕ button to suggest one._
   ```
 
 ## Validation (run after a batch)

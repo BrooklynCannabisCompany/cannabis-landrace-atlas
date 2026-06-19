@@ -67,7 +67,7 @@ function wireDisclaimer(strain) {
 }
 
 // Adds a "+" submit button beside the link-collecting write-up sections.
-const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'Sources'];
+const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'References'];
 function decorateWriteupSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
     const label = h.textContent.trim();
@@ -94,7 +94,7 @@ function addFootnotes(strain) {
   const writeup = panel.querySelector('.writeup');
   if (!writeup) return;
   const heads = [...writeup.querySelectorAll('h2')];
-  const srcH = heads.find((h) => headText(h) === 'Sources');
+  const srcH = heads.find((h) => headText(h) === 'References');
   if (!srcH) return;
 
   for (const label of ['Overview', 'History', 'Description']) {
@@ -125,7 +125,7 @@ const SECTION_DATA = {
   'Photos': (s) => (s.photos || []).map((url) => ({ img: url })),
   'Seed Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })),
   'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url })),
-  'Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
+  'References': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
 };
 function fillLinkSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {

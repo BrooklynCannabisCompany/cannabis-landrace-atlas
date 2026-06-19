@@ -34,5 +34,5 @@ _No verified seed sources yet — use the ⊕ button to suggest one._
 
 _No verified forum links yet — use the ⊕ button to suggest one._
 
-## Sources
-_No verified sources for this variety yet — use the ⊕ button to suggest one._
+## References
+_No verified references for this variety yet — use the ⊕ button to suggest one._
