@@ -7,6 +7,7 @@ import { parseEntry } from './lib/parse.mjs';
 import { normalizeCategory } from './lib/category.mjs';
 import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
+import { extractAka } from './lib/aka.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -61,6 +62,7 @@ for (const file of FILES) {
     records.push({
       id,
       name: p.name,
+      aka: extractAka([p.summary, p.regionRaw].filter(Boolean).join('. '), p.name),
       continent: continent || 'Unknown',
       country: resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '',
       region: p.regionRaw || '',

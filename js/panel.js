@@ -16,9 +16,27 @@ function traitRow(dl, label, value) {
   dl.appendChild(el('dd', null, value));
 }
 
-// Renders `strain` into `container`. handlers: { onClose, onSubmit }.
+// A fact row whose value is clickable. Splits on "/" so each part (e.g.
+// "Middle East" / "Central Asia") is its own clickable filter chip.
+function facetRow(dl, label, field, value, onFacet) {
+  if (!value) return;
+  dl.appendChild(el('dt', null, label));
+  const dd = el('dd', null);
+  const parts = String(value).split('/').map((p) => p.trim()).filter(Boolean);
+  parts.forEach((part, i) => {
+    if (i > 0) dd.appendChild(document.createTextNode(' / '));
+    const chip = el('button', 'facet', part);
+    chip.type = 'button';
+    chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${part}`);
+    if (onFacet) chip.addEventListener('click', () => onFacet(field, part));
+    dd.appendChild(chip);
+  });
+  dl.appendChild(dd);
+}
+
+// Renders `strain` into `container`. handlers: { onClose, onSubmit, onFacet }.
 export function renderStrain(container, strain, handlers = {}) {
-  const { onClose, onSubmit } = handlers;
+  const { onClose, onSubmit, onFacet } = handlers;
   container.innerHTML = '';
 
   const closeBtn = el('button', 'panel-close', '×');
@@ -34,11 +52,12 @@ export function renderStrain(container, strain, handlers = {}) {
   if (strain.category) container.appendChild(el('span', 'panel-badge', strain.category));
 
   const dl = el('dl', 'panel-traits');
-  traitRow(dl, 'Type', strain.type);
-  traitRow(dl, 'Height', strain.height);
+  if (Array.isArray(strain.aka) && strain.aka.length) traitRow(dl, 'AKA', strain.aka.join(', '));
+  facetRow(dl, 'Type', 'type', strain.type, onFacet);
+  facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
-  traitRow(dl, 'Climate', strain.climate);
-  traitRow(dl, 'Region', strain.continent);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
+  facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
   if (dl.children.length) container.appendChild(dl);
 
   if (strain.coordsApproximate) {

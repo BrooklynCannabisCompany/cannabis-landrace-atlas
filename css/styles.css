@@ -96,6 +96,21 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .panel-traits dd { margin: 0; }
 .panel-note { color: var(--muted); font-size: 12px; margin: 2px 0 0; }
 
+/* Clickable fact value (faceted filter) */
+.facet {
+  background: none; border: none; padding: 0; font: inherit; cursor: pointer;
+  color: var(--green-dark); text-decoration: underline dotted;
+}
+.facet:hover { color: var(--green); text-decoration: underline; }
+
+/* Related-variety exploration links */
+.related-list { font-size: 14.5px; line-height: 1.75; margin: 6px 0 4px; }
+.related-link {
+  background: none; border: none; padding: 0; font: inherit; cursor: pointer;
+  color: var(--green-dark);
+}
+.related-link:hover { text-decoration: underline; }
+
 /* ---- Write-up (rendered markdown) ---- */
 .writeup { margin: 18px 0 8px; border-top: 1px solid var(--line); padding-top: 6px; }
 .writeup-status { color: var(--muted); font-style: italic; font-size: 14px; }
@@ -149,10 +164,18 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .modal[hidden] { display: none; }
 .modal-backdrop { position: absolute; inset: 0; background: rgba(35,33,28,0.38); }
 .modal-card {
-  position: relative; z-index: 1; width: min(440px, 90vw);
+  position: relative; z-index: 1; width: min(460px, 90vw);
   background: #fff; border: 1px solid var(--line); border-radius: 10px;
   padding: 24px 26px 26px; box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+  max-height: 85vh; overflow-y: auto;
 }
+.modal-list { list-style: none; margin: 8px 0 0; padding: 0; }
+.modal-list-link {
+  display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+  width: 100%; text-align: left; font: inherit; cursor: pointer; color: var(--ink);
+  background: none; border: none; border-bottom: 1px solid var(--line); padding: 8px 2px;
+}
+.modal-list-link:hover { background: #eef0e9; }
 .modal-close {
   position: absolute; top: 10px; right: 14px; border: none; background: none;
   font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer;

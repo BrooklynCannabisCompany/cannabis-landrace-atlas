@@ -5,6 +5,7 @@ import { createMap, addMarkers, flyToStrain } from './map.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
+import { relatedStrains } from './relations.js';
 
 const panel = document.getElementById('panel');
 const input = document.getElementById('search-input');
@@ -21,7 +22,7 @@ let currentId = null;
 // ---- Panel ----
 function openPanel(strain) {
   currentId = strain.id;
-  renderStrain(panel, strain, { onClose: closePanel, onSubmit: openStrainSubmit });
+  renderStrain(panel, strain, { onClose: closePanel, onSubmit: openStrainSubmit, onFacet: openFacet });
   document.body.classList.remove('panel-closed');
   document.body.classList.add('panel-open');
   setTimeout(() => map && map.invalidateSize(), 250);
@@ -46,9 +47,10 @@ async function loadWriteup(strain) {
     const md = await res.text();
     if (reqId !== currentId) return;
     setWriteupHtml(panel, renderMarkdown(md));
+    insertRelated(strain);
     decorateWriteupSections(strain);
   } catch {
-    if (reqId === currentId) setWriteupMissing(panel);
+    if (reqId === currentId) { setWriteupMissing(panel); insertRelated(strain); }
   }
 }
 
@@ -64,9 +66,74 @@ function decorateWriteupSections(strain) {
     btn.textContent = '+';
     btn.title = `Suggest ${label}`;
     btn.setAttribute('aria-label', `Suggest ${label} for ${strain.name}`);
-    btn.addEventListener('click', () => openSectionSubmit(strain, label));
     h.appendChild(btn);
+    btn.addEventListener('click', () => openSectionSubmit(strain, label));
   });
+}
+
+// Inserts "Nearby / Regional / Similar Varieties" exploration links right after
+// the Grow Information section (i.e. before the Photos heading, or at the end).
+function insertRelated(strain) {
+  const writeup = panel.querySelector('.writeup');
+  if (!writeup) return;
+  const { nearby, regional, similar } = relatedStrains(strain, strains);
+  const groups = [
+    ['Nearby Varieties', nearby],
+    ['Regional Varieties', regional],
+    ['Similar Varieties', similar]
+  ].filter(([, list]) => list.length);
+  if (!groups.length) return;
+
+  const frag = document.createDocumentFragment();
+  for (const [label, list] of groups) {
+    const h = document.createElement('h2');
+    h.textContent = label;
+    const p = document.createElement('p');
+    p.className = 'related-list';
+    list.forEach((s, i) => {
+      if (i > 0) p.appendChild(document.createTextNode(', '));
+      const a = document.createElement('button');
+      a.type = 'button';
+      a.className = 'related-link';
+      a.textContent = s.name;
+      a.addEventListener('click', () => openPanel(s));
+      p.appendChild(a);
+    });
+    frag.append(h, p);
+  }
+
+  const photos = [...writeup.querySelectorAll('h2')].find((h) => h.textContent.trim() === 'Photos');
+  if (photos) writeup.insertBefore(frag, photos);
+  else writeup.appendChild(frag);
+}
+
+// ---- Facet filter list ----
+function openFacet(field, token) {
+  const t = token.toLowerCase();
+  const matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
+  openListModal(`${token} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
+}
+
+function openListModal(title, list) {
+  modalTitle.textContent = title;
+  modalBody.innerHTML = '';
+  const ul = document.createElement('ul');
+  ul.className = 'modal-list';
+  for (const s of list) {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'modal-list-link';
+    const place = [s.region, s.country].filter(Boolean).join(', ');
+    btn.innerHTML = '<span class="r-name"></span><span class="r-place"></span>';
+    btn.querySelector('.r-name').textContent = s.name;
+    btn.querySelector('.r-place').textContent = place;
+    btn.addEventListener('click', () => { closeModal(); openPanel(s); });
+    li.appendChild(btn);
+    ul.appendChild(li);
+  }
+  modalBody.appendChild(ul);
+  modal.hidden = false;
 }
 
 // ---- Search ----
