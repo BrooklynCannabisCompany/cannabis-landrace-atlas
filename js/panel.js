@@ -79,7 +79,7 @@ export function renderStrain(container, strain, handlers = {}) {
   }
 
   // Bottom submit button (placeholder behavior wired by app.js).
-  const submit = el('button', 'panel-submit', 'Suggest a correction / add forum & seed links');
+  const submit = el('button', 'panel-submit', 'Suggest Corrections');
   submit.type = 'button';
   if (onSubmit) submit.addEventListener('click', () => onSubmit(strain));
   container.appendChild(submit);

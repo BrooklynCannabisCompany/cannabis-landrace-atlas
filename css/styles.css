@@ -102,7 +102,14 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .writeup h2 {
   font-family: var(--serif); font-size: 16px; margin: 20px 0 6px;
   padding-bottom: 3px; border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
 }
+.add-link {
+  flex: 0 0 auto; width: 22px; height: 22px; line-height: 1; padding: 0;
+  border: 1px solid #d6ddcf; border-radius: 50%; background: #eef0e9;
+  color: var(--green-dark); font-size: 15px; cursor: pointer;
+}
+.add-link:hover { background: var(--green); color: #fff; border-color: var(--green); }
 .writeup h3 { font-family: var(--serif); font-size: 14.5px; margin: 14px 0 4px; }
 .writeup p { font-size: 14.5px; line-height: 1.58; margin: 8px 0; }
 .writeup ul, .writeup ol { font-size: 14.5px; line-height: 1.55; padding-left: 20px; margin: 8px 0; }
@@ -133,10 +140,9 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .panel-submit:hover { background: #e4e8db; border-color: var(--green); }
 
-/* ---- Marker (inline SVG divIcon; tinted via currentColor) ---- */
-.leaf-marker { color: var(--green); background: none; border: none; }
-.leaf-marker svg { display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
-.leaf-marker:hover { color: var(--green-dark); }
+/* ---- Marker (shared green leaf SVG image) ---- */
+.leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
+.leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
 
 /* ---- Modal ---- */
 .modal { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; }

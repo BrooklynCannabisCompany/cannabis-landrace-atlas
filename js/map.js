@@ -4,19 +4,14 @@
 // and renders green-leaf markers. Exposes init + selection helpers.
 // Relies on the global `L` from lib/leaflet/leaflet.js.
 
-// Inline SVG (not an <img>) so the marker inherits the CSS `color` of the
-// `.leaf-marker` wrapper via `currentColor` — an external <img> SVG cannot.
-const LEAF_SVG =
-  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" width="20" height="22" aria-hidden="true">' +
-  '<g fill="currentColor"><path d="M32 64C32 50 32 44 32 38c-3 4-7 7-12 8 3-3 5-7 5-11-4 4-9 6-14 6 4-3 7-8 8-13-5 3-11 4-16 3 5-2 10-6 13-11-5 1-10 1-15-1 6-1 12-4 16-9-4-1-8-3-11-6 5 1 10 1 14-1-3-3-5-7-6-11 4 3 8 5 12 6-1-5-1-10 1-15 2 5 4 10 7 14 1-5 4-10 7-14 2 5 2 10 1 15 4-1 8-3 12-6-1 4-3 8-6 11 4 2 9 2 14 1-3 3-7 5-11 6 4 5 10 8 16 9-5 2-10 2-15 1 3 5 8 9 13 11-5 1-11 0-16-3 1 5 4 10 8 13-5 0-10-2-14-6 0 4 2 8 5 11-5-1-9-4-12-8 0 6 0 12 0 26z"/></g>' +
-  '<rect x="31" y="56" width="2" height="12" fill="currentColor"/></svg>';
-
-const LEAF_ICON = L.divIcon({
-  html: LEAF_SVG,
-  className: 'leaf-marker',
-  iconSize: [20, 22],
-  iconAnchor: [10, 21],
-  popupAnchor: [0, -20]
+// The leaf marker is a vendored single SVG file (green cannabis fan leaf),
+// shared by every marker — far lighter than inlining SVG per marker.
+const LEAF_ICON = L.icon({
+  iconUrl: 'assets/leaf.svg',
+  iconSize: [24, 30],
+  iconAnchor: [12, 28],
+  popupAnchor: [0, -26],
+  className: 'leaf-marker'
 });
 
 export function createMap(elementId, worldGeoJson) {

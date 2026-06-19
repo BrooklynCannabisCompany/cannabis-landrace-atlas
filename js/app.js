@@ -46,9 +46,27 @@ async function loadWriteup(strain) {
     const md = await res.text();
     if (reqId !== currentId) return;
     setWriteupHtml(panel, renderMarkdown(md));
+    decorateWriteupSections(strain);
   } catch {
     if (reqId === currentId) setWriteupMissing(panel);
   }
+}
+
+// Adds a "+" submit button beside the link-collecting write-up sections.
+const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions'];
+function decorateWriteupSections(strain) {
+  panel.querySelectorAll('.writeup h2').forEach((h) => {
+    const label = h.textContent.trim();
+    if (!ADDABLE_SECTIONS.includes(label)) return;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'add-link';
+    btn.textContent = '+';
+    btn.title = `Suggest ${label}`;
+    btn.setAttribute('aria-label', `Suggest ${label} for ${strain.name}`);
+    btn.addEventListener('click', () => openSectionSubmit(strain, label));
+    h.appendChild(btn);
+  });
 }
 
 // ---- Search ----
@@ -103,14 +121,20 @@ function closeModal() { modal.hidden = true; }
 
 function openFeedbackSubmit() {
   openModal(
-    'Submit feedback',
+    'Contribute',
     'Feature requests, bug reports, and strain additions will open a pre-filled GitHub issue once The Cannabis Landrace Atlas has a public repository. For now nothing is sent — thank you for your interest.'
   );
 }
 function openStrainSubmit(strain) {
   openModal(
-    'Suggest a correction',
-    `Corrections, forum links, and seed sources for "${strain.name}" will open a pre-filled GitHub issue once the project has a public repository. For now nothing is sent.`
+    'Suggest Corrections',
+    `Corrections for "${strain.name}" will open a pre-filled GitHub issue once the project has a public repository. For now nothing is sent.`
+  );
+}
+function openSectionSubmit(strain, section) {
+  openModal(
+    `Add ${section}`,
+    `Submitting ${section.toLowerCase()} for "${strain.name}" will open a pre-filled GitHub issue once the project has a public repository. For now nothing is sent — thank you for your interest.`
   );
 }
 
