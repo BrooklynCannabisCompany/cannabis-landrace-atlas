@@ -9,14 +9,16 @@ Ko Chang is a sativa landrace associated with Ko Chang Island, situated in Trat 
 Ko Chang Island was historically remote and sparsely populated, its dense jungle interior and surrounding sea providing natural isolation. Cannabis cultivation on the island would have developed in this maritime context, likely tied to the island's small indigenous farming communities. The island's proximity to the Thai-Cambodian border zone may also mean some genetic exchange with Cambodian coastal cannabis populations over time. Ko Chang gained wider attention as a tourist destination in later decades, but specific documentation of the island's cannabis cultivation tradition and the characteristics of its local population is very limited; the available record is primarily from grower and collector accounts.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous coastal island sativa growth
 - **Flowering:** 11–14 weeks; faster-finishing than Northern Thai highland types, consistent with lowland coastal tropical adaptation
-- **Morphology:** Sativa character adapted to high humidity and coastal conditions; open bud structure suited to the consistently warm, wet island climate
-- **Terpene profile:** Not specifically documented; tropical, sweet, and coastal aromatic notes are plausible given the island origin
-- **Effects:** Inferred to be energetic and cerebral, consistent with coastal Thai sativa expression
+- **Climate:** Tropical Island / Maritime
+- **Origin:** Thailand (Southeast Asia)
+
+Sativa character adapted to high humidity and coastal conditions; open bud structure suited to the consistently warm, wet island climate. Not specifically documented; tropical, sweet, and coastal aromatic notes are plausible given the island origin. Inferred to be energetic and cerebral, consistent with coastal Thai sativa expression.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Yunnan Red River Valley landrace is a tropical mountain sativa associated wi
 The Honghe Prefectural region of southern Yunnan has been home to diverse ethnic communities — including Hani, Yi, Zhuang, Miao, and others — with long traditions of plant cultivation and use. Cannabis is thought to have moved freely across the Red River corridor for centuries, carried by trade, migration, and natural dispersal, creating gene flow between Yunnan and northern Vietnamese populations. Grower accounts and researchers working in the broader Mekong–Red River zone suggest that the cannabis of this corridor may represent a transition zone between the ancient Yunnan gene pool and the long-flowering tropical sativas of Southeast Asia. Systematic documentation of this specific valley population is limited, and claims about its lineage are best treated as working hypotheses.
 
 ## Description
-
-Yunnan Red River Valley cannabis is classified as a tropical mountain sativa and is among the longest-flowering strains in this atlas, with reported times of 12–18 weeks. Tall, vigorous growth is typical, consistent with the subtropical monsoon climate of the Honghe Valley.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 12–18 weeks
-- **Climate adaptation:** Monsoon subtropical — hot, humid, seasonal heavy rainfall, moderate to high altitude variation
-- **Type:** Tropical mountain sativa (likely shared ancestry with Southeast Asian populations)
+- **Climate:** Monsoon subtropical — hot, humid, seasonal heavy rainfall, moderate to high altitude variation
+- **Origin:** China (East Asia / North Asia)
+
+Yunnan Red River Valley cannabis is classified as a tropical mountain sativa and is among the longest-flowering strains in this atlas, with reported times of 12–18 weeks. Tall, vigorous growth is typical, consistent with the subtropical monsoon climate of the Honghe Valley.
 
 ## Grow Information
 

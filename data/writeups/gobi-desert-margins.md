@@ -9,13 +9,16 @@ The Gobi Desert Margins population is a feral intermediate cannabis from the per
 Wild and feral cannabis in Mongolia is documented but not extensively studied in the cannabis-specific literature. The Mongolian steppe and desert-steppe regions fall within the broader zone of Central Asian wild cannabis distribution, and Mongolian populations are generally assumed to be related to the feral cannabis of adjacent Russian (Buryatia, Altai), Kazakh, and Chinese (Xinjiang) regions. The Gobi's extreme aridity and cold limit the productivity of cannabis cultivation, and the Gobi Margins population is understood as a wild or naturalized feral entity rather than a product of directed human cultivation for drug or fiber use. Specific documented history for this population is very thin; description here draws on regional ecological context.
 
 ## Description
-
-- **Category:** Feral (Indica–Sativa intermediate)
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium — the harsh, water-limited desert-margin environment constrains plant size
-- **Stature:** Likely open and branching with adaptation to wind exposure; smaller than valley or forest-margin feral populations
 - **Flowering:** 10–13 weeks; the wide range reflects the photoperiod-driven flowering of a population exposed to extreme day-length variation at Mongolian latitudes
-- **Resin:** Low; feral desert-margin populations are not typically selected for resin production
-- The population's primary interest lies in its genetic uniqueness and its potential preservation of ancient steppe-adapted cannabis traits.
+- **Climate:** Desert / Arid
+- **Origin:** Mongolia (Middle East / Central Asia)
+
+Likely open and branching with adaptation to wind exposure; smaller than valley or forest-margin feral populations. Low; feral desert-margin populations are not typically selected for resin production. The population's primary interest lies in its genetic uniqueness and its potential preservation of ancient steppe-adapted cannabis traits.
 
 ## Grow Information
 

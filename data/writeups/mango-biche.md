@@ -9,14 +9,16 @@ Mango Biche is a Colombian sativa landrace named for its reportedly distinctive 
 Colombia has an exceptionally rich cannabis landrace heritage, with populations distributed across a wide range of climates from coastal lowlands to high Andean valleys. Lowland jungle strains like Mango Biche represent a less-documented segment of this heritage compared to the internationally renowned highland lines. The name itself suggests a history of selection or recognition by Colombian cultivators for distinctive aromatic qualities — fruity terpene expression is a characteristic commonly reported in certain Colombian lowland populations. Specific historical documentation of this strain's origin, cultivation history, or geographic distribution is not widely available.
 
 ## Description
-
-This population is described as a tall-growing sativa with a reportedly distinctive fruity terpene profile. The 11–14 week flowering window is relatively moderate for an equatorial Colombian sativa, consistent with lowland populations at near-sea-level latitudes. Jungle lowland climate adaptation implies robust growth in hot, humid conditions with high rainfall.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–14 weeks
-- **Climate adaptation:** Jungle lowland; hot, humid, high rainfall
-- **Category:** Sativa
-- **Notable trait:** Reported fruity/mango terpene expression
+- **Climate:** Jungle lowland; hot, humid, high rainfall
+- **Origin:** Colombia (Americas)
+
+This population is described as a tall-growing sativa with a reportedly distinctive fruity terpene profile. The 11–14 week flowering window is relatively moderate for an equatorial Colombian sativa, consistent with lowland populations at near-sea-level latitudes. Jungle lowland climate adaptation implies robust growth in hot, humid conditions with high rainfall. Reported fruity/mango terpene expression.
 
 ## Grow Information
 

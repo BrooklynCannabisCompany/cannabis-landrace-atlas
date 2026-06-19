@@ -9,13 +9,16 @@ The Mexican Sierra Madre Complex refers to the broad genetic corridor of sativa 
 Mexico has one of the longest documented cannabis cultivation histories in the Western Hemisphere, with introduction likely occurring in the colonial era via Spanish trade routes. The Sierra Madre ranges served as both geographic barriers and cultivation corridors, with isolated mountain communities developing locally adapted populations over generations. The 20th century saw intensive cultivation across these ranges, particularly in states like Sinaloa, Durango, Guerrero, Oaxaca, and Chihuahua, all of which intersect with the Sierra Madre systems. These genetics contributed significantly to the North American cannabis market and to early breeding programs, forming part of the foundation for many modern varieties.
 
 ## Description
-
-As a complex, this designation encompasses significant phenotypic variability, but common traits reported across Sierra Madre populations include very tall stature, long internodal spacing, and extended flowering cycles suited to the mountain photoperiod. The 12–16 week flowering window reflects the latitude and elevation of these mountain ranges.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall
 - **Flowering:** 12–16 weeks
-- **Climate adaptation:** Mountain range; diverse microclimates across a broad elevation gradient
-- **Category:** Sativa complex
+- **Climate:** Mountain range; diverse microclimates across a broad elevation gradient
+- **Origin:** Mexico (Americas)
+
+As a complex, this designation encompasses significant phenotypic variability, but common traits reported across Sierra Madre populations include very tall stature, long internodal spacing, and extended flowering cycles suited to the mountain photoperiod. The 12–16 week flowering window reflects the latitude and elevation of these mountain ranges.
 
 ## Grow Information
 

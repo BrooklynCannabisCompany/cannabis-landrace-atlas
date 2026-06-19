@@ -9,12 +9,16 @@ Pondoland is a sativa landrace from the Pondoland region of South Africa's Easte
 Cannabis cultivation in Pondoland is associated with the Mpondo people of the Eastern Cape and has a long history within the region's traditional agricultural and medicinal practices. The Pondoland coastline's relative geographic isolation — steep gorges, dense indigenous bush, and limited road access — likely contributed to the development of a locally distinct cannabis population over many generations. Grower accounts suggest the Pondoland type shares characteristics with broader Eastern Cape coastal landraces but has developed its own recognizable aromatic and growth profile. Academic documentation of this specific population is sparse, and most available information comes from collector and grower reports.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — typical of South African coastal sativas thriving in the warm, humid subtropical coastal belt
-- **Structure:** Lanky, open-branched growth consistent with coastal sativa morphology; adapted to mild, maritime-influenced conditions
 - **Flowering:** 10–13 weeks — within the typical range for South African coastal landraces
-- **Aroma/Effect:** Commonly reported to express citrus and sweet tropical aromatic notes; effects described as uplifting and cerebral, consistent with the sativa character of Eastern Cape coastal types
+- **Climate:** Subtropical
+- **Origin:** South Africa (Africa)
+
+Lanky, open-branched growth consistent with coastal sativa morphology; adapted to mild, maritime-influenced conditions. Commonly reported to express citrus and sweet tropical aromatic notes; effects described as uplifting and cerebral, consistent with the sativa character of Eastern Cape coastal types.
 
 ## Grow Information
 

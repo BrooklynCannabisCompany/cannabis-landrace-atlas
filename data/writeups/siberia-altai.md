@@ -9,13 +9,16 @@ The Siberia / Altai ruderalis population is associated with the broad region enc
 The Altai and surrounding Siberian regions have a long history of cannabis presence, with archaeological evidence of cannabis use by prehistoric peoples in the broader region. The development of autoflowering cannabis is generally attributed to the natural selection pressures of northern Eurasian environments where photoperiod-dependent plants could not reliably complete their cycle before killing frosts. The Siberia / Altai zone is the most frequently cited geographic origin for this ruderalis adaptation, and modern autoflowering cannabis breeding draws heavily on ruderalis genetics that can be traced to this region. The genetics of naturally occurring populations in this zone have been studied by researchers interested in cannabis domestication and adaptation.
 
 ## Description
-
-- **Type:** Ruderalis — autoflowering origin zone
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Ruderalis
+- **Chemotype:** Type II (inferred)
+- **Domestication:** Wild
 - **Height:** Short, consistent with classic ruderalis morphology
-- **Structure:** Compact, few branches; adapted for survival in open, exposed environments with minimal resources
-- **Leaf structure:** Broad, robust; typical of ruderalis cannabis adapted to cold continental environments
 - **Flowering:** 6–10 weeks from germination, autoflowering
-- **Cannabinoid profile:** Low THC; ruderalis populations in this zone are generally not psychoactive; CBD content variable
+- **Climate:** Boreal / Subarctic
+- **Origin:** Russia (East Asia / North Asia)
+
+Compact, few branches; adapted for survival in open, exposed environments with minimal resources. Broad, robust; typical of ruderalis cannabis adapted to cold continental environments. Low THC; ruderalis populations in this zone are generally not psychoactive; CBD content variable.
 
 ## Grow Information
 

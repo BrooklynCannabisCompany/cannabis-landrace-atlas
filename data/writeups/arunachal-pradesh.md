@@ -9,14 +9,16 @@ Arunachal Pradesh is a sativa landrace originating in the northeastern Indian st
 The indigenous communities of Arunachal Pradesh have long coexisted with wild and semi-cultivated cannabis as part of the region's broader ethnobotanical landscape. Because the state remained relatively isolated from external agricultural influence well into the modern era, local cannabis populations are thought to have developed with minimal outside genetic input. Documentation of this specific landrace in horticultural or ethnobotanical literature is sparse; most accounts come from travelers and collectors who noted the extreme vigor and disease resistance of plants encountered in lower-elevation jungle corridors and river valleys.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — plants commonly exceed typical cultivar heights under adequate light and humidity
 - **Flowering:** 11–15 weeks from flower initiation
 - **Climate:** Humid jungle mountain
-- Foliage is typically broad-fingered for a sativa, reflecting adaptation to the dense, high-humidity jungle environment where light penetration is variable
-- Commonly reported traits include exceptional pest resistance and strong vegetative growth, consistent with a population selected by the pressures of tropical jungle conditions
-- Resin profiles and aroma have not been extensively documented; regional comparisons suggest earthy, spice-forward characteristics typical of northeast Indian landraces
+- **Origin:** India (South Asia)
+
+Foliage is typically broad-fingered for a sativa, reflecting adaptation to the dense, high-humidity jungle environment where light penetration is variable. Commonly reported traits include exceptional pest resistance and strong vegetative growth, consistent with a population selected by the pressures of tropical jungle conditions. Resin profiles and aroma have not been extensively documented; regional comparisons suggest earthy, spice-forward characteristics typical of northeast Indian landraces.
 
 ## Grow Information
 

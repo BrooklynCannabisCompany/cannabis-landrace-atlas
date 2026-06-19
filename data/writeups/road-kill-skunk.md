@@ -9,13 +9,16 @@ Road Kill Skunk is a legendary heirloom cultivar associated with the preservatio
 Road Kill Skunk is commonly reported to be a remnant of early Skunk breeding programs that predated the widespread commercialization of cannabis genetics. Grower accounts from preservationist communities suggest it originated from, or is closely related to, the foundational skunk crosses that emerged in the United States during the late 1970s and early 1980s — a period when breeders were working with sativa and indica material to create stable, high-potency cultivars for the American market. Over subsequent decades, as the commercial seed market evolved toward milder, more palatable aromas, the extreme skunk character of lines like Road Kill Skunk fell out of favor, and these genetics are said to have become scarce. Northern California and Pacific Northwest preservation circles are most commonly cited as the regions where authentic material has been maintained.
 
 ## Description
-
-- **Type:** Historic heirloom cultivar — early domesticated skunk-type line
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Medium, consistent with stabilized indoor/outdoor cultivar heritage
 - **Flowering:** 8–11 weeks — relatively short for a sativa-influenced variety, reflecting the breeding work done to stabilize flowering time
-- **Climate adaptation:** Temperate; primarily associated with cultivation in temperate North American conditions
-- **Aroma:** Grower accounts consistently describe an overwhelming skunk-spray odor of exceptional intensity — described as qualitatively different from modern "skunk" strains, which are commonly reported to have much milder aroma profiles
-- **Effect:** Typically described as potent and sativa-leaning in character
+- **Climate:** Temperate; primarily associated with cultivation in temperate North American conditions
+- **Origin:** United States (Americas)
+
+Grower accounts consistently describe an overwhelming skunk-spray odor of exceptional intensity — described as qualitatively different from modern "skunk" strains, which are commonly reported to have much milder aroma profiles. Typically described as potent and sativa-leaning in character.
 
 ## Grow Information
 

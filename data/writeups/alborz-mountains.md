@@ -9,14 +9,16 @@ The Alborz Mountains landrace originates from the Alborz (Elburz) Mountain Range
 Cannabis cultivation in the Alborz region is historically associated with rural and pastoral communities living along the forested northern slopes descending toward the Caspian littoral, as well as in the higher valleys of the range itself. Iran has a long-documented relationship with cannabis use and hemp cultivation, but the specific mountain populations of the Alborz are less frequently described in Western cannabis literature than, for example, the better-known Lebanese or Afghan landraces. The Alborz population is commonly considered a distinct genetic pool from Iranian plateau populations, given the sharp climatic difference between the humid Caspian-facing slopes and the arid plateau south of the range.
 
 ## Description
-
-- **Category:** Indica
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
-- **Stature:** Compact to medium, consistent with mountain indica morphology adapted to wind exposure and cold nights
 - **Flowering:** 9–13 weeks; moderate for an indica-leaning mountain landrace
-- **Leaf structure:** Typically broader leaves associated with indica populations at altitude
-- **Resin:** Moderate to good, as expected in a cool-climate mountain landrace where resin may serve as insulation and UV protection
-- The forested, humid character of the northern Alborz slopes differentiates this population from drier Afghan or eastern Iranian cannabis types.
+- **Climate:** Temperate / Continental
+- **Origin:** Iran (Middle East / Central Asia)
+
+Compact to medium, consistent with mountain indica morphology adapted to wind exposure and cold nights. Typically broader leaves associated with indica populations at altitude. Moderate to good, as expected in a cool-climate mountain landrace where resin may serve as insulation and UV protection. The forested, humid character of the northern Alborz slopes differentiates this population from drier Afghan or eastern Iranian cannabis types.
 
 ## Grow Information
 

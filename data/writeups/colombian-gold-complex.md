@@ -9,12 +9,16 @@ Colombian Gold Complex refers to the broader sativa genetic complex associated w
 Colombian Gold became one of the most celebrated cannabis varieties of the twentieth century, primarily during the export era of the 1970s when Colombian sativas were widely distributed across North America and Europe. The genetic complex encompasses landraces from the Sierra Nevada de Santa Marta and the surrounding Andean foothills and mountains of northern Colombia — a region with deep agricultural traditions and favorable growing conditions. The gold coloration associated with the name refers to the golden-yellow hue of properly ripened, sun-dried Colombian sativa buds. The broader complex from which named Colombian Gold derives includes significant genetic diversity, as multiple communities across the northern Andes corridor maintained related but distinct sativa populations over generations.
 
 ## Description
-
-- **Category:** Sativa complex
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — classic long-season Colombian sativas from the northern mountain zones commonly reach substantial heights
-- **Structure:** Typically long-branching with large, airy floral clusters; Colombian Gold-type sativas are known for their open structure and golden resin at maturity
 - **Flowering:** 12–16 weeks — somewhat shorter than equatorial Colombian types, reflecting the northern Andes latitude and the export-era selection for manageable finishing times
-- **Aroma/Effect:** Golden-cured Colombian sativas are historically associated with a bright, energetic, uplifting effect and sweet, earthy aromas; the complex shows variation across individual selections
+- **Climate:** Tropical Highland
+- **Origin:** Colombia (Americas)
+
+Typically long-branching with large, airy floral clusters; Colombian Gold-type sativas are known for their open structure and golden resin at maturity. Golden-cured Colombian sativas are historically associated with a bright, energetic, uplifting effect and sweet, earthy aromas; the complex shows variation across individual selections.
 
 ## Grow Information
 

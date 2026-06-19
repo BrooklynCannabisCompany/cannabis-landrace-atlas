@@ -9,12 +9,16 @@ The Eastern Highlands population refers to cannabis originating from the Eastern
 Cannabis cultivation in the Eastern Highlands of Papua New Guinea has a reported history tied to local communities in the highlands region, though precise documentation is limited. The Eastern Highlands Province has historically been one of the more accessible highland provinces due to the presence of Goroka, a significant highland town, but traditional cannabis populations in the surrounding mountain jungle zones developed largely through local cultivation practices. The term "PNG Gold" used in connection with Eastern Highlands material reflects a broader reputation for potency associated with PNG highland sativas that circulated in collector and breeder communities from the 1990s onward.
 
 ## Description
-
-- **Type:** Equatorial sativa.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall; consistent with PNG highland sativa expression.
 - **Flowering:** 12–16 weeks, reflecting the high-altitude equatorial growing environment.
 - **Climate:** Mountain jungle — high rainfall, cool nights, intense daytime sun, altitude-modified equatorial conditions.
-- **Character:** Associated with the "PNG Gold" expression, suggesting strong sativa psychoactive qualities commonly reported for PNG highland strains.
+- **Origin:** Papua New Guinea (Oceania)
+
+Associated with the "PNG Gold" expression, suggesting strong sativa psychoactive qualities commonly reported for PNG highland strains.
 
 ## Grow Information
 

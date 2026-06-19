@@ -9,12 +9,16 @@ Lesotho Highland is a medium-tall sativa landrace from the mountain kingdom of L
 Lesotho has been one of southern Africa's more significant cannabis-producing territories, with cultivation traditionally concentrated in the highland valleys and slopes. The Basotho people have historically cultivated cannabis as a crop with cultural and economic significance, and the harsh mountain conditions have over generations shaped an ecotype with notable resilience to cold and altitude. Lesotho cannabis has been recognized within southern African trade networks and has attracted some attention from international landrace collectors, though formal documentation of the highland ecotype as a distinct variety is limited.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium-tall — smaller stature consistent with mountain conditions that constrain growth
 - **Flowering:** Approximately 10–13 weeks from equinox/flip — moderate window adapted to Lesotho's short mountain growing season
-- **Climate adaptation:** Cold highland — high altitude, cold winters, strong summer sunlight, significant diurnal temperature swings
-- **Aroma/Effect:** Commonly associated with citrus and resin notes; mountain adaptation and cold climate influence the terpene profile
+- **Climate:** Cold highland — high altitude, cold winters, strong summer sunlight, significant diurnal temperature swings
+- **Origin:** Lesotho (Africa)
+
+Commonly associated with citrus and resin notes; mountain adaptation and cold climate influence the terpene profile.
 
 ## Grow Information
 

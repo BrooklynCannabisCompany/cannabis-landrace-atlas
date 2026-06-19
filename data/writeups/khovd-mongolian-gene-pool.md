@@ -9,13 +9,16 @@ The Khovd Mongolian Gene Pool is a wild cannabis population from Khovd Province 
 Khovd Province lies along ancient routes connecting Central Asia, the Altai, and Mongolia, and cannabis seeds could have reached the region through multiple historical pathways — pastoral movement, trade, or natural dispersal. The relatively isolated western Mongolian mountain steppe environment would have then subjected any introduced cannabis to its own selective pressures, emphasizing cold hardiness and drought tolerance. No specific documented research on the Khovd cannabis population is available in accessible sources; characterization is based on the regional ecology and general knowledge of western Mongolian environments.
 
 ## Description
-
-- **Type:** Wild cannabis population
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium, typical of feral cannabis in mountain steppe environments
-- **Structure:** Compact and sturdy, adapted to wind exposure and cold stress characteristic of western Mongolian basins
-- **Leaf structure:** Likely narrow to intermediate; reduced leaf area consistent with semi-arid, cold environments
 - **Flowering:** 10–14 weeks; timed to complete within the available frost-free window
-- **Aroma/effect:** Not documented; feral steppe populations are not selected for resin
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Mongolia (East Asia / North Asia)
+
+Compact and sturdy, adapted to wind exposure and cold stress characteristic of western Mongolian basins. Likely narrow to intermediate; reduced leaf area consistent with semi-arid, cold environments. Not documented; feral steppe populations are not selected for resin.
 
 ## Grow Information
 

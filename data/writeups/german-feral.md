@@ -9,13 +9,16 @@ German Feral refers to naturalized cannabis populations found growing wild in Ge
 Hemp cultivation in Germany dates back to at least the medieval period, when it was grown for fiber and rope across the German-speaking lands. Industrial hemp production declined sharply during the twentieth century but was legally revived in Germany in 1996 under strict EU framework regulations requiring low-THC certified varieties. Feral cannabis in Germany today is primarily descended from escaped certified hemp varieties rather than representing ancient landrace populations. Growers and botanists have occasionally documented naturalized plants growing in disturbed soils, roadsides, and field margins, particularly in regions with active hemp cultivation. The genetics of these feral populations largely reflect European certified hemp breeding rather than unimproved landraces.
 
 ## Description
-
-- **Type:** Hemp — fiber and seed type; very low THC content
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — consistent with the standard stature of European certified hemp varieties
-- **Structure:** Upright with typical hemp morphology; plants in naturalized settings tend to branch more than densely planted field hemp
 - **Flowering:** 10–14 weeks; photoperiod-dependent, consistent with European hemp varieties bred for mid-latitude production
-- **Fiber character:** Reflects certified European hemp breeding, with fiber quality oriented toward industrial standards
-- **Variability:** Feral populations may show some variation due to cross-pollination between varieties and natural selection, but remain closely tied to the hemp type
+- **Climate:** Temperate / Continental
+- **Origin:** Germany (Europe)
+
+Upright with typical hemp morphology; plants in naturalized settings tend to branch more than densely planted field hemp. Reflects certified European hemp breeding, with fiber quality oriented toward industrial standards. Feral populations may show some variation due to cross-pollination between varieties and natural selection, but remain closely tied to the hemp type.
 
 ## Grow Information
 

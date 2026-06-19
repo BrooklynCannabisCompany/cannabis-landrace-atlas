@@ -9,14 +9,16 @@ Pearl Islands / Darién refers to a sativa landrace population associated with t
 The Pearl Islands and Darién region have distinct histories. The Pearl Islands were significant in the colonial era for pearl diving and as a staging point for Spanish exploration of the Pacific; the Darién is one of the most impenetrable jungle regions in the Americas, home to indigenous Emberá and Wounaan communities and largely bypassed by modern infrastructure. Cannabis populations in both areas would have developed in extreme tropical conditions with minimal outside intervention. The association with Panama Red origin genetics is based on regional cultivation history and the general geography of Panamanian cannabis trade routes, though specific provenance documentation is not available.
 
 ## Description
-
-This population is described as a very tall sativa with a long 13–18 week flowering window, consistent with deep tropical equatorial cannabis adapted to hot, humid, and densely vegetated environments.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall
 - **Flowering:** 13–18 weeks
-- **Climate adaptation:** Jungle coastal; extreme humidity, high rainfall, warm year-round
-- **Category:** Sativa
-- **Region:** Pearl Islands and Darién region, Panama
+- **Climate:** Jungle coastal; extreme humidity, high rainfall, warm year-round
+- **Origin:** Panama (Americas)
+
+This population is described as a very tall sativa with a long 13–18 week flowering window, consistent with deep tropical equatorial cannabis adapted to hot, humid, and densely vegetated environments. Pearl Islands and Darién region, Panama.
 
 ## Grow Information
 

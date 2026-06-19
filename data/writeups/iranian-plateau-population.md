@@ -7,10 +7,16 @@ The Iranian Plateau Population refers to the broad regional cannabis gene pool d
 Cannabis cultivation across the Iranian Plateau has a long history intertwined with Persia's agricultural and trade traditions. Grower accounts and botanical surveys suggest that highland villages maintained locally selected populations for fiber, seed oil, and resin, while feral stands have naturalized along roadsides, irrigation ditches, and disturbed soils throughout the plateau. The region's position as a crossroads between Afghanistan to the east, Turkmenistan to the north, and the Levant to the west likely contributed to the genetic diversity observed in plateau populations. Rigorous documentation of specific subpopulations remains sparse.
 
 ## Description
-- Indica-leaning morphology with medium stature and relatively broad leaves.
-- Adapted to alkaline, often nutrient-poor soils; shows strong drought tolerance.
-- Resin production is commonly reported as moderate to high.
-- Phenotypic variation is considerable across the plateau's many microclimates.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 9–12 weeks
+- **Climate:** Desert / Arid
+- **Origin:** Iran (Middle East / Central Asia)
+
+Indica-leaning morphology with medium stature and relatively broad leaves. Adapted to alkaline, often nutrient-poor soils; shows strong drought tolerance. Resin production is commonly reported as moderate to high. Phenotypic variation is considerable across the plateau's many microclimates.
 
 ## Grow Information
 Suited to arid and semi-arid conditions with large diurnal temperature swings. Flowering ranges widely, commonly reported at 9–12 weeks, reflecting the genetic diversity of this broad regional pool. The population's alkaline-soil adaptation and low water requirements make it notably resilient in resource-limited growing conditions. As an intermediate population, individual plants may express traits ranging from compact indica types to taller, more open structures. Cold nights during late flowering are tolerated well.

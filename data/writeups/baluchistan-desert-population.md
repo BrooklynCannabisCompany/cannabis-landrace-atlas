@@ -9,13 +9,16 @@ The Baluchistan Desert Population is an indica-leaning landrace from the Baluchi
 Baluchistan's cannabis cultivation is historically associated with the Baloch and Brahui communities who have occupied this region for centuries, practicing a mix of pastoral nomadism and settled agriculture in the oases and river valleys of the province. The province shares long borders with Afghanistan to the north and Iran to the west, and the cannabis populations of all three regions are generally considered to form a connected genetic complex. Specific documentation of the Baluchistan population in cannabis research literature is limited; historical accounts from the colonial era note the presence of cannabis in the region, but detailed ethnobotanical study remains sparse.
 
 ## Description
-
-- **Category:** Indica (indica-leaning)
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
-- **Stature:** Likely adapted to open, rocky terrain with moderate branching; neither as compact as high-mountain Afghan types nor as tall as sativa-influenced populations
 - **Flowering:** 9–12 weeks; slightly longer than the fastest Afghan mountain types, consistent with the lower-elevation but still arid conditions of Baluchistan
-- **Resin:** Moderate; desert-adapted populations typically produce resin as a response to UV stress and aridity rather than through directed hash production selection
-- The arid mountain desert climate produces plants that are efficient with water and adapted to nutrient-poor rocky soils.
+- **Climate:** Desert / Arid
+- **Origin:** Pakistan (Middle East / Central Asia)
+
+Likely adapted to open, rocky terrain with moderate branching; neither as compact as high-mountain Afghan types nor as tall as sativa-influenced populations. Moderate; desert-adapted populations typically produce resin as a response to UV stress and aridity rather than through directed hash production selection. The arid mountain desert climate produces plants that are efficient with water and adapted to nutrient-poor rocky soils.
 
 ## Grow Information
 

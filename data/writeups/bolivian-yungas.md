@@ -9,12 +9,16 @@ Bolivian Yungas refers to cannabis populations associated with Bolivia's Yungas 
 Bolivia's Yungas has a long history of coca cultivation (Erythroxylum coca), and cannabis cultivation in the region is believed to have developed in parallel with the broader agricultural traditions of these communities. The Yungas landrace is not extensively documented in the published cannabis literature, and its specific history — including when cannabis was introduced and how local populations selected it — remains largely unrecorded. What is generally inferred is that plants surviving in the Yungas have adapted to steep, cloud-draped slopes with highly variable temperatures across elevation bands. The Andean-Amazon transition character of this population is noted as its key defining trait.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — appropriate for the steep forested slopes where light competition is a factor
-- **Structure:** Likely long-branching with moderate internode spacing; Yungas populations grow across a wide elevation range and may show corresponding morphological variability
 - **Flowering:** 11–14 weeks — somewhat shorter than equatorial Amazonian types, consistent with slightly more seasonal day-length variation at Bolivian latitudes
-- **Aroma/Effect:** Not specifically documented; Andean-Amazonian transition populations are generally described as energetic sativas, though grower accounts for this specific population are scarce
+- **Climate:** Tropical Highland
+- **Origin:** Bolivia (Americas)
+
+Likely long-branching with moderate internode spacing; Yungas populations grow across a wide elevation range and may show corresponding morphological variability. Not specifically documented; Andean-Amazonian transition populations are generally described as energetic sativas, though grower accounts for this specific population are scarce.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Mindanao Interior Uplands is a sativa landrace associated with the interior high
 The interior highlands of Mindanao have been home to indigenous Lumad communities — including Manobo, T'boli, Bagobo, and many other groups — whose traditional agricultural and forest practices have shaped the highland landscape for many centuries. Cannabis cultivation in the interior uplands of Mindanao is not extensively documented in formal ethnobotanical literature, and most available information derives from general regional accounts and grower observations. The equatorial position of Mindanao, straddling the boundary between the Southeast Asian and Pacific island cannabis zones, gives its interior highland populations particular botanical interest as potentially distinct from the better-documented Luzon Cordillera landraces.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — dense forest and equatorial mountain conditions support vigorous large-plant growth
 - **Flowering:** 11–15 weeks; relatively fast for a very tall equatorial sativa
-- **Morphology:** Equatorial mountain sativa character; narrow leaflets, large plant architecture adapted to forest-edge and highland conditions
-- **Terpene profile:** Not well-documented; complex forest and tropical aromatic profiles are inferred from the equatorial mountain jungle origin
-- **Effects:** Strong, cerebral sativa expression consistent with equatorial highland cannabis
+- **Climate:** Tropical Highland
+- **Origin:** Philippines (Southeast Asia)
+
+Equatorial mountain sativa character; narrow leaflets, large plant architecture adapted to forest-edge and highland conditions. Not well-documented; complex forest and tropical aromatic profiles are inferred from the equatorial mountain jungle origin. Strong, cerebral sativa expression consistent with equatorial highland cannabis.
 
 ## Grow Information
 

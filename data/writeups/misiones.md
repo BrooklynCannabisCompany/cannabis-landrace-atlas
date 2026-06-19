@@ -9,14 +9,16 @@ Misiones refers to a subtropical landrace population from the province of Mision
 Misiones has a complex history shaped by Jesuit missions (which give the province its name), indigenous Guaraní communities, and waves of immigration from Paraguay, Brazil, and Europe. The subtropical agricultural tradition includes mate (yerba mate) cultivation, timber, and subsistence farming. Cannabis cultivation in this border region likely benefited from cross-border genetic exchange with Paraguay — historically one of South America's significant cannabis-producing countries — and with southern Brazil. The population is described as having regional heirloom significance, suggesting a recognized local presence over multiple generations.
 
 ## Description
-
-This population is classified as Mixed, indicating phenotypic variability consistent with a subtropical landrace in a region with diverse genetic inputs. Plants are described as tall, with an 11–15 week flowering window suited to the subtropical photoperiod.
-
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–15 weeks
-- **Climate adaptation:** Humid subtropical; warm humid summers, mild winters, high rainfall
-- **Category:** Mixed
-- **Notable traits:** Broad genetic diversity, warm-humid climate adaptation, regional heirloom significance
+- **Climate:** Humid subtropical; warm humid summers, mild winters, high rainfall
+- **Origin:** Argentina (Americas)
+
+This population is classified as Mixed, indicating phenotypic variability consistent with a subtropical landrace in a region with diverse genetic inputs. Plants are described as tall, with an 11–15 week flowering window suited to the subtropical photoperiod. Broad genetic diversity, warm-humid climate adaptation, regional heirloom significance.
 
 ## Grow Information
 

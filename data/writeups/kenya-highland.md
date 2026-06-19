@@ -9,12 +9,16 @@ Kenya Highland is a tall sativa landrace from the Central Kenya Highlands — th
 The Central Kenyan Highlands have been intensively cultivated for centuries, first by Kikuyu and other Highland Bantu communities, and the region has a documented history of cannabis use in traditional contexts. The highland elevation (typically 1,500–2,500 metres in the core agricultural zone) has produced cannabis well-adapted to the specific demands of equatorial high-altitude growing — strong UV exposure, cool nights, and reliable seasonal rains. Kenya Highland material has been collected and maintained by various landrace preservation efforts and has contributed to a number of commercial sativa-leaning varieties over the decades.
 
 ## Description
-
-- **Type:** Highland African sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 11–16 weeks from equinox/flip
-- **Climate adaptation:** Equatorial highland — strong sunlight at altitude, cool nights, bimodal seasonal rainfall, moderate humidity
-- **Regional significance:** Mount Kenya and surrounding highlands are among the most historically significant cannabis cultivation areas in East Africa
+- **Climate:** Equatorial highland — strong sunlight at altitude, cool nights, bimodal seasonal rainfall, moderate humidity
+- **Origin:** Kenya (Africa)
+
+Mount Kenya and surrounding highlands are among the most historically significant cannabis cultivation areas in East Africa.
 
 ## Grow Information
 

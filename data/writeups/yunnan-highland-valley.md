@@ -9,13 +9,16 @@ The Yunnan Highland/Valley landrace designates a sativa complex associated with 
 Yunnan's position at the crossroads of multiple Asian civilisations and biogeographic zones means its cannabis populations likely reflect deep ancestry combined with influence from centuries of trade and migration along routes connecting China, Southeast Asia, South Asia, and Tibet. Ethnobotanical accounts associate cannabis use in Yunnan's ethnic minority communities — including Dai, Yi, and others — with both fibre production and cultural practices. Grower accounts and researchers have suggested that Yunnan populations may preserve genetic signatures of ancient Chinese cannabis that differ meaningfully from both Himalayan indica types and the more recently documented Southeast Asian sativas. The designation as a "unified regional system" reflects the view that highland and valley populations in Yunnan share a common ancestral base despite ecological variation.
 
 ## Description
-
-Yunnan Highland/Valley cannabis is classified as a sativa complex and is typically reported as tall-growing with long flowering periods, consistent with its jungle/mountain climate and the latitude of southern Yunnan. Plants are generally described as vigorous and large-framed, with the airy, elongated bud structure associated with tropical and subtropical sativas.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 11–15 weeks
-- **Climate adaptation:** Jungle/mountain — warm, humid, high biodiversity, significant altitude variation
-- **Type:** Sativa complex (ancient Chinese population)
+- **Climate:** Jungle/mountain — warm, humid, high biodiversity, significant altitude variation
+- **Origin:** China (East Asia / North Asia)
+
+Yunnan Highland/Valley cannabis is classified as a sativa complex and is typically reported as tall-growing with long flowering periods, consistent with its jungle/mountain climate and the latitude of southern Yunnan. Plants are generally described as vigorous and large-framed, with the airy, elongated bud structure associated with tropical and subtropical sativas.
 
 ## Grow Information
 

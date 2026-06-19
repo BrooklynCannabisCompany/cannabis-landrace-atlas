@@ -9,13 +9,16 @@ Russian Ruderalis is the foundational feral cannabis type associated with Russia
 Cannabis Ruderalis was formally described by the Russian botanist D.E. Janischevsky in 1924, based on wild populations collected from the southern Russian steppe. It has since been understood as an ecotype or subspecies adapted to the challenging conditions of high-latitude continental Russia, where photoperiod-dependent flowering would be unreliable. Grower and breeder communities began systematically exploiting Ruderalis genetics in the late twentieth century, crossing it with THC-producing varieties to create the autoflowering strains that are now common in the commercial cannabis market. The wild Russian populations themselves remain largely undocumented in terms of precise regional genetics.
 
 ## Description
-
-- **Type:** Ruderalis — characterized by age-based (autoflowering) rather than photoperiod-triggered flowering
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Ruderalis
+- **Chemotype:** Type II (inferred)
+- **Domestication:** Wild
 - **Height:** Short — typically the shortest cannabis morphotype, with a compact, bushy structure
-- **Leaves:** Commonly reported to have broad leaflets and fewer leaflets per leaf compared to Sativa or Indica types
 - **Flowering:** 6–10 weeks from germination; the autoflowering trait is the defining characteristic of this population
-- **THC content:** Generally low; Ruderalis populations are not associated with high psychoactive potency in their wild form
-- **Seeds:** Tends to produce large seeds relative to plant size, consistent with feral adaptation focused on reproduction
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Russia (Europe)
+
+Commonly reported to have broad leaflets and fewer leaflets per leaf compared to Sativa or Indica types. Generally low; Ruderalis populations are not associated with high psychoactive potency in their wild form. Tends to produce large seeds relative to plant size, consistent with feral adaptation focused on reproduction.
 
 ## Grow Information
 

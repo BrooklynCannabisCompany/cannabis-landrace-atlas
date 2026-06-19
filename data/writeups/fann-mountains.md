@@ -9,13 +9,16 @@ The Fann Mountains landrace is an indica cannabis from the Fann Mountains (Fan-D
 The Fann Mountains are a relatively remote region of Tajikistan with limited permanent settlement at high altitude; most communities in the area are concentrated in the lower river valleys. Cannabis cultivation in the Fann is not well-documented in the available cannabis literature, and this population is best understood through the lens of the broader Tajikistani mountain indica tradition — a zone where high-altitude isolation has historically favored compact, resin-rich plants similar to those of the adjacent Pamir and Afghan Badakhshan regions. Grower accounts of this specific population are scarce; description here draws on the regional and altitudinal context of the Fann Mountains within Central Asian cannabis geography.
 
 ## Description
-
-- **Category:** Indica
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Short — consistent with high-alpine indica morphology
-- **Stature:** Compact and dense, adapted to cold, wind-exposed mountain conditions
 - **Flowering:** 8–11 weeks; moderate-fast for an alpine population
-- **Resin:** High; the cold-resin phenotype description suggests resin production is elevated as a response to high-altitude cold stress
-- Specific phenotypic details for this population are limited; the description above reflects responsible inference from the regional mountain indica context.
+- **Climate:** Alpine / High Mountain
+- **Origin:** Tajikistan (Middle East / Central Asia)
+
+Compact and dense, adapted to cold, wind-exposed mountain conditions. High; the cold-resin phenotype description suggests resin production is elevated as a response to high-altitude cold stress. Specific phenotypic details for this population are limited; the description above reflects responsible inference from the regional mountain indica context.
 
 ## Grow Information
 

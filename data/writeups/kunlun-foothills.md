@@ -7,10 +7,16 @@ Kunlun Foothills refers to a cannabis population associated with the foothills o
 The Kunlun foothills form a narrow band of relatively habitable terrain between the high Tibetan Plateau and the Tarim Basin desert. Sparse human habitation and trade routes along this margin have existed for millennia, connecting the Tibetan world with the Silk Road oasis towns of Xinjiang. Cannabis in this zone, whether cultivated or naturalized, would have been subject to intense environmental selection rather than directed agricultural breeding. Specific ethnobotanical or collection records for this population are not widely documented; information about this entry is inferred from the geographic and climatic context.
 
 ## Description
-- Indica-leaning morphology with medium stature, adapted to high-altitude desert conditions.
-- Strong UV tolerance and drought resistance are expected primary traits.
-- Dense trichome production may be an adaptation to intense high-altitude UV exposure.
-- Phenotypic consistency is uncertain given the limited documentation of this population.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 9–13 weeks
+- **Climate:** Alpine / High Mountain
+- **Origin:** China (Middle East / Central Asia)
+
+Indica-leaning morphology with medium stature, adapted to high-altitude desert conditions. Strong UV tolerance and drought resistance are expected primary traits. Dense trichome production may be an adaptation to intense high-altitude UV exposure. Phenotypic consistency is uncertain given the limited documentation of this population.
 
 ## Grow Information
 Adapted to high-altitude desert conditions with extremely high UV, very low humidity, poor soils, and a short frost-free growing window. Flowering typically runs 9–13 weeks, comparable to other high-altitude Central Asian landraces. Cold nights during late flowering are a native environmental feature. This population's defining value is likely its stress-tolerance genetics — UV hardiness, drought resistance, and cold adaptability. Growers should anticipate variable expression and treat available material as a raw landrace.

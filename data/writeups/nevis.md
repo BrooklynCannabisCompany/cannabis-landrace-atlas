@@ -9,12 +9,16 @@ Nevis is a small volcanic island in the Eastern Caribbean, part of the federatio
 Cannabis cultivation on Nevis is commonly reported as having deep local roots, as with many Eastern Caribbean islands where cannabis culture became embedded in rural and Rastafarian communities from at least the mid-twentieth century onward. Grower accounts suggest that the Nevis population, while closely related to neighboring island gene pools, has been shaped over generations by the specific conditions of Nevis Island — its volcanic soils, elevation gradient from coast to the peak of Nevis Peak, and relative separation from Saint Kitts. The degree of genetic exchange with Saint Kitts populations is not well documented, but island isolation is widely understood to promote landrace divergence over time.
 
 ## Description
-
-- **Type:** Caribbean island landrace, sativa-dominant
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, as is typical of tropical sativa landraces
 - **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate adaptation:** Tropical maritime — heat-tolerant, adapted to high humidity and trade-wind conditions
-- **Aroma/effect:** Specific aroma and effect profiles for this population are not well characterized in the available literature; Caribbean sativa landraces are generally associated with uplifting, cerebral effects and varied terpene expressions
+- **Climate:** Tropical maritime — heat-tolerant, adapted to high humidity and trade-wind conditions
+- **Origin:** Saint Kitts & Nevis (Americas)
+
+Specific aroma and effect profiles for this population are not well characterized in the available literature; Caribbean sativa landraces are generally associated with uplifting, cerebral effects and varied terpene expressions.
 
 ## Grow Information
 

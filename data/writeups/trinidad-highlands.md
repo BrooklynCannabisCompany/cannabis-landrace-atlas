@@ -9,12 +9,16 @@ Trinidad Highlands refers to the cannabis population associated with the Norther
 Cannabis cultivation in Trinidad's interior highlands is associated with the island's rural agricultural communities and Rastafarian traditions, as is common across the Caribbean. However, Trinidad's proximity to Venezuela — separated by only a narrow strait — and its historical connections to South American trade routes mean its cannabis gene pool is thought to have received introductions from multiple source regions. Grower accounts suggest the Northern Range Mountains have hosted cannabis cultivation in isolated highland plots for generations, with the terrain's ruggedness providing some distance from coastal population centers. The degree of genetic exchange with Venezuelan or other South American populations is not well documented, but the summary for this population explicitly notes influence from both Caribbean and South American cannabis traditions.
 
 ## Description
-
-- **Type:** Tropical landrace, mixed character
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with tropical landrace heritage
 - **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate adaptation:** Tropical mountain — the Northern Range brings significantly cooler temperatures, high rainfall, and frequent cloud cover relative to Trinidad's coastal zones
-- **Character:** Grower accounts suggest this population may present more diverse phenotypic expression than more isolated Caribbean island landraces, potentially reflecting its position at a confluence of South American and Caribbean gene flow
+- **Climate:** Tropical mountain — the Northern Range brings significantly cooler temperatures, high rainfall, and frequent cloud cover relative to Trinidad's coastal zones
+- **Origin:** Trinidad & Tobago (Americas)
+
+Grower accounts suggest this population may present more diverse phenotypic expression than more isolated Caribbean island landraces, potentially reflecting its position at a confluence of South American and Caribbean gene flow.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Sierra Nevada de Santa Marta designates the landrace population from the Sierra 
 The Sierra Nevada de Santa Marta has served for centuries as a cultural stronghold for indigenous communities — notably the Kogui, Arhuaco, and Wiwa — who maintain traditional practices in the mountain interior. Cannabis cultivation in the Sierra developed within this highland context, with the combination of strong tropical sunlight, significant elevation, and relative isolation fostering populations that grower accounts consistently describe as potent and high-quality. By the 1970s, the Sierra Nevada had become recognized as Colombia's premier cannabis-producing region, and genetics from this zone contributed substantially to the global sativa gene pool through early seed bank collections. The association with Punto Rojo — a Colombian strain known for red calyx coloration and psychedelic character — places this mountain range as a genetic origin point for some of Colombia's most celebrated varieties.
 
 ## Description
-
-This population is described as a very tall high-mountain tropical sativa with a 12–16 week flowering window — somewhat shorter than some equatorial highland estimates, possibly reflecting specific elevation zones within the massif.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall
 - **Flowering:** 12–16 weeks
-- **Climate adaptation:** High mountain tropical; elevation, intense sunlight, humidity
-- **Category:** Sativa
-- **Notable associations:** Punto Rojo origin system; foundational Colombian sativa genetics
+- **Climate:** High mountain tropical; elevation, intense sunlight, humidity
+- **Origin:** Colombia (Americas)
+
+This population is described as a very tall high-mountain tropical sativa with a 12–16 week flowering window — somewhat shorter than some equatorial highland estimates, possibly reflecting specific elevation zones within the massif. Punto Rojo origin system; foundational Colombian sativa genetics.
 
 ## Grow Information
 

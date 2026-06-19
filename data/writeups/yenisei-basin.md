@@ -9,13 +9,16 @@ The Yenisei Basin landrace refers to feral cannabis populations associated with 
 Hemp cultivation has a documented history across Siberia and southern Russia, where fibre and seed were important agricultural products for rural communities. Along major river valleys like the Yenisei, hemp plots and escaped feral populations are associated with settlement sites stretching back several centuries. As cultivation declined or shifted, feral populations persisted along disturbed ground, river margins, and forest clearings. The Yenisei Basin's isolation and the severity of its winters have likely acted as a strong natural filter, favouring plants able to complete their life cycle in a very compressed warm season. Grower accounts and botanical records suggest that these populations are intermediate in character rather than strongly sativa or indica — consistent with Eurasian hemp landrace ancestry.
 
 ## Description
-
-Yenisei Basin plants are typically described as medium-height, adapted to the taiga river corridor's short, intense summers and very long winter dormancy. Their intermediate morphology — neither fully sativa nor indica — likely reflects the mixed background of Siberian hemp. Long summer daylight hours at high latitudes compress the vegetative and flowering phases into a short window.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium
 - **Flowering:** Approximately 10–14 weeks (adapted to complete before hard frost)
-- **Climate adaptation:** Taiga river corridor — boreal, short warm season, extreme winter cold, very long summer days
-- **Type:** Feral boreal population, intermediate (indica–sativa)
+- **Climate:** Taiga river corridor — boreal, short warm season, extreme winter cold, very long summer days
+- **Origin:** Russia (East Asia / North Asia)
+
+Yenisei Basin plants are typically described as medium-height, adapted to the taiga river corridor's short, intense summers and very long winter dormancy. Their intermediate morphology — neither fully sativa nor indica — likely reflects the mixed background of Siberian hemp. Long summer daylight hours at high latitudes compress the vegetative and flowering phases into a short window.
 
 ## Grow Information
 

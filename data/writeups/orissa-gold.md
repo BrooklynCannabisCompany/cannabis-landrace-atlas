@@ -9,14 +9,16 @@ Orissa Gold is a sativa landrace from the state of Odisha (formerly Orissa) on t
 Odisha's cannabis culture is primarily associated with ganja — dried flower material — rather than the charas tradition of the Himalayas, reflecting the coastal and lowland character of the region. The state's eastern location and coastal trade history may have exposed its cannabis populations to a broader range of genetic inputs than more isolated interior regions. Collector accounts of Orissa Gold describe a variety that became known on the Indian collector circuit for its extreme flowering duration, large plant size, and distinctive effect profile. Scientific documentation of this specific population is not published to general knowledge; most accounts are from enthusiast and collector communities rather than ethnobotanical or horticultural literature.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — massive stretch during flowering is a defining reported characteristic
 - **Flowering:** 13–17 weeks — among the longest documented for any South Asian landrace, and one of the longest of any documented cannabis population
 - **Climate:** Coastal subtropical
-- Extreme vegetative and flowering stretch; grower accounts describe extraordinary height gains during the flowering phase
-- Effect profile in collector accounts: soaring, energetic, and clear-headed — consistent with long-flowering equatorial sativas
-- Aroma commonly described as woody with pepper notes; less citrus-forward than Idukki Gold, more resinous-woody in character
+- **Origin:** India (South Asia)
+
+Extreme vegetative and flowering stretch; grower accounts describe extraordinary height gains during the flowering phase. Effect profile in collector accounts: soaring, energetic, and clear-headed — consistent with long-flowering equatorial sativas. Aroma commonly described as woody with pepper notes; less citrus-forward than Idukki Gold, more resinous-woody in character.
 
 ## Grow Information
 

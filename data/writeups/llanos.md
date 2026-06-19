@@ -9,13 +9,16 @@ Llanos refers to a sativa landrace population associated with the vast tropical 
 The Colombian Llanos has historically been a remote and sparsely settled region, with indigenous communities, cattle ranchers, and riverine trade shaping its human landscape. Cannabis cultivation in this region is not well documented in the landrace literature, and specific historical records are thin. It is plausible that cannabis spread here via trade routes connecting the interior plains with larger Colombian population centers. Any cultivation would likely have been informal and small-scale, adapted over generations to the local savanna conditions. This population is considered a plains-adapted variant, distinct from the better-studied highland Colombian strains.
 
 ## Description
-
-Grower accounts and regional context suggest that this population is a tall-growing sativa, consistent with other Colombian lowland landraces. Plants are commonly reported to express long internodal spacing suited to the open, sun-drenched savanna environment. Flowering is typically in the 11–14 week range, relatively moderate for an equatorial sativa. The savanna tropical climate — characterized by alternating wet and dry seasons — likely shapes vigorous growth habits and a degree of drought tolerance during dry periods, combined with mold resilience during the wet season.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–14 weeks
-- **Climate adaptation:** Savanna tropical; seasonal flooding and drought cycles
-- **Category:** Sativa
+- **Climate:** Savanna tropical; seasonal flooding and drought cycles
+- **Origin:** Colombia (Americas)
+
+Grower accounts and regional context suggest that this population is a tall-growing sativa, consistent with other Colombian lowland landraces. Plants are commonly reported to express long internodal spacing suited to the open, sun-drenched savanna environment. Flowering is typically in the 11–14 week range, relatively moderate for an equatorial sativa. The savanna tropical climate — characterized by alternating wet and dry seasons — likely shapes vigorous growth habits and a degree of drought tolerance during dry periods, combined with mold resilience during the wet season.
 
 ## Grow Information
 

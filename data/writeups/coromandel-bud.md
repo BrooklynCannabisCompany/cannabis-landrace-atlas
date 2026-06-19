@@ -9,12 +9,16 @@ Coromandel Bud is a historic heirloom cannabis population associated with the Co
 Coromandel Bud is commonly associated with New Zealand's countercultural outdoor growing scene, which developed during the 1970s and 1980s in the more remote parts of the North Island, including the Coromandel Peninsula. The peninsula's combination of accessible wilderness, mild climate, and relative isolation from urban centers made it a favored location for outdoor cannabis cultivation during this period. Grower accounts suggest that the Coromandel population was selected over multiple generations for adaptation to the peninsula's maritime conditions — particularly for tolerance of the wet summers and variable weather that characterize the region. The line is regarded as a genuine regional heirloom rather than a formally bred cultivar.
 
 ## Description
-
-- **Type:** Coastal heirloom population; mixed category.
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Tall, consistent with outdoor-selected sativa-influenced lines grown in maritime conditions.
 - **Flowering:** 11–15 weeks, appropriate for New Zealand's outdoor season.
 - **Climate:** Maritime coastal — influenced by Pacific Ocean proximity, with moderate temperatures, high humidity, and significant rainfall variability.
-- **Reported traits:** Mold resistance and strong vigor are the most commonly cited characteristics by growers familiar with this line.
+- **Origin:** New Zealand (Oceania)
+
+Mold resistance and strong vigor are the most commonly cited characteristics by growers familiar with this line.
 
 ## Grow Information
 

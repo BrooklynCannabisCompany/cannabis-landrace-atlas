@@ -9,12 +9,16 @@ Colombian Cloud Forest refers to cannabis populations associated with the Colomb
 Cannabis cultivation in Colombia's cloud forest zones is not formally documented in the published literature, but the cloud forest belt has historically been part of the broader Andean farming landscape. Plants that have become established in cloud forest conditions have been subjected to selection pressures that combine the challenges of altitude (cool temperatures, high UV) with the humidity demands of a permanently mist-drenched environment — producing, over time, plants with a distinctive adaptation profile. The summary notes that this population "combines Andean elevation adaptation with rainforest humidity tolerance," making it of particular interest as a genetically distinct expression within the Colombian gene pool.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with Colombian highland sativas grown in forest environments where light competition drives vertical extension
-- **Structure:** Likely long-branching with moderate internode spacing; cloud forest populations are commonly associated with elongated floral clusters adapted to damp, diffuse-light conditions
 - **Flowering:** 13–18 weeks — on the longer end for Colombian highland types, potentially reflecting the cloud forest's diffuse light environment and moderate temperatures
-- **Aroma/Effect:** Not specifically documented; the mist and cool conditions of cloud forests are associated in other landrace contexts with complex, resinous aromatic profiles
+- **Climate:** Tropical Highland
+- **Origin:** Colombia (Americas)
+
+Likely long-branching with moderate internode spacing; cloud forest populations are commonly associated with elongated floral clusters adapted to damp, diffuse-light conditions. Not specifically documented; the mist and cool conditions of cloud forests are associated in other landrace contexts with complex, resinous aromatic profiles.
 
 ## Grow Information
 

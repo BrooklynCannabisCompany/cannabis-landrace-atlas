@@ -9,12 +9,16 @@ The Volga River Basin population is a naturalized feral cannabis found along and
 The Volga has served as a major trade and migration artery for millennia, and cannabis — both as cultivated hemp and as naturalized feral plants — has likely been present in the region for a very long time. Historical hemp cultivation for fiber and seed was practiced across European Russia, and the Volga corridor is commonly regarded as a route through which cannabis genetics moved between Eastern Europe and Central Asia. The naturalized populations found along the river today are generally understood to be descendants of escaped cultivated hemp, potentially mixed over generations with genetics introduced from trading contacts. No specific breeders or documented selection programs are associated with this feral population.
 
 ## Description
-
-- **Type:** Naturalized feral population; intermediate (Indica–Sativa) characteristics
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium — typical of feral populations in river-corridor environments with moderate resource availability
-- **Structure:** Intermediate morphology reflecting its mixed heritage between European hemp and Central Asian influences
 - **Flowering:** 10–14 weeks; consistent with the mid-latitude river-steppe environment of the Volga basin
-- **Variability:** As with most naturalized feral populations, significant plant-to-plant variation in morphology and expression is commonly reported
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Russia (Europe)
+
+Intermediate morphology reflecting its mixed heritage between European hemp and Central Asian influences. As with most naturalized feral populations, significant plant-to-plant variation in morphology and expression is commonly reported.
 
 ## Grow Information
 

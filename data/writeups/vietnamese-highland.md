@@ -9,11 +9,16 @@ Vietnamese Highland describes the broad upland gene pool of cannabis from Vietna
 Vietnam's highland communities — including the Hmong, Dao, Thai, Muong, and numerous other ethnic minority groups in the northern and central mountain ranges — have historically cultivated or used cannabis as part of traditional agricultural and ceremonial contexts. The northern Vietnamese highlands in particular have documented cannabis cultivation among Hmong communities, whose relationship with cannabis has parallels with Hmong communities in Laos, China, and the diaspora. As a broad category rather than a narrowly defined population, Vietnamese Highland encompasses considerable genetic diversity accumulated across the many valleys and ridge systems of the country's uplands. Specific collection and documentation of distinct highland populations is limited.
 
 ## Description
-
-- **Morphology:** Tall sativa structure consistent with mountain jungle conditions; specific morphological traits vary across the diverse highland regions encompassed by this category.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Tall
 - **Flowering:** 11–14 weeks, a range common to tropical and subtropical highland sativas at Vietnam's latitudes.
-- **Aroma/Effect:** Broadly, Vietnamese highland cannabis is associated in collector accounts with earthy, spicy, and sometimes sweet aromatic profiles; effect typically described as cerebral and energetic.
-- **Climate adaptation:** Mountain jungle — varies by specific highland zone, but generally involves cool nights, seasonal monsoon rainfall, and moderate to high altitude.
+- **Climate:** Mountain jungle — varies by specific highland zone, but generally involves cool nights, seasonal monsoon rainfall, and moderate to high altitude.
+- **Origin:** Vietnam (Southeast Asia)
+
+Tall sativa structure consistent with mountain jungle conditions; specific morphological traits vary across the diverse highland regions encompassed by this category. Broadly, Vietnamese highland cannabis is associated in collector accounts with earthy, spicy, and sometimes sweet aromatic profiles; effect typically described as cerebral and energetic.
 
 ## Grow Information
 

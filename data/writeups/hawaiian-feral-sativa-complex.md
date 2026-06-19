@@ -9,12 +9,16 @@ The Hawaiian Feral Sativa Complex refers to the broad, heterogeneous population 
 Hawaii's cannabis history is closely tied to the countercultural era of the 1960s and 70s, when diverse genetics — including Southeast Asian varieties (Thai, Filipino, Indonesian) and Latin American sativas — were brought to the islands by growers attracted to Hawaii's year-round tropical growing conditions. Escaped and feral populations from this period cross-pollinated across generations, producing a genetically diverse complex without clear single-strain coherence. This hybrid feral pool forms the background genetic context from which more regionally specific Hawaiian cannabis types (such as Kona Gold or Kauai Electric) emerged through selective cultivation.
 
 ## Description
-
-- **Category:** Feral; acclimatized hybrid pool combining Southeast Asian and American cultivar heritage
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall; reflects sativa-dominant heritage from Southeast Asian and tropical American origins
 - **Flowering:** Variable; the mixed hybrid origins and diverse island microclimates produce a wide range of flowering times across the complex
 - **Climate:** Tropical island — warm year-round, high humidity, intense sunlight, trade wind influence, diverse microclimates across the island chain
-- **Morphology:** Highly variable due to mixed genetic origins. Sativa-dominant structure is most common, with diverse terpene and cannabinoid expression reflecting the eclectic hybrid background. No consistent phenotype can be attributed to the complex as a whole.
+- **Origin:** Hawaii (Americas)
+
+Highly variable due to mixed genetic origins. Sativa-dominant structure is most common, with diverse terpene and cannabinoid expression reflecting the eclectic hybrid background. No consistent phenotype can be attributed to the complex as a whole.
 
 ## Grow Information
 

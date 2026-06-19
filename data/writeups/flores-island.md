@@ -9,14 +9,16 @@ Flores Island is a feral sativa population associated with the Indonesian island
 Flores sits on one of the ancient Spice Route corridors that connected eastern Indonesia to the wider maritime trading world. The island's long history of contact with traders and travelers from across the archipelago and beyond likely accounts for the diverse genetic origins of its feral cannabis populations. There is no strong documented tradition of intentional landrace cannabis cultivation on Flores comparable to the major Indonesian cannabis regions; rather, the population appears to represent naturalized plants that have established across the island's varied terrain over an indeterminate period. The specific character of the Flores feral complex — including the wood/citrus terpene signature — reflects this island origin and feral adaptation.
 
 ## Description
-
-- **Category:** Feral
-- **Type:** Feral sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall — consistent with feral equatorial sativa growth in open tropical terrain
 - **Flowering:** 11–15 weeks; some variability expected within a feral population
-- **Morphology:** Sativa-dominant structure; open branching and narrow leaflets typical of tropical island feral cannabis
-- **Terpene profile:** Accounts suggest a wood and citrus aromatic character — unusual within the broader Indonesian sativa complex and potentially a distinguishing feature of the Flores feral population
-- **Effects:** Not well-documented; feral status means individual plant variation is likely
+- **Climate:** Tropical Island / Maritime
+- **Origin:** Indonesia (Southeast Asia)
+
+Sativa-dominant structure; open branching and narrow leaflets typical of tropical island feral cannabis. Accounts suggest a wood and citrus aromatic character — unusual within the broader Indonesian sativa complex and potentially a distinguishing feature of the Flores feral population. Not well-documented; feral status means individual plant variation is likely.
 
 ## Grow Information
 

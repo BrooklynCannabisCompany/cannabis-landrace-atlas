@@ -9,13 +9,16 @@ The Yarkand landrace is an indica-type cannabis population associated with the Y
 Yarkand was a significant oasis city on the southern branch of the Silk Road, serving as a trading hub between Central Asia, South Asia, and China for centuries. Cannabis cultivation in the region is thought to have deep roots, with hemp fibre and other plant products moving along Silk Road trade networks. The isolation of Tarim Basin oases — surrounded by desert and high mountain ranges — may have allowed resident cannabis populations to develop in relative genetic isolation over long periods. Ethnobotanical documentation of this specific population is sparse, and what is known is commonly inferred from the broader context of Tarim Basin agricultural history.
 
 ## Description
-
-Consistent with its basin desert climate and indica classification, Yarkand cannabis is generally associated with a compact to medium stature, broad-leafleted morphology, and relatively early finishing times. Indica adaptation in arid continental environments typically produces plants with robust resin production and tight bud structure.
-
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** Approximately 9–12 weeks
-- **Climate adaptation:** Basin desert — extreme heat, minimal rainfall, high UV, continental temperature swings
-- **Type:** Indica landrace (Tarim gene pool)
+- **Climate:** Basin desert — extreme heat, minimal rainfall, high UV, continental temperature swings
+- **Origin:** China (East Asia / North Asia)
+
+Consistent with its basin desert climate and indica classification, Yarkand cannabis is generally associated with a compact to medium stature, broad-leafleted morphology, and relatively early finishing times. Indica adaptation in arid continental environments typically produces plants with robust resin production and tight bud structure.
 
 ## Grow Information
 

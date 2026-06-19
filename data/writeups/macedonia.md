@@ -9,13 +9,16 @@ The Macedonia landrace is an intermediate cannabis population from North Macedon
 Macedonia sits at a historic crossroads of Balkan cannabis movement, positioned on routes connecting the Aegean, the Adriatic, and the interior Balkan highlands. Cannabis cultivation in the region is associated with Ottoman-era agricultural traditions and with traditional rural communities in the mountain and valley zones of the country. The Vardar River corridor has historically served as a conduit for gene flow between southern Mediterranean-influenced cannabis populations and northern continental Balkan types, contributing to the intermediate character of this population.
 
 ## Description
-
-As a medium-height, intermediate (indica–sativa) landrace with a 9–13 week flowering window adapted to the mountain-valley climate of North Macedonia, this population reflects the transitional ecology of a country that bridges Mediterranean and continental influences. Plants are expected to show the variable intermediate morphology characteristic of Balkan corridor landraces, with some phenotypes leaning toward sativa influence from the south and others toward more compact Balkan highland types.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 9–13 weeks
-- **Type:** Balkan mountain landrace, Intermediate (Indica–Sativa)
 - **Climate:** Mountain-valley
+- **Origin:** North Macedonia (Europe)
+
+As a medium-height, intermediate (indica–sativa) landrace with a 9–13 week flowering window adapted to the mountain-valley climate of North Macedonia, this population reflects the transitional ecology of a country that bridges Mediterranean and continental influences. Plants are expected to show the variable intermediate morphology characteristic of Balkan corridor landraces, with some phenotypes leaning toward sativa influence from the south and others toward more compact Balkan highland types.
 
 ## Grow Information
 

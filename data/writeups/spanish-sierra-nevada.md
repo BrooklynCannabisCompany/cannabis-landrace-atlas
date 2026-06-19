@@ -9,13 +9,16 @@ Spanish Sierra Nevada refers to a sativa/hemp cannabis population associated wit
 Cannabis in the Sierra Nevada of Spain is associated with both traditional Andalusian cultivation in the foothills and semi-feral naturalization at higher elevations. The region has a long history of human activity — from the ancient Nasrid civilization centered in Granada to more recent agricultural use — and cannabis plants have been reported in the wild and cultivated across parts of the sierra and its surrounding lowlands. As a sativa/hemp mix at mountain Mediterranean elevation, this population likely reflects both fiber hemp escape from lower agricultural zones and adaptation to the specific high-altitude conditions of the Spanish sierra over many generations.
 
 ## Description
-
-As a medium-height sativa/hemp type with a 10–14 week flowering window adapted to the mountain Mediterranean climate of the Spanish Sierra Nevada, this population is understood as high-altitude adapted — capable of handling intense UV radiation, cool nights, and the dramatic temperature swings characteristic of alpine terrain in southern Spain.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 10–14 weeks
-- **Type:** Sativa/hemp mix
 - **Climate:** Mountain Mediterranean
+- **Origin:** Spain (Europe)
+
+As a medium-height sativa/hemp type with a 10–14 week flowering window adapted to the mountain Mediterranean climate of the Spanish Sierra Nevada, this population is understood as high-altitude adapted — capable of handling intense UV radiation, cool nights, and the dramatic temperature swings characteristic of alpine terrain in southern Spain.
 
 ## Grow Information
 

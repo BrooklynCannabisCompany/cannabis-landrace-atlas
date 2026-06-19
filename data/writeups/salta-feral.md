@@ -9,14 +9,16 @@ Salta Feral refers to a feral cannabis population naturalized in the Salta Provi
 Salta Province has a deep Andean indigenous heritage, with communities including Diaguita, Calchaquí, and later Guaraní-influenced groups inhabiting the region before and during the Spanish colonial period. Northwestern Argentina was part of the Inca Empire's southern frontier and later the Viceroyalty of Peru's southern territories. Cannabis introduced into this region over the colonial and post-colonial era would have naturalized under the demanding conditions of the Andean foothills. Feral populations that persist without cultivation must survive local winters, droughts, and the wide temperature ranges typical of this altitude zone — selection pressures that could over generations produce the drought tolerance noted for this population.
 
 ## Description
-
-This feral population is classified in the medium-tall height category, which may reflect the limiting conditions of the mountain foothills environment compared to lowland or jungle populations. The 10–14 week flowering window is relatively compact, potentially reflecting adaptation to shorter warm seasons at altitude.
-
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall
 - **Flowering:** 10–14 weeks
-- **Climate adaptation:** Mountain foothills; drought tolerant, large seasonal temperature swings
-- **Category:** Feral
-- **Notable traits:** Naturalized/feral, drought tolerance, cold and heat adaptation
+- **Climate:** Mountain foothills; drought tolerant, large seasonal temperature swings
+- **Origin:** Argentina (Americas)
+
+This feral population is classified in the medium-tall height category, which may reflect the limiting conditions of the mountain foothills environment compared to lowland or jungle populations. The 10–14 week flowering window is relatively compact, potentially reflecting adaptation to shorter warm seasons at altitude. Naturalized/feral, drought tolerance, cold and heat adaptation.
 
 ## Grow Information
 

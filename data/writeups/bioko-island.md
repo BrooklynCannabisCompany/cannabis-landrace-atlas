@@ -9,13 +9,16 @@ The Bioko Island landrace is a feral sativa population from Bioko Island, the At
 Cannabis on Bioko Island is not well-documented in the cannabis research literature. The island's isolation and its equatorial rainforest environment would have both constrained cannabis introduction and created strong selection pressure on any population that established itself there. Bioko has historically been inhabited by the Bubi people and was a colonial-era Spanish territory before becoming part of independent Equatorial Guinea in 1968. Whether cannabis arrived on the island through pre-colonial trade networks, colonial-era introduction, or later means is not definitively established. As a feral population in an equatorial island environment, this entry is best treated as a conservation-interest population whose specific history remains largely undocumented.
 
 ## Description
-
-- **Category:** Feral (Sativa)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — equatorial feral sativas growing in rainforest margins or clearings can reach extreme heights given year-round warmth and moisture
-- **Stature:** Open, extensively branched, with long internodal spacing typical of equatorial sativas
 - **Flowering:** Variable length; equatorial populations near the equator often lack strong photoperiod-dependent flowering triggers, leading to highly variable flowering durations
-- **Resin:** Unknown; feral populations in high-humidity environments are not typically noted for concentrated resin production
-- The isolation of Bioko Island from mainland African populations makes this a potentially genetically distinctive feral cannabis population.
+- **Climate:** Tropical Rainforest
+- **Origin:** Equatorial Guinea (Middle East / Central Asia)
+
+Open, extensively branched, with long internodal spacing typical of equatorial sativas. Unknown; feral populations in high-humidity environments are not typically noted for concentrated resin production. The isolation of Bioko Island from mainland African populations makes this a potentially genetically distinctive feral cannabis population.
 
 ## Grow Information
 

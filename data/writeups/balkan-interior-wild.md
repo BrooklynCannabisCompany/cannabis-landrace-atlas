@@ -9,13 +9,16 @@ Balkan Interior Wild refers to a wild or feral sativa-type cannabis population f
 The Balkan interior has served as a genetic corridor for cannabis movement between Central Europe, the Caucasus, Anatolia, and the Mediterranean for millennia. Feral populations in mountain forest zones represent plants that have escaped cultivation and naturalized over many generations, often blending hemp and drug-type genetics. The summary for this entry describes it explicitly as a "Balkan gene corridor" — reflecting its role as a transit and mixing zone for cannabis genetics moving between the diverse ecotypes of Southeastern Europe.
 
 ## Description
-
-As a medium-height sativa-type with a 10–14 week flowering window adapted to mountain forest conditions, Balkan Interior Wild plants are expected to show the variable morphology typical of naturalized feral populations. Sativa-leaning individuals with moderate height and narrow leaflets are consistent with the described type. Mountain forest adaptation typically implies tolerance of shade, moisture, and cool temperatures relative to open-field cultivated populations.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 10–14 weeks
-- **Type:** Sativa mix (feral/wild)
 - **Climate:** Mountain forest
+- **Origin:** Serbia (Europe)
+
+As a medium-height sativa-type with a 10–14 week flowering window adapted to mountain forest conditions, Balkan Interior Wild plants are expected to show the variable morphology typical of naturalized feral populations. Sativa-leaning individuals with moderate height and narrow leaflets are consistent with the described type. Mountain forest adaptation typically implies tolerance of shade, moisture, and cool temperatures relative to open-field cultivated populations.
 
 ## Grow Information
 

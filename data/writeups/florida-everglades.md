@@ -9,12 +9,16 @@ Florida Everglades refers to feral cannabis populations naturalized in or around
 Florida's subtropical climate and the privacy afforded by the Everglades' vast wetland landscape made the region a site of informal cannabis cultivation during the 1970s guerrilla growing era. Escaped plants from this period, along with naturally dispersed seed, established feral populations that persisted across subsequent decades. This population is not a true landrace in the traditional sense but rather a naturalized escape complex with mixed cultivar heritage, shaped over multiple generations by the specific pressures of southern Florida's wet subtropical ecosystem.
 
 ## Description
-
-- **Category:** Feral; descended from escaped cultivars rather than a coherent traditional landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall; sativa-dominant heritage with vigorous vertical growth in Florida's year-round warm conditions
 - **Flowering:** 10–14 weeks; tropical and subtropical adaptation with relatively early finishing suited to Florida's photoperiod
 - **Climate:** Wet subtropical — extreme humidity, standing water, hot temperatures, very high rainfall, minimal frost
-- **Morphology:** Plants adapted to the Everglades environment are expected to show humidity tolerance and heat resilience as key traits. As a feral escape complex, phenotypic consistency is not expected; plants likely show diverse sativa-influenced expression with some mold and moisture tolerance built up over multiple feral generations.
+- **Origin:** United States (Americas)
+
+Plants adapted to the Everglades environment are expected to show humidity tolerance and heat resilience as key traits. As a feral escape complex, phenotypic consistency is not expected; plants likely show diverse sativa-influenced expression with some mold and moisture tolerance built up over multiple feral generations.
 
 ## Grow Information
 

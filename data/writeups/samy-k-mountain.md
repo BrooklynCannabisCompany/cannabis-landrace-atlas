@@ -9,13 +9,16 @@ Samy K Mountain is a highland landrace from Papua New Guinea, preserved as a dis
 Papua New Guinea's highland cannabis populations are understood by researchers and collectors to represent long-standing introductions that have adapted over many generations to high-altitude tropical environments. The Samy K Mountain population is noted as an important preservation population, suggesting it has been recognised within collector and landrace preservation communities as genetically distinct and worth maintaining. The specific history of how this population was identified, named, or first collected is not clearly documented in publicly available sources. The name may derive from a local geographic feature, community, or the collector responsible for its preservation.
 
 ## Description
-
-Consistent with PNG highland landraces more broadly, Samy K Mountain is described as tall and highly vigorous, with a long flowering window of 13–20 weeks typical of populations adapted to tropical mountain climates where daylength variation is subtle and consistent pressure favours extended maturation. Plants from highland PNG populations commonly display elongated internodes, large fan leaves adapted to moderate light intensities under frequent cloud cover, and open bud structure suited to humid conditions.
-
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 13–20 weeks
-- **Climate preference:** Tropical mountain
-- **Category:** Mixed
+- **Climate:** Tropical Highland
+- **Origin:** Papua New Guinea (Oceania)
+
+Consistent with PNG highland landraces more broadly, Samy K Mountain is described as tall and highly vigorous, with a long flowering window of 13–20 weeks typical of populations adapted to tropical mountain climates where daylength variation is subtle and consistent pressure favours extended maturation. Plants from highland PNG populations commonly display elongated internodes, large fan leaves adapted to moderate light intensities under frequent cloud cover, and open bud structure suited to humid conditions. Tropical mountain.
 
 ## Grow Information
 

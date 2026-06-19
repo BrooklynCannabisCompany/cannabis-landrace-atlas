@@ -9,14 +9,16 @@ Jumla is an indica-leaning landrace from Jumla District in Karnali Province, far
 Jumla's cannabis population is contextually linked to the broader charas-producing tradition of Nepal's western mountain districts, which includes neighboring Humla and Dolpa. The Karnali zone's isolation — roads reached Jumla only in the early 2000s — suggests that cannabis populations here developed with limited outside genetic influence for many generations. While Jumla is noted as a historically important grain-growing region (famous for red rice cultivation at altitude), cannabis has been part of the agricultural landscape as a semi-cultivated and feral plant. Collector documentation of this specific population is sparse, with most references grouping Jumla with the broader far-western Nepalese charas ecotype.
 
 ## Description
-
-- **Type:** Indica-leaning landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–10 weeks
 - **Climate:** Cold Himalayan valley
-- Medium stature with the dense, resinous bud structure associated with charas-lineage populations
-- Cold Himalayan valley adaptation: broad leaflets, tight internode spacing, and heavy trichome coverage are characteristic of this ecotype
-- Aroma and effect profiles are not well-documented for Jumla specifically; the charas-lineage classification suggests earthy, hash-forward characteristics consistent with other far-western Nepalese types
+- **Origin:** Nepal (South Asia)
+
+Medium stature with the dense, resinous bud structure associated with charas-lineage populations. Cold Himalayan valley adaptation: broad leaflets, tight internode spacing, and heavy trichome coverage are characteristic of this ecotype. Aroma and effect profiles are not well-documented for Jumla specifically; the charas-lineage classification suggests earthy, hash-forward characteristics consistent with other far-western Nepalese types.
 
 ## Grow Information
 

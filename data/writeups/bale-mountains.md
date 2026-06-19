@@ -9,12 +9,16 @@ The Bale Mountains strain is a feral or semi-feral cannabis ecotype associated w
 Ethiopia has a long and well-documented history of traditional cannabis use, particularly in highland regions where the plant grows both cultivated and feral. The Bale Mountains, situated in Oromia Region, are known primarily as a biodiversity hotspot, and cannabis populations in this area are likely more feral or semi-feral than intensively cultivated. Documented history of this specific population is thin; what is known derives largely from regional context rather than targeted study of the Bale Mountains ecotype specifically.
 
 ## Description
-
-- **Type:** Wild/feral sativa ecotype
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall, likely constrained somewhat by alpine conditions
 - **Flowering:** Long, approximately 12–16 weeks — consistent with high-altitude equatorial populations where seasonal light changes are subtle
-- **Climate adaptation:** Alpine — tolerates cold nights, intense highland sunlight, and seasonal dry conditions
-- **Aroma:** Commonly associated with incense and spice notes typical of Ethiopian highland cannabis
+- **Climate:** Alpine — tolerates cold nights, intense highland sunlight, and seasonal dry conditions
+- **Origin:** Ethiopia (Africa)
+
+Commonly associated with incense and spice notes typical of Ethiopian highland cannabis.
 
 ## Grow Information
 

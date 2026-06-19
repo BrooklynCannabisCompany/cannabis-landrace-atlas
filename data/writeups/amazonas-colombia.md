@@ -9,12 +9,16 @@ Amazonas Colombia refers to cannabis populations associated with Colombia's Amaz
 The history of cannabis cultivation in Colombia's Amazonas Department is not well documented in published sources. The region is sparsely populated and largely indigenous, and cannabis use or cultivation in this context likely reflects a combination of colonial-era introduction and subsequent naturalization along river routes connecting interior settlements. Amazonas Department's extreme remoteness has limited both commercial cultivation and formal botanical study of its cannabis populations. This population is considered a preservation candidate for its adaptation to one of the world's most challenging humid environments.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — consistent with equatorial sativa landraces adapted to competing for light beneath dense canopy
-- **Structure:** Grower accounts suggest vigorous, wide-branching plants with long internodes; leaves typically narrow and elongated
 - **Flowering:** 14–20 weeks — extended flowering window expected given near-zero seasonal day-length variation at equatorial latitudes
-- **Aroma/Effect:** Not specifically documented; regional Amazonian sativas are broadly associated with energetic, cerebral effects
+- **Climate:** Tropical Rainforest
+- **Origin:** Colombia (Americas)
+
+Grower accounts suggest vigorous, wide-branching plants with long internodes; leaves typically narrow and elongated. Not specifically documented; regional Amazonian sativas are broadly associated with energetic, cerebral effects.
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ The Cuban Mountain Population is associated with Cuba's Sierra Maestra mountain 
 Cuba's geography and political history have made it one of the less well-documented Caribbean islands in terms of cannabis landrace research. The Sierra Maestra is historically significant as a remote, rugged region with a strong tradition of independent community life. Cannabis presence in Cuba's mountains is acknowledged in informal sources but has not been the subject of formal botanical study accessible in the open literature. The population is considered significant for its island isolation and adaptation to the specific humid mountain conditions of the Sierra Maestra.
 
 ## Description
-
-- **Category:** Mixed
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; consistent with tropical mountain cannabis adapted to rich, humid highland conditions
 - **Flowering:** 12–16 weeks; typical of tropical island mountain populations with moderate photoperiod seasonality
 - **Climate:** Tropical mountain — cooler than Cuban lowlands, persistently humid, cloudy, with high rainfall; Sierra Maestra creates its own localized weather patterns
-- **Morphology:** Specific morphological documentation is not available for this population. General tropical mountain cannabis characteristics — tall, open-branching structure, adaptation to humidity and cloud cover — are inferred from the regional ecology. Island isolation may have produced phenotypic characteristics distinct from mainland Caribbean populations.
+- **Origin:** Cuba (Americas)
+
+Specific morphological documentation is not available for this population. General tropical mountain cannabis characteristics — tall, open-branching structure, adaptation to humidity and cloud cover — are inferred from the regional ecology. Island isolation may have produced phenotypic characteristics distinct from mainland Caribbean populations.
 
 ## Grow Information
 

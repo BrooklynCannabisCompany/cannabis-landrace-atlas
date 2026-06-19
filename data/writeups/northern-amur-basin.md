@@ -9,13 +9,16 @@ The Northern Amur Basin population is a boreal feral cannabis population, sativa
 Cannabis in the Upper Amur region is believed to be descended from populations introduced through the historical movement of peoples across the Amur River corridor and adjacent Manchurian and Siberian territories. The upper basin is more isolated and boreal than the lower Amur system, and populations naturalized here would have experienced selection conditions distinct from those further south. The combination of monsoon summer moisture and boreal winter cold has likely shaped a population with a specific seasonal adaptation profile. Detailed botanical documentation of this precise population is not available in accessible sources.
 
 ## Description
-
-- **Type:** Boreal feral population; sativa-leaning
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium, constrained by the boreal environment
-- **Structure:** Upright with moderate branching; sativa-leaning character suggests longer internodal spacing than purely indica-type northern populations
-- **Leaf structure:** Likely intermediate to slightly narrow, consistent with sativa-leaning feral types
 - **Flowering:** 10–14 weeks, timed for the monsoonal summer window before boreal autumn frosts
-- **Aroma/effect:** Not documented
+- **Climate:** Boreal / Subarctic
+- **Origin:** Russia (East Asia / North Asia)
+
+Upright with moderate branching; sativa-leaning character suggests longer internodal spacing than purely indica-type northern populations. Likely intermediate to slightly narrow, consistent with sativa-leaning feral types. Not documented.
 
 ## Grow Information
 

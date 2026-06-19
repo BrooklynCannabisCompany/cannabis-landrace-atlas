@@ -9,11 +9,14 @@ Sheelavathi is a sativa landrace from India, associated with the tropical mariti
 Landrace cannabis populations along India's tropical coastal margins have rarely received the same documentation as the more widely known Himalayan charas strains or the Nilgiri hill varieties. Coastal and maritime-influenced landraces in India tend to be broadly categorized under regional folk names, and formal botanical or ethnobotanical records for individual populations are sparse. Grower accounts and seed hunters occasionally note that coastal southern Indian landraces carry distinct aromatic profiles — including spicy, earthy, and skunky terpene characteristics — that differ from inland hill varieties. Sheelavathi appears to represent one such population, though its precise provenance and any history of intentional cultivation or selection are not well established.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Commonly reported at 12–16 weeks
-- **Climate adaptation:** Tropical maritime — high humidity, warm temperatures year-round, coastal breezes, monsoon-season rainfall
+- **Climate:** Tropical maritime — high humidity, warm temperatures year-round, coastal breezes, monsoon-season rainfall
+- **Origin:** India (South Asia)
 
 Plants are expected to be tall and loosely structured, typical of tropical sativa landraces that evolved in equatorial or near-equatorial maritime climates. The aromatic profile — spicy, skunky, and musky — suggests a terpene expression distinct from the more resinous or hashish-associated Himalayan strains. The exceptionally long flowering window (12–16 weeks) is characteristic of pure or near-pure tropical sativas.
 

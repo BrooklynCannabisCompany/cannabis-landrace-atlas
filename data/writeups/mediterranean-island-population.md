@@ -9,13 +9,16 @@ The Mediterranean Island Population is a sativa-leaning cannabis landrace associ
 Cyprus has been continuously inhabited since the Neolithic and served as a significant maritime trading hub throughout antiquity — linking the Levant, Egypt, Anatolia, and the Aegean. Cannabis presence on Cyprus is likely associated with ancient maritime trade networks connecting the island to Near Eastern and Anatolian cannabis traditions. The island's dry climate and rocky limestone terrain would have selected for particular drought-adapted ecotypes over centuries of naturalization or cultivation. Formal documentation of a distinct Cypriot cannabis landrace is limited, and much knowledge of this population is inferred from regional ecology and general Mediterranean cannabis patterns.
 
 ## Description
-
-As a tall, sativa-leaning population with an 11–15 week flowering window adapted to the dry coastal Mediterranean climate of Cyprus, this population is consistent with long-flowering sativa types from the hot eastern Mediterranean. Tall stature, narrow leaflets, and heat tolerance are expected characteristics, along with adaptation to low soil moisture availability during the long Cypriot dry season.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–15 weeks
-- **Type:** Mediterranean landrace, sativa-leaning
 - **Climate:** Dry coastal
+- **Origin:** Cyprus (Europe)
+
+As a tall, sativa-leaning population with an 11–15 week flowering window adapted to the dry coastal Mediterranean climate of Cyprus, this population is consistent with long-flowering sativa types from the hot eastern Mediterranean. Tall stature, narrow leaflets, and heat tolerance are expected characteristics, along with adaptation to low soil moisture availability during the long Cypriot dry season.
 
 ## Grow Information
 

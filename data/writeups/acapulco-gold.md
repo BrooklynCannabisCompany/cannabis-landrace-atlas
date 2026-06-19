@@ -14,10 +14,16 @@ most landraces, specific lineage and selection history are not rigorously docume
 and modern seed lines sold under the name vary in authenticity.
 
 ## Description
-- Tall, lanky sativa structure with long internodes.
-- Flowers commonly reported to show golden/amber tones; aromas described as sweet,
-  toffee-like, citrus, and woody.
-- Effects typically reported as uplifting and energetic.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Tall
+- **Flowering:** 12–16 weeks
+- **Climate:** Tropical Highland
+- **Origin:** Mexico (Americas)
+
+Tall, lanky sativa structure with long internodes. Flowers commonly reported to show golden/amber tones; aromas described as sweet,. Toffee-like, citrus, and woody. Effects typically reported as uplifting and energetic.
 
 ## Grow Information
 Adapted to a warm tropical-highland climate with a long season. Commonly reported as

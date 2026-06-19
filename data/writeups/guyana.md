@@ -9,12 +9,16 @@ Guyana refers to cannabis populations associated with the interior of Guyana —
 Guyana has a complex history shaped by British colonialism, the plantation economy, and the diverse ethnic communities — Afro-Guyanese, Indo-Guyanese, Amerindian, and others — that settled the country. Cannabis cultivation in Guyana is believed to have been introduced through multiple routes: the Atlantic trade connecting African and Caribbean populations, South Asian indentured laborers (who brought cannabis traditions from the Indian subcontinent), and continental South American influences via the interior forest and border communities. This multi-source introduction history may account for the genetic diversity referenced in the source summary. Interior Guyana's Amerindian communities have their own distinct relationships with the forest and its plants, though cannabis cultivation among these communities is not well documented.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — equatorial rainforest conditions support maximum sativa expression
-- **Structure:** Likely long-branching with elongated internodes; interior Guyana cannabis growing under equatorial forest conditions would be expected to develop tall, reaching plants
 - **Flowering:** 14–20 weeks — extended flowering window consistent with near-equatorial latitude and minimal seasonal day-length variation
-- **Aroma/Effect:** The source notes adaptation to hot, humid equatorial conditions; specific effect profiles are not documented, but the mixed genetic heritage (Caribbean, South American, trade-route) may produce notable complexity
+- **Climate:** Tropical Rainforest
+- **Origin:** Guyana (Americas)
+
+Likely long-branching with elongated internodes; interior Guyana cannabis growing under equatorial forest conditions would be expected to develop tall, reaching plants. The source notes adaptation to hot, humid equatorial conditions; specific effect profiles are not documented, but the mixed genetic heritage (Caribbean, South American, trade-route) may produce notable complexity.
 
 ## Grow Information
 

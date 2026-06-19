@@ -9,12 +9,16 @@ The Mexican Sierra Madre Occidental landrace is associated with Mexico's Sierra 
 The Sierra Madre Occidental's deep canyons and remote highland terrain provided both the isolation and the growing conditions that allowed distinctive regional cannabis populations to develop over extended periods. Communities in the barrancas of Sinaloa, Durango, and surrounding states have historically cultivated cannabis as part of rural informal agriculture. The region's output has been historically significant in North American cannabis supply, and the genetics of Sierra Madre Occidental populations influenced many seed development projects in the 1970s and beyond. Specific documented collection from individual Sierra Madre Occidental valleys is limited, but the region's general landrace character is well acknowledged.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; mountain conditions with seasonal rainfall and fertile soils support vigorous sativa growth
 - **Flowering:** 12–16 weeks; adapted to the Sierra Madre's seasonal photoperiod at mid-latitudes
 - **Climate:** Tropical mountain — significant rainfall in the summer wet season; dry winters; marked elevation variation across the range from coastal foothills to high sierra; strong sunlight at altitude
-- **Morphology:** Classic Mexican highland sativa characteristics — tall, open-branching structure with narrow to medium leaflets. Seasonal adaptation to the wet-dry cycle of the Sierra Madre is a key ecological driver. Terpene profiles in accounts of this region tend toward earthy, spicy, and sometimes fuel-adjacent expressions.
+- **Origin:** Mexico (Americas)
+
+Classic Mexican highland sativa characteristics — tall, open-branching structure with narrow to medium leaflets. Seasonal adaptation to the wet-dry cycle of the Sierra Madre is a key ecological driver. Terpene profiles in accounts of this region tend toward earthy, spicy, and sometimes fuel-adjacent expressions.
 
 ## Grow Information
 

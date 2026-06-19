@@ -9,13 +9,16 @@ Rangitiki Ripper is a regional heirloom cultivar associated with the Rangitīkei
 The documented history of Rangitiki Ripper as a named cultivar is sparse. It is commonly reported within New Zealand outdoor growing communities as an established regional selection — meaning successive generations of outdoor growers are thought to have selected for plants best suited to the Rangitīkei environment. New Zealand's geography and relative isolation meant that cannabis populations introduced during the twentieth century underwent informal selection largely independent of outside influence. Whether Rangitiki Ripper descends from a single introduced line or represents a blend of varieties that converged over decades of local cultivation is not clearly established.
 
 ## Description
-
-Rangitiki Ripper is classified as a mixed (indica/sativa) cultivar and typically presents as a tall plant suited to outdoor conditions. Grower accounts suggest it develops robust branching and substantial foliage consistent with plants selected for open-air New Zealand seasons. As a mixed type adapted to temperate maritime climate, it is expected to carry moderately dense bud structure with a profile shaped by long, variable growing seasons rather than the uniform tropical heat that drives purely sativa landraces.
-
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Tall
 - **Flowering:** Approximately 10–14 weeks
-- **Climate preference:** Temperate maritime
-- **Category:** Mixed
+- **Climate:** Temperate / Continental
+- **Origin:** New Zealand (Oceania)
+
+Rangitiki Ripper is classified as a mixed (indica/sativa) cultivar and typically presents as a tall plant suited to outdoor conditions. Grower accounts suggest it develops robust branching and substantial foliage consistent with plants selected for open-air New Zealand seasons. As a mixed type adapted to temperate maritime climate, it is expected to carry moderately dense bud structure with a profile shaped by long, variable growing seasons rather than the uniform tropical heat that drives purely sativa landraces. Temperate maritime.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Nariño Highlands refers to a highland sativa population from the Nariño Depart
 Nariño Department has historically been one of Colombia's more isolated regions, separated from the Colombian interior by difficult Andean terrain and connected more easily to the Pacific coast and to Ecuador. Indigenous Pasto communities have inhabited these highlands for centuries, and the region has maintained distinct cultural traditions. Cannabis cultivation in the Nariño highlands is not well documented in the landrace literature, and specific historical records are thin. It is inferred that any cannabis population here would have adapted over generations to the cool Andean conditions — potentially developing characteristics distinct from the warmer Colombian highland populations to the north.
 
 ## Description
-
-This population is described as a tall highland sativa with a 12–18 week flowering window — typical for equatorial Andean landraces where altitude extends maturation periods. The Andean mountain climate involves cool nights, strong UV, and seasonal rainfall patterns that would shape plant morphology and resin production.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 12–18 weeks
-- **Climate adaptation:** Andean mountain; cool temperatures, strong UV, high elevation
-- **Category:** Sativa
-- **Region:** Nariño Department, southern Colombia near the Ecuador border
+- **Climate:** Andean mountain; cool temperatures, strong UV, high elevation
+- **Origin:** Colombia (Americas)
+
+This population is described as a tall highland sativa with a 12–18 week flowering window — typical for equatorial Andean landraces where altitude extends maturation periods. The Andean mountain climate involves cool nights, strong UV, and seasonal rainfall patterns that would shape plant morphology and resin production. Nariño Department, southern Colombia near the Ecuador border.
 
 ## Grow Information
 

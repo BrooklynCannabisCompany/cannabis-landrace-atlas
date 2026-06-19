@@ -9,14 +9,16 @@ Chin Hills is a mountain landrace from Chin State, western Myanmar — specifica
 The Chin Hills have historically been among the more isolated highland regions of mainland Southeast Asia, with the Chin people maintaining distinct cultural practices across numerous sub-groups scattered across the ridges and valleys of the range. The relative isolation of many Chin Hill communities — many villages historically accessible only by foot — likely facilitated the development of locally adapted cannabis populations over many generations. The plant's role in local tradition has not been extensively documented in the available ethnobotanical literature, and what is known about this specific population comes primarily from geographic inference and limited collector accounts rather than formal research.
 
 ## Description
-
-- **Category:** Mixed
-- **Type:** Mountain landrace
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous growth suited to the open highland conditions of the Chin Hills
 - **Flowering:** 13–18 weeks; a relatively long-season highland variety
-- **Morphology:** Mountain landrace morphology consistent with highland subtropical conditions; likely broader phenotypic variability reflecting the mixed category designation
-- **Terpene profile:** Specific accounts are scarce; earthy, forest-adjacent aromatic character is plausible given regional context
-- **Effects:** Mixed categorization suggests the population may span a spectrum of expression; specific effect profiles are not well-documented
+- **Climate:** Subtropical
+- **Origin:** Myanmar (Southeast Asia)
+
+Mountain landrace morphology consistent with highland subtropical conditions; likely broader phenotypic variability reflecting the mixed category designation. Specific accounts are scarce; earthy, forest-adjacent aromatic character is plausible given regional context. Mixed categorization suggests the population may span a spectrum of expression; specific effect profiles are not well-documented.
 
 ## Grow Information
 

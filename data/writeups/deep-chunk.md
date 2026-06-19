@@ -9,15 +9,16 @@ Deep Chunk is a broadleaf Afghan landrace selection derived from traditional Afg
 Deep Chunk is associated in grower accounts with Tom Hill, an American cannabis breeder who reportedly obtained and maintained this Afghan landrace selection over many years. The line is commonly described as originating from seed stock brought from Afghanistan in the 1970s or early 1980s — a period when Afghan cannabis genetics were extensively explored and introduced to Western cultivation and breeding programs. Its reputation as an exceptionally resinous, dense, and hash-producing Afghan type made it a sought-after breeding parent. Whether Deep Chunk represents a specific geographically distinct Afghan population or a selected line from mixed Afghan stock is not definitively established; grower accounts typically describe it in functional rather than precise geographic terms.
 
 ## Description
-
-- **Category:** Mixed (Afghan broadleaf landrace selection)
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium-short — more compact than many Afghan landraces
-- **Stature:** Dense, heavily branched, with very broad dark-green leaves characteristic of Afghan indica types; tight bud structure
 - **Flowering:** 8–10 weeks; moderate for an Afghan indica selection
-- **Resin:** Extremely high; this is the characteristic for which Deep Chunk is most widely celebrated in breeding literature
-- The hash-producing heritage of this selection is reflected in both its resin expression and its dense, resin-coated bud structure.
+- **Climate:** Desert / Arid
+- **Origin:** Afghanistan (Middle East / Central Asia)
 
-_Recorded locality detail: South-Central Asia._
+Dense, heavily branched, with very broad dark-green leaves characteristic of Afghan indica types; tight bud structure. Extremely high; this is the characteristic for which Deep Chunk is most widely celebrated in breeding literature. The hash-producing heritage of this selection is reflected in both its resin expression and its dense, resin-coated bud structure. _Recorded locality detail: South-Central Asia._.
 
 ## Grow Information
 

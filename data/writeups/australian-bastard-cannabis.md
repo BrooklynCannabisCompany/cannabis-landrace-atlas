@@ -9,12 +9,16 @@ Australian Bastard Cannabis (ABC) is a uniquely isolated feral population found 
 The origin of Australian Bastard Cannabis is not well-documented, and accounts vary considerably among growers and researchers. It is commonly reported to have been found growing feral in coastal and temperate-subtropical zones of Australia, though no verified historical records pin down when or how cannabis first naturalized there. Some grower accounts suggest the distinctive leaf mutation may have arisen or been stabilized over many decades of isolated growth without human selection for conventional traits. The population is generally associated with regions experiencing temperate to subtropical conditions, and is considered a rare genetic anomaly within the global landrace context.
 
 ## Description
-
-- **Leaf morphology:** Markedly different from standard cannabis — leaflets are reported as small, rounded or oval-shaped, with reduced serration; this trait is the defining characteristic of the population.
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Variable; plants do not conform to a single growth pattern.
 - **Flowering:** Typically 10–14 weeks, consistent with temperate to subtropical day-length cues.
-- **Climate adaptation:** Adapted to Australia's temperate and subtropical conditions, with some tolerance for coastal humidity and variable rainfall.
-- **Category:** Feral — not a cultivated landrace in the traditional sense, but a naturalized population with unusual genetic expression.
+- **Climate:** Adapted to Australia's temperate and subtropical conditions, with some tolerance for coastal humidity and variable rainfall.
+- **Origin:** Australia (Oceania)
+
+Markedly different from standard cannabis — leaflets are reported as small, rounded or oval-shaped, with reduced serration; this trait is the defining characteristic of the population.
 
 ## Grow Information
 

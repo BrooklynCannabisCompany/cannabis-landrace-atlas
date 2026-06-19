@@ -9,12 +9,16 @@ Gabon is a sativa-type landrace population from the interior rainforests of Gabo
 Gabon's interior rainforest zones are among the least disturbed in Central Africa, and cannabis cultivation or naturalization in these areas has occurred largely outside documented agricultural records. The population is best understood in the context of the broader West-Central African rainforest cannabis tradition, which spans Gabon, Cameroon, DRC, and the Republic of Congo. Specific documentation of Gabon interior cannabis as a distinct cultivated variety is sparse. Its inclusion in the landrace atlas reflects its significance as a representative of an important and biodiverse regional gene pool.
 
 ## Description
-
-- **Type:** Equatorial rainforest sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall
 - **Flowering:** Very long, approximately 14–20 weeks from equinox — consistent with equatorial photoperiod conditions where seasonal light shifts are minimal
-- **Climate adaptation:** Tropical rainforest — year-round humidity, heavy and consistent rainfall, equatorial temperatures
-- **Gene pool:** Considered a major representative of West-Central African rainforest cannabis genetics
+- **Climate:** Tropical rainforest — year-round humidity, heavy and consistent rainfall, equatorial temperatures
+- **Origin:** Gabon (Africa)
+
+Considered a major representative of West-Central African rainforest cannabis genetics.
 
 ## Grow Information
 

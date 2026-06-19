@@ -9,14 +9,16 @@ Loja Highlands refers to a highland sativa population from the southern Ecuadori
 Ecuador's position along the Andes has made it a crossroads for Andean agricultural traditions stretching back thousands of years. Southern Ecuador, including the Loja region, has been shaped by indigenous Saraguro communities and later by colonial-era trade between what is now Ecuador and Peru. Cannabis is not thought to be native to the Americas, but introduced plants adapted over generations to local growing conditions. In the high valleys and slopes around Loja, cannabis populations would have been shaped by elevation, relatively cooler and drier conditions than equatorial lowlands, and the agricultural practices of local cultivators. Documentation of this specific population is limited, and most accounts remain anecdotal.
 
 ## Description
-
-This population is described as a tall highland sativa, consistent with Andean landrace morphology at elevation. The extended flowering window of 12–18 weeks reflects the equatorial latitude combined with altitude, where days remain relatively long year-round but temperatures and UV conditions slow maturation compared to lowland populations.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 12–18 weeks
-- **Climate adaptation:** Andean mountain; cooler temperatures, strong UV, seasonal rainfall
-- **Category:** Sativa
-- **Region:** Southern Ecuador, near the Peruvian border
+- **Climate:** Andean mountain; cooler temperatures, strong UV, seasonal rainfall
+- **Origin:** Ecuador (Americas)
+
+This population is described as a tall highland sativa, consistent with Andean landrace morphology at elevation. The extended flowering window of 12–18 weeks reflects the equatorial latitude combined with altitude, where days remain relatively long year-round but temperatures and UV conditions slow maturation compared to lowland populations. Southern Ecuador, near the Peruvian border.
 
 ## Grow Information
 

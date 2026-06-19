@@ -9,13 +9,16 @@ Te Puke Thunder is a historic heirloom sativa from the Bay of Plenty region on N
 Te Puke Thunder is commonly reported in New Zealand cannabis culture as one of the country's most recognised heirloom outdoor selections. The Bay of Plenty's climate — among the warmest and most reliably sunny on the North Island — made it a natural centre for outdoor cannabis cultivation and informal selection. Grower accounts consistently associate this line with sustained selection for outdoor vigour, finish ability, and potency under Bay of Plenty conditions. The precise origins of the founding genetics (the varieties originally introduced and then selected upon) are not clearly documented, but the line is widely understood to represent multiple generations of New Zealand outdoor selection rather than a recent import. It is considered a point of regional pride by those who have grown or maintained it.
 
 ## Description
-
-Te Puke Thunder is classified as a historic heirloom sativa with a tall growth habit and a flowering period of 11–15 weeks, suited to the long, warm Bay of Plenty outdoor season. Grower accounts describe it as vigorous and capable of achieving substantial plant size when grown outdoors with adequate space and season length. As a sativa-dominant heirloom selected for outdoor New Zealand conditions, it is expected to produce elongated buds with aromatic complexity developed under maritime subtropical conditions.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Tall
 - **Flowering:** 11–15 weeks
-- **Climate preference:** Maritime subtropical
-- **Category:** Sativa
+- **Climate:** Subtropical
+- **Origin:** New Zealand (Oceania)
+
+Te Puke Thunder is classified as a historic heirloom sativa with a tall growth habit and a flowering period of 11–15 weeks, suited to the long, warm Bay of Plenty outdoor season. Grower accounts describe it as vigorous and capable of achieving substantial plant size when grown outdoors with adequate space and season length. As a sativa-dominant heirloom selected for outdoor New Zealand conditions, it is expected to produce elongated buds with aromatic complexity developed under maritime subtropical conditions. Maritime subtropical.
 
 ## Grow Information
 

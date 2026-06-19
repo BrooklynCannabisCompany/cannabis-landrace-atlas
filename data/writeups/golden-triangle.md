@@ -9,14 +9,16 @@ Golden Triangle is a sativa complex associated with the tri-border highland zone
 The Golden Triangle region became widely known internationally during the twentieth century primarily in the context of opium production, but cannabis cultivation has also been deeply embedded in the agricultural traditions of the highland communities throughout this zone. The convergence of multiple ethnic groups — each with their own cannabis cultivation traditions — across a landscape of rugged mountains, river valleys, and highland plateaus created conditions for significant genetic mixing. Cannabis moved across the porous borders of Laos, Thailand, and Myanmar with the people who cultivated it, resulting in the genetically complex and diverse pool that collectors broadly refer to as Golden Triangle material. Specific cultivation lineages within this complex are difficult to trace formally.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa complex
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — reflecting the vigorous sativa populations adapted to the highland jungle zones of the upper Mekong
 - **Flowering:** 12–18 weeks; significant variation across the complex
-- **Morphology:** Variable across the complex; narrow-leaf sativa characteristics predominate, consistent with highland Southeast Asian cannabis
-- **Terpene profile:** Varied; accounts describe incense, spice, tropical fruit, and forest aromatic profiles depending on specific origin within the zone
-- **Effects:** Associated with potent, cerebral sativa expression; the genetic diversity of the complex means individual collections vary considerably
+- **Climate:** Tropical Highland
+- **Origin:** Laos (Southeast Asia)
+
+Variable across the complex; narrow-leaf sativa characteristics predominate, consistent with highland Southeast Asian cannabis. Varied; accounts describe incense, spice, tropical fruit, and forest aromatic profiles depending on specific origin within the zone. Associated with potent, cerebral sativa expression; the genetic diversity of the complex means individual collections vary considerably.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ Primorsky Krai Feral is a feral cannabis population naturalized in Primorsky Kra
 Primorsky Krai has been inhabited by indigenous peoples for millennia and was incorporated into the Russian Empire in the nineteenth century with the founding of Vladivostok. Cannabis naturalized here likely descended from both local historical use and introductions accompanying Russian settlement and the development of agricultural communities in the region. The maritime environment — warmer and more humid than the Siberian interior — would have allowed a somewhat different population dynamic than that of inland Siberian feral cannabis, potentially preserving distinct genetic character. Research documentation specific to the Primorsky Krai feral population is not well represented in accessible sources.
 
 ## Description
-
-- **Type:** Feral cannabis population
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium, consistent with coastal temperate feral cannabis
-- **Structure:** Moderate branching; likely more robust than extreme subarctic populations given the relatively milder maritime conditions
-- **Leaf structure:** Likely intermediate, reflecting the intermediate climate between maritime temperate and continental
 - **Flowering:** 10–14 weeks, timed to the coastal temperate growing season
-- **Aroma/effect:** Not documented; feral populations in this region are not selected for resin content
+- **Climate:** Temperate / Continental
+- **Origin:** Russia (East Asia / North Asia)
+
+Moderate branching; likely more robust than extreme subarctic populations given the relatively milder maritime conditions. Likely intermediate, reflecting the intermediate climate between maritime temperate and continental. Not documented; feral populations in this region are not selected for resin content.
 
 ## Grow Information
 

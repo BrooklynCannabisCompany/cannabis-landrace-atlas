@@ -9,13 +9,16 @@ The Haiban Island landrace is associated with Haiban Island in the South China S
 Island populations in tropical seas are frequently the result of historical maritime human movement — traders, fishermen, or settlers carrying seed stock between islands and mainland regions. The South China Sea has been a zone of active maritime exchange for centuries, meaning the genetic ancestry of the Haiban Island population could reflect multiple continental and island sources. Specific documented history of cannabis cultivation or naturalization on Haiban Island is not available in accessible sources; the population is likely best understood as a tropical coastal landrace analogous to other island sativa populations found across Southeast Asia and the South China Sea region.
 
 ## Description
-
-- **Type:** Tropical island landrace — Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with tropical sativa morphology under year-round warmth and abundant light
-- **Structure:** Typically open and branchy, as is characteristic of island sativas with continuous growing conditions
-- **Leaf structure:** Narrow, elongated leaflets typical of equatorial sativa populations
 - **Flowering:** 13–18 weeks — a long photoperiod response characteristic of low-latitude sativas
-- **Aroma/effect:** Not well documented for this specific island population; tropical sativas are generally associated with energetic, cerebral profiles
+- **Climate:** Tropical Lowland
+- **Origin:** China (East Asia / North Asia)
+
+Typically open and branchy, as is characteristic of island sativas with continuous growing conditions. Narrow, elongated leaflets typical of equatorial sativa populations. Not well documented for this specific island population; tropical sativas are generally associated with energetic, cerebral profiles.
 
 ## Grow Information
 

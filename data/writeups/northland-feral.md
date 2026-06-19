@@ -9,12 +9,16 @@ Northland Feral is a naturalized hemp and sativa mixed population associated wit
 Northland's cannabis naturalization history likely traces to hemp cultivation introduced during the colonial period, possibly augmented by later introductions of sativa genetics through the underground growing culture that developed in New Zealand from the 1970s onward. Hemp cultivation has a documented history in New Zealand dating to the colonial era, and naturalized populations descended from or mixed with historical hemp introductions have been noted in various parts of the country. The Northland region's warm, relatively frost-free climate would have favored naturalization and persistence of cannabis populations. The hemp/sativa mixed category reflects the likely composite genetic heritage of this feral population.
 
 ## Description
-
-- **Type:** Hemp/sativa mix; categorized as hemp.
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; consistent with hemp-influenced cannabis in a warm coastal environment.
 - **Flowering:** 10–14 weeks; reflecting the relatively long outdoor season of Northland's subtropical maritime climate.
 - **Climate:** Maritime subtropical — Northland's warm, humid climate, mild winters, consistent sea breezes.
-- **Character:** Naturalized population adapted to wet coastal conditions; hemp ancestry likely contributes to vigorous, tall growth.
+- **Origin:** New Zealand (Oceania)
+
+Naturalized population adapted to wet coastal conditions; hemp ancestry likely contributes to vigorous, tall growth.
 
 ## Grow Information
 

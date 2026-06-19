@@ -9,12 +9,16 @@ Alaskan Wild refers to feral cannabis populations found in Alaska, USA — among
 Cannabis is not native to Alaska, and wild populations found in the state are generally attributed to escaped or naturalized plants derived from historical hemp cultivation, seed dispersal, or abandoned cultivation attempts. The ruderalis growth habit — autoflowering triggered by age rather than photoperiod — is considered the primary survival strategy enabling cannabis to persist in subarctic environments with short, intense summers and very long winter periods. Formal botanical documentation of Alaskan feral cannabis is minimal, and the population is primarily referenced in informal naturalist and grower accounts.
 
 ## Description
-
-- **Category:** Ruderalis
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Ruderalis
+- **Chemotype:** Type II (inferred)
+- **Domestication:** Wild
 - **Height:** Short; compact structure consistent with ruderalis genetics and cold-climate selection
 - **Flowering:** 6–10 weeks; rapid autoflowering lifecycle timed to Alaska's short frost-free growing season
 - **Climate:** Subarctic — short, cool summers; very long winters; intense summer daylight hours; low humidity
-- **Morphology:** Typical ruderalis characteristics — small, bushy, broad leaflets, rapid development, and autoflowering trigger. THC content in feral ruderalis populations is generally low. The extreme photoperiod of Alaskan summers (near 24-hour daylight in peak summer) makes autoflowering genetics functionally essential for seed set before first frost.
+- **Origin:** Alaska (Americas)
+
+Typical ruderalis characteristics — small, bushy, broad leaflets, rapid development, and autoflowering trigger. THC content in feral ruderalis populations is generally low. The extreme photoperiod of Alaskan summers (near 24-hour daylight in peak summer) makes autoflowering genetics functionally essential for seed set before first frost.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Mustang is an indica-leaning landrace from Mustang District in Gandaki Province,
 Mustang's cultural and historical identity is Tibetan-influenced — Lo Manthang, the walled city of upper Mustang, was the capital of the Kingdom of Lo, a Tibetan Buddhist kingdom that maintained its traditional structure into the modern era. Cannabis growing in the region is consistent with the broader pattern of feral and semi-cultivated cannabis across the Tibetan cultural sphere, but Mustang has not been a center of organized charas production in the manner of Nepal's more southerly districts. Collector documentation of Mustang cannabis is limited; the district was restricted to outside visitors until 1992, and even afterward, access required special permits. The population's characteristics are inferred from general knowledge of the region's extreme climate and from sparse collector accounts.
 
 ## Description
-
-- **Type:** Indica-leaning landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Short to medium — reflecting the extreme growth-limiting conditions of the semi-arid alpine desert
 - **Flowering:** 8–10 weeks — among the shortest windows for a Nepalese landrace, necessary in a climate with a very brief frost-free season
 - **Climate:** Semi-arid alpine desert
-- Compact, dense growth typical of high-altitude, cold-adapted, drought-stressed indica populations
-- Extreme cold and dry adaptation; thick cuticle and trichome coverage likely provide both cold and UV protection
-- Among the hardiest of Nepalese landraces in terms of environmental stress tolerance
+- **Origin:** Nepal (South Asia)
+
+Compact, dense growth typical of high-altitude, cold-adapted, drought-stressed indica populations. Extreme cold and dry adaptation; thick cuticle and trichome coverage likely provide both cold and UV protection. Among the hardiest of Nepalese landraces in terms of environmental stress tolerance.
 
 ## Grow Information
 

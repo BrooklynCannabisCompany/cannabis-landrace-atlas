@@ -9,11 +9,14 @@ Spiti Valley is an indica-leaning landrace from the Spiti Valley of Himachal Pra
 Spiti Valley is one of the most sparsely populated and climatically extreme inhabited regions of India. The Spitian people have lived at altitude for centuries, and cannabis may have persisted as a feral or semi-feral plant in the valley and surrounding areas, though intensive cultivation for charas or traditional use comparable to the Parvati or Kullu valleys is not well documented for Spiti specifically. The extreme cold desert climate — more analogous to the Tibetan plateau than to the lush Himalayan foothills — would strongly select for cold-hardiness, early finishing, and drought tolerance. Documentation of this specific population in grower or botanical literature is sparse.
 
 ## Description
-
-- **Type:** Indica-leaning landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Short
 - **Flowering:** Commonly reported at 8–10 weeks
-- **Climate adaptation:** Extreme cold desert — very short frost-free season, high UV, low humidity, intense diurnal temperature variation
+- **Climate:** Extreme cold desert — very short frost-free season, high UV, low humidity, intense diurnal temperature variation
+- **Origin:** India (South Asia)
 
 Plants are expected to be short and compact, a morphological response to both the brief growing season and the need to withstand harsh environmental conditions. Short stature reduces exposure to wind and cold. Resin production may be elevated as a UV-protective response, a commonly observed trait in high-altitude cannabis populations. Early finishing in 8–10 weeks is essential given the abbreviated summer window.
 

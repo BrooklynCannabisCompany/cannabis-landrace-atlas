@@ -7,10 +7,16 @@ Moroccan Rif is an indica cannabis landrace from the Rif Mountains of northern M
 The Rif Mountains have hosted cannabis cultivation for many centuries, with local Berber farming communities developing and maintaining locally adapted varieties suited to hashish production. Morocco emerged as one of the world's largest hashish exporters during the 20th century, with the Rif region — particularly the area around Ketama — as the epicenter of production. Grower accounts and trade records document the widespread cultivation of compact, resinous indica types across the Rif highlands. Moroccan Rif genetics have been incorporated into numerous European and American breeding programs, particularly from the 1970s onward.
 
 ## Description
-- Indica morphology: medium height, compact, with broad leaves and dense branching.
-- Heavy resin production selected for hashish (kif) preparation.
-- Aromas commonly described as spicy, floral, and hashy with a distinct Moroccan character.
-- Effects are typically reported as relaxing and moderately sedating.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 8–10 weeks
+- **Climate:** Mediterranean
+- **Origin:** Morocco (Middle East / Central Asia)
+
+Indica morphology: medium height, compact, with broad leaves and dense branching. Heavy resin production selected for hashish (kif) preparation. Aromas commonly described as spicy, floral, and hashy with a distinct Moroccan character. Effects are typically reported as relaxing and moderately sedating.
 
 ## Grow Information
 Adapted to the Mediterranean mountain climate of the Moroccan Rif — hot, dry summers with cooler, sometimes wet winters at elevation. Flowering typically runs 8–10 weeks, making it an early finisher well-suited to Mediterranean and temperate-dry outdoor environments. Drought tolerance is characteristic. Dense flower structure is susceptible to botrytis in high-humidity climates outside the native zone. A reliable outdoor performer in dry, warm conditions.

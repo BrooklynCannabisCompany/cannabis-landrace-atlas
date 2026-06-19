@@ -9,13 +9,16 @@ The Eastern Anatolian Highlands landrace is an indica-leaning cannabis from the 
 Eastern Anatolia's cannabis cultivation tradition is embedded in the broader fabric of traditional rural life across this historically complex region — homeland of Kurdish, Armenian, Turkic, and other communities with deep agricultural roots. The high plateaus of eastern Turkey are among the areas where cannabis cultivation for resin is most historically associated with traditional use, though rigorous ethnobotanical documentation specific to individual valley populations is limited. Grower and collector accounts from the late twentieth century identify the eastern highlands as a source of quality Anatolian cannabis genetics with a distinct hash-plant character different from the more lowland or coastal Turkish populations.
 
 ## Description
-
-- **Category:** Indica (indica-leaning)
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — compact adaptation to cold, wind-exposed highland conditions
-- **Stature:** Dense branching typical of cold-climate indica types; broad leaves consistent with indica morphology
 - **Flowering:** 8–12 weeks; the moderate-to-fast flowering window reflects the need to complete before early autumn cold at high elevation
-- **Resin:** Moderate to high; consistent with selection in a region associated with traditional hash production
-- The cold, dry, high-elevation environment of eastern Anatolia favors compact, resin-efficient plants rather than the taller sativa types of warmer or more maritime climates.
+- **Climate:** Mountain / Highland
+- **Origin:** Turkey (Middle East / Central Asia)
+
+Dense branching typical of cold-climate indica types; broad leaves consistent with indica morphology. Moderate to high; consistent with selection in a region associated with traditional hash production. The cold, dry, high-elevation environment of eastern Anatolia favors compact, resin-efficient plants rather than the taller sativa types of warmer or more maritime climates.
 
 ## Grow Information
 

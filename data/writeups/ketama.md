@@ -7,10 +7,16 @@ Ketama is an indica landrace from the Ketama area of Morocco's Rif Mountains, on
 Cannabis cultivation in the Ketama region of the Rif is documented for centuries, with local Berber communities developing and maintaining locally adapted varieties suited to hashish production. The Ketama area became particularly well known in the 20th century as Morocco emerged as one of the world's primary hashish exporters. Grower accounts suggest that traditional cultivation practices — including the selection of resinous, early-finishing plants suited to the Rif's Mediterranean mountain climate — produced a distinctive regional landrace. Specific genetic documentation is limited, but the Ketama lineage is commonly cited in European cannabis breeding history as a source of hash genetics.
 
 ## Description
-- Indica morphology: medium stature, relatively compact with broad leaves.
-- Heavy resin production adapted to the hashish-making tradition of the Rif.
-- Aromas commonly described as spicy, floral, and hashy.
-- Effects are typically reported as relaxing and moderately to strongly sedating.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 8–10 weeks
+- **Climate:** Mediterranean
+- **Origin:** Morocco (Middle East / Central Asia)
+
+Indica morphology: medium stature, relatively compact with broad leaves. Heavy resin production adapted to the hashish-making tradition of the Rif. Aromas commonly described as spicy, floral, and hashy. Effects are typically reported as relaxing and moderately to strongly sedating.
 
 ## Grow Information
 Adapted to the Mediterranean mountain climate of the Moroccan Rif — hot, dry summers and cooler, sometimes wet winters at elevation. Flowering typically runs 8–10 weeks, making it an early finisher suited to outdoor cultivation in dry Mediterranean climates. Drought tolerance is a notable trait. Dense flower structure common to this type can be susceptible to botrytis in high-humidity environments outside its native zone.

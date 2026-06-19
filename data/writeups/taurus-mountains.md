@@ -7,10 +7,16 @@ Taurus Mountains is an indica-leaning mountain landrace from the Taurus (Toros) 
 Turkey has a documented history of cannabis cultivation and hashish production, though the industry was heavily suppressed through most of the twentieth century. The Taurus Mountains, with their remote highland terrain and traditional pastoral cultures, are among the regions where cannabis populations persisted. The population's connection to broader Levantine and Anatolian cannabis routes reflects Turkey's geographic position as a bridge between Central Asian, Middle Eastern, and European cannabis traditions. Grower accounts suggest mountain populations from this region are well-adapted to rocky, poor soils and Mediterranean-continental mountain conditions. Documentation specific to the Taurus population is limited.
 
 ## Description
-- Indica-leaning morphology; medium stature adapted to rocky, nutrient-poor mountain soils.
-- Compact, resinous flower clusters suited to dry summers and the region's Mediterranean mountain climate.
-- Likely shows drought tolerance and cold hardiness, given the Taurus range's elevation and seasonal snow cover.
-- Historically connected to hash-producing traditions of the broader Anatolian and Levantine regions.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 8–12 weeks
+- **Climate:** Mediterranean
+- **Origin:** Turkey (Middle East / Central Asia)
+
+Indica-leaning morphology; medium stature adapted to rocky, nutrient-poor mountain soils. Compact, resinous flower clusters suited to dry summers and the region's Mediterranean mountain climate. Likely shows drought tolerance and cold hardiness, given the Taurus range's elevation and seasonal snow cover. Historically connected to hash-producing traditions of the broader Anatolian and Levantine regions.
 
 ## Grow Information
 The Taurus Mountains experience a Mediterranean mountain climate: hot, dry summers at lower elevations transitioning to cooler, wetter conditions at altitude, with cold winters and significant snowfall above 1,500 meters. Cannabis adapted here must tolerate both drought stress in summer and cold-snap risk as the season ends. Flowering is typically reported at 8–12 weeks. The rocky terrain and thin soils favor compact, efficient root systems. Low-to-moderate humidity tolerance is expected; the Mediterranean influence means summer humidity is generally low.

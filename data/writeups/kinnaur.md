@@ -9,14 +9,16 @@ Kinnaur is a mixed landrace from Kinnaur District in Himachal Pradesh, India —
 Kinnaur is known among cannabis collectors as a district that produces distinct material shaped by its geographic position at the intersection of the wet Himalayan zone and the Tibetan rain shadow. Traditional use of cannabis in Kinnaur is consistent with broader Himachali patterns — semi-cultivation for resin and fiber — but the district's transitional ecology has reportedly produced a population with characteristics not fully captured by either the "Himachali hash landrace" or the "high-altitude indica" categories. Documentation specific to Kinnaur cannabis is limited; collector accounts typically describe the population in relation to its neighbors (Parvati Valley to the west, Spiti to the north) rather than on its own terms.
 
 ## Description
-
-- **Type:** Mixed landrace (transitional)
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 10–13 weeks
 - **Climate:** Cold high mountain
-- Transitional morphology: taller than typical high-altitude indica types, with a longer flowering window, but more resinous and compact than the long-season valley sativas
-- The "transitional resin ecotype" description suggests plants with intermediate leaflet width, moderate internode spacing, and above-average resin production relative to stature
-- Phenotypic variation across the district likely tracks the elevational and microclimatic gradient from river-valley to high-altitude conditions
+- **Origin:** India (South Asia)
+
+Transitional morphology: taller than typical high-altitude indica types, with a longer flowering window, but more resinous and compact than the long-season valley sativas. The "transitional resin ecotype" description suggests plants with intermediate leaflet width, moderate internode spacing, and above-average resin production relative to stature. Phenotypic variation across the district likely tracks the elevational and microclimatic gradient from river-valley to high-altitude conditions.
 
 ## Grow Information
 

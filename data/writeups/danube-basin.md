@@ -9,13 +9,16 @@ The Danube Basin entry represents a naturalized hemp-feral cannabis population a
 Hemp cultivation in the Danube Basin of Hungary has a long and well-documented history, with hemp fiber production recorded through the medieval period, the Ottoman occupation, and into the nineteenth and twentieth centuries. Hungary was among the more significant Central European hemp producers, and the resulting feral populations that naturalized along the Danube, Tisza, and other river corridors represent descendants of centuries of hemp cultivation. These naturalized populations are described as diverse, reflecting the accumulation of multiple hemp varieties introduced over many centuries of agricultural activity.
 
 ## Description
-
-As a medium-tall, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to river floodplain conditions, Danube Basin cannabis is understood primarily as a naturalized hemp ecotype with variable cannabinoid content. The river floodplain climate of Hungary — continental, with hot summers, cold winters, and fertile alluvial soils — has selected for vigorous, tall-growing plants that complete their cycle during the warm summer season.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Feral
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall
 - **Flowering:** 10–14 weeks
-- **Type:** Naturalized hemp-feral population, Intermediate (Indica–Sativa)
 - **Climate:** River floodplain
+- **Origin:** Hungary (Europe)
+
+As a medium-tall, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to river floodplain conditions, Danube Basin cannabis is understood primarily as a naturalized hemp ecotype with variable cannabinoid content. The river floodplain climate of Hungary — continental, with hot summers, cold winters, and fertile alluvial soils — has selected for vigorous, tall-growing plants that complete their cycle during the warm summer season.
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ The Guadeloupe entry in this atlas refers to a Caribbean island landrace associa
 Guadeloupe's agricultural history is rooted in plantation-era crop production, followed by a diverse informal agricultural tradition across its islands. Cannabis cultivation in the French Caribbean territories, including Guadeloupe, is not well represented in formal landrace literature. Available information is limited to general awareness of island cannabis traditions among collector networks. The population is understood through general knowledge of Lesser Antilles island ecology and tropical maritime cannabis adaptation rather than specific documented collection records.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; consistent with tropical island sativas adapted to Caribbean maritime conditions
 - **Flowering:** 12–16 weeks; standard for Lesser Antilles tropical latitudes
 - **Climate:** Tropical maritime — trade wind influence, warm and humid year-round, seasonal rainfall variation, volcanic influence on Basse-Terre
-- **Morphology:** Sativa-type structure consistent with Eastern Caribbean island landraces. Adaptation to humid island conditions and seasonal tropical weather is a key characteristic. Specific phenotype documentation for the Guadeloupe population is not available in accessible sources.
+- **Origin:** Martinique (Americas)
+
+Sativa-type structure consistent with Eastern Caribbean island landraces. Adaptation to humid island conditions and seasonal tropical weather is a key characteristic. Specific phenotype documentation for the Guadeloupe population is not available in accessible sources.
 
 ## Grow Information
 

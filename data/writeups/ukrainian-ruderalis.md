@@ -9,13 +9,16 @@ Ukrainian Ruderalis is a short-to-medium feral cannabis population from the step
 Cannabis ruderalis as a botanical concept was first formally described from specimens collected in southern Russia and the adjacent steppe zones, an area overlapping significantly with Ukraine. The Ukrainian steppe has been associated with cannabis since the Scythian era, and feral cannabis populations have naturalized across vast areas of Ukrainian agricultural land and steppe margins. The autoflowering trait — the ability to transition to flowering based on plant age rather than day length — is thought to be an adaptation to the short growing seasons and extreme conditions of the northern steppe, where early finishing before harsh autumn conditions is strongly advantageous.
 
 ## Description
-
-Ukrainian Ruderalis is characterized by short-to-medium height, early flowering (8–12 weeks), and the steppe climate adaptation that drives its early-finishing behavior. Plants are typically small and sparsely branched compared to cultivated cannabis, with narrower leaves and modest flower development — traits consistent with the ruderalis growth form. The early-flowering autoflowering character is the defining agronomic characteristic of this population, along with cold hardiness.
-
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Feral
+- **Chemotype:** Type II (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Short-medium
 - **Flowering:** 8–12 weeks (autoflowering/early-finishing)
-- **Type:** Ruderalis-feral population
 - **Climate:** Steppe
+- **Origin:** Ukraine (Europe)
+
+Ukrainian Ruderalis is characterized by short-to-medium height, early flowering (8–12 weeks), and the steppe climate adaptation that drives its early-finishing behavior. Plants are typically small and sparsely branched compared to cultivated cannabis, with narrower leaves and modest flower development — traits consistent with the ruderalis growth form. The early-flowering autoflowering character is the defining agronomic characteristic of this population, along with cold hardiness.
 
 ## Grow Information
 

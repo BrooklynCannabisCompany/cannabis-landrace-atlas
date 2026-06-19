@@ -9,12 +9,16 @@ Dominica Mountain refers to cannabis populations from the mountainous interior o
 Dominica's mountains have long provided remote and fertile growing conditions that support traditional cultivation across the island's interior. The island's status as one of the wettest places in the Caribbean, combined with its limited external development, has allowed traditional cultivation practices to persist in relative isolation. Like the Dominica Highlands entry, specific formal documentation of Dominica Mountain cannabis as a distinct collection is not available; the characterization draws on general knowledge of the island's ecology and regional Caribbean highland cannabis patterns.
 
 ## Description
-
-- **Category:** Mixed
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; volcanic mountain soils and high rainfall support vigorous growth
 - **Flowering:** 12–16 weeks; consistent with Eastern Caribbean tropical island landraces
 - **Climate:** Tropical mountain — very high rainfall, volcanic terrain, persistent cloud cover and humidity, warm tropical temperatures moderated at elevation
-- **Morphology:** General mountain Caribbean landrace characteristics apply: tall, open-branching, adapted to wet conditions. The mixed category designation suggests possible phenotypic diversity encompassing both sativa-dominant and more intermediate expressions within the mountain gene pool.
+- **Origin:** Dominica (Americas)
+
+General mountain Caribbean landrace characteristics apply: tall, open-branching, adapted to wet conditions. The mixed category designation suggests possible phenotypic diversity encompassing both sativa-dominant and more intermediate expressions within the mountain gene pool.
 
 ## Grow Information
 

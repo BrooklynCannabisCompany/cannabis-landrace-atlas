@@ -7,10 +7,16 @@ Khotan is a cannabis landrace associated with the ancient oasis city of Khotan (
 Khotan's position on the southern branch of the Silk Road made it a center of cultural exchange connecting China, India, and the Iranian world for millennia. Cannabis cultivation in the region is likely ancient, associated with both fiber use and possibly resin production in a landscape otherwise dominated by severe desert. The extreme heat and drought of the Tarim Basin margin would have imposed strong selection pressure on any cultivated cannabis population surviving there. Specific genetic or ethnobotanical documentation of the Khotan cannabis population is not well established in accessible literature, but its long cultivation history and geographic uniqueness make it a potentially important reservoir of heat- and drought-adapted traits.
 
 ## Description
-- Desert-edge landrace with mixed category expression; intermediate morphology is possible.
-- Medium stature adapted to oasis agriculture under extreme aridity.
-- Heat and drought tolerance are considered the defining adaptive traits of this population.
-- Cannabinoid and terpene profiles are not specifically documented.
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 10–14 weeks
+- **Climate:** Other
+- **Origin:** China (Middle East / Central Asia)
+
+Desert-edge landrace with mixed category expression; intermediate morphology is possible. Medium stature adapted to oasis agriculture under extreme aridity. Heat and drought tolerance are considered the defining adaptive traits of this population. Cannabinoid and terpene profiles are not specifically documented.
 
 ## Grow Information
 The Tarim Basin is one of the driest and hottest inland environments in Asia. Khotan's cannabis population is therefore expected to show exceptional heat and drought tolerance alongside adaptation to high UV radiation from the clear desert atmosphere. Flowering runs 10–14 weeks — longer than many Central Asian types — which may reflect photoperiodic adaptation to the relatively southerly latitude and hot summer conditions. Oasis-grown plants would have had access to irrigation, so soil quality tolerance may be a secondary trait.

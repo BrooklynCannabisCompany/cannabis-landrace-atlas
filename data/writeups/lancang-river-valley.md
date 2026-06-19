@@ -9,14 +9,16 @@ The Lancang River Valley landrace is associated with the upper reaches of the La
 The Lancang-Mekong corridor has been a route for human movement, trade, and cultural exchange for millennia, facilitating the movement of plant species — including cannabis — along a north-south axis from the plateau to the tropics. The river canyon environment creates localized microclimates that can shelter warm-adapted plants at elevations where they might not otherwise persist. Cannabis in this region is commonly associated with the agricultural and semi-nomadic traditions of the many ethnic minority groups living along the river's banks in Yunnan. Specific documentation of the Lancang River Valley cannabis population as a distinct lineage is limited.
 
 ## Description
-
-- **Type:** Tropical mountain landrace with mixed character
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with cannabis benefiting from the sheltered warmth of deep river canyon microclimates
-- **Leaf structure:** Likely intermediate to narrow, influenced by both highland Yunnan and Southeast Asian genetic streams
 - **Flowering:** 12–18 weeks — an extended response typical of low-latitude highland cannabis populations
-- **Aroma/effect:** Not well documented; the multi-directional genetic influence of the Mekong corridor suggests potential complexity
+- **Climate:** Temperate / Continental
+- **Origin:** China (East Asia / North Asia)
 
-_Recorded locality detail: Mekong._
+Likely intermediate to narrow, influenced by both highland Yunnan and Southeast Asian genetic streams. Not well documented; the multi-directional genetic influence of the Mekong corridor suggests potential complexity. _Recorded locality detail: Mekong._.
 
 ## Grow Information
 

@@ -9,15 +9,16 @@ The Tibet River Valley landrace is a high-altitude feral cannabis population dis
 Cannabis has grown in and around Tibetan river corridors for centuries, likely spread through trade routes, pastoral movement, and natural dispersal along watercourses that connect the Tibetan Plateau with the broader Himalayan network. Grower accounts and botanical surveys suggest that populations in these valleys persisted largely without deliberate cultivation, becoming feral over generations. Whether the original seed stock reached Tibet from South Asian, Central Asian, or earlier Chinese domestication is not well established. Collectors working in the region have noted that the isolation imposed by altitude and terrain may have preserved genetic signatures distinct from neighboring Himalayan landraces, though systematic study of this specific population remains limited.
 
 ## Description
-
-Plants commonly reported from high-altitude Tibetan river valleys tend toward medium stature — a likely adaptation to wind exposure and a short frost-free window. Morphology is generally compact relative to tropical sativas, with broad leaflets and dense floral clusters that may reflect indica-adjacent adaptation to cold and UV stress. Resin production is commonly described as pronounced, which is consistent with high-UV environments across many alpine cannabis populations globally. Flowering is typically reported in the 10–14 week range, consistent with the need to complete a reproductive cycle before early autumn frosts arrive at elevation.
-
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium
 - **Flowering:** Approximately 10–14 weeks
-- **Climate adaptation:** Alpine river valley — intense UV, cold nights, low oxygen, short season
-- **Type:** High-altitude feral-landrace population
+- **Climate:** Alpine river valley — intense UV, cold nights, low oxygen, short season
+- **Origin:** China (East Asia / North Asia)
 
-_Recorded locality detail: Upper Brahmaputra._
+Plants commonly reported from high-altitude Tibetan river valleys tend toward medium stature — a likely adaptation to wind exposure and a short frost-free window. Morphology is generally compact relative to tropical sativas, with broad leaflets and dense floral clusters that may reflect indica-adjacent adaptation to cold and UV stress. Resin production is commonly described as pronounced, which is consistent with high-UV environments across many alpine cannabis populations globally. Flowering is typically reported in the 10–14 week range, consistent with the need to complete a reproductive cycle before early autumn frosts arrive at elevation. _Recorded locality detail: Upper Brahmaputra._.
 
 ## Grow Information
 

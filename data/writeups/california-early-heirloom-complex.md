@@ -9,12 +9,16 @@ The California Early Heirloom Complex refers to a mixed population of escaped hy
 California's emergence as a major cannabis cultivation region during the countercultural era brought an influx of diverse genetics — Mexican, Colombian, Thai, Afghani, and others — which were grown and crossed extensively in the state's varied microclimates. Escaped and feral populations from this period formed heterogeneous gene pools across Northern California in particular, with selection favoring plants capable of finishing before October's increasingly cold and damp weather. This collective gene pool, while not a landrace in the strict sense, represents a historically significant layer of California cannabis heritage and has influenced many subsequent cultivar development projects.
 
 ## Description
-
-- **Category:** Hybrid-Intermediate; mixed sativa-leaning hybrid origins
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; consistent with sativa-influenced outdoor cultivar heritage
 - **Flowering:** 10–14 weeks; early-finishing selection adapted to California's Mediterranean coastal season
 - **Climate:** Mediterranean — warm, dry summers; cool, wet winters; pronounced coastal fog influence in many growing zones
-- **Morphology:** Highly variable due to mixed hybrid origins. General tendencies include tall sativa structure with some Afghani-influenced broadleaf phenotypes in the mix. Early finishing is a functionally selected trait across this gene pool.
+- **Origin:** United States (Americas)
+
+Highly variable due to mixed hybrid origins. General tendencies include tall sativa structure with some Afghani-influenced broadleaf phenotypes in the mix. Early finishing is a functionally selected trait across this gene pool.
 
 ## Grow Information
 

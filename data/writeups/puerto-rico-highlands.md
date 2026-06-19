@@ -9,12 +9,16 @@ Puerto Rico Highlands refers to the cannabis population associated with the Cord
 Cannabis cultivation in Puerto Rico's interior highlands is not well documented in academic literature, but grower accounts and regional tradition suggest a long history of cultivation in the island's rural mountain communities. The Cordillera Central has historically supported small-scale agriculture, and cannabis is commonly reported to have been cultivated in isolated mountain plots. Isolation at elevation, combined with the island's geographic separation from the mainland, is thought to have allowed this population to develop characteristics adapted to its specific microclimate over time. The ancestral origins of the population are uncertain; Caribbean landraces broadly are associated with introductions from multiple source regions over centuries of maritime trade.
 
 ## Description
-
-- **Type:** Mountain tropical landrace, sativa-dominant
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, as characteristic of tropical sativa populations
 - **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate adaptation:** Tropical mountain — cooler and cloudier than lowland Caribbean environments, with high annual rainfall and marked elevation influence
-- **Morphology:** Grower accounts suggest elongated internode spacing and large leaf surface area typical of tropical sativa phenotypes; specific details for this population are not well characterized
+- **Climate:** Tropical mountain — cooler and cloudier than lowland Caribbean environments, with high annual rainfall and marked elevation influence
+- **Origin:** Puerto Rico (Americas)
+
+Grower accounts suggest elongated internode spacing and large leaf surface area typical of tropical sativa phenotypes; specific details for this population are not well characterized.
 
 ## Grow Information
 

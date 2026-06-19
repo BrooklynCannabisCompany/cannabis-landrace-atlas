@@ -9,12 +9,16 @@ Guerrero refers to cannabis populations associated with Guerrero State in southw
 Guerrero State has a well-documented history as a major Mexican cannabis-producing region, particularly from the mid-twentieth century through the early 1980s when Mexican cannabis was a dominant presence in North American markets. The Sierra Madre del Sur mountain system of Guerrero provided ideal growing conditions — tropical highland climate, isolated valleys, and communities with generations of cultivation knowledge. Guerrero cannabis was historically known for its vigorous branching, drought tolerance, and the characteristics associated with classic Mexican mountain sativas. The state's cannabis genetics contributed meaningfully to the breeding programs of the 1970s-era North American seed industry, making Guerrero one of the more historically influential source populations in the Western Hemisphere.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — classic Mexican mountain sativas from Guerrero develop tall, vigorously branched plants under tropical highland conditions
-- **Structure:** Commonly reported as vigorously branching with moderate to wide internodal spacing; plants develop multiple long lateral branches typical of the Mexican mountain sativa morphotype
 - **Flowering:** 12–16 weeks — consistent with the documented range for Guerrero-type Mexican sativas; slightly shorter than equatorial South American types due to Mexico's more pronounced seasonal photoperiod
-- **Aroma/Effect:** Classic Mexican sativas from Guerrero are broadly associated with energetic, uplifting, cerebral effects; aromatic profiles vary but earthy and spicy notes are commonly reported in historical accounts
+- **Climate:** Tropical Highland
+- **Origin:** Mexico (Americas)
+
+Commonly reported as vigorously branching with moderate to wide internodal spacing; plants develop multiple long lateral branches typical of the Mexican mountain sativa morphotype. Classic Mexican sativas from Guerrero are broadly associated with energetic, uplifting, cerebral effects; aromatic profiles vary but earthy and spicy notes are commonly reported in historical accounts.
 
 ## Grow Information
 

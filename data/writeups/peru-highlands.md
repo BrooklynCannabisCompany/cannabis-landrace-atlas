@@ -9,14 +9,16 @@ Peru Highlands refers to a sativa landrace from the high-altitude Andean regions
 The high Andean regions of Peru have been continuously inhabited for millennia, from pre-Inca cultures to the Inca Empire and into the present, with communities adapted to the challenging altitude conditions. Cannabis cultivation at high Andean elevations is not well documented historically, and it is likely that any such populations are relatively recent in this specific niche. The cold altitude adaptation referenced in the summary suggests selection pressure from low temperatures and short seasons has shaped whatever populations exist here over generations. Specific documentation of this population is limited.
 
 ## Description
-
-Peru Highlands plants are described as tall sativas despite the cold, high-altitude origin — suggesting populations established in valley zones within the high Andes rather than at extreme elevations where plant height would be severely limited. The 11–14 week flowering window is moderate, possibly reflecting altitude-driven selection for faster maturation before cold seasons arrive.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–14 weeks
-- **Climate adaptation:** High Andes; cold nights, intense UV, short growing season, frost risk
-- **Category:** Sativa
-- **Notable trait:** Cold altitude adaptation
+- **Climate:** High Andes; cold nights, intense UV, short growing season, frost risk
+- **Origin:** Peru (Americas)
+
+Peru Highlands plants are described as tall sativas despite the cold, high-altitude origin — suggesting populations established in valley zones within the high Andes rather than at extreme elevations where plant height would be severely limited. The 11–14 week flowering window is moderate, possibly reflecting altitude-driven selection for faster maturation before cold seasons arrive. Cold altitude adaptation.
 
 ## Grow Information
 

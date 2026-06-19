@@ -9,13 +9,16 @@ South Island refers to a feral hemp/sativa mix population associated with New Ze
 Feral cannabis on New Zealand's South Island is generally understood to descend from industrial hemp introductions of the colonial and early twentieth century, with possible admixture from recreational cannabis varieties introduced at later points. Hemp cultivation for fibre occurred in parts of New Zealand during the nineteenth and early twentieth centuries, and escaped populations naturalised in suitable habitats. The South Island's cooler climate would have exerted strong selection pressure, with only the most cold-hardy plants surviving and reproducing over successive generations. The resulting population is accordingly typed as a mixed hemp/sativa feral rather than a pure drug type.
 
 ## Description
-
-South Island plants are classified as a feral hemp/sativa mix with medium stature — notably shorter than New Zealand's North Island heirloom selections, consistent with both the hemp ancestry and the selection pressure of a cooler, shorter growing season. A flowering period of 10–14 weeks in a cool temperate climate means plants must complete their cycle before the early autumn cold of the South Island sets in. Cold tolerance is the population's defining adaptive characteristic.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Feral
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium
 - **Flowering:** 10–14 weeks
-- **Climate preference:** Cool temperate
-- **Category:** Feral
+- **Climate:** Temperate / Continental
+- **Origin:** New Zealand (Oceania)
+
+South Island plants are classified as a feral hemp/sativa mix with medium stature — notably shorter than New Zealand's North Island heirloom selections, consistent with both the hemp ancestry and the selection pressure of a cooler, shorter growing season. A flowering period of 10–14 weeks in a cool temperate climate means plants must complete their cycle before the early autumn cold of the South Island sets in. Cold tolerance is the population's defining adaptive characteristic. Cool temperate.
 
 ## Grow Information
 

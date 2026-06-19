@@ -9,13 +9,16 @@ The Gobi Fringe Population is a wild-feral cannabis population found along the m
 The Gobi Desert and its semi-arid margins have been traversed by pastoral nomads and traders for millennia, and cannabis seeds are believed to have spread along these corridors as a byproduct of human and animal movement. The plants that survived and naturalized in such harsh conditions have been subject to intense natural selection for tolerance of environmental extremes rather than any form of agricultural improvement. Formal botanical surveys of cannabis in Mongolia's Gobi fringe region are limited, and most knowledge of this population comes from general accounts of Mongolian feral cannabis rather than targeted research.
 
 ## Description
-
-- **Type:** Wild-feral cannabis
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium — typically shorter and more compact than steppe populations, an adaptation to wind and water stress
-- **Branching:** Grower accounts suggest sparse branching, consistent with resource-limited desert-margin growth
-- **Leaf structure:** Likely narrow, reduced leaf area being an adaptation to minimize water loss under arid conditions
 - **Flowering:** 10–15 weeks, timed to complete within the narrow warm season
-- **Aroma/effect:** Undocumented; resin production in wild desert-margin populations is generally minimal
+- **Climate:** Desert / Arid
+- **Origin:** Mongolia (East Asia / North Asia)
+
+Grower accounts suggest sparse branching, consistent with resource-limited desert-margin growth. Likely narrow, reduced leaf area being an adaptation to minimize water loss under arid conditions. Undocumented; resin production in wild desert-margin populations is generally minimal.
 
 ## Grow Information
 

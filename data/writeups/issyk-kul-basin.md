@@ -7,10 +7,16 @@ The Issyk-Kul Basin population is a cold-adapted feral cannabis type found in an
 Feral cannabis is widely distributed across Kyrgyzstan's mountain valleys and lowland zones. The Issyk-Kul Basin, historically a crossroads of Silk Road traffic, likely hosted both cultivated hemp and naturalized feral populations for many centuries. The lake's moderating effect on local temperatures may have allowed cannabis to persist at elevations and latitudes where it would otherwise be marginal. Specific collection or documentation of this basin population is not well recorded in accessible literature.
 
 ## Description
-- Ruderalis-leaning morphology: generally compact and medium in height.
-- Adapted to the cold alpine basin environment with its abbreviated growing season.
-- Likely exhibits some degree of autoflowering tendency consistent with high-latitude ruderalis populations.
-- Phenotypic variation is expected within this broad feral category.
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Ruderalis
+- **Chemotype:** Type II (inferred)
+- **Domestication:** Wild
+- **Height:** Medium
+- **Flowering:** 7-11 weeks
+- **Climate:** Alpine / High Mountain
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+
+Ruderalis-leaning morphology: generally compact and medium in height. Adapted to the cold alpine basin environment with its abbreviated growing season. Likely exhibits some degree of autoflowering tendency consistent with high-latitude ruderalis populations. Phenotypic variation is expected within this broad feral category.
 
 ## Grow Information
 The alpine basin climate imposes a short effective growing season, selecting for early maturity and cold tolerance. Flowering is commonly reported in the 7–11 week range for ruderalis-influenced types in this region. The lake moderates extreme temperature dips, but frosts remain a real constraint. Plants in this category are typically low in commercial resin yield but may offer interesting cold-hardiness genetics. Growers working with such material should expect variable autoflowering expression and modest stature.

@@ -9,13 +9,16 @@ The Hindu Kush Upper Valleys landrace refers to the more remote, high-elevation 
 The upper valleys of the Hindu Kush — including remote zones in Nuristan, Kunar, Laghman, and Panjshir — have historically been among the most isolated parts of Afghanistan, with some areas maintaining a degree of cultural and agricultural independence from both Afghan central authority and external influences. Grower accounts and cannabis researchers have speculated that populations from these remote upper valleys may be less adulterated by seed exchange, modern breeding, or deliberate selection compared to the lower-valley Afghan landraces that entered the Western market in the 1970s. Documentation of the upper-valley populations as a distinct entity is limited; what distinguishes them from the general Hindu Kush landrace is primarily the inference of greater geographic isolation rather than demonstrated genetic distinctiveness.
 
 ## Description
-
-- **Category:** Indica
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — consistent with the general Hindu Kush landrace type
-- **Stature:** Dense and compact, as characteristic of high-altitude Afghan indica types; potentially smaller and more cold-stressed than lower-elevation populations
 - **Flowering:** 8–11 weeks; fast, as required by the very short growing season at high elevation
-- **Resin:** High to very high; the combination of altitude, UV stress, and cold nights drives resin production
-- The upper-valley character of this population implies potentially greater phenotypic uniformity within isolated valley populations, though this has not been formally documented.
+- **Climate:** Tropical Highland
+- **Origin:** Afghanistan (Middle East / Central Asia)
+
+Dense and compact, as characteristic of high-altitude Afghan indica types; potentially smaller and more cold-stressed than lower-elevation populations. High to very high; the combination of altitude, UV stress, and cold nights drives resin production. The upper-valley character of this population implies potentially greater phenotypic uniformity within isolated valley populations, though this has not been formally documented.
 
 ## Grow Information
 

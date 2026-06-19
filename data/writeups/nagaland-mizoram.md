@@ -9,14 +9,16 @@ Nagaland / Mizoram designates a sativa landrace complex from the northeastern In
 The cannabis traditions of Nagaland and Mizoram are embedded in the broader cultural and agricultural practices of the region's diverse tribal communities. Unlike the Himachali charas belt or the Nepalese highland tradition, northeastern India's cannabis is more commonly processed as ganja (dried flower) or brick-style material, consistent with the region's trade connections with Southeast Asia rather than Central Asia. Both states were largely closed to outside visitors for extended periods due to insurgency-related restrictions, limiting collector access and documentation. The combined Nagaland/Mizoram designation reflects the geographic and cultural continuity of cannabis across this corner of northeastern India rather than a claim of genetic identity between the two states' populations.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — consistent with jungle-canopy competition driving vigorous vertical growth
 - **Flowering:** 11–15 weeks
 - **Climate:** Dense jungle
-- Humidity tolerance is the defining adaptive trait; this population is among the most moisture-adapted of Indian landraces
-- Tall, open branching architecture typical of equatorial and near-equatorial jungle sativas
-- Specific terpene profiles and effect characteristics are not well-documented; regional comparisons suggest earthy, tropical, or spicy aromatic qualities
+- **Origin:** India (South Asia)
+
+Humidity tolerance is the defining adaptive trait; this population is among the most moisture-adapted of Indian landraces. Tall, open branching architecture typical of equatorial and near-equatorial jungle sativas. Specific terpene profiles and effect characteristics are not well-documented; regional comparisons suggest earthy, tropical, or spicy aromatic qualities.
 
 ## Grow Information
 

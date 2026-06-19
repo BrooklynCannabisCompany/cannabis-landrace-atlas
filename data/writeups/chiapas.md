@@ -9,12 +9,16 @@ Chiapas refers to cannabis populations associated with the state of Chiapas in f
 Chiapas has an ancient indigenous heritage — the region was home to major Maya civilization centers — and cannabis cultivation here is believed to have developed during the colonial and post-colonial period as the crop spread through Mexico's agricultural communities. Chiapas cannabis is not as commercially documented in the historical record as some other Mexican regional landraces (such as Oaxacan or Guerrero types), but the region's geographic isolation, mountain terrain, and distinct climate suggest the development of locally adapted populations. Grower accounts describe Chiapas cannabis informally as producing a notably pleasurable effect ("super cool high" per the source summary), though formal characterization is limited.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with highland tropical Mexican sativas grown at moderate elevations with strong seasonal sunlight
-- **Structure:** Typically openly branched with moderate internodal spacing; highland Chiapas populations grown in mountain conditions tend toward sturdy stems and elongated floral structures
 - **Flowering:** 12–15 weeks — moderate for a Mexican highland sativa; shorter than equatorial South American types due to Chiapas's more pronounced seasonal day-length variation
-- **Aroma/Effect:** Informally characterized as a pleasant, energetic experience; specific terpene profiles are not documented
+- **Climate:** Tropical Highland
+- **Origin:** Mexico (Americas)
+
+Typically openly branched with moderate internodal spacing; highland Chiapas populations grown in mountain conditions tend toward sturdy stems and elongated floral structures. Informally characterized as a pleasant, energetic experience; specific terpene profiles are not documented.
 
 ## Grow Information
 

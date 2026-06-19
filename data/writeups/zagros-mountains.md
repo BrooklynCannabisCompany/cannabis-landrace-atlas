@@ -7,10 +7,16 @@ Zagros Mountains is a highland indica landrace from the Zagros Mountain Range of
 Cannabis use in Iran and the surrounding Middle Eastern region has ancient roots, and the Zagros Mountains — as both a geographic barrier and a corridor for human movement between Mesopotamia and the Iranian plateau — would have been a zone of early cannabis cultivation and natural adaptation. Traditional hash production in Iran, while suppressed under modern law, was historically part of the culture in various regions. The Zagros population's characteristics reflect adaptation to rugged mountain terrain, drought conditions, and a short growing season at altitude. Grower accounts note this region's strong hash-producing potential. Documented lineage is not available; regional inference applies.
 
 ## Description
-- Broad-leaf indica morphology; medium stature adapted to semi-arid mountain terrain.
-- Dense, resinous flowers consistent with traditional hash-producing selections of the broader Middle Eastern region.
-- Well-adapted to rocky soils, drought stress, and the sharp temperature swings of the Zagros at elevation.
-- Compact structure favoring resin production in the short alpine growing season.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 8–12 weeks
+- **Climate:** Desert / Arid
+- **Origin:** Iran (Middle East / Central Asia)
+
+Broad-leaf indica morphology; medium stature adapted to semi-arid mountain terrain. Dense, resinous flowers consistent with traditional hash-producing selections of the broader Middle Eastern region. Well-adapted to rocky soils, drought stress, and the sharp temperature swings of the Zagros at elevation. Compact structure favoring resin production in the short alpine growing season.
 
 ## Grow Information
 The western Zagros Mountains experience a semi-arid mountain climate: hot, dry summers at lower elevations giving way to cooler, wetter conditions at altitude, with cold winters and significant snowfall at higher elevations. Cannabis adapted here must tolerate drought stress during peak summer, cold nights throughout the season, and the risk of early autumn frost at elevation. Flowering is typically reported at 8–12 weeks. Low-humidity growing conditions are recommended. The population's deep agricultural heritage in one of the Middle East's oldest cultivation regions makes it of significant preservation interest.

@@ -9,12 +9,16 @@ The Bougainville landrace originates from Bougainville Island, an autonomous reg
 Cannabis cultivation on Bougainville Island is not formally documented to any precise historical date, but the island's long history of small-scale subsistence agriculture and its relative geographic isolation suggest that local cannabis populations developed largely independently from outside influence. The island's isolation — both from mainland PNG and from broader international cannabis breeding — is commonly cited by grower accounts as a reason for the population's genetic distinctiveness. Trade and movement between Bougainville and neighboring Solomon Islands may have introduced or exchanged genetic material at various points, though this is not well-documented.
 
 ## Description
-
-- **Type:** Island landrace sativa.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall; consistent with equatorial sativa expression in high-rainfall tropical environments.
 - **Flowering:** Extended, typically 14–20 weeks, reflecting equatorial photoperiod conditions and the population's adaptation to near-year-round growing.
 - **Climate:** Tropical island rainforest — high humidity, heavy and consistent rainfall, volcanic soil substrate, minimal seasonal temperature variation.
-- **Morphology:** Likely features narrow leaflets and open branching typical of equatorial sativas, though specific morphological documentation is limited.
+- **Origin:** Papua New Guinea (Oceania)
+
+Likely features narrow leaflets and open branching typical of equatorial sativas, though specific morphological documentation is limited.
 
 ## Grow Information
 
