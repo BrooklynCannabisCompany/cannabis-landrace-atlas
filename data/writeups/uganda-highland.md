@@ -9,12 +9,16 @@ Uganda Highland is a sativa landrace from the highland regions of Uganda in East
 Cannabis cultivation in Uganda's highlands has historical roots in local agricultural traditions across multiple Bantu-speaking communities, including Baganda, Banyankole, and other groups who have farmed the fertile highland soils for centuries. Uganda's position at the equator, combined with its elevation — much of the country sits above 1,000 m — provides consistently warm but not extreme temperatures, reliable rainfall, and intense UV radiation, all of which have shaped the local cannabis population over generations. Grower accounts characterize this type as vigorous and woody-earthy in expression. Formal documentation or genetic research specifically addressing Uganda's highland landrace populations is limited in published literature.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous sativa growth in Uganda's fertile, well-watered highland equatorial environment
-- **Structure:** Upright and woody-stemmed, consistent with a well-established equatorial highland sativa; vigorous vegetative development expected on Uganda's rich red soils
 - **Flowering:** 11–15 weeks — within the typical range for equatorial East African highland sativas
-- **Aroma/Effect:** Woody and earthy aromatic notes are the primary reported characteristic; specific terpene data is not documented; effects are consistent with a vigorous equatorial sativa
+- **Climate:** Tropical Highland
+- **Origin:** Uganda (Africa)
+
+Upright and woody-stemmed, consistent with a well-established equatorial highland sativa; vigorous vegetative development expected on Uganda's rich red soils. Woody and earthy aromatic notes are the primary reported characteristic; specific terpene data is not documented; effects are consistent with a vigorous equatorial sativa.
 
 ## Grow Information
 

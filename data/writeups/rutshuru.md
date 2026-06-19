@@ -9,12 +9,16 @@ Rutshuru is a highland equatorial sativa landrace from Rutshuru Territory in Nor
 Rutshuru Territory has long been a crossroads of agricultural communities in the eastern Congo highlands, with Bantu and Nilotic-influenced populations historically cultivating the fertile volcanic soils of the North Kivu region. Cannabis cultivation in this area is likely longstanding, though specific documentation of the Rutshuru landrace in botanical or ethnobotanical literature is limited. The Albertine Rift's exceptional biodiversity — often called Africa's "Mountain of the Moon" region — suggests that cannabis populations here may have developed under conditions of relative genetic isolation and intense ecological selection pressure. Grower accounts are sparse for this specific territory.
 
 ## Description
-
-- **Category:** Sativa (highland equatorial landrace)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with well-nourished equatorial highland sativa growth in the fertile volcanic soils of North Kivu
-- **Structure:** Vigorous growth expected in a highly fertile volcanic soil environment with equatorial light and abundant rainfall
 - **Flowering:** 12–18 weeks — a long flowering window typical of equatorial highland sativas, reflecting minimal seasonal photoperiod change near the equator
-- **Aroma/Effect:** Specific terpene or effect data for this population is not documented; it remains largely uncharacterized outside its local growing context
+- **Climate:** Tropical Highland
+- **Origin:** DR Congo (Africa)
+
+Vigorous growth expected in a highly fertile volcanic soil environment with equatorial light and abundant rainfall. Specific terpene or effect data for this population is not documented; it remains largely uncharacterized outside its local growing context.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Dnieper Basin entry describes a naturalized feral cannabis population associ
 Ukraine's Dnieper basin was a major center of Scythian and later Slavic agricultural civilization, and cannabis — particularly for fiber — has been documented as an important crop in this region since early historical times. The country's hemp industry was extensive through the nineteenth and early twentieth centuries, with Ukraine supplying significant quantities of fiber hemp to European and Russian markets. After the decline of industrial hemp cultivation, feral populations naturalized along river corridors, roadsides, and agricultural margins across the basin, producing the diverse genetic legacy represented by this entry.
 
 ## Description
-
-As a medium-height, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to the river corridor environment of the Dnieper Basin, these plants reflect the typical morphology of Central/Eastern European naturalized hemp: upright, moderately branched, and adapted to the forest-steppe and steppe climate of central Ukraine with its hot summers and cold winters.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium
 - **Flowering:** 10–14 weeks
-- **Type:** Naturalized feral population, Intermediate (Indica–Sativa)
 - **Climate:** River corridor
+- **Origin:** Ukraine (Europe)
+
+As a medium-height, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to the river corridor environment of the Dnieper Basin, these plants reflect the typical morphology of Central/Eastern European naturalized hemp: upright, moderately branched, and adapted to the forest-steppe and steppe climate of central Ukraine with its hot summers and cold winters.
 
 ## Grow Information
 

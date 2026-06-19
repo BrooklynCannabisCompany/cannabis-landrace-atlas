@@ -9,12 +9,16 @@ Brazil Amazon Frontier describes feral cannabis populations associated with the 
 Feral cannabis in the Brazilian Amazon frontier is believed to derive from seeds introduced by settlers, agricultural workers, and river communities moving into the interior over decades of colonization. These populations have not been deliberately maintained or selected; instead they represent naturalized plants that have self-seeded across cleared and semi-cleared land. The resulting gene pool is considered highly variable, potentially drawing on multiple source populations introduced from different parts of Brazil and neighboring countries. No formal documentation of this specific feral pool exists in the published literature.
 
 ## Description
-
-- **Category:** Feral
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — consistent with unmanaged feral Cannabis in high-light, disturbed tropical environments
-- **Structure:** Highly variable across individuals; feral populations typically show wide morphological spread with no consistent phenotype
 - **Flowering:** Variable — reflecting the genetic heterogeneity of an unmanaged feral pool; individual plants may flower at substantially different times
-- **Aroma/Effect:** Not documented; feral populations are not typically selected for aroma or effect
+- **Climate:** Tropical Rainforest
+- **Origin:** Brazil (Americas)
+
+Highly variable across individuals; feral populations typically show wide morphological spread with no consistent phenotype. Not documented; feral populations are not typically selected for aroma or effect.
 
 ## Grow Information
 

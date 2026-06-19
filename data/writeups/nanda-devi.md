@@ -9,14 +9,16 @@ Nanda Devi designates a wild sativa population associated with the high-altitude
 Documentation of cannabis in the Nanda Devi area is extremely sparse. The biosphere reserve's restricted access has prevented systematic collector or scientific survey of its feral cannabis. What is known comes from incidental observation by mountaineers, trekkers, and botanists who have noted cannabis growing in the outer buffer zones and lower valleys surrounding the inner sanctuary. The "isolated wild gene pool" characterization reflects the probability that the reserve's protection from agricultural disturbance and human traffic has allowed a genetically distinct feral population to persist relatively undisturbed — but this remains an inference from geography rather than a documented genetic finding.
 
 ## Description
-
-- **Type:** Wild sativa population (Feral category)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Variable — feral populations across an extreme elevational range will show highly variable stature
 - **Flowering:** 11–15 weeks — consistent with alpine sativa adaptation and short seasons
 - **Climate:** Extreme alpine
-- High phenotypic variability expected; feral status and isolation mean no selection for any consistent trait
-- Likely tall and open-structured in lower buffer zone areas where conditions are less extreme; more compact at higher elevations
-- Resin and terpene profiles entirely undocumented; characteristics can only be inferred from regional context
+- **Origin:** India (South Asia)
+
+High phenotypic variability expected; feral status and isolation mean no selection for any consistent trait. Likely tall and open-structured in lower buffer zone areas where conditions are less extreme; more compact at higher elevations. Resin and terpene profiles entirely undocumented; characteristics can only be inferred from regional context.
 
 ## Grow Information
 

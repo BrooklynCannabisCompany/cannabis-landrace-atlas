@@ -9,13 +9,16 @@ The Don River Basin entry describes a feral intermediate cannabis population ass
 Cannabis has a deep history in the steppe zone of southern Russia, associated with ancient Scythian and Sarmatian peoples who inhabited the Pontic-Caspian steppe and are historically documented using cannabis for ritual and personal purposes. The Don River corridor was a significant route of steppe nomad movement and, later, of Slavic agricultural expansion, both of which would have contributed to cannabis dispersal and naturalization along the river system. More recently, industrial hemp cultivation in the Soviet period left feral populations along agricultural margins and river valleys across this region.
 
 ## Description
-
-As a medium-height, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to steppe river valley conditions, Don River Basin cannabis reflects the broad adaptations required for persistence in the continental extremes of the southern Russian steppe. The steppe river valley climate involves significant temperature swings, periodic drought, and wind exposure — conditions that select for hardy, resilient plants.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium
 - **Flowering:** 10–14 weeks
-- **Type:** Feral river population, Intermediate (Indica–Sativa)
 - **Climate:** Steppe river valley
+- **Origin:** Russia (Europe)
+
+As a medium-height, intermediate (indica–sativa) feral population with a 10–14 week flowering window adapted to steppe river valley conditions, Don River Basin cannabis reflects the broad adaptations required for persistence in the continental extremes of the southern Russian steppe. The steppe river valley climate involves significant temperature swings, periodic drought, and wind exposure — conditions that select for hardy, resilient plants.
 
 ## Grow Information
 

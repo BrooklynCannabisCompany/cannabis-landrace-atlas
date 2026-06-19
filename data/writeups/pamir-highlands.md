@@ -7,10 +7,16 @@ Pamir Highlands refers to the broad highland landrace complex of the Pamir Mount
 The Pamir Mountains have served as a geographic crossroads and corridor for human migration and trade between the Central Asian steppe, the Indian subcontinent, and the Chinese world for thousands of years. Cannabis populations in the Tajik Pamirs likely reflect this confluence — incorporating elements from Kazakh, Afghan, and possibly Tibetan gene pools brought by traders, nomads, and settlers across the millennia. The region's extreme isolation has also allowed local adaptation to proceed over long periods without significant outside influence in more remote valleys. Grower accounts of Pamir cannabis generally emphasize its cold hardiness and compact vigor. Scientific documentation of distinct Pamir subpopulations is limited.
 
 ## Description
-- Medium stature mixed-character highland complex; individual plants may express indica-leaning or more intermediate traits.
-- Adapted to alpine mountain conditions with high UV, cold nights, and very low humidity.
-- Phenotypic variation across the broad Pamir complex is expected and significant.
-- Cannabinoid and terpene profiles are undocumented for this general population.
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 10–14 weeks
+- **Climate:** Tropical Highland
+- **Origin:** Tajikistan (Middle East / Central Asia)
+
+Medium stature mixed-character highland complex; individual plants may express indica-leaning or more intermediate traits. Adapted to alpine mountain conditions with high UV, cold nights, and very low humidity. Phenotypic variation across the broad Pamir complex is expected and significant. Cannabinoid and terpene profiles are undocumented for this general population.
 
 ## Grow Information
 The Pamir environment imposes some of the most extreme conditions faced by any cannabis population: very high UV radiation, cold temperatures even in summer, very short frost-free seasons, and minimal rainfall supplemented by snowmelt. Flowering runs 10–14 weeks consistent with other highland Pamir material. Cold hardiness and UV tolerance are the defining adaptive traits. As a broad complex rather than a selected line, phenotypic consistency will be variable. Seed material from this population is of primary interest for its genetic diversity and stress-tolerance alleles.

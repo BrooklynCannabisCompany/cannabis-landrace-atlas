@@ -9,14 +9,16 @@ Mérida refers to a highland sativa landrace from Mérida State in the Venezuela
 The Venezuelan Andes have historically supported agricultural communities in the inter-Andean valleys and slopes, with the city of Mérida serving as a cultural and commercial center for the highland region. The Andes corridor through Venezuela connects with Colombian highland cannabis traditions to the west, and any cannabis populations in Mérida State would likely share ancestry with broader Andean landrace genetics from that corridor. Specific documentation of cannabis cultivation history in Mérida State is limited, and detailed records are not widely available. The population is associated with traditional cultivation adapted to elevation, coolness, and intense mountain sunlight.
 
 ## Description
-
-This population is described as a tall highland sativa adapted to the cool nights and strong ultraviolet radiation of the Venezuelan Andes. The 12–18 week flowering window is characteristic of equatorial highland sativas, where the combination of near-equatorial latitude and altitude produces long maturation cycles. Plants adapted to high elevation typically develop robust trichome production in response to UV exposure.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 12–18 weeks
-- **Climate adaptation:** Andean mountain; cool nights, strong UV, high elevation
-- **Category:** Sativa
-- **Region:** Mérida State, Venezuelan Andes
+- **Climate:** Andean mountain; cool nights, strong UV, high elevation
+- **Origin:** Venezuela (Americas)
+
+This population is described as a tall highland sativa adapted to the cool nights and strong ultraviolet radiation of the Venezuelan Andes. The 12–18 week flowering window is characteristic of equatorial highland sativas, where the combination of near-equatorial latitude and altitude produces long maturation cycles. Plants adapted to high elevation typically develop robust trichome production in response to UV exposure. Mérida State, Venezuelan Andes.
 
 ## Grow Information
 

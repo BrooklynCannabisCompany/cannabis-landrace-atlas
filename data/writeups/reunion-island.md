@@ -9,12 +9,16 @@ Réunion Island is a French overseas territory in the western Indian Ocean, appr
 Cannabis is thought to have reached Réunion through Indian Ocean maritime trade and labor migration, likely involving populations arriving from the Indian subcontinent and East Africa during the island's colonial history. The island's dramatic topography — rising from sea level to over 3,000 m with active and dormant volcanic zones — creates a wide range of microclimates, and cannabis populations may have diversified across different elevational zones over time. Grower accounts note that some phenotypes exhibit an extraordinarily prolonged flowering cycle, a trait that may reflect deep adaptation to the island's specific photoperiod and climate. Formal documentation of Réunion's cannabis populations is limited.
 
 ## Description
-
-- **Category:** Sativa (tropical island landrace)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Extremely tall — among the tallest growth habits documented in African or Indian Ocean landraces
-- **Structure:** Open, elongated, and vigorously branching; adapted to the island's windy, humid tropical conditions and volcanic soil fertility
 - **Flowering:** 12–24 weeks — exceptionally variable, with some reported phenotypes requiring up to 9 months (approximately 36+ weeks); this is among the longest flowering windows of any documented landrace
-- **Aroma/Effect:** Described as mango, carrot, and wood aromas; effects reported as potent and distinctively psychoactive ("trip weed" is a local colloquial descriptor)
+- **Climate:** Tropical Island / Maritime
+- **Origin:** Réunion (Africa)
+
+Open, elongated, and vigorously branching; adapted to the island's windy, humid tropical conditions and volcanic soil fertility. Described as mango, carrot, and wood aromas; effects reported as potent and distinctively psychoactive ("trip weed" is a local colloquial descriptor).
 
 ## Grow Information
 

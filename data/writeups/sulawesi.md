@@ -9,11 +9,16 @@ Sulawesi is a sativa landrace from the island of Sulawesi, Indonesia — a disti
 Cannabis in Indonesia has a complex history across the archipelago, with the strongest documented cultivation traditions found in Aceh (northern Sumatra) and parts of Java. Sulawesi's cannabis presence is less well documented in the historical record, and the island's cannabis populations are generally understood to represent older naturalized or feral introductions rather than heavily managed cultivation traditions. The island's geographic isolation from other major Indonesian cannabis zones suggests the Sulawesi population developed in relative genetic separation, adapting to the specific conditions of its jungled island environment. Detailed historical documentation is sparse.
 
 ## Description
-
-- **Morphology:** Tall sativa structure, consistent with equatorial island cannabis — long internodes, narrow leaflets, adapted to year-round tropical light cycles.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Tall
 - **Flowering:** 11–15 weeks; the range reflects expected variation within an unselected landrace population.
-- **Aroma/Effect:** Island tropical sativas from the Indonesian archipelago are broadly associated with sweet, floral, and sometimes woody aromas. Specific Sulawesi aroma documentation is limited.
-- **Climate adaptation:** Island tropical — consistent equatorial warmth, high humidity, and no extreme seasonal variation.
+- **Climate:** Island tropical — consistent equatorial warmth, high humidity, and no extreme seasonal variation.
+- **Origin:** Indonesia (Southeast Asia)
+
+Tall sativa structure, consistent with equatorial island cannabis — long internodes, narrow leaflets, adapted to year-round tropical light cycles. Island tropical sativas from the Indonesian archipelago are broadly associated with sweet, floral, and sometimes woody aromas. Specific Sulawesi aroma documentation is limited.
 
 ## Grow Information
 

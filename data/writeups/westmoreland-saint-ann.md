@@ -9,12 +9,16 @@ Westmoreland / Saint Ann refers to the cannabis populations associated with two 
 Westmoreland and Saint Ann parishes have long agricultural traditions in Jamaica, and cannabis cultivation in both areas is commonly reported to have deep roots in local rural communities and the Rastafarian faith tradition, in which cannabis holds religious and sacramental significance. The Lamb's Bread name — also encountered as "Lamb's Breath" — is associated in grower accounts and cannabis literature with a particularly prized strain or group of strains from Jamaica, though the exact boundaries of what constitutes authentic Lamb's Bread genetics are contested among preservationists. Both Westmoreland and Saint Ann are cited in various accounts as source areas for this lineage tradition. Westmoreland's coastal lowlands and Saint Ann's varied topography — ranging from coastal plains to interior hills — have shaped distinct microclimates that may have contributed to phenotypic diversity within this population grouping.
 
 ## Description
-
-- **Type:** Sativa landrace, Jamaican — associated with the Lamb's Bread lineage tradition
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, as is characteristic of Jamaican sativa landraces
 - **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate adaptation:** Caribbean mountain/coast — spanning both coastal tropical and elevated interior conditions across the two parishes
-- **Aroma/effect:** Lamb's Bread-associated genetics are commonly reported to express bright, grassy, sometimes cedar-like aromas and strongly uplifting, cerebral effects — though these characterizations vary across accounts and the name covers a range of phenotypes
+- **Climate:** Caribbean mountain/coast — spanning both coastal tropical and elevated interior conditions across the two parishes
+- **Origin:** Jamaica (Americas)
+
+Lamb's Bread-associated genetics are commonly reported to express bright, grassy, sometimes cedar-like aromas and strongly uplifting, cerebral effects — though these characterizations vary across accounts and the name covers a range of phenotypes.
 
 ## Grow Information
 

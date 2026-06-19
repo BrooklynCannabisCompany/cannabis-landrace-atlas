@@ -9,14 +9,16 @@ Maluku Islands is an island sativa landrace associated with the Maluku (Moluccas
 The Maluku Islands' extraordinary position at the center of global spice trade routes meant that the archipelago was visited by Arab, Indian, Chinese, Portuguese, Dutch, and other traders and colonizers over many centuries. This history of maritime contact is widely considered relevant to the introduction and dispersal of diverse plant genetics throughout the Maluku island chain. Cannabis in the Maluku Islands likely arrived through multiple introduction events reflecting this trade history, resulting in populations that may carry genetic material from diverse source regions. The resulting landrace is described as having developed strong maritime adaptation — tolerant of high humidity and consistent equatorial island conditions. Formal ethnobotanical documentation of Maluku cannabis is scarce.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Island sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with equatorial island sativa growth
 - **Flowering:** 12–18 weeks; variation across the archipelago's many islands is expected
-- **Morphology:** Equatorial island sativa character; adapted to high humidity and maritime tropical conditions
-- **Terpene profile:** Not specifically documented; complex aromatic character potentially reflecting diverse genetic influences from the archipelago's trade history is plausible
-- **Effects:** Cerebral sativa expression consistent with equatorial island landraces
+- **Climate:** Tropical Rainforest
+- **Origin:** Indonesia (Southeast Asia)
+
+Equatorial island sativa character; adapted to high humidity and maritime tropical conditions. Not specifically documented; complex aromatic character potentially reflecting diverse genetic influences from the archipelago's trade history is plausible. Cerebral sativa expression consistent with equatorial island landraces.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Ferghana Valley landrace is an indica cannabis from the Ferghana Valley of U
 The Ferghana Valley has been a center of civilization in Central Asia since at least the Hellenistic period, and its cities — Kokand, Margilan, Andijan, Namangan — were major nodes on the Silk Road for centuries. Cannabis cultivation in the valley is embedded in this long agricultural and commercial history. The region's connection to hash production is documented in historical and ethnographic sources spanning the medieval Islamic period through the early Soviet era. The Soviet period brought extensive hemp cultivation to Central Asia, including the Ferghana region, but traditional drug-type cultivation also persisted. The current status of the traditional Ferghana landrace is not well-documented; grower accounts suggest it represents a Silk Road hash lineage with moderate-to-good resin production suited to the valley's warm, irrigated agricultural climate.
 
 ## Description
-
-- **Category:** Indica
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
-- **Stature:** Moderate branching; a productive valley landrace adapted to open cultivation in irrigated fields
 - **Flowering:** 8–10 weeks; relatively fast, consistent with an indica selection adapted to the valley's warm summer season
-- **Resin:** Moderate to good; associated with traditional hashish production
-- The valley steppe climate — warm to hot summers with irrigation — supports vigorous growth relative to high-altitude mountain indica types.
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Uzbekistan (Middle East / Central Asia)
+
+Moderate branching; a productive valley landrace adapted to open cultivation in irrigated fields. Moderate to good; associated with traditional hashish production. The valley steppe climate — warm to hot summers with irrigation — supports vigorous growth relative to high-altitude mountain indica types.
 
 ## Grow Information
 

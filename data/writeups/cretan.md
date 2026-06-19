@@ -9,13 +9,16 @@ Cretan refers to the hemp-type cannabis population associated with the island of
 Crete has been continuously inhabited since the Neolithic, and cannabis presence on the island is associated with maritime trade networks spanning millennia of Mediterranean commerce. Hemp cultivation in Greece broadly, and on Crete specifically, is documented through the classical and Byzantine periods. The island's isolation from mainland Greek populations, combined with its unique ecology, may have contributed to some degree of local differentiation in the Cretan hemp population. As a hemp-category entry, this population is understood as predominantly fiber-type, likely with low psychoactive cannabinoid content.
 
 ## Description
-
-As a medium-height hemp/sativa type with a 10–13 week flowering window adapted to the island Mediterranean climate of Crete, this population is described primarily by its drought adaptation. The long, rainless summers of Crete — often extending from May through September with minimal precipitation — select strongly for water-use efficiency and tolerance of desiccating conditions. Plants are expected to show the relatively upright, moderately tall morphology typical of Mediterranean hemp types.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 10–13 weeks
-- **Type:** Hemp/sativa
 - **Climate:** Island Mediterranean
+- **Origin:** Greece (Europe)
+
+As a medium-height hemp/sativa type with a 10–13 week flowering window adapted to the island Mediterranean climate of Crete, this population is described primarily by its drought adaptation. The long, rainless summers of Crete — often extending from May through September with minimal precipitation — select strongly for water-use efficiency and tolerance of desiccating conditions. Plants are expected to show the relatively upright, moderately tall morphology typical of Mediterranean hemp types.
 
 ## Grow Information
 

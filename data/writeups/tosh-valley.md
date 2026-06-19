@@ -9,11 +9,14 @@ Tosh Valley is an indica-leaning resin landrace from the Tosh Valley in Himachal
 The Parvati Valley and its tributary valleys, including Tosh, have been at the center of the Indian charas trade for centuries. Village communities in Tosh and neighboring settlements have historically cultivated and selectively harvested cannabis for hand-rolled charas production, a tradition in which the resin-richest plants receive preferential attention season after season. This longstanding informal selection pressure is widely credited with producing the notably resinous cannabis ecotypes found throughout the Parvati watershed. Tosh specifically has become known to international travelers and seed collectors visiting the region, and the valley's plants are commonly reported to share characteristics with the famous Malana cream lineage while expressing some local variation. Formal documentation of Tosh as a distinct landrace is limited, but collector accounts consistently place it within the same resin-selection tradition.
 
 ## Description
-
-- **Type:** Indica-leaning resin landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** Commonly reported at 8–10 weeks
-- **Climate adaptation:** Parvati tributary valley — cool mountain climate, significant seasonal rainfall, high altitude
+- **Climate:** Parvati tributary valley — cool mountain climate, significant seasonal rainfall, high altitude
+- **Origin:** India (South Asia)
 
 Plants are expected to be medium-sized with dense, heavily resinous flowers adapted to the short growing season of the upper Parvati valley. The indica-leaning morphology typical of charas-country landraces — broad leaflets, sturdy structure, tight internodes — is commonly reported. Resin production is the defining characteristic of this ecotype, consistent with the selection pressure imposed by charas production traditions.
 

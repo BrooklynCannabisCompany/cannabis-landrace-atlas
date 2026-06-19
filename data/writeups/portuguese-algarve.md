@@ -9,13 +9,16 @@ Portuguese Algarve refers to a hemp-type feral cannabis population from the Alga
 Hemp cultivation in Portugal has historical roots extending through the Age of Discovery and earlier, when hemp fiber was essential for rope and sail production in Portuguese maritime expansion. The Algarve's position as Portugal's southernmost region — and as a historically important agricultural and fishing zone — would have supported hemp cultivation in the past. As industrial hemp declined, feral populations naturalized in agricultural margins and disturbed terrain across the Algarve. The resulting feral ecotype is understood as a drought-tolerant naturalized hemp type rather than a selected landrace population.
 
 ## Description
-
-As a medium-height hemp population with a 10–13 week flowering window adapted to the dry coastal climate of the Algarve, this population exemplifies the drought-tolerant feral hemp ecotype typical of the southern Iberian Peninsula. Long, dry summers with minimal rainfall are the dominant selection pressure, producing plants capable of completing their cycle on limited soil moisture.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 10–13 weeks
-- **Type:** Hemp (feral, drought-tolerant)
 - **Climate:** Dry coast
+- **Origin:** Portugal (Europe)
+
+As a medium-height hemp population with a 10–13 week flowering window adapted to the dry coastal climate of the Algarve, this population exemplifies the drought-tolerant feral hemp ecotype typical of the southern Iberian Peninsula. Long, dry summers with minimal rainfall are the dominant selection pressure, producing plants capable of completing their cycle on limited soil moisture.
 
 ## Grow Information
 

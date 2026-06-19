@@ -9,12 +9,16 @@ Caucasus Feral refers to wild and naturalized cannabis populations found in Geor
 The Caucasus region is among the most historically significant corridors for cannabis in the Old World. Georgia and neighboring territories along the Caucasus have seen continuous human habitation, trade, and agricultural activity for millennia, with cannabis present throughout that period for fiber, seed, and likely ritual or medicinal uses. The feral populations found in Georgia today are thought to represent a mixture of escaped cultivated hemp and populations that have naturalized and diversified over long periods without deliberate selection. Researchers and landrace enthusiasts have noted that Caucasus feral cannabis may preserve genetic material from ancient Silk Road exchange networks, making it of particular interest to those studying the early history and diversity of Cannabis. However, these populations have not been systematically collected or characterized.
 
 ## Description
-
-- **Type:** Feral cannabis population; medium-to-tall stature with highly variable morphology
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall — consistent with foothill feral populations that have access to adequate growing season and moisture
-- **Variability:** Grower accounts emphasize the high plant-to-plant variation typical of populations that have naturalized across a diverse landscape of altitude, exposure, and soil type
 - **Flowering:** 10–14 weeks; longer-season flowering consistent with the mountain foothill climate of Georgia
-- **Cold hardiness:** Reported to be tolerant of the temperature fluctuations and cool nights characteristic of Caucasus mountain foothills
+- **Climate:** Mountain / Highland
+- **Origin:** Georgia (Europe)
+
+Grower accounts emphasize the high plant-to-plant variation typical of populations that have naturalized across a diverse landscape of altitude, exposure, and soil type. Reported to be tolerant of the temperature fluctuations and cool nights characteristic of Caucasus mountain foothills.
 
 ## Grow Information
 

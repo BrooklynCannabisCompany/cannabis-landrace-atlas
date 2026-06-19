@@ -22,11 +22,11 @@ function facetRow(dl, label, field, value, onFacet, title, facetToken) {
   if (!value) return;
   dl.appendChild(el('dt', null, label));
   const dd = el('dd', null);
-  if (title && title !== value) dd.title = title; // preserve the original detail on hover
+  if (title && title !== value) dd.setAttribute('data-tip', title); // fast custom tooltip
   if (facetToken) {
     // Single chip with an explicit facet token (e.g. Type displays the descriptor
     // but filters by normalized category).
-    const chip = el('button', 'facet', value);
+    const chip = el('button', 'facet', String(value).trim());
     chip.type = 'button';
     chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${facetToken}`);
     if (onFacet) chip.addEventListener('click', () => onFacet(field, facetToken));
@@ -62,6 +62,12 @@ const CHEMOTYPE_DEF = {
   IV: 'Type IV — CBG-dominant. Non-intoxicating; studied for neuroprotective and gastrointestinal benefits.',
   V: 'Type V — Cannabinoid-free. Primarily industrial hemp bred for fiber or seed.'
 };
+const DOMESTICATION_DEF = {
+  Domesticated: 'A cultivated landrace — maintained and selected by growers in its home region.',
+  Heirloom: 'A long-cultivated heritage variety, often acclimatized to a new region and passed down through generations.',
+  'Feral (escaped)': 'Escaped from cultivation and now self-seeding in the wild, reverting toward wild-type traits.',
+  Wild: 'A naturally wild population, never domesticated (McPartland\'s subsp. spontanea / wild-type).'
+};
 
 // Renders `strain` into `container`. handlers: { onClose, onSubmit, onFacet }.
 export function renderStrain(container, strain, handlers = {}) {
@@ -86,7 +92,7 @@ export function renderStrain(container, strain, handlers = {}) {
   if (strain.morphotype) {
     const badge = el('button', 'panel-badge facet-badge', strain.morphotype);
     badge.type = 'button';
-    if (MORPHOTYPE_DEF[strain.morphotype]) badge.title = MORPHOTYPE_DEF[strain.morphotype];
+    if (MORPHOTYPE_DEF[strain.morphotype]) badge.setAttribute('data-tip', MORPHOTYPE_DEF[strain.morphotype]);
     if (onFacet) badge.addEventListener('click', () => onFacet('morphotype', strain.morphotype));
     container.appendChild(badge);
   }
@@ -97,12 +103,12 @@ export function renderStrain(container, strain, handlers = {}) {
     facetRow(dl, 'Chemotype', 'chemotype', `Type ${strain.chemotype} (inferred)`, onFacet,
       CHEMOTYPE_DEF[strain.chemotype], strain.chemotype);
   }
-  facetRow(dl, 'Domestication', 'domestication', strain.domestication, onFacet, null, strain.domestication);
-  facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet,
-    'A common/vernacular label — botanical classification is the Morphotype above.', strain.category);
+  facetRow(dl, 'Domestication', 'domestication', strain.domestication, onFacet,
+    DOMESTICATION_DEF[strain.domestication], strain.domestication);
+  facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet, null, strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
   traitRow(dl, 'Flowering', strain.flowering);
-  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet, strain.climateFull);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
   facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
   if (dl.children.length) container.appendChild(dl);
 

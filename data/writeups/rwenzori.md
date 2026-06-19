@@ -9,12 +9,16 @@ Rwenzori is a highland mountain sativa landrace from the Rwenzori Mountains of w
 The Rwenzori Mountains have been inhabited for centuries by the Bakonzo people and other communities who have practiced subsistence agriculture on the mountain's lower slopes. Cannabis cultivation in the region is thought to be longstanding, though documentation specifically addressing the Rwenzori landrace is limited. The mountains' exceptional ecological isolation — their peaks are glaciated and their mid-elevation zones are unlike anywhere else in Africa — suggests that cannabis populations here may have developed considerable distinctiveness over time. Grower accounts for this specific population are rare in published or online sources.
 
 ## Description
-
-- **Category:** Sativa (highland mountain landrace)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous sativa growth aided by equatorial light intensity, even at altitude
-- **Structure:** Adapted to steep mountain terrain and persistent moisture; plants likely develop strong root systems and open branching to manage the cloud forest's diffuse, mist-filtered light
 - **Flowering:** 12–18 weeks — a long flowering window consistent with equatorial mountain populations where photoperiod change is minimal
-- **Aroma/Effect:** Specific terpene or effect profiles for this population are not documented; Afro-montane highland sativas are generally associated with clear, cerebral effects
+- **Climate:** Tropical Highland
+- **Origin:** Uganda (Africa)
+
+Adapted to steep mountain terrain and persistent moisture; plants likely develop strong root systems and open branching to manage the cloud forest's diffuse, mist-filtered light. Specific terpene or effect profiles for this population are not documented; Afro-montane highland sativas are generally associated with clear, cerebral effects.
 
 ## Grow Information
 

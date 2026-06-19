@@ -9,12 +9,16 @@ The Rift Valley Corridor is a mixed-category landrace complex associated with Ke
 The Great Rift Valley has served as a major corridor for human migration, trade, and agricultural exchange for tens of thousands of years, making it one of the plausible early pathways through which cannabis spread across East Africa. Cannabis populations in the Kenyan Rift Valley are likely among the more genetically diverse on the continent, having been subject to exchange across multiple cultural and agricultural communities — including various Nilotic and Bantu-speaking peoples who have inhabited the region over millennia. Grower accounts suggest that Rift Valley populations show considerable phenotypic variation, consistent with their status as a regional complex rather than a single isolated population. Documented genetic research on this specific complex is limited.
 
 ## Description
-
-- **Category:** Mixed — encompasses a range of phenotypes reflecting the broad ecological and genetic diversity of the Rift Valley corridor
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous growth consistent with East African highland savanna sativas with access to abundant sunlight
-- **Structure:** Variable; the corridor nature of this complex means multiple growth habits may be represented, from upright to more bushy savanna-adapted forms
 - **Flowering:** 11–16 weeks — a broad range reflecting the genetic diversity and varying elevations across the Rift Valley
-- **Aroma/Effect:** Specific terpene profiles are not well documented; East African highland sativas are generally associated with clear, uplifting effects
+- **Climate:** Tropical Highland
+- **Origin:** Kenya (Africa)
+
+Variable; the corridor nature of this complex means multiple growth habits may be represented, from upright to more bushy savanna-adapted forms. Specific terpene profiles are not well documented; East African highland sativas are generally associated with clear, uplifting effects.
 
 ## Grow Information
 

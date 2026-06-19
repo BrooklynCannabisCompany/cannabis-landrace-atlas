@@ -9,12 +9,16 @@ Ethiopian Rift Valley is a medium-statured sativa landrace from the Great Rift V
 The Ethiopian Rift Valley is one of the world's most significant geographic and paleoanthropological corridors, running through much of eastern Ethiopia from Afar in the northeast to the Omo Valley in the south. Cannabis cultivation in rift valley communities of Ethiopia is part of the broader regional tradition, though the Rift Valley population as a distinct ecotype from highland Ethiopian cannabis is less specifically documented. The warmer, drier rift conditions would exert different selection pressures than the highland plateau, potentially accounting for the faster maturation reported for this variant. Specific history beyond regional inference is not available.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — shorter than many African sativas, likely reflecting rift valley climatic conditions
 - **Flowering:** Approximately 9–12 weeks from equinox/flip — faster than highland Ethiopian types
-- **Climate adaptation:** Warm semi-arid — lower altitude than highland Ethiopian, with hotter days, less humidity, and more arid conditions
-- **Character:** Described as a faster-flowering Ethiopian variant; terpene and effect profile inferred to align with the broader incense-spice Ethiopian tradition but may differ from highland expressions
+- **Climate:** Warm semi-arid — lower altitude than highland Ethiopian, with hotter days, less humidity, and more arid conditions
+- **Origin:** Ethiopia (Africa)
+
+Described as a faster-flowering Ethiopian variant; terpene and effect profile inferred to align with the broader incense-spice Ethiopian tradition but may differ from highland expressions.
 
 ## Grow Information
 

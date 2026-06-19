@@ -9,13 +9,16 @@ The Casamance is a coastal sativa landrace associated with the Casamance region 
 The Casamance region of Senegal has a distinct cultural identity and agricultural tradition separate from Senegal's northern and central zones, influenced by its geography and its predominantly Diola and other non-Wolof ethnic communities. Cannabis cultivation in the Casamance has been traditionally reported, with the region's relative isolation historically contributing to the persistence of local landrace populations. Specific documentation of the Casamance cannabis variety's history is limited, though grower accounts recognize it as a distinct regional type within the broader West African coastal sativa tradition.
 
 ## Description
-
-- **Type:** Coastal sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 9–12 weeks from equinox/flip — relatively fast for a West African sativa
-- **Climate adaptation:** Tropical coastal — heat-hardy, suited to humid conditions with pronounced seasonality
-- **Structure:** Airy, open bud structure commonly reported — typical of coastal equatorial sativas adapted to high humidity
-- **Effect:** Uplifting sativa effect inferred from type and regional context
+- **Climate:** Tropical coastal — heat-hardy, suited to humid conditions with pronounced seasonality
+- **Origin:** Senegal (Africa)
+
+Airy, open bud structure commonly reported — typical of coastal equatorial sativas adapted to high humidity. Uplifting sativa effect inferred from type and regional context.
 
 ## Grow Information
 

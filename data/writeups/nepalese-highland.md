@@ -9,14 +9,16 @@ Nepalese Highland is a broad sativa complex designation covering cannabis popula
 Nepal's cannabis heritage spans centuries and is deeply embedded in the country's cultural, religious, and agricultural fabric. Kathmandu-area temple-ball hash was among the most recognized cannabis products internationally during the mid-to-late twentieth century, and Nepalese cannabis genetics have been foundational to many Western breeding programs since the 1970s. The "Nepalese Highland" designation as a broad regional complex reflects the reality that material traded or collected under this name comes from diverse districts — Baglung, Dolakha, Humla, Mustang, Ramechhap, and many others — and represents a genetic umbrella rather than a precise population. It is the most common form in which Nepalese landrace genetics have reached international breeders and collectors.
 
 ## Description
-
-- **Type:** Sativa complex (broad regional umbrella)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 10–14 weeks
 - **Climate:** Himalayan mixed zones — spanning temperate mid-hills to high-altitude alpine settings
-- Plant morphology varies considerably across the complex; generally tall with moderately narrow leaflets and good resin production
-- The "broad regional genetic umbrella" characterization means significant phenotypic diversity should be expected even within seed lots labeled as this type
-- Commonly described effects in grower accounts: uplifting, clear-headed, and energetic — consistent with a sativa-dominant Himalayan complex
+- **Origin:** Nepal (South Asia)
+
+Plant morphology varies considerably across the complex; generally tall with moderately narrow leaflets and good resin production. The "broad regional genetic umbrella" characterization means significant phenotypic diversity should be expected even within seed lots labeled as this type. Commonly described effects in grower accounts: uplifting, clear-headed, and energetic — consistent with a sativa-dominant Himalayan complex.
 
 ## Grow Information
 

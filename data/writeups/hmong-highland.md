@@ -9,14 +9,16 @@ Hmong Highland is a sativa landrace associated with Hmong cultivation traditions
 Hmong communities across Southeast Asia have long cultivated cannabis as part of traditional agricultural and cultural life. In the highland zones of northern Laos, Hmong villages at elevation maintained cannabis plots adapted to the specific conditions of mountain jungle terrain — cooler temperatures, heavy monsoon rainfall, and the distinctive soil and light conditions of high-altitude forest environments. The Lao Hmong cannabis populations developed in relative isolation from lowland Lao cultivation, influenced instead by the cross-border movement of Hmong communities and their plant material across the highland zones connecting Laos, Vietnam, and southern China. Documentation of specific Lao Hmong Highland cultivation lineages is limited to ethnobotanical observations and collector accounts.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — vigorous growth typical of high-altitude tropical sativas cultivated by highland communities with access to open mountain terrain
 - **Flowering:** 12–16 weeks; long-season highland variety
-- **Morphology:** Narrow-leaflet sativa character consistent with highland Southeast Asian cannabis; elongated internode structure
-- **Terpene profile:** Not extensively documented; earthy, incense, and complex jungle aromatic qualities are plausible given the high-altitude mountain jungle origin
-- **Effects:** Commonly described as psychedelic in character — a strong, cerebrally active experience associated with traditional highland Hmong cannabis selection
+- **Climate:** Tropical Highland
+- **Origin:** Laos (Southeast Asia)
+
+Narrow-leaflet sativa character consistent with highland Southeast Asian cannabis; elongated internode structure. Not extensively documented; earthy, incense, and complex jungle aromatic qualities are plausible given the high-altitude mountain jungle origin. Commonly described as psychedelic in character — a strong, cerebrally active experience associated with traditional highland Hmong cannabis selection.
 
 ## Grow Information
 

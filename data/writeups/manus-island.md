@@ -9,12 +9,16 @@ Manus Island is the principal island of Manus Province, Papua New Guinea's most 
 Cannabis cultivation or naturalization history on Manus Island is not formally documented. The island's geographic isolation from mainland PNG — Manus Province is the most distant from Port Moresby of all PNG provinces — and its relatively small land area suggest that any cannabis present would have arrived through human contact at an uncertain point in the past, likely via maritime trade or movement. The feral classification indicates the population is self-sustaining without active cultivation management. No verified breeder collection or formal botanical records for this population are known.
 
 ## Description
-
-- **Type:** Sativa feral.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall; typical of equatorial island sativas in full-sun tropical conditions.
 - **Flowering:** Variable length; feral equatorial populations typically lack the photoperiod uniformity of cultivated landraces.
 - **Climate:** Equatorial island — consistently hot, very high humidity, significant rainfall, maritime air influence.
-- **Category:** Remote island gene pool — feral, isolated, poorly documented.
+- **Origin:** Papua New Guinea (Oceania)
+
+Manus Island is a remote island gene pool — feral, isolated, poorly documented. landrace (Narrow-Leaf Drug) from Papua New Guinea (Oceania).
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ Guinea-Bissau Mangrove is a coastal sativa landrace population associated with t
 Guinea-Bissau is a small West African country with a predominantly agricultural economy, and cannabis cultivation in the country is broadly attested within the West African coastal context. The specific adaptation of cannabis to mangrove coastal conditions is unusual and not well documented in the landrace literature. This population, if truly distinct, would represent one of the more unique African cannabis ecotypes by virtue of its coastal ecology. Documentation is minimal, and what is inferred draws from the regional West African coastal sativa tradition combined with the specific ecological pressures of the Guinean mangrove coast.
 
 ## Description
-
-- **Type:** Coastal sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Long, approximately 12–18 weeks from equinox — longer than many West African coastal types, suggesting strong equatorial influence
-- **Climate adaptation:** Tropical mangrove coast — salt air, seasonal flooding, very high humidity, river delta ecology
-- **Ecological distinction:** One of the more unusual African cannabis ecologies due to mangrove coastal influence
+- **Climate:** Tropical mangrove coast — salt air, seasonal flooding, very high humidity, river delta ecology
+- **Origin:** Guinea-Bissau (Africa)
+
+One of the more unusual African cannabis ecologies due to mangrove coastal influence.
 
 ## Grow Information
 

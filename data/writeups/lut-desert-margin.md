@@ -7,10 +7,16 @@ Lut Desert Margin refers to a cannabis population found at the periphery of the 
 The Dasht-e Lut is a vast salt desert in southeastern Iran, largely uninhabited and ecologically extreme. Cannabis surviving at its margins represents a population under extraordinary environmental pressure. Whether these plants originate from ancient cultivation in nearby oasis settlements or represent long-naturalized feral stock adapted to the desert fringe is not clearly documented. What can be responsibly inferred is that any cannabis persisting at the Lut Desert margin has been shaped by intense natural selection for drought resistance, heat tolerance, and water-use efficiency well beyond what most cannabis populations experience. Specific ethnobotanical records for this population are not widely available.
 
 ## Description
-- Medium stature, likely compact relative to the extreme environmental stress of the habitat.
-- Indica-leaning morphology inferred from the category and regional landrace context.
-- Exceptional drought tolerance and heat resistance are the defining adaptive traits.
-- Cannabinoid and terpene profiles are undocumented for this specific population.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
+- **Height:** Medium
+- **Flowering:** 8–11 weeks
+- **Climate:** Desert / Arid
+- **Origin:** Iran (Middle East / Central Asia)
+
+Medium stature, likely compact relative to the extreme environmental stress of the habitat. Indica-leaning morphology inferred from the category and regional landrace context. Exceptional drought tolerance and heat resistance are the defining adaptive traits. Cannabinoid and terpene profiles are undocumented for this specific population.
 
 ## Grow Information
 Adapted to hyper-arid desert conditions with minimal rainfall, extreme summer heat, and poor, often saline or alkaline soils. Flowering runs 8–11 weeks, consistent with other eastern Iranian indica types. The extreme drought and heat adaptation of this feral population may be of significant value for breeding programs working in dry or water-stressed environments. Performance outside arid conditions is uncertain; the population's native environment is so extreme that behavior in temperate or humid climates is difficult to predict without direct observation.

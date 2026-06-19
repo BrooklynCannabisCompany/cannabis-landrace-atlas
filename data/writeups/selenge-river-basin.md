@@ -9,13 +9,16 @@ The Selenge River Basin population is a feral, sativa-leaning cannabis populatio
 The Selenge River has been a corridor for human movement between the Mongolian heartland and the Lake Baikal region for centuries, and cannabis seeds may have spread along this route through pastoral and trade activity. The river valley environment provides relatively sheltered conditions — more moisture and wind protection than the open steppe — potentially allowing a more robust feral population than would be found in fully exposed grasslands. As a northern Mongolian river population, the Selenge basin cannabis is subject to selection by the same cold continental climate that characterizes the region, emphasizing fast flowering and cold hardiness. No strain-specific research documentation is available in accessible sources.
 
 ## Description
-
-- **Type:** Feral river-basin population; sativa-leaning
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall, benefiting from the relatively sheltered and moist conditions of the river valley compared to open steppe
-- **Structure:** Moderate to good branching in favorable valley positions; sativa-leaning character with somewhat longer internodal spacing
-- **Leaf structure:** Likely intermediate to slightly narrow, consistent with sativa-leaning feral cannabis in northern habitats
 - **Flowering:** 10–14 weeks, adapted to the northern Mongolian warm season
-- **Aroma/effect:** Not documented
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Mongolia (East Asia / North Asia)
+
+Moderate to good branching in favorable valley positions; sativa-leaning character with somewhat longer internodal spacing. Likely intermediate to slightly narrow, consistent with sativa-leaning feral cannabis in northern habitats. Not documented.
 
 ## Grow Information
 

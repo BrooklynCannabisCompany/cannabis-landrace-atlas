@@ -9,12 +9,16 @@ The Yungas landrace is associated with Bolivia's Yungas region — a dramatic ec
 Bolivia's Yungas have been a significant agricultural and coca-growing region for centuries, with Aymara and other Andean communities maintaining deep relationships with this ecologically rich zone. Cannabis presence in the Yungas is documented through collector networks and grower accounts rather than formal botanical surveys, and the population's history is not rigorously characterized in academic literature. The region's importance as a cannabis-growing area in Bolivia is generally acknowledged in landrace communities, and the combination of Andean and Amazonian influences is considered to give this population its distinctive mixed ecological character.
 
 ## Description
-
-- **Category:** Mixed; reflects the dual Andean-Amazonian ecological influence of the Yungas transition zone
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; vigorous growth supported by the nutrient-rich cloud forest environment
 - **Flowering:** 13–18 weeks; extended flowering consistent with the complex photoperiod and temperature patterns of a cloud-forest transition zone
 - **Climate:** Cloud forest — persistent moisture, moderate temperatures, frequent mist and cloud cover, high biodiversity
-- **Morphology:** Plants from cloud-forest transition zones are often described as adaptable in structure, with broader adaptability to humidity fluctuation than pure highland or pure lowland types. Specific phenotype documentation for Bolivian Yungas cannabis is limited.
+- **Origin:** Bolivia (Americas)
+
+Plants from cloud-forest transition zones are often described as adaptable in structure, with broader adaptability to humidity fluctuation than pure highland or pure lowland types. Specific phenotype documentation for Bolivian Yungas cannabis is limited.
 
 ## Grow Information
 

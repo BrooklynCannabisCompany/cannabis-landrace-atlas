@@ -9,12 +9,16 @@ Cauca Highlands refers to cannabis populations associated with the Cauca Departm
 Cauca Department has a deep history of indigenous settlement — including the Nasa (Páez) and Misak (Guambiano) peoples — alongside colonial-era agricultural development. Cannabis cultivation in the Cauca highlands is not systematically documented, but grower accounts and the regional summary suggest a population with meaningful historical depth. The high-elevation character of Cauca cannabis distinguishes it from coastal or lowland Colombian landraces, and this population is associated with vigorous branching and adaptation to the cool mountain environment. Preservation interest in this population reflects its relative geographic isolation and potential genetic distinctiveness.
 
 ## Description
-
-- **Category:** Mixed
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — appropriate for highland Colombian landraces where vertical growth is favored under intense mountain sunlight
-- **Structure:** Grower accounts suggest vigorous branching; high-elevation plants in the Colombian Andes commonly develop sturdy stems and broader spacing between branches to capture diffuse light through cloud and mist
 - **Flowering:** 12–18 weeks — the wide range reflects the mixed genetic category and the variability expected across a high-elevation landrace population
-- **Aroma/Effect:** Not specifically documented; Cauca highland populations would be expected to express complex aromatic profiles shaped by cool nighttime temperatures and high UV radiation
+- **Climate:** Tropical Highland
+- **Origin:** Colombia (Americas)
+
+Grower accounts suggest vigorous branching; high-elevation plants in the Colombian Andes commonly develop sturdy stems and broader spacing between branches to capture diffuse light through cloud and mist. Not specifically documented; Cauca highland populations would be expected to express complex aromatic profiles shaped by cool nighttime temperatures and high UV radiation.
 
 ## Grow Information
 

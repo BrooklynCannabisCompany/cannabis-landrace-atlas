@@ -9,14 +9,16 @@ The Bolaven Plateau landrace originates from the high volcanic plateau of southe
 The Bolaven Plateau has historically been home to Mon-Khmer ethnic minority communities, including the Laven (Bolaven), Alak, and Katu peoples, who have maintained traditional agricultural systems on the plateau for centuries. Cannabis cultivation in this context would likely have developed as part of broader highland farming traditions, with plants adapting over generations to the specific soil and climate of the plateau. The Bolaven region became more widely known to outsiders during the colonial and post-colonial periods, but specific documentation of cannabis cultivation traditions there remains limited; regional accounts and collector reports provide the primary source of information available.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous growth facilitated by the plateau's fertile volcanic soils
 - **Flowering:** Long; 13–18 weeks commonly reported
-- **Morphology:** Consistent with highland Southeast Asian sativas — narrow leaflets, elongated internodes, airy bud structure
-- **Terpene profile:** Rich volcanic soil is often associated with complex aromatic expression in regional cannabis; specific terpene accounts for this population are limited in available documentation
-- **Effects:** Commonly inferred to be energetic and cerebral, in keeping with long-flowering highland Lao sativa types
+- **Climate:** Tropical Highland
+- **Origin:** Laos (Southeast Asia)
+
+Consistent with highland Southeast Asian sativas — narrow leaflets, elongated internodes, airy bud structure. Rich volcanic soil is often associated with complex aromatic expression in regional cannabis; specific terpene accounts for this population are limited in available documentation. Commonly inferred to be energetic and cerebral, in keeping with long-flowering highland Lao sativa types.
 
 ## Grow Information
 

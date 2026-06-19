@@ -9,14 +9,16 @@ Northern Peru Cloud Forest refers to a sativa landrace population adapted to the
 The cloud forest belt of northern Peru has been inhabited by Andean and Amazonian communities across many cultural traditions, including pre-Columbian groups who navigated the difficult terrain between highland and lowland zones. Cannabis is not native to the Americas, but introduced populations adapted to this specific ecological niche would have been shaped by the persistent fog and high humidity over many generations. Documentation of cannabis cultivation specifically in the northern Peruvian cloud forest belt is limited, and this population is inferred primarily from regional ecological and climatic context.
 
 ## Description
-
-This population is described as a tall sativa with an extended 13–18 week flowering window, consistent with cloud forest conditions where lower light levels and moderate temperatures slow maturation relative to open-sky lowland environments.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 13–18 weeks
-- **Climate adaptation:** Montane rainforest; persistent fog, high humidity, moderate temperatures
-- **Category:** Sativa
-- **Region:** Northern Peruvian Cloud Forest Belt, eastern Andean slopes
+- **Climate:** Montane rainforest; persistent fog, high humidity, moderate temperatures
+- **Origin:** Peru (Americas)
+
+This population is described as a tall sativa with an extended 13–18 week flowering window, consistent with cloud forest conditions where lower light levels and moderate temperatures slow maturation relative to open-sky lowland environments. Northern Peruvian Cloud Forest Belt, eastern Andean slopes.
 
 ## Grow Information
 

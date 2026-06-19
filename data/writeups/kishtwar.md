@@ -9,14 +9,16 @@ Kishtwar is an indica-leaning landrace from the Kishtwar district of Jammu and K
 Kishtwar's cannabis population is in the shadow of the more documented Kashmir Valley and Parvati Valley landraces, receiving limited dedicated attention from collectors or researchers. The district's geographic position — between the Parvati Valley complex to the west and the Kashmir Valley to the north — suggests its cannabis may represent a genetic bridge between these zones, but this remains speculative without systematic collection data. Traditional charas-adjacent production in the district is referenced anecdotally in accounts of Jammu and Kashmir's cannabis culture, though Kishtwar has not been a center of commercial charas trade in the manner of the Kashmir Valley or Kullu-Parvati belt.
 
 ## Description
-
-- **Type:** Indica-leaning landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–10 weeks
 - **Climate:** High mountain valley
-- Medium stature with the resin-dense, compact bud structure associated with charas-adjacent populations of the Western Himalaya
-- Short flowering window reflects adaptation to the high-mountain valley's limited frost-free season
-- Specific terpene or morphological data for Kishtwar cannabis is not published; characteristics are inferred from regional context and general knowledge of comparable populations
+- **Origin:** India (South Asia)
+
+Medium stature with the resin-dense, compact bud structure associated with charas-adjacent populations of the Western Himalaya. Short flowering window reflects adaptation to the high-mountain valley's limited frost-free season. Specific terpene or morphological data for Kishtwar cannabis is not published; characteristics are inferred from regional context and general knowledge of comparable populations.
 
 ## Grow Information
 

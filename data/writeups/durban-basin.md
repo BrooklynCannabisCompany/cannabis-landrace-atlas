@@ -14,9 +14,16 @@ sativa traits and of elevated THCV in some lines. Specific seed-line provenance 
 and is not formally documented.
 
 ## Description
-- Tall sativa structure adapted to a subtropical coastal climate.
-- Aroma commonly described as licorice/anise with sweet notes.
-- Reported to be energetic and clear; some lines are noted for higher THCV.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Tall
+- **Flowering:** 9–11 weeks
+- **Climate:** Subtropical
+- **Origin:** South Africa (Africa)
+
+Tall sativa structure adapted to a subtropical coastal climate. Aroma commonly described as licorice/anise with sweet notes. Reported to be energetic and clear; some lines are noted for higher THCV.
 
 ## Grow Information
 Adapted to a warm, subtropical coastal environment. Commonly reported as tall with a

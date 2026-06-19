@@ -9,12 +9,16 @@ Mahia Madness is a historic coastal heirloom sativa associated with the Mahia Pe
 Mahia Madness is understood to be a regional heirloom line from New Zealand's outdoor cannabis culture, associated with the Mahia Peninsula area of Hawke's Bay. The Peninsula's geographic isolation — accessible only by a narrow isthmus — and its warm east coast microclimate made it a practical location for outdoor cannabis cultivation during the underground growing era of the 1970s–1990s in New Zealand. Grower accounts suggest this line was maintained through informal seed-saving and is regarded as a genuine regional adaptation rather than an introduced commercial cultivar. No formal breeding records or verified origin documentation are known.
 
 ## Description
-
-- **Type:** Coastal heirloom sativa.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Tall; reflecting the sativa growth expression favored in New Zealand's warmer east coast outdoor conditions.
 - **Flowering:** 11–15 weeks; appropriate for the Hawke's Bay outdoor growing season.
 - **Climate:** Maritime peninsula — warm dry summers, oceanic humidity, Pacific Ocean exposure on the Hawke's Bay east coast.
-- **Reported adaptation:** Suited to oceanic weather patterns and the humid summer conditions of New Zealand's east coast.
+- **Origin:** New Zealand (Oceania)
+
+Suited to oceanic weather patterns and the humid summer conditions of New Zealand's east coast.
 
 ## Grow Information
 

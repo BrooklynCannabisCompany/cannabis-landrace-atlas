@@ -9,12 +9,15 @@ Colombian Black is a Colombian sativa landrace whose name suggests a distinctive
 The specific history and geographic origin of Colombian Black within Colombia is not documented in the published literature. Named Colombian varieties of this type were commonly identified and circulated by cultivators and seed collectors from the 1970s onward, often named for distinctive visual or sensory characteristics. The "Black" designation may refer to dark resin coloration, dark seed or bract color, or other visual traits noted by the cultivators who maintained and distributed this variety. Without confirmed regional attribution, the broader context of Colombian sativa landrace history applies: long-standing cultivation across the Andes and their foothills, deep genetic diversity, and significant historical influence on the global cannabis gene pool.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — among the taller Colombian sativa expressions, consistent with lowland or mid-elevation Colombian populations
-- **Structure:** Likely long-branching with elongated floral structures; very tall Colombian sativas typically develop large, airy flower clusters
 - **Flowering:** 14–18 weeks — on the longer end of the Colombian spectrum; consistent with a true sativa landrace
-- **Aroma/Effect:** Not documented for this specific population; Colombian sativas are broadly associated with energetic, cerebral effects and complex aromatic profiles
+- **Origin:** Colombia (Americas)
+
+Likely long-branching with elongated floral structures; very tall Colombian sativas typically develop large, airy flower clusters. Not documented for this specific population; Colombian sativas are broadly associated with energetic, cerebral effects and complex aromatic profiles.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Caspian Coast Population is an intermediate cannabis landrace associated wit
 The Caspian corridor has been a major vector of cannabis dispersal across Eurasia since antiquity, connecting Central Asian populations to the Caucasus, the Pontic-Caspian steppe, and ultimately to Eastern Europe. Kazakhstan's Caspian coast sits at the western edge of the vast Kazakhstani steppe where feral and semi-wild cannabis populations have persisted for centuries, partly from escape of cultivation along trade routes and partly from very ancient naturalization. Grower accounts and botanical surveys suggest feral cannabis is widespread across the Kazakh steppe, with Caspian coastal populations occupying a somewhat distinct ecological niche shaped by salt air and semi-arid conditions.
 
 ## Description
-
-As a medium-tall, intermediate (indica–sativa) population with a 10–14 week flowering window, the Caspian Coast Population reflects adaptation to the demanding conditions of the northeastern Caspian steppe. Drought tolerance, salt-air adaptation, and the ability to complete flowering during the brief warm season of the northern Caspian littoral are the key selection pressures on this population. The intermediate character reflects the mixing of Central Asian indica-leaning and steppe sativa-leaning cannabis genetics along this major corridor.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium-tall
 - **Flowering:** 10–14 weeks
-- **Type:** Coastal-steppe landrace, Intermediate (Indica–Sativa)
 - **Climate:** Semi-arid maritime
+- **Origin:** Kazakhstan (Europe)
+
+As a medium-tall, intermediate (indica–sativa) population with a 10–14 week flowering window, the Caspian Coast Population reflects adaptation to the demanding conditions of the northeastern Caspian steppe. Drought tolerance, salt-air adaptation, and the ability to complete flowering during the brief warm season of the northern Caspian littoral are the key selection pressures on this population. The intermediate character reflects the mixing of Central Asian indica-leaning and steppe sativa-leaning cannabis genetics along this major corridor.
 
 ## Grow Information
 

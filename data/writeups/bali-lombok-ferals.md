@@ -9,14 +9,15 @@ Bali / Lombok Ferals refers to a feral hybrid population distributed across the 
 Cannabis is believed to have reached Bali and Lombok through a combination of trade routes, inter-island movement, and possibly deliberate introduction at various historical points. Because neither island maintained structured cannabis cultivation traditions comparable to the major Indonesian landrace regions, the plants that established themselves feral likely derive from multiple introduction events over time. The resulting populations are commonly described as genetically mixed, reflecting the varied origins of source material rather than a single coherent landrace. Grower and collector accounts treat these populations as phenotypically variable and genetically heterogeneous.
 
 ## Description
-
-- **Category:** Feral
-- **Type:** Feral hybrid population
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Variable — consistent with mixed genetic backgrounds and diverse microhabitats across both islands
 - **Flowering:** Variable; feral populations commonly show wide phenotypic diversity in flowering time
-- **Morphology:** Mixed; grower observations suggest a range of leaf widths and plant architectures reflecting diverse ancestry
-- **Terpene profile:** Accounts vary widely across individual plants and collection sites
-- **Effects:** Variable and difficult to generalize given the mixed genetic background
+- **Origin:** Indonesia (Southeast Asia)
+
+Mixed; grower observations suggest a range of leaf widths and plant architectures reflecting diverse ancestry. Accounts vary widely across individual plants and collection sites. Variable and difficult to generalize given the mixed genetic background.
 
 ## Grow Information
 

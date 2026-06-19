@@ -9,13 +9,16 @@ Bohemian Feral refers to naturalized cannabis populations found in the Czech Rep
 The Bohemian region — encompassing much of the western Czech Republic — was historically a productive hemp-growing area within the Central European agricultural tradition. Hemp cultivation in Bohemia dates back to the medieval period, when the plant was widely grown for fiber and seed. The region's fertile lowland soils and temperate climate were well suited to hemp production. After significant decline in the twentieth century, limited hemp cultivation has continued in the Czech Republic under EU regulations. The feral populations found in Bohemia today are considered the naturalized descendants of cultivated varieties, persisting in the landscape long after deliberate cultivation has ceased in many areas. They do not represent a distinct ancient landrace but rather the botanical legacy of a historic hemp-growing region.
 
 ## Description
-
-- **Type:** Hemp — fiber type with very low THC content
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — consistent with the stature of Central European hemp varieties in naturalized conditions
-- **Structure:** Upright hemp morphology; feral plants branching more freely than field-grown hemp under dense cultivation
 - **Flowering:** 10–14 weeks; photoperiod-dependent, typical of temperate European hemp ecotypes
-- **Adaptation:** Plants show adaptation to the temperate conditions of Bohemia, including the ability to complete their season within the Central European summer
-- **Variability:** Some variation is expected across different Bohemian localities, reflecting both the variety of hemp cultivars historically grown and the effects of long-term naturalization
+- **Climate:** Temperate / Continental
+- **Origin:** Czech Republic (Europe)
+
+Upright hemp morphology; feral plants branching more freely than field-grown hemp under dense cultivation. Plants show adaptation to the temperate conditions of Bohemia, including the ability to complete their season within the Central European summer. Some variation is expected across different Bohemian localities, reflecting both the variety of hemp cultivars historically grown and the effects of long-term naturalization.
 
 ## Grow Information
 

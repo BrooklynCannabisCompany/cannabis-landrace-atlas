@@ -9,14 +9,16 @@ Northern Myanmar Cloud Forest is a highland cloud-forest sativa landrace from th
 The northern highlands of Myanmar represent one of the world's great biological crossroads — a zone where plant communities from the Himalayas, the Hengduan Mountains of Yunnan, and mainland Southeast Asia overlap and intermix. Cannabis is broadly distributed across all three of these adjacent zones, and the cloud forest zone of northern Myanmar almost certainly served as a corridor for cannabis migration between them over many millennia. The human communities of this zone — Kachin, Naga, and numerous smaller highland ethnic groups — have maintained traditional plant cultivation in these forests for generations, though specific documentation of cannabis cultivation in the cloud forest zone is extremely sparse. This population is among the most obscure and least-documented in the atlas.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Highland cloud-forest landrace | Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — adapted to the open forest and agricultural clearings of the highland cloud forest zone
 - **Flowering:** Very long; 14–20 weeks — the cooler, lower-light conditions of the cloud forest zone likely drive the extended flowering period
-- **Morphology:** Highland sativa character; cloud forest conditions may produce more compact internode spacing and denser bud structure than lowland equatorial types
-- **Terpene profile:** Specific accounts are essentially absent from available literature; complex, cool-forest aromatic profiles — potentially piney, resinous, or earthy — are plausible given the cloud forest ecology
-- **Effects:** Sativa-dominant, cerebrally active expression inferred from classification and regional context
+- **Climate:** Tropical Rainforest
+- **Origin:** Myanmar (Southeast Asia)
+
+Highland sativa character; cloud forest conditions may produce more compact internode spacing and denser bud structure than lowland equatorial types. Specific accounts are essentially absent from available literature; complex, cool-forest aromatic profiles — potentially piney, resinous, or earthy — are plausible given the cloud forest ecology. Sativa-dominant, cerebrally active expression inferred from classification and regional context.
 
 ## Grow Information
 

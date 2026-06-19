@@ -9,13 +9,16 @@ The Xinjiang landrace refers to cannabis populations historically associated wit
 Cannabis cultivation in the Xinjiang region is associated with a long history tied to the oasis towns and pastoral communities of the Tarim and Junggar basins. The Silk Road passed through this territory, and hemp fibre and seed were commonly traded goods, making it plausible that the regional gene pool absorbed influences from Central Asian, South Asian, and East Asian sources over centuries. Whether any surviving population represents a stable, differentiated landrace or a mixture of introduced and feral types is not well documented. Grower accounts and ethnobotanical reports suggest that both hemp and drug-type plants occur in the region, consistent with its mixed type classification.
 
 ## Description
-
-Xinjiang cannabis populations are generally described as medium-height, with morphology intermediate between sativa and indica expressions — a pattern consistent with the region's position as a genetic crossroads. Adaptation to the desert steppe climate tends to produce plants that are drought-tolerant with compact internodal spacing during dry periods. Flowering is commonly reported in the 9–13 week range, allowing completion before the cold season closes in.
-
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** Approximately 9–13 weeks
-- **Climate adaptation:** Desert steppe — arid, high temperature variation, continental
-- **Type:** Sativa/indica mix — landrace/hemp
+- **Climate:** Desert steppe — arid, high temperature variation, continental
+- **Origin:** China (East Asia / North Asia)
+
+Xinjiang cannabis populations are generally described as medium-height, with morphology intermediate between sativa and indica expressions — a pattern consistent with the region's position as a genetic crossroads. Adaptation to the desert steppe climate tends to produce plants that are drought-tolerant with compact internodal spacing during dry periods. Flowering is commonly reported in the 9–13 week range, allowing completion before the cold season closes in.
 
 ## Grow Information
 

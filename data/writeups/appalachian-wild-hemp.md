@@ -9,12 +9,16 @@ Appalachian Wild Hemp refers to feral industrial hemp populations persisting in 
 Hemp cultivation has a long history in the eastern United States, including Appalachian states such as Kentucky, Virginia, and Tennessee. Following the decline of legal hemp production in the mid-twentieth century, naturalized hemp populations persisted across the rural landscape, surviving decades of herbicide pressure and selective eradication efforts. The Appalachian populations represent some of the older naturalized hemp gene pools in North America, shaped by decades of adaptation to the temperate forest climate of the eastern highlands. Formal genetic characterization of these specific feral populations is limited.
 
 ## Description
-
-- **Category:** Feral; descended from industrial fiber hemp with low-THC genetics
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Feral
+- **Chemotype:** Type IV (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall; fiber hemp varieties typically develop tall, straight stalks suited to fiber production
 - **Flowering:** 10–14 weeks; day-length responsive with photoperiod timing appropriate to temperate eastern US latitudes
 - **Climate:** Temperate forest — warm, humid summers; cold winters; moderate rainfall; deciduous forest ecosystem
-- **Morphology:** Consistent with fiber hemp morphology — tall, relatively unbranched main stalk, narrow medium leaflets, small diffuse flowers. High CBD or CBG content is reported, consistent with industrial hemp ancestry. THC content is expected to be very low (below legal thresholds).
+- **Origin:** United States (Americas)
+
+Consistent with fiber hemp morphology — tall, relatively unbranched main stalk, narrow medium leaflets, small diffuse flowers. High CBD or CBG content is reported, consistent with industrial hemp ancestry. THC content is expected to be very low (below legal thresholds).
 
 ## Grow Information
 

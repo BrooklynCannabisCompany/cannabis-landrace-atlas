@@ -9,12 +9,16 @@ Madagascar Coastal Lowlands is a feral sativa population associated with the hum
 Madagascar's geographic isolation from mainland Africa has produced a distinctive biodiversity across all living organisms, and its cannabis populations — while sharing broad African sativa characteristics — have developed in isolation from mainland African gene pools for an unknown period. Cannabis cultivation and naturalization in Madagascar is broadly attested, particularly in the eastern coastal lowlands and the interior highlands. The coastal lowland population is feral in status, with specific documentation of this ecotype as a distinct variety being minimal. It is best understood in the context of Madagascar's broader isolated island landrace tradition.
 
 ## Description
-
-- **Type:** Feral sativa population
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall
 - **Flowering:** Variable — typical of unselected feral populations
-- **Climate adaptation:** Humid coastal — warm, very high humidity, eastern trade wind rainfall, lowland tropical conditions
-- **Characteristics:** Fast growth and strong mold resistance are commonly noted, consistent with adaptation to persistently humid conditions
+- **Climate:** Humid coastal — warm, very high humidity, eastern trade wind rainfall, lowland tropical conditions
+- **Origin:** Madagascar (Africa)
+
+Fast growth and strong mold resistance are commonly noted, consistent with adaptation to persistently humid conditions.
 
 ## Grow Information
 

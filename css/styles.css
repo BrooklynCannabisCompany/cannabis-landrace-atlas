@@ -167,6 +167,15 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .facet-badge { font-family: inherit; cursor: pointer; }
 .facet-badge:hover { background: var(--green); color: #fff; border-color: var(--green); }
+/* Fast custom tooltip (body-anchored, never clipped by panel scroll) */
+.tooltip {
+  position: fixed; z-index: 3000; max-width: 260px;
+  background: #2b2b2b; color: #fff; font-size: 12px; line-height: 1.45;
+  padding: 7px 9px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+.tooltip[hidden] { display: none; }
+.facet-badge[data-tip], .panel-traits dd[data-tip] { cursor: help; }
 .panel-traits { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0; font-size: 14px; }
 .panel-traits dt { color: var(--muted); }
 .panel-traits dd { margin: 0; }
@@ -174,7 +183,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 
 /* Clickable fact value (faceted filter) */
 .facet {
-  background: none; border: none; padding: 0; font: inherit; cursor: pointer;
+  display: inline; text-align: left; background: none; border: none; padding: 0;
+  margin: 0; font: inherit; cursor: pointer;
   color: var(--green-dark); text-decoration: underline dotted;
 }
 .facet:hover { color: var(--green); text-decoration: underline; }

@@ -9,14 +9,16 @@ Karakoram Valley refers to cannabis populations originating in the high-altitude
 The Karakoram's cannabis populations exist in cultural and geographic proximity to the hash-making traditions of neighboring Afghanistan's Hindu Kush and Pakistan's Chitral and Dir districts, but the specific populations of the Karakoram valleys have received less collector attention than those of the Pathan belt to the south and west. The region's communities — predominantly Shina, Balti, and Burusho-speaking peoples — have traditional relationships with cannabis as a feral and semi-cultivated plant, though organized charas production is less documented here than in Chitral or the NWFP. The Karakoram valleys' extreme altitude and short season have shaped a distinct genetic population whose full characteristics remain incompletely documented.
 
 ## Description
-
-- **Type:** High-altitude landrace, indica-leaning
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 9–13 weeks — a slightly longer window reflecting altitude variability across the Karakoram valleys
 - **Climate:** Alpine valley
-- Adapted to intense UV radiation — trichome density is thought to serve in part as UV protection at extreme altitude
-- Cold-tolerant, compact morphology with broad leaflets characteristic of high-altitude indica populations
-- Low-humidity desert-alpine origin; plants are adapted to arid conditions and significant diurnal temperature swings
+- **Origin:** Pakistan (South Asia)
+
+Adapted to intense UV radiation — trichome density is thought to serve in part as UV protection at extreme altitude. Cold-tolerant, compact morphology with broad leaflets characteristic of high-altitude indica populations. Low-humidity desert-alpine origin; plants are adapted to arid conditions and significant diurnal temperature swings.
 
 ## Grow Information
 

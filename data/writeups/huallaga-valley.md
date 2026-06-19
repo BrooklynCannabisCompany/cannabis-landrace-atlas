@@ -9,12 +9,16 @@ Huallaga Valley refers to cannabis populations associated with the Huallaga Rive
 The Huallaga River Valley is best known outside Peru as a historically significant coca-growing region, and cannabis cultivation in the valley is believed to have developed in the context of the region's broader agricultural communities, particularly in the mid-to-upper valley around Tingo María and Aucayacu. The valley's position as an Andean-to-Amazon transition zone — with elevations ranging from roughly 600 to 1,800 meters along the cultivated corridor — has subjected resident cannabis populations to selection pressures from both mountain and jungle environments. The source record notes this as a "historic Peruvian cannabis region" combining Amazonian and Andean influences, suggesting the population has accumulated meaningful genetic history in the valley context.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with mid-elevation tropical sativas in the high selva zone
-- **Structure:** Likely openly branched with elongated floral structures; river valley populations in the Andean transition zone typically develop vigorous, tall plants in the rich alluvial soils of the valley floor
 - **Flowering:** 13–18 weeks — extended flowering consistent with the near-equatorial latitude and the tropical-Andean environment
-- **Aroma/Effect:** Not specifically documented; Peruvian Amazonian-Andean transition sativas are broadly associated with energetic effects
+- **Climate:** Tropical Rainforest
+- **Origin:** Peru (Americas)
+
+Likely openly branched with elongated floral structures; river valley populations in the Andean transition zone typically develop vigorous, tall plants in the rich alluvial soils of the valley floor. Not specifically documented; Peruvian Amazonian-Andean transition sativas are broadly associated with energetic effects.
 
 ## Grow Information
 

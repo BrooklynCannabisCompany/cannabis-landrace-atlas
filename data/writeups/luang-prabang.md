@@ -9,14 +9,16 @@ Luang Prabang is a sativa landrace associated with the area around Luang Prabang
 Luang Prabang has been a center of Lao civilization and Buddhist culture for centuries, and the surrounding region has long supported diverse agricultural traditions. Cannabis cultivation in the Luang Prabang area is plausibly ancient, embedded in the agricultural practices of both lowland Lao communities and the highland ethnic minorities inhabiting the mountains surrounding the Mekong valley. The region's prominence as a cultural and trading center may have facilitated the movement of cannabis genetics through the area over time, contributing to the complexity of the local population. Specific cultivation lineage documentation is not available; most accounts come from regional ethnobotanical observation and grower reports.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous mountain jungle sativa growth
 - **Flowering:** 12–15 weeks; moderate by highland Lao standards
-- **Morphology:** Consistent with highland northern Lao sativas; narrow leaflets and open structure adapted to mountain jungle conditions
-- **Terpene profile:** Not well-documented specifically; complex, aromatic profiles consistent with northern Lao mountain cannabis are inferred
-- **Effects:** Commonly described as exhibiting a high psychedelic expression — a notable characteristic that distinguishes this population within the Lao complex
+- **Climate:** Tropical Highland
+- **Origin:** Laos (Southeast Asia)
+
+Consistent with highland northern Lao sativas; narrow leaflets and open structure adapted to mountain jungle conditions. Not well-documented specifically; complex, aromatic profiles consistent with northern Lao mountain cannabis are inferred. Commonly described as exhibiting a high psychedelic expression — a notable characteristic that distinguishes this population within the Lao complex.
 
 ## Grow Information
 

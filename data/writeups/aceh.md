@@ -9,14 +9,16 @@ Aceh is a sativa landrace originating from the Aceh province at the northern tip
 Cannabis cultivation in Aceh has deep roots, with the plant historically used within the region's cultural, culinary, and traditional medicinal contexts long before modern prohibition. Aceh's relative geographic isolation — bounded by ocean on three sides and dense highland jungle inland — likely contributed to the development of a phenotypically consistent local population. Grower accounts and collector reports suggest the Aceh landrace has been maintained by local farming communities over many generations, though rigorous documentation of its cultivation lineage is scarce. The region's strongly Islamic cultural identity in the modern era has made ongoing cultivation increasingly clandestine.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — commonly reported to exceed 3 m under natural conditions
 - **Flowering:** Long, typically 11–15 weeks from photoperiod induction
-- **Morphology:** Grower accounts suggest narrow, elongated leaflets typical of equatorial sativa landraces, with loose, airy bud structure suited to the humid jungle climate
-- **Terpene profile:** Commonly described as intense, psychoactive, and jungle-forward — earthy, incense-like, and occasionally fruity notes are reported
-- **Effects:** Associated with a strong, cerebral, and long-lasting psychoactive experience
+- **Climate:** Tropical Rainforest
+- **Origin:** Indonesia (Southeast Asia)
+
+Grower accounts suggest narrow, elongated leaflets typical of equatorial sativa landraces, with loose, airy bud structure suited to the humid jungle climate. Commonly described as intense, psychoactive, and jungle-forward — earthy, incense-like, and occasionally fruity notes are reported. Associated with a strong, cerebral, and long-lasting psychoactive experience.
 
 ## Grow Information
 

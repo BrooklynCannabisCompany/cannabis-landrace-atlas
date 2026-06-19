@@ -9,12 +9,16 @@ Oregon Cascadia Wild Hemp refers to feral hemp populations documented in the Pac
 Hemp cultivation in Oregon and the broader Pacific Northwest dates to pioneer-era agriculture, when fiber hemp was grown by early settlers and later under wartime programs such as the U.S. government's "Hemp for Victory" initiative during World War II. Plants that escaped these cultivation efforts are thought to have established feral populations in the region, persisting in the mild, moist conditions of western Oregon's valleys and foothills. Grower accounts and naturalist observations suggest these feral lines have adapted over generations to the region's long, wet winters and cool summers. The precise ancestry of these populations is not documented in detail, and the category likely encompasses genetic material from multiple historical hemp introductions.
 
 ## Description
-
-- **Type:** Hemp/sativa mix — feral naturalized line
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with fiber hemp heritage
 - **Flowering:** 10–14 weeks, adapted to complete flowering before the onset of the Pacific Northwest's wet autumn season
-- **Climate adaptation:** Temperate rainforest — tolerant of prolonged moisture, overcast conditions, and mild but variable temperatures
-- **Potency:** As hemp-derived feral populations, THC levels are typically low; plants are not selected for cannabinoid content
+- **Climate:** Temperate rainforest — tolerant of prolonged moisture, overcast conditions, and mild but variable temperatures
+- **Origin:** United States (Americas)
+
+As hemp-derived feral populations, THC levels are typically low; plants are not selected for cannabinoid content.
 
 ## Grow Information
 

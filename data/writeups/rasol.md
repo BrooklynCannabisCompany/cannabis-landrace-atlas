@@ -9,11 +9,14 @@ Rasol is a mixed landrace from the Himalayan village of Rasol in Himachal Prades
 Rasol village sits at altitude in the Kullu district, embedded in a landscape where cannabis has grown wild and semi-cultivated for generations. The village is small and relatively remote, and cannabis has been part of the local ecology both as a subsistence crop and as a source of charas for regional trade. The reported prevalence of high-CBD phenotypes at Rasol is not well-documented in formal research, but grower accounts and seed hunters passing through the area have noted this characteristic. Whether this reflects intentional selection, genetic drift in an isolated population, or natural variation is not currently established.
 
 ## Description
-
-- **Type:** Mixed landrace
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type III (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** Commonly reported at 9–11 weeks
-- **Climate adaptation:** Himalayan village setting with cool temperatures, seasonal monsoon, and high-altitude sun exposure
+- **Climate:** Himalayan village setting with cool temperatures, seasonal monsoon, and high-altitude sun exposure
+- **Origin:** India (South Asia)
 
 Plants in this population are reported to vary — the mixed classification suggests both broader-leaflet indica-influenced plants and narrower-leaflet expressions may appear within a single seed lot. The noted high-CBD phenotypes make this population of particular interest to medical users and breeders seeking CBD-rich Himalayan genetics.
 

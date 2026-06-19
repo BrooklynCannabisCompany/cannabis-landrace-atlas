@@ -9,12 +9,16 @@ Malagasy Highland is a tall landrace population from Madagascar's central platea
 The term "Malagasy" simply refers to things of or relating to Madagascar, and the Malagasy Highland designation likely encompasses traditional cultivation communities of the central plateau — particularly those of the Merina, Betsileo, and neighboring highland peoples. Cannabis on Madagascar's central plateau has been part of the agricultural and social fabric for generations, though specific documentation of the Malagasy Highland as a distinct variety separate from other Madagascar highland material is limited. The mixed categorization may reflect phenotypic diversity across the highland range.
 
 ## Description
-
-- **Type:** Highland tropical landrace (mixed category)
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 12–16 weeks from equinox/flip — longer than the Madagascar Highland entry, suggesting populations from higher elevations or more equatorial-influenced areas
-- **Climate adaptation:** Tropical mountain — central plateau of Madagascar at moderate elevation, cooler and drier than coastal zones
-- **Gene pool:** Characterized as a unique African island gene pool; isolated from mainland African cannabis populations
+- **Climate:** Tropical mountain — central plateau of Madagascar at moderate elevation, cooler and drier than coastal zones
+- **Origin:** Madagascar (Africa)
+
+Characterized as a unique African island gene pool; isolated from mainland African cannabis populations.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Parvati Valley Complex is an indica-leaning resin complex from the Parvati River
 The Parvati Valley's global reputation for cannabis — specifically hand-rubbed charas — was established through the overland travel circuit of the 1960s and 1970s and has grown steadily since. The valley has been a destination for cannabis tourists, collectors, and breeders from around the world, making it one of the most thoroughly reported Indian landrace zones in enthusiast literature. Traditional charas production in the valley is associated with seasonal cultivation at mid-to-high altitudes and a harvest technique involving hand-rubbing of live plants to collect fresh resin. The "complex" encompasses the genetic diversity of plants growing across a substantial elevational range, from warmer lower-valley populations to the high-altitude Malana ecotype.
 
 ## Description
-
-- **Type:** Indica-leaning resin complex
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–10 weeks
 - **Climate:** Alpine valley
-- The defining characteristic across the complex is abundant resin production suited to hand-rubbing charas
-- Morphology varies across the elevational range of the valley: more compact and highly resinous at the highest elevations; slightly taller and more open at lower elevations
-- Effect and aroma profiles vary across the sub-populations but are generally described as heavy, relaxing, and hash-forward, with earthy-spice or sweet-resin aromas
+- **Origin:** India (South Asia)
+
+The defining characteristic across the complex is abundant resin production suited to hand-rubbing charas. Morphology varies across the elevational range of the valley: more compact and highly resinous at the highest elevations; slightly taller and more open at lower elevations. Effect and aroma profiles vary across the sub-populations but are generally described as heavy, relaxing, and hash-forward, with earthy-spice or sweet-resin aromas.
 
 ## Grow Information
 

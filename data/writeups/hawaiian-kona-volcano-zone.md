@@ -9,12 +9,16 @@ The Hawaiian Kona / Volcano Zone landrace-type population is associated with the
 The Kona and volcano zone of the Big Island became associated with quality cannabis cultivation during Hawaii's peak outdoor growing era, benefiting from the area's unique volcanic soil fertility and relatively dry, sunny conditions on the western slope. The relationship between Kona-region cannabis and the area's famous coffee production (which shares the same volcanic highland terroir) is frequently noted in informal accounts. This population overlaps conceptually with Kona Gold but represents a somewhat broader ecological zone encompassing both the Kona coast and the volcanic uplands around Kilauea and Mauna Loa.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium-tall; altitude and volcanic terrain moderate growth compared to pure lowland tropical conditions
 - **Flowering:** 10–13 weeks; relatively compact for a Hawaiian population, reflecting altitude adaptation and possibly the influence of cooler temperatures at elevation
 - **Climate:** Volcanic tropical — intense sunlight, fertile volcanic soils, moderate temperatures at altitude, rain shadow on the western slope, trade wind influence
-- **Morphology:** Altitude-adapted island sativa structure — typically medium-tall with good resin development in response to high UV radiation at elevation. Terpene profiles in accounts of this zone often reference tropical fruit, spice, and earthy volcanic-soil notes.
+- **Origin:** Hawaii (Americas)
+
+Altitude-adapted island sativa structure — typically medium-tall with good resin development in response to high UV radiation at elevation. Terpene profiles in accounts of this zone often reference tropical fruit, spice, and earthy volcanic-soil notes.
 
 ## Grow Information
 

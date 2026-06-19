@@ -9,12 +9,16 @@ Colombian Amazon Interior refers to feral cannabis populations associated with t
 The Colombian Amazon interior is predominantly indigenous territory, home to dozens of distinct peoples with minimal external contact in many areas. Cannabis in this context is believed to be largely feral — naturalized rather than intentionally cultivated — derived from plants introduced along river routes and trade corridors connecting the interior to more populated regions. The specific history of cannabis dispersal into Colombia's deep Amazon interior is not documented in the published literature. The "deep Amazon diversity" characterization in the source record reflects the population's potential genetic breadth rather than any documented trait profile.
 
 ## Description
-
-- **Category:** Feral
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — unmanaged equatorial feral Cannabis in undisturbed or lightly disturbed rainforest environments is typically tall
-- **Structure:** Variable; feral populations in complex jungle environments show wide morphological diversity
 - **Flowering:** Variable — near-equatorial latitudes in the Colombian Amazon provide minimal seasonal day-length cues, resulting in irregular or extended flowering behavior in feral individuals
-- **Aroma/Effect:** Not documented
+- **Climate:** Tropical Rainforest
+- **Origin:** Colombia (Americas)
+
+Variable; feral populations in complex jungle environments show wide morphological diversity. Not documented.
 
 ## Grow Information
 

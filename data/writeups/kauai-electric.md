@@ -9,12 +9,16 @@ Kauai Electric is a rare Hawaiian cannabis population associated with Kauaʻi Is
 Kauaʻi's relative isolation within the Hawaiian chain and its reputation as a more traditionally oriented, less urbanized island gave it a distinct character within Hawaii's cannabis cultivation history. The designation "Kauai Electric" is referenced in Hawaiian cannabis culture as a distinct regional expression rather than a documented formal collection, and specific provenance information is limited. The strain's name suggests an association with the intensity of the experience reported by growers and consumers, consistent with accounts of classic Hawaiian sativas. Most available information comes from informal collector accounts rather than systematic documentation.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Very tall; Kauaʻi's exceptionally fertile volcanic soils and high rainfall support vigorous growth
 - **Flowering:** 12–18 weeks; long flowering consistent with a pure tropical island sativa adapted to Kauaʻi's near-equatorial light regime
 - **Climate:** Tropical island — very high rainfall (particularly on windward slopes), intense sunlight, volcanic soils, warm temperatures year-round, strong trade wind influence
-- **Morphology:** Grower accounts describe a tall, vigorous sativa with the intensity of terpene and cannabinoid expression associated with classic Hawaiian island cannabis. Volcanic soil mineral richness may contribute to distinctive terpene profiles, though specific characterization is not formally documented.
+- **Origin:** Hawaii (Americas)
+
+Grower accounts describe a tall, vigorous sativa with the intensity of terpene and cannabinoid expression associated with classic Hawaiian island cannabis. Volcanic soil mineral richness may contribute to distinctive terpene profiles, though specific characterization is not formally documented.
 
 ## Grow Information
 

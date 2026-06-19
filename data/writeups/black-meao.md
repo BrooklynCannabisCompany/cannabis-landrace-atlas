@@ -9,16 +9,16 @@ Black Meao is a highland sativa landrace associated with the Hmong (Meao) commun
 The Hmong (historically also called Meao or Miao) are a highland ethnic group with a long presence across the mountainous borderlands of Northern Thailand, Laos, and southern China. Cannabis cultivation is commonly reported as having been woven into Hmong agricultural and cultural life across these highland zones for generations. The Black Meao population is specifically associated with Hmong cultivation traditions in Northern Thailand's high-elevation villages, where isolation and altitude likely drove selection for traits suited to monsoon conditions, cooler nights, and long growing seasons. Grower accounts and collector documentation have brought wider attention to this population outside Thailand, though formal ethnobotanical records remain sparse.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Highland landrace | Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous development suited to open highland cultivation
 - **Flowering:** Very long; 14–20 weeks is commonly reported, reflecting adaptation to the extended growing season of Thai mountain elevations
-- **Morphology:** Narrow-leaf morphology typical of Southeast Asian highland sativas; grower accounts suggest a classic Thai structure with elongated internodes and airy bud formation
-- **Terpene profile:** Commonly described as incense, spice, and tropical fruit — characteristic of high-altitude Northern Thai cannabis
-- **Effects:** Associated with the cerebral, long-duration psychoactive expression typical of traditional Thai highland genetics
+- **Climate:** Tropical Highland
+- **Origin:** Thailand (Southeast Asia)
 
-_Recorded locality detail: Chiang Mai / Chiang Rai Region._
+Narrow-leaf morphology typical of Southeast Asian highland sativas; grower accounts suggest a classic Thai structure with elongated internodes and airy bud formation. Commonly described as incense, spice, and tropical fruit — characteristic of high-altitude Northern Thai cannabis. Associated with the cerebral, long-duration psychoactive expression typical of traditional Thai highland genetics. _Recorded locality detail: Chiang Mai / Chiang Rai Region._.
 
 ## Grow Information
 

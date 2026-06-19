@@ -7,10 +7,16 @@ Pamir Gold is a highland landrace derived from populations adapted to the high e
 The Pamir Mountains of Tajikistan, sometimes called the "Roof of the World," represent one of the most isolated and environmentally challenging environments where cannabis cultivation or naturalization has been documented. Grower accounts and seed hunter reports suggest that cannabis populations in the accessible lower valleys of the Tajik Pamirs show remarkable adaptation to UV radiation, temperature extremes, and thin mountain soils. The "Gold" designation likely reflects the amber or golden resin coloration commonly associated with sun-cured mountain hashish from this region, or possibly the plant's appearance at maturity in its native highland environment. Specific documented collection history for Pamir Gold as a named line is limited.
 
 ## Description
-- Medium stature intermediate between indica and sativa expression.
-- Strong UV tolerance and cold resistance are primary adaptive traits.
-- Dense trichome production associated with high-altitude UV adaptation.
-- Aromas and specific cannabinoid profiles are not well documented for this population.
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 10–14 weeks
+- **Climate:** Tropical Highland
+- **Origin:** Tajikistan (Middle East / Central Asia)
+
+Medium stature intermediate between indica and sativa expression. Strong UV tolerance and cold resistance are primary adaptive traits. Dense trichome production associated with high-altitude UV adaptation. Aromas and specific cannabinoid profiles are not well documented for this population.
 
 ## Grow Information
 Adapted to alpine mountain conditions in the Tajik Pamirs: very high UV, cold nights even in summer, short frost-free season, and extremely low humidity. Flowering runs 10–14 weeks — a wide range reflecting the intermediate character and genetic diversity of highland Pamir populations. Cold hardiness is exceptional. The extended maturation window is suited to the short Pamir growing season, and plants likely begin flowering early to complete before the first autumn frosts. Performance in humid climates is expected to be limited given the native aridity of Pamir high valleys.

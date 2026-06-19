@@ -9,13 +9,16 @@ The Lena River Basin population is an extreme northern feral cannabis population
 Cannabis reaching the Lena River Basin almost certainly arrived through human agency — the region was traveled by indigenous Siberian peoples and later by Russian settlers and trappers moving eastward across Siberia. Plants that survived and naturalized at these latitudes were subject to some of the most demanding natural selection pressures cannabis is known to have faced: subarctic growing seasons of only a few months, permafrost soils, and extreme cold. That cannabis has naturalized here at all is remarkable, and the specific population is likely the product of both historical introduction and subsequent adaptation over many generations. Formal scientific study of this population is extremely limited.
 
 ## Description
-
-- **Type:** Extreme northern feral population; intermediate indica-sativa character
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium — growth is constrained by the short season and harsh conditions
-- **Structure:** Compact relative to temperate populations; adapted to make maximum use of a very short warm window
-- **Leaf structure:** Likely broad to intermediate, with indica-leaning morphology consistent with cold-adapted populations
 - **Flowering:** 10–13 weeks, among the fastest-completing non-autoflowering cannabis types
-- **Aroma/effect:** Not documented; feral subarctic populations are not selected for resin
+- **Climate:** Boreal / Subarctic
+- **Origin:** Russia (East Asia / North Asia)
+
+Compact relative to temperate populations; adapted to make maximum use of a very short warm window. Likely broad to intermediate, with indica-leaning morphology consistent with cold-adapted populations. Not documented; feral subarctic populations are not selected for resin.
 
 ## Grow Information
 

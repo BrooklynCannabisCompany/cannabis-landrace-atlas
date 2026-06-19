@@ -9,12 +9,16 @@ The Sangha Basin entry describes a feral rainforest cannabis population associat
 The Sangha Basin is part of the larger Congo Basin rainforest — the second-largest tropical rainforest on Earth — and is among the most sparsely populated and least accessible regions of central Africa. Formal documentation of cannabis in the Sangha River area is essentially absent from published botanical or ethnobotanical literature. Any cannabis growing in this region is almost certainly feral, reproducing through naturalized seed dispersal in the rainforest understory or at forest edges. The gene pool in such an environment would be shaped entirely by ecological selection rather than human breeding, making it potentially a unique reservoir of equatorial rainforest-adapted genetics.
 
 ## Description
-
-- **Category:** Feral — reproducing without human management in the equatorial rainforest environment
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — adapted to compete for light in a closed-canopy rainforest, with elongated growth reaching toward canopy gaps
-- **Structure:** Open and elongated; likely sparse-branching to navigate understory light competition
 - **Flowering:** 12–18 weeks — long flowering window typical of equatorial feral populations where seasonal photoperiod changes are minimal
-- **Aroma/Effect:** Entirely undocumented; this population is essentially unexplored from any consumer or research perspective
+- **Climate:** Tropical Rainforest
+- **Origin:** Congo (Africa)
+
+Open and elongated; likely sparse-branching to navigate understory light competition. Entirely undocumented; this population is essentially unexplored from any consumer or research perspective.
 
 ## Grow Information
 

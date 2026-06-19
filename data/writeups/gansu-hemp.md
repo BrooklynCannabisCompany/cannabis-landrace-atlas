@@ -9,13 +9,16 @@ Gansu Hemp is an ancient fiber and seed hemp selection associated with Gansu Pro
 China is widely regarded as one of the earliest sites of cannabis cultivation, with documented use of hemp fiber and seed dating back thousands of years in ancient Chinese records. Gansu, as part of the northwestern agricultural heartland and a gateway to Central Asia, is commonly associated with early Chinese hemp cultivation traditions. Selection in this region has historically emphasized fiber quality and seed production under steppe conditions. The population is considered an ancient Chinese selection line, though the precise genealogy of surviving Gansu hemp strains is not well documented in accessible sources.
 
 ## Description
-
-- **Type:** Hemp — fiber and seed selection
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with fiber hemp types bred for long stalk production
-- **Stem:** Typically sturdy and upright with minimal branching, as is characteristic of dense-sown fiber hemp cultivation
-- **Leaf structure:** Likely intermediate to narrow, adapted to the drier, sunnier conditions of northwestern China
 - **Flowering:** 10–14 weeks under steppe photoperiod conditions
-- **Cannabinoid profile:** Low THC, as expected of a traditional fiber/hemp selection; CBD content undocumented
+- **Climate:** Steppe / Semi-arid
+- **Origin:** China (East Asia / North Asia)
+
+Typically sturdy and upright with minimal branching, as is characteristic of dense-sown fiber hemp cultivation. Likely intermediate to narrow, adapted to the drier, sunnier conditions of northwestern China. Low THC, as expected of a traditional fiber/hemp selection; CBD content undocumented.
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ Enga Province is the most westerly of Papua New Guinea's highland provinces and 
 The history of cannabis cultivation in Enga Province is not formally documented in the academic or horticultural literature. The province's historically limited contact with outside influences, combined with its strong traditional community structures, suggests that any cannabis cultivation that occurred developed largely in isolation. No verified breeder collection records or formal seed-saving accounts are known for this specific population. Regional context suggests that, as with other remote PNG highland provinces, cannabis cultivation would have been integrated into local subsistence and informal trade contexts rather than commercial supply chains.
 
 ## Description
-
-- **Type:** Sativa landrace.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall; consistent with PNG highland sativas in general.
 - **Flowering:** 12–16 weeks, typical of equatorial highland cannabis adapted to long growing seasons.
 - **Climate:** Mountain highland — high altitude, cool nights, significant rainfall, strong daytime sun.
-- **Category:** Cultivated sativa landrace from a remote, tribally organized cultivation zone.
+- **Origin:** Papua New Guinea (Oceania)
+
+Enga Province is a cultivated sativa landrace from a remote, tribally organized cultivation zone. landrace (Narrow-Leaf Drug) from Papua New Guinea (Oceania).
 
 ## Grow Information
 

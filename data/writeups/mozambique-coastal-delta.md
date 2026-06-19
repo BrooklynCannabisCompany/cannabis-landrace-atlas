@@ -9,12 +9,16 @@ The Mozambique Coastal Delta landrace is a tall, coastal sativa landrace from th
 Mozambique has a long history of cannabis cultivation, and coastal populations like this one are thought to have been influenced by centuries of Indian Ocean maritime trade connecting East Africa with South Asia, the Arabian Peninsula, and island territories. Grower accounts suggest that populations along Mozambique's coastal deltas and estuaries developed robust adaptation to salt air, seasonal flooding, and the intense heat of the lowland tropics. Specific documentation of this landrace's origins or distinct lineage is limited, but its coastal provenance is consistent with broader patterns of cannabis dispersal through Indian Ocean trade networks.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — adapted to the open, sun-drenched coastal environment of Mozambique's delta regions
-- **Structure:** Vigorous, open-branched growth typical of tropical coastal sativas; likely with elongated internodes suited to humid, warm conditions
 - **Flowering:** 11–15 weeks — within the typical range for equatorial and near-equatorial African sativas
-- **Aroma/Effect:** Specific terpene profiles for this population are not well established; coastal Mozambican landraces are generally associated with energetic, uplifting effects
+- **Climate:** Tropical Lowland
+- **Origin:** Mozambique (Africa)
+
+Vigorous, open-branched growth typical of tropical coastal sativas; likely with elongated internodes suited to humid, warm conditions. Specific terpene profiles for this population are not well established; coastal Mozambican landraces are generally associated with energetic, uplifting effects.
 
 ## Grow Information
 

@@ -9,14 +9,16 @@ Cambodian Native refers to a sativa landrace associated with the lowland tropica
 Cambodia has a documented history of cannabis use extending back centuries, with the plant historically embedded in Khmer culinary traditions — notably its use in traditional cooking — as well as broader cultural and informal medicinal contexts. The lowland Cambodian cannabis population developed under conditions quite different from the highland strains of Thailand or Myanmar, shaped by the flat, warm, and seasonally flooded landscape of the Cambodian interior. During the latter part of the twentieth century, Cambodian cannabis gained some international recognition, though the specific genetic lineages of lowland Cambodian populations remain poorly documented in the formal literature.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous growth typical of tropical lowland sativas
 - **Flowering:** 11–14 weeks; relatively fast for a Southeast Asian sativa, reflecting lowland tropical adaptation
-- **Morphology:** Narrow-leaflet sativa structure; bud formation adapted to warm, humid lowland conditions
-- **Terpene profile:** Accounts are limited; tropical and earthy aromas are generally associated with lowland Cambodian cannabis
-- **Effects:** Commonly associated with energetic, cerebral sativa expression
+- **Climate:** Tropical Lowland
+- **Origin:** Cambodia (Southeast Asia)
+
+Narrow-leaflet sativa structure; bud formation adapted to warm, humid lowland conditions. Accounts are limited; tropical and earthy aromas are generally associated with lowland Cambodian cannabis. Commonly associated with energetic, cerebral sativa expression.
 
 ## Grow Information
 

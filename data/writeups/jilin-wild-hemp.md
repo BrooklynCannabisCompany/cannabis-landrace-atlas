@@ -9,12 +9,15 @@ Jilin Wild Hemp is a Chinese ruderalis hemp population naturalized in Jilin Prov
 Jilin Province has a history of hemp cultivation stretching back centuries, primarily for fiber and seed production. As cultivated hemp escaped into the landscape and naturalized, populations in the harshest microclimates would have been strongly selected for early finishing and cold tolerance. The result is a population that is now effectively wild, completing its cycle irrespective of day length — a trait that likely emerged through repeated cycles of natural selection in an environment that offers no tolerance for late-maturing plants. Specific academic documentation of the Jilin Wild Hemp population is limited in accessible sources.
 
 ## Description
-
-- **Type:** Chinese ruderalis hemp
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Wild
 - **Height:** Likely short to medium-short, consistent with northern ruderalis and auto-adapted types
-- **Structure:** Compact; reduced leaf area and branching typical of cold-stressed feral populations
 - **Flowering:** Autoflowering — completes regardless of photoperiod; cycle duration not precisely documented but expected to be rapid under cold-adapted selection
-- **Cannabinoid profile:** Minimal psychoactive potency expected; primarily of interest as a hemp-type ruderalis
+- **Origin:** China (East Asia / North Asia)
+
+Compact; reduced leaf area and branching typical of cold-stressed feral populations. Minimal psychoactive potency expected; primarily of interest as a hemp-type ruderalis.
 
 ## Grow Information
 

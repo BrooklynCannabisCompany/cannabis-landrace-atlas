@@ -9,13 +9,16 @@ Baltic Coastal refers to naturalized feral hemp populations found along the coas
 Hemp cultivation has a deep history throughout the Baltic region, which was historically one of Northern Europe's most significant hemp-producing areas. During the era of tall-ship navigation, Baltic hemp was highly prized for rope and sailcloth, and it was exported in large quantities to naval powers across Europe. The Baltic states' coastlines and river estuaries were key nodes in this trade. Over centuries, cultivated hemp naturalized along roadsides, dunes, and coastal margins throughout the region. The feral populations found today along the Baltic coast are generally understood to descend from this long history of cultivation rather than representing an undisturbed wild cannabis population. No specific landraces or breeders are documented in connection with this coastal feral type.
 
 ## Description
-
-- **Type:** Hemp — fiber type; very low THC content consistent with the cultivated hemp tradition of Northern Europe
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — typical of naturalized hemp in exposed coastal conditions, where plant stature may be somewhat reduced by wind and salt stress compared to sheltered inland populations
-- **Structure:** Upright hemp morphology with adaptation to coastal exposure; plants may be somewhat more compact than inland equivalents
 - **Flowering:** 10–14 weeks; photoperiod-dependent, fitting the Northern European growing season
-- **Salt resistance:** A distinctive reported characteristic of this coastal population; grower and naturalist accounts suggest tolerance for the salt-spray environment of the Baltic coast
-- **Cold hardiness:** The maritime cold climate of the Baltic coast selects for plants capable of tolerating cool growing conditions and early autumn temperature drops
+- **Climate:** Temperate / Continental
+- **Origin:** Baltics (Europe)
+
+Upright hemp morphology with adaptation to coastal exposure; plants may be somewhat more compact than inland equivalents. A distinctive reported characteristic of this coastal population; grower and naturalist accounts suggest tolerance for the salt-spray environment of the Baltic coast. The maritime cold climate of the Baltic coast selects for plants capable of tolerating cool growing conditions and early autumn temperature drops.
 
 ## Grow Information
 

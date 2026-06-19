@@ -9,13 +9,16 @@ The Ivory Coast (Côte d'Ivoire) entry describes a feral sativa complex associat
 Ivory Coast's southern coastal zone is part of the Upper Guinean forest ecosystem, one of West Africa's most biodiverse and historically significant forest regions. Cannabis in this area occupies a feral and semi-cultivated status, part of a broader equatorial West African cannabis tradition. The Liberia Belt feral sativa complex, of which this population is a part, encompasses material from Ivory Coast, Liberia, Sierra Leone, and neighboring countries — a region where traditional cannabis use has occurred for generations but specific documentation of distinct sub-populations is limited. The mango-fruit expression noted in grower accounts aligns with terpene profiles commonly associated with West African sativa populations.
 
 ## Description
-
-- **Type:** Feral sativa complex (Liberia Belt)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall
 - **Flowering:** Approximately 11–16 weeks from equinox; variable across phenotypes
-- **Climate adaptation:** Rainforest coastal — equatorial humidity, heavy rainfall, coastal West African conditions
-- **Aroma/Effect:** Commonly associated with mango and tropical fruit terpene expressions; mold resistance noted
-- **Genetic status:** Feral, with high phenotypic variability expected across the complex
+- **Climate:** Rainforest coastal — equatorial humidity, heavy rainfall, coastal West African conditions
+- **Origin:** Ivory Coast (Africa)
+
+Commonly associated with mango and tropical fruit terpene expressions; mold resistance noted. Feral, with high phenotypic variability expected across the complex.
 
 ## Grow Information
 

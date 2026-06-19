@@ -9,14 +9,16 @@ Kumaoni is a sativa landrace from the Kumaon division of Uttarakhand, India — 
 Kumaon has a well-established ethnobotanical relationship with cannabis, referenced in colonial-era and post-independence Indian literature on hill agriculture and folk botany. The region's cannabis is associated with ganja (dried flower) rather than charas, reflecting its lower-altitude and more temperate character compared to the higher Himachali districts. Collector documentation of the specific Kumaoni landrace type is less extensive than for the more celebrated Himachali or Nepalese populations, but the region's material has been noted by Indian landrace researchers as representing a distinct upland genetic type. Its position in the Himalayan foothills makes it potentially important as a genetic bridge between subtropical lowland populations and high-altitude mountain types.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 10–13 weeks
 - **Climate:** Himalayan foothills
-- "Balanced upland expression": intermediate between lowland tropical sativas and high-altitude alpine types in both morphology and effect
-- Tall but not extreme stature; narrower leaflets and extended internodes typical of mid-altitude Himalayan sativas
-- Aroma and effect profiles are not extensively documented; regional analogues suggest earthy, green, moderately resinous characteristics
+- **Origin:** India (South Asia)
+
+"Balanced upland expression": intermediate between lowland tropical sativas and high-altitude alpine types in both morphology and effect. Tall but not extreme stature; narrower leaflets and extended internodes typical of mid-altitude Himalayan sativas. Aroma and effect profiles are not extensively documented; regional analogues suggest earthy, green, moderately resinous characteristics.
 
 ## Grow Information
 

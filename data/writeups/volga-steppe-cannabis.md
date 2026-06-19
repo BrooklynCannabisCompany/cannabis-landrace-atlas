@@ -9,12 +9,16 @@ Volga Steppe Cannabis refers to a hemp and Ruderalis-mixed feral population foun
 Hemp cultivation has deep historical roots across the Volga-steppe region, where the plant was grown for fiber and seed as part of traditional Russian agricultural practice. Over time, cultivated hemp escaped into the surrounding steppe landscape and interbred with naturalized Ruderalis populations, producing the mixed Ruderalis–hemp type described here. The resulting populations are not the product of deliberate selection but rather of long-term naturalization under the selective pressure of a dry steppe climate. Documentation of this specific population is sparse; what is known draws largely on the general pattern of Russian steppe cannabis ecology.
 
 ## Description
-
-- **Type:** Ruderalis–Hemp mix; a blend of fiber hemp heritage and feral Ruderalis characteristics
+- **Morphotype:** Ruderalis (wild-type)
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Wild
 - **Height:** Medium — taller than pure Ruderalis types but generally shorter than full fiber hemp, consistent with intermediate feral stature
-- **Drought adaptation:** Plants are associated with reduced water requirements and the ability to survive on the lower rainfall typical of the dry steppe
 - **Flowering:** 8–12 weeks; the range reflects the mixed heritage, with some plants showing earlier autoflowering tendencies from the Ruderalis component
-- **Cold tolerance:** Commonly described as capable of withstanding cold nights and early frosts, a key adaptation for survival in the continental steppe
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Russia (Europe)
+
+Plants are associated with reduced water requirements and the ability to survive on the lower rainfall typical of the dry steppe. Commonly described as capable of withstanding cold nights and early frosts, a key adaptation for survival in the continental steppe.
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ The Venezuela Mérida Highlands landrace is associated with the Mérida region o
 Mérida state in Venezuela has a long agricultural tradition shaped by Andean highland conditions, with communities historically cultivating crops adapted to cool temperatures and thin mountain air. The cannabis population associated with the Mérida highlands is not extensively documented in formal botanical literature, and available references are primarily from grower and landrace collector networks. The population's "cold-adapted ecotype" characterization suggests selection pressure from the relatively cold and variable climate of the Mérida sierra compared to lower Venezuelan highland zones.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; highland sativas in this zone commonly develop elongated structures suited to high-altitude light conditions
 - **Flowering:** 11–14 weeks; somewhat tighter than broader Venezuelan Andes estimates, suggesting adaptation to the Mérida highland's specific seasonal light and temperature patterns
 - **Climate:** Andes highland — cool temperatures, frequent cloud and mist, strong UV at altitude, pronounced diurnal variation
-- **Morphology:** Cold-adapted highland sativas typically show narrower leaflets, moderate to dense resin development, and resilience to temperature swings. The Mérida population's cold adaptation is its most notable reported trait, though detailed morphological documentation is limited.
+- **Origin:** Venezuela (Americas)
+
+Cold-adapted highland sativas typically show narrower leaflets, moderate to dense resin development, and resilience to temperature swings. The Mérida population's cold adaptation is its most notable reported trait, though detailed morphological documentation is limited.
 
 ## Grow Information
 

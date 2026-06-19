@@ -9,12 +9,16 @@ Eastern Cape Wild is a tall sativa landrace associated with the Eastern Cape pro
 South Africa's Eastern Cape has a long history of cannabis cultivation, historically known as "dagga" in local Xhosa and Sotho traditions. The region's relatively temperate climate compared to the more tropical north produced locally adapted populations with somewhat different characteristics from northern South African landraces. The Eastern Cape Wild designation refers to material that has persisted or naturalized in this region, though specific documented history of this population as a named variety is limited. It is understood as part of the broader South African sativa landrace tradition.
 
 ## Description
-
-- **Type:** Sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Approximately 10–13 weeks from equinox/flip
-- **Climate adaptation:** South African temperate coast — milder than tropical interior zones, with Indian Ocean maritime influence
-- **Aroma/Effect:** Grower accounts associate a sour plum terpene note; commonly described as suited for daytime use, consistent with a clear-headed sativa effect
+- **Climate:** South African temperate coast — milder than tropical interior zones, with Indian Ocean maritime influence
+- **Origin:** South Africa (Africa)
+
+Grower accounts associate a sour plum terpene note; commonly described as suited for daytime use, consistent with a clear-headed sativa effect.
 
 ## Grow Information
 

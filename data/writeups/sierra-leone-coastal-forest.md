@@ -9,12 +9,16 @@ Sierra Leone Coastal Forest describes a feral sativa population from the humid c
 Sierra Leone's history includes extensive interaction with Atlantic maritime trade, and cannabis populations in the coastal zone may reflect a long history of cultivation and naturalization across West Africa's tropical lowland rainforest. As a feral population, the Sierra Leone Coastal Forest type is thought to persist through naturalized seed dispersal rather than active cultivation, though local use likely occurs. The intense natural selection pressure of a humid coastal rainforest — one of the world's most biologically demanding environments — would have strongly selected for mold resistance, rapid growth, and efficient light capture. Formal documentation of this specific population is essentially absent.
 
 ## Description
-
-- **Category:** Feral — reproducing without intentional cultivation in the coastal rainforest environment
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — consistent with equatorial feral sativas adapting to compete for light in a dense jungle environment
-- **Structure:** Vigorous and fast-growing; open, elongated branching to capture light in the canopy understory
 - **Flowering:** 11–15 weeks — within the typical range for equatorial West African feral populations
-- **Aroma/Effect:** Not documented for this population; feral populations in general have highly variable and undocumented sensory or effect profiles
+- **Climate:** Tropical Rainforest
+- **Origin:** Sierra Leone (Africa)
+
+Vigorous and fast-growing; open, elongated branching to capture light in the canopy understory. Not documented for this population; feral populations in general have highly variable and undocumented sensory or effect profiles.
 
 ## Grow Information
 

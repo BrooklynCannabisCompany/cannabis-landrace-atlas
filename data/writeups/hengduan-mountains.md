@@ -9,12 +9,16 @@ The Hengduan Mountains cannabis population originates from the Hengduan Mountain
 The Hengduan Mountains have acted as both a corridor and a barrier in the movement of plant species across the Tibetan-Yunnan interface. Cannabis moving between the Tibetan Plateau and the warmer Yunnan valleys would have passed through or naturalized in this range. The region's ethnic diversity — numerous minority groups have historically inhabited the Hengduan valleys — suggests that cannabis may have been maintained for both practical and cultural purposes across different communities. Specific documented research on the Hengduan Mountain cannabis population is sparse; most characterization is inferential, based on the region's ecology and broader Yunnan landrace knowledge.
 
 ## Description
-
-- **Type:** Highland cannabis population with mixed character
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, consistent with vigorous mountain cannabis in the sheltered river valleys of the Hengduan system
-- **Leaf structure:** Likely intermediate, reflecting the genetic convergence of Tibetan highland and Yunnan subtropical types
 - **Flowering:** 12–18 weeks — an extended season typical of highland cannabis populations at these latitudes
-- **Aroma/effect:** Not characterized in available literature; the intersection of Tibetan and Yunnan genetic influences suggests potential complexity
+- **Climate:** Tropical Highland
+- **Origin:** China (East Asia / North Asia)
+
+Likely intermediate, reflecting the genetic convergence of Tibetan highland and Yunnan subtropical types. Not characterized in available literature; the intersection of Tibetan and Yunnan genetic influences suggests potential complexity.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Balkan Population entry represents a traditional intermediate cannabis popul
 Cannabis cultivation in the Balkans has deep roots, with hemp documented in the region from antiquity through the Ottoman period and into modern times. Serbia's position at the confluence of Central European and Southeastern European trade networks meant cannabis genetics moved through the region repeatedly — from Anatolia via Ottoman expansion, from Central Asia via steppe corridors, and from the Mediterranean via Adriatic and Aegean sea routes. The resulting Balkan population is understood as a composite reflecting this long history of genetic mixing and agricultural selection across diverse Balkan ecologies.
 
 ## Description
-
-As a medium-tall, intermediate (indica–sativa) landrace with a 9–14 week flowering window, Balkan Population plants reflect the genetic diversity of a region that served as a bridge between indica-leaning Anatolian and Central Asian types and sativa-leaning Mediterranean populations. Plants are commonly described as vigorous and adaptable, with variable morphology reflecting the mixed heritage of the regional gene pool. The continental-Mediterranean climate of Serbia — hot summers, cold winters, moderate humidity — has shaped a population with broad climatic tolerance.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium-tall
 - **Flowering:** 9–14 weeks
-- **Type:** Intermediate (Indica–Sativa) regional landrace
 - **Climate:** Continental-Mediterranean
+- **Origin:** Serbia (Europe)
+
+As a medium-tall, intermediate (indica–sativa) landrace with a 9–14 week flowering window, Balkan Population plants reflect the genetic diversity of a region that served as a bridge between indica-leaning Anatolian and Central Asian types and sativa-leaning Mediterranean populations. Plants are commonly described as vigorous and adaptable, with variable morphology reflecting the mixed heritage of the regional gene pool. The continental-Mediterranean climate of Serbia — hot summers, cold winters, moderate humidity — has shaped a population with broad climatic tolerance.
 
 ## Grow Information
 

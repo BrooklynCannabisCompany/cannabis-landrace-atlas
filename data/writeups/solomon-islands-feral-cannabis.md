@@ -9,13 +9,16 @@ Solomon Islands Feral Cannabis refers to naturalised cannabis populations found 
 The origins of cannabis in the Solomon Islands are not precisely documented. As with other Pacific island feral populations, introduction by traders, colonial-era movements, or cultural exchange is the most commonly cited pathway, though specific dates and sources are uncertain. Plants naturalised across the islands over time and adapted to the equatorial island environment without active cultivation management. The Solomon Islands' relative geographic isolation within Melanesia means this population likely developed its humidity tolerance largely in situ, with limited gene flow from outside the archipelago.
 
 ## Description
-
-Solomon Islands Feral Cannabis is classified as a sativa feral type with a tall growth habit. A flowering window of 11–15 weeks is relatively moderate for an equatorial population, suggesting partial adaptation to the subtly varying daylengths and seasonal rainfall patterns of the archipelago. High-humidity tolerance is the population's most noted adaptive trait — a necessary characteristic for survival and reproduction in a climate where moisture stress is chronic. Plants are expected to show the open architecture typical of sativa-leaning populations in maritime tropical environments.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall
 - **Flowering:** 11–15 weeks
-- **Climate preference:** Equatorial island
-- **Category:** Feral
+- **Climate:** Tropical Rainforest
+- **Origin:** Solomon Islands (Oceania)
+
+Solomon Islands Feral Cannabis is classified as a sativa feral type with a tall growth habit. A flowering window of 11–15 weeks is relatively moderate for an equatorial population, suggesting partial adaptation to the subtly varying daylengths and seasonal rainfall patterns of the archipelago. High-humidity tolerance is the population's most noted adaptive trait — a necessary characteristic for survival and reproduction in a climate where moisture stress is chronic. Plants are expected to show the open architecture typical of sativa-leaning populations in maritime tropical environments. Equatorial island.
 
 ## Grow Information
 

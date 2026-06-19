@@ -6,6 +6,7 @@ import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
 import { relatedStrains } from './relations.js';
+import { initTooltips } from './tooltip.js';
 
 const panel = document.getElementById('panel');
 const input = document.getElementById('search-input');
@@ -675,4 +676,5 @@ async function boot() {
   }
 }
 
+initTooltips();
 boot();

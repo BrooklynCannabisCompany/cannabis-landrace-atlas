@@ -9,12 +9,16 @@ Ecuador Coastal Lowlands refers to cannabis populations associated with Ecuador'
 Ecuador's coastal lowlands have a long history of agricultural activity and were among the country's most commercially developed regions during the colonial and post-colonial eras. Cannabis cultivation along Ecuador's coast is believed to have developed as part of the broader pattern of lowland South American cannabis introduction and spread, but specific documentation for this coastal population is limited. The lowland coastal environment of Ecuador differs substantially from the highland and cloud forest populations of the same country, and plants naturalized here would have been selected for tolerance to Pacific coast humidity, heat, and the specific light regime of sea-level to low-elevation tropical growing.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with lowland coastal tropical sativas adapted to strong light and warm conditions
-- **Structure:** Likely openly branched with moderate to long internodes; coastal lowland sativas generally develop vigorous vegetative growth under high humidity and warmth
 - **Flowering:** 11–14 weeks — faster than highland or cloud forest Ecuador types, consistent with a lower-elevation coastal environment with slightly more seasonal day-length variation
-- **Aroma/Effect:** Characterized briefly as "humid adaptation" in the source record; specific effect profiles are not documented
+- **Climate:** Tropical Lowland
+- **Origin:** Ecuador (Americas)
+
+Likely openly branched with moderate to long internodes; coastal lowland sativas generally develop vigorous vegetative growth under high humidity and warmth. Characterized briefly as "humid adaptation" in the source record; specific effect profiles are not documented.
 
 ## Grow Information
 

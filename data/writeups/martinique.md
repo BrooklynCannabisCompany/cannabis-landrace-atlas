@@ -9,12 +9,16 @@ The Martinique landrace is associated with Martinique, a French overseas territo
 Martinique's agricultural history is rooted in plantation-era sugarcane production and has evolved into a diverse informal agricultural tradition. Cannabis cultivation on the island is part of this informal agricultural landscape, though it is not well represented in formal landrace collection literature. The French Caribbean territories' distinctive administrative status has contributed to limited formal documentation of their cannabis populations compared to more extensively researched Caribbean islands. The Martinique population is understood primarily through general knowledge of Lesser Antilles island ecology and Caribbean sativa adaptation patterns.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; volcanic island soils and tropical conditions support vigorous sativa growth
 - **Flowering:** 12–16 weeks; consistent with Eastern Caribbean tropical island sativas
 - **Climate:** Tropical volcanic — warm and humid year-round, strong trade wind influence, high rainfall particularly in the north and on windward slopes, volcanic soil fertility
-- **Morphology:** Sativa-type island landrace with tall, open-branching structure typical of Caribbean populations. Trade wind adaptation may select for structural resilience. Specific phenotype or chemotype documentation for the Martinique population is not available in accessible sources.
+- **Origin:** Martinique (Americas)
+
+Sativa-type island landrace with tall, open-branching structure typical of Caribbean populations. Trade wind adaptation may select for structural resilience. Specific phenotype or chemotype documentation for the Martinique population is not available in accessible sources.
 
 ## Grow Information
 

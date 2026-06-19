@@ -9,15 +9,16 @@ Santa Marta Highlands refers to the highland cannabis landrace from the Sierra N
 The Sierra Nevada de Santa Marta is home to indigenous Kogui, Arhuaco, and Wiwa communities who have maintained ancient traditions in the mountain's interior for centuries. Cannabis cultivation in the highlands of this massif developed within this cultural context, with the mountain's isolation from the main Andean corridor likely contributing to the development of distinct genetic characteristics. By the 1960s and 1970s, Santa Marta Highlands cannabis — particularly what became known as Colombian Gold — had achieved international recognition for potency and quality. The genetics from this zone were among the most influential tropical sativa materials to enter the global seed trade and were used extensively in early Dutch and American breeding programs.
 
 ## Description
-
-This population is described as very tall, consistent with the vigorous growth characteristic of highland Colombian sativas in their equatorial tropical mountain setting. The 12–18 week flowering window reflects the equatorial latitude combined with altitude.
-
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall
 - **Flowering:** 12–18 weeks
-- **Climate adaptation:** Tropical mountain; elevation, humidity, intense sunlight
-- **Category:** Sativa
-- **Region:** Sierra Nevada de Santa Marta, Northern Colombia
-- **Notable associations:** Colombian Gold origin zone
+- **Climate:** Tropical mountain; elevation, humidity, intense sunlight
+- **Origin:** Colombia (Americas)
+
+This population is described as very tall, consistent with the vigorous growth characteristic of highland Colombian sativas in their equatorial tropical mountain setting. The 12–18 week flowering window reflects the equatorial latitude combined with altitude. Sierra Nevada de Santa Marta, Northern Colombia. Colombian Gold origin zone.
 
 ## Grow Information
 

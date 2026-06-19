@@ -9,12 +9,16 @@ Namibian Wild is a feral cannabis population found in Namibia, a country in sout
 Feral cannabis populations in Namibia are poorly documented in formal botanical literature. Cannabis is thought to have reached southern Africa through ancient trade and migration routes, with populations eventually naturalizing in various environments across the region. In the harsh, arid zones of Namibia, any population that persisted would have undergone intense natural selection for drought and heat resistance. Whether Namibian Wild populations represent deliberate historical cultivation that later went feral, or long-established naturalized stands, is not clearly established. Given the region's aridity, these plants are considered a biologically interesting example of cannabis adaptation to extreme desert conditions.
 
 ## Description
-
-- **Category:** Feral
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium — smaller stature than typical African sativas, likely an adaptation to conserve water and withstand desiccating winds in desert environments
-- **Structure:** Compact and hardy relative to equatorial African landraces; adapted to survive without irrigation or protection
 - **Flowering:** 9–12 weeks — among the shorter flowering windows in African cannabis, consistent with desert-adapted annual strategies to complete the life cycle before conditions become too hostile
-- **Aroma/Effect:** Specific terpene data for this feral population is not documented; effect profiles are essentially unknown
+- **Climate:** Desert / Arid
+- **Origin:** Namibia (Africa)
+
+Compact and hardy relative to equatorial African landraces; adapted to survive without irrigation or protection. Specific terpene data for this feral population is not documented; effect profiles are essentially unknown.
 
 ## Grow Information
 

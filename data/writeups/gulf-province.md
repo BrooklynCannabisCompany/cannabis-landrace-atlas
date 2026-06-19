@@ -9,12 +9,16 @@ Gulf Province is a coastal lowland province of Papua New Guinea, occupying a bro
 Cannabis cultivation history in Gulf Province is not formally documented. The province's lowland rainforest and swamp terrain has historically limited population density and outside contact in many areas, suggesting that any cannabis populations present developed within relatively isolated local cultivation contexts. No formal seed collection records or breeder accounts specific to Gulf Province cannabis are known. The lowland climate of the Gulf of Papua coastline — distinct from the cooler, better-documented highland provinces — would have exerted different selection pressures, potentially resulting in a population with distinct humidity and heat tolerance characteristics.
 
 ## Description
-
-- **Type:** Sativa landrace.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; consistent with lowland tropical sativa expression.
 - **Flowering:** 11–15 weeks, typical of PNG lowland cannabis populations.
 - **Climate:** Lowland tropical rainforest — consistently high temperatures, very high humidity, heavy rainfall year-round, minimal altitude moderation.
-- **Characteristic:** Humidity selection is the primary reported adaptive trait of this population.
+- **Origin:** Papua New Guinea (Oceania)
+
+Humidity selection is the primary reported adaptive trait of this population.
 
 ## Grow Information
 

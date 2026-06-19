@@ -9,12 +9,16 @@ The Ucayali Upper landrace is associated with the upper watershed of Peru's Ucay
 The upper Ucayali corridor has long been inhabited by indigenous Amazonian peoples, including groups maintaining traditional relationships with the surrounding forest ecology. Cannabis presence in this zone is inferred from broader Amazonian and upper Peruvian Amazon contexts rather than from direct documented collection records for this specific upper-watershed population. Information remains sparse, and the population is best understood through general knowledge of Amazonian landrace ecology rather than verified breeder or collector accounts.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall; consistent with Amazonian river-basin sativas adapted to year-round tropical conditions
 - **Flowering:** 14–20 weeks; equatorial adaptation with limited photoperiod cue response
 - **Climate:** Tropical rainforest — high humidity, seasonal flooding, warm temperatures, strong solar radiation
-- **Morphology:** Likely shares the narrow-leafleted, tall, open-branching structure typical of equatorial Amazonian sativas. The upper-watershed microclimate — somewhat more variable seasonally than the deep lowland basin — may select for modest adaptations in growth timing compared to lower-basin populations.
+- **Origin:** Peru (Americas)
+
+Likely shares the narrow-leafleted, tall, open-branching structure typical of equatorial Amazonian sativas. The upper-watershed microclimate — somewhat more variable seasonally than the deep lowland basin — may select for modest adaptations in growth timing compared to lower-basin populations.
 
 ## Grow Information
 

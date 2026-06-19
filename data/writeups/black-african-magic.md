@@ -9,12 +9,16 @@ Black African Magic is a tall sativa population from South Africa, associated wi
 South Africa has a significant history of cannabis cultivation, with sativa populations adapted across the country's varied climate zones — from humid coastal regions to hot savanna interiors. "Black African Magic" as a name appears in grower circles to describe a regionally distinctive South African sativa with notable dark expressions. Documentation of this population's specific origins, cultivation history, or geographic subregion within South Africa is limited, and the name may encompass some variation across different sources. Grower accounts suggest it has circulated in seed-saving communities as a representative South African tropical savanna type.
 
 ## Description
-
-- **Type:** Regional sativa population
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** Long season, approximately 12–16 weeks from equinox/flip
-- **Climate adaptation:** Tropical savanna — drought-tolerant, heat-hardy
-- **Distinguishing traits:** Dark-colored phenotypic expressions are commonly reported; vigorous vertical growth typical of tall African sativas
+- **Climate:** Tropical savanna — drought-tolerant, heat-hardy
+- **Origin:** South Africa (Africa)
+
+Dark-colored phenotypic expressions are commonly reported; vigorous vertical growth typical of tall African sativas.
 
 ## Grow Information
 

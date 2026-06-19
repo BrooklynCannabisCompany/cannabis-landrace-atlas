@@ -14,9 +14,16 @@ charas and hashish) and short stature suited to a cold, arid mountain climate. P
 lineage is undocumented and varies by valley and seed line.
 
 ## Description
-- Broad-leaf morphology; short and bushy with thick stems.
-- Dense, resinous flowers; aromas commonly described as earthy, hashy, and sweet.
-- Effects are typically reported as heavy and relaxing.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Short
+- **Flowering:** 7–9 weeks
+- **Climate:** Desert / Arid
+- **Origin:** Afghanistan (Middle East / Central Asia)
+
+Broad-leaf morphology; short and bushy with thick stems. Dense, resinous flowers; aromas commonly described as earthy, hashy, and sweet. Effects are typically reported as heavy and relaxing.
 
 ## Grow Information
 Adapted to a cold, arid mountain environment. Commonly reported as short with a fast

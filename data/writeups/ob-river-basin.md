@@ -9,13 +9,16 @@ The Ob River Basin population is a naturalized feral cannabis population found a
 Western Siberia was traversed by indigenous peoples, Russian explorers, and settlers for centuries, and cannabis seeds likely arrived in the Ob basin through multiple waves of human movement. The river corridor itself serves as a natural dispersal pathway, carrying seeds downstream and distributing them across the floodplain. Plants that established and survived in this environment were subject to strong selection for early maturation, as the frost-free growing season is short even in the southern parts of the Ob basin and extremely brief further north. Specific documentation of the Ob River Basin cannabis population is limited in available botanical literature.
 
 ## Description
-
-- **Type:** Feral river population; intermediate indica-sativa character
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium, consistent with feral cannabis in boreal floodplain conditions
-- **Structure:** Adapted to the open riparian margins of the Ob floodplain; typically upright and branched
-- **Leaf structure:** Likely intermediate, reflecting the intermediate genetic character of the population
 - **Flowering:** 10–14 weeks, adapted to complete within the short Siberian warm season
-- **Aroma/effect:** Not documented; feral boreal populations are not selected for resin
+- **Climate:** Boreal / Subarctic
+- **Origin:** Russia (East Asia / North Asia)
+
+Adapted to the open riparian margins of the Ob floodplain; typically upright and branched. Likely intermediate, reflecting the intermediate genetic character of the population. Not documented; feral boreal populations are not selected for resin.
 
 ## Grow Information
 

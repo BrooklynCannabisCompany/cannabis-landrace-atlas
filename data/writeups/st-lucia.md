@@ -9,12 +9,16 @@ St. Lucia refers to the cannabis population of the island of Saint Lucia, a volc
 Cannabis cultivation in Saint Lucia is commonly reported to have developed as part of the broader Eastern Caribbean tradition, with cultural ties to Rastafarian communities and rural farming practices. As with other Windward Island populations, the precise history of introduction is not well documented, though Caribbean landraces broadly are associated with centuries of maritime movement of people, crops, and seed across the region. The volcanic island setting — fertile soils of basaltic origin, high rainfall, and relative geographic isolation — is thought to have shaped the local population's characteristics over generations of cultivation. Saint Lucia's cannabis is not widely represented in international seed markets, keeping the population relatively unimproved and locally adapted.
 
 ## Description
-
-- **Type:** Caribbean landrace, mixed sativa/indica character
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall, typical of tropical Caribbean populations
 - **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate adaptation:** Tropical island — adapted to high humidity, consistent warmth, and volcanic soil conditions
-- **Morphology and effect:** Specific characterizations of the Saint Lucia population are limited in available documentation; Caribbean island landraces generally present sativa-dominant phenotypes with varied aroma profiles and uplifting effect character
+- **Climate:** Tropical island — adapted to high humidity, consistent warmth, and volcanic soil conditions
+- **Origin:** Saint Lucia (Americas)
+
+Specific characterizations of the Saint Lucia population are limited in available documentation; Caribbean island landraces generally present sativa-dominant phenotypes with varied aroma profiles and uplifting effect character.
 
 ## Grow Information
 

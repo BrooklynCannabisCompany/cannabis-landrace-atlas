@@ -9,13 +9,16 @@ Bashkortostan Hemp refers to the traditional fiber hemp landrace historically cu
 Hemp cultivation in the Ural region, including what is now Bashkortostan, has roots stretching back centuries as part of the broader Russian empire's emphasis on fiber production. Russia was historically one of the world's leading hemp producers, and regional varieties were selected for tall stature, long fiber, and reliable seed production under the specific conditions of the southern Urals. Bashkortostan's agricultural heritage includes grain and industrial crops, with hemp serving as an important rotation crop in traditional farming systems. The specific genetics of Bashkortostan hemp have not been rigorously documented in the scientific or breeding literature; what is described here is based on the general pattern of Russian fiber hemp cultivation in this region.
 
 ## Description
-
-- **Type:** Hemp — a fiber-focused industrial cannabis type
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with fiber hemp selections bred for long-stemmed stalk production
-- **Structure:** Upright, single-stem growth typical of densely planted fiber hemp; branching is minimal under standard field conditions
 - **Flowering:** 10–14 weeks; a longer season appropriate for the latitude and the continental summer of the southern Urals
-- **Fiber quality:** Tall Russian hemp varieties are traditionally associated with strong, long bast fiber suitable for rope, textiles, and industrial uses
-- **THC content:** Very low, as is standard for fiber hemp selections
+- **Climate:** Temperate / Continental
+- **Origin:** Russia (Europe)
+
+Upright, single-stem growth typical of densely planted fiber hemp; branching is minimal under standard field conditions. Tall Russian hemp varieties are traditionally associated with strong, long bast fiber suitable for rope, textiles, and industrial uses. Very low, as is standard for fiber hemp selections.
 
 ## Grow Information
 

@@ -9,13 +9,16 @@ The Armenian Highlands landrace is an indica-leaning cannabis population native 
 Armenia's position at the crossroads of ancient trade routes connecting Mesopotamia, Persia, Anatolia, and the Caucasus means cannabis likely entered the region through multiple vectors over millennia. The Armenian Highland is one of Eurasia's oldest agricultural zones, and cannabis cultivation here is commonly inferred to be of considerable antiquity, though formal archaeological or historical documentation specific to cannabis in this region is limited. Grower accounts and regional ethnobotanical records suggest cannabis was traditionally used for fiber and resin in rural highland communities, with locally adapted populations developing over many generations of cultivation at high altitude.
 
 ## Description
-
-This population is described as an indica-leaning highland landrace of medium height with a flowering window of 8–12 weeks — a profile consistent with cannabis adapted to high elevation, volcanic soils, and a short growing season. The combination of cold nights, intense UV radiation at altitude, and limited summer moisture typically selects for compact, resinous plants that finish before autumn frost. Leaf morphology is commonly broader in such highland Caucasus types, reflecting the genera indica character of high-altitude adaptation.
-
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–12 weeks
-- **Type:** Indica-leaning highland landrace
 - **Climate:** Volcanic mountain plateau
+- **Origin:** Armenia (Europe)
+
+This population is described as an indica-leaning highland landrace of medium height with a flowering window of 8–12 weeks — a profile consistent with cannabis adapted to high elevation, volcanic soils, and a short growing season. The combination of cold nights, intense UV radiation at altitude, and limited summer moisture typically selects for compact, resinous plants that finish before autumn frost. Leaf morphology is commonly broader in such highland Caucasus types, reflecting the genera indica character of high-altitude adaptation.
 
 ## Grow Information
 

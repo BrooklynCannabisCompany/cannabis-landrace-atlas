@@ -9,12 +9,16 @@ The Hawaiian Molokaʻi / Maui Wild entry refers to mixed escape and feral cannab
 Both Molokaʻi and Maui have histories of informal cannabis cultivation embedded in the broader Hawaiian outdoor growing culture of the 1960s–80s. Molokaʻi in particular has a reputation as one of the more traditional and less commercially developed Hawaiian islands, with community-scale agricultural practices persisting. Feral cannabis populations on both islands are attributed to escaped cultivars from this period, cross-pollinating across multiple generations in the islands' varied tropical microclimates. Formal documentation of these specific island populations is minimal.
 
 ## Description
-
-- **Category:** Feral; mixed escape populations without coherent single-strain identity
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Tall; sativa-dominant cultivar heritage with vigorous tropical growth
 - **Flowering:** Variable; the mixed origins and diverse microclimates of these two islands produce variable flowering windows across individual plants
 - **Climate:** Island tropical — warm and humid, strong sunlight, trade wind influence; Maui's high-altitude Haleakalā slopes provide additional alpine microclimate diversity
-- **Morphology:** Highly variable across the mixed escape complex. Sativa-dominant structure is most common. Maui's diverse elevational gradient may support a wider phenotypic range than the more uniform lowland conditions of Molokaʻi.
+- **Origin:** Hawaii (Americas)
+
+Highly variable across the mixed escape complex. Sativa-dominant structure is most common. Maui's diverse elevational gradient may support a wider phenotypic range than the more uniform lowland conditions of Molokaʻi.
 
 ## Grow Information
 

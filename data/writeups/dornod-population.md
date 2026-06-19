@@ -9,12 +9,16 @@ The Dornod Population is a wild cannabis population found in Dornod Province, ea
 Cannabis has a long presence across the Eurasian steppe, and its distribution through Mongolia is generally attributed to a combination of ancient human dispersal and natural spread via birds and wind. The Dornod region, lying along ancient pastoral and trade routes connecting northern China and Siberia, may have received cannabis from multiple sources over millennia. As a wild population, the Dornod plants have been subject to natural rather than human selection, making their genetic character a product of the steppe environment itself. Formal botanical documentation of this specific population is scarce.
 
 ## Description
-
-- **Type:** Wild cannabis population with feral character
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall for a steppe population; seasonal growth is vigorous during the short warm period
-- **Leaf structure:** Likely intermediate to narrow, consistent with open-steppe feral types adapted to wind and drought stress
 - **Flowering:** 10–14 weeks, timed to complete well before the early frosts common to eastern Mongolian autumn
-- **Aroma/effect:** Not documented; feral steppe populations are generally not selected for resin content
+- **Climate:** Steppe / Semi-arid
+- **Origin:** Mongolia (East Asia / North Asia)
+
+Likely intermediate to narrow, consistent with open-steppe feral types adapted to wind and drought stress. Not documented; feral steppe populations are generally not selected for resin content.
 
 ## Grow Information
 

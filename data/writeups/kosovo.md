@@ -9,13 +9,16 @@ The Kosovo landrace is an intermediate cannabis population from the Kosovo Highl
 Cannabis cultivation in Kosovo has roots in the Ottoman agricultural tradition, when hemp was a common fiber crop across the Balkans. The region's complex political history — part of the Ottoman Empire, then Yugoslavia, then contested territory — meant that rural agricultural practices including cannabis cultivation persisted in highland communities with variable levels of outside influence. Kosovo's position between Albanian, Serbian, and Macedonian populations means its cannabis gene pool likely reflects a blend of these neighboring traditions shaped by local highland ecology.
 
 ## Description
-
-As a medium-height, intermediate (indica–sativa) mountain landrace with a 9–13 week flowering window adapted to continental mountain conditions, Kosovo cannabis is understood as a typical Balkan highland intermediate: robust, cold-tolerant, and capable of completing its cycle during the warm highland summer before autumn frosts arrive.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 9–13 weeks
-- **Type:** Balkan mountain landrace, Intermediate (Indica–Sativa)
 - **Climate:** Continental mountain
+- **Origin:** Kosovo (Europe)
+
+As a medium-height, intermediate (indica–sativa) mountain landrace with a 9–13 week flowering window adapted to continental mountain conditions, Kosovo cannabis is understood as a typical Balkan highland intermediate: robust, cold-tolerant, and capable of completing its cycle during the warm highland summer before autumn frosts arrive.
 
 ## Grow Information
 

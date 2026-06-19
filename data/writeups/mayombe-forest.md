@@ -7,10 +7,16 @@ Mayombe Forest refers to a feral sativa cannabis complex associated with the May
 The Mayombe forest is one of the most intact remaining patches of Central African tropical rainforest, straddling the border zone between the Republic of Congo, the Democratic Republic of Congo, Angola, and Gabon. Cannabis in this equatorial rainforest context is likely feral and naturalized within forest margins, clearings, and disturbed ground along river systems and village peripheries. Specific documentation of cannabis collection or selection from the Congolese Mayombe is extremely limited; this population is known primarily by its geographic and ecological context. Very tall, long-flowering sativa types are characteristic of equatorial African cannabis, consistent with the conditions described.
 
 ## Description
-- Very tall sativa complex; equatorial growth forms are typically the tallest cannabis morphologies globally.
-- Long, narrow leaves and extended branching structure common to equatorial African sativa types.
-- Flowering time is variable, as is typical of feral equatorial populations with minimal photoperiod cue.
-- Specific cannabinoid and terpene profiles are undocumented.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
+- **Height:** Very tall
+- **Flowering:** Variable length
+- **Climate:** Tropical Rainforest
+- **Origin:** Congo (Middle East / Central Asia)
+
+Very tall sativa complex; equatorial growth forms are typically the tallest cannabis morphologies globally. Long, narrow leaves and extended branching structure common to equatorial African sativa types. Flowering time is variable, as is typical of feral equatorial populations with minimal photoperiod cue. Specific cannabinoid and terpene profiles are undocumented.
 
 ## Grow Information
 The equatorial rainforest environment of the Congolese Mayombe is characterized by high humidity, consistent warmth, high rainfall, and relatively stable day length year-round. Plants adapted to this environment are typically very tall, have extended flowering periods, and show strong adaptation to humid conditions — traits that may include some mold resistance developed under selection pressure from the rainforest's high moisture load. Indoor cultivation of equatorial African feral types is challenging due to extreme height requirements and very long flowering times. Best suited to tropical or subtropical outdoor environments.

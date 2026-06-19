@@ -48,6 +48,10 @@ In brief:
 - **Link sections must contain only real, verified links** — no AI-hallucinated URLs.
 - Every factual claim that can be sourced should be sourced.
 
+### 6. Review any AI-generated work yourself
+
+You are required to have personally reviewed any AI-generated code you are submitting. AI assistance is welcome, but you are responsible for every line in your submission — read it, understand it, and verify it works before opening a PR. The same applies to AI-generated data and write-ups: check the facts and sources yourself.
+
 ---
 
 ## GitHub issues and the Submit buttons

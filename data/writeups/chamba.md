@@ -9,15 +9,16 @@ Chamba is an indica-leaning landrace from Chamba District in Himachal Pradesh, I
 Chamba's cannabis heritage is intertwined with the broader charas-producing culture of the Western Himalayas. The district sits near the historical boundary between the Kullu/Parvati hash-production belt and the Kashmir Valley tradition, making it a geographically significant transitional zone. Traditional hash production in Chamba has been documented by regional ethnographers, though published scientific or horticultural records specific to this district's cannabis population are limited. Collector accounts describe Chamba as producing a plant distinct from the more widely traded Parvati Valley types — heavier, darker resin with a cold-mountain character.
 
 ## Description
-
-- **Type:** Indica-leaning landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–10 weeks
 - **Climate:** Cold mountain
-- Dense resin production commonly reported; associated with the "hash-heavy" character noted in the summary
-- Medium-stature, compact plant typical of cold-mountain Himalayan indica types
-- Broad leaflets, tight node spacing, and heavy trichome coverage are typical traits for this elevational and climatic niche
-- Aroma descriptions in collector accounts tend toward earthy, hash-spice, and sometimes floral notes
+- **Origin:** India (South Asia)
+
+Dense resin production commonly reported; associated with the "hash-heavy" character noted in the summary. Medium-stature, compact plant typical of cold-mountain Himalayan indica types. Broad leaflets, tight node spacing, and heavy trichome coverage are typical traits for this elevational and climatic niche. Aroma descriptions in collector accounts tend toward earthy, hash-spice, and sometimes floral notes.
 
 ## Grow Information
 

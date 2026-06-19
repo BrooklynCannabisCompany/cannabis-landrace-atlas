@@ -9,13 +9,16 @@ The Black Sea Region landrace is a sativa-leaning coastal cannabis from the Turk
 The Turkish Black Sea coast (Karadeniz region) has a distinct cultural and agricultural identity, shaped by its isolation behind the Pontic Mountains from the Anatolian interior. Cannabis cultivation in this region has historically been associated with both hemp fiber production and small-scale drug-type use, though the Black Sea population is not as well-documented in cannabis literature as, for example, the more celebrated Lebanese or Afghan landraces. Grower accounts suggest that the population's sativa-leaning character and long flowering time reflect adaptation to the region's mild, extended growing season rather than the short, harsh seasons of the central Anatolian plateau.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; the maritime climate and long growing season support vigorous vertical growth
-- **Stature:** Open and branching, with longer internodal spacing than typical Anatolian indica types
 - **Flowering:** 11–16 weeks; among the longer-finishing cannabis populations in the Turkey/Middle East region
-- **Resin:** Moderate; humid coastal conditions are not typically associated with extremely heavy resin production
-- The combination of tall stature, long flowering, and humidity adaptation distinguishes this population clearly from Turkish highland or plateau cannabis types.
+- **Climate:** Temperate / Continental
+- **Origin:** Turkey (Middle East / Central Asia)
+
+Open and branching, with longer internodal spacing than typical Anatolian indica types. Moderate; humid coastal conditions are not typically associated with extremely heavy resin production. The combination of tall stature, long flowering, and humidity adaptation distinguishes this population clearly from Turkish highland or plateau cannabis types.
 
 ## Grow Information
 

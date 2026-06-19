@@ -9,11 +9,16 @@ Xishuangbanna is a sativa landrace from the Xishuangbanna Dai Autonomous Prefect
 Xishuangbanna is home to the Dai people and numerous other ethnic groups with deep cultural ties to mainland Southeast Asia; the Dai are closely related to the Thai and Shan peoples across the borders in Thailand and Myanmar. Cannabis has historically been present in the region's traditional agricultural context, and Xishuangbanna's geographic position — at the headwaters of the Mekong River (locally the Lancang Jiang) — placed it at a natural crossroads for plant genetic exchange across the entire upper Mekong basin. Botanical interest in Xishuangbanna's cannabis has been noted in academic circles studying Cannabis geographic variation, reflecting the area's position as a transition zone between continental Southeast Asian and Chinese cannabis populations.
 
 ## Description
-
-- **Morphology:** Very tall plants with classic broad-equatorial sativa structure — long internodes, narrow leaflets, and vigorous branching. Among the tallest-statured populations in the Southeast Asian atlas.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Very tall
 - **Flowering:** 12–16 weeks, consistent with a tropical jungle sativa at this latitude (approximately 22°N — near the northern limit of tropical Southeast Asian cannabis conditions).
-- **Aroma/Effect:** The regional context suggests sweet, floral, and complex aromatic profiles consistent with upper Mekong basin cannabis; specific Xishuangbanna aroma documentation is limited.
-- **Climate adaptation:** Tropical jungle with the particular character of a southern Yunnan valley — hot and humid in the lowlands, with cooler temperatures at the surrounding ridges, and a pronounced monsoon season.
+- **Climate:** Tropical jungle with the particular character of a southern Yunnan valley — hot and humid in the lowlands, with cooler temperatures at the surrounding ridges, and a pronounced monsoon season.
+- **Origin:** China (Southeast Asia)
+
+Very tall plants with classic broad-equatorial sativa structure — long internodes, narrow leaflets, and vigorous branching. Among the tallest-statured populations in the Southeast Asian atlas. The regional context suggests sweet, floral, and complex aromatic profiles consistent with upper Mekong basin cannabis; specific Xishuangbanna aroma documentation is limited.
 
 ## Grow Information
 

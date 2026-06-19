@@ -9,13 +9,16 @@ Polish Feral refers to naturalized cannabis populations found growing wild in Po
 Hemp cultivation in Poland has a history spanning many centuries, with the plant grown for fiber, rope, and seed across the Polish lowlands and agricultural regions. During the Soviet era, Poland maintained significant hemp production as part of state agricultural planning. After a period of decline, limited hemp cultivation has continued under EU regulations. The feral plants found in Poland today are generally understood to be descendants of cultivated hemp that naturalized in disturbed areas, roadsides, and the margins of agricultural land. These populations are not drug-type landraces and represent the naturalized legacy of fiber hemp cultivation rather than any distinct indigenous cannabis population.
 
 ## Description
-
-- **Type:** Hemp — fiber type; very low THC content consistent with European certified hemp lineage
+- **Morphotype:** Narrow-Leaf Hemp
+- **Vernacular type:** Hemp
+- **Chemotype:** Type V (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium — typical of European hemp varieties that have naturalized in field and roadside conditions
-- **Structure:** Upright hemp morphology, with branching more pronounced in feral plants growing without competitive cropping pressure
 - **Flowering:** 10–14 weeks; photoperiod-dependent, consistent with continental European hemp varieties
-- **Cold resistance:** A defining characteristic of this population; plants are associated with the ability to tolerate cold nights, late spring frosts, and the variable weather of Poland's continental climate
-- **Variability:** Some variation exists across regions of Poland, though the overall type remains closely aligned with the hemp varieties from which these feral populations descend
+- **Climate:** Temperate / Continental
+- **Origin:** Poland (Europe)
+
+Upright hemp morphology, with branching more pronounced in feral plants growing without competitive cropping pressure. A defining characteristic of this population; plants are associated with the ability to tolerate cold nights, late spring frosts, and the variable weather of Poland's continental climate. Some variation exists across regions of Poland, though the overall type remains closely aligned with the hemp varieties from which these feral populations descend.
 
 ## Grow Information
 

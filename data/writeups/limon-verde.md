@@ -9,12 +9,16 @@ Limon Verde is a Colombian heirloom cannabis population associated with the Colo
 Limon Verde is documented in grower accounts as a Colombian heirloom variety originating from the Colombian Andes, though its specific geographic source within Colombia — which department, which mountain range, which elevation — is not formally recorded in the available data. Colombian heirloom varieties with distinctive aromatic profiles were historically maintained by rural farming communities and have been of increasing interest to landrace preservation collectors in recent decades. The citrus aromatic character suggested by the name and the source record's description may reflect specific terpene expression in this population that was recognized and selected for by traditional cultivators over time. Limon Verde has occasionally appeared in collector and preservation community discussions, though its provenance documentation remains limited.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with Colombian Andean sativas grown in tropical mountain conditions
-- **Structure:** Grower accounts suggest vigorous growth with strong branching; the source record specifically notes "vigorous growth" as a key characteristic
 - **Flowering:** 12–18 weeks — the wide range reflects both the mixed genetic inheritance and the variability typical of heirloom Colombian populations
-- **Aroma/Effect:** The source record specifically highlights citrus-forward aromatic expression as a defining characteristic of this population; this may reflect a terpene profile rich in limonene or related compounds, though formal analysis is not available
+- **Climate:** Tropical Highland
+- **Origin:** Colombia (Americas)
+
+Grower accounts suggest vigorous growth with strong branching; the source record specifically notes "vigorous growth" as a key characteristic. The source record specifically highlights citrus-forward aromatic expression as a defining characteristic of this population; this may reflect a terpene profile rich in limonene or related compounds, though formal analysis is not available.
 
 ## Grow Information
 

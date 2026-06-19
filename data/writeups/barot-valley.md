@@ -9,14 +9,16 @@ Barot Valley is an indica-leaning resin landrace originating in the Barot Valley
 The Barot Valley's relative inaccessibility has historically kept it outside mainstream tourism and cannabis-collecting circuits. Cannabis cultivation and semi-feral growth in the valley are consistent with the broader pattern of Himachal Pradesh's Kullu and Mandi hill districts, where charas production has deep cultural roots. Grower accounts suggest the Barot Valley population was "discovered" relatively late by outside collectors compared to the more accessible Parvati and Kullu valleys, and documentation remains thin. Its similarity to the Parvati complex is noted in collector communities, though whether this reflects shared ancestry, parallel adaptation, or seed exchange is not established.
 
 ## Description
-
-- **Type:** Indica-leaning resin landrace
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–10 weeks — relatively short for an Indian Himalayan landrace
 - **Climate:** Remote alpine valley
-- Commonly described as producing dense, resinous buds suited to hand-rubbed charas in the Himachali tradition
-- Compact to medium stature typical of higher-altitude, cold-adapted indica-leaning populations
-- Phenotypic profile consistent with other Mandi-district cannabis: broad leaflets, heavy trichome coverage, and relatively early finishing compared to lower-altitude sativa types
+- **Origin:** India (South Asia)
+
+Commonly described as producing dense, resinous buds suited to hand-rubbed charas in the Himachali tradition. Compact to medium stature typical of higher-altitude, cold-adapted indica-leaning populations. Phenotypic profile consistent with other Mandi-district cannabis: broad leaflets, heavy trichome coverage, and relatively early finishing compared to lower-altitude sativa types.
 
 ## Grow Information
 

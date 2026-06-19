@@ -9,11 +9,16 @@ Sumatra Central Highlands refers to the interior gene pool of cannabis from the 
 While Sumatra is best known to the cannabis world through the Acehnese tradition — where cannabis cultivation has historical roots tied to the local economy and culture — the central highland interior represents a less-documented gene pool. Cannabis naturalized or cultivated in the Batak highlands and surrounding central mountain communities would have developed under significantly different conditions from Aceh's northern lowlands and foothills. The interior population is regarded as a distinct gene pool reflecting geographic and ecological separation. Documentation is limited compared to Acehnese material.
 
 ## Description
-
-- **Morphology:** Very tall plants — among the larger-statured entries in the Southeast Asian atlas — with the elongated structure characteristic of highland rainforest sativas at equatorial latitudes.
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Very tall
 - **Flowering:** 12–16 weeks; a long-season variety consistent with equatorial highland conditions where photoperiod shifts are subtle.
-- **Aroma/Effect:** Highland Sumatran cannabis is anecdotally associated with complex, earthy, and sometimes citrus or incense-like profiles; specific central highland aroma documentation is sparse.
-- **Climate adaptation:** Highland rainforest — cool by Sumatran standards, persistently moist, with high cloud cover and UV at altitude.
+- **Climate:** Highland rainforest — cool by Sumatran standards, persistently moist, with high cloud cover and UV at altitude.
+- **Origin:** Indonesia (Southeast Asia)
+
+Very tall plants — among the larger-statured entries in the Southeast Asian atlas — with the elongated structure characteristic of highland rainforest sativas at equatorial latitudes. Highland Sumatran cannabis is anecdotally associated with complex, earthy, and sometimes citrus or incense-like profiles; specific central highland aroma documentation is sparse.
 
 ## Grow Information
 

@@ -9,12 +9,16 @@ The Venezuela Andes landrace refers to cannabis populations associated with the 
 The Venezuelan Andes have supported diverse agricultural communities for centuries, with the area's varied microclimates enabling cultivation of a wide range of crops. Cannabis in Venezuela's Andean highlands is part of a broader tradition of mountain landrace cultivation across northern South America, though systematic documentation of the Venezuela Andes population specifically is limited. Grower and collector references suggest this population is understood more through general highland sativa characteristics than through verified specific collection records.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall; highland conditions often promote elongated internode spacing and vigorous vertical growth
 - **Flowering:** 12–18 weeks; extended flowering is typical of high-altitude tropical sativas that experience relatively stable but lower-light conditions
 - **Climate:** Mountain highland — cooler temperatures, strong direct sunlight at elevation, significant diurnal temperature swings, and lower humidity than lowland zones
-- **Morphology:** Consistent with highland Andean sativas — typically tall with narrower leaflets, adapted to cooler nights and strong solar irradiance. Resin production is often associated with UV adaptation at altitude. Specific terpene or cannabinoid profiles for this Venezuelan highland population are not reliably documented.
+- **Origin:** Venezuela (Americas)
+
+Consistent with highland Andean sativas — typically tall with narrower leaflets, adapted to cooler nights and strong solar irradiance. Resin production is often associated with UV adaptation at altitude. Specific terpene or cannabinoid profiles for this Venezuelan highland population are not reliably documented.
 
 ## Grow Information
 

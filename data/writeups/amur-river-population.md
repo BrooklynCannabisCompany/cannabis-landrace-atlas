@@ -9,13 +9,16 @@ The Amur River Population is a feral cannabis population naturalized along the A
 Cannabis is believed to have been present in the Amur River corridor for centuries, likely spread through a combination of human settlement, trade routes, and natural dispersal across the floodplain and river terraces. As feral populations, these plants would have been shaped primarily by natural selection rather than deliberate cultivation, adapting over generations to the pronounced seasonal extremes of the Russian Far East. Documented scientific attention to this population has been limited, and most accounts come from botanical surveys or conservation-minded seed collectors rather than formal landrace research.
 
 ## Description
-
-- **Type:** Feral cannabis population
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall, commonly reported in the range typical of vigorous feral sativas under continental conditions
-- **Internodal spacing:** Typically moderate, reflecting adaptation to strong summer growth under extended daylight
-- **Leaf structure:** Likely intermediate, with narrower leaflets consistent with high-latitude feral populations
 - **Flowering:** 10–14 weeks, timed to complete before the onset of early autumn frosts
-- **Aroma/effect:** Largely undocumented; feral populations in this region are generally not selected for resin production
+- **Climate:** Temperate / Continental
+- **Origin:** Russia (East Asia / North Asia)
+
+Typically moderate, reflecting adaptation to strong summer growth under extended daylight. Likely intermediate, with narrower leaflets consistent with high-latitude feral populations. Largely undocumented; feral populations in this region are generally not selected for resin production.
 
 ## Grow Information
 

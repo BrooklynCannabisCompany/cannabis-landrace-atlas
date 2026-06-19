@@ -9,12 +9,16 @@ Zimbabwe Mashonaland is a sativa landrace from Mashonaland — the north-central
 Cannabis cultivation in Mashonaland is associated with the Shona people, who have inhabited the Zimbabwe plateau for centuries and have a long agricultural tradition on the fertile red soils of the highveld. The Shona term for cannabis is "mbanje," and its use in traditional and social contexts is documented across Zimbabwean communities. Mashonaland's high-plateau environment — elevated, well-watered, and seasonally defined — would have provided consistent selection pressure for a structured, vigorous sativa adapted to the highveld's distinct seasons. Grower accounts note the strain's balanced character and organized growth structure. Formal botanical or genetic documentation of Zimbabwe Mashonaland cannabis is limited in published literature.
 
 ## Description
-
-- **Category:** Sativa
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous sativa growth on the well-lit, fertile soils of Zimbabwe's high plateau
-- **Structure:** Structured growth habit with organized branching, as noted in grower accounts; typical of highveld-adapted sativas with access to strong sunlight and cool-season growing conditions
 - **Flowering:** 11–14 weeks — within the typical range for southern African highland sativas
-- **Aroma/Effect:** Effect is described as balanced and euphoric — a well-rounded sativa experience; specific aromatic or terpene data is not well documented
+- **Climate:** Tropical Highland
+- **Origin:** Zimbabwe (Africa)
+
+Structured growth habit with organized branching, as noted in grower accounts; typical of highveld-adapted sativas with access to strong sunlight and cool-season growing conditions. Effect is described as balanced and euphoric — a well-rounded sativa experience; specific aromatic or terpene data is not well documented.
 
 ## Grow Information
 

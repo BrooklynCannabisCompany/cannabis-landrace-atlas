@@ -9,14 +9,16 @@ Chiang Mai is a highland sativa landrace from Chiang Mai Province in Northern Th
 Northern Thailand's mountain provinces, including Chiang Mai, have long been home to hill tribe communities — including Hmong, Karen, Lahu, and Akha peoples — who maintained cannabis cultivation as part of broader agricultural traditions. The Chiang Mai region's cannabis gained wider international attention during the latter decades of the twentieth century, when Thai cannabis — including material from Northern Thailand — was exported and became influential in Western cannabis culture. The specific highland population associated with Chiang Mai Province is regarded as distinct from the lowland and central Thai types, reflecting the altitude, climate, and cultivation traditions of the northern mountains. Documentation of specific cultivation lineages is largely anecdotal.
 
 ## Description
-
-- **Category:** Sativa
-- **Type:** Highland sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous mountain sativa growth
 - **Flowering:** Very long; 14–20 weeks is commonly reported, consistent with high-altitude tropical sativa adaptation
-- **Morphology:** Classic narrow-leaf Thai sativa morphology; elongated internodes, open canopy, airy bud formation
-- **Terpene profile:** Grower accounts commonly describe a complex profile featuring incense, pine, tropical fruit, and spice — a hallmark of Northern Thai highland cannabis
-- **Effects:** Associated with a powerful, long-lasting cerebral and psychedelic experience
+- **Climate:** Tropical Highland
+- **Origin:** Thailand (Southeast Asia)
+
+Classic narrow-leaf Thai sativa morphology; elongated internodes, open canopy, airy bud formation. Grower accounts commonly describe a complex profile featuring incense, pine, tropical fruit, and spice — a hallmark of Northern Thai highland cannabis. Associated with a powerful, long-lasting cerebral and psychedelic experience.
 
 ## Grow Information
 

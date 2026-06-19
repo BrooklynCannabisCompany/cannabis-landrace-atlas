@@ -9,13 +9,16 @@ The Chitral Kush Wild Belt is an indica landrace from the wild and semi-wild can
 In the high valleys of Chitral, the boundary between cultivated and wild cannabis has historically been porous. Plants that escape from cultivation, cross with neighboring wild populations, or self-seed in disturbed ground contribute to a semi-wild gene pool that exists alongside directed landrace cultivation. The cold stress hypothesis — that low temperatures stimulate resin production as a metabolic stress response — is commonly invoked to explain why high-altitude Hindu Kush populations tend toward heavier resin expression than their lower-elevation counterparts. Whether the wild belt represents a genetically distinct entity from the cultivated Chitral landrace or a more heterogeneous extension of the same gene pool is not clearly established.
 
 ## Description
-
-- **Category:** Indica
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Short
-- **Stature:** Compact to very compact, variable across the wild-to-cultivated spectrum
 - **Flowering:** 7–9 weeks; fast-finishing required by the short alpine season
-- **Resin:** Extreme in some phenotypes; cold stress-induced resin production is reported as a defining characteristic of this population
-- The mix of feral and cultivated individuals creates higher phenotypic diversity than a purely directed landrace selection would exhibit.
+- **Climate:** Alpine / High Mountain
+- **Origin:** Pakistan (Middle East / Central Asia)
+
+Compact to very compact, variable across the wild-to-cultivated spectrum. Extreme in some phenotypes; cold stress-induced resin production is reported as a defining characteristic of this population. The mix of feral and cultivated individuals creates higher phenotypic diversity than a purely directed landrace selection would exhibit.
 
 ## Grow Information
 

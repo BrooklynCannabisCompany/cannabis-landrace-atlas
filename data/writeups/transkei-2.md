@@ -9,12 +9,16 @@ Transkei-2 represents the inland variant of the Transkei sativa landrace from So
 Cannabis cultivation in the inland areas of the former Transkei homeland has paralleled the long agricultural and cultural tradition of Xhosa and related communities across the Eastern Cape. Inland valley and hillside growing conditions — greater exposure to cold winter fronts from the south, drier summers, and more variable temperature extremes — would have selected for a sturdier, denser plant type relative to the moisture-adapted coastal form. Grower accounts note that inland material tends toward denser bud formation and more resinous, spicy aromatic expression, which may reflect adaptation to drier air and greater UV exposure in the escarpment and valley environments. Whether inland and coastal Transkei populations represent genetically distinct ecotypes or phenotypic variation within a single landrace is not established in published research.
 
 ## Description
-
-- **Category:** Sativa (inland variant)
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — vigorous sativa growth in the inland valley and escarpment environment
-- **Structure:** Sturdier branching and denser flower clusters than the coastal variant; adapted to more variable temperatures and drier seasonal conditions
 - **Flowering:** 10–13 weeks — matching the coastal variant in overall window, reflecting shared photoperiod origins
-- **Aroma/Effect:** Spicy, herbal, and aniseed aromatic notes distinguish this variant from the citrus-tropical coastal form; effects are broadly similar to other Eastern Cape sativa types — cerebral and energizing
+- **Climate:** Other
+- **Origin:** South Africa (Africa)
+
+Sturdier branching and denser flower clusters than the coastal variant; adapted to more variable temperatures and drier seasonal conditions. Spicy, herbal, and aniseed aromatic notes distinguish this variant from the citrus-tropical coastal form; effects are broadly similar to other Eastern Cape sativa types — cerebral and energizing.
 
 ## Grow Information
 

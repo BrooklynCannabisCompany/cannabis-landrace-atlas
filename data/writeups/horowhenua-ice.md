@@ -9,12 +9,16 @@ Horowhenua Ice is a temperate heirloom cultivar associated with the Horowhenua D
 Horowhenua Ice is understood to be a regional preservation line associated with New Zealand's underground outdoor growing culture, though specific historical documentation is limited. The Horowhenua District's cool, wet maritime conditions would have imposed significant selection pressure on any outdoor cannabis population maintained there, favoring plants with early finishing, mold resistance, and vigor in cool and wind-exposed conditions. No specific breeder accounts or formal origin records are verified. The cultivar is more likely the product of informal multi-generational selection by local growers than of any structured breeding program.
 
 ## Description
-
-- **Type:** Temperate heirloom cultivar; mixed category.
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Heirloom
 - **Height:** Medium-tall; reflecting the compact growth sometimes favored under cooler conditions with shorter seasons.
 - **Flowering:** 9–13 weeks; the relatively shorter window aligns with the demands of Horowhenua's cooler, shorter outdoor growing season.
 - **Climate:** Coastal temperate — cool temperatures, westerly wind exposure, moderate to high rainfall, maritime influence from the Tasman Sea.
-- **Reported adaptation:** Suited to cooler conditions and shorter seasons; a regional preservation line.
+- **Origin:** New Zealand (Oceania)
+
+Suited to cooler conditions and shorter seasons; a regional preservation line.
 
 ## Grow Information
 

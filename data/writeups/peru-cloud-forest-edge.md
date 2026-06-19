@@ -9,13 +9,16 @@ Peru Cloud Forest Edge refers to a hybrid landrace population from the transitio
 The jungle-mountain crossover zones of Peru's eastern Andes have historically served as ecological and cultural frontier regions, connecting highland Andean communities with lowland Amazonian groups through trade and seasonal movement. Cannabis populations in these transition zones, if present, would have been subject to the diverse selective pressures of both climate types simultaneously — or to gene flow between neighboring highland and lowland populations. Documentation of this specific population is limited, and its characteristics are primarily inferred from the ecological and climatic context of the Peruvian cloud forest edge.
 
 ## Description
-
-This population is classified as Hybrid-Intermediate, reflecting its position in the transition zone between highland and lowland environments. Plants are tall with a 11–14 week flowering window — somewhat shorter than deep cloud forest sativas, consistent with the altitude component of the transition zone reducing the equatorial lowland influence.
-
+- **Morphotype:** Intermediate (NLD–BLD)
+- **Vernacular type:** Hybrid-Intermediate
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall
 - **Flowering:** 11–14 weeks
-- **Climate adaptation:** Transition zone; blend of Andean highland and cloud forest conditions
-- **Category:** Hybrid-Intermediate
+- **Climate:** Transition zone; blend of Andean highland and cloud forest conditions
+- **Origin:** Peru (Americas)
+
+This population is classified as Hybrid-Intermediate, reflecting its position in the transition zone between highland and lowland environments. Plants are tall with a 11–14 week flowering window — somewhat shorter than deep cloud forest sativas, consistent with the altitude component of the transition zone reducing the equatorial lowland influence.
 
 ## Grow Information
 

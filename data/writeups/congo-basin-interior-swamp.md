@@ -9,12 +9,16 @@ The Congo Basin Interior Swamp is a sativa-type landrace population associated w
 The interior of the Congo Basin, including its extensive swamp forest zones, is among the most remote inhabited regions of Africa. Cannabis in this context is not a cultivated crop in the conventional sense but rather a naturalized or semi-feral population adapted to extreme environmental conditions. Documentation of this specific population is virtually absent — it is understood primarily through regional ecological inference and the broader understanding that the Congo Basin harbors significant cannabis genetic diversity. No specific cultivation history, breeders, or dates can be responsibly attributed to this entry.
 
 ## Description
-
-- **Type:** Rainforest sativa landrace
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Very tall — minimal selection pressure and equatorial growing conditions support maximum vegetative growth
 - **Flowering:** Extremely long, approximately 14–20 weeks — consistent with equatorial populations near the equator where photoperiod shifts are subtle
-- **Climate adaptation:** Equatorial swamp forest — adapted to extreme humidity, heavy and consistent rainfall, seasonal flooding, and dense canopy
-- **Genetic diversity:** Commonly described as extremely diverse, consistent with an isolated, unselected wild population
+- **Climate:** Equatorial swamp forest — adapted to extreme humidity, heavy and consistent rainfall, seasonal flooding, and dense canopy
+- **Origin:** DR Congo (Africa)
+
+Commonly described as extremely diverse, consistent with an isolated, unselected wild population.
 
 ## Grow Information
 

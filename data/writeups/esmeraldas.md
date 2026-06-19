@@ -9,12 +9,16 @@ Esmeraldas refers to cannabis populations associated with Ecuador's Esmeraldas P
 Esmeraldas Province has a distinctive history rooted in the communities of enslaved Africans who escaped or were shipwrecked along this coast from the sixteenth century onward, establishing free Black communities (palenques) that maintained their own agricultural and cultural traditions largely independently of colonial administration. Cannabis in this region is believed to reflect the intersection of these Afro-Ecuadorian agricultural practices with the Pacific rainforest environment. The specific history of cannabis cultivation in Esmeraldas is not formally documented, but the source record's reference to Afro-Ecuadorian cultivation traditions suggests a culturally rooted cultivation lineage distinct from other Ecuadorian landrace populations.
 
 ## Description
-
-- **Category:** Mixed
+- **Morphotype:** Unclassified
+- **Vernacular type:** Mixed
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Tall — consistent with vigorous tropical coastal cannabis in a high-rainfall Pacific rainforest environment
-- **Structure:** Grower accounts suggest exceptional humidity tolerance and vigorous branching; Esmeraldas plants are expected to be strongly vegetative under the province's intense rainfall and warmth
 - **Flowering:** 12–18 weeks — a wide range reflecting the Mixed genetic category and the near-equatorial latitude
-- **Aroma/Effect:** Not specifically documented; the cultural context of Afro-Ecuadorian cultivation may have preserved distinct selections, but these are not recorded in available sources
+- **Climate:** Tropical Rainforest
+- **Origin:** Ecuador (Americas)
+
+Grower accounts suggest exceptional humidity tolerance and vigorous branching; Esmeraldas plants are expected to be strongly vegetative under the province's intense rainfall and warmth. Not specifically documented; the cultural context of Afro-Ecuadorian cultivation may have preserved distinct selections, but these are not recorded in available sources.
 
 ## Grow Information
 

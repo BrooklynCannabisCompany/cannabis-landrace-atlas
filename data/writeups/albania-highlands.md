@@ -9,13 +9,16 @@ The Albania Highlands landrace is an indica-leaning cannabis population native t
 Cannabis cultivation in the Albanian highlands is commonly reported as extending back many generations, though formal documentation is sparse. The region's geographic isolation — marked by the Accursed Mountains (Bjeshkët e Namuna) and the Dinaric Alps — likely helped preserve older landrace characteristics by limiting genetic exchange with lowland and coastal populations. Grower accounts suggest the plant has long been used for both fiber and resin in rural highland communities, persisting as a semi-feral or cultivated population in terraced fields and village gardens.
 
 ## Description
-
-This population is described as an indica-leaning highland landrace of medium height, consistent with many Balkan mountain ecotypes adapted to shorter growing seasons and high-UV conditions at elevation. Plants are commonly reported to develop compact, resinous structure suited to cold nights and dry alpine summers. Leaf morphology is typically broader than Mediterranean sativa types, reflecting the indica-leaning character of high-altitude Balkan populations. Flowering is reported in the range of 8–12 weeks.
-
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium
 - **Flowering:** 8–12 weeks
-- **Type:** Indica-leaning highland landrace
 - **Climate:** Mountain Mediterranean
+- **Origin:** Albania (Europe)
+
+This population is described as an indica-leaning highland landrace of medium height, consistent with many Balkan mountain ecotypes adapted to shorter growing seasons and high-UV conditions at elevation. Plants are commonly reported to develop compact, resinous structure suited to cold nights and dry alpine summers. Leaf morphology is typically broader than Mediterranean sativa types, reflecting the indica-leaning character of high-altitude Balkan populations. Flowering is reported in the range of 8–12 weeks.
 
 ## Grow Information
 

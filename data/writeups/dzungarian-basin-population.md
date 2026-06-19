@@ -9,13 +9,16 @@ The Dzungarian Basin Population is a wild-feral cannabis from the Dzungarian (Ju
 The Dzungarian Basin was historically a major pathway for Silk Road traffic moving between China and Central Asia via the Dzungarian Gate — the natural passage between the Tianshan and Altai ranges that connects Xinjiang to Kazakhstan. This connectivity makes the region a plausible zone of genetic exchange between the cannabis populations of China and those of the Central Asian steppe. Wild-growing cannabis is documented in the Dzungarian Basin and adjacent Tianshan foothills in Chinese and Soviet botanical surveys, though the specific characterization of this population as a genetically distinct entity is limited in the available landrace literature. It is best understood as a drought-tolerant, cold-hardy feral population at the intersection of multiple cannabis distribution zones.
 
 ## Description
-
-- **Category:** Feral
+- **Morphotype:** Unclassified
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Medium-tall
-- **Stature:** Variable, as expected in a broadly distributed feral population; likely adapted to open steppe habitats
 - **Flowering:** 10–16 weeks; the wide range reflects population heterogeneity and the variable day-length conditions across this large basin
-- **Resin:** Generally low; feral steppe populations are not typically selected for resin production
-- The potential linkage value of this population — as a bridge between Central Asian and East Asian cannabis — is its primary point of scientific interest.
+- **Climate:** Desert / Arid
+- **Origin:** China (Middle East / Central Asia)
+
+Variable, as expected in a broadly distributed feral population; likely adapted to open steppe habitats. Generally low; feral steppe populations are not typically selected for resin production. The potential linkage value of this population — as a bridge between Central Asian and East Asian cannabis — is its primary point of scientific interest.
 
 ## Grow Information
 

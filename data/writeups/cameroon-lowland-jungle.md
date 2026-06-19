@@ -9,12 +9,16 @@ The Cameroon Lowland Jungle is a feral sativa population associated with Cameroo
 Cameroon's lowland rainforest zone is part of the Congo Basin forest system, one of the largest tropical forest complexes in the world. Feral cannabis in this region likely represents a combination of historically cultivated material gone wild and naturalized populations that have adapted over generations to the equatorial jungle conditions. Documented history of this specific feral population is minimal; what is known is inferred from regional ecology and the characteristics of equatorial African cannabis more broadly. It shares ecological territory with similar feral populations recorded in neighboring Gabon and DRC.
 
 ## Description
-
-- **Type:** Feral sativa population
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Very tall — equatorial jungle conditions and minimal selection pressure tend to produce very large plants
 - **Flowering:** Approximately 11–15 weeks from equinox; variable across phenotypes
-- **Climate adaptation:** Equatorial rainforest — extreme humidity tolerance, adapted to heavy year-round rainfall
-- **Genetics:** Highly variable, consistent with a diverse, unselected feral population
+- **Climate:** Equatorial rainforest — extreme humidity tolerance, adapted to heavy year-round rainfall
+- **Origin:** Cameroon (Africa)
+
+Highly variable, consistent with a diverse, unselected feral population.
 
 ## Grow Information
 

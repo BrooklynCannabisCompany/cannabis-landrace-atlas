@@ -7,10 +7,16 @@ Tirah Valley is a resin-heavy indica landrace from the Tirah Valley of Pakistan,
 Cannabis cultivation in the Tirah Valley is commonly associated with traditional resin production by the tribal communities that have historically controlled this territory. The valley's difficult access — historically off-limits to outsiders — has contributed to the preservation of locally adapted cannabis populations with limited outside genetic influence. Grower accounts describe Tirah cannabis as notably resinous, consistent with the broader hash-producing traditions of the Af-Pak region. The population's indica character and mountain tribal growing environment are closely related to the broader family of Hindu Kush landraces. Specific documentation is sparse due to the area's restricted access.
 
 ## Description
-- Indica morphology; medium stature suited to mountain tribal growing conditions.
-- Notably resinous flowers, consistent with traditional hashish production practices in the region.
-- Compact, robust structure adapted to rugged mountain terrain and variable climate conditions.
-- Aromas commonly associated with Afghan-Pakistani hash-plant traditions: earthy, spicy, and pungent.
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
+- **Height:** Medium
+- **Flowering:** 8–10 weeks
+- **Climate:** Mountain / Highland
+- **Origin:** Pakistan (Middle East / Central Asia)
+
+Indica morphology; medium stature suited to mountain tribal growing conditions. Notably resinous flowers, consistent with traditional hashish production practices in the region. Compact, robust structure adapted to rugged mountain terrain and variable climate conditions. Aromas commonly associated with Afghan-Pakistani hash-plant traditions: earthy, spicy, and pungent.
 
 ## Grow Information
 The Tirah Valley occupies a mountain tribal climate — a transitional zone between the dry, arid conditions of the Afghan plains and the wetter monsoon-influenced areas further east in Pakistan. Cannabis here is adapted to a relatively dry but variable mountain environment. Flowering is typically reported at 8–10 weeks. The resinous character and compact stature of this population are traits associated with selection pressure for hash production across generations. Low humidity tolerance is expected; the valley's terrain promotes good drainage and airflow around plants.

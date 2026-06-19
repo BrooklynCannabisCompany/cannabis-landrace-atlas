@@ -9,14 +9,16 @@ Dolakha / Ramechhap designates a sativa complex from the adjoining districts of 
 The Dolakha and Ramechhap area of Nepal is not as widely documented in cannabis collector literature as the Kali Gandaki corridor (Mustang, Baglung) or Kathmandu-adjacent zones, making historical records for this specific population thin. Cannabis grows semi-wild and is semi-cultivated across much of mid-hill Nepal, and these districts are no exception. The region's connection to traditional Nepalese rural agriculture means cannabis has been part of the local landscape for generations, though without the organized charas-production culture of western Nepal's Kali Gandaki or Parvati-adjacent zones. The mixed morphology reported for this population likely reflects its position at an ecological crossroads of lower-elevation sativa-leaning and higher-elevation indica-leaning zones.
 
 ## Description
-
-- **Type:** Sativa complex
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Sativa
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Variable — a defining characteristic of this mixed-morphology population
 - **Flowering:** 10–14 weeks
 - **Climate:** Mid-Himalayan valley
-- Phenotypic diversity is prominent: plants may range from taller, longer-flowering sativa expressions in warmer lower valleys to more compact, earlier-finishing types at higher elevations
-- Leaflet width and plant architecture vary considerably within the population, consistent with a sativa complex rather than a stabilized landrace line
-- Resin production and aroma profiles are not well-documented for this specific population; regional Nepalese mid-hill comparisons suggest sweet-spice or earthy characteristics
+- **Origin:** Nepal (South Asia)
+
+Phenotypic diversity is prominent: plants may range from taller, longer-flowering sativa expressions in warmer lower valleys to more compact, earlier-finishing types at higher elevations. Leaflet width and plant architecture vary considerably within the population, consistent with a sativa complex rather than a stabilized landrace line. Resin production and aroma profiles are not well-documented for this specific population; regional Nepalese mid-hill comparisons suggest sweet-spice or earthy characteristics.
 
 ## Grow Information
 

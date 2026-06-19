@@ -9,14 +9,16 @@ Kashmir refers to the cannabis landrace of the Kashmir Valley in the Jammu and K
 Kashmir's association with cannabis and charas production is extensively referenced in historical and ethnobotanical literature. The valley was historically a crossroads of trade routes linking Central Asia, the subcontinent, and East Asia, and cannabis products — particularly hand-rubbed charas and pressed hash — were part of this trade. The Kashmir Valley landrace is considered among the more documented of South Asian indica-leaning types, though the degree to which the present population reflects historical genetics versus generations of informal introduction and hybridization is debated. Traditional charas production in Kashmir continues to be associated with specific valley zones and seasonal hand-rubbing practices similar to those of neighboring Himachal Pradesh.
 
 ## Description
-
-- **Type:** Himalayan landrace, indica-leaning
+- **Morphotype:** Broad-Leaf Drug
+- **Vernacular type:** Indica
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Domesticated
 - **Height:** Medium to tall — reflecting the valley's relatively mild and fertile conditions compared to extreme alpine sites
 - **Flowering:** 9–13 weeks
 - **Climate:** Mountain valley
-- Adapted to cool, fertile mountain valley conditions with strong seasonal variation; more productive in terms of biomass than extreme high-altitude types
-- Commonly associated with dense resin production and the charas-making tradition; plants are reportedly selected over generations for glandular trichome abundance
-- Aroma profiles in grower and collector accounts often describe earthy, sweet, or faintly floral notes consistent with Himalayan charas types
+- **Origin:** India (South Asia)
+
+Adapted to cool, fertile mountain valley conditions with strong seasonal variation; more productive in terms of biomass than extreme high-altitude types. Commonly associated with dense resin production and the charas-making tradition; plants are reportedly selected over generations for glandular trichome abundance. Aroma profiles in grower and collector accounts often describe earthy, sweet, or faintly floral notes consistent with Himalayan charas types.
 
 ## Grow Information
 

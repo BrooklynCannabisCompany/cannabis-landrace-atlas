@@ -9,13 +9,15 @@ Tibetan Plateau Wild Cannabis refers to isolated wild cannabis populations found
 The Tibetan Plateau has been inhabited by Tibetan peoples for millennia, and cannabis has been documented in Tibetan cultural and medicinal traditions. Whether the wild populations on the plateau represent remnants of ancient cultivation, the result of seed dispersal from lower-elevation cultivated or feral populations, or truly indigenous wild populations is a question that has not been definitively resolved in accessible botanical literature. Given the plateau's position between Himalayan cannabis populations to the south and west and Yunnan populations to the southeast, gene flow from multiple directions is plausible. The harsh conditions impose strict natural selection on any cannabis that survives here.
 
 ## Description
-
-- **Type:** Wild sativa — plateau adaptation
+- **Morphotype:** Narrow-Leaf Drug
+- **Vernacular type:** Feral
+- **Chemotype:** Type I (inferred)
+- **Domestication:** Feral (escaped)
 - **Height:** Not precisely documented; plateau conditions typically constrain height relative to lower-elevation populations of the same type
-- **Structure:** Likely compact relative to lowland sativas, adapted to wind exposure and extreme UV
-- **Leaf structure:** Not well characterized for this specific population; highland Tibetan cannabis is generally associated with relatively narrow leaflets
 - **Flowering:** Variable, as noted in the record; the extreme altitude and variable microclimates of the plateau likely produce significant phenotypic variation
-- **Aroma/effect:** Not documented; wild plateau populations are not selected for resin production
+- **Origin:** China (East Asia / North Asia)
+
+Likely compact relative to lowland sativas, adapted to wind exposure and extreme UV. Not well characterized for this specific population; highland Tibetan cannabis is generally associated with relatively narrow leaflets. Not documented; wild plateau populations are not selected for resin production.
 
 ## Grow Information
 
