@@ -499,10 +499,6 @@ function buildValueGroups(facet, label, field, target, state) {
 // Opens the Index. `target` = { facet, value } forces only that heading open (others folded).
 function openIndex(target) {
   openContentModal('Index', (body) => {
-    const intro = document.createElement('p');
-    intro.className = 'modal-note';
-    intro.textContent = 'Browse all varieties — expand a facet, then a value, then select a variety.';
-    body.appendChild(intro);
     const state = target ? {} : loadIndexState();
     INDEX_FACETS.forEach(([label, field]) => {
       const facet = document.createElement('details');

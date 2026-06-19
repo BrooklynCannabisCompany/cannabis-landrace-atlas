@@ -31,7 +31,8 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   font-family: var(--serif); font-size: 20px; letter-spacing: 0.02em;
   color: var(--ink); white-space: nowrap; flex: 0 0 auto;
 }
-.search { position: relative; flex: 1 1 auto; max-width: 420px; margin: 0 auto; }
+.search-group { display: flex; align-items: center; gap: 8px; flex: 1 1 auto; max-width: 440px; margin: 0 auto; }
+.search { position: relative; flex: 1 1 auto; }
 #search-input {
   width: 100%; padding: 9px 12px; font-size: 14px; font-family: var(--sans);
   color: var(--ink); background: #fff;
