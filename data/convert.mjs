@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { parseEntry } from './lib/parse.mjs';
 import { normalizeCategory } from './lib/category.mjs';
-import { resolveCoords } from './lib/coords.mjs';
+import { resolveCoords, resolveCountryName } from './lib/coords.mjs';
 import { makeUniqueId } from './lib/id.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -60,7 +60,7 @@ for (const file of FILES) {
       id,
       name: p.name,
       continent: continent || 'Unknown',
-      country: p.countryRaw || '',
+      country: resolveCountryName({ countryRaw: p.countryRaw, regionRaw: p.regionRaw, name: p.name }) || p.countryRaw || '',
       region: p.regionRaw || '',
       lat: coords ? coords.lat : null,
       lng: coords ? coords.lng : null,
