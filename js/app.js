@@ -214,6 +214,7 @@ function openFacet(field, token) {
 }
 
 function openListModal(title, list) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   const ul = document.createElement('ul');
@@ -304,11 +305,12 @@ input.addEventListener('keydown', (e) => {
 
 // ---- Submit modal (placeholder; no network) ----
 function openModal(title, body) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.textContent = body;
   modal.hidden = false;
 }
-function closeModal() { modal.hidden = true; }
+function closeModal() { modal.hidden = true; modal.classList.remove('wide'); }
 
 function openFeedbackSubmit() {
   openModal(
@@ -344,14 +346,36 @@ appMenu.addEventListener('click', (e) => {
   const item = e.target.closest('.app-menu-item');
   if (!item) return;
   toggleMenu(false);
-  ({ about: openAbout, index: openIndex, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
+  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
 });
 
 function openContentModal(title, build) {
+  modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);
   modal.hidden = false;
+}
+
+function openDatabase() {
+  openContentModal('Database', (body) => {
+    const note = document.createElement('p');
+    note.className = 'modal-note';
+    note.textContent = 'Searchable database of original dataset';
+    const frame = document.createElement('iframe');
+    frame.src = 'https://simpletestsite.neocities.org/global%20landraces.HTML';
+    frame.className = 'db-frame';
+    frame.title = 'Searchable database of original dataset';
+    frame.loading = 'lazy';
+    const fallback = document.createElement('p');
+    fallback.className = 'modal-note';
+    const a = document.createElement('a');
+    a.href = frame.src; a.target = '_blank'; a.rel = 'noopener noreferrer';
+    a.textContent = 'Open the database in a new tab';
+    fallback.append('If the embed does not load, ', a, '.');
+    body.append(note, frame, fallback);
+  });
+  modal.classList.add('wide');
 }
 
 function openAbout() {
@@ -407,7 +431,7 @@ function openReferences() {
 // Index facets: [label, record field, optional value formatter].
 const INDEX_FACETS = [
   ['Morphotype', 'morphotype'],
-  ['Chemotype', 'chemotype', (v) => `Type ${v}`],
+  ['Chemotype', 'chemotype', (v) => `Type ${v}`, ['I', 'II', 'III', 'IV', 'V']],
   ['Domestication', 'domestication'],
   ['Type (vernacular)', 'category'],
   ['Height', 'height'],
@@ -524,13 +548,16 @@ function buildFloweringSlider(facet) {
 }
 
 // Collapsible value groups (one-per-line lists), with persisted open state.
-function buildValueGroups(facet, label, field, fmt, target, state) {
+function buildValueGroups(facet, label, field, fmt, order, target, state) {
   const groups = {};
   for (const s of strains) {
     const v = (s[field] || '').toString().trim() || '—';
     (groups[v] ||= []).push(s);
   }
-  for (const v of Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length)) {
+  const keys = Object.keys(groups).sort(order
+    ? (a, b) => order.indexOf(a) - order.indexOf(b)
+    : (a, b) => groups[b].length - groups[a].length);
+  for (const v of keys) {
     const g = document.createElement('details');
     g.className = 'index-group';
     const key = `group:${label}::${v}`;
@@ -550,7 +577,7 @@ function buildValueGroups(facet, label, field, fmt, target, state) {
 function openIndex(target) {
   openContentModal('Index', (body) => {
     const state = target ? {} : loadIndexState();
-    INDEX_FACETS.forEach(([label, field, fmt]) => {
+    INDEX_FACETS.forEach(([label, field, fmt, order]) => {
       const facet = document.createElement('details');
       facet.className = 'index-facet';
       const fkey = `facet:${label}`;
@@ -562,7 +589,7 @@ function openIndex(target) {
       facet.appendChild(fsum);
       if (label === 'Height') buildHeightSlider(facet);
       else if (label === 'Flowering Time') buildFloweringSlider(facet);
-      else buildValueGroups(facet, label, field, fmt, target, state);
+      else buildValueGroups(facet, label, field, fmt, order, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
       body.appendChild(facet);
     });
