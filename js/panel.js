@@ -26,7 +26,7 @@ function facetRow(dl, label, field, value, onFacet, title, facetToken) {
   if (facetToken) {
     // Single chip with an explicit facet token (e.g. Type displays the descriptor
     // but filters by normalized category).
-    const chip = el('button', 'facet', value);
+    const chip = el('button', 'facet', String(value).trim());
     chip.type = 'button';
     chip.setAttribute('aria-label', `Show varieties with ${label.toLowerCase()} ${facetToken}`);
     if (onFacet) chip.addEventListener('click', () => onFacet(field, facetToken));
