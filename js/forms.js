@@ -7,16 +7,10 @@
 
 import { openContentModal } from './modal.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
+import { isValidUrl, parseWeeks } from './util.js';
 
 // Repository that submission issues are filed against. Update if the repo is renamed.
 const REPO = 'BrooklynCannabisCompany/cannabis-landrace-atlas';
-
-export function isValidUrl(s) {
-  try {
-    const u = new URL(s);
-    return u.protocol === 'http:' || u.protocol === 'https:';
-  } catch { return false; }
-}
 
 // An anchor to the GitHub repository.
 export function repoLink(text) {
@@ -91,14 +85,6 @@ const SUBMIT_FIELDS = [
 ];
 // Long-form sections rendered as headed blocks in the issue (not "**Label:** value").
 const PROSE_KEYS = new Set(['overview', 'history', 'description', 'grow', 'sources']);
-
-// Parses a flowering value ("7–9w", "8 weeks") into { min, max } strings.
-function parseWeeks(f) {
-  const r = String(f || '').match(/(\d+)\s*[–-]\s*(\d+)/);
-  if (r) return { min: r[1], max: r[2] };
-  const s = String(f || '').match(/(\d+)/);
-  return s ? { min: s[1], max: '' } : { min: '', max: '' };
-}
 
 // Fetches a write-up and extracts the four prose sections (for correction prefill).
 async function fetchWriteupSections(id) {

@@ -9,7 +9,8 @@ import { relatedStrains } from './relations.js';
 import { initTooltips } from './tooltip.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
 import { modal, openContentModal, closeModal } from './modal.js';
-import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, isValidUrl, repoLink } from './forms.js';
+import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink } from './forms.js';
+import { isValidUrl } from './util.js';
 
 const panel = document.getElementById('panel');
 const input = document.getElementById('search-input');
