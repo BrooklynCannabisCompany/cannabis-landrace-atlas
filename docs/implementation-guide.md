@@ -231,11 +231,12 @@ position.
 
 - **Sanitize all rendered Markdown** (`markdown.js` allowlist; `SAFE_HREF = /^(https?:|mailto:|#)/i`)
   and **protocol-check dataset URLs** (`isValidUrl`) before rendering. Never relax these.
-- The GitHub remote is the **private** repo under `github.com/BrooklynCannabisCompany`
+- The GitHub remote is the repo under `github.com/BrooklynCannabisCompany`
   (`cannabis-landrace-atlas`), pushed via an SSH **deploy key**. Commit author is
   "Brooklyn Cannabis Company"; contact email `BrooklynCannabis@protonmail.com`.
-- **Never** access GitHub as, or write the name/login `the owner account` (or the owner's real
-  name) into any commit, file, or issue. History was scrubbed to enforce this.
+- **Use only the Brooklyn Cannabis Company identity for this project.** Never access GitHub
+  as, or write the owner's personal account name or real name into, any commit, file, or
+  issue. History was scrubbed to enforce this.
 
 ## 14. Testing
 
