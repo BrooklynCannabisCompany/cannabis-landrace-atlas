@@ -555,8 +555,9 @@ function varietyLineList(list) {
 }
 
 // A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).
-// initLo/initHi set the starting thumb positions (default = full range).
-function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absMax) {
+// initLo/initHi set the starting thumb positions (default = full range). minGap is the
+// minimum distance kept between the thumbs (e.g. 1 so they can never land on the same value).
+function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absMax, minGap = 0) {
   const wrap = document.createElement('div');
   wrap.className = 'dual-slider';
   const track = document.createElement('div'); track.className = 'ds-track';
@@ -572,8 +573,15 @@ function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absM
   const pct = (v) => ((v - absMin) / span) * 100;
   function update() {
     let l = +lo.value; let h = +hi.value;
-    if (l > h) { // prevent crossing
-      if (document.activeElement === lo) { l = h; lo.value = l; } else { h = l; hi.value = h; }
+    if (h - l < minGap) { // keep the thumbs at least minGap apart (and from crossing)
+      if (document.activeElement === lo) {
+        l = h - minGap;
+        if (l < absMin) { l = absMin; h = Math.min(absMax, absMin + minGap); }
+      } else {
+        h = l + minGap;
+        if (h > absMax) { h = absMax; l = Math.max(absMin, absMax - minGap); }
+      }
+      lo.value = l; hi.value = h;
     }
     fill.style.left = `${pct(l)}%`;
     fill.style.right = `${100 - pct(h)}%`;
@@ -640,7 +648,13 @@ function buildFloweringSlider(facet, target) {
   let initLo = absMin; let initHi = absMax;
   if (target && target.facet === 'Flowering Time' && target.value) {
     const w = floweringWeeks(target.value);
-    if (w) { initLo = Math.max(absMin, w.min); initHi = Math.min(absMax, w.max); }
+    if (w) {
+      initLo = Math.max(absMin, w.min); initHi = Math.min(absMax, w.max);
+      // A single-week variety still selects a 1-week range (e.g. 9 -> 8–9).
+      if (initHi - initLo < 1) {
+        if (initLo > absMin) initLo -= 1; else initHi = Math.min(absMax, initLo + 1);
+      }
+    }
   }
   const box = document.createElement('div'); box.className = 'slider-facet';
   const label = document.createElement('div'); label.className = 'height-range-label';
@@ -651,7 +665,7 @@ function buildFloweringSlider(facet, target) {
     listHost.innerHTML = '';
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
-  }, initLo, initHi);
+  }, initLo, initHi, 1);
   box.append(label, ds.wrap, listHost);
   facet.appendChild(box);
   ds.update();
