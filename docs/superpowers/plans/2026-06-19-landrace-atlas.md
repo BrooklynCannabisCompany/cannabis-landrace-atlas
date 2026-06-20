@@ -1781,3 +1781,19 @@ After B1/C1 verify rendering: generate `data/writeups/<id>.md` for every strain 
 - **Type consistency:** `parseEntry` returns `{name, countryRaw, type, height, flowering, climate, summary, regionRaw, incomplete}`; the converter maps those to the record fields used by `validateRecords`, `filterStrains`, `addMarkers`, and `renderStrain`. Record field names (`category`, `coordsApproximate`, `links`, `lat`, `lng`) are identical across T8/T9/T11/T12/T13.
 - **Tests:** pure logic is TDD'd via `node --test` (T4,5,6,7,9,11); DOM/Leaflet is manual smoke (T12–T17), as the spec requires no heavyweight framework.
 ```
+
+---
+
+## Status & work beyond the original plan (updated 2026-06-19)
+
+The original plan (T1–T17) is **complete**. Substantial follow-on work shipped since then (each tracked, tested where logic is pure, and committed on `master`):
+
+- **Data pipeline & geocoding:** raw → `data/convert.mjs` (helpers in `data/lib/`, all with `*.test.mjs`); approximate geocoding with country centroids + sub-national rules; higher-detail `data/world.geojson` so small islands show land; Climate normalized to a controlled vocabulary.
+- **Taxonomy:** `morphotype` / `chemotype` / `chemotypeInferred` / `domestication` fields (`data/lib/taxonomy.mjs`, tested), validated against McPartland & Russo (`docs/reports/`). Panel leads with Morphotype; Sativa/Indica is "Type (vernacular)".
+- **Index:** collapsible multi-facet tree with persisted state; Region-first ordering; dual-thumb Height/Flowering sliders; one-per-line lists; autocomplete heading-jump.
+- **Panel:** facts ordered to match the Index; custom fast tooltips; selected-marker highlight; marker name tooltips; "Flowering Time" spelled out.
+- **Write-ups:** 446 AI drafts (no fabricated links); `## Description` normalized to ordered bullets + prose via `data/normalize-writeups.mjs`.
+- **Database** embed; **Submissions** via pre-filled labeled GitHub issues (no backend).
+- **Release prep:** MIT/CC BY-SA headers, commit identity scrubbed to "Brooklyn Cannabis Company", GitHub Pages deploy notes, repo `BrooklynCannabisCompany/cannabis-landrace-atlas`.
+
+**Remaining (reports/analysis, no blocking work):** full code review, full UI/UX review, broad data-normalization suggestions, and a data-vs-original-seed reconciliation pass.

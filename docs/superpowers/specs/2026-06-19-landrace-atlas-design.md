@@ -472,5 +472,25 @@ Contribution guidelines (`CONTRIBUTING.md`):
 - No filtering/grouping UI beyond search (the `country`/`category` keys leave room).
 - Seed/photo/forum links in write-ups are **not** generated now — they come from the
   later enrichment phase and community submissions.
+
+---
+
+## Implementation status — current (updated 2026-06-19)
+
+The app is built and deploy-ready. Notable additions/changes since the sections above:
+
+**Taxonomy (aligned with McPartland & Russo — see `docs/reports/2026-06-19-taxonomy-review-mcpartland-russo.md`).** Each record now carries `morphotype`, `chemotype`, `chemotypeInferred`, and `domestication`, derived in `data/lib/taxonomy.mjs` (tested). The panel leads with **Morphotype** as the primary badge (NLD / BLD / NLH / BLH / Ruderalis / Intermediate / Unclassified); "Sativa/Indica" is demoted to a **Type (vernacular)** row. **Chemotype** displays `Type N (inferred)` (I–V); **Domestication** is Domesticated / Heirloom / Feral / Wild. `validate.mjs` enforces the new enums.
+
+**Index.** Multi-facet collapsible tree (native `<details>`), expand/collapse state persisted to `localStorage`, opened via a ribbon icon button immediately left of the search box. Facet order: **Region, Climate, Morphotype, Chemotype, Domestication, Type (vernacular), Height, Flowering Time**. Height and Flowering Time are single-bar **dual-thumb sliders** (non-crossing, triangle handles); other facets list varieties one per line with custom value ordering. Autocomplete can jump straight to a facet/value heading.
+
+**Panel.** Facts ordered to match the Index. Fast custom tooltips (`js/tooltip.js`) on Morphotype, Chemotype, Domestication. Flowering spelled out (e.g. "7–9 weeks"). The selected variety's marker becomes an inverted white leaf in a purple circle; all markers have hover name tooltips.
+
+**Write-ups.** `## Description` is normalized to an ordered fact bullet list (mirroring the Index order) followed by a prose paragraph, via `data/normalize-writeups.mjs` (idempotent and deterministic — no fabrication).
+
+**Database.** Hamburger → **Database** embeds the searchable original dataset (neocities) in a sandboxed, no-referrer iframe.
+
+**Submissions (now implemented).** "Suggest an Addition" and "Suggest Corrections" open a panel-style form (dropdowns for fixed-value fields, free text otherwise; Corrections pre-filled with current values). Submit opens a pre-filled GitHub issue tagged **`add request`** / **`update request`** — still no backend or token (the user submits while logged into GitHub). Repository: `BrooklynCannabisCompany/cannabis-landrace-atlas`.
+
+**Hosting.** Free via **GitHub Pages** (public repo; relative asset paths work under a project subpath). See `README.md`.
 ```
 

@@ -7,8 +7,8 @@ A static, no-backend world map of cannabis landraces with per-strain write-ups a
 ## Run locally
 
 ```bash
-git clone <repo-url>
-cd landrace-map
+git clone https://github.com/BrooklynCannabisCompany/cannabis-landrace-atlas.git
+cd cannabis-landrace-atlas
 npm run serve          # starts python3 -m http.server 8000
 ```
 
@@ -39,9 +39,13 @@ No configuration files are required — there is no build step, so the repositor
 
 ## How it works
 
-- **Map:** [Leaflet](https://leafletjs.com/) renders a bundled GeoJSON world map (`data/world.geojson`) — no external tile server is required.
-- **Markers:** loaded from `data/landraces.json`, which is generated from the raw source files.
-- **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md` and rendered in the detail panel.
+- **Map:** [Leaflet](https://leafletjs.com/) renders a bundled GeoJSON world map (`data/world.geojson`) — no external tile server is required. The selected variety's marker is highlighted; every marker has a hover name tooltip.
+- **Markers & data:** loaded from `data/landraces.json`, generated from the raw source files via `npm run convert`. Each record carries botanical fields — **morphotype, chemotype (inferred), domestication** — alongside region, climate, height, and flowering, derived in `data/lib/` and validated by `npm run validate`. The taxonomy follows McPartland & Russo (see `docs/reports/`).
+- **Panel:** a side panel shows the facts (Morphotype badge + Region, Climate, Chemotype, Domestication, Type, Height, Flowering Time) with explanatory tooltips, then the write-up.
+- **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
+- **Index:** a collapsible, multi-facet browser (Region, Climate, Morphotype, Chemotype, Domestication, Type, Height, Flowering Time) with range sliders for Height and Flowering Time, opened from the ribbon.
+- **Database:** the hamburger menu embeds the searchable original dataset.
+- **Submissions:** "Suggest an Addition" and "Suggest Corrections" open a form that files a pre-filled, labeled GitHub issue (`add request` / `update request`) — no backend.
 
 ---
 

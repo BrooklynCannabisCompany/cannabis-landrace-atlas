@@ -325,6 +325,15 @@ function openIssue(label, title, bodyText) {
   window.open(url, '_blank', 'noopener');
 }
 
+// An anchor to the GitHub repository.
+function repoLink(text) {
+  const a = document.createElement('a');
+  a.href = `https://github.com/${REPO}`;
+  a.target = '_blank'; a.rel = 'noopener noreferrer';
+  a.textContent = text;
+  return a;
+}
+
 // Fixed-value fields get a dropdown; everything else is free text.
 const SUBMIT_OPTIONS = {
   continent: ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia'],
@@ -505,15 +514,15 @@ function openAbout() {
   openContentModal('About', (body) => {
     const p1 = document.createElement('p');
     p1.textContent = 'The Cannabis Landrace Atlas is a free interactive map of traditional cannabis landraces, heirlooms, and wild populations from around the world.';
-    const licenseP = document.createElement('p');
-    licenseP.className = 'modal-note';
+    const linksP = document.createElement('p');
+    linksP.className = 'modal-note';
     const licenseLink = document.createElement('button');
     licenseLink.type = 'button';
     licenseLink.className = 'linklike';
     licenseLink.textContent = 'License';
     licenseLink.addEventListener('click', openLicense);
-    licenseP.append(licenseLink);
-    body.append(p1, licenseP);
+    linksP.append(licenseLink, ' · ', repoLink('GitHub repository'));
+    body.append(p1, linksP);
   });
 }
 
@@ -539,7 +548,10 @@ function openLicense() {
     const p = document.createElement('p');
     p.className = 'modal-note';
     appendDataCredit(p);
-    body.append(dl, p);
+    const repoP = document.createElement('p');
+    repoP.className = 'modal-note';
+    repoP.append('Source code and full license texts: ', repoLink('GitHub repository'), '.');
+    body.append(dl, p, repoP);
   });
 }
 
