@@ -2,7 +2,7 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
 // Derives botanically-grounded classifications from the parsed type/category text,
-// following McPartland & Russo (see docs/reports/2026-06-19-taxonomy-review-...).
+// following McPartland & Russo (see docs/taxonomy-guide.md).
 // All are inferred from descriptors — no lab data — and are best-effort.
 
 // Morphotype (primary classification). Leaf-shape + use biotype.

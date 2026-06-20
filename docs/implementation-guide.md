@@ -106,7 +106,7 @@ helpers in `data/lib/`:
 - `normalize.mjs` — `cleanType`, `cleanRegion` (returns `{region, note}`), `cleanClimate`
   (maps free text → a canonical climate bucket; original kept as `climateFull`).
 - `taxonomy.mjs` — `deriveMorphotype`, `deriveChemotype`, `deriveDomestication`
-  (McPartland & Russo scheme; see `docs/reports/...taxonomy...`).
+  (McPartland & Russo scheme; see [`taxonomy-guide.md`](taxonomy-guide.md)).
 
 `convert.mjs` also merges enrichment: `vendor-links.json` provides `seedSources`,
 `photos`, `forums`, `references`; `aka-generated.json` adds alternate names. **Run
@@ -259,7 +259,9 @@ verified manually / via devtools, not in `node --test`.
   `transform`).
 - Deployment is **GitHub Pages** from the repo; it's a static site, so a push deploys.
 
-## 16. Reports
+## 16. Companion docs
 
-`docs/reports/` holds point-in-time reviews (code review, UX review, taxonomy validation).
-They are historical context, not living specs — trust the code and this guide first.
+- [`taxonomy-guide.md`](taxonomy-guide.md) — how varieties are classified (morphotype,
+  chemotype, domestication, vernacular type) and the McPartland & Russo rationale.
+- [`writeup-generation-guide.md`](writeup-generation-guide.md) — rules for generating
+  `data/writeups/*.md`.
