@@ -2,7 +2,8 @@
 
 Rules for generating `data/writeups/<id>.md` files for The Cannabis Landrace Atlas.
 Every generated write-up MUST follow these rules exactly. Write-ups are licensed
-CC BY-SA 4.0.
+CC BY-SA 4.0. For how the app loads and decorates these files at runtime, see
+[`implementation-guide.md`](implementation-guide.md) §12.
 
 ## Format
 
@@ -78,17 +79,23 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
   - Seed Sources: `_No verified seed sources yet — use the ⊕ button to suggest one._`
   - Forum Discussions: `_No verified forum links yet — use the ⊕ button to suggest one._`
 
-- They are filled later from real sources (the seed-bank enrichment phase and
-  community submissions via the per-section **⊕** button), not by generation.
+- They are filled later from real sources — the seed-bank enrichment scrapers and the
+  web-research pass (both write into `data/vendor-links.json`, merged in by
+  `data/convert.mjs`), plus community submissions via the per-section **⊕** button — not
+  by generation. The ⊕ forms collect a **name + link** per entry. The app injects these
+  arrays into the sections at runtime; the generated Markdown only carries the empty-slot
+  note.
 
 ## The References section (strain-specific only)
 
 - The general foundational references (Clarke & Merlin; Clarke; Overgrow credit) now
   live ONLY on the global References screen (hamburger menu) — do NOT repeat them per
   strain.
-- The per-strain `## References` section holds only strain-specific sources (e.g. a
-  matched seed-vendor listing, injected at runtime). The generated file uses the
-  empty-slot note; never invent URLs or citations here:
+- The per-strain `## References` section holds only strain-specific sources — curated
+  `references[]` from the web-research pass (Leafly / GrowDiaries / Weedmaps / SeedFinder)
+  or, failing that, the matched seed-vendor listing — all injected at runtime from
+  `data/vendor-links.json`. The generated file uses the empty-slot note; never invent URLs
+  or citations here:
 
   ```
   ## References
