@@ -60,6 +60,17 @@ const MORPHOTYPE_DEF = {
   'Intermediate (NLD–BLD)': 'Intermediate between narrow-leaf and broad-leaf drug types.',
   'Unclassified': 'Leaf/biotype not determinable from the available records.'
 };
+// Vernacular (common-usage) type definitions for the second badge — the seven Index
+// categories. Written to match the MORPHOTYPE_DEF tone.
+const CATEGORY_DEF = {
+  Hemp: 'Low-THC cannabis grown for fiber, seed, or CBD. Not an intoxicant; the vernacular grouping for industrial and food crops rather than drug-type plants.',
+  Sativa: 'Vernacular label for tall, late-flowering drug plants with thin narrow leaflets, loosely tied to hot humid regions. Roughly matches the "Narrow-Leaf Drug" type.',
+  Indica: 'Vernacular label for short, bushy, fast-maturing drug plants with wide leaflets, loosely tied to cool mountain regions. Roughly matches the "Broad-Leaf Drug" type.',
+  Mixed: 'A population showing a blend of types with no single dominant form. Plants vary across sativa-like and indica-like traits rather than one consistent look.',
+  'Hybrid-Intermediate': 'A population sitting between sativa and indica, mixing traits of both. Neither clearly narrow-leaf nor broad-leaf, but somewhere in the middle.',
+  Ruderalis: 'Short, auto-flowering wild cannabis (Eastern Europe/Russia). Low THC, aggressively cold-adapted; a feral/wild morphotype.',
+  Feral: 'Naturalized cannabis growing wild outside cultivation. Escaped or abandoned populations now reproducing on their own, often reverting toward weedy wild traits.'
+};
 const CHEMOTYPE_DEF = {
   I: 'Type I — THC-dominant (THC ≫ CBD). High psychoactivity; intoxicating, euphoric, or relaxing depending on terpenes.',
   II: 'Type II — Balanced ~1:1 THC:CBD. Mild psychoactivity; high therapeutic value with reduced impairment.',
@@ -107,7 +118,8 @@ export function renderStrain(container, strain, handlers = {}) {
     if (strain.category) {
       const tb = el('button', 'panel-badge facet-badge type-badge', strain.category);
       tb.type = 'button';
-      tb.setAttribute('data-tip', 'Vernacular type — the common Sativa/Indica-style grouping.');
+      tb.setAttribute('data-tip',
+        CATEGORY_DEF[strain.category] || 'Vernacular type — the common Sativa/Indica-style grouping.');
       if (onFacet) tb.addEventListener('click', () => onFacet('category', strain.category));
       badges.appendChild(tb);
     }

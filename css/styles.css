@@ -165,12 +165,12 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   padding: 3px 9px; border-radius: 999px;
   background: #eef0e9; color: var(--green-dark); border: 1px solid #d6ddcf;
 }
+/* Classification badges (morphotype + vernacular type): same purple styling for both. */
 .panel-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.panel-badges .panel-badge { background: #f0ecf5; color: #5a3b86; border-color: #d8cfe6; }
 .facet-badge { font-family: inherit; cursor: pointer; }
 .facet-badge:hover { background: var(--green); color: #fff; border-color: var(--green); }
-/* Vernacular-type badge: a distinct tint so it reads separately from the morphotype badge. */
-.type-badge { background: #f0ecf5; color: #5a3b86; border-color: #d8cfe6; }
-.type-badge:hover { background: #6b3fa0; color: #fff; border-color: #6b3fa0; }
+.panel-badges .facet-badge:hover { background: #6b3fa0; color: #fff; border-color: #6b3fa0; }
 /* Fast custom tooltip (body-anchored, never clipped by panel scroll) */
 .tooltip {
   position: fixed; z-index: 3000; max-width: 260px;
