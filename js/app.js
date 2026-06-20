@@ -444,7 +444,23 @@ function openAbout() {
     licenseLink.textContent = 'License';
     licenseLink.addEventListener('click', openLicense);
     linksP.append(licenseLink, ' · ', repoLink('GitHub repository'));
-    body.append(p1, linksP);
+
+    const ext = (href, text) => {
+      const a = document.createElement('a');
+      a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = text;
+      return a;
+    };
+    const contact = document.createElement('p');
+    contact.className = 'modal-note';
+    contact.append(
+      'Contact: ',
+      ext('mailto:BrooklynCannabis@protonmail.com', 'BrooklynCannabis@protonmail.com'),
+      ' · ',
+      ext('https://www.instagram.com/brooklyn_cannabis_company', 'Instagram'),
+      ' · ',
+      ext('https://overgrow.com/u/BCC', 'Overgrow (@BCC)')
+    );
+    body.append(p1, linksP, contact);
   });
 }
 

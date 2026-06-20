@@ -34,7 +34,7 @@ Open http://localhost:8000 in your browser.
 - **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
 - **Index:** a collapsible, multi-facet browser (Region, Climate, Morphotype, Chemotype, Domestication, Type, Height, Flowering Time) with range sliders for Height and Flowering Time, opened from the ribbon.
 - **Database:** the hamburger menu embeds the searchable original dataset.
-- **Submissions:** "Suggest an Addition" and "Suggest Corrections" open a form that files a pre-filled, labeled GitHub issue (`add request` / `update request`) — no backend.
+- **Submissions:** the ribbon's "Suggest an Addition", "Suggest Corrections", and "Contact Us" buttons — plus the ⊕ buttons on the Photos / Seed Sources / Forum Discussions / References sections — open pre-filled, labeled GitHub issues (no backend; you submit while signed into GitHub).
 
 ---
 
@@ -55,7 +55,14 @@ A few caveats:
 
 ## Submissions
 
-The **Submit** buttons inside the app are placeholders. Once the project has a public GitHub repository they will open pre-filled GitHub issue templates so the community can propose new strains, coordinate corrections, and link verified sources without touching code.
+The in-app contribution buttons open a **pre-filled GitHub issue** that you submit while signed into GitHub — there is no backend or token:
+
+- **Suggest an Addition** — propose a new variety via a structured form.
+- **Suggest Corrections** — edit a variety's fields and write-up (pre-filled with current values).
+- **Contact Us** — send a feature request, bug report, or general feedback.
+- The **⊕** buttons beside Photos / Seed Sources / Forum Discussions / References add verified URLs.
+
+Issues are labeled by type for triage: `add request`, `update request`, `feature request`, `bug`, `feedback`, `add image request`, `add seed source request`, `add forum request`, `add reference request`.
 
 ---
 
@@ -69,3 +76,11 @@ The **Submit** buttons inside the app are placeholders. Once the project has a p
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on submitting data corrections, new strains, code improvements, and write-up updates.
+
+---
+
+## Contact
+
+- **Email:** [BrooklynCannabis@protonmail.com](mailto:BrooklynCannabis@protonmail.com)
+- **Instagram:** [@brooklyn_cannabis_company](https://www.instagram.com/brooklyn_cannabis_company)
+- **Overgrow:** [@BCC](https://overgrow.com/u/BCC)
