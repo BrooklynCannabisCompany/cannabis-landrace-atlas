@@ -81,7 +81,7 @@ const SUBMIT_FIELDS = [
   ['history', 'History', 'textarea'],
   ['description', 'Description', 'textarea'],
   ['grow', 'Grow Information', 'textarea'],
-  ['sources', 'Sources (required — real, verifiable links)', 'linklist']
+  ['sources', 'References (Information Sources)', 'linklist']
 ];
 // Long-form sections rendered as headed blocks in the issue (not "**Label:** value").
 const PROSE_KEYS = new Set(['overview', 'history', 'description', 'grow', 'sources']);
