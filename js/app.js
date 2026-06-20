@@ -29,6 +29,8 @@ function openPanel(strain) {
   if (currentId) setMarkerSelected(markersById.get(currentId), false); // clear previous highlight
   currentId = strain.id;
   setMarkerSelected(markersById.get(strain.id), true);
+  input.value = ''; // clear the search box whenever a variety is selected (map/index/links)
+  hideResults();
   renderStrain(panel, strain, { onClose: closePanel, onSubmit: openStrainSubmit, onFacet: openFacet });
   document.body.classList.remove('panel-closed');
   document.body.classList.add('panel-open');
@@ -286,9 +288,8 @@ function showResults(headings, items) {
 function hideResults() { resultsList.hidden = true; }
 
 function selectStrain(s) {
-  input.value = s.name;
   hideResults();
-  openPanel(s);
+  openPanel(s); // openPanel clears the search box
 }
 
 input.addEventListener('input', () => renderSearch(input.value));
@@ -313,23 +314,133 @@ function openModal(title, body) {
 }
 function closeModal() { modal.hidden = true; modal.classList.remove('wide'); }
 
+// Repository that submission issues are filed against. Update if the repo is renamed.
+const REPO = 'BrooklynCannabisCompany/cannabis-landrace-atlas';
+
+// Opens a pre-filled "new issue" page (the user submits it while logged into GitHub —
+// no token, no backend). label tags the issue ('add request' / 'update request').
+function openIssue(label, title, bodyText) {
+  const url = `https://github.com/${REPO}/issues/new?labels=${encodeURIComponent(label)}`
+    + `&title=${encodeURIComponent(title)}&body=${encodeURIComponent(bodyText)}`;
+  window.open(url, '_blank', 'noopener');
+}
+
+// Fixed-value fields get a dropdown; everything else is free text.
+const SUBMIT_OPTIONS = {
+  continent: ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia'],
+  climate: ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown'],
+  morphotype: ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified'],
+  chemotype: ['I', 'II', 'III', 'IV', 'V'],
+  domestication: ['Domesticated', 'Heirloom', 'Feral (escaped)', 'Wild'],
+  category: ['Sativa', 'Indica', 'Ruderalis', 'Hybrid-Intermediate', 'Hemp', 'Feral', 'Mixed']
+};
+const SUBMIT_FIELDS = [
+  ['name', 'Name', 'text'],
+  ['aka', 'AKA (other names, comma-separated)', 'text'],
+  ['continent', 'Region', 'select'],
+  ['country', 'Country', 'text'],
+  ['region', 'Sub-region / locality', 'text'],
+  ['climate', 'Climate', 'select'],
+  ['morphotype', 'Morphotype', 'select'],
+  ['chemotype', 'Chemotype', 'select'],
+  ['domestication', 'Domestication', 'select'],
+  ['category', 'Type (vernacular)', 'select'],
+  ['type', 'Type descriptor', 'text'],
+  ['height', 'Height', 'text'],
+  ['flowering', 'Flowering Time', 'text'],
+  ['lat', 'Latitude', 'text'],
+  ['lng', 'Longitude', 'text'],
+  ['description', 'Description / notes', 'textarea'],
+  ['sources', 'Sources (required — real, verifiable links)', 'textarea']
+];
+
+function prefillFrom(strain) {
+  if (!strain) return {};
+  return {
+    name: strain.name, aka: (strain.aka || []).join(', '), continent: strain.continent,
+    country: strain.country, region: strain.region, climate: strain.climate,
+    morphotype: strain.morphotype, chemotype: strain.chemotype, domestication: strain.domestication,
+    category: strain.category, type: strain.type, height: strain.height, flowering: strain.flowering,
+    lat: strain.lat != null ? String(strain.lat) : '', lng: strain.lng != null ? String(strain.lng) : ''
+  };
+}
+
+// Builds the add/correction form (mirrors the variety panel) and files an issue on submit.
+function buildSubmissionForm(body, mode, strain) {
+  const pre = prefillFrom(strain);
+  const intro = document.createElement('p');
+  intro.className = 'modal-note';
+  intro.textContent = mode === 'correct'
+    ? `Edit the fields you want changed for "${strain.name}", then submit. This opens a pre-filled GitHub issue for review.`
+    : 'Suggest a new variety. Fill in what you know — Name and Sources are required. This opens a pre-filled GitHub issue for review.';
+  const form = document.createElement('form');
+  form.className = 'submit-form';
+  const fields = {};
+  for (const [key, label, type] of SUBMIT_FIELDS) {
+    const wrap = document.createElement('label');
+    wrap.className = 'submit-field';
+    const span = document.createElement('span');
+    span.className = 'submit-label';
+    span.textContent = label;
+    let field;
+    if (type === 'select') {
+      field = document.createElement('select');
+      const blank = document.createElement('option');
+      blank.value = ''; blank.textContent = '—';
+      field.appendChild(blank);
+      for (const o of SUBMIT_OPTIONS[key]) {
+        const op = document.createElement('option');
+        op.value = o; op.textContent = o;
+        field.appendChild(op);
+      }
+    } else if (type === 'textarea') {
+      field = document.createElement('textarea');
+      field.rows = 3;
+    } else {
+      field = document.createElement('input');
+      field.type = 'text';
+    }
+    if (pre[key] != null) field.value = pre[key];
+    fields[key] = field;
+    wrap.append(span, field);
+    form.appendChild(wrap);
+  }
+  const submit = document.createElement('button');
+  submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
+  form.appendChild(submit);
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const vals = {};
+    for (const k of Object.keys(fields)) vals[k] = fields[k].value.trim();
+    if (!vals.name) { window.alert('Name is required.'); return; }
+    if (!vals.sources) { window.alert('Please cite at least one real, verifiable source.'); return; }
+    const lines = SUBMIT_FIELDS
+      .filter(([key]) => vals[key])
+      .map(([key, label]) => `**${label.replace(/\s*\(.*\)$/, '')}:** ${vals[key]}`);
+    if (mode === 'correct') {
+      const text = `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${lines.join('\n')}\n\n_Submitted via the Atlas correction form._`;
+      openIssue('update request', `Correction: ${strain.name}`, text);
+    } else {
+      const text = `New variety submission.\n\n${lines.join('\n')}\n\n_Submitted via the Atlas add form._`;
+      openIssue('add request', `Add: ${vals.name}`, text);
+    }
+    closeModal();
+  });
+
+  body.append(intro, form);
+}
+
 function openFeedbackSubmit() {
-  openModal(
-    'Suggest Additions',
-    'Feature requests, bug reports, and strain additions will open a pre-filled GitHub issue once The Cannabis Landrace Atlas has a public repository. For now nothing is sent — thank you for your interest.'
-  );
+  openContentModal('Suggest an Addition', (body) => buildSubmissionForm(body, 'add', null));
 }
 function openStrainSubmit(strain) {
-  openModal(
-    'Suggest Corrections',
-    `Corrections for "${strain.name}" will open a pre-filled GitHub issue once the project has a public repository. For now nothing is sent.`
-  );
+  openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain));
 }
 function openSectionSubmit(strain, section) {
-  openModal(
-    `Add ${section}`,
-    `Submitting ${section.toLowerCase()} for "${strain.name}" will open a pre-filled GitHub issue once the project has a public repository. For now nothing is sent — thank you for your interest.`
-  );
+  const text = `Suggested **${section}** for **${strain.name}** (id: \`${strain.id}\`).\n\n`
+    + `Please add the ${section.toLowerCase()} below — real, verifiable links only:\n\n- `;
+  openIssue('add request', `${section}: ${strain.name}`, text);
 }
 
 submitBtn.addEventListener('click', openFeedbackSubmit);
@@ -393,11 +504,16 @@ function openDatabase() {
 function openAbout() {
   openContentModal('About', (body) => {
     const p1 = document.createElement('p');
-    p1.textContent = 'The Cannabis Landrace Atlas is an interactive map of traditional cannabis landraces, heirlooms, and wild populations from around the world. Select a marker — or search and browse the Index — to explore each variety.';
-    const p2 = document.createElement('p');
-    p2.className = 'modal-note';
-    p2.textContent = 'Strain write-ups are AI-generated drafts and are unverified — corrections welcome. Coordinates are approximate. This is an early version; more is coming.';
-    body.append(p1, p2);
+    p1.textContent = 'The Cannabis Landrace Atlas is a free interactive map of traditional cannabis landraces, heirlooms, and wild populations from around the world.';
+    const licenseP = document.createElement('p');
+    licenseP.className = 'modal-note';
+    const licenseLink = document.createElement('button');
+    licenseLink.type = 'button';
+    licenseLink.className = 'linklike';
+    licenseLink.textContent = 'License';
+    licenseLink.addEventListener('click', openLicense);
+    licenseP.append(licenseLink);
+    body.append(p1, licenseP);
   });
 }
 
