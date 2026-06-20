@@ -557,12 +557,15 @@ function varietyLineList(list) {
 // A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).
 // initLo/initHi set the starting thumb positions (default = full range). minGap is the
 // minimum distance kept between the thumbs (e.g. 1 so they can never land on the same value).
-function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absMax, minGap = 0) {
+// fmt formats the value shown in the bubble that floats above each thumb.
+function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absMax, minGap = 0, fmt = (v) => String(v)) {
   const wrap = document.createElement('div');
   wrap.className = 'dual-slider';
   const track = document.createElement('div'); track.className = 'ds-track';
   const fill = document.createElement('div'); fill.className = 'ds-fill';
   track.appendChild(fill);
+  const loBubble = document.createElement('span'); loBubble.className = 'ds-bubble';
+  const hiBubble = document.createElement('span'); hiBubble.className = 'ds-bubble';
   const lo = document.createElement('input');
   lo.type = 'range'; lo.min = absMin; lo.max = absMax; lo.value = initLo; lo.className = 'ds-input';
   lo.setAttribute('aria-label', 'Minimum');
@@ -585,11 +588,15 @@ function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absM
     }
     fill.style.left = `${pct(l)}%`;
     fill.style.right = `${100 - pct(h)}%`;
+    // Align the bubble with the native thumb, which is inset by half its width (9px of 18px).
+    const bubbleLeft = (v) => { const p = pct(v); return `calc(${p}% + ${(9 - p * 0.18).toFixed(2)}px)`; };
+    loBubble.textContent = fmt(l); loBubble.style.left = bubbleLeft(l);
+    hiBubble.textContent = fmt(h); hiBubble.style.left = bubbleLeft(h);
     onChange(l, h);
   }
   lo.addEventListener('input', update);
   hi.addEventListener('input', update);
-  wrap.append(track, lo, hi);
+  wrap.append(track, lo, hi, loBubble, hiBubble);
   return { wrap, update };
 }
 
@@ -657,16 +664,15 @@ function buildFloweringSlider(facet, target) {
     }
   }
   const box = document.createElement('div'); box.className = 'slider-facet';
-  const label = document.createElement('div'); label.className = 'height-range-label';
+  const unit = document.createElement('div'); unit.className = 'ds-unit'; unit.textContent = 'weeks';
   const listHost = document.createElement('div');
   const ds = makeDualSlider(absMin, absMax, (lo, hi) => {
-    label.textContent = `${lo}–${hi} weeks`;
     const matched = ranged.filter((x) => x.w.min <= hi && x.w.max >= lo).map((x) => x.s);
     listHost.innerHTML = '';
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
   }, initLo, initHi, 1);
-  box.append(label, ds.wrap, listHost);
+  box.append(ds.wrap, unit, listHost);
   facet.appendChild(box);
   ds.update();
 }
