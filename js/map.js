@@ -14,10 +14,23 @@ const LEAF_ICON = L.icon({
   className: 'leaf-marker'
 });
 
-// Highlighted icon for the currently selected variety: the leaf inverted (white)
-// inside a purple circle.
+// Highlighted icon for the currently selected variety: a white leaf inside a purple
+// circle. We draw the leaf fan inline (no stem) on a viewBox cropped tightly around
+// the fan, so it sits centered in the circle rather than hanging low like the stemmed
+// map icon. The single leaflet path mirrors assets/leaf.svg's `#lf`.
+const SEL_LEAFLET = 'M0 0 C2 -6 3 -10 2.5 -14 L5.5 -16 C3 -18 3.5 -21 2.8 -24 L5 -26 C2.4 -29 2.8 -32 2 -35 L3.6 -38 C1.4 -41 1.4 -43 0.8 -46 L0 -49 L-0.8 -46 C-1.4 -43 -1.4 -41 -3.6 -38 L-2 -35 C-2.8 -32 -2.4 -29 -5 -26 L-2.8 -24 C-3.5 -21 -3 -18 -5.5 -16 L-2.5 -14 C-3 -10 -2 -6 0 0 Z';
+const SEL_LEAF_SVG =
+  '<svg class="sel-leaf-svg" viewBox="6 20 52 52" width="18" height="18" aria-hidden="true">' +
+  `<defs><path id="slf" fill="#fff" d="${SEL_LEAFLET}"/></defs>` +
+  '<g transform="translate(32 70)">' +
+  '<use href="#slf"/><use href="#slf" transform="rotate(29) scale(0.86)"/>' +
+  '<use href="#slf" transform="rotate(-29) scale(0.86)"/>' +
+  '<use href="#slf" transform="rotate(57) scale(0.63)"/>' +
+  '<use href="#slf" transform="rotate(-57) scale(0.63)"/>' +
+  '<use href="#slf" transform="rotate(84) scale(0.42)"/>' +
+  '<use href="#slf" transform="rotate(-84) scale(0.42)"/></g></svg>';
 const SELECTED_ICON = L.divIcon({
-  html: '<span class="sel-leaf"><img src="assets/leaf.svg" alt="" width="16" height="20"></span>',
+  html: `<span class="sel-leaf">${SEL_LEAF_SVG}</span>`,
   className: 'leaf-marker-selected',
   iconSize: [30, 30],
   iconAnchor: [15, 27],

@@ -93,13 +93,25 @@ export function renderStrain(container, strain, handlers = {}) {
   container.appendChild(el('h2', 'panel-name', strain.name));
   if (place) container.appendChild(el('p', 'panel-place', place));
 
-  // Primary classification badge: morphotype (clickable facet, with definition tooltip).
-  if (strain.morphotype) {
-    const badge = el('button', 'panel-badge facet-badge', strain.morphotype);
-    badge.type = 'button';
-    if (MORPHOTYPE_DEF[strain.morphotype]) badge.setAttribute('data-tip', MORPHOTYPE_DEF[strain.morphotype]);
-    if (onFacet) badge.addEventListener('click', () => onFacet('morphotype', strain.morphotype));
-    container.appendChild(badge);
+  // Classification badges: morphotype (primary) + vernacular type (one of the seven
+  // Index categories). Both are clickable facets.
+  if (strain.morphotype || strain.category) {
+    const badges = el('div', 'panel-badges');
+    if (strain.morphotype) {
+      const badge = el('button', 'panel-badge facet-badge', strain.morphotype);
+      badge.type = 'button';
+      if (MORPHOTYPE_DEF[strain.morphotype]) badge.setAttribute('data-tip', MORPHOTYPE_DEF[strain.morphotype]);
+      if (onFacet) badge.addEventListener('click', () => onFacet('morphotype', strain.morphotype));
+      badges.appendChild(badge);
+    }
+    if (strain.category) {
+      const tb = el('button', 'panel-badge facet-badge type-badge', strain.category);
+      tb.type = 'button';
+      tb.setAttribute('data-tip', 'Vernacular type — the common Sativa/Indica-style grouping.');
+      if (onFacet) tb.addEventListener('click', () => onFacet('category', strain.category));
+      badges.appendChild(tb);
+    }
+    container.appendChild(badges);
   }
 
   // Facts ordered to match the Index facets (Region, Climate, Morphotype[badge above],
