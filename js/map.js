@@ -9,7 +9,7 @@
 // can scale on hover without disturbing Leaflet's positioning transform on the outer element.
 // The leaf's viewBox is 600x640 (≈0.94 aspect); the stem points down at the location.
 const LEAF_ICON = L.divIcon({
-  html: '<img src="assets/leaf.svg" alt="" class="leaf-img" width="26" height="28">',
+  html: '<img src="assets/leaf.svg?v=2" alt="" class="leaf-img" width="26" height="28">',
   iconSize: [26, 28],
   iconAnchor: [13, 27],
   popupAnchor: [0, -26],
@@ -19,7 +19,7 @@ const LEAF_ICON = L.divIcon({
 // Highlighted icon for the currently selected variety: the same leaf turned white (CSS
 // filter) inside a purple circle.
 const SELECTED_ICON = L.divIcon({
-  html: '<span class="sel-leaf"><img src="assets/leaf.svg" alt="" class="sel-leaf-img" width="20" height="21"></span>',
+  html: '<span class="sel-leaf"><img src="assets/leaf.svg?v=2" alt="" class="sel-leaf-img" width="20" height="21"></span>',
   className: 'leaf-marker-selected',
   iconSize: [30, 30],
   iconAnchor: [15, 27],
