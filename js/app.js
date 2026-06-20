@@ -596,10 +596,88 @@ async function openStrainSubmit(strain) {
   const sections = await fetchWriteupSections(strain.id);
   openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain, sections));
 }
+const SECTION_LABELS = {
+  Photos: 'add image request',
+  'Seed Sources': 'add seed source request',
+  'Forum Discussions': 'add forum request',
+  References: 'add reference request'
+};
+
+function isValidUrl(s) {
+  try {
+    const u = new URL(s);
+    return u.protocol === 'http:' || u.protocol === 'https:';
+  } catch { return false; }
+}
+
+// ⊕ button: a list of URL inputs (add/remove, validated) -> labeled GitHub issue.
 function openSectionSubmit(strain, section) {
-  const text = `Suggested **${section}** for **${strain.name}** (id: \`${strain.id}\`).\n\n`
-    + `Please add the ${section.toLowerCase()} below — real, verifiable links only:\n\n- `;
-  openIssue('add request', `${section}: ${strain.name}`, text);
+  const label = SECTION_LABELS[section] || 'add request';
+  openContentModal(`Add ${section} — ${strain.name}`, (body) => {
+    const intro = document.createElement('p');
+    intro.className = 'modal-note';
+    intro.textContent = `Add one or more ${section} URLs for "${strain.name}". Each must be a valid link. Submitting opens a pre-filled GitHub issue for review.`;
+    const form = document.createElement('form');
+    form.className = 'submit-form';
+    const list = document.createElement('div');
+    list.className = 'url-list';
+
+    function validate(inp) {
+      const v = inp.value.trim();
+      inp.classList.toggle('invalid', !!v && !isValidUrl(v));
+    }
+    function addRow(value) {
+      const row = document.createElement('div');
+      row.className = 'url-row';
+      const inp = document.createElement('input');
+      inp.type = 'url'; inp.className = 'url-input'; inp.placeholder = 'https://…';
+      if (value) inp.value = value;
+      inp.addEventListener('blur', () => validate(inp));
+      const rm = document.createElement('button');
+      rm.type = 'button'; rm.className = 'url-remove'; rm.textContent = '×';
+      rm.setAttribute('aria-label', 'Remove this URL');
+      rm.addEventListener('click', () => {
+        row.remove();
+        if (!list.querySelector('.url-row')) addRow();
+      });
+      row.append(inp, rm);
+      list.appendChild(row);
+      inp.focus();
+    }
+
+    const addBtn = document.createElement('button');
+    addBtn.type = 'button'; addBtn.className = 'linklike'; addBtn.textContent = '+ Add another URL';
+    addBtn.addEventListener('click', () => {
+      const inputs = [...list.querySelectorAll('.url-input')];
+      const bad = inputs.find((i) => i.value.trim() && !isValidUrl(i.value.trim()));
+      if (bad) { validate(bad); bad.focus(); return; }
+      addRow();
+    });
+
+    const submit = document.createElement('button');
+    submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const urls = [...list.querySelectorAll('.url-input')].map((i) => i.value.trim()).filter(Boolean);
+      if (!urls.length) { window.alert(`Please add at least one ${section} URL.`); return; }
+      const invalid = urls.filter((u) => !isValidUrl(u));
+      if (invalid.length) {
+        [...list.querySelectorAll('.url-input')].forEach(validate);
+        window.alert(`These are not valid URLs:\n\n${invalid.join('\n')}`);
+        return;
+      }
+      const text = `Requested **${section}** links for **${strain.name}** (id: \`${strain.id}\`):\n\n`
+        + urls.map((u) => `- ${u}`).join('\n')
+        + `\n\n_Submitted via the Atlas ${section} form._`;
+      openIssue(label, `${section}: ${strain.name}`, text);
+      closeModal();
+    });
+
+    form.append(list, addBtn, submit);
+    addRow();
+    body.append(intro, form);
+  });
 }
 
 submitBtn.addEventListener('click', openFeedbackSubmit);

@@ -210,6 +210,17 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .weeks-row { display: flex; align-items: center; gap: 8px; }
 .weeks-row input { width: 5em; }
 .weeks-row .submit-label { margin: 0; }
+
+/* URL-list submission (Photos / Seed Sources / Forum Discussions / References) */
+.url-list { display: flex; flex-direction: column; gap: 6px; }
+.url-row { display: flex; align-items: center; gap: 6px; }
+.url-input { flex: 1 1 auto; }
+.url-input.invalid { border-color: #c0392b; background: #fdf3f2; }
+.url-remove {
+  flex: 0 0 auto; width: 28px; height: 28px; line-height: 1; font-size: 18px;
+  background: #fff; border: 1px solid var(--line); border-radius: 6px; cursor: pointer; color: var(--muted);
+}
+.url-remove:hover { border-color: #c0392b; color: #c0392b; }
 .submit-form .panel-submit { margin-top: 6px; align-self: flex-start; }
 
 /* Related-variety exploration links */
