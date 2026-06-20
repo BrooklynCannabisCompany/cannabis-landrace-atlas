@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <path id="lf" fill="#4f7a43" stroke="#3c5f33" stroke-width="0.4"
+      d="M0 0 C2 -6 3 -10 2.5 -14 L5.5 -16 C3 -18 3.5 -21 2.8 -24 L5 -26 C2.4 -29 2.8 -32 2 -35 L3.6 -38 C1.4 -41 1.4 -43 0.8 -46 L0 -49 L-0.8 -46 C-1.4 -43 -1.4 -41 -3.6 -38 L-2 -35 C-2.8 -32 -2.4 -29 -5 -26 L-2.8 -24 C-3.5 -21 -3 -18 -5.5 -16 L-2.5 -14 C-3 -10 -2 -6 0 0 Z"/>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#ece6d8"/>
+  <rect x="0" y="1168" width="1200" height="32" fill="#4f7a43"/>
+
+  <!-- leaf motif, centered near the top -->
+  <g transform="translate(600 470) scale(7.2)">
+    <rect x="-1" y="-2" width="2" height="22" fill="#3c5f33"/>
+    <use href="#lf"/>
+    <use href="#lf" transform="rotate(29) scale(0.86)"/>
+    <use href="#lf" transform="rotate(-29) scale(0.86)"/>
+    <use href="#lf" transform="rotate(57) scale(0.63)"/>
+    <use href="#lf" transform="rotate(-57) scale(0.63)"/>
+    <use href="#lf" transform="rotate(84) scale(0.42)"/>
+    <use href="#lf" transform="rotate(-84) scale(0.42)"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="600" y="660" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#23211c">The Cannabis</text>
+    <text x="600" y="760" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#23211c">Landrace Atlas</text>
+    <text x="600" y="838" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="36" fill="#3c5f33">An interactive world map of traditional</text>
+    <text x="600" y="888" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="36" fill="#3c5f33">cannabis landraces.</text>
+    <text x="600" y="1080" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="28" fill="#6f6b61">brooklyncannabiscompany.github.io/cannabis-landrace-atlas</text>
+  </g>
+</svg>
