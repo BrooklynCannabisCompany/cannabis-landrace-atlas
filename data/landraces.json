@@ -699,8 +699,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Kilimanjaro Sativa — Tanzania’s Best Landrace Strain (Overgrow)",
+        "url": "https://overgrow.com/t/kilimanjaro-sativa-tanzania-s-best-landrace-strain/129860"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Kilimanjaro",
+        "url": "https://www.leafly.com/strains/kilimanjaro"
+      },
+      {
+        "label": "Weedmaps — Kilimanjaro",
+        "url": "https://weedmaps.com/strains/kilimanjaro"
+      }
+    ],
     "links": []
   },
   {
@@ -3191,8 +3205,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Lebanese Bekaa Valley (ICMag)",
+        "url": "https://www.icmag.com/threads/lebanese-bekaa-valley.18122842/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Lebanese",
+        "url": "https://seedfinder.eu/en/strain-info/lebanese"
+      }
+    ],
     "links": []
   },
   {
@@ -4863,8 +4887,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "North Indian (Kashmiri) Landrace — Flowering Time & Yield (ICMag)",
+        "url": "https://www.icmag.com/threads/north-indian-kashmiri-landrace-flowering-time-yield.240298/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Kashmir",
+        "url": "https://seedfinder.eu/en/strain-info/kashmir"
+      },
+      {
+        "label": "SeedFinder — Kashmir (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kashmir/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -5247,8 +5285,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "The Nepali Highland Growers thread (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/the-nepali-highland-growers-thread.174272/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Nepalese",
+        "url": "https://www.leafly.com/strains/nepalese"
+      },
+      {
+        "label": "SeedFinder — Nepalese",
+        "url": "https://seedfinder.eu/en/strain-info/nepalese"
+      }
+    ],
     "links": []
   },
   {
@@ -5695,8 +5747,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Aceh weed (Indonesia’s finest) (ICMag)",
+        "url": "https://www.icmag.com/threads/aceh-weed-indonesias-finest.268665/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Aceh",
+        "url": "https://www.leafly.com/strains/aceh"
+      },
+      {
+        "label": "SeedFinder — Sumatra Aceh (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/sumatra-aceh/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6367,8 +6433,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Laos Luang Prabang (ICMag)",
+        "url": "https://www.icmag.com/threads/laos-luang-prabang.301099/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Luang Prabang (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/luang-prabang/the-landrace-team"
+      },
+      {
+        "label": "GrowDiaries — Lao Luang Prabang (ACE Seeds)",
+        "url": "https://growdiaries.com/seedbank/ace-seeds/lao-luang-prabang"
+      }
+    ],
     "links": []
   },
   {
@@ -8482,8 +8562,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Attempting to grow landrace Colombian (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/attempting-to-grow-landrace-colombian.122656/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Colombian Gold",
+        "url": "https://www.leafly.com/strains/colombian-gold"
+      },
+      {
+        "label": "SeedFinder — Colombian Gold (Landrace Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/colombian-gold/landrace-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -9149,7 +9243,16 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "GrowDiaries — Michoacán",
+        "url": "https://growdiaries.com/strains/michoacan"
+      },
+      {
+        "label": "SeedFinder — Michoacán",
+        "url": "https://en.seedfinder.eu/strain-info/Michoacan/"
+      }
+    ],
     "links": []
   },
   {
@@ -9695,8 +9798,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Santa Marta Colombian Gold smoke report (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/santa-marta-colombian-gold-smoke-report.37824/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Colombian Gold (Santa Marta)",
+        "url": "https://www.leafly.com/strains/colombian-gold"
+      },
+      {
+        "label": "SeedFinder — Santa Marta Colombian Gold",
+        "url": "https://seedfinder.eu/en/strain-info/santa-marta-colombian-gold/new420guy-seeds"
+      }
+    ],
     "links": []
   },
   {
