@@ -398,7 +398,7 @@ appMenu.addEventListener('click', (e) => {
   const item = e.target.closest('.app-menu-item');
   if (!item) return;
   toggleMenu(false);
-  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense }[item.dataset.menu] || (() => {}))();
+  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense, suggest: openFeedbackSubmit, contact: openContactForm }[item.dataset.menu] || (() => {}))();
 });
 
 

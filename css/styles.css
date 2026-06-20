@@ -348,15 +348,21 @@ sup.fnref button {
 .modal-body { font-size: 14.5px; line-height: 1.55; color: var(--ink); }
 
 /* ---- Responsive: phones & tablets (desktop > 860px is unchanged) ---- */
+/* Suggest/Contact live in the hamburger only on small screens (see media queries). */
+.menu-mobile-only { display: none; }
+
 @media (max-width: 860px) {
-  /* Page becomes a column so the ribbon can grow/wrap to fit its controls. */
+  /* Page becomes a column so the ribbon stays a single, uncrowded row. */
   body { display: flex; flex-direction: column; }
   .ribbon { height: auto; min-height: var(--ribbon-h); flex-wrap: wrap; padding: 8px 12px; gap: 8px 10px; }
   .layout { height: auto; flex: 1 1 auto; min-height: 0; }
   .map { height: 100%; }
   .wordmark { font-size: 16px; }
-  /* Search (with the Index icon) gets its own full-width row below the buttons. */
-  .search-group { order: 3; flex: 1 1 100%; max-width: none; margin: 0; }
+  /* Condense the ribbon: the two text buttons move into the hamburger menu, so the row is
+     just ☰ + (wordmark) + search. */
+  #submit-btn, #contact-btn { display: none; }
+  .menu-mobile-only { display: block; }
+  .search-group { flex: 1 1 auto; max-width: none; margin: 0; }
 
   /* Panel becomes a bottom sheet. */
   .panel {
@@ -368,9 +374,8 @@ sup.fnref button {
   body.panel-open .panel { width: 100%; height: 80vh; padding: 18px 18px 40px; }
 }
 
-/* Phones: reclaim width by dropping the wordmark and tightening the buttons. */
+/* Phones: reclaim width by dropping the wordmark. */
 @media (max-width: 520px) {
   .wordmark { display: none; }
-  .submit-btn { padding: 8px 10px; font-size: 12px; }
   body.panel-open .panel { height: 85vh; }
 }
