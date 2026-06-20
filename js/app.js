@@ -247,9 +247,10 @@ const FIELD_TO_INDEX = {
 function openFacet(field, token) {
   const label = FIELD_TO_INDEX[field];
   if (!label) return;
-  const value = (field === 'height' || field === 'flowering')
-    ? null
-    : (String(token || '').trim() || 'Unknown');
+  const raw = String(token || '').trim();
+  // Sliders (Height/Flowering) carry the raw value so the thumbs preset to it; value-group
+  // facets normalise an empty value to the "Unknown" group.
+  const value = (field === 'height' || field === 'flowering') ? (raw || null) : (raw || 'Unknown');
   openIndex({ facet: label, value });
 }
 
@@ -554,17 +555,18 @@ function varietyLineList(list) {
 }
 
 // A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).
-function makeDualSlider(absMin, absMax, onChange) {
+// initLo/initHi set the starting thumb positions (default = full range).
+function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absMax) {
   const wrap = document.createElement('div');
   wrap.className = 'dual-slider';
   const track = document.createElement('div'); track.className = 'ds-track';
   const fill = document.createElement('div'); fill.className = 'ds-fill';
   track.appendChild(fill);
   const lo = document.createElement('input');
-  lo.type = 'range'; lo.min = absMin; lo.max = absMax; lo.value = absMin; lo.className = 'ds-input';
+  lo.type = 'range'; lo.min = absMin; lo.max = absMax; lo.value = initLo; lo.className = 'ds-input';
   lo.setAttribute('aria-label', 'Minimum');
   const hi = document.createElement('input');
-  hi.type = 'range'; hi.min = absMin; hi.max = absMax; hi.value = absMax; hi.className = 'ds-input';
+  hi.type = 'range'; hi.min = absMin; hi.max = absMax; hi.value = initHi; hi.className = 'ds-input';
   hi.setAttribute('aria-label', 'Maximum');
   const span = absMax - absMin || 1;
   const pct = (v) => ((v - absMin) / span) * 100;
@@ -584,18 +586,24 @@ function makeDualSlider(absMin, absMax, onChange) {
 }
 
 // Height facet: single-bar dual-thumb slider over the ordinal scale + live list.
-function buildHeightSlider(facet) {
+// When opened from a Height fact, both thumbs preset to that height so only it shows.
+function buildHeightSlider(facet, target) {
   const ranked = strains.map((s) => ({ s, r: heightRank(s.height) })).filter((x) => x.r >= 0);
   const box = document.createElement('div'); box.className = 'slider-facet';
   const label = document.createElement('div'); label.className = 'height-range-label';
   const listHost = document.createElement('div');
+  let initLo = 0; let initHi = HEIGHT_SCALE.length - 1;
+  if (target && target.facet === 'Height' && target.value) {
+    const r = heightRank(target.value);
+    if (r >= 0) { initLo = r; initHi = r; }
+  }
   const ds = makeDualSlider(0, HEIGHT_SCALE.length - 1, (lo, hi) => {
     label.textContent = `${HEIGHT_SCALE[lo]} – ${HEIGHT_SCALE[hi]}`;
     const matched = ranked.filter((x) => x.r >= lo && x.r <= hi).map((x) => x.s);
     listHost.innerHTML = '';
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
-  });
+  }, initLo, initHi);
   box.append(label, ds.wrap, listHost);
   facet.appendChild(box);
   ds.update();
@@ -611,10 +619,16 @@ function floweringWeeks(f) {
 }
 
 // Flowering Time facet: weeks dual-thumb slider; lists varieties whose range overlaps.
-function buildFloweringSlider(facet) {
+// When opened from a Flowering Time fact, the thumbs preset to that variety's week range.
+function buildFloweringSlider(facet, target) {
   const ranged = strains.map((s) => ({ s, w: floweringWeeks(s.flowering) })).filter((x) => x.w);
   const absMin = Math.min(...ranged.map((x) => x.w.min));
   const absMax = Math.max(...ranged.map((x) => x.w.max));
+  let initLo = absMin; let initHi = absMax;
+  if (target && target.facet === 'Flowering Time' && target.value) {
+    const w = floweringWeeks(target.value);
+    if (w) { initLo = Math.max(absMin, w.min); initHi = Math.min(absMax, w.max); }
+  }
   const box = document.createElement('div'); box.className = 'slider-facet';
   const label = document.createElement('div'); label.className = 'height-range-label';
   const listHost = document.createElement('div');
@@ -624,7 +638,7 @@ function buildFloweringSlider(facet) {
     listHost.innerHTML = '';
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
-  });
+  }, initLo, initHi);
   box.append(label, ds.wrap, listHost);
   facet.appendChild(box);
   ds.update();
@@ -665,13 +679,16 @@ function openIndex(target) {
       facet.className = 'index-facet';
       const fkey = `facet:${label}`;
       facet.open = target ? (target.facet === label) : !!state[fkey];
-      if (target && target.facet === label && !target.value) facet.dataset.scrollTarget = '1';
+      const isSlider = label === 'Height' || label === 'Flowering Time';
+      // Scroll to the facet itself for slider facets (no value group) or a facet opened
+      // without a specific value; otherwise the matching value group is the scroll target.
+      if (target && target.facet === label && (isSlider || !target.value)) facet.dataset.scrollTarget = '1';
       const fsum = document.createElement('summary');
       fsum.className = 'index-h1';
       fsum.textContent = label;
       facet.appendChild(fsum);
-      if (label === 'Height') buildHeightSlider(facet);
-      else if (label === 'Flowering Time') buildFloweringSlider(facet);
+      if (label === 'Height') buildHeightSlider(facet, target);
+      else if (label === 'Flowering Time') buildFloweringSlider(facet, target);
       else buildValueGroups(facet, label, field, fmt, order, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
       body.appendChild(facet);
