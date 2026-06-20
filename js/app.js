@@ -187,13 +187,19 @@ function insertRelated(strain) {
     const p = document.createElement('p');
     p.className = 'related-list';
     list.forEach((s, i) => {
-      if (i > 0) p.appendChild(document.createTextNode(', '));
+      // Wrap link + its trailing comma in a nowrap span so the comma can never wrap
+      // to the start of the next line; the space between items is the break point.
+      const item = document.createElement('span');
+      item.className = 'related-item';
       const a = document.createElement('button');
       a.type = 'button';
       a.className = 'related-link';
       a.textContent = s.name;
       a.addEventListener('click', () => openPanel(s));
-      p.appendChild(a);
+      item.appendChild(a);
+      if (i < list.length - 1) item.appendChild(document.createTextNode(','));
+      p.appendChild(item);
+      if (i < list.length - 1) p.appendChild(document.createTextNode(' '));
     });
     frag.append(h, p);
   }
