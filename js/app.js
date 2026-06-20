@@ -147,23 +147,28 @@ function fillLinkSections(strain) {
     if (!note || note.tagName !== 'P') return;
     const wrap = document.createElement('p');
     wrap.className = 'section-links';
-    items.forEach((it, i) => {
+    let rendered = 0;
+    items.forEach((it) => {
+      const url = it.img || it.url;
+      if (!isValidUrl(url)) return; // never render non-http(s) URLs from the dataset
       const a = document.createElement('a');
-      a.href = it.img || it.url;
+      a.href = url;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       if (it.img) {
         const im = document.createElement('img');
-        im.src = it.img; im.alt = strain.name; im.className = 'section-photo';
+        im.src = url; im.alt = strain.name; im.className = 'section-photo';
+        im.loading = 'lazy';
         a.appendChild(im);
         wrap.appendChild(a);
       } else {
-        if (i > 0) wrap.appendChild(document.createTextNode(' · '));
+        if (rendered > 0) wrap.appendChild(document.createTextNode(' · '));
         a.textContent = it.label;
         wrap.appendChild(a);
       }
+      rendered += 1;
     });
-    note.replaceWith(wrap);
+    if (rendered) note.replaceWith(wrap); // keep the empty-slot note if nothing valid
   });
 }
 
