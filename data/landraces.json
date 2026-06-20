@@ -311,8 +311,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Southern Congo Landrace Sativa (ICMag)",
+        "url": "https://www.icmag.com/threads/southern-congo-landrace-sativa.18127406/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Congolese (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/congolese/the-real-seed-company"
+      },
+      {
+        "label": "GrowDiaries — Congo",
+        "url": "https://growdiaries.com/strains/congo"
+      }
+    ],
     "links": []
   },
   {
@@ -1133,8 +1147,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Nigerian Landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/nigerian-landrace.377528/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Nigerian Landrace",
+        "url": "https://seedfinder.eu/en/strain-info/nigerian-landrace/landrace-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -1553,8 +1577,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "My First Soil Grow: Transkei Outdoor 2020 (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/my-first-soil-grow-transkei-outdoor-2020.118992/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Transkei (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/transkei/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -2802,8 +2836,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Kandahar Cannabis Landrace from Afghanistan (ICMag)",
+        "url": "https://www.icmag.com/threads/kandahar-cannabis-landrace-from-afghanistan.18131285/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Kandahar",
+        "url": "https://www.leafly.com/strains/kandahar"
+      },
+      {
+        "label": "SeedFinder — Kandahar (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kandahar/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -2930,8 +2978,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Ketama (Moroccan Landrace) grow (Rollitup)",
+        "url": "https://www.rollitup.org/t/ketama-moroccan-landrace-1-plant-scrog-2x125w-cfl-flood-drain.783525/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Ketama",
+        "url": "https://www.leafly.com/strains/ketama"
+      },
+      {
+        "label": "SeedFinder — Ketama (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/ketama/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -3402,8 +3464,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Mazar I Sharif Pure Afghan Landrace? (ICMag)",
+        "url": "https://www.icmag.com/threads/mazar-i-sharif-pure-afghan-landrace.247988/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Mazar I Sharif",
+        "url": "https://www.leafly.com/strains/mazar-i-sharif"
+      },
+      {
+        "label": "Weedmaps — Mazar I Sharif",
+        "url": "https://weedmaps.com/strains/mazar-i-sharif"
+      }
+    ],
     "links": []
   },
   {
@@ -3800,8 +3876,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Sinai landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/sinai-landrace.275884/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Sinai",
+        "url": "https://www.leafly.com/strains/sinai"
+      },
+      {
+        "label": "SeedFinder — Sinai (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/sinai/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -5148,8 +5238,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Manipuri — Real Seed Company (ICMag)",
+        "url": "https://www.icmag.com/threads/manipuri-real-seed-company.350028/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Manipuri (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Manipuri/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Manipuri (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/manipuri"
+      }
+    ],
     "links": []
   },
   {
@@ -6906,8 +7010,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "RSC Highland Thai — first grow (ICMag)",
+        "url": "https://www.icmag.com/threads/rsc-highland-thai-first-grow.375250/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Highland Thai (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Highland_Thai/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Highland Thai (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/highland-thai"
+      }
+    ],
     "links": []
   },
   {

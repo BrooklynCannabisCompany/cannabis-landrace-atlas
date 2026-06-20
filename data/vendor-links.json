@@ -64,6 +64,22 @@
         "product": "Congolese",
         "url": "https://therealseedcompany.com/product/congolese-landrace-strain-cannabis-seeds/"
       }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Congolese (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/congolese/the-real-seed-company"
+      },
+      {
+        "label": "GrowDiaries — Congo",
+        "url": "https://growdiaries.com/strains/congo"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Southern Congo Landrace Sativa (ICMag)",
+        "url": "https://www.icmag.com/threads/southern-congo-landrace-sativa.18127406/"
+      }
     ]
   },
   "cretan": {
@@ -212,6 +228,22 @@
         "product": "Kandahar",
         "url": "https://www.tltseeds.com/kandahar-2/"
       }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Kandahar",
+        "url": "https://www.leafly.com/strains/kandahar"
+      },
+      {
+        "label": "SeedFinder — Kandahar (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kandahar/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Kandahar Cannabis Landrace from Afghanistan (ICMag)",
+        "url": "https://www.icmag.com/threads/kandahar-cannabis-landrace-from-afghanistan.18131285/"
+      }
     ]
   },
   "karakoram-valley": {
@@ -279,6 +311,22 @@
         "vendor": "The Real Seed Company",
         "product": "Beldia – Rif Mountain (Ketama)",
         "url": "https://therealseedcompany.com/product/rif-mountain-ketama-heirloom-landrace-cannabis-seeds/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Ketama",
+        "url": "https://www.leafly.com/strains/ketama"
+      },
+      {
+        "label": "SeedFinder — Ketama (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/ketama/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Ketama (Moroccan Landrace) grow (Rollitup)",
+        "url": "https://www.rollitup.org/t/ketama-moroccan-landrace-1-plant-scrog-2x125w-cfl-flood-drain.783525/"
       }
     ]
   },
@@ -400,6 +448,22 @@
         "product": "Manipuri",
         "url": "https://therealseedcompany.com/product/manipuri-landrace-strain-cannabis-seeds/"
       }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Manipuri (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Manipuri/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Manipuri (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/manipuri"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Manipuri — Real Seed Company (ICMag)",
+        "url": "https://www.icmag.com/threads/manipuri-real-seed-company.350028/"
+      }
     ]
   },
   "mazar-i-sharif": {
@@ -413,6 +477,22 @@
         "vendor": "The Real Seed Company",
         "product": "Mazar I Sharif Mazari Balkhi Afghan",
         "url": "https://therealseedcompany.com/product/mazar-i-sharif-mazari-balkhi-afghan-cannabis-landrace-strain-seeds/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Mazar I Sharif",
+        "url": "https://www.leafly.com/strains/mazar-i-sharif"
+      },
+      {
+        "label": "Weedmaps — Mazar I Sharif",
+        "url": "https://weedmaps.com/strains/mazar-i-sharif"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Mazar I Sharif Pure Afghan Landrace? (ICMag)",
+        "url": "https://www.icmag.com/threads/mazar-i-sharif-pure-afghan-landrace.247988/"
       }
     ]
   },
@@ -531,6 +611,22 @@
         "product": "Sinai",
         "url": "https://therealseedcompany.com/product/sinai-landrace-strain-cannabis-seeds/"
       }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Sinai",
+        "url": "https://www.leafly.com/strains/sinai"
+      },
+      {
+        "label": "SeedFinder — Sinai (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/sinai/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Sinai landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/sinai-landrace.275884/"
+      }
     ]
   },
   "syrian": {
@@ -548,6 +644,22 @@
         "vendor": "The Real Seed Company",
         "product": "Highland Thai",
         "url": "https://therealseedcompany.com/product/highland-thai-landrace-strain-cannabis-seeds/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Highland Thai (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Highland_Thai/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Highland Thai (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/highland-thai"
+      }
+    ],
+    "forums": [
+      {
+        "label": "RSC Highland Thai — first grow (ICMag)",
+        "url": "https://www.icmag.com/threads/rsc-highland-thai-first-grow.375250/"
       }
     ]
   },
@@ -716,6 +828,18 @@
         "product": "Transkei",
         "url": "https://www.tltseeds.com/transkei/"
       }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Transkei (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/transkei/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "My First Soil Grow: Transkei Outdoor 2020 (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/my-first-soil-grow-transkei-outdoor-2020.118992/"
+      }
     ]
   },
   "lesotho-highland": {
@@ -818,6 +942,18 @@
         "vendor": "TLT Seeds",
         "product": "Nigerian Afropips",
         "url": "https://www.tltseeds.com/nigerian-afropips/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Nigerian Landrace",
+        "url": "https://seedfinder.eu/en/strain-info/nigerian-landrace/landrace-seeds"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Nigerian Landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/nigerian-landrace.377528/"
       }
     ]
   },
