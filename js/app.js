@@ -49,20 +49,33 @@ function closePanel() {
   setTimeout(() => map && map.invalidateSize(), 250);
 }
 
+const writeupCache = new Map(); // strain id -> rendered (pre-decoration) HTML
+
+function decorateWriteup(strain) {
+  wireDisclaimer(strain);
+  insertRelated(strain);
+  fillLinkSections(strain);
+  addFootnotes(strain);
+  decorateWriteupSections(strain);
+}
+
 async function loadWriteup(strain) {
   const reqId = strain.id;
+  if (writeupCache.has(reqId)) { // instant on re-selection
+    setWriteupHtml(panel, writeupCache.get(reqId));
+    decorateWriteup(strain);
+    return;
+  }
   try {
     const res = await fetch(`data/writeups/${strain.id}.md`);
     if (reqId !== currentId) return; // a newer selection won
     if (!res.ok) { setWriteupMissing(panel); return; }
     const md = await res.text();
     if (reqId !== currentId) return;
-    setWriteupHtml(panel, renderMarkdown(md));
-    wireDisclaimer(strain);
-    insertRelated(strain);
-    fillLinkSections(strain);
-    addFootnotes(strain);
-    decorateWriteupSections(strain);
+    const html = renderMarkdown(md);
+    writeupCache.set(reqId, html);
+    setWriteupHtml(panel, html);
+    decorateWriteup(strain);
   } catch {
     if (reqId === currentId) { setWriteupMissing(panel); insertRelated(strain); }
   }
@@ -79,7 +92,7 @@ function wireDisclaimer(strain) {
 const ADDABLE_SECTIONS = ['Photos', 'Seed Sources', 'Forum Discussions', 'References'];
 function decorateWriteupSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
-    const label = h.textContent.trim();
+    const label = headText(h);
     if (!ADDABLE_SECTIONS.includes(label)) return;
     const btn = document.createElement('button');
     btn.type = 'button';
@@ -138,7 +151,7 @@ const SECTION_DATA = {
 };
 function fillLinkSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
-    const label = (h.firstChild ? h.firstChild.textContent : h.textContent).trim();
+    const label = headText(h);
     const getter = SECTION_DATA[label];
     if (!getter) return;
     const items = getter(strain);
@@ -209,7 +222,7 @@ function insertRelated(strain) {
     frag.append(h, p);
   }
 
-  const photos = [...writeup.querySelectorAll('h2')].find((h) => h.textContent.trim() === 'Photos');
+  const photos = [...writeup.querySelectorAll('h2')].find((h) => headText(h) === 'Photos');
   if (photos) writeup.insertBefore(frag, photos);
   else writeup.appendChild(frag);
 }
