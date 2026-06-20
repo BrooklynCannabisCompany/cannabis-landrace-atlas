@@ -10,7 +10,7 @@ Bolivia's Yungas has a long history of coca cultivation (Erythroxylum coca), and
 
 ## Description
 - **Origin:** Bolivia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Jungle mountain”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

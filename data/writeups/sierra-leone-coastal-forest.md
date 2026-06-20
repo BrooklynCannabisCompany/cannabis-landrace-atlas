@@ -10,7 +10,7 @@ Sierra Leone's history includes extensive interaction with Atlantic maritime tra
 
 ## Description
 - **Origin:** Sierra Leone (Africa)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Humid coastal rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

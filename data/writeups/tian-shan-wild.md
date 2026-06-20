@@ -8,7 +8,7 @@ Wild ruderalis-type cannabis has been documented across the northern latitudes o
 
 ## Description
 - **Origin:** Kyrgyzstan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Cold alpine”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

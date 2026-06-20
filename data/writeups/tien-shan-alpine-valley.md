@@ -8,7 +8,7 @@ The Tien Shan Mountains of Kyrgyzstan are among the areas sometimes cited in sci
 
 ## Description
 - **Origin:** Kyrgyzstan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Alpine meadow”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

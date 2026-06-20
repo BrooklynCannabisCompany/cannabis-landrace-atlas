@@ -8,7 +8,7 @@ Red Lebanese hashish was one of the most sought-after products of the Middle Eas
 
 ## Description
 - **Origin:** Lebanon (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid mountain valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Borneo's interior has historically been home to diverse Dayak peoples with deep 
 
 ## Description
 - **Origin:** Indonesia (Southeast Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Cannabis cultivation in Uganda's highlands has historical roots in local agricul
 
 ## Description
 - **Origin:** Uganda (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Equatorial highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

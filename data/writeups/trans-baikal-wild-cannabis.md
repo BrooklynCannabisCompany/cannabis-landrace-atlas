@@ -8,7 +8,7 @@ Wild ruderalis cannabis has long been documented across the Russian steppe and S
 
 ## Description
 - **Origin:** Russia (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Siberian steppe”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

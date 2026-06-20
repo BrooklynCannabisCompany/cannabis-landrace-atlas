@@ -10,7 +10,7 @@ The Altai Mountain region has long been recognized in botanical literature as a 
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Alpine foothill”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

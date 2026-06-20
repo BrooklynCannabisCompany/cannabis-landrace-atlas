@@ -10,7 +10,7 @@ Cannabis cultivation in Eswatini has deep historical roots, and Swazi Gold becam
 
 ## Description
 - **Origin:** Eswatini (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Subtropical highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

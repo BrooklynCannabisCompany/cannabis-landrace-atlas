@@ -10,7 +10,7 @@ The Gran Chaco has historically been a sparsely populated region of semi-nomadic
 
 ## Description
 - **Origin:** Paraguay (Americas)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Dry woodland”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

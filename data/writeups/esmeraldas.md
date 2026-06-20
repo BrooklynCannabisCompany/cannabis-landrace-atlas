@@ -10,7 +10,7 @@ Esmeraldas Province has a distinctive history rooted in the communities of ensla
 
 ## Description
 - **Origin:** Ecuador (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Pacific rainforest”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

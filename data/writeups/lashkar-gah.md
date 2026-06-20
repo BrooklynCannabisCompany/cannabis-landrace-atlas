@@ -8,7 +8,7 @@ Helmand Province and its capital Lashkar Gah sit in the arid Helmand River valle
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Desert Afghan”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

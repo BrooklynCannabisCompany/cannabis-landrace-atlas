@@ -27,7 +27,8 @@ const CLIMATE_RULES = [
   [/alpine|high[- ]altitude|high mountain|high alpine|extreme alpine|cold (mountain|high|valley|himalayan|northern)|himalayan|pamir|karakoram|hindu kush|tien shan|tibet|afro-alpine|cold high/, 'Alpine / High Mountain'],
   [/hyper-arid|\barid\b|desert|oasis/, 'Desert / Arid'],
   [/steppe|semi-arid|grassland|semi-desert|\bdry\b|prairie/, 'Steppe / Semi-arid'],
-  [/savanna|tropical (lowland|coast|coastal)|lowland tropical|equatorial coast|lakeside|plateau tropical|humid (lowland|coastal|upland|tropical)|river valley tropical|riverline tropical|monsoon|\btropical\b/, 'Tropical Lowland'],
+  [/savanna/, 'Savanna'],
+  [/tropical (lowland|coast|coastal)|lowland tropical|equatorial coast|lakeside|plateau tropical|humid (lowland|coastal|upland|tropical)|river valley tropical|riverline tropical|monsoon|\btropical\b/, 'Tropical Lowland'],
   [/temperate|continental|maritime|forest|river|valley|plains|lowlands|\bcoast/, 'Temperate / Continental'],
   [/mountain|highland|foothill|plateau/, 'Mountain / Highland']
 ];

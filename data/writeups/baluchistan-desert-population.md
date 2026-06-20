@@ -10,7 +10,7 @@ Baluchistan's cannabis cultivation is historically associated with the Baloch an
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid mountain desert”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

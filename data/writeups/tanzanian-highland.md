@@ -10,7 +10,7 @@ Cannabis cultivation in Tanzania's highland zones is thought to have longstandin
 
 ## Description
 - **Origin:** Tanzania (Africa)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Mountain tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

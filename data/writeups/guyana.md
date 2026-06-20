@@ -10,7 +10,7 @@ Guyana has a complex history shaped by British colonialism, the plantation econo
 
 ## Description
 - **Origin:** Guyana (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ The Colombian Amazon interior is predominantly indigenous territory, home to doz
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Rainforest basin”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

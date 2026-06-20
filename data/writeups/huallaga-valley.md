@@ -10,7 +10,7 @@ The Huallaga River Valley is best known outside Peru as a historically significa
 
 ## Description
 - **Origin:** Peru (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “River valley rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

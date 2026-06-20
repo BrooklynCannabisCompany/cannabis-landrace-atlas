@@ -10,7 +10,7 @@ The Sea of Japan coastline has been inhabited and traversed for millennia, and t
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Cool maritime”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

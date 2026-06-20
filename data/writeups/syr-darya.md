@@ -8,7 +8,7 @@ The Syr Darya River basin has supported sedentary agriculture for millennia, and
 
 ## Description
 - **Origin:** Kazakhstan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid river valley”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

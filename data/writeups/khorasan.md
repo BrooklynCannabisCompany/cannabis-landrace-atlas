@@ -8,7 +8,7 @@ Greater Khorasan was historically one of the most significant cultural and comme
 
 ## Description
 - **Origin:** Iran (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid steppe”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

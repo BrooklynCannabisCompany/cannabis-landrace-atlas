@@ -10,7 +10,7 @@ Dir and Swat are among the historically documented cannabis-producing districts 
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Mountain valley”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

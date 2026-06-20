@@ -8,7 +8,7 @@ The Pamir Mountains have served as a geographic crossroads and corridor for huma
 
 ## Description
 - **Origin:** Tajikistan (Middle East / Central Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Alpine mountain”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -13,7 +13,7 @@ export const CONTINENTS = [
 
 export const CLIMATES = [
   'Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland',
-  'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid',
+  'Savanna', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid',
   'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental',
   'Boreal / Subarctic', 'Other', 'Unknown'
 ];

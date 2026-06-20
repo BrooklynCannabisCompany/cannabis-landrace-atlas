@@ -10,7 +10,7 @@ The documented history of Rangitiki Ripper as a named cultivar is sparse. It is 
 
 ## Description
 - **Origin:** New Zealand (Oceania)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Temperate maritime”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom

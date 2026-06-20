@@ -10,7 +10,7 @@ Hemp cultivation in Canada's prairies traces back to early European settlement, 
 
 ## Description
 - **Origin:** Canada (Americas)
-- **Climate:** Cold steppe — warm summers with long daylight hours, very cold winters, low precipitation, high seasonal variability
+- **Climate:** Cold steppe — warm summers with long daylight hours, very cold winters, low precipitation, high seasonal variability (recorded as “Steppe cold”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

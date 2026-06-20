@@ -10,7 +10,7 @@ Wild and feral cannabis has been documented in Hungary and the Carpathian Basin 
 
 ## Description
 - **Origin:** Hungary (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Desert Basin”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

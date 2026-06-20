@@ -10,7 +10,7 @@ Cannabis reaching the Lena River Basin almost certainly arrived through human ag
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Boreal / Subarctic
+- **Climate:** Boreal / Subarctic (recorded as “Subarctic taiga”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

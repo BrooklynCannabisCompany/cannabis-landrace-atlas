@@ -10,7 +10,7 @@ Hemp cultivation has a deep history throughout the Baltic region, which was hist
 
 ## Description
 - **Origin:** Baltics (Europe)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Maritime cold”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

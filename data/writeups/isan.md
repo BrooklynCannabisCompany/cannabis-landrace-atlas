@@ -10,7 +10,7 @@ Northeastern Thailand has deep roots in cannabis cultivation, with the Isan agri
 
 ## Description
 - **Origin:** Thailand (Southeast Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Dry plateau”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Feral cannabis in the Cerrado is thought to have established from seeds disperse
 
 ## Description
 - **Origin:** Brazil (Americas)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Savanna”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

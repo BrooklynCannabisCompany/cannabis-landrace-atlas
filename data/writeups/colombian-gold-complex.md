@@ -10,7 +10,7 @@ Colombian Gold became one of the most celebrated cannabis varieties of the twent
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

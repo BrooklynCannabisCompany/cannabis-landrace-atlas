@@ -8,7 +8,7 @@ Mazar-i-Sharif and the surrounding Balkh region have been a major cannabis and h
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Other
+- **Climate:** Other (recorded as “Northern Afghanistan”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ The Kalinga highlands have been home to indigenous Kalinga communities whose agr
 
 ## Description
 - **Origin:** Philippines (Southeast Asia)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Cordillera highlands”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

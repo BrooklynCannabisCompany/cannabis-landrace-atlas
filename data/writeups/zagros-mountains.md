@@ -8,7 +8,7 @@ Cannabis use in Iran and the surrounding Middle Eastern region has ancient roots
 
 ## Description
 - **Origin:** Iran (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

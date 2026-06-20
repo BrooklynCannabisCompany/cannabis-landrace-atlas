@@ -10,7 +10,7 @@ South Africa's Eastern Cape has a long history of cannabis cultivation, historic
 
 ## Description
 - **Origin:** South Africa (Africa)
-- **Climate:** South African temperate coast — milder than tropical interior zones, with Indian Ocean maritime influence
+- **Climate:** South African temperate coast — milder than tropical interior zones, with Indian Ocean maritime influence (recorded as “South African Temp Coast”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

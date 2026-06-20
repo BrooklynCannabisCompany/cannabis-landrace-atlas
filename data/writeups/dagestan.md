@@ -10,7 +10,7 @@ Cannabis cultivation in Dagestan is historically associated with the ethnically 
 
 ## Description
 - **Origin:** Russia (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

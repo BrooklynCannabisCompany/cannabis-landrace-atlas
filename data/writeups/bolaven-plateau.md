@@ -10,7 +10,7 @@ The Bolaven Plateau has historically been home to Mon-Khmer ethnic minority comm
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Volcanic highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

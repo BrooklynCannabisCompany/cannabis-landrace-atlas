@@ -10,7 +10,7 @@ The Nujiang Valley has been inhabited by multiple ethnic minority groups — inc
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Subtropical river canyon”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

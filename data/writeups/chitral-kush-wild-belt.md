@@ -10,7 +10,7 @@ In the high valleys of Chitral, the boundary between cultivated and wild cannabi
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “High alpine valleys”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

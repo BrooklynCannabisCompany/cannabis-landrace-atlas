@@ -10,7 +10,7 @@ Hemp cultivation on the Korean Peninsula is ancient, with documented use for fib
 
 ## Description
 - **Origin:** North Korea (East Asia / North Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Cold temperate”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

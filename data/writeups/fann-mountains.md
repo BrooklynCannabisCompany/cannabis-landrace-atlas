@@ -10,7 +10,7 @@ The Fann Mountains are a relatively remote region of Tajikistan with limited per
 
 ## Description
 - **Origin:** Tajikistan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “High alpine”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

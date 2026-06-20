@@ -10,7 +10,7 @@ Mozambique has a long history of cannabis cultivation, and coastal populations l
 
 ## Description
 - **Origin:** Mozambique (Africa)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical coast”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

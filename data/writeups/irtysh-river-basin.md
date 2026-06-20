@@ -8,7 +8,7 @@ The Irtysh corridor has served for millennia as a natural migration and trade ro
 
 ## Description
 - **Origin:** Kazakhstan (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Steppe-river system”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

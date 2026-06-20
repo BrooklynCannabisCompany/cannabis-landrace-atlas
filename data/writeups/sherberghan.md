@@ -8,7 +8,7 @@ Cannabis cultivation in Jowzjan Province is historically associated with traditi
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid plain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

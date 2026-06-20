@@ -8,7 +8,7 @@ The Ogooué River is Gabon's principal waterway, draining a vast network of equa
 
 ## Description
 - **Origin:** Gabon (Middle East / Central Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

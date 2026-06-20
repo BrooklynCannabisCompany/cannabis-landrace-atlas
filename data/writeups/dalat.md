@@ -10,7 +10,7 @@ Da Lat developed as a highland retreat during the French colonial period and has
 
 ## Description
 - **Origin:** Vietnam (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

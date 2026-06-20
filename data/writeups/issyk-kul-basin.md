@@ -8,7 +8,7 @@ Feral cannabis is widely distributed across Kyrgyzstan's mountain valleys and lo
 
 ## Description
 - **Origin:** Kyrgyzstan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Alpine basin”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

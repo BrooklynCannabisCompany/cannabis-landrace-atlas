@@ -10,7 +10,7 @@ Chiapas has an ancient indigenous heritage — the region was home to major Maya
 
 ## Description
 - **Origin:** Mexico (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

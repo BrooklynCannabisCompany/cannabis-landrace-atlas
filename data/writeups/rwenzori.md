@@ -10,7 +10,7 @@ The Rwenzori Mountains have been inhabited for centuries by the Bakonzo people a
 
 ## Description
 - **Origin:** Uganda (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Afro-montane cloud forest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ The Amu Darya corridor has been a transit zone for human populations, trade good
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid floodplain”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

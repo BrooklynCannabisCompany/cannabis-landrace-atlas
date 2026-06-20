@@ -8,7 +8,7 @@ Cannabis cultivation in the Great Lakes region of Central Africa, including the 
 
 ## Description
 - **Origin:** DRC (Middle East / Central Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Volcanic Alpine tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

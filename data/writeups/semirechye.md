@@ -8,7 +8,7 @@ Semirechye is one of the zones sometimes cited in discussions of cannabis's geog
 
 ## Description
 - **Origin:** Kazakhstan (Middle East / Central Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “River valleys”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Wild

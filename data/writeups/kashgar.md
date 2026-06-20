@@ -8,7 +8,7 @@ Cannabis cultivation in the Kashgar region is associated with Uyghur and other i
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid desert edge”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -8,7 +8,7 @@ Turkey has a documented history of cannabis cultivation and hashish production, 
 
 ## Description
 - **Origin:** Turkey (Middle East / Central Asia)
-- **Climate:** Mediterranean
+- **Climate:** Mediterranean (recorded as “Mediterranean mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

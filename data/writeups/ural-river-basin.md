@@ -10,7 +10,7 @@ The Ural River corridor has long served as a route for both human movement and b
 
 ## Description
 - **Origin:** Russia (Europe)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Continental grassland”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

@@ -8,7 +8,7 @@ Cannabis cultivation in the highland communities surrounding Mount Elgon has bee
 
 ## Description
 - **Origin:** Uganda (Middle East / Central Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

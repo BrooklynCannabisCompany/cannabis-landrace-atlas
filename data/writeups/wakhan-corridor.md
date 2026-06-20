@@ -8,7 +8,7 @@ The Wakhan Corridor's extreme isolation — accessible historically only by diff
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Alpine mountain valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

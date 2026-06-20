@@ -10,7 +10,7 @@ Cannabis cultivation in Pondoland is associated with the Mpondo people of the Ea
 
 ## Description
 - **Origin:** South Africa (Africa)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Coastal subtropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

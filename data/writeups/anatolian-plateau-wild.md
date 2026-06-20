@@ -10,7 +10,7 @@ The Anatolian Plateau has been a crossroads of human migration and agricultural 
 
 ## Description
 - **Origin:** Turkey (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Steppe plateau”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

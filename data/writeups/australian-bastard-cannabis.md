@@ -10,7 +10,7 @@ The origin of Australian Bastard Cannabis is not well-documented, and accounts v
 
 ## Description
 - **Origin:** Australia (Oceania)
-- **Climate:** Adapted to Australia's temperate and subtropical conditions, with some tolerance for coastal humidity and variable rainfall.
+- **Climate:** Adapted to Australia's temperate and subtropical conditions, with some tolerance for coastal humidity and variable rainfall. (recorded as “Temperate/Subtropical”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

@@ -10,7 +10,7 @@ Cannabis cultivation in the inland areas of the former Transkei homeland has par
 
 ## Description
 - **Origin:** South Africa (Africa)
-- **Climate:** Other
+- **Climate:** Other (recorded as “Inland temp”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

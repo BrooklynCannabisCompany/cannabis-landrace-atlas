@@ -10,7 +10,7 @@ The Turkish Black Sea coast (Karadeniz region) has a distinct cultural and agric
 
 ## Description
 - **Origin:** Turkey (Middle East / Central Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Humid maritime”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -8,7 +8,7 @@ Cannabis grows across a wide range of elevations in Kyrgyzstan, from lowland val
 
 ## Description
 - **Origin:** Kyrgyzstan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Cold alpine”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Feral (escaped)

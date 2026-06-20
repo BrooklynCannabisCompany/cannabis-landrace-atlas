@@ -8,7 +8,7 @@ Cannabis cultivation in the Tirah Valley is commonly associated with traditional
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Mountain tribal”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

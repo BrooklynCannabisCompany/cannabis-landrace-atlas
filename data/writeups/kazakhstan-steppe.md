@@ -8,7 +8,7 @@ Kazakhstan is widely recognized as one of the primary centers of cannabis rudera
 
 ## Description
 - **Origin:** Kazakhstan (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Open grassland”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Wild

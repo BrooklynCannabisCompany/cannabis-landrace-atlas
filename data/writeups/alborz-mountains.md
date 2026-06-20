@@ -10,7 +10,7 @@ Cannabis cultivation in the Alborz region is historically associated with rural 
 
 ## Description
 - **Origin:** Iran (Middle East / Central Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Mountain forest”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

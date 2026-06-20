@@ -10,7 +10,7 @@ Western Siberia was traversed by indigenous peoples, Russian explorers, and sett
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Boreal / Subarctic
+- **Climate:** Boreal / Subarctic (recorded as “Boreal floodplain”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

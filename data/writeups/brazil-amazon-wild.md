@@ -10,7 +10,7 @@ The extent to which Cannabis has a long indigenous presence in the deep Amazon v
 
 ## Description
 - **Origin:** Brazil (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial forest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

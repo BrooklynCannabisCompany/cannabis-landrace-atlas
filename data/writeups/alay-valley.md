@@ -10,7 +10,7 @@ The Alay Valley has functioned as a significant passage through the Pamir-Alai m
 
 ## Description
 - **Origin:** Kyrgyzstan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “High-altitude valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

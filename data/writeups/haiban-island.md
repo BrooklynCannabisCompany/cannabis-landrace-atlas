@@ -10,7 +10,7 @@ Island populations in tropical seas are frequently the result of historical mari
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical coastal”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

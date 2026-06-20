@@ -10,7 +10,7 @@ Feral cannabis populations in Namibia are poorly documented in formal botanical 
 
 ## Description
 - **Origin:** Namibia (Africa)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid desert”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

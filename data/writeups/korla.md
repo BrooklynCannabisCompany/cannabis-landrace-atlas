@@ -8,7 +8,7 @@ Korla's position near the junction of the northern and southern Silk Road branch
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid river oasis”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

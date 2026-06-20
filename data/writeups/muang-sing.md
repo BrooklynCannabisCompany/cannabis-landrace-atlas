@@ -10,7 +10,7 @@ Muang Sing has historically been a significant crossroads in the highland trade 
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

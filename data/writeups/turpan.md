@@ -8,7 +8,7 @@ Turpan's position as a key oasis on the Silk Road means it has been a transit po
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Desert oasis”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

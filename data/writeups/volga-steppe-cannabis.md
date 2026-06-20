@@ -10,7 +10,7 @@ Hemp cultivation has deep historical roots across the Volga-steppe region, where
 
 ## Description
 - **Origin:** Russia (Europe)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Dry steppe”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Wild

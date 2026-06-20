@@ -10,7 +10,7 @@ The Aceh Besar area has historically been a gateway region — a coastal hub wit
 
 ## Description
 - **Origin:** Indonesia (Southeast Asia)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Coastal tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

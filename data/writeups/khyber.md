@@ -8,7 +8,7 @@ The Khyber region has been a crossroads of trade and migration for thousands of 
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Tribal mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

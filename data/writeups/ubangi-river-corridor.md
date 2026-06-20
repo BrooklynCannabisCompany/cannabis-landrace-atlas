@@ -8,7 +8,7 @@ Cannabis in Central Africa's river corridor zones is generally understood to be 
 
 ## Description
 - **Origin:** DRC (Middle East / Central Asia)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Riverline tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

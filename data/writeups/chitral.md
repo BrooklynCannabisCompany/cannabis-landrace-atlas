@@ -10,7 +10,7 @@ Chitral's cannabis tradition is rooted in the region's long history of isolation
 
 ## Description
 - **Origin:** Pakistan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Hindu Kush alpine valley”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

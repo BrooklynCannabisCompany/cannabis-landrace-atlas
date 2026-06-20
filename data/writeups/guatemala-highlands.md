@@ -10,7 +10,7 @@ Guatemala's highland region is home to the majority of the country's indigenous 
 
 ## Description
 - **Origin:** Guatemala (Americas)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Mountain tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

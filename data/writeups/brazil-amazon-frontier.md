@@ -10,7 +10,7 @@ Feral cannabis in the Brazilian Amazon frontier is believed to derive from seeds
 
 ## Description
 - **Origin:** Brazil (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Deep rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

@@ -10,7 +10,7 @@ The Gaoligong Mountains lie within the broader Hengduan Mountains biodiversity c
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Mountain rainforest”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

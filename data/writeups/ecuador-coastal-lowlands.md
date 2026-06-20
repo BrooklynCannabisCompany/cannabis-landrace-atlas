@@ -10,7 +10,7 @@ Ecuador's coastal lowlands have a long history of agricultural activity and were
 
 ## Description
 - **Origin:** Ecuador (Americas)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical coast”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

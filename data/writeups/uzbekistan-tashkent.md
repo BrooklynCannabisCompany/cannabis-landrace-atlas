@@ -8,7 +8,7 @@ Cannabis cultivation in the Tashkent region reflects Uzbekistan's long position 
 
 ## Description
 - **Origin:** Uzbekistan (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Irrigated steppe”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

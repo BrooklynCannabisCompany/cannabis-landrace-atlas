@@ -10,7 +10,7 @@ The indigenous Ifugao people have maintained complex agricultural systems in the
 
 ## Description
 - **Origin:** Philippines (Southeast Asia)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Mountain tropical”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

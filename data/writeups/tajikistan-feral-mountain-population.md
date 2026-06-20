@@ -8,7 +8,7 @@ Cannabis has a long history in the Central Asian mountain regions that include T
 
 ## Description
 - **Origin:** Tajikistan (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Pamir Mountains”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

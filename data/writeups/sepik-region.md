@@ -10,7 +10,7 @@ Feral cannabis populations in the Sepik River region are thought to descend from
 
 ## Description
 - **Origin:** Papua New Guinea (Oceania)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical river basin”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

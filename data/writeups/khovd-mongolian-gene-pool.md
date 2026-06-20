@@ -10,7 +10,7 @@ Khovd Province lies along ancient routes connecting Central Asia, the Altai, and
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Western mountain steppe”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

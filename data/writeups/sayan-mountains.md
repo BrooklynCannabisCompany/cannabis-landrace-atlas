@@ -10,7 +10,7 @@ The Sayan Mountains have been inhabited by indigenous peoples — including Tuva
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Alpine forest-steppe”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Honduras's highland regions have a history of small-scale indigenous and mestizo
 
 ## Description
 - **Origin:** Honduras (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

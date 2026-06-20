@@ -10,7 +10,7 @@ The Cordillera highlands of Luzon have a long history of indigenous cultivation 
 
 ## Description
 - **Origin:** Philippines (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Tropical mountain”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

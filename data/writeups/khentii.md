@@ -10,7 +10,7 @@ Cannabis has been present across the Mongolian plateau and adjacent regions for 
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Forest-steppe”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

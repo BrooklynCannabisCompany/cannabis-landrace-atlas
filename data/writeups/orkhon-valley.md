@@ -10,7 +10,7 @@ The Orkhon Valley's centrality to Mongolian history means it has been continuous
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Valley-steppe”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

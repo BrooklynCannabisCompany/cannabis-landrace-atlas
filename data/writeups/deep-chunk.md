@@ -10,7 +10,7 @@ Deep Chunk is associated in grower accounts with Tom Hill, an American cannabis 
 
 ## Description
 - **Origin:** Afghanistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid mountain valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

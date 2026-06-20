@@ -10,7 +10,7 @@ Cannabis cultivation in Colombia's cloud forest zones is not formally documented
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Cloud forest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

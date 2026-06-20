@@ -10,7 +10,7 @@ The Meo Thai designation reflects the historical use of "Meo" as the Thai term f
 
 ## Description
 - **Origin:** Thailand (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

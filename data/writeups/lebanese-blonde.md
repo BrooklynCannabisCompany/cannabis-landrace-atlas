@@ -8,7 +8,7 @@ The Bekaa Valley has been Lebanon's primary cannabis-growing region for many dec
 
 ## Description
 - **Origin:** Lebanon (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid mountain valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

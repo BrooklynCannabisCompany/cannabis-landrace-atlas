@@ -10,7 +10,7 @@ Hmong communities across Southeast Asia have long cultivated cannabis as part of
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

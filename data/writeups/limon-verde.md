@@ -10,7 +10,7 @@ Limon Verde is documented in grower accounts as a Colombian heirloom variety ori
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Tropical mountain”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

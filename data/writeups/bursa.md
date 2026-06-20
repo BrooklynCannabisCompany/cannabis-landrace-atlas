@@ -10,7 +10,7 @@ Bursa has been a historically significant city in Anatolia — capital of the ea
 
 ## Description
 - **Origin:** Turkey (Middle East / Central Asia)
-- **Climate:** Mediterranean
+- **Climate:** Mediterranean (recorded as “Mediterranean lowland”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

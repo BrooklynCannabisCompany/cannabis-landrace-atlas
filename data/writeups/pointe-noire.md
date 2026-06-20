@@ -10,7 +10,7 @@ The Republic of Congo's cannabis populations are not widely documented in landra
 
 ## Description
 - **Origin:** Congo (Africa)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Coastal rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

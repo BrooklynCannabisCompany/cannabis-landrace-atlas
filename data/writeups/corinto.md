@@ -10,7 +10,7 @@ As a Colombian Gold expression, Corinto is understood to be part of the celebrat
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Rutshuru Territory has long been a crossroads of agricultural communities in the
 
 ## Description
 - **Origin:** DR Congo (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Volcanic highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

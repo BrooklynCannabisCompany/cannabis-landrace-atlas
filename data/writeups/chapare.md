@@ -10,7 +10,7 @@ The Chapare has a documented history of extensive agricultural cultivation, most
 
 ## Description
 - **Origin:** Bolivia (Americas)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Humid lowland”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

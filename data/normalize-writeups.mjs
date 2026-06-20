@@ -35,6 +35,8 @@ function floweringText(f) {
   return m.replace(/(\d)\s*w\b/g, '$1 weeks'); // spell out "7–9w" -> "7–9 weeks"
 }
 
+const norm = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
 function originText(r) {
   const country = (r.country || '').trim();
   const cont = r.continent && r.continent !== 'Unknown' ? r.continent : '';
@@ -81,7 +83,13 @@ function buildDescriptionSection(r, parsed) {
   const bullets = [];
   const origin = originText(r);
   if (origin) bullets.push(`- **Origin:** ${origin}`);
-  const climate = data.climate || r.climate;
+  // Climate: keep the richest available text, and preserve the originally recorded climate
+  // (climateFull) when normalization to a bucket dropped wording it doesn't already convey.
+  let climate = (data.climate || r.climate || '').replace(/\s*\(recorded as [^)]*\)\s*$/i, '').trim();
+  if (climate && r.climateFull) {
+    const cf = norm(r.climateFull);
+    if (cf && !norm(climate).includes(cf)) climate = `${climate} (recorded as “${r.climateFull}”)`;
+  }
   if (climate) bullets.push(`- **Climate:** ${climate}`);
   bullets.push(`- **Morphotype:** ${r.morphotype}`);
   bullets.push(`- **Chemotype:** Type ${r.chemotype} (inferred)`);

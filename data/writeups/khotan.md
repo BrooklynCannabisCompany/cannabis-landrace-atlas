@@ -8,7 +8,7 @@ Khotan's position on the southern branch of the Silk Road made it a center of cu
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Other
+- **Climate:** Other (recorded as “Tarim Basin margin”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

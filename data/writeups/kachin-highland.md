@@ -10,7 +10,7 @@ Kachin State is home to the Kachin people and numerous other ethnic minorities w
 
 ## Description
 - **Origin:** Myanmar (Southeast Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Mountain rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ The Simien Mountains have been home to Amhara and other highland Ethiopian commu
 
 ## Description
 - **Origin:** Ethiopia (Africa)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Afro-alpine highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

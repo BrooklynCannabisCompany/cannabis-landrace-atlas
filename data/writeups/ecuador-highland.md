@@ -10,7 +10,7 @@ Ecuador's highland region has been intensively farmed since pre-Columbian times,
 
 ## Description
 - **Origin:** Ecuador (Americas)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Highland valley”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

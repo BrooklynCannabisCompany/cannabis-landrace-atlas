@@ -8,7 +8,7 @@ The oasis towns of the Tarim Basin — including historical Silk Road stops such
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Hyper-arid desert”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

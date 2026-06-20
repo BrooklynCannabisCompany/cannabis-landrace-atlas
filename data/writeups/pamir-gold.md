@@ -8,7 +8,7 @@ The Pamir Mountains of Tajikistan, sometimes called the "Roof of the World," rep
 
 ## Description
 - **Origin:** Tajikistan (Middle East / Central Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Alpine mountain”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

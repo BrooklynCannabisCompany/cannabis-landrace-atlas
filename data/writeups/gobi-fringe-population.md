@@ -10,7 +10,7 @@ The Gobi Desert and its semi-arid margins have been traversed by pastoral nomads
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-desert”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

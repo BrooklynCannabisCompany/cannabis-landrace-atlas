@@ -10,7 +10,7 @@ Cannabis on the Mongolian steppe is generally understood to be descended from pl
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Cold steppe”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

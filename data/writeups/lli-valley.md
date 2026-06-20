@@ -8,7 +8,7 @@ The Ili River Valley has been a major passage for human migration, trade, and co
 
 ## Description
 - **Origin:** Kazakhstan (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “River valley steppe”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

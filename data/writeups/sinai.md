@@ -8,7 +8,7 @@ Cannabis use in the Sinai region is historically documented, with the peninsula 
 
 ## Description
 - **Origin:** Egypt (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Desert mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

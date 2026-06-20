@@ -10,7 +10,7 @@ The Lancang-Mekong corridor has been a route for human movement, trade, and cult
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “River canyon”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

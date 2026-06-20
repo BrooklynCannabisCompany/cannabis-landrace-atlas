@@ -10,7 +10,7 @@ Cannabis cultivation in Mashonaland is associated with the Shona people, who hav
 
 ## Description
 - **Origin:** Zimbabwe (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

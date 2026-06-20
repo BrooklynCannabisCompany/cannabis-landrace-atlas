@@ -10,7 +10,7 @@ Cannabis cultivation in Ecuador's cloud forest zones is not formally documented 
 
 ## Description
 - **Origin:** Ecuador (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Cloud forest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

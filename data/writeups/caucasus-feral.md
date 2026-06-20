@@ -10,7 +10,7 @@ The Caucasus region is among the most historically significant corridors for can
 
 ## Description
 - **Origin:** Georgia (Europe)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Mountain foothills”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

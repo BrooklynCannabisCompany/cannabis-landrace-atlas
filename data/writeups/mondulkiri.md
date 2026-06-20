@@ -10,7 +10,7 @@ Mondulkiri Province is home to the Bunong (Phnong) indigenous people and other e
 
 ## Description
 - **Origin:** Cambodia (Southeast Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Mountain forest”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

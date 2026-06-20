@@ -8,7 +8,7 @@ The Mayombe forest is one of the most intact remaining patches of Central Africa
 
 ## Description
 - **Origin:** Congo (Middle East / Central Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Dense Equatorial rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

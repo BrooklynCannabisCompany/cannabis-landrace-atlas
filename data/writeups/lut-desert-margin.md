@@ -8,7 +8,7 @@ The Dasht-e Lut is a vast salt desert in southeastern Iran, largely uninhabited 
 
 ## Description
 - **Origin:** Iran (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Hyper-arid desert”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

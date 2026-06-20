@@ -10,7 +10,7 @@ Papua New Guinea's highland cannabis populations are understood by researchers a
 
 ## Description
 - **Origin:** Papua New Guinea (Oceania)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Tropical mountain”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

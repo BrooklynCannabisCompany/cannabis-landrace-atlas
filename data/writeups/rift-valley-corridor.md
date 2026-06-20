@@ -10,7 +10,7 @@ The Great Rift Valley has served as a major corridor for human migration, trade,
 
 ## Description
 - **Origin:** Kenya (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland savanna”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

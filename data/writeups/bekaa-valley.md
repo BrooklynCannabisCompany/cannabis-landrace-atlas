@@ -10,7 +10,7 @@ Cannabis cultivation in the Bekaa Valley is historically documented across the O
 
 ## Description
 - **Origin:** Lebanon (Middle East / Central Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Fertile valley basin”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

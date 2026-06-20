@@ -10,7 +10,7 @@ Cannabis cultivation in the Shashamane area draws from two overlapping tradition
 
 ## Description
 - **Origin:** Ethiopia (Africa)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Highland plateau”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

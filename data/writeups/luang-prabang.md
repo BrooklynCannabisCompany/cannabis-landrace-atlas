@@ -10,7 +10,7 @@ Luang Prabang has been a center of Lao civilization and Buddhist culture for cen
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

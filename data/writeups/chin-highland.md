@@ -10,7 +10,7 @@ Chin State is home to the Chin people, a diverse Tibeto-Burman ethnic group with
 
 ## Description
 - **Origin:** Myanmar (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

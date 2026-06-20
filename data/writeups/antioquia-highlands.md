@@ -10,7 +10,7 @@ Antioquia Department has a well-established history of cannabis cultivation, par
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Andean highland”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

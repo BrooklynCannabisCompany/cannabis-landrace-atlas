@@ -10,7 +10,7 @@ Primorsky Krai has been inhabited by indigenous peoples for millennia and was in
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Coastal temperate”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

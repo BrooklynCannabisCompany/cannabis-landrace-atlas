@@ -10,7 +10,7 @@ Northern Thailand's mountain provinces, including Chiang Mai, have long been hom
 
 ## Description
 - **Origin:** Thailand (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Tropical mountain”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

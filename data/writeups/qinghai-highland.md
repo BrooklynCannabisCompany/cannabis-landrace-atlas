@@ -10,7 +10,7 @@ Hemp cultivation on the Tibetan Plateau and its eastern margins, including Qingh
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Plateau cold”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated

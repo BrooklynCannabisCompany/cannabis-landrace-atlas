@@ -10,7 +10,7 @@ Cannabis cultivation in the Tarim Basin region is commonly reported to have deep
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Desert oasis”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

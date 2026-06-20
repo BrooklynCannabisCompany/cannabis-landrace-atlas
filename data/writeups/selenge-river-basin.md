@@ -10,7 +10,7 @@ The Selenge River has been a corridor for human movement between the Mongolian h
 
 ## Description
 - **Origin:** Mongolia (East Asia / North Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Forest-steppe”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

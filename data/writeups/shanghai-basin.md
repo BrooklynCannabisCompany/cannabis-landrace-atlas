@@ -8,7 +8,7 @@ Feral sativa populations in the Congo Basin are generally understood to be long-
 
 ## Description
 - **Origin:** Congo (Middle East / Central Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Rainforest basin”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

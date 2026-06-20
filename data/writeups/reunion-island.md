@@ -10,7 +10,7 @@ Cannabis is thought to have reached Réunion through Indian Ocean maritime trade
 
 ## Description
 - **Origin:** Réunion (Africa)
-- **Climate:** Tropical Island / Maritime
+- **Climate:** Tropical Island / Maritime (recorded as “Volcanic maritime”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

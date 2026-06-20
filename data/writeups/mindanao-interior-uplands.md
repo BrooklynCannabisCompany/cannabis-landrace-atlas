@@ -10,7 +10,7 @@ The interior highlands of Mindanao have been home to indigenous Lumad communitie
 
 ## Description
 - **Origin:** Philippines (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Equatorial mountain jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

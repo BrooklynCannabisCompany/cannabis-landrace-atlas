@@ -10,7 +10,7 @@ The Altai Mountains and their surrounding steppe-forest foothills have long been
 
 ## Description
 - **Origin:** Russia (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Continental mountain steppe”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

@@ -10,7 +10,7 @@ The Volga has served as a major trade and migration artery for millennia, and ca
 
 ## Description
 - **Origin:** Russia (Europe)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “River-steppe”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)

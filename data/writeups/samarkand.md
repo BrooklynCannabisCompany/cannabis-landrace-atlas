@@ -8,7 +8,7 @@ Grower accounts and ethnobotanical records suggest that cannabis has been cultiv
 
 ## Description
 - **Origin:** Uzbekistan (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid oasis”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

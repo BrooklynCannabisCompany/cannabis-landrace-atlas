@@ -10,7 +10,7 @@ Eastern Anatolia's cannabis cultivation tradition is embedded in the broader fab
 
 ## Description
 - **Origin:** Turkey (Middle East / Central Asia)
-- **Climate:** Mountain / Highland
+- **Climate:** Mountain / Highland (recorded as “Mountain plateau”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -8,7 +8,7 @@ The Tarim Basin's ancient history as the core of the Silk Road — encompassing 
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Hyper-arid basin”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

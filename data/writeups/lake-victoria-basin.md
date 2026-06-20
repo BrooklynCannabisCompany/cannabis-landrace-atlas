@@ -8,7 +8,7 @@ Cannabis cultivation around Lake Victoria in Uganda has a long history tied to l
 
 ## Description
 - **Origin:** Uganda (Middle East / Central Asia)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical Lakeside”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

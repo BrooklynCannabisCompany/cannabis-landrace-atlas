@@ -10,7 +10,7 @@ Cannabis is thought to have arrived in Mauritius through historical trade and la
 
 ## Description
 - **Origin:** Mauritius (Africa)
-- **Climate:** Tropical Island / Maritime
+- **Climate:** Tropical Island / Maritime (recorded as “Maritime tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

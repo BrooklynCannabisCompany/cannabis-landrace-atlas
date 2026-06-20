@@ -10,7 +10,7 @@ The Zambezi River has served as a major geographic corridor for human movement a
 
 ## Description
 - **Origin:** Mozambique (Africa)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “River valley tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

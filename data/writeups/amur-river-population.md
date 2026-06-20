@@ -10,7 +10,7 @@ Cannabis is believed to have been present in the Amur River corridor for centuri
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “River valley”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

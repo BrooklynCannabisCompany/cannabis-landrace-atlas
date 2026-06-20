@@ -10,7 +10,7 @@ The Hmong (historically also called Meao or Miao) are a highland ethnic group wi
 
 ## Description
 - **Origin:** Thailand (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Tropical mountain”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

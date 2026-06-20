@@ -10,7 +10,7 @@ The Maluku Islands' extraordinary position at the center of global spice trade r
 
 ## Description
 - **Origin:** Indonesia (Southeast Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial island tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -15,7 +15,7 @@ and is not formally documented.
 
 ## Description
 - **Origin:** South Africa (Africa)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Subtropical coastal”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

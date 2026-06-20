@@ -10,7 +10,7 @@ Cannabis is not indigenous to French Polynesia; its presence on Tahiti is attrib
 
 ## Description
 - **Origin:** French Polynesia (Oceania)
-- **Climate:** Tropical Island / Maritime
+- **Climate:** Tropical Island / Maritime (recorded as “Coastal island”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

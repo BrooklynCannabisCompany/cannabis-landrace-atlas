@@ -8,7 +8,7 @@ The Kunlun foothills form a narrow band of relatively habitable terrain between 
 
 ## Description
 - **Origin:** China (Middle East / Central Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “High-altitude desert”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

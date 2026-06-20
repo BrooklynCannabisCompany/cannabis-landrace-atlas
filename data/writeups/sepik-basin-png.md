@@ -10,7 +10,7 @@ Cannabis cultivation in the Sepik River Basin is associated with the subsistence
 
 ## Description
 - **Origin:** Papua New Guinea (Oceania)
-- **Climate:** Tropical Lowland
+- **Climate:** Tropical Lowland (recorded as “Tropical river basin”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

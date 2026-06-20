@@ -10,7 +10,7 @@ Cannabis — known as dagga in southern Africa — has been cultivated and used 
 
 ## Description
 - **Origin:** South Africa (Africa)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Coastal temp”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -10,7 +10,7 @@ Te Puke Thunder is commonly reported in New Zealand cannabis culture as one of t
 
 ## Description
 - **Origin:** New Zealand (Oceania)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Maritime subtropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom

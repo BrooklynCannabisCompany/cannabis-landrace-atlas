@@ -10,7 +10,7 @@ The Chin Hills have historically been among the more isolated highland regions o
 
 ## Description
 - **Origin:** Myanmar (Southeast Asia)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Highland subtropical”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

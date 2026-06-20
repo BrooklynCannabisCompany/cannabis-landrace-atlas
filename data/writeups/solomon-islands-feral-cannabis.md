@@ -10,7 +10,7 @@ The origins of cannabis in the Solomon Islands are not precisely documented. As 
 
 ## Description
 - **Origin:** Solomon Islands (Oceania)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial island”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

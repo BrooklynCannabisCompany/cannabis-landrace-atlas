@@ -10,7 +10,7 @@ Cannabis on Bioko Island is not well-documented in the cannabis research literat
 
 ## Description
 - **Origin:** Equatorial Guinea (Middle East / Central Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial island rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

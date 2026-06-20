@@ -10,7 +10,7 @@ The Ferghana Valley has been a center of civilization in Central Asia since at l
 
 ## Description
 - **Origin:** Uzbekistan (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Valley steppe”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

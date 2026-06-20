@@ -10,7 +10,7 @@ Cannabis has grown wild across the Ural region for centuries, likely originating
 
 ## Description
 - **Origin:** Russia (Europe)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Continental temperate”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

@@ -10,7 +10,7 @@ The northern highlands of Myanmar represent one of the world's great biological 
 
 ## Description
 - **Origin:** Myanmar (Southeast Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Mountain rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

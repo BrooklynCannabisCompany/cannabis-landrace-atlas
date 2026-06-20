@@ -10,7 +10,7 @@ The history of cannabis cultivation in Colombia's Amazonas Department is not wel
 
 ## Description
 - **Origin:** Colombia (Americas)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Equatorial rainforest”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

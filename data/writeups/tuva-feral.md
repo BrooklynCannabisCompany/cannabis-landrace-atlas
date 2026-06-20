@@ -8,7 +8,7 @@ Cannabis is understood to have naturalized across the southern Siberian steppe a
 
 ## Description
 - **Origin:** Russia (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Siberian steppe”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)

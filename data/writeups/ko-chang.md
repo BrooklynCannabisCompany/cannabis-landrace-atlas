@@ -10,7 +10,7 @@ Ko Chang Island was historically remote and sparsely populated, its dense jungle
 
 ## Description
 - **Origin:** Thailand (Southeast Asia)
-- **Climate:** Tropical Island / Maritime
+- **Climate:** Tropical Island / Maritime (recorded as “Island tropical”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

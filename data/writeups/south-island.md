@@ -10,7 +10,7 @@ Feral cannabis on New Zealand's South Island is generally understood to descend 
 
 ## Description
 - **Origin:** New Zealand (Oceania)
-- **Climate:** Temperate / Continental
+- **Climate:** Temperate / Continental (recorded as “Cool temperate”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)

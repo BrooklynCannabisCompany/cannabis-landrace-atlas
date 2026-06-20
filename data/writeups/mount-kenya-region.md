@@ -10,7 +10,7 @@ Cannabis cultivation in the highlands of central Kenya is thought to have deep r
 
 ## Description
 - **Origin:** Kenya (Africa)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Equatorial mountain”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -8,7 +8,7 @@ Iran's cannabis populations have been shaped by centuries of cultivation and fer
 
 ## Description
 - **Origin:** Iran (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Arid plateau”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

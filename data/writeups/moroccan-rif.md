@@ -8,7 +8,7 @@ The Rif Mountains have hosted cannabis cultivation for many centuries, with loca
 
 ## Description
 - **Origin:** Morocco (Middle East / Central Asia)
-- **Climate:** Mediterranean
+- **Climate:** Mediterranean (recorded as “Mediterranean mountain”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

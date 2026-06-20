@@ -10,7 +10,7 @@ The Hengduan Mountains have acted as both a corridor and a barrier in the moveme
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Alpine-subtropical mountain”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

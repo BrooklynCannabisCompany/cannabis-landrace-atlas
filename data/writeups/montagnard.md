@@ -10,7 +10,7 @@ The indigenous Montagnard peoples have maintained distinct agricultural and cult
 
 ## Description
 - **Origin:** Vietnam (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Highland jungle”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

@@ -12,6 +12,8 @@ test('cleanClimate maps varied descriptors to canonical buckets', () => {
   assert.equal(cleanClimate('Tropical island'), 'Tropical Island / Maritime');
   assert.equal(cleanClimate('Desert oasis'), 'Desert / Arid');
   assert.equal(cleanClimate('Continental steppe'), 'Steppe / Semi-arid');
+  assert.equal(cleanClimate('Tropical savanna'), 'Savanna');
+  assert.equal(cleanClimate('Highland savanna'), 'Tropical Highland'); // highland wins over savanna
   assert.equal(cleanClimate('High alpine'), 'Alpine / High Mountain');
   assert.equal(cleanClimate('Temperate'), 'Temperate / Continental');
   assert.equal(cleanClimate(''), '');

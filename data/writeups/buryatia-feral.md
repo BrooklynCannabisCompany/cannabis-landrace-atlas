@@ -10,7 +10,7 @@ Feral cannabis is documented across Siberian Russia, including Buryatia, and is 
 
 ## Description
 - **Origin:** Russia (Middle East / Central Asia)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Mountain steppe”)
 - **Morphotype:** Narrow-Leaf Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)

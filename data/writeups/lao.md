@@ -10,7 +10,7 @@ Cannabis has been cultivated across Laos for centuries within the agricultural a
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Jungle monsoon”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

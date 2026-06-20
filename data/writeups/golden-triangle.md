@@ -10,7 +10,7 @@ The Golden Triangle region became widely known internationally during the twenti
 
 ## Description
 - **Origin:** Laos (Southeast Asia)
-- **Climate:** Tropical Highland
+- **Climate:** Tropical Highland (recorded as “Jungle highland”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

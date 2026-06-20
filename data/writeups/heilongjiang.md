@@ -10,7 +10,7 @@ Feral cannabis in Heilongjiang is generally understood to be descended from hemp
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Alpine / High Mountain
+- **Climate:** Alpine / High Mountain (recorded as “Cold northern”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild

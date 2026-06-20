@@ -10,7 +10,7 @@ Cannabis in the Upper Amur region is believed to be descended from populations i
 
 ## Description
 - **Origin:** Russia (East Asia / North Asia)
-- **Climate:** Boreal / Subarctic
+- **Climate:** Boreal / Subarctic (recorded as “Temperate-boreal transition”)
 - **Morphotype:** Narrow-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

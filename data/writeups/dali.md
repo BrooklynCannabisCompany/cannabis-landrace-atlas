@@ -10,7 +10,7 @@ Yunnan has a long history of cannabis cultivation for fiber and seed, and highla
 
 ## Description
 - **Origin:** China (East Asia / North Asia)
-- **Climate:** Subtropical
+- **Climate:** Subtropical (recorded as “Mountain subtropical”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

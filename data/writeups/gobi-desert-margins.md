@@ -10,7 +10,7 @@ Wild and feral cannabis in Mongolia is documented but not extensively studied in
 
 ## Description
 - **Origin:** Mongolia (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Cold desert”)
 - **Morphotype:** Intermediate (NLD–BLD)
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

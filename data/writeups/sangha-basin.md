@@ -10,7 +10,7 @@ The Sangha Basin is part of the larger Congo Basin rainforest — the second-lar
 
 ## Description
 - **Origin:** Congo (Africa)
-- **Climate:** Tropical Rainforest
+- **Climate:** Tropical Rainforest (recorded as “Congo rainforest”)
 - **Morphotype:** Unclassified
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)

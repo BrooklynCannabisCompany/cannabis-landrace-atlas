@@ -8,7 +8,7 @@ Syria has a documented history of cannabis use and hashish production, with Syri
 
 ## Description
 - **Origin:** Syria (Middle East / Central Asia)
-- **Climate:** Desert / Arid
+- **Climate:** Desert / Arid (recorded as “Semi-arid”)
 - **Morphotype:** Broad-Leaf Drug
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated

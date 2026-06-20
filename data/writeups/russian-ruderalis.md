@@ -10,7 +10,7 @@ Cannabis Ruderalis was formally described by the Russian botanist D.E. Janischev
 
 ## Description
 - **Origin:** Russia (Europe)
-- **Climate:** Steppe / Semi-arid
+- **Climate:** Steppe / Semi-arid (recorded as “Continental steppe”)
 - **Morphotype:** Ruderalis (wild-type)
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
