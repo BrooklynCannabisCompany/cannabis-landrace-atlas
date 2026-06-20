@@ -51,8 +51,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Angola Roja (ICMag)",
+        "url": "https://www.icmag.com/threads/angola-roja.212503/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Angola Red (all entries)",
+        "url": "https://seedfinder.eu/en/strain-info/angola-red"
+      }
+    ],
     "links": []
   },
   {
@@ -135,8 +145,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "African Black Magic/ Ituri Norie (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/african-black-magic-ituri-norie.64364/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Black African Magic",
+        "url": "https://www.leafly.com/strains/black-african-magic"
+      }
+    ],
     "links": []
   },
   {
@@ -219,7 +239,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Casamance Senegal (ICMag)",
+        "url": "https://www.icmag.com/threads/casamance-senegal.378429/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -453,8 +478,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Ethiopian Highland (African Seeds) (ICMag)",
+        "url": "https://www.icmag.com/threads/ethiopian-highland-african-seeds.286569/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Ethiopian Highland (African Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/ethiopian-highland/african-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -686,7 +721,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Kenya (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kenya/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -761,8 +801,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "THsea's SA KwaZulu L Cut Grow - Maybe Some Automatics (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/thseas-sa-kwazulu-l-cut-grow-maybe-some-automatics.223690/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — KwaZulu Natal (The Landrace Team)",
+        "url": "https://en.seedfinder.eu/strain-info/KwaZulu_Natal/The_Landrace_Team/"
+      },
+      {
+        "label": "GrowDiaries — South African Kwazulu (World of Seeds)",
+        "url": "https://growdiaries.com/seedbank/world-of-seeds/south-african-kwazulu"
+      }
+    ],
     "links": []
   },
   {
@@ -797,8 +851,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "LeSotho, Sotho Heights, Matekoane, landrace sativa. (ICMag)",
+        "url": "https://www.icmag.com/threads/lesotho-sotho-heights-matekoane-landrace-sativa.18133348/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Lesotho (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/lesotho/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -859,8 +923,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Madagascar Zamala (ICMag)",
+        "url": "https://www.icmag.com/threads/madagascar-zamala.18128241/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Madagascar South (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/madagascar-south/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -893,7 +967,12 @@
       }
     ],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Malagasy Cannabis (Overgrow)",
+        "url": "https://overgrow.com/t/malagasy-cannabis/167423"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -1011,8 +1090,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Mauritius sativa (ICMag)",
+        "url": "https://icmag.com/ic/showthread.php?t=127856"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Mauritius (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/mauritius/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -1241,8 +1330,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "CONGO Pointe Noire (Overgrow)",
+        "url": "https://overgrow.com/t/congo-pointe-noire/54999"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Congo Pointe Noire (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/congo-pointe-noire/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -1269,8 +1368,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Zamal Landraces from the island of Reunion (ICMag)",
+        "url": "https://www.icmag.com/threads/zamal-landraces-from-the-island-of-reunion.355307/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Zamal Reunion (Seeds of Africa)",
+        "url": "https://seedfinder.eu/en/strain-info/zamal-reunion/seeds-of-africa"
+      }
+    ],
     "links": []
   },
   {
@@ -1409,7 +1518,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "First Time Growing Ethiopian Shashamane Sativa (ICMag)",
+        "url": "https://www.icmag.com/threads/first-time-growing-ethiopian-shashamane-sativa.18123981/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -1615,8 +1729,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "My First Soil Grow: Transkei Outdoor 2020 (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/my-first-soil-grow-transkei-outdoor-2020.118992/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Transkei (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/transkei/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -1678,7 +1802,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Zambezi (Holy Smoke Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/zambezi/holy-smoke-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -2020,8 +2149,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Balkh Hash Landrace Plant (Rollitup)",
+        "url": "https://www.rollitup.org/t/balkh-hash-landrace-plant.1076535/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Balkh Hashplant (Khalifa Genetics)",
+        "url": "https://seedfinder.eu/en/strain-info/balkh-hashplant/khalifa-genetics"
+      }
+    ],
     "links": []
   },
   {
@@ -2048,8 +2187,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Quetta Balochistan Landrace Cannabis (ICMag)",
+        "url": "https://www.icmag.com/threads/quetta-balochistan-landrace-cannabis.18131687/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Balochistan (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/balochistan/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -2076,8 +2225,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Lebanese Bekaa Valley (ICMag)",
+        "url": "https://www.icmag.com/threads/lebanese-bekaa-valley.18122842/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Lebanese (The Landrace Team)",
+        "url": "https://en.seedfinder.eu/strain-info/Lebanese/The_Landrace_Team/"
+      }
+    ],
     "links": []
   },
   {
@@ -2133,7 +2292,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Turkish Black Sea (The Landrace Team)",
+        "url": "https://en.seedfinder.eu/strain-info/Turkish_Black_Sea/The_Landrace_Team"
+      }
+    ],
     "links": []
   },
   {
@@ -2229,8 +2393,26 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Pakistan Chitral Mastuj, Landrace Cannabis (Overgrow)",
+        "url": "https://overgrow.com/t/pakistan-chitral-mastuj-landrace-cannabis/161334"
+      },
+      {
+        "label": "Pakistan, Chitral Mastuj | Landrace Cannabis (ICMag)",
+        "url": "https://www.icmag.com/threads/pakistan-chitral-mastuj-landrace-cannabis.18132281/"
+      },
+      {
+        "label": "Limited Release | Chitral Cannabis Landrace Heirlooms from Hindu Kush (ICMag)",
+        "url": "https://www.icmag.com/threads/limited-release-chitral-cannabis-landrace-heirlooms-from-hindu-kush.18134015/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Chitral (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/chitral/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -2597,7 +2779,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Herat - Karokh (Afghan Seeds Connection)",
+        "url": "https://seedfinder.eu/en/strain-info/herat-karokh/afghan-seeds-connection"
+      }
+    ],
     "links": []
   },
   {
@@ -2714,8 +2901,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Iran #3 (ICMag)",
+        "url": "https://www.icmag.com/threads/iran-3.18136929/"
+      },
+      {
+        "label": "Iran Landraces (ICMag)",
+        "url": "https://www.icmag.com/threads/iran-landraces.18128153/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Iranian (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/iranian/the-real-seed-company"
+      }
+    ],
     "links": []
   },
   {
@@ -2957,7 +3158,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Kazakhstan (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kazakhstan/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -3034,7 +3240,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Khoresan Iranian landrace the real seed company (Overgrow)",
+        "url": "https://overgrow.com/t/khoresan-iranian-landrace-the-real-seed-company/109116"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -3230,8 +3441,30 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Helmand Lashkar Gah Landrace Cannabis (ICMag)",
+        "url": "https://www.icmag.com/threads/helmand-lashkar-gah-landrace-cannabis.18132979/"
+      },
+      {
+        "label": "Lashkar Gah Cannabis Landrace (Overgrow)",
+        "url": "https://overgrow.com/t/lashkar-gah-cannabis-landrace/175379"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Lashkar Gah",
+        "url": "https://www.leafly.com/strains/lashkar-gah"
+      },
+      {
+        "label": "Weedmaps — Lashkar Gah",
+        "url": "https://weedmaps.com/strains/lashkar-gah"
+      },
+      {
+        "label": "SeedFinder — Lashkar Gah (Unknown or Legendary)",
+        "url": "https://seedfinder.eu/en/strain-info/lashkar-gah/unknown-or-legendary"
+      }
+    ],
     "links": []
   },
   {
@@ -3353,8 +3586,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Red Leb is ...? (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/red-leb-is.45787/"
+      },
+      {
+        "label": "Red Lebanese x puck (ICMag)",
+        "url": "https://www.icmag.com/threads/red-lebanese-x-puck.18134341/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Red Lebanese",
+        "url": "https://www.leafly.com/strains/red-lebanese"
+      },
+      {
+        "label": "GrowDiaries — Red Lebanese",
+        "url": "https://growdiaries.com/strains/red-lebanese"
+      }
+    ],
     "links": []
   },
   {
@@ -3595,7 +3846,16 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Nuristan, Eastern Afghanistan Hindu Kush (Overgrow)",
+        "url": "https://overgrow.com/t/nuristan-eastern-afghanistan-hindu-kush/95115"
+      },
+      {
+        "label": "Nuristan, (Kafristan) East Afghanistan (Overgrow)",
+        "url": "https://overgrow.com/t/nuristan-kafristan-east-afghanistan/96029"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -3654,7 +3914,16 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Pamir Gold (Dutch Passion)",
+        "url": "https://en.seedfinder.eu/strain-info/Pamir_Gold/Dutch_Passion/"
+      },
+      {
+        "label": "GrowDiaries — Pamir Gold",
+        "url": "https://growdiaries.com/strains/pamir-gold"
+      }
+    ],
     "links": []
   },
   {
@@ -3721,7 +3990,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Panjshir (Afghan Seeds Connection)",
+        "url": "https://seedfinder.eu/en/strain-info/panjshir/afghan-seeds-connection"
+      }
+    ],
     "links": []
   },
   {
@@ -3838,8 +4112,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Sheberghan Hash Plant, Khalifa Genetics (ICMag)",
+        "url": "https://www.icmag.com/threads/sheberghan-hash-plant-khalifa-genetics.18126873/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Sheberghan (Afghan Selection)",
+        "url": "https://en.seedfinder.eu/strain-info/Sheberghan/Afghan_Selection/"
+      },
+      {
+        "label": "SeedFinder — Sheberghan Hashplant (Khalifa Genetics)",
+        "url": "https://seedfinder.eu/en/strain-info/sheberghan-hashplant/khalifa-genetics"
+      }
+    ],
     "links": []
   },
   {
@@ -3976,8 +4264,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Syrian landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/syrian-landrace.338658/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Syrian (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/syrian/the-real-seed-company"
+      },
+      {
+        "label": "SeedFinder — Syria (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/syria/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -4206,8 +4508,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Tirah Valley, Pakistan Landrace grow (Overgrow)",
+        "url": "https://overgrow.com/t/tirah-valley-pakistan-landrace-grow/97459"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Tirah Valley (Indian Landrace Exchange)",
+        "url": "https://en.seedfinder.eu/strain-info/Tirah_Valley/Indian_Landrace_Exchange"
+      }
+    ],
     "links": []
   },
   {
@@ -4403,7 +4715,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Uzbekistan Yangiyul (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/uzbekistan-yangiyul/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -4581,8 +4898,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Here's some pictures and indoor grow info on Baglung Nepali landerace. (ICMag)",
+        "url": "https://www.icmag.com/threads/heres-some-pictures-and-indoor-grow-info-on-baglung-nepali-landerace.178108/"
+      },
+      {
+        "label": "Baglung (ICMag)",
+        "url": "https://www.icmag.com/threads/baglung.18126601/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Nepalese Baglung (ApeOrigin)",
+        "url": "https://seedfinder.eu/en/strain-info/nepalese-baglung/apeorigin"
+      },
+      {
+        "label": "SeedFinder — Baglung Nepalese (Magic Herbs)",
+        "url": "https://en.seedfinder.eu/strain-info/Baglung_Nepalese/Magic_Herbs/"
+      }
+    ],
     "links": []
   },
   {
@@ -4722,7 +5057,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Dolpa (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Dolpa/The_Real_Seed_Company"
+      }
+    ],
     "links": []
   },
   {
@@ -4749,8 +5089,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Northern outdoor Garhwali & Parvati (ICMag)",
+        "url": "https://www.icmag.com/threads/northern-outdoor-garhwali-parvati.182143/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Garhwali Shiva (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/garhwali-shiva/the-real-seed-company"
+      }
+    ],
     "links": []
   },
   {
@@ -4852,8 +5202,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Idukki Gold - the legendary Indian Marijuana that you may never get your hands on? (ICMag)",
+        "url": "https://www.icmag.com/threads/idukki-gold-the-legendary-indian-marijuana-that-you-may-never-get-your-hands-on.340159/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Idukki Gold (Indian Landrace Exchange)",
+        "url": "https://en.seedfinder.eu/strain-info/Idukki_Gold/Indian_Landrace_Exchange/"
+      },
+      {
+        "label": "SeedFinder — Idukki (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/idukki/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -4915,7 +5279,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Karakoram Indica (Original Strains)",
+        "url": "https://en.seedfinder.eu/strain-info/Karakoram_Indica/Original_Strains/"
+      }
+    ],
     "links": []
   },
   {
@@ -5102,8 +5471,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Kullu Landrace (Overgrow)",
+        "url": "https://overgrow.com/t/kullu-landrace/93842"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Kullu Valley (Khalifa Genetics)",
+        "url": "https://seedfinder.eu/en/strain-info/kullu-valley/khalifa-genetics"
+      },
+      {
+        "label": "GrowDiaries — Kullu Valley",
+        "url": "https://growdiaries.com/seedbank/khalifa-genetics/kullu-valley"
+      }
+    ],
     "links": []
   },
   {
@@ -5214,8 +5597,26 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "RSC Malana Cream Indoors (ICMag)",
+        "url": "https://www.icmag.com/threads/rsc-malana-cream-indoors.367164/"
+      },
+      {
+        "label": "RSC Malana, Kumaoni, Lebanese | Outdoor (ICMag)",
+        "url": "https://www.icmag.com/threads/rsc-malana-kumaoni-lebanese-outdoor.354108/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Malana (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/malana/the-real-seed-company"
+      },
+      {
+        "label": "GrowDiaries — Malana Cream",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/malana-cream"
+      }
+    ],
     "links": []
   },
   {
@@ -5522,8 +5923,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Orissa (ICMag)",
+        "url": "https://www.icmag.com/threads/orissa.17973712/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Orissa Gold (Indian Landrace Exchange)",
+        "url": "https://en.seedfinder.eu/strain-info/Orissa_Gold/Indian_Landrace_Exchange/"
+      },
+      {
+        "label": "SeedFinder — Orissa Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/orissa-gold/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -5631,8 +6046,30 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Rasoli (ICMag)",
+        "url": "https://www.icmag.com/threads/rasoli.367965/"
+      },
+      {
+        "label": "Rasol Highland Landrace - Taming The Himalayan Beast (Rollitup)",
+        "url": "https://www.rollitup.org/t/rasol-highland-landrace-taming-the-himalayan-beast.986012/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Rasol Village (Khalifa Genetics)",
+        "url": "https://seedfinder.eu/en/strain-info/rasol-village/khalifa-genetics"
+      },
+      {
+        "label": "SeedFinder — Rasoli (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Rasoli/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Rasol Village",
+        "url": "https://growdiaries.com/seedbank/khalifa-genetics/rasol-village"
+      }
+    ],
     "links": []
   },
   {
@@ -5688,7 +6125,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Sheelawathi (Indian Landrace Exchange)",
+        "url": "https://en.seedfinder.eu/strain-info/Sheelawathi/Indian_Landrace_Exchange/"
+      }
+    ],
     "links": []
   },
   {
@@ -5800,7 +6242,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Bhutanese Thimphu (Holy Smoke Seeds)",
+        "url": "https://en.seedfinder.eu/strain-info/Bhutanese_Thimphu/Holy_Smoke_Seeds/"
+      }
+    ],
     "links": []
   },
   {
@@ -5828,7 +6275,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Tosh Valley (Indian Landrace Exchange)",
+        "url": "https://en.seedfinder.eu/strain-info/Tosh_Valley/Indian_Landrace_Exchange"
+      }
+    ],
     "links": []
   },
   {
@@ -5855,8 +6307,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Indian Landrace Exchange: 2022 outdoor, 42 north (ICMag)",
+        "url": "https://www.icmag.com/threads/indian-landrace-exchange-2022-outdoor-42-north.18118554/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Waichin Valley (Indian Landrace Exchange)",
+        "url": "https://seedfinder.eu/en/strain-info/waichin-valley/indian-landrace-exchange"
+      }
+    ],
     "links": []
   },
   {
@@ -5955,8 +6417,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Aceh weed (Indonesia's finest) (ICMag)",
+        "url": "https://www.icmag.com/threads/aceh-weed-indonesias-finest.268665/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Aceh",
+        "url": "https://www.leafly.com/strains/aceh"
+      },
+      {
+        "label": "Weedmaps — Aceh (aka Atjeh)",
+        "url": "https://weedmaps.com/strains/aceh"
+      },
+      {
+        "label": "SeedFinder — Sumatra Aceh (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/sumatra-aceh/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6131,8 +6611,34 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Cambodian Land Race (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/cambodian-land-race.79308/"
+      },
+      {
+        "label": "Pure Cambodian Landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/pure-cambodian-landrace.18129000/"
+      },
+      {
+        "label": "CAMBODIAN SATIVA (ICMag)",
+        "url": "https://www.icmag.com/threads/cambodian-sativa.18123387/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Cambodian",
+        "url": "https://www.leafly.com/strains/cambodian"
+      },
+      {
+        "label": "GrowDiaries — Cambodian",
+        "url": "https://growdiaries.com/strains/cambodian"
+      },
+      {
+        "label": "SeedFinder — Cambodia Mekong River Delta (Indian Landrace Exchange)",
+        "url": "https://seedfinder.eu/en/strain-info/cambodia-mekong-river-delta/indian-landrace-exchange"
+      }
+    ],
     "links": []
   },
   {
@@ -6159,7 +6665,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Thai from Chiang Mai (ICMag)",
+        "url": "https://www.icmag.com/threads/thai-from-chiang-mai.317260/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -6188,7 +6699,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Chin (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/chin/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6216,7 +6732,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Chin (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/chin/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6287,8 +6808,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Excellent Vietnamese Dalat Article (Dr. Dalat) (ICMag)",
+        "url": "https://www.icmag.com/threads/excellent-vietnamese-dalat-article-dr-dalat.42428/"
+      },
+      {
+        "label": "Dalat (ICMag)",
+        "url": "https://www.icmag.com/threads/dalat.37852/"
+      },
+      {
+        "label": "Vietnamese Da Lat and Black (Overgrow.com)",
+        "url": "https://overgrow.com/t/vietnamese-da-lat-and-black/36505"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Vietnam Dalat (SnowHigh Seeds)",
+        "url": "https://en.seedfinder.eu/strain-info/Vietnam_Dalat/SnowHigh_Seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -6350,7 +6889,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Golden Triangle Akha (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/golden-triangle-akha/the-real-seed-company"
+      }
+    ],
     "links": []
   },
   {
@@ -6383,8 +6927,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Highland Laos Landrace Real Seeds Co (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/highland-laos-landrace-real-seeds-co.131092/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Hmong Hemp (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/hmong-hemp/the-real-seed-company"
+      }
+    ],
     "links": []
   },
   {
@@ -6446,7 +7000,12 @@
     ],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Thai Stick Isaan (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/thai-stick-isaan/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6507,8 +7066,26 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Philippine Kalinga (ICMag)",
+        "url": "https://www.icmag.com/threads/philippine-kalinga.43981/"
+      },
+      {
+        "label": "Philippine Landrace Thread (ICMag)",
+        "url": "https://www.icmag.com/threads/philippine-landrace-thread.358552/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Philippines Landrace (aka Kalinga Stalk)",
+        "url": "https://www.leafly.com/strains/philippines-landrace"
+      },
+      {
+        "label": "SeedFinder — Kalinga (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kalinga/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -6536,7 +7113,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Ko Chang (Zomia)",
+        "url": "https://en.seedfinder.eu/strain-info/Ko_Chang/Zomia/"
+      }
+    ],
     "links": []
   },
   {
@@ -6571,8 +7153,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Lao landrace LED/Living Soil. (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/lao-landrace-led-living-soil.142287/"
+      },
+      {
+        "label": "Laos (ICMag)",
+        "url": "https://www.icmag.com/threads/laos.17795303/"
+      }
+    ],
+    "references": [
+      {
+        "label": "GrowDiaries — Laotian",
+        "url": "https://growdiaries.com/strains/laotian"
+      }
+    ],
     "links": []
   },
   {
@@ -6671,8 +7267,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "~*TEST GROW*~ MEAO THAI (ICMag)",
+        "url": "https://www.icmag.com/threads/test-grow-meao-thai.17214/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Meao Thai (Cannabiogen)",
+        "url": "https://en.seedfinder.eu/strain-info/Meao_Thai/Cannabiogen/"
+      }
+    ],
     "links": []
   },
   {
@@ -6783,8 +7389,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Khalifa Genetics - Lao Highland Tribe - Muang Sing, Laos (ICMag)",
+        "url": "https://www.icmag.com/threads/khalifa-genetics-lao-highland-tribe-muang-sing-laos.18067662/"
+      },
+      {
+        "label": "Landrace tent party. Ethiopian, Honduran, Thai, (from Ace) & Lao Muang Sing. (ICMag)",
+        "url": "https://www.icmag.com/threads/landrace-tent-party-ethiopian-honduran-thai-from-ace-lao-muang-sing.18135815/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Laos Muang Sing (Khalifa Genetics)",
+        "url": "https://en.seedfinder.eu/strain-info/Laos_Muang_Sing/Khalifa_Genetics/"
+      }
+    ],
     "links": []
   },
   {
@@ -6868,7 +7488,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Ratanakiri (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/ratanakiri/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -7514,8 +8139,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Hokkaido Japan Hemp (Ace Seeds) (ICMag)",
+        "url": "https://www.icmag.com/threads/hokkaido-japan-hemp-ace-seeds.363140/"
+      },
+      {
+        "label": "Hokkaido Japan (ICMag)",
+        "url": "https://www.icmag.com/threads/hokkaido-japan.359156/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Hokkaido Japan Hemp (ACE Seeds)",
+        "url": "https://en.seedfinder.eu/strain-info/Hokkaido_Japan_Hemp/ACE_Seeds/"
+      }
+    ],
     "links": []
   },
   {
@@ -8034,8 +8673,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Altai sativa landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/altai-sativa-landrace.78907/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Siberia (Satori Seed Selections)",
+        "url": "https://en.seedfinder.eu/strain-info/Siberia/Satori_Seed_Selections/"
+      }
+    ],
     "links": []
   },
   {
@@ -8230,8 +8879,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Chinese cannabis from the Yunnan province? (ICMag)",
+        "url": "https://www.icmag.com/threads/chinese-cannabis-from-the-yunnan-province.209332/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — China Yunnan (ACE Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/china-yunnan/ace-seeds"
+      },
+      {
+        "label": "Leafly — China Yunnan",
+        "url": "https://www.leafly.com/strains/china-yunnan"
+      },
+      {
+        "label": "GrowDiaries — China Yunnan",
+        "url": "https://growdiaries.com/seedbank/ace-seeds/china-yunnan"
+      }
+    ],
     "links": []
   },
   {
@@ -8406,8 +9073,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Anyone growing Brazil Amazon from TLT (Overgrow.com)",
+        "url": "https://overgrow.com/t/anyone-growing-brazil-amazon-from-tlt/198762"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Brazil Amazon (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/brazil-amazon/the-landrace-team"
+      },
+      {
+        "label": "SeedFinder — All Brazil Amazon Strains",
+        "url": "https://en.seedfinder.eu/strain-info/Brazil_Amazon/"
+      }
+    ],
     "links": []
   },
   {
@@ -8658,8 +9339,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Colombian Black 2x4 Seed Run (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/colombian-black-2x4-seed-run.175354/"
+      },
+      {
+        "label": "Colombian Black (ICMag)",
+        "url": "https://icmag.com/ic/showthread.php?t=197354"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Colombian Black (Breeder Choice Organisation)",
+        "url": "https://seedfinder.eu/en/strain-info/colombian-black/breeder-choice-organisation"
+      },
+      {
+        "label": "SeedFinder — Colombian Black (Gage Green Genetics)",
+        "url": "https://seedfinder.eu/en/strain-info/colombian-black/gage-green-genetics"
+      }
+    ],
     "links": []
   },
   {
@@ -8790,8 +9489,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Corinto, The Landrace Team Seeds/ Colombian Landraces (ICMag)",
+        "url": "https://www.icmag.com/threads/corinto-the-landrace-team-seeds-colombian-landraces.18126448/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Corinto (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/corinto/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -8938,8 +9647,26 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "The Great Thai, Panama, Mexican, Colombian, and Guatemala Landrace Experiment (ICMag)",
+        "url": "https://www.icmag.com/threads/the-great-thai-panama-mexican-colombian-and-guatemala-landrace-experiment.326213/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Guatemala (The Landrace Team)",
+        "url": "https://en.seedfinder.eu/strain-info/Guatemala/The_Landrace_Team/"
+      },
+      {
+        "label": "SeedFinder — Guatemala (ACE Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/guatemala/ace-seeds"
+      },
+      {
+        "label": "GrowDiaries — Guatemala Seeds by ACE Seeds",
+        "url": "https://growdiaries.com/seedbank/ace-seeds/guatemala"
+      }
+    ],
     "links": []
   },
   {
@@ -8968,8 +9695,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Highland Guerrero (ICMag)",
+        "url": "https://www.icmag.com/threads/highland-guerrero.17998906/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Highland Guerrero (Cryptic Labs)",
+        "url": "https://en.seedfinder.eu/strain-info/Highland_Guerrero/Cryptic_Labs/"
+      }
+    ],
     "links": []
   },
   {
@@ -8996,7 +9733,16 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Guyanese Sensi (ICMag)",
+        "url": "https://www.icmag.com/threads/guyanese-sensi.28769/"
+      },
+      {
+        "label": "Does Guyana have any genetics worth capturing? (Overgrow)",
+        "url": "https://overgrow.com/t/does-guyana-have-any-genetics-worth-capturing/154753"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -9024,8 +9770,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Honduras sativa (ICMag)",
+        "url": "https://www.icmag.com/threads/honduras-sativa.318907/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Honduras (ACE Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/honduras/ace-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -9153,8 +9909,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Verde Limon? (ICMag)",
+        "url": "https://www.icmag.com/threads/verde-limon.18126740/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Weedmaps — Limon Verde",
+        "url": "https://weedmaps.com/strains/limon-verde"
+      }
+    ],
     "links": []
   },
   {
@@ -9182,7 +9948,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Llanera (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/llanera/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -9299,8 +10070,30 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Mangobiche Colombian landrace (Overgrow)",
+        "url": "https://overgrow.com/t/mangobiche-colombian-landrace/26910"
+      },
+      {
+        "label": "Mango Biche (ICMag)",
+        "url": "https://www.icmag.com/threads/mango-biche.369199/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Mango Biche (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/mango-biche/the-landrace-team"
+      },
+      {
+        "label": "Leafly — Mango Biche",
+        "url": "https://www.leafly.com/strains/mango-biche"
+      },
+      {
+        "label": "Weedmaps — Mango Biche",
+        "url": "https://weedmaps.com/strains/mango-biche"
+      }
+    ],
     "links": []
   },
   {
@@ -9336,8 +10129,34 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "maui wowie? (ICMag)",
+        "url": "https://www.icmag.com/threads/maui-wowie.10361/"
+      },
+      {
+        "label": "Maui Wowie (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/maui-wowie.135036/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Maui Wowie",
+        "url": "https://www.leafly.com/strains/maui-wowie"
+      },
+      {
+        "label": "Weedmaps — Maui Wowie",
+        "url": "https://weedmaps.com/strains/maui-wowie"
+      },
+      {
+        "label": "SeedFinder — Maui Wowie (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/maui-wowie/the-landrace-team"
+      },
+      {
+        "label": "GrowDiaries — Maui Wowie",
+        "url": "https://growdiaries.com/strains/maui-wowie"
+      }
+    ],
     "links": []
   },
   {
@@ -9393,7 +10212,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Sierra Madre Mexican (SnowHigh Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/sierra-madre-mexican/snowhigh-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -9963,7 +10787,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Santa Marta Colombian Gold (all breeders)",
+        "url": "https://seedfinder.eu/en/strain-info/santa-marta-colombian-gold"
+      }
+    ],
     "links": []
   },
   {
@@ -10034,7 +10863,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Sierra Nevada de Santa Marta (ICMag)",
+        "url": "https://www.icmag.com/threads/sierra-nevada-de-santa-marta.18123393/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -10316,7 +11150,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Zacatecas landrace (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/zacatecas-landrace.63129/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -10400,7 +11239,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Armenian Landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/armenian-landrace.272554/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -10428,7 +11272,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Azerbaijan bagseed - landrace? (ICMag)",
+        "url": "https://www.icmag.com/threads/azerbaijan-bagseed-landrace.18127901/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -10630,8 +11479,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "greek landrace strains (ICMag)",
+        "url": "https://www.icmag.com/threads/greek-landrace-strains.81755/page-14"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Cretan",
+        "url": "https://www.leafly.com/strains/cretan"
+      },
+      {
+        "label": "SeedFinder — Crete (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/crete/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -10659,7 +11522,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Crimea (The Landrace Team)",
+        "url": "https://en.seedfinder.eu/strain-info/Crimea/The_Landrace_Team"
+      }
+    ],
     "links": []
   },
   {
@@ -10798,7 +11666,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Georgia Landrace Cannabis spontanea/ruderalis (ICMag)",
+        "url": "https://www.icmag.com/threads/georgia-landrace-cannabis-spontanea-ruderalis.294059/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -10854,8 +11727,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "La calabrese rossa (ICMag)",
+        "url": "https://www.icmag.com/threads/la-calabrese-rossa.265071/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — With 'Calabrian Wave,' Legendary Red Cannabis Returns to Italy",
+        "url": "https://www.leafly.com/news/strains-products/with-calabrian-wave-legendary-red-cannabis-returns-to-italy"
+      }
+    ],
     "links": []
   },
   {
@@ -10888,8 +11771,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Greek Kalamata sativa (Overgrow)",
+        "url": "https://overgrow.com/t/greek-kalamata-sativa/7534"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Greek Kalamata (Unknown or Legendary)",
+        "url": "https://seedfinder.eu/en/strain-info/greek-kalamata/unknown-or-legendary"
+      }
+    ],
     "links": []
   },
   {
@@ -10932,8 +11825,26 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "KALAMATA RED O.P. (Delicorganic) (ICMag)",
+        "url": "https://www.icmag.com/threads/kalamata-red-o-p-delicorganic.18114162/"
+      },
+      {
+        "label": "Kalamata Red Landrace gone Berzerk! (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/kalamata-red-landrace-gone-berzerk.172649/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Kalamata Red (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/kalamata-red/the-landrace-team"
+      },
+      {
+        "label": "Leafly — Greek Kalamata Red",
+        "url": "https://www.leafly.com/strains/greek-kalamata-red"
+      }
+    ],
     "links": []
   },
   {
@@ -11185,7 +12096,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Ukraine - Ruderalis (Original Strains)",
+        "url": "https://seedfinder.eu/en/strain-info/ukraine-ruderalis/original-strains"
+      }
+    ],
     "links": []
   },
   {
@@ -11460,8 +12376,30 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Jamaican blue mountain ! (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-blue-mountain.175141/"
+      },
+      {
+        "label": "jamaican blue montains 1985 (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-blue-montains-1985.205058/"
+      },
+      {
+        "label": "Jamaican Blue Mountain (not cbg's) (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-blue-mountain-not-cbgs.346766/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Jamaica Blue Mountain (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/jamaica-blue-mountain/the-landrace-team"
+      },
+      {
+        "label": "Weedmaps — Jamaican Blue Mountain",
+        "url": "https://weedmaps.com/strains/jamaican-blue-mountain"
+      }
+    ],
     "links": []
   },
   {
@@ -11824,8 +12762,34 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Vulx Comparative Grow Featuring Kauai Electric IBL (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/vulx-comparative-grow-featuring-kauai-electric-ibl.479699/"
+      },
+      {
+        "label": "Kauai Electric (ICMag)",
+        "url": "https://www.icmag.com/threads/kauai-electric.81975/"
+      },
+      {
+        "label": "kauai Electric ole' time - Wow ~! (ICMag)",
+        "url": "https://www.icmag.com/threads/kauai-electric-ole-time-wow.298159/"
+      },
+      {
+        "label": "Kauai Electric? (Rollitup)",
+        "url": "https://www.rollitup.org/t/kauai-electric.539900/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Kauaʻi Electric",
+        "url": "https://www.leafly.com/strains/kauai-electric"
+      },
+      {
+        "label": "SeedFinder — Kauaʻi Electric (Pua Mana Pakalolo)",
+        "url": "https://en.seedfinder.eu/strain-info/Kauai_Electric/Pua_Mana_Pakalolo/"
+      }
+    ],
     "links": []
   },
   {
@@ -11854,8 +12818,46 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "My Kona Gold Preservation Run (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/my-kona-gold-preservation-run.174418/"
+      },
+      {
+        "label": "Kona Gold (ICMag)",
+        "url": "https://www.icmag.com/threads/kona-gold.157135/"
+      },
+      {
+        "label": "Kona Gold: The Blood. Rare Hawaiian strain (Rollitup)",
+        "url": "https://www.rollitup.org/t/kona-gold-the-blood-rare-hawaiian-strain.934793/"
+      },
+      {
+        "label": "Kona Gold IBL - My first OP Repro (Overgrow)",
+        "url": "https://overgrow.com/t/kona-gold-ibl-my-first-op-repro/181464"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Kona Gold",
+        "url": "https://www.leafly.com/strains/kona-gold"
+      },
+      {
+        "label": "Weedmaps — Kona Gold",
+        "url": "https://weedmaps.com/strains/kona-gold"
+      },
+      {
+        "label": "SeedFinder — Kona Gold (Mount Zion Seed Cooperative)",
+        "url": "https://seedfinder.eu/en/strain-info/kona-gold/mount-zion-seed-cooperative"
+      },
+      {
+        "label": "SeedFinder — Kona Gold (Pua Mana Pakalolo)",
+        "url": "https://seedfinder.eu/en/strain-info/kona-gold/pua-mana-pakalolo"
+      },
+      {
+        "label": "GrowDiaries — Kona Gold",
+        "url": "https://growdiaries.com/strains/kona-gold"
+      }
+    ],
     "links": []
   },
   {
@@ -11882,8 +12884,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "First \"real\" grow!! Sweet Tooth and Lasqueti Haze. 400 watt closet grow! (Rollitup)",
+        "url": "https://www.rollitup.org/t/first-real-grow-sweet-tooth-and-lasqueti-haze-400-watt-closet-grow.62589/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Lasqueti Haze (B.C. Bud Depot)",
+        "url": "https://en.seedfinder.eu/strain-info/Lasqueti_Haze/BC_Bud_Depot/"
+      }
+    ],
     "links": []
   },
   {
@@ -12109,8 +13121,42 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Road Kill Skunk (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/road-kill-skunk.102717/"
+      },
+      {
+        "label": "Road Kill Skunk (ICMag)",
+        "url": "https://www.icmag.com/threads/road-kill-skunk.18127229/"
+      },
+      {
+        "label": "Road kill skunk, the real skunk (ICMag)",
+        "url": "https://www.icmag.com/threads/road-kill-skunk-the-real-skunk.17851379/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Road Kill Skunk",
+        "url": "https://www.leafly.com/strains/road-kill-skunk"
+      },
+      {
+        "label": "Weedmaps — Roadkill Skunk",
+        "url": "https://weedmaps.com/strains/roadkill-skunk"
+      },
+      {
+        "label": "SeedFinder — Road Kill Skunk (Unknown or Legendary)",
+        "url": "https://seedfinder.eu/en/strain-info/road-kill-skunk/unknown-or-legendary"
+      },
+      {
+        "label": "SeedFinder — Road Kill Skunk (CannaVenture Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/road-kill-skunk/cannaventure-seeds"
+      },
+      {
+        "label": "GrowDiaries — RoadKill Skunk",
+        "url": "https://growdiaries.com/strains/road-kill-skunk"
+      }
+    ],
     "links": []
   },
   {
@@ -12137,8 +13183,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Seeds From St-lucia... ? (ICMag)",
+        "url": "https://www.icmag.com/threads/seeds-from-st-lucia.48075/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — St Lucian (Unknown or Legendary)",
+        "url": "https://en.seedfinder.eu/strain-info/St_Lucian/Unknown_or_Legendary/"
+      }
+    ],
     "links": []
   },
   {
@@ -12193,8 +13249,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Preserving St. Vincent genetics (ICMag)",
+        "url": "https://www.icmag.com/threads/preserving-st-vincent-genetics.380093/"
+      },
+      {
+        "label": "Caribbean genetics / St. Vincent, Grenada, Tobago, Jamaica (ICMag)",
+        "url": "https://www.icmag.com/threads/caribbean-genetics-st-vincent-grenada-tobago-jamaica.358270/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — St. Vincent Island (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/st-vincent-island/the-landrace-team/genealogy"
+      }
+    ],
     "links": []
   },
   {
@@ -12249,8 +13319,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Trinidadian landrace (ICMag)",
+        "url": "https://www.icmag.com/threads/trinidadian-landrace.335290/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Trindad Landrace (KalySeeds)",
+        "url": "https://seedfinder.eu/en/strain-info/trindad-landrace/kalyseeds"
+      }
+    ],
     "links": []
   },
   {
@@ -12277,7 +13357,16 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Jamaican Landraces (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-landraces.191779/"
+      },
+      {
+        "label": "Jamaican Cannabis Landraces: History And Importance (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/jamaican-cannabis-landraces-history-and-importance.79199/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -12305,8 +13394,34 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "ABC(Australian Bastard Cannabis),Dizzy,Bindi,Mongy Madness (ICMag)",
+        "url": "https://www.icmag.com/threads/abc-australian-bastard-cannabis-dizzy-bindi-mongy-madness.141270/page-5"
+      },
+      {
+        "label": "Australian Bastard Cannabis (Overgrow)",
+        "url": "https://overgrow.com/t/australian-bastard-cannabis/60322"
+      },
+      {
+        "label": "australian bastard cannabis, mongy weed (THCFarmer)",
+        "url": "https://www.thcfarmer.com/community/threads/australian-bastard-cannabis-mongy-weed.35026/"
+      },
+      {
+        "label": "Anyone know where to get 100% Australian Bastard Cannabis seeds from (Rollitup)",
+        "url": "https://www.rollitup.org/t/anyone-know-where-to-get-100-australian-bastard-cannabis-seeds-from.988956/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Australian Bastard Cannabis (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/australian-bastard-cannabis/the-landrace-team"
+      },
+      {
+        "label": "SeedFinder — Australian Bastard Cannabis (Unknown or Legendary)",
+        "url": "https://seedfinder.eu/en/strain-info/australian-bastard-cannabis/unknown-or-legendary"
+      }
+    ],
     "links": []
   },
   {
@@ -12445,7 +13560,16 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "New Zealand strain Coromandel Gold! (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/new-zealand-strain-coromandel-gold.18927/"
+      },
+      {
+        "label": "New Zealand strain Coromandel Gold! (ICMag)",
+        "url": "https://icmag.com/ic/showthread.php?t=167080"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -12783,8 +13907,26 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Kangativa's Mullumbimby Madness Grow (ICMag)",
+        "url": "https://www.icmag.com/threads/kangativas-mullumbimby-madness-grow.172793/"
+      },
+      {
+        "label": "Mullumbimby Madness from OZ (ICMag)",
+        "url": "https://www.icmag.com/threads/mullumbimby-madness-from-oz.324806/"
+      },
+      {
+        "label": "Mullumbimby Madness, Colorado Sativas (Overgrow)",
+        "url": "https://overgrow.com/t/mullumbimby-madness-colorado-sativas/109840"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Mullumbimby Madness Haze (Unknown or Legendary)",
+        "url": "https://en.seedfinder.eu/strain-info/Mullumbimby_Madness_Haze/Unknown_or_Legendary/"
+      }
+    ],
     "links": []
   },
   {
@@ -12839,8 +13981,18 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "New Caledonia (ICMag)",
+        "url": "https://www.icmag.com/threads/new-caledonia.379529/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — New Caledonia (ACE Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/new-caledonia/ace-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -13039,7 +14191,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "Leafly — Old Mother Sativa",
+        "url": "https://www.leafly.com/strains/old-mother-sativa"
+      }
+    ],
     "links": []
   },
   {
@@ -13406,7 +14563,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Russia - Ruderalis (Original Strains)",
+        "url": "https://seedfinder.eu/en/strain-info/russia-ruderalis/original-strains"
+      }
+    ],
     "links": []
   },
   {
@@ -13434,7 +14596,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
-    "references": [],
+    "references": [
+      {
+        "label": "SeedFinder — Siberian Landrace Bashkortostan (Landrace Bureau)",
+        "url": "https://seedfinder.eu/en/strain-info/siberian-landrace-bashkortostan/landrace-bureau"
+      }
+    ],
     "links": []
   },
   {
@@ -13461,7 +14628,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Georgia Landrace Cannabis spontanea/ruderalis (ICMag)",
+        "url": "https://www.icmag.com/threads/georgia-landrace-cannabis-spontanea-ruderalis.294059/"
+      }
+    ],
     "references": [],
     "links": []
   },
@@ -13517,7 +14689,12 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Potent wild cannabis in Poland? (ICMag)",
+        "url": "https://www.icmag.com/threads/potent-wild-cannabis-in-poland.94449/"
+      }
+    ],
     "references": [],
     "links": []
   },
