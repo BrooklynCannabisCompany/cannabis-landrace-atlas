@@ -56,3 +56,10 @@ whose vector map data is released into the public domain. "Made with Natural Ear
 Map rendering uses the Leaflet library (data/../lib/leaflet/, BSD-2-Clause) and the
 marked Markdown renderer (lib/marked.min.js, MIT); each retains its own upstream
 license.
+
+Artwork
+-------
+The cannabis leaf silhouette in assets/cannabis-leaf.svg and assets/og-cover.svg is
+adapted (recolored) from "Cannabis_leaf.svg" by Wikimedia Commons
+(https://commons.wikimedia.org/wiki/File:Cannabis_leaf.svg) and retains that file's
+upstream license.
