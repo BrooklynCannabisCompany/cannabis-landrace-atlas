@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 The Cannabis Landrace Atlas contributors
+
 // Pure search/filter logic, shared by the browser UI and Node tests.
 const FIELDS = ['name', 'country', 'region', 'continent', 'type', 'category'];
 
