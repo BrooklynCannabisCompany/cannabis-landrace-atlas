@@ -81,7 +81,7 @@ const SUBMIT_FIELDS = [
   ['history', 'History', 'textarea'],
   ['description', 'Description', 'textarea'],
   ['grow', 'Grow Information', 'textarea'],
-  ['sources', 'Sources (required — real, verifiable links)', 'textarea']
+  ['sources', 'Sources (required — real, verifiable links)', 'linklist']
 ];
 // Long-form sections rendered as headed blocks in the issue (not "**Label:** value").
 const PROSE_KEYS = new Set(['overview', 'history', 'description', 'grow', 'sources']);
@@ -123,7 +123,62 @@ function readField(type, ref) {
     if (lo) return `${lo} weeks`;
     return '';
   }
+  if (type === 'linklist') {
+    return ref.entries().map((e) => (e.name ? `- ${e.name} — ${e.url}` : `- ${e.url}`)).join('\n');
+  }
   return ref.value.trim();
+}
+
+// A reusable add/remove list of entries. With withName, each row is a name input + a URL
+// input; otherwise URL-only. Returns the element plus readers used by the submit handlers.
+function linkRows(withName, namePlaceholder = 'Name / title') {
+  const list = document.createElement('div');
+  list.className = 'url-list';
+  const rows = () => [...list.querySelectorAll('.url-row')];
+  const validate = (urlInput) => {
+    const v = urlInput.value.trim();
+    urlInput.classList.toggle('invalid', !!v && !isValidUrl(v));
+  };
+  function addRow() {
+    const row = document.createElement('div');
+    row.className = 'url-row';
+    if (withName) {
+      const name = document.createElement('input');
+      name.type = 'text'; name.className = 'link-name'; name.placeholder = namePlaceholder;
+      row.appendChild(name);
+    }
+    const url = document.createElement('input');
+    url.type = 'url'; url.className = 'url-input'; url.placeholder = 'https://…';
+    url.addEventListener('blur', () => validate(url));
+    const rm = document.createElement('button');
+    rm.type = 'button'; rm.className = 'url-remove'; rm.textContent = '×';
+    rm.setAttribute('aria-label', 'Remove this entry');
+    rm.addEventListener('click', () => { row.remove(); if (!rows().length) addRow(); });
+    row.append(url, rm);
+    list.appendChild(row);
+    (row.querySelector('input')).focus();
+  }
+  const addBtn = document.createElement('button');
+  addBtn.type = 'button'; addBtn.className = 'linklike'; addBtn.textContent = '+ Add another';
+  addBtn.addEventListener('click', () => {
+    const bad = rows().map((r) => r.querySelector('.url-input')).find((i) => i.value.trim() && !isValidUrl(i.value.trim()));
+    if (bad) { validate(bad); bad.focus(); return; }
+    addRow();
+  });
+  addRow();
+  const el = document.createElement('div');
+  el.append(list, addBtn);
+  return {
+    el,
+    entries() {
+      return rows().map((r) => ({
+        name: withName ? (r.querySelector('.link-name').value.trim()) : '',
+        url: r.querySelector('.url-input').value.trim()
+      })).filter((e) => e.url);
+    },
+    invalid() { return rows().map((r) => r.querySelector('.url-input')).filter((i) => i.value.trim() && !isValidUrl(i.value.trim())); },
+    markInvalid() { rows().forEach((r) => validate(r.querySelector('.url-input'))); }
+  };
 }
 
 // Builds the add/correction form (mirrors the variety panel) and files an issue on submit.
@@ -179,6 +234,9 @@ function buildSubmissionForm(body, mode, strain, sections) {
       field.type = 'number'; field.step = 'any';
       if (pre[key] != null) field.value = pre[key];
       fields[key] = field; wrap.appendChild(field);
+    } else if (type === 'linklist') {
+      const comp = linkRows(true);
+      fields[key] = comp; wrap.appendChild(comp.el);
     } else if (type === 'textarea') {
       const field = document.createElement('textarea');
       field.rows = PROSE_KEYS.has(key) ? 4 : 3;
@@ -307,71 +365,36 @@ const SECTION_LABELS = {
   References: 'add reference request'
 };
 
-// ⊕ button: a list of URL inputs (add/remove, validated) -> labeled GitHub issue.
+// ⊕ button: an add/remove list -> labeled GitHub issue. Photos collect URLs only; Seed
+// Sources / Forum Discussions / References collect a name/title + a link per entry.
 export function openSectionSubmit(strain, section) {
   const label = SECTION_LABELS[section] || 'add request';
+  const withName = section !== 'Photos';
+  const namePh = section === 'Forum Discussions' ? 'Thread title' : 'Name / title';
   openContentModal(`Add ${section} — ${strain.name}`, (body) => {
     const intro = document.createElement('p');
     intro.className = 'modal-note';
-    intro.textContent = `Add one or more ${section} URLs for "${strain.name}". Each must be a valid link. Submitting opens a pre-filled GitHub issue for review.`;
+    intro.textContent = withName
+      ? `Add one or more ${section} for "${strain.name}" — a name/title and a link for each. Submitting opens a pre-filled GitHub issue for review.`
+      : `Add one or more ${section} URLs for "${strain.name}". Each must be a valid link. Submitting opens a pre-filled GitHub issue for review.`;
     const form = document.createElement('form');
     form.className = 'submit-form';
-    const list = document.createElement('div');
-    list.className = 'url-list';
-
-    function validate(inp) {
-      const v = inp.value.trim();
-      inp.classList.toggle('invalid', !!v && !isValidUrl(v));
-    }
-    function addRow(value) {
-      const row = document.createElement('div');
-      row.className = 'url-row';
-      const inp = document.createElement('input');
-      inp.type = 'url'; inp.className = 'url-input'; inp.placeholder = 'https://…';
-      if (value) inp.value = value;
-      inp.addEventListener('blur', () => validate(inp));
-      const rm = document.createElement('button');
-      rm.type = 'button'; rm.className = 'url-remove'; rm.textContent = '×';
-      rm.setAttribute('aria-label', 'Remove this URL');
-      rm.addEventListener('click', () => {
-        row.remove();
-        if (!list.querySelector('.url-row')) addRow();
-      });
-      row.append(inp, rm);
-      list.appendChild(row);
-      inp.focus();
-    }
-
-    const addBtn = document.createElement('button');
-    addBtn.type = 'button'; addBtn.className = 'linklike'; addBtn.textContent = '+ Add another URL';
-    addBtn.addEventListener('click', () => {
-      const inputs = [...list.querySelectorAll('.url-input')];
-      const bad = inputs.find((i) => i.value.trim() && !isValidUrl(i.value.trim()));
-      if (bad) { validate(bad); bad.focus(); return; }
-      addRow();
-    });
-
+    const list = linkRows(withName, namePh);
     const submit = document.createElement('button');
     submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const urls = [...list.querySelectorAll('.url-input')].map((i) => i.value.trim()).filter(Boolean);
-      if (!urls.length) { window.alert(`Please add at least one ${section} URL.`); return; }
-      const invalid = urls.filter((u) => !isValidUrl(u));
-      if (invalid.length) {
-        [...list.querySelectorAll('.url-input')].forEach(validate);
-        window.alert(`These are not valid URLs:\n\n${invalid.join('\n')}`);
-        return;
-      }
-      const text = `Requested **${section}** links for **${strain.name}** (id: \`${strain.id}\`):\n\n`
-        + urls.map((u) => `- ${u}`).join('\n')
-        + `\n\n_Submitted via the Atlas ${section} form._`;
+      const entries = list.entries();
+      if (!entries.length) { window.alert(`Please add at least one ${section} entry.`); return; }
+      if (list.invalid().length) { list.markInvalid(); window.alert('Some URLs are not valid.'); return; }
+      const lines = entries.map((en) => (en.name ? `- ${en.name} — ${en.url}` : `- ${en.url}`)).join('\n');
+      const text = `Requested **${section}** for **${strain.name}** (id: \`${strain.id}\`):\n\n`
+        + `${lines}\n\n_Submitted via the Atlas ${section} form._`;
       showIssueFallback(openIssue(label, `${section}: ${strain.name}`, text));
     });
 
-    form.append(list, addBtn, submit);
-    addRow();
+    form.append(list.el, submit);
     body.append(intro, form);
   });
 }
