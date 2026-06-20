@@ -263,6 +263,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 /* Real links injected into Photos / Seed Sources / Forum Discussions */
 .section-links { font-size: 14.5px; line-height: 1.6; margin: 8px 0; }
 .section-links a { color: var(--green-dark); }
+/* Seed Sources / Forum Discussions / References: one entry per line */
+.section-linklist a { display: block; padding: 1px 0; }
 .section-photo { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; margin: 4px 0; }
 
 /* Section "sources" footnote marker */

@@ -166,6 +166,7 @@ function fillLinkSections(strain) {
     const wrap = document.createElement('p');
     wrap.className = 'section-links';
     let rendered = 0;
+    let linkList = false;
     items.forEach((it) => {
       const url = it.img || it.url;
       if (!isValidUrl(url)) return; // never render non-http(s) URLs from the dataset
@@ -180,12 +181,13 @@ function fillLinkSections(strain) {
         a.appendChild(im);
         wrap.appendChild(a);
       } else {
-        if (rendered > 0) wrap.appendChild(document.createTextNode(' · '));
+        linkList = true; // text links render one per line (see .section-linklist)
         a.textContent = it.label;
         wrap.appendChild(a);
       }
       rendered += 1;
     });
+    if (linkList) wrap.classList.add('section-linklist');
     if (rendered) note.replaceWith(wrap); // keep the empty-slot note if nothing valid
   });
 }
@@ -456,11 +458,12 @@ function openAbout() {
       'Contact: ',
       ext('mailto:BrooklynCannabis@protonmail.com', 'BrooklynCannabis@protonmail.com'),
       ' · ',
-      ext('https://www.instagram.com/brooklyn_cannabis_company', 'Instagram'),
-      ' · ',
-      ext('https://overgrow.com/u/BCC', 'Overgrow (@BCC)')
+      ext('https://www.instagram.com/brooklyn_cannabis_company', 'Instagram')
     );
-    body.append(p1, linksP, contact);
+    const disclaimer = document.createElement('p');
+    disclaimer.className = 'modal-note';
+    disclaimer.textContent = 'We do not sell seeds or any other cannabis products.';
+    body.append(p1, linksP, contact, disclaimer);
   });
 }
 

@@ -83,4 +83,5 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on submitting data corre
 
 - **Email:** [BrooklynCannabis@protonmail.com](mailto:BrooklynCannabis@protonmail.com)
 - **Instagram:** [@brooklyn_cannabis_company](https://www.instagram.com/brooklyn_cannabis_company)
-- **Overgrow:** [@BCC](https://overgrow.com/u/BCC)
+
+We do not sell seeds or any other cannabis products.
