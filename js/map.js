@@ -4,10 +4,11 @@
 // and renders green-leaf markers. Exposes init + selection helpers.
 // Relies on the global `L` from lib/leaflet/leaflet.js.
 
-// The leaf marker is a vendored single SVG file (green cannabis fan leaf),
-// shared by every marker — far lighter than inlining SVG per marker.
-const LEAF_ICON = L.icon({
-  iconUrl: 'assets/leaf.svg',
+// The leaf marker is a vendored single SVG file (green cannabis fan leaf), shared by every
+// marker. A divIcon (rather than L.icon) wraps the image so the inner <img> can scale on
+// hover without disturbing Leaflet's positioning transform on the outer element.
+const LEAF_ICON = L.divIcon({
+  html: '<img src="assets/leaf.svg" alt="" class="leaf-img" width="24" height="30">',
   iconSize: [24, 30],
   iconAnchor: [12, 28],
   popupAnchor: [0, -26],

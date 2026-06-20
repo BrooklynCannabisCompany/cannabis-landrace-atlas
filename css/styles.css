@@ -40,13 +40,6 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
 }
 #search-input:focus { border-color: var(--green); }
 
-.submit-btn {
-  flex: 0 0 auto;
-  font-family: var(--sans); font-size: 13px; color: var(--green-dark);
-  background: #fff; border: 1px solid var(--line); border-radius: 6px;
-  padding: 8px 14px; cursor: pointer;
-}
-.submit-btn:hover { border-color: var(--green); background: #eef0e9; }
 
 /* Hamburger menu */
 .menu-btn {
@@ -278,11 +271,16 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   display: flex; align-items: center; justify-content: space-between; gap: 8px;
 }
 .add-link {
-  flex: 0 0 auto; width: 22px; height: 22px; line-height: 1; padding: 0;
+  flex: 0 0 auto; width: 26px; height: 26px; line-height: 1; padding: 0; margin-left: 6px;
+  display: inline-flex; align-items: center; justify-content: center; vertical-align: middle;
   border: 1px solid #d6ddcf; border-radius: 50%; background: #eef0e9;
-  color: var(--green-dark); font-size: 15px; cursor: pointer;
+  color: var(--green-dark); font-size: 17px; cursor: pointer;
 }
 .add-link:hover { background: var(--green); color: #fff; border-color: var(--green); }
+/* Touch devices (phones/tablets): make the + an obvious, comfortable tap target. */
+@media (pointer: coarse) {
+  .add-link { width: 40px; height: 40px; font-size: 24px; }
+}
 .writeup h3 { font-family: var(--serif); font-size: 14.5px; margin: 14px 0 4px; }
 .writeup p { font-size: 14.5px; line-height: 1.58; margin: 8px 0; }
 .writeup ul, .writeup ol { font-size: 14.5px; line-height: 1.55; padding-left: 20px; margin: 8px 0; }
@@ -328,7 +326,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
-.leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); }
+.leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); z-index: 1000 !important; }
+/* Subtle scale-up on hover signals the marker is interactive (Leaflet drives the outer
+   element's position transform, so we scale the inner image instead). */
+.leaf-marker .leaf-img { display: block; transition: transform 0.12s ease; transform-origin: bottom center; }
+.leaf-marker:hover .leaf-img { transform: scale(1.28); }
 
 /* Selected variety: inverted (white) leaf in a purple circle */
 .leaf-marker-selected { background: none; border: none; }
@@ -377,9 +379,6 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .modal-body { font-size: 14.5px; line-height: 1.55; color: var(--ink); }
 
 /* ---- Responsive: phones & tablets (desktop > 860px is unchanged) ---- */
-/* Suggest/Contact live in the hamburger only on small screens (see media queries). */
-.menu-mobile-only { display: none; }
-
 @media (max-width: 860px) {
   /* Page becomes a column so the ribbon stays a single, uncrowded row. */
   body { display: flex; flex-direction: column; }
@@ -387,10 +386,9 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   .layout { height: auto; flex: 1 1 auto; min-height: 0; }
   .map { height: 100%; }
   .wordmark { font-size: 16px; }
-  /* Condense the ribbon: the two text buttons move into the hamburger menu, so the row is
-     just ☰ + (wordmark) + search. */
+  /* Condense the ribbon: the Suggest/Contact icon buttons are reached via the hamburger
+     (always listed there), so the row stays just ☰ + (wordmark) + search. */
   #submit-btn, #contact-btn { display: none; }
-  .menu-mobile-only { display: block; }
   .search-group { flex: 1 1 auto; max-width: none; margin: 0; }
 
   /* Panel becomes a bottom sheet. */
