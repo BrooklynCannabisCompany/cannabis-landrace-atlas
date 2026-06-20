@@ -272,7 +272,9 @@
   {
     "id": "congolese-highland",
     "name": "Congolese Highland",
-    "aka": [],
+    "aka": [
+      "Congolese"
+    ],
     "continent": "Africa",
     "country": "DRC",
     "region": "",
@@ -2465,7 +2467,9 @@
   {
     "id": "iranian-3",
     "name": "Iranian #3",
-    "aka": [],
+    "aka": [
+      "Iranian"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Iran",
     "region": "",
@@ -2489,6 +2493,16 @@
         "vendor": "The Real Seed Company",
         "product": "Iranian #3",
         "url": "https://therealseedcompany.com/product/iranian-3-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "The Real Seed Company",
+        "product": "Iranian",
+        "url": "https://therealseedcompany.com/product/iranian-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "The Real Seed Company",
+        "product": "Iranian",
+        "url": "https://therealseedcompany.com/product/iranian-2-landrace-strain-cannabis/"
       }
     ],
     "photos": [],
@@ -3187,6 +3201,11 @@
         "vendor": "The Real Seed Company",
         "product": "Mazar-i-Sharif",
         "url": "https://therealseedcompany.com/product/mazar-i-sharif-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "The Real Seed Company",
+        "product": "Mazar I Sharif Mazari Balkhi Afghan",
+        "url": "https://therealseedcompany.com/product/mazar-i-sharif-mazari-balkhi-afghan-cannabis-landrace-strain-seeds/"
       }
     ],
     "photos": [],
@@ -5070,7 +5089,8 @@
     "id": "parvati-valley-complex",
     "name": "Parvati Valley Complex",
     "aka": [
-      "Parvati Valley"
+      "Parvati Valley",
+      "Parvati"
     ],
     "continent": "South Asia",
     "country": "India",

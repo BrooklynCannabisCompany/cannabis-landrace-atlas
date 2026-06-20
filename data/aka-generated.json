@@ -99,7 +99,8 @@
     "Panama"
   ],
   "parvati-valley-complex": [
-    "Parvati Valley"
+    "Parvati Valley",
+    "Parvati"
   ],
   "road-kill-skunk": [
     "RKS",
@@ -148,5 +149,11 @@
   ],
   "mongolian-steppe": [
     "Mongolia"
+  ],
+  "congolese-highland": [
+    "Congolese"
+  ],
+  "iranian-3": [
+    "Iranian"
   ]
 }
