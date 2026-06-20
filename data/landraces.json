@@ -2352,8 +2352,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Deep Chunk: Tom Hill (ICMag)",
+        "url": "https://www.icmag.com/threads/deep-chunk-tom-hill.6288/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Deep Chunk",
+        "url": "https://www.leafly.com/strains/deep-chunk"
+      },
+      {
+        "label": "SeedFinder — Deep Chunk (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/deep-chunk/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -3515,8 +3529,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Pure Rif Landrace (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/pure-rif-landrace.10839/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Rif Mountain (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/rif-mountain/the-real-seed-company"
+      }
+    ],
     "links": []
   },
   {
@@ -5112,8 +5136,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Kumaoni Landrace (Himalayan India) — diary (ICMag)",
+        "url": "https://www.icmag.com/threads/kumaoni-landrace-himalayan-india-and-afghan-adventures-diary.18124634/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Kumaoni (The Real Seed Company)",
+        "url": "https://en.seedfinder.eu/strain-info/Kumaoni/The_Real_Seed_Company/"
+      },
+      {
+        "label": "GrowDiaries — Kumaoni (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/kumaoni"
+      }
+    ],
     "links": []
   },
   {
@@ -5342,8 +5380,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Nanda Devi — Real Seed Company (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/nanda-devi-real-seed-company.231249/"
+      }
+    ],
+    "references": [
+      {
+        "label": "SeedFinder — Nanda Devi (The Real Seed Company)",
+        "url": "https://seedfinder.eu/en/strain-info/nanda-devi/the-real-seed-company"
+      },
+      {
+        "label": "GrowDiaries — Nanda Devi (RSC)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/nanda-devi"
+      }
+    ],
     "links": []
   },
   {
@@ -5507,8 +5559,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "Parvati grow and smoke report (ICMag)",
+        "url": "https://www.icmag.com/threads/parvati-grow-and-smoke-report.366574/"
+      }
+    ],
+    "references": [
+      {
+        "label": "GrowDiaries — Parvati (The Real Seed Company)",
+        "url": "https://growdiaries.com/seedbank/the-real-seed-company/parvati"
+      }
+    ],
     "links": []
   },
   {
@@ -9774,8 +9836,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
-    "references": [],
+    "forums": [
+      {
+        "label": "My CPR — Colombian Punto Rojo grown in Oregon (ICMag)",
+        "url": "https://www.icmag.com/threads/my-cpr-colombian-punto-rojo-grown-in-oregon.18126150/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Punto Rojo (Tierra Adentro)",
+        "url": "https://www.leafly.com/strains/punto-rojo-tierra-adentro"
+      },
+      {
+        "label": "SeedFinder — Punto Rojo (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/punto-rojo/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
