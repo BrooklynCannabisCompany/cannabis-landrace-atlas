@@ -9,14 +9,14 @@ Thai Highland is a classic highland tropical sativa landrace from the mountains 
 Northern Thailand's highland cannabis has been documented since at least the 1960s and 1970s, when the region gained international attention as a source of high-quality cannabis, often compressed into "Thai stick" preparations for export. The highland varieties were associated with the mountain communities of northern Thailand, including ethnic minority groups in the hill country near the borders with Myanmar and Laos. Thai sativas became foundational genetics for many Western breeding programs beginning in the 1970s and 1980s, and Thai landrace material — particularly from the north — is among the most influential tropical gene pools in modern cannabis breeding. Seed collection continued through subsequent decades, with collectors noting variation across different highland valleys and elevations.
 
 ## Description
+- **Origin:** Thailand (Southeast Asia)
+- **Climate:** Tropical mountain — warm days, cooler highland nights, pronounced wet monsoon season followed by a drier cool season during which flowering occurs.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall (2–4m+)
-- **Flowering:** 14–20 weeks is a notably long range; some highland Thai phenotypes are among the longest-flowering in the genus, requiring patience and a very long warm season outdoors.
-- **Climate:** Tropical mountain — warm days, cooler highland nights, pronounced wet monsoon season followed by a drier cool season during which flowering occurs.
-- **Origin:** Thailand (Southeast Asia)
+- **Flowering Time:** 14–20 weeks is a notably long range; some highland Thai phenotypes are among the longest-flowering in the genus, requiring patience and a very long warm season outdoors.
 
 Very tall, vigorous plants with a classic narrow-leaf sativa structure — long internodes, thin leaflets, and prolific branching at height. Commonly reaches 2–4 meters or more outdoors. Typically described as incense-like, spicy, and sometimes floral or citrus-touched. Effect is commonly reported as intensely cerebral and energetic, reflective of the high-potency sativa profile long associated with Thai genetics.
 

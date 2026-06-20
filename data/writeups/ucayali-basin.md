@@ -9,14 +9,14 @@ The Ucayali Basin landrace originates from the broad lowland river system of Per
 Cannabis in the Ucayali Basin is associated with indigenous and mestizo communities of the Peruvian Amazon, where the plant has historically been present alongside trade routes connecting highland and lowland populations. Documented collection of this specific population is sparse, and most available accounts come from travelers and ethnobotanists rather than systematic seed banks. The region's remoteness and dense forest cover have limited outside observation, and the genetic history of this population remains largely uncharacterized in formal literature.
 
 ## Description
+- **Origin:** Peru (Americas)
+- **Climate:** Equatorial rainforest — high humidity, heavy and consistent rainfall, warm temperatures year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall; plants commonly reported to reach considerable heights under equatorial conditions
-- **Flowering:** 14–20 weeks; typical of equatorial landrace sativas adapted to minimal photoperiod variation
-- **Climate:** Equatorial rainforest — high humidity, heavy and consistent rainfall, warm temperatures year-round
-- **Origin:** Peru (Americas)
+- **Flowering Time:** 14–20 weeks; typical of equatorial landrace sativas adapted to minimal photoperiod variation
 
 Grower accounts suggest narrow-leafleted sativa structure with loose, open branching suited to high-humidity airflow. Terpene profiles associated with Amazonian sativas often tend toward earthy, herbal, and tropical-fruit notes, though specific reports for this population are limited.
 

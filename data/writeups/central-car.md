@@ -9,14 +9,14 @@ Central CAR refers to a landrace cannabis population from the interior of the Ce
 The Central African Republic sits at a geographic crossroads connecting the Sahel to the north, the Congo Basin to the south, and East Africa to the east, and its cannabis populations likely reflect centuries of movement along these routes. Traditional use of cannabis across Central Africa is broadly attested, though specific documentation of the CAR interior population as a distinct cultivated variety is sparse. The region's mixed forest-savanna ecosystem and its position along regional trade and migration corridors suggest that this population may represent a genetic blend influenced by neighboring Congo Basin, Cameroonian, and East African populations.
 
 ## Description
+- **Origin:** Central African Republic (Africa)
+- **Climate:** Tropical savanna-rainforest transition — adapted to warm temperatures, seasonal rainfall, and mixed open-canopy and forest conditions
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Long, approximately 13–18 weeks from equinox — among the longer-flowering African landraces, consistent with equatorial latitude
-- **Climate:** Tropical savanna-rainforest transition — adapted to warm temperatures, seasonal rainfall, and mixed open-canopy and forest conditions
-- **Origin:** Central African Republic (Africa)
+- **Flowering Time:** Long, approximately 13–18 weeks from equinox — among the longer-flowering African landraces, consistent with equatorial latitude
 
 Likely influenced by neighboring Congo Basin populations and regional trade-route gene flow.
 

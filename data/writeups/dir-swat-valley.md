@@ -9,14 +9,14 @@ The Dir / Swat Valley landrace is a classic indica cannabis from the Dir and Swa
 Dir and Swat are among the historically documented cannabis-producing districts of what is now northern Pakistan. Swat in particular has a long history as a fertile, culturally distinct valley — the ancient Buddhist region of Udyana, later ruled by the Yusufzai Pashtun tribal confederation — and cannabis cultivation here is embedded in rural agricultural and pastoral traditions going back centuries. The Dir/Swat corridor is commonly cited in cannabis literature as part of the broader Khyber–Kashmir charas production zone, where resin-rich indica types have been cultivated and selected over generations for hand-rubbed charas production. Western seed collectors and breeders encountered this gene pool from the 1970s onward, and Dir/Swat genetics influenced early indica breeding programs.
 
 ## Description
+- **Origin:** Pakistan (Middle East / Central Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short — compact mountain indica morphology
-- **Flowering:** 7–9 weeks; fast-finishing, essential in the short growing season of the highland valleys
-- **Climate:** Temperate / Continental
-- **Origin:** Pakistan (Middle East / Central Asia)
+- **Flowering Time:** 7–9 weeks; fast-finishing, essential in the short growing season of the highland valleys
 
 Dense, branching structure with broad indica leaves; adapted to the mountain valley environment. High; consistent with the charas-producing tradition of the region. The overlapping resin chemotypes between Dir/Swat and neighboring Chitral and Khyber populations reflect the connected nature of this broad Pakistani Hindu Kush cannabis corridor.
 

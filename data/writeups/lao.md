@@ -9,14 +9,14 @@ Lao is a sativa landrace broadly representing the cannabis populations of Laos �
 Cannabis has been cultivated across Laos for centuries within the agricultural and cultural traditions of both lowland Lao communities and the diverse highland ethnic minorities — including Hmong, Khmu, Akha, and others — who inhabit the country's mountain zones. Lao cannabis became internationally recognized during the latter part of the twentieth century, particularly during the period when the region's cannabis trade intersected with broader Indochina events. "Lao" material has historically been associated with the broader Golden Triangle genetic zone, which positioned Laos as both a cultivation region and a transit corridor for cannabis genetics moving between Thailand, Myanmar, and Vietnam. The Lao population represents a wide genetic complex rather than a narrow, selected lineage.
 
 ## Description
+- **Origin:** Laos (Southeast Asia)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — consistent with the vigorous growth of Indochina sativas under jungle monsoon conditions
-- **Flowering:** 12–16 weeks; long-season variety
-- **Climate:** Tropical Rainforest
-- **Origin:** Laos (Southeast Asia)
+- **Flowering Time:** 12–16 weeks; long-season variety
 
 Classic Indochina sativa character; narrow leaflets, large plant architecture, open branching. Accounts associated with Lao cannabis generally describe incense, earthy, and tropical aromatic qualities; specific terpene profiles vary across the country's diverse cultivation zones. Strongly associated with potent, cerebral, and long-lasting psychoactive expression.
 

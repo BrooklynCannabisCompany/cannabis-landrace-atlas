@@ -9,14 +9,14 @@ Muang Sing is a sativa regional complex associated with Muang Sing district in L
 Muang Sing has historically been a significant crossroads in the highland trade networks connecting northwestern Laos with Yunnan and the upper reaches of the Mekong watershed. The diversity of ethnic groups cultivating in and around the Muang Sing valley means that cannabis genetics from multiple cultural traditions have likely mixed in this zone over many generations. The population's designation as a Golden Triangle variant reflects this genetic complexity; Muang Sing material is not a narrow, isolated landrace but rather a regional expression of the broader highland Southeast Asian cannabis complex, shaped by the specific terrain, climate, and cultural diversity of the northern Luang Namtha zone. Formal cultivation lineage documentation is not available.
 
 ## Description
+- **Origin:** Laos (Southeast Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with highland northern Lao sativa populations
-- **Flowering:** 12–15 weeks; moderate season length for a highland variety
-- **Climate:** Tropical Highland
-- **Origin:** Laos (Southeast Asia)
+- **Flowering Time:** 12–15 weeks; moderate season length for a highland variety
 
 Narrow-leaflet sativa character consistent with highland mainland SE Asian cannabis; some phenotypic variability reflecting the multi-ethnic cultivation context is expected. Not specifically documented; incense, earthy, and highland aromatic qualities consistent with the broader Golden Triangle zone are plausible. Cerebral and energetic sativa expression inferred from the sativa classification and regional context.
 

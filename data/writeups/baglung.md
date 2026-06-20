@@ -9,14 +9,14 @@ Baglung is a sativa landrace from Baglung District in the Gandaki Province of we
 Nepal's Baglung area was historically part of trade and pilgrimage routes linking the Kali Gandaki valley to Pokhara and the Terai lowlands. Cannabis cultivation in this zone is thought to be longstanding, with local populations selecting plants — intentionally or through harvest pressure — for dense resin production suitable for hand-rubbed charas and pressed temple balls. The strain is commonly referenced in collector communities as representing the resinous mid-altitude Nepalese type, distinct from higher-altitude Mustang or lower-elevation Terai populations. Formal scientific documentation of this specific district population is limited.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** Himalayan mid-altitude
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Himalayan mid-altitude
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** 10–14 weeks
 
 Typical morphology for a Nepalese mid-altitude sativa: moderately narrow leaflets, long internodes, and heavy floral resin accumulation. Commonly reported to produce the dense, sticky resin associated with hand-rubbing charas; the "temple-ball lineage" characterization reflects this trait. Aroma profiles in grower accounts often describe sweet-spice or incense-like qualities consistent with other Nepalese highland types.
 

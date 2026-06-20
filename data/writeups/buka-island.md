@@ -9,14 +9,14 @@ Buka Island is the northernmost major island of the Bougainville province of Pap
 Documented history of the Buka Island cannabis population is sparse. The island's position along historical trade and migration routes between PNG and the Solomon Islands suggests that cannabis may have arrived through inter-island movement at an indeterminate point in the past. Given the feral classification, this population is understood to have naturalized and persisted without sustained formal cultivation, adapting to the island's equatorial conditions over an unknown number of generations. No verified breeder accounts or formal collection records are known.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Tropical island — consistent heat, high humidity, and substantial rainfall year-round.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall, as is typical of equatorial island cannabis populations.
-- **Flowering:** Variable; feral populations in equatorial island environments often lack the uniformity of cultivated landraces.
-- **Climate:** Tropical island — consistent heat, high humidity, and substantial rainfall year-round.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** Variable; feral populations in equatorial island environments often lack the uniformity of cultivated landraces.
 
 Buka Island is a feral, reflecting naturalized rather than intentionally maintained cultivation. landrace (Narrow-Leaf Drug) from Papua New Guinea (Oceania).
 

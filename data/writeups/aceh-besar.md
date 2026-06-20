@@ -9,14 +9,14 @@ Aceh Besar is a sativa regional landrace from Aceh Besar Regency, the administra
 The Aceh Besar area has historically been a gateway region — a coastal hub with long exposure to maritime trade routes connecting the Indian subcontinent, the Arabian Peninsula, and the rest of maritime Southeast Asia. Cannabis cultivation in this coastal district likely developed alongside these trade influences, with generations of local cultivation potentially selecting for populations that perform well under the coastal tropical conditions specific to the region. Documentation of this specific population's cultivation lineage is limited; what is known comes primarily from collector and grower accounts rather than formal ethnobotanical records.
 
 ## Description
+- **Origin:** Indonesia (Southeast Asia)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — typical of Sumatran sativa expressions
-- **Flowering:** 11–14 weeks, somewhat faster than highland Aceh populations
-- **Climate:** Tropical Lowland
-- **Origin:** Indonesia (Southeast Asia)
+- **Flowering Time:** 11–14 weeks, somewhat faster than highland Aceh populations
 
 Consistent with coastal equatorial sativas — narrow leaflets, open canopy structure, airy bud development adapted to high ambient humidity. Regional accounts suggest aromatic, incense-forward qualities common to northern Sumatran landraces. Commonly described as cerebral and energetic, consistent with equatorial sativa expression.
 

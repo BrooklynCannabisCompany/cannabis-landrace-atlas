@@ -9,14 +9,14 @@ Northern Queensland feral cannabis refers to escaped and naturalized cannabis po
 Cannabis naturalization in northern Queensland is not formally documented to a specific origin event. The region's historical connections to Southeast Asia — through the Torres Strait, maritime trade, and significant immigration during the colonial era from various parts of Asia — are commonly cited as possible introduction pathways for cannabis genetics with Southeast Asian character. The feral classification indicates these populations have persisted and naturalized in the tropical rainforest environment without intentional cultivation management. The description of highly variable genetics is consistent with multiple introduction events or mixing of diverse source populations in the wild.
 
 ## Description
+- **Origin:** Australia (Oceania)
+- **Climate:** Tropical rainforest — very high rainfall, consistently warm temperatures, high humidity year-round, intense wet season monsoon.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; consistent with sativa-type cannabis in a tropical rainforest environment.
-- **Flowering:** 10–14 weeks; reflecting adaptation to the strong seasonal photoperiod shift of the tropics even in a consistently warm climate.
-- **Climate:** Tropical rainforest — very high rainfall, consistently warm temperatures, high humidity year-round, intense wet season monsoon.
-- **Origin:** Australia (Oceania)
+- **Flowering Time:** 10–14 weeks; reflecting adaptation to the strong seasonal photoperiod shift of the tropics even in a consistently warm climate.
 
 Heat and humidity tolerance; highly variable genetics; potential Southeast Asian genetic influence.
 

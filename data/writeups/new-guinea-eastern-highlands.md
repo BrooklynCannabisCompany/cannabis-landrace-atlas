@@ -9,14 +9,14 @@ New Guinea Eastern Highlands is a sativa landrace entry representing the broader
 The PNG Gold lineage associated with the eastern highlands of Papua New Guinea became known to international collectors through the 1990s underground cannabis community, where material described as originating from PNG's highland regions was circulated and sought for its potency and sativa character. The eastern highlands zone — encompassing the area around Goroka and extending into the mountain jungle regions north and south of the main highland corridor — has long supported cannabis cultivation within local communities, though formal documentation of this cultivation history is lacking. The "PNG Gold" designation reflects a collective reputation rather than a specific formally maintained cultivar.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Mountain jungle — high rainfall, cool nights, intense daytime sun, equatorial but altitude-moderated temperatures.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall; consistent with PNG highland sativa expression.
-- **Flowering:** 12–16 weeks; reflecting equatorial highland growing conditions.
-- **Climate:** Mountain jungle — high rainfall, cool nights, intense daytime sun, equatorial but altitude-moderated temperatures.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 12–16 weeks; reflecting equatorial highland growing conditions.
 
 PNG Gold — the broader collective name for potent PNG highland sativas from this zone.
 

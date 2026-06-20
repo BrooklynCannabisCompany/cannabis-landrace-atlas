@@ -9,14 +9,14 @@ The Serbian Feral Population is a naturalized intermediate cannabis population a
 Hemp cultivation in Serbia has deep roots in the agricultural traditions of the Balkans, carried through Ottoman-era farming practices and continued under various administrations through the twentieth century. The decline of industrial hemp cultivation left feral populations naturalized along the Danube, Sava, and Morava corridors, where fertile alluvial soils and disturbed agricultural margins provide hospitable conditions for self-sustaining cannabis populations. The summary describes these plants as "highly adaptable" — a characteristic consistent with long-naturalized populations that have survived without human management through Serbia's varied seasonal conditions.
 
 ## Description
+- **Origin:** Serbia (Europe)
+- **Climate:** River plain-continental
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Feral
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium
-- **Flowering:** 9–13 weeks
-- **Climate:** River plain-continental
-- **Origin:** Serbia (Europe)
+- **Flowering Time:** 9–13 weeks
 
 As a medium-height, intermediate (indica–sativa) feral population with a 9–13 week flowering window adapted to the river plain-continental climate of Serbia, this population reflects the typical morphology of Central Balkan naturalized hemp: moderately vigorous, variable, and adapted to both the hot summers and cold winters of the continental Serbian lowlands and river corridors. _Recorded locality detail: Danube, Morava, and Sava Basins._.
 

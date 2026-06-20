@@ -9,14 +9,14 @@ Karnali Corridor designates a Himalayan landrace complex associated with the Kar
 The Karnali Corridor as a cannabis population category is more a geographic and genetic hypothesis than a well-documented historical cultivation zone. The Karnali River drainage has served for millennia as a trade and migration corridor linking Tibet and the Tibetan Plateau with Nepal's mid-hills and the Indian subcontinent. Cannabis dispersal along such routes is plausible, and the resulting gene pool might reflect contributions from multiple regional populations. Systematic collector or scientific documentation of cannabis specifically from the Karnali River Basin is very limited; this entry represents a regional population that is largely undocumented and may warrant future collection and characterization.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** Mountain river valley
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall
-- **Flowering:** 12–18 weeks — a wide range consistent with a population spanning multiple elevations and microclimates
-- **Climate:** Mountain river valley
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** 12–18 weeks — a wide range consistent with a population spanning multiple elevations and microclimates
 
 Mixed morphology expected across the corridor's elevational range; higher-altitude populations likely more indica-leaning, lower-altitude populations more sativa-leaning. The river valley context may support taller plants with longer flowering times than purely alpine populations, reflecting milder valley floor conditions relative to the surrounding high terrain. Genetic diversity within this corridor population is potentially high, given the hypothesized confluence of multiple migration routes.
 

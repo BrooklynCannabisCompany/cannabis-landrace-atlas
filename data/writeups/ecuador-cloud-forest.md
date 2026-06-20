@@ -9,14 +9,14 @@ Ecuador Cloud Forest refers to cannabis populations associated with the Ecuadori
 Cannabis cultivation in Ecuador's cloud forest zones is not formally documented in the published literature. Ecuador has a history of small-scale agricultural cultivation across its Andean slopes, and cannabis populations in cloud forest areas are likely the result of regional agricultural introduction followed by naturalization over time. The cloud forest environment imposes distinct selection pressures — combining altitude-related UV exposure and cool nights with the constant moisture of a fog-draped mountain forest — that would, over generations, favor plants with specific adaptations distinct from both highland páramo and lowland Amazon types. Ecuador's cloud forests span both the western slopes (facing the Pacific) and eastern slopes (facing the Amazon), and populations across these two flanks may differ in their specific adaptation profiles.
 
 ## Description
+- **Origin:** Ecuador (Americas)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with forest-margin sativas adapted to competing for light in partially shaded, mist-filled environments
-- **Flowering:** 13–18 weeks — the longer range reflects both the equatorial-adjacent latitude and the cloud forest's reduced light intensity relative to open highland conditions
-- **Climate:** Tropical Highland
-- **Origin:** Ecuador (Americas)
+- **Flowering Time:** 13–18 weeks — the longer range reflects both the equatorial-adjacent latitude and the cloud forest's reduced light intensity relative to open highland conditions
 
 Likely openly branched with elongated internodes; cloud forest sativas are commonly associated with somewhat etiolated growth patterns in response to diffuse light. Not documented; cloud forest environments in other landrace contexts are associated with complex, resinous aromatic profiles.
 

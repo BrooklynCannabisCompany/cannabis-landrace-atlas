@@ -9,14 +9,14 @@ Aksu is an oasis landrace from Aksu Prefecture in the northwestern Tarim Basin o
 Cannabis cultivation in the Tarim Basin region is commonly reported to have deep historical roots, with the oasis settlements of Xinjiang serving as waypoints along Silk Road trade networks connecting China, Central Asia, and the Middle East. Aksu Prefecture's position on the northern rim of the Tarim Basin would have placed it at a crossroads of genetic exchange for centuries. Whether the population represents a lineage introduced through trade or a locally adapted cultivated form is not definitively established, but researchers generally associate Xinjiang oasis populations with some of the most genetically distinct and potentially ancient cannabis gene pools in Asia.
 
 ## Description
+- **Origin:** China (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 9–13 weeks, reflecting adaptation to the Tarim Basin's continental climate with hot summers and cold autumns
-- **Climate:** Desert / Arid
-- **Origin:** China (Middle East / Central Asia)
+- **Flowering Time:** 9–13 weeks, reflecting adaptation to the Tarim Basin's continental climate with hot summers and cold autumns
 
 Likely branched, adapted to open cultivation in irrigated plots. Moderate; consistent with traditional Central Asian multipurpose landrace use. Plant morphology for this region is not well-documented in the cannabis literature; descriptions here reflect what can be responsibly inferred from the climate and landrace category.
 

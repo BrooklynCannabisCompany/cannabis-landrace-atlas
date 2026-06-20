@@ -9,14 +9,14 @@ The Crimean Population is a mixed-category cannabis entry associated with the Cr
 Crimea's position at the northern edge of the Black Sea has made it a transit point for cannabis genetics moving between the Eurasian steppe, the Caucasus, Anatolia, and Eastern Europe for millennia. Scythian and other steppe peoples are historically associated with cannabis use across the Pontic steppe, and Crimea was central to this geographic zone. Later Greek colonization of the Crimean coast, followed by Tatar, Ottoman, Russian, and Ukrainian influence, would have introduced additional cannabis gene pools over the centuries. The summary describes the result as "highly variable regional genetics" reflecting this deep history of crossroads mixing.
 
 ## Description
+- **Origin:** Crimea (Europe)
+- **Climate:** Black Sea coastal climate
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Black Sea coastal climate
-- **Origin:** Crimea (Europe)
+- **Flowering Time:** 10–14 weeks
 
 As a mixed-category, coastal-steppe cannabis population of medium-tall height with a 10–14 week flowering window, the Crimean Population is understood as genetically diverse and phenotypically variable. The Black Sea coastal climate of Crimea — combining Mediterranean, steppe, and maritime influences — would select for a range of adaptations depending on the specific locality of origin within the peninsula.
 

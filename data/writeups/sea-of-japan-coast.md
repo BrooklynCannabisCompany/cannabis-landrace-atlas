@@ -9,14 +9,14 @@ The Sea of Japan Coast population is a feral, sativa-leaning cannabis population
 The Sea of Japan coastline has been inhabited and traversed for millennia, and the maritime zone has long served as a corridor for human movement between the Korean Peninsula, Japan, and the Russian Far East. Cannabis naturalized along this coast likely descended from multiple introductions — from continental Russian settlement, from indigenous maritime peoples, and possibly from historical connections with Korean and Japanese coastal communities. The maritime climate then shaped surviving populations through selection for humidity tolerance alongside cold hardiness, a combination not typical of interior Siberian cannabis. Specific research documentation for this population is not available in accessible sources.
 
 ## Description
+- **Origin:** Russia (East Asia / North Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium, consistent with feral cannabis in a cool maritime environment
-- **Flowering:** 10–14 weeks, adapted to the maritime coastal growing season
-- **Climate:** Temperate / Continental
-- **Origin:** Russia (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, adapted to the maritime coastal growing season
 
 Moderate branching; sativa-leaning character suggests somewhat longer internodal spacing than pure indica-type northern populations. Likely intermediate to slightly narrow, consistent with sativa-leaning coastal feral types. Not documented.
 

@@ -7,14 +7,14 @@ Kyrgyzstan Tian Shan is a ruderalis-leaning wild cannabis type distributed acros
 Cannabis grows across a wide range of elevations in Kyrgyzstan, from lowland valleys to the margins of high-alpine habitats. The Tian Shan range's cold, short summers would have imposed strong natural selection for early maturity and cold hardiness, favoring plants with ruderalis-like autoflowering tendencies. Whether these populations represent ancient hemp cultivation escapes or longer-established wild populations is debated; likely both have contributed over time. Specific collection or documentation records for this Tian Shan feral population are not widely available.
 
 ## Description
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Feral
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Short
-- **Flowering:** 6–10 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Flowering Time:** 6–10 weeks
 
 Short, compact habit consistent with cold-adapted high-altitude feral cannabis. Ruderalis-leaning character with probable autoflowering tendencies. Low commercial resin yield expected; primary interest is genetic and botanical. High degree of phenotypic heterogeneity anticipated in feral material.
 

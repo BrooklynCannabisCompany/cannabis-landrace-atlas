@@ -9,14 +9,14 @@ The Ratanakiri landrace originates from Ratanakiri Province in northeastern Camb
 Ratanakiri Province was effectively cut off from much of Cambodia's mainstream for decades due to difficult terrain, limited infrastructure, and conflict through the latter half of the twentieth century. Indigenous ethnic minority communities — including the Jarai, Tampuan, and Brao peoples — have long inhabited these highlands, and cannabis is historically associated with traditional use in some upland communities across the broader Mekong region. The Ratanakiri population is commonly reported by collectors to show influences from neighboring Lao and Vietnamese highland genetics, consistent with its border-corridor geography. Documented collection of this specific population is limited.
 
 ## Description
+- **Origin:** Cambodia (Southeast Asia)
+- **Climate:** Tropical upland conditions — warm days, cooler nights at elevation, high humidity, and a pronounced monsoon season.
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall
-- **Flowering:** Long-cycling at 12–18 weeks, a range suggesting heterogeneous genetics within the population.
-- **Climate:** Tropical upland conditions — warm days, cooler nights at elevation, high humidity, and a pronounced monsoon season.
-- **Origin:** Cambodia (Southeast Asia)
+- **Flowering Time:** Long-cycling at 12–18 weeks, a range suggesting heterogeneous genetics within the population.
 
 Tall plants with a mixed sativa/indica character, consistent with a highland population under tropical upland conditions. Broader leaflets than typical coastal Southeast Asian sativas are plausible given altitude and latitude. Limited verified accounts exist; regional highland Cambodian and Lao cannabis is broadly associated with earthy, spicy, and occasionally sweet profiles.
 

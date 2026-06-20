@@ -9,14 +9,14 @@ Chitral is a classic indica landrace from Chitral District in the northernmost p
 Chitral's cannabis tradition is rooted in the region's long history of isolation behind the Hindu Kush. The district's distinct Kho culture and its geographic separation from lowland Pakistan contributed to the preservation of traditional cultivation practices. Charas — hand-rubbed cannabis resin — is the primary traditional cannabis product of the Chitral region, and cultivar selection has historically favored maximum resin yield from compact, cold-hardy plants suited to the short alpine growing season. Chitral cannabis is frequently cited in the landrace literature as a representative Hindu Kush indica type, and seeds from this region have entered Western cannabis breeding collections since at least the 1970s and 1980s.
 
 ## Description
+- **Origin:** Pakistan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short — compact, dense bush morphology
-- **Flowering:** 7–9 weeks; fast-finishing, as required by the brief alpine growing season
-- **Climate:** Alpine / High Mountain
-- **Origin:** Pakistan (Middle East / Central Asia)
+- **Flowering Time:** 7–9 weeks; fast-finishing, as required by the brief alpine growing season
 
 Heavy branching with broad, dark-green indica leaves; tight internode spacing. Very high; resin production is the primary trait for which this population has been traditionally selected, consistent with charas production practices. The Chitral phenotype is typically cited as an archetype of the compact, resin-heavy Hindu Kush indica.
 

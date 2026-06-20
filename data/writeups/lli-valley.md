@@ -7,14 +7,14 @@ The LLI Valley entry refers to the Ili River Valley (also romanized as Ili or Il
 The Ili River Valley has been a major passage for human migration, trade, and conquest throughout Central Asian history. Cannabis in the valley likely reflects a long accumulation of both cultivated and feral populations, with genetic contributions from Kazakh, Uyghur, and other cultural traditions. The valley's position as a historic corridor between Xinjiang and Kazakhstan means it may carry ancestral cannabis genetics linking East Asian and Central Asian gene pools. Grower accounts note the valley's drought tolerance and tall stature as distinguishing regional characteristics. Specific collection or documentation records for this population are limited.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall
-- **Flowering:** 10–15 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–15 weeks
 
 Tall stature, toward the upper range for Central Asian feral populations. Landrace-feral complex reflecting mixed cultivated and naturalized heritage. Drought tolerance is noted as a key adaptive trait. Phenotypic variation is expected across the wide geographic range of the valley corridor.
 

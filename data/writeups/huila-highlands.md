@@ -9,14 +9,14 @@ Huila Highlands refers to cannabis populations associated with the highland zone
 Huila Department has a long tradition of highland agriculture, and cannabis cultivation in the region's mountain communities is associated with the broader Andean Colombian sativa tradition. The specific history of Huila cannabis populations is not extensively documented, but the department's geographic position — in the upper Magdalena valley between two Andean cordilleras — would have influenced the development of locally adapted populations shaped by altitude and the valley's specific rainfall and temperature patterns. Huila highland cannabis is understood as part of the historic Colombian Andean sativa continuum, distinct from the lowland and coastal populations of Colombia.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — highland Andean Colombian sativas characteristically develop tall, upright plants under strong mountain sunlight
-- **Flowering:** 12–18 weeks — consistent with highland Colombian sativas; the range reflects variability across the mountain population
-- **Climate:** Tropical Highland
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 12–18 weeks — consistent with highland Colombian sativas; the range reflects variability across the mountain population
 
 Likely upright and branchy with moderately spaced internodes; cool nights in the Andean growing environment are associated with denser, more resinous floral development than lowland counterparts. The source record specifically highlights "cool nights, intense sun" as defining characteristics; in similar Andean contexts, these conditions are associated with aromatic complexity and resinous development.
 

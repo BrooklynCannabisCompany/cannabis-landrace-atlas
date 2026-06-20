@@ -7,14 +7,14 @@ Kashgar is a cannabis population associated with the historic oasis city of Kash
 Cannabis cultivation in the Kashgar region is associated with Uyghur and other indigenous agricultural traditions of the Tarim Basin. The city's role as a major Silk Road emporium means it has received plant material and seed from countless directions over many centuries. Grower accounts and historical records suggest cannabis was cultivated locally for fiber and possibly resin, with hash-producing traditions present across the broader Xinjiang region. The mixed morphology of the Kashgar population — showing both broad-leaf and intermediate expressions — is consistent with this long history of varied introductions and local selection.
 
 ## Description
+- **Origin:** China (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium
-- **Flowering:** 9–12 weeks
-- **Climate:** Desert / Arid
-- **Origin:** China (Middle East / Central Asia)
+- **Flowering Time:** 9–12 weeks
 
 Mixed category reflecting both broad-leaf (indica-type) and intermediate phenotypic expressions. Medium stature typical of Silk Road oasis landraces adapted to arid conditions. Resin production is associated with hash-producing traditions of the region. Aromas and cannabinoid profiles are not specifically documented for this population.
 

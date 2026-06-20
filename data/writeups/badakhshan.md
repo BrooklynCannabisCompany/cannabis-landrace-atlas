@@ -9,14 +9,14 @@ Badakhshan is an indica landrace from the high mountain province of Badakhshan i
 Badakhshan has a long history documented in both classical and medieval sources as a source of valued commodities — including lapis lazuli — traded along Silk Road networks. Cannabis cultivation in this rugged, isolated province is associated with traditional rural and nomadic communities. The region's high-altitude isolation would have limited outside genetic influence and potentially allowed landrace populations to develop in relative insularity. Grower accounts and cannabis researchers commonly cite Badakhshan and the adjacent Afghan-Tajik Pamir regions as among the most genetically intact mountain indica populations in Central Asia, though rigorous scientific documentation remains limited.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short — compact, dense structure typical of high-altitude Afghan populations
-- **Flowering:** 8–10 weeks; fast for an Afghan mountain type, consistent with the very short growing seasons at high elevation
-- **Climate:** Alpine / High Mountain
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks; fast for an Afghan mountain type, consistent with the very short growing seasons at high elevation
 
 Heavy-branched, bushy morphology suited to wind and cold. Commonly reported as high; described as a hash-rich selection shaped by traditional charas and hashish production practices. The short, dense phenotype and heavy resin expression are characteristic of the extreme elevation and cold stress of the Badakhshan highlands.
 

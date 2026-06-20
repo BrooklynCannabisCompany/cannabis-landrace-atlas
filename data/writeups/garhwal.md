@@ -9,14 +9,14 @@ Garhwal is a sativa landrace from the Garhwal region of Uttarakhand, India — t
 The Garhwal division of the Western Himalayas has a long ethnobotanical relationship with cannabis, which grows abundantly in disturbed forest margins, river margins, and village edges across the mid-altitude zones. Unlike the more intensively managed charas-producing zones of neighboring Himachal Pradesh, Garhwal cannabis is more commonly described as a feral or opportunistic population with less deliberate cultivation for resin. Collector accounts of the specific Garhwal type are limited; most documentation describes wild-growing plants encountered along trekking routes rather than cultivated populations. This gives the population a character more consistent with feral-adapted cannabis than with a managed landrace.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Himalayan temperate
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with vigorous, uncrowded wild sativa growth
-- **Flowering:** 11–14 weeks
-- **Climate:** Himalayan temperate
-- **Origin:** India (South Asia)
+- **Flowering Time:** 11–14 weeks
 
 Tall, loosely branched sativa architecture typical of forest-edge wild cannabis with adequate light and space. Likely to show the narrow-leaflet, long-internode morphology common to Himalayan temperate-zone sativas. Resin levels and aroma profiles are not well-documented for the Garhwal population specifically; regional comparisons suggest earthy, green, or mildly spicy characteristics consistent with wild-type cannabis.
 

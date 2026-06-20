@@ -9,14 +9,14 @@ The Dagestan landrace is an indica-leaning mountain cannabis from the Republic o
 Cannabis cultivation in Dagestan is historically associated with the ethnically and linguistically diverse mountain communities of the North Caucasus, who have inhabited the region's high valleys and plateaus for millennia. Dagestan's cannabis is noted in Russian ethnobotanical literature as part of the broader North Caucasian cannabis tradition. The region's position as a crossroads between the Caucasus Mountain communities, the Caspian lowlands, and the steppe of the Russian interior suggests the population may reflect accumulated genetic exchange from multiple directions. Grower accounts and regional botanical records confirm the presence of cannabis cultivation in Dagestan, though detailed phenotypic or genetic documentation specific to this population is limited in widely available sources.
 
 ## Description
+- **Origin:** Russia (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–12 weeks; moderate, reflecting the semi-arid mountain climate with its warm but not tropical summer conditions
-- **Climate:** Desert / Arid
-- **Origin:** Russia (Middle East / Central Asia)
+- **Flowering Time:** 8–12 weeks; moderate, reflecting the semi-arid mountain climate with its warm but not tropical summer conditions
 
 Compact to medium, suited to the wind-exposed slopes and high-valley terrain of the eastern Caucasus. Moderate to good; mountain populations in this region are associated with moderate resin production, consistent with a cannabis zone between the high-resin Afghan/Central Asian types and the hemp-oriented northern Russian populations. The Dagestani population represents a transition zone phenotype — neither as compact as the densest Afghan indica types nor as open as sativa-influenced populations.
 

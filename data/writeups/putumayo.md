@@ -9,14 +9,14 @@ Putumayo refers to a landrace population from the Putumayo Department of souther
 Putumayo has historically been one of Colombia's most isolated and frontier-like regions, shaped by indigenous Amazonian and Andean communities, colonial missionary activity, and the extractive economies of rubber, oil, and agriculture that characterize Amazonian frontier zones. The department borders Ecuador and Peru, and its river systems connect it to the broader Amazon Basin. Cannabis populations in this zone would have been subject to diverse genetic influences from trade and movement along these corridors. The junction of Amazon and Andes ecosystems creates a setting where genetic diversity in any agricultural plant can be expected to be high.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Mountain rainforest; Amazon-Andes junction, high rainfall, diverse elevations
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall
-- **Flowering:** 14–20 weeks
-- **Climate:** Mountain rainforest; Amazon-Andes junction, high rainfall, diverse elevations
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 14–20 weeks
 
 This population is classified as Mixed, with a very tall stature and an exceptionally long 14–20 week flowering window — consistent with deep equatorial cannabis populations at the Amazon-Andes frontier. The mountain rainforest climate involves high rainfall, warm temperatures at lower elevations, and cooler conditions at altitude. High genetic diversity; Amazon-Andean junction genetics.
 

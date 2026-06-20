@@ -7,14 +7,14 @@ Virunga Highlands is a sativa landrace associated with the highland zone near th
 Cannabis cultivation in the Great Lakes region of Central Africa, including the highland zones adjacent to the Virunga chain, is associated with long-standing local traditions. The rift valley corridor has historically been a route for human movement and cultural exchange across Central and East Africa, connecting diverse cannabis populations. High-altitude sativa populations in this region are generally adapted to the cooler temperatures and intense but sometimes cloud-diffused sunlight of volcanic highland zones, producing plants that are morphologically distinct from both equatorial lowland sativas and temperate landraces. Documentation of specific Virunga highland cannabis populations is limited; the entry reflects regional highland sativa characteristics.
 
 ## Description
+- **Origin:** DRC (Middle East / Central Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11-15 weeks
-- **Climate:** Tropical Highland
-- **Origin:** DRC (Middle East / Central Asia)
+- **Flowering Time:** 11-15 weeks
 
 Tall sativa morphology; adapted to high-elevation volcanic highland conditions. Long flowering window of approximately 11–15 weeks, consistent with equatorial sativa populations. Likely exhibits vigorous vegetative growth supported by the fertile volcanic soils of the Virunga region. Adapted to the cooler temperatures of the rift valley highlands compared to DRC lowland populations.
 

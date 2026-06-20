@@ -9,14 +9,14 @@ The Bursa landrace originates from Bursa Province in northwestern Turkey, situat
 Bursa has been a historically significant city in Anatolia — capital of the early Ottoman Empire and a major center of silk production and trade. The region's long agricultural tradition and its position on routes between Istanbul, the Balkans, and Anatolia would have made it a node of botanical exchange as well as commercial trade. Cannabis cultivation in the Bursa area is associated with both hemp fiber production (for which northwestern Turkey has a documented history) and small-scale traditional use. The intermediate character of this population likely reflects the blending of gene pools at this geographic threshold between Central Anatolian and European cannabis zones.
 
 ## Description
+- **Origin:** Turkey (Middle East / Central Asia)
+- **Climate:** Mediterranean
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium-tall
-- **Flowering:** 9–13 weeks; moderate for a Turkish landrace, consistent with the mild-to-warm Mediterranean lowland climate
-- **Climate:** Mediterranean
-- **Origin:** Turkey (Middle East / Central Asia)
+- **Flowering Time:** 9–13 weeks; moderate for a Turkish landrace, consistent with the mild-to-warm Mediterranean lowland climate
 
 Moderate branching; a balanced phenotype without the extreme compactness of Afghan-derived mountain types or the lanky structure of equatorial sativas. Moderate; consistent with a landrace region known more for hemp than for intensive hashish production. The Mediterranean lowland climate — warm, moderately humid summers, mild winters — supports a growing season longer than the Anatolian plateau but shorter than the Black Sea coast.
 

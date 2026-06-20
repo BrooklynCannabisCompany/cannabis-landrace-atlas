@@ -9,14 +9,14 @@ The Altay Xinjiang population is a mountain-steppe cannabis from Altay Prefectur
 The Altai Mountain region has long been recognized in botanical literature as a zone of wild and semi-wild cannabis occurrence, with populations distributed across the steppe and forest-steppe habitats of the mountain foothills. Cannabis from northern Xinjiang's Altay Prefecture has not been extensively characterized in the published landrace literature; what can be responsibly inferred is drawn from the region's geographic context — its adjacency to the Russian Altai, Kazakhstani steppe zones, and the broader Central Asian wild cannabis distribution. Grower accounts and ethnobotanical observations suggest this is a genetically diverse corridor rather than a tightly selected cultivated lineage.
 
 ## Description
+- **Origin:** China (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks; relatively long for a cold-climate population, suggesting some Sativa-leaning influence
-- **Climate:** Alpine / High Mountain
-- **Origin:** China (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks; relatively long for a cold-climate population, suggesting some Sativa-leaning influence
 
 Likely adapted to open steppe and foothill terrain; branching structure suited to wind-exposed slopes. Variable; mountain-steppe populations in this region are not typically characterized by heavy resin production comparable to Hindu Kush or Pamir landraces. Specific phenotype data for this population is limited in available literature.
 

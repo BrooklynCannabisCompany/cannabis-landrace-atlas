@@ -9,14 +9,14 @@ Simien Mountains is a highland African sativa landrace from the Simien Mountains
 The Simien Mountains have been home to Amhara and other highland Ethiopian communities for centuries, and subsistence agriculture has long been practiced on the plateau's more accessible zones. Whether cannabis has been cultivated in the Simien Mountains specifically for a significant period, or whether any population found there represents naturalized or feral plants from lower-elevation origins, is not established in available literature. The region's geographic isolation — steep escarpments, limited road access, and extreme altitude — would have restricted genetic exchange with lowland populations and potentially allowed a distinct mountain-adapted type to develop over time. Grower accounts for this specific population are essentially absent from published sources.
 
 ## Description
+- **Origin:** Ethiopia (Africa)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous growth even at altitude, aided by intense Afro-alpine UV radiation and fertile highland soils
-- **Flowering:** 12–16 weeks — a long flowering window consistent with high-altitude equatorial populations where seasonal photoperiod changes are gradual
-- **Climate:** Alpine / High Mountain
-- **Origin:** Ethiopia (Africa)
+- **Flowering Time:** 12–16 weeks — a long flowering window consistent with high-altitude equatorial populations where seasonal photoperiod changes are gradual
 
 Likely compact relative to lowland sativas, with adaptations for high-UV exposure and cool nighttime temperatures; narrow-leaf morphology expected. Specific terpene or effect profiles for this population are undocumented; Afro-alpine highland sativas are generally described as clear and cerebral.
 

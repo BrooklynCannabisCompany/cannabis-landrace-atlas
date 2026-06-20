@@ -7,14 +7,14 @@ Tian Shan Wild is a ruderalis population from the Tian Shan mountain region of K
 Wild ruderalis-type cannabis has been documented across the northern latitudes of Central Asia, where the brief summer season makes photoperiod-dependent flowering unreliable. The Tian Shan range in Kyrgyzstan, given its position within a proposed center of cannabis origin, may harbor some of the oldest naturally adapted cannabis populations in the world. These wild plants are generally understood to be naturalized over very long periods, with selection pressure from the cold alpine environment producing the compact, auto-adapted traits associated with ruderalis. Formal study of these specific Kyrgyz wild populations is limited.
 
 ## Description
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short
-- **Flowering:** 6–10 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Flowering Time:** 6–10 weeks
 
 Short stature; ruderalis morphology with compact branching. Auto-adapted (automatic) flowering; day-length independence allows completion during the short alpine summer. Cold tolerance is a primary adaptive trait for survival at Tian Shan elevations. Seeds likely serve as the primary survival mechanism through cold winters, germinating rapidly each spring.
 

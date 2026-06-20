@@ -9,14 +9,14 @@ Qinghai Highland Hemp is a high-altitude hemp population associated with Qinghai
 Hemp cultivation on the Tibetan Plateau and its eastern margins, including Qinghai, is part of China's deep agricultural hemp tradition. The high altitude and cold climate of Qinghai would have necessitated selection for early finishing and cold tolerance in any cultivated population. Whether the Qinghai Highland population represents a continuously maintained traditional landrace or a population descended from earlier cultivation that has now partly naturalized is not well documented. It is classified as an ancient Chinese hemp population, consistent with a long history of cultivation in the region for fiber and seed under plateau conditions.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Mountain / Highland
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium, constrained by high altitude growing conditions
-- **Flowering:** 10–14 weeks under the plateau's short warm season
-- **Climate:** Mountain / Highland
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks under the plateau's short warm season
 
 Compact relative to lowland hemp; adapted to low temperatures and strong plateau winds. Likely broad, with robustness adapted to UV stress at altitude. Low THC as expected of a hemp type; CBD content undocumented.
 

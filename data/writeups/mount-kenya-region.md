@@ -9,14 +9,14 @@ The Mount Kenya Region landrace originates from the highlands surrounding Mount 
 Cannabis cultivation in the highlands of central Kenya is thought to have deep roots in local agricultural traditions. Populations around Mount Kenya have likely developed under selective pressure from the region's unique equatorial mountain conditions over many generations. Grower accounts suggest this landrace is genetically proximate to other Kenyan highland populations, particularly those of the Great Rift Valley corridor, though elevation differences along Mount Kenya's flanks may have driven meaningful differentiation. Formal botanical or genetic documentation of this specific population is limited.
 
 ## Description
+- **Origin:** Kenya (Africa)
+- **Climate:** Tropical Highland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, typical of vigorous highland African landraces with access to strong equatorial sunlight
-- **Flowering:** 11–16 weeks — a moderately long flowering window reflecting equatorial day-length patterns and highland conditions
-- **Climate:** Tropical Highland
-- **Origin:** Kenya (Africa)
+- **Flowering Time:** 11–16 weeks — a moderately long flowering window reflecting equatorial day-length patterns and highland conditions
 
 Open, branching growth habit adapted to mountain wind and varying microclimates at different altitudes. Specific terpene data for this population is not well documented; highland Kenyan landraces are generally reported to offer clear-headed, energetic effects.
 

@@ -9,14 +9,14 @@ Angola Roja is a tall, vigorous landrace population associated with central and 
 Angola Roja is commonly reported as a traditional landrace population from central and highland Angola. Its exact origins and history of cultivation in the region are not rigorously documented, but grower accounts suggest it represents a long-established ecotype adapted to Angola's central plateau and highland environments. The Southern African gene pool of which it is a part is understood to have developed over many generations of selection under local growing conditions, with possible influence from regional trade networks connecting Angola to neighboring Central and Southern African populations.
 
 ## Description
+- **Origin:** Angola (Africa)
+- **Climate:** Tropical highland — excellent heat tolerance, adapted to seasonal rainfall
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, commonly reported in the 2–4 m range under open conditions
-- **Flowering:** Long season, approximately 11–15 weeks from equinox/flip
-- **Climate:** Tropical highland — excellent heat tolerance, adapted to seasonal rainfall
-- **Origin:** Angola (Africa)
+- **Flowering Time:** Long season, approximately 11–15 weeks from equinox/flip
 
 Red-pistil and colorful phenotypic expressions are commonly reported; vigorous growth habit. Considered an important contributor to the Southern African cannabis gene pool.
 

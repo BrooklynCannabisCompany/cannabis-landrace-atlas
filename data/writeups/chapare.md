@@ -9,14 +9,14 @@ Chapare refers to cannabis populations associated with the Chapare region of Bol
 The Chapare has a documented history of extensive agricultural cultivation, most notably as a major coca-growing region, and cannabis cultivation in the area is believed to have developed alongside other tropical crops in the region's abundant growing conditions. Grower accounts suggest that Chapare cannabis has benefited from generations of regional cultivation, producing plants with strong vigor and rainforest adaptation. The region's humid lowland environment and its position as an Andean-Amazonian transition zone have likely contributed to a genetically diverse population. Preservation interest in this landrace reflects both its regional cultivation history and its adaptation to some of the most productive growing conditions in South America.
 
 ## Description
+- **Origin:** Bolivia (Americas)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall — consistent with tropical lowland Cannabis in one of the most rainfall-rich environments in the Americas
-- **Flowering:** 13–18 weeks — extended flowering consistent with a near-equatorial tropical landrace
-- **Climate:** Tropical Lowland
-- **Origin:** Bolivia (Americas)
+- **Flowering Time:** 13–18 weeks — extended flowering consistent with a near-equatorial tropical landrace
 
 Commonly reported as strongly vigorous with robust branching; the exceptional humidity and rainfall of the Chapare promote aggressive vegetative growth. Not specifically documented; regional tropical sativa types are broadly associated with energetic, long-lasting effects.
 

@@ -7,14 +7,14 @@ The Issyk-Kul Basin population is a cold-adapted feral cannabis type found in an
 Feral cannabis is widely distributed across Kyrgyzstan's mountain valleys and lowland zones. The Issyk-Kul Basin, historically a crossroads of Silk Road traffic, likely hosted both cultivated hemp and naturalized feral populations for many centuries. The lake's moderating effect on local temperatures may have allowed cannabis to persist at elevations and latitudes where it would otherwise be marginal. Specific collection or documentation of this basin population is not well recorded in accessible literature.
 
 ## Description
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Medium
-- **Flowering:** 7-11 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Flowering Time:** 7-11 weeks
 
 Ruderalis-leaning morphology: generally compact and medium in height. Adapted to the cold alpine basin environment with its abbreviated growing season. Likely exhibits some degree of autoflowering tendency consistent with high-latitude ruderalis populations. Phenotypic variation is expected within this broad feral category.
 

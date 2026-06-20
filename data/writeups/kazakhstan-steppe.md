@@ -7,14 +7,14 @@ Kazakhstan Steppe refers to the massive feral and semi-feral cannabis population
 Kazakhstan is widely recognized as one of the primary centers of cannabis ruderalis distribution, and feral populations across the steppe are thought to represent a mixture of ancient cultivated hemp escapes and naturally occurring wild populations. Hemp cultivation in the region dates back thousands of years, connected to nomadic and semi-nomadic cultures of the Eurasian steppe. Over time, vast areas became colonized by feral cannabis adapted to the open grassland environment. This population is considered botanically and genetically significant as a potential reservoir of ancestral Cannabis genetics, though specific documentation of its diversity is ongoing.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Hemp
 - **Height:** Medium
-- **Flowering:** 7-11 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 7-11 weeks
 
 Medium stature; mixed ruderalis and hemp morphology typical of steppe feral populations. Low resin production compared to hashish landraces; primarily of botanical and genetic interest. High degree of phenotypic variation across the vast geographic range. Autoflowering tendency is present in ruderalis-influenced individuals.
 

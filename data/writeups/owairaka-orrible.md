@@ -9,14 +9,14 @@ Owairaka 'Orrible is a rare regional heirloom sativa associated with Owairaka �
 Owairaka 'Orrible's origin is not formally documented. Grower accounts situate it within the underground cannabis culture that developed in New Zealand from the 1970s onward, with the Owairaka/Mount Albert area of Auckland suggested as a named point of association. Whether this reflects the cultivar's actual geographic origin, a particular grower or circle associated with the area, or simply a naming convention is not established. The 1970s–1990s circulation period described in the summary places this cultivar within the foundational era of New Zealand's informal cannabis breeding and preservation scene. It is described as known more as a regional heirloom than a commercial cultivar, and likely carries traits for mold resistance, outdoor vigor, and adaptation to variable maritime weather.
 
 ## Description
+- **Origin:** New Zealand (Oceania)
+- **Climate:** Maritime temperate — Auckland's characteristic mix of warm summers, cool wet winters, and variable weather driven by Pacific and Tasman Sea air masses.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Sativa
 - **Height:** Tall; typical of sativa-type heirlooms selected for outdoor performance.
-- **Flowering:** 11–15 weeks; suited to Auckland's North Island outdoor season.
-- **Climate:** Maritime temperate — Auckland's characteristic mix of warm summers, cool wet winters, and variable weather driven by Pacific and Tasman Sea air masses.
-- **Origin:** New Zealand (Oceania)
+- **Flowering Time:** 11–15 weeks; suited to Auckland's North Island outdoor season.
 
 Mold resistance, outdoor vigor, adaptation to variable maritime weather; regional underground heirloom character. _Recorded locality detail: Mount Albert area._.
 

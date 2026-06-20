@@ -9,14 +9,14 @@ The Gaoligong Mountains landrace originates from the Gaoligong Mountain Range in
 The Gaoligong Mountains lie within the broader Hengduan Mountains biodiversity corridor, a region that has long been considered a refugium for plant species during past climate cycles. Cannabis populations in this area are commonly reported as having possible Himalayan genetic influences from the north, as well as affinities with Southeast Asian lowland types from the south and west via Myanmar. The isolation imposed by the Gaoligong ridgelines may have allowed distinct genetic subpopulations to develop over long periods. Detailed ethnobotanical records specific to cannabis in the Gaoligong range are not well represented in accessible literature.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, consistent with the vigorous growth typical of Yunnan mountain cannabis in deep rainforest margins
-- **Flowering:** 12–18 weeks — an extended photoperiod response common in equatorial-adjacent mountain landraces
-- **Climate:** Tropical Rainforest
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 12–18 weeks — an extended photoperiod response common in equatorial-adjacent mountain landraces
 
 Likely intermediate to narrow, with characteristics influenced by both highland Himalayan-adjacent types and tropical Southeast Asian populations. Not well documented; biodiversity hotspot populations often exhibit complex secondary metabolite profiles, but specific characterization is lacking.
 

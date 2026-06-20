@@ -9,14 +9,14 @@ The Azerbaijan Lowlands landrace is an intermediate cannabis population originat
 The Kura-Aras corridor has been a major agricultural and trade axis since antiquity, connecting Anatolia, Persia, Central Asia, and the Caucasus. Cannabis is commonly inferred to have moved through this lowland passage as part of broader Silk Road and ancient Near Eastern trade networks. Azerbaijan's long history as a crossroads of empires — Achaemenid, Parthian, Sasanian, and later Ottoman and Russian — would have introduced multiple cannabis gene pools to the lowland agricultural zone. The resulting population is understood as a naturalized intermediate type reflecting this diverse genetic heritage and lowland ecological selection.
 
 ## Description
+- **Origin:** Azerbaijan (Europe)
+- **Climate:** Semi-arid plain
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium-tall
-- **Flowering:** 9–13 weeks
-- **Climate:** Semi-arid plain
-- **Origin:** Azerbaijan (Europe)
+- **Flowering Time:** 9–13 weeks
 
 As a medium-tall, intermediate (indica–sativa) population adapted to warm semi-arid plains and Caspian climatic influence, Azerbaijan Lowlands plants are expected to show greater vigor and height than the compact highland types of the surrounding Caucasus mountains. The 9–13 week flowering window reflects a balance between sativa stretch and the practical need to finish before the mild but shortening autumn days of the Caspian littoral.
 

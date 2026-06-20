@@ -9,14 +9,14 @@ Brazil Cerrado Feral refers to feral cannabis populations found in Brazil's Cerr
 Feral cannabis in the Cerrado is thought to have established from seeds dispersed by agricultural communities and travelers across Brazil's interior over many decades. These populations have not been deliberately cultivated or maintained; they represent opportunistic naturalization in a challenging savanna environment. The Cerrado is one of the world's most biodiverse savannas, and plants surviving here have undergone selection pressure for water efficiency, heat endurance, and resistance to the region's fire-driven ecological cycle. Published documentation of this specific feral population is limited.
 
 ## Description
+- **Origin:** Brazil (Americas)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall — shorter stature than equatorial rainforest types, likely reflecting adaptation to drought stress and open savanna conditions
-- **Flowering:** 10–13 weeks — relatively quick finish consistent with the Cerrado's pronounced dry season, which may have selected for faster-maturing individuals
-- **Climate:** Tropical Lowland
-- **Origin:** Brazil (Americas)
+- **Flowering Time:** 10–13 weeks — relatively quick finish consistent with the Cerrado's pronounced dry season, which may have selected for faster-maturing individuals
 
 Typically compact relative to Amazon-origin types; savanna-adapted plants commonly develop thicker cuticles and denser branching as stress responses. Not documented.
 

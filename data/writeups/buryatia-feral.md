@@ -9,14 +9,14 @@ Buryatia Feral is a wild-growing cannabis population from the Republic of Buryat
 Feral cannabis is documented across Siberian Russia, including Buryatia, and is generally understood to represent populations descended from historical hemp cultivation that naturalized into the wild over centuries. Whether any of this population retains characteristics of pre-agricultural wild Cannabis from the region or represents entirely secondary naturalization from cultivated hemp is not definitively established in the literature. The Buryatia feral population is of botanical and genetic interest as a cold-extreme case study in Cannabis adaptation, potentially carrying genetic variation relevant to autoflowering or ruderalis-type traits, though it is formally classified as feral hemp rather than ruderalis.
 
 ## Description
+- **Origin:** Russia (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Feral
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall in favorable conditions, though plant size varies considerably with site conditions and inter-individual genetic diversity
-- **Flowering:** 10–14 weeks; variable across the population
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Russia (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks; variable across the population
 
 Highly variable; feral populations with limited directed selection typically show wide phenotypic spread. Low; feral hemp populations are not typically selected for cannabinoid content. Genetic diversity within this population is expected to be considerable given the absence of directed human selection in recent generations.
 

@@ -9,14 +9,14 @@ The Atlas Mountain landrace originates from Morocco's Atlas Mountain range in No
 The Atlas Mountains of Morocco have been a center of cannabis cultivation for centuries, with hashish production in the Rif and Middle Atlas regions commonly reported as a longstanding traditional practice. The Rif Mountain sub-region in particular became widely recognized in the twentieth century as a major source of hashish exported across Europe and beyond. This mountain landrace is understood to have been shaped by generations of selection for resin content under dry, high-altitude conditions, though specific historical documentation of varietal lineages is limited.
 
 ## Description
+- **Origin:** Morocco (Africa)
+- **Climate:** Semi-arid mountain — drought-tolerant, adapted to wide temperature swings between day and night
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** Approximately 9–12 weeks from equinox/flip
-- **Climate:** Semi-arid mountain — drought-tolerant, adapted to wide temperature swings between day and night
-- **Origin:** Morocco (Africa)
+- **Flowering Time:** Approximately 9–12 weeks from equinox/flip
 
 Traditionally noted for high resin output; the Moroccan hash tradition selects strongly for trichome density. Commonly reported as highly resinous relative to other African landraces.
 

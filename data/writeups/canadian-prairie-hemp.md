@@ -9,14 +9,14 @@ Canadian Prairie Hemp refers to fiber hemp varieties and their descendants adapt
 Hemp cultivation in Canada's prairies traces back to early European settlement, and was renewed in the modern era following Canada's legalization of industrial hemp in 1998, which made the country one of the world's leading hemp producers. Prairie hemp breeding focused primarily on high-fiber yield, cold hardiness, and rapid maturation to fit within the region's short frost-free growing window. The resulting gene pool is dominated by industrial-purpose varieties with low THC content, and includes both European-origin varieties adapted to northern latitudes and domestically developed Canadian lines. This record refers to this accumulated prairie hemp gene pool rather than any single specific cultivar.
 
 ## Description
+- **Origin:** Canada (Americas)
+- **Climate:** Cold steppe — warm summers with long daylight hours, very cold winters, low precipitation, high seasonal variability
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Tall; fiber hemp is bred for tall, straight, uniform stalks to maximize fiber yield
-- **Flowering:** 10–14 weeks; rapid maturation essential for the short prairie growing season
-- **Climate:** Cold steppe — warm summers with long daylight hours, very cold winters, low precipitation, high seasonal variability
-- **Origin:** Canada (Americas)
+- **Flowering Time:** 10–14 weeks; rapid maturation essential for the short prairie growing season
 
 Typical fiber hemp morphology — tall, minimally branched, medium leaflets, small diffuse flowers. Low THC content is a defining characteristic. Cold hardiness and rapid development under long summer daylight hours are key adaptations.
 

@@ -7,14 +7,14 @@ Kunlun Foothills refers to a cannabis population associated with the foothills o
 The Kunlun foothills form a narrow band of relatively habitable terrain between the high Tibetan Plateau and the Tarim Basin desert. Sparse human habitation and trade routes along this margin have existed for millennia, connecting the Tibetan world with the Silk Road oasis towns of Xinjiang. Cannabis in this zone, whether cultivated or naturalized, would have been subject to intense environmental selection rather than directed agricultural breeding. Specific ethnobotanical or collection records for this population are not widely documented; information about this entry is inferred from the geographic and climatic context.
 
 ## Description
+- **Origin:** China (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 9–13 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** China (Middle East / Central Asia)
+- **Flowering Time:** 9–13 weeks
 
 Indica-leaning morphology with medium stature, adapted to high-altitude desert conditions. Strong UV tolerance and drought resistance are expected primary traits. Dense trichome production may be an adaptation to intense high-altitude UV exposure. Phenotypic consistency is uncertain given the limited documentation of this population.
 

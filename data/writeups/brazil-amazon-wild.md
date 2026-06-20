@@ -9,14 +9,14 @@ Brazil Amazon Wild represents the broader spectrum of wild and semi-wild Cannabi
 The extent to which Cannabis has a long indigenous presence in the deep Amazon versus being a more recent colonial introduction is not definitively established in the literature. Most accounts suggest cannabis arrived in South America through European and later African-connected trade routes, spreading into the interior along river networks. Whatever its precise history in the deep Amazon, the Brazil Amazon Wild entry represents plants that have persisted and diversified in equatorial conditions over an extended period. This diversity is considered significant from a genetic preservation standpoint, as it may encode adaptation traits not found in commercialized or temperate-region gene pools.
 
 ## Description
+- **Origin:** Brazil (Americas)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — equatorial sativas in undisturbed or lightly managed conditions commonly exceed typical indoor heights
-- **Flowering:** Variable — near-equatorial latitudes produce minimal seasonal day-length cues, which can result in extended or irregular flowering patterns
-- **Climate:** Tropical Rainforest
-- **Origin:** Brazil (Americas)
+- **Flowering Time:** Variable — near-equatorial latitudes produce minimal seasonal day-length cues, which can result in extended or irregular flowering patterns
 
 Variable; broad genetic diversity means significant morphological range across individuals. Not documented at the level of this wild complex; individual selections may vary substantially.
 

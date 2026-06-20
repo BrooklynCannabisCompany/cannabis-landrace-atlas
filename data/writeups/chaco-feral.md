@@ -9,14 +9,14 @@ Chaco Feral refers to feral cannabis populations found in Paraguay's portion of 
 The Gran Chaco has historically been a sparsely populated region of semi-nomadic indigenous communities, cattle ranching, and Mennonite agricultural colonies. Cannabis in the Paraguayan Chaco is believed to be feral — self-seeded and naturalized rather than deliberately cultivated — likely originating from plants introduced by farming communities that spread into the Chaco during agricultural colonization in the twentieth century. No formal botanical documentation of these specific feral populations exists in the published literature. Their persistence in such extreme conditions suggests meaningful environmental selection over multiple generations.
 
 ## Description
+- **Origin:** Paraguay (Americas)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall — compact relative to Amazonian landraces, consistent with drought-stressed environments where resources for vertical growth are limited
-- **Flowering:** 10–14 weeks — the moderate-to-short finish is consistent with selection pressure from the Chaco's pronounced dry season, favoring plants that can complete their cycle before water stress peaks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Paraguay (Americas)
+- **Flowering Time:** 10–14 weeks — the moderate-to-short finish is consistent with selection pressure from the Chaco's pronounced dry season, favoring plants that can complete their cycle before water stress peaks
 
 Likely sturdy and branchy; Chaco-adapted plants would be expected to develop thicker cuticles and efficient water-use strategies as adaptive responses to seasonal drought. Not documented.
 

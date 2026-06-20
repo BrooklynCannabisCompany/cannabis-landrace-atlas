@@ -9,14 +9,14 @@ The Altai Foothills population is a ruderalis-category cannabis from the foothil
 The Altai Mountains and their surrounding steppe-forest foothills have long been associated with wild-growing cannabis in botanical and ethnobotanical literature. Cannabis ruderalis was formally described by Janischewsky in 1924 from wild Russian populations, and the Altai foothills are among the regions most commonly cited as likely centers of ruderalis distribution and possibly of origin. Grower communities and researchers alike have speculated that the autoflowering trait — flowering triggered by age rather than day length — originated as an adaptation to the very short frost-free windows of the southern Siberian steppe and mountain regions. Whether the Altai Foothills population is truly ancestral or simply one node in a broader ruderalis distribution remains an open question.
 
 ## Description
+- **Origin:** Russia (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short — typically compact with limited branching
-- **Flowering:** 6–10 weeks; the autoflowering characteristic means plants flower regardless of photoperiod
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Russia (Middle East / Central Asia)
+- **Flowering Time:** 6–10 weeks; the autoflowering characteristic means plants flower regardless of photoperiod
 
 Small, often described as weed-like in wild populations, with a thin stem and few large leaves. Generally low; wild ruderalis populations are not typically selected for cannabinoid content. The short stature and autoflowering nature of this population reflect strong selection pressure for rapid seed set within a compressed growing season.
 

@@ -9,14 +9,14 @@ Kullu Valley is a sativa landrace from the Kullu Valley of Himachal Pradesh, Ind
 The Kullu Valley's cannabis heritage is among the best-documented of any Indian region in both ethnobotanical and collector literature. The valley has been a destination for travelers, researchers, and collectors interested in Indian cannabis since at least the mid-twentieth century. The Kullu-Parvati corridor became particularly prominent in international cannabis awareness during the overland traveler era of the 1960s and 1970s, when it was recognized as a source of high-quality hand-rubbed charas. The Kullu Valley type — a fast-for-its-size valley sativa — is consistently described as more vigorous and somewhat earlier-finishing than the higher-altitude Parvati or Malana types growing in the lateral valleys above.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Temperate Himalayan valley
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — the valley's fertile soils, adequate water, and temperate climate support exceptional vegetative growth
-- **Flowering:** 11–15 weeks
-- **Climate:** Temperate Himalayan valley
-- **Origin:** India (South Asia)
+- **Flowering Time:** 11–15 weeks
 
 Tall, vigorous sativa architecture; described as "fast valley sativa" relative to the broader Kullu-Parvati complex. Narrower leaflets and longer internodes than the higher-altitude indica-leaning types from the lateral valleys. Resin production is significant, though plants at valley-floor elevations are typically less resinous by weight than the concentrated alpine types from Parvati or Malana.
 

@@ -7,14 +7,14 @@ Semirechye (also rendered as Zhetysu in Kazakh, meaning "Land of Seven Rivers") 
 Semirechye is one of the zones sometimes cited in discussions of cannabis's geographic origins, given the region's position within Central Asia and its diverse ecological niches ranging from steppe grasslands to river valleys and foothills. The population is classified as a ruderalis and hemp mix, suggesting a long history of feral naturalization alongside any intentional fiber or seed cultivation. Silk Road traffic through the region would have introduced genetic material from multiple directions over centuries. Documentation specific to this population's cultivation history is sparse.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Hemp
 - **Height:** Medium
-- **Flowering:** 8-12 weeks
-- **Climate:** Temperate / Continental
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 8-12 weeks
 
 Mixed ruderalis and hemp characteristics; medium stature with variable leaf morphology. Likely exhibits auto-flowering or early-flowering tendencies consistent with ruderalis influence. Adapted to river valley microclimates within a broadly continental steppe environment.
 

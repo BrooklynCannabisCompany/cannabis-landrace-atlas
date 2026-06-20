@@ -7,14 +7,14 @@ Ketama is an indica landrace from the Ketama area of Morocco's Rif Mountains, on
 Cannabis cultivation in the Ketama region of the Rif is documented for centuries, with local Berber communities developing and maintaining locally adapted varieties suited to hashish production. The Ketama area became particularly well known in the 20th century as Morocco emerged as one of the world's primary hashish exporters. Grower accounts suggest that traditional cultivation practices — including the selection of resinous, early-finishing plants suited to the Rif's Mediterranean mountain climate — produced a distinctive regional landrace. Specific genetic documentation is limited, but the Ketama lineage is commonly cited in European cannabis breeding history as a source of hash genetics.
 
 ## Description
+- **Origin:** Morocco (Middle East / Central Asia)
+- **Climate:** Mediterranean
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Mediterranean
-- **Origin:** Morocco (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Indica morphology: medium stature, relatively compact with broad leaves. Heavy resin production adapted to the hashish-making tradition of the Rif. Aromas commonly described as spicy, floral, and hashy. Effects are typically reported as relaxing and moderately to strongly sedating.
 

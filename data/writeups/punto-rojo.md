@@ -9,14 +9,14 @@ Punto Rojo is a legendary Colombian sativa landrace whose name translates to "re
 Colombia's rich cannabis culture produced numerous distinct regional strains, and Punto Rojo occupies a particularly prominent place in that heritage. Grower accounts and Colombian cannabis tradition describe this strain as originating from highland jungle zones where elevation and lush tropical vegetation converge. The "red" phenotype — reddish pistils and calyxes — is a distinguishing marker that cultivators used to identify and select this line over generations. Punto Rojo has been associated in some accounts with the Sierra Nevada de Santa Marta region and other Colombian highland zones, though its exact geographic origin is not definitively documented. It circulated in the South American market and has been referenced in Colombian cannabis culture for decades.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Highland jungle; warm, humid, high rainfall, moderate altitude
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 13–18 weeks
-- **Climate:** Highland jungle; warm, humid, high rainfall, moderate altitude
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 13–18 weeks
 
 Punto Rojo is described as a very tall, long-flowering sativa — among the more demanding Colombian landraces. The 13–18 week flowering window reflects the equatorial highland jungle conditions and the strain's thoroughbred sativa nature. Reddish calyx/pistil coloration, reported psychedelic/cerebral character.
 

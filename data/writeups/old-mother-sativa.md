@@ -9,14 +9,14 @@ Old Mother Sativa is a historic Australian heirloom sativa preservation line ass
 Old Mother Sativa is described in grower accounts as a historic preservation line traceable to a foundational mother plant from the Mullumbimby area of Northern NSW — though specific verifiable details of this lineage are not formally documented. The association with a singular "Mullumbimby mother plant" reflects a common pattern in heirloom cannabis preservation, where exceptional individual plants are propagated vegetatively or through careful seed selection and their genetics maintained by dedicated growers over many years or decades. The "Holy Grail" designation suggests this line occupies a high-status position within the Australian heirloom collecting community, though the basis for this reputation — whether psychoactive character, growth vigor, rarity, or all of these — is reported through grower accounts rather than formal documentation.
 
 ## Description
+- **Origin:** Australia (Oceania)
+- **Climate:** Subtropical coastal — warm, sunny summers with significant rainfall, mild winters, the characteristic Northern Rivers environment.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Sativa
 - **Height:** Very tall; reflecting strong sativa expression and the subtropical outdoor conditions that selected for vigorous, tall growth.
-- **Flowering:** 13–18 weeks; an exceptionally long flowering window even by sativa standards, consistent with a tropical-influenced genetics cultivated in the long-season subtropical NSW coast.
-- **Climate:** Subtropical coastal — warm, sunny summers with significant rainfall, mild winters, the characteristic Northern Rivers environment.
-- **Origin:** Australia (Oceania)
+- **Flowering Time:** 13–18 weeks; an exceptionally long flowering window even by sativa standards, consistent with a tropical-influenced genetics cultivated in the long-season subtropical NSW coast.
 
 Strong vigor, tropical adaptation, historic preservation line with "Holy Grail" status in Australian heirloom circles.
 

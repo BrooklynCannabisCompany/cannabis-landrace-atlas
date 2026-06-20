@@ -9,14 +9,14 @@ Peruvian Montaña refers to a sativa landrace from the Peruvian Montaña — the
 The Peruvian Montaña has historically been a challenging region to access, with indigenous communities including various Amazonian-foothill groups maintaining traditions in the deep forested slopes. Colonial and post-colonial agricultural expansion brought new crops and practices into the region. Cannabis populations established in the Montaña would have adapted to the specific demands of this zone — high rainfall, persistent cloud cover, steep drainage, and the moderate temperatures of mid-elevation. Documentation of cannabis cultivation specifically in the Montaña zone is limited, and this population is characterized primarily by its ecological and climatic context.
 
 ## Description
+- **Origin:** Peru (Americas)
+- **Climate:** Cloud forest; persistent fog, high humidity, high rainfall, moderate temperatures
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 13–18 weeks
-- **Climate:** Cloud forest; persistent fog, high humidity, high rainfall, moderate temperatures
-- **Origin:** Peru (Americas)
+- **Flowering Time:** 13–18 weeks
 
 This population is described as a tall sativa with a 13–18 week flowering window, consistent with cloud forest sativas where diffuse light and persistent cloud cover slow the maturation process relative to open-sky tropical environments. Peruvian Montaña (Eastern Andes). _Recorded locality detail: Eastern Andes._.
 

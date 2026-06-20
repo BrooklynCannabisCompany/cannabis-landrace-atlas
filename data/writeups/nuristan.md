@@ -7,14 +7,14 @@ Nuristan is an indica cannabis landrace from Nuristan Province in northeastern A
 Nuristan's isolation — deep river gorges, dense conifer forests, and limited road access — has historically insulated it from much of the disruption that affected cannabis cultivation elsewhere in Afghanistan. Grower accounts and seed hunter reports from the pre-war era describe Nuristan as a source of particularly vigorous and resinous wild or semi-wild Hindu Kush cannabis. The region's cannabis is commonly associated with feral and semi-cultivated populations that developed under the forested mountain conditions unique to this part of Afghanistan. Specific selection history and documented cultivars from Nuristan are sparse; most available information comes from exploratory seed collections.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Temperate / Continental
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Medium stature indica with broad leaves and robust structure. Dense, resinous flowers consistent with Hindu Kush mountain heritage. Aromas commonly described as earthy, piney, and woody — reflecting the forested mountain habitat. Effects are typically reported as relaxing and sedating.
 

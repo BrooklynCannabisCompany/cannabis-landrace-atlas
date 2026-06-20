@@ -9,14 +9,14 @@ Dolpo is an indica-leaning landrace from Dolpa District in Karnali Province, wes
 Dolpa's extreme remoteness — it was one of the last districts in Nepal to receive road access, and much of it remains roadless — has kept it largely outside collector and commercial cannabis circuits. Traditional use of cannabis in the region is consistent with broader Himalayan patterns, but specific ethnobotanical documentation for Dolpa is scarce. The genetic isolation implied by this geography suggests the population may carry distinctive alleles not shared with more accessible Nepalese landraces. Grower accounts referencing Dolpo specifically are rare; most knowledge of this population comes from travelers and trekkers rather than systematic collection.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** Extreme alpine cold
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short to medium — consistent with high-altitude cold adaptation
-- **Flowering:** 8–10 weeks — among the shorter flowering windows, reflecting the brief alpine growing season
-- **Climate:** Extreme alpine cold
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** 8–10 weeks — among the shorter flowering windows, reflecting the brief alpine growing season
 
 Slow vegetative growth is commonly reported; plants take time to establish under the short-season, high-altitude conditions of their origin. Thick resin production is a key reported trait, likely an adaptive response to intense UV radiation and cold stress. Compact stature and broad leaflets are typical morphological correlates of indica-leaning high-altitude landraces across the Himalayas.
 

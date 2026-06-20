@@ -9,14 +9,14 @@ Malawi is a very tall pure sativa complex from the landlocked East-Central Afric
 Malawi has a long-established cannabis cultivation tradition, with the plant deeply embedded in rural agricultural and cultural life across the country. "Malawi Gold" became widely known internationally as a premium African sativa from at least the 1960s and 1970s, when it was exported as a cured product appreciated for its potency. The tobacco-curing traditions of Malawian farmers — applied to cannabis in some accounts — contributed to a distinct preparation method that may have influenced its reputation. Malawi cannabis is grown across diverse highland zones around Lake Malawi, and regional variation between northern, central, and southern populations is commonly reported by collectors.
 
 ## Description
+- **Origin:** Malawi (Africa)
+- **Climate:** Plateau tropical — elevated positions around Lake Malawi with warm temperatures, distinct wet season, and strong sunlight
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall, commonly 2–4 m or more under open conditions
-- **Flowering:** Approximately 11–16 weeks from equinox/flip; regional variation is significant
-- **Climate:** Plateau tropical — elevated positions around Lake Malawi with warm temperatures, distinct wet season, and strong sunlight
-- **Origin:** Malawi (Africa)
+- **Flowering Time:** Approximately 11–16 weeks from equinox/flip; regional variation is significant
 
 Intensely psychedelic, cerebral sativa effect is the most frequently cited characteristic; considered among the most potent traditional African sativas. Strong variation across northern, central, and southern populations is commonly reported.
 

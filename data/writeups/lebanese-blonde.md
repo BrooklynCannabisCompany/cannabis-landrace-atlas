@@ -7,14 +7,14 @@ Lebanese Blonde is a traditional highland hash landrace from Lebanon's Bekaa Val
 The Bekaa Valley has been Lebanon's primary cannabis-growing region for many decades, and blonde hashish from Lebanon was a defining product of the Middle Eastern hash trade through much of the 20th century. Grower accounts suggest that the distinction between blonde and red Lebanese hash reflects both cultivation practices and the genetics of the plants used — with lighter-colored material traditionally associated with early-harvest, lightly pressed plants. The specific landrace population associated with blonde production is not rigidly separated from other Bekaa Valley cannabis, but growers and traders commonly recognized distinct plant types. Specific genetic documentation is limited.
 
 ## Description
+- **Origin:** Lebanon (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 9–12 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Lebanon (Middle East / Central Asia)
+- **Flowering Time:** 9–12 weeks
 
 Medium to tall stature, taller than the typical indica type associated with some other Lebanese strains. Resin-heavy flowers adapted to the valley's dry summer climate. Associated with the production of pale, lightly pressed Lebanese blonde hashish. Aromas are typically described as sweet, floral, and mildly spicy.
 

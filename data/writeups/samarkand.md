@@ -7,14 +7,14 @@ Samarkand is a Central Asian landrace associated with the ancient city of Samark
 Grower accounts and ethnobotanical records suggest that cannabis has been cultivated around Samarkand for centuries, if not longer. The city's position as a Silk Road junction means the local gene pool was probably shaped by incoming seed stock from multiple directions — Afghan hash-plant genetics from the south, Central Asian steppe populations from the north and east, and Persian influences from the west. This layered history may account for the mixed character of surviving populations. Documented cultivation history specific to the Samarkand population is limited.
 
 ## Description
+- **Origin:** Uzbekistan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Uzbekistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Mixed morphology reflecting intermediate characteristics between indica and sativa lineages. Medium-tall stature with moderate branching typical of Central Asian landraces. Drought tolerance is commonly reported for Uzbek cannabis populations adapted to the region's arid oasis climate.
 

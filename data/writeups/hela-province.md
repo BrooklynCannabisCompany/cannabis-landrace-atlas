@@ -9,14 +9,14 @@ Hela Province is one of Papua New Guinea's newest provinces, carved out of the S
 Cannabis cultivation history in Hela Province is not formally documented in the horticultural or academic literature. The region's extreme ruggedness and the historical isolation of its Huli-speaking communities — among other groups — from outside influence suggest that any cannabis cultivation that occurred was highly localized. Hela Province's rugged terrain has historically limited travel and trade, potentially contributing to the development of a distinct local cannabis population over multiple generations. No verified breeder accounts or formal seed collection records are known for this population.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Highland tropical — high altitude interior mountain environment with cool nights, significant rainfall, and strong daytime sun.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall; characteristic of PNG highland sativas.
-- **Flowering:** 12–16 weeks; consistent with highland equatorial cannabis populations.
-- **Climate:** Highland tropical — high altitude interior mountain environment with cool nights, significant rainfall, and strong daytime sun.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 12–16 weeks; consistent with highland equatorial cannabis populations.
 
 Hela Province is an isolated interior mountain population, distinct from more accessible png highland landraces. landrace (Narrow-Leaf Drug) from Papua New Guinea (Oceania).
 

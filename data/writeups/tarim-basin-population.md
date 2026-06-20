@@ -7,14 +7,14 @@ The Tarim Basin Population is a feral-landrace cannabis complex from the Tarim B
 The Tarim Basin's ancient history as the core of the Silk Road — encompassing major oasis cities like Dunhuang, Turfan, Khotan, and Kashgar — suggests cannabis has been present in this region for millennia, both as a cultivated fiber and seed crop and as a naturalized feral plant. The isolation of individual basin populations by vast desert expanses may have promoted local adaptation and genetic divergence. Cannabis surviving in the basin's more marginal, feral zones is generally understood to have naturalized from earlier cultivation, adapting to increasingly extreme conditions. The summary notes potentially ancient remnant populations, which would make this gene pool of exceptional preservation interest. Scientific documentation of these specific feral populations is limited.
 
 ## Description
+- **Origin:** China (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall
-- **Flowering:** 10–16 weeks
-- **Climate:** Desert / Arid
-- **Origin:** China (Middle East / Central Asia)
+- **Flowering Time:** 10–16 weeks
 
 Feral-landrace complex; medium-tall stature adapted to basin conditions. Highly adaptable morphology spanning possible indica-sativa intermediate traits. Extreme drought tolerance and heat resilience are defining characteristics. Flowering window reported as 10–16 weeks, reflecting the wide phenotypic variation expected in a diverse feral complex.
 

@@ -9,14 +9,14 @@ Ethiopian Highland is a tall sativa landrace from the elevated plateaus and moun
 Ethiopia is one of the countries with the longest attested histories of cannabis use in Africa, with the plant referenced in traditional medicine, spiritual practice, and the Rastafari movement, which draws heavily on Ethiopian symbolism. Highland cultivation at elevations of 1,500–3,000 metres has occurred for generations, with plants adapted to the cooler, drier conditions of the Ethiopian Plateau. The Ethiopian Highland sativa is commonly associated with the regions of Shewa, Kaffa, and other central and southern highland zones, though documentation of distinct sub-populations within Ethiopia is limited. It has influenced a number of commercial varieties and has been collected and maintained by various seed preservation projects.
 
 ## Description
+- **Origin:** Ethiopia (Africa)
+- **Climate:** Highland dry tropical — high altitude, strong sunlight, cool nights, seasonal dry periods
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 12–14 weeks from equinox/flip
-- **Climate:** Highland dry tropical — high altitude, strong sunlight, cool nights, seasonal dry periods
-- **Origin:** Ethiopia (Africa)
+- **Flowering Time:** Approximately 12–14 weeks from equinox/flip
 
 Commonly associated with incense and spice terpene notes; the psychoactive effect is frequently described as spiritual, introspective, and deeply euphoric in grower and user accounts.
 

@@ -7,14 +7,14 @@ Zhetysu (also known as Semirechye — "Land of Seven Rivers") is a steppe-landra
 Zhetysu is among the Kazakh regions most frequently cited in discussions of Central Asian cannabis heritage. The region's network of rivers flowing from the Tian Shan into the Balkhash basin supported diverse ecosystems ranging from mountain meadows to steppe grasslands to semi-arid plains, each potentially harboring distinct cannabis ecotypes. Grower accounts and ethnobotanical interest in the area suggests Zhetysu has been an important zone for both feral naturalization and traditional cultivation over centuries. Its position on ancient trade routes connecting China, the Kazakh steppe, and the Silk Road cities of Transoxiana would have facilitated diverse genetic input. The region is considered a priority for genetic preservation work.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Mixed steppe-landrace complex; tall stature reflecting the region's fertile, well-watered growing conditions. Broad phenotypic diversity expected, given the ecological heterogeneity of the Zhetysu region. Adapted to the continental grassland steppe climate of southeastern Kazakhstan. Likely includes both cultivated-type and naturalized feral phenotypes within the complex. _Recorded locality detail: Semirechye._.
 

@@ -9,14 +9,14 @@ The Ural River Basin population grows along and around the Ural River watershed 
 The Ural River corridor has long served as a route for both human movement and botanical dispersal between Central Asia and Eastern Europe. Cannabis is thought to have traveled and naturalized through this kind of steppe river system over many centuries, likely assisted by nomadic and trading peoples who used hemp for fiber and other purposes. The resulting feral populations in the Ural River watershed are commonly described as naturalized rather than actively cultivated, with genetics that may reflect a blend of influences from both European hemp traditions and Central Asian landrace populations.
 
 ## Description
+- **Origin:** Russia (Europe)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium — grower accounts suggest moderately sized plants suited to open grassland conditions
-- **Flowering:** 10–14 weeks; a longer season consistent with the latitude and the continental grassland climate of the Ural River watershed
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Russia (Europe)
+- **Flowering Time:** 10–14 weeks; a longer season consistent with the latitude and the continental grassland climate of the Ural River watershed
 
 Intermediate morphology, reflecting the transitional genetics of the region; neither strongly Indica nor strongly Sativa in appearance. Populations in this corridor are typically described as highly variable in appearance, a hallmark of naturalized feral cannabis with mixed heritage.
 

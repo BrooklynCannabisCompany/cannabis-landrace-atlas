@@ -7,13 +7,13 @@ Turkestan is an indica landrace associated with the historic Turkestan region of
 Cannabis cultivation in the broader Turkestan region of Central Asia has ancient roots tied to both traditional use and Silk Road commerce. The Uzbek landrace tradition encompasses multiple locally distinct populations, and "Turkestan" as a label likely reflects a historically named type associated with this corridor rather than a single precisely defined population. Indica selections from this region are generally understood to be compact, resinous plants suited to continental climates with hot summers and cold winters. Specific breeding history or documentation for this particular population label is not available; the entry reflects regional landrace characteristics.
 
 ## Description
+- **Origin:** Uzbekistan (Middle East / Central Asia)
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short-Medium
-- **Flowering:** 8-10 weeks
-- **Origin:** Uzbekistan (Middle East / Central Asia)
+- **Flowering Time:** 8-10 weeks
 
 Indica morphology; short to medium stature suited to continental Central Asian growing conditions. Dense, resinous flowers consistent with a hash-producing regional tradition. Likely drought tolerant and well-adapted to the arid to semi-arid conditions of central Uzbekistan. Compact structure favorable for traditional processing and cultivation.
 

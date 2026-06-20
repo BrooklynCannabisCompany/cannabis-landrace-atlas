@@ -7,14 +7,14 @@ Pamir Gold is a highland landrace derived from populations adapted to the high e
 The Pamir Mountains of Tajikistan, sometimes called the "Roof of the World," represent one of the most isolated and environmentally challenging environments where cannabis cultivation or naturalization has been documented. Grower accounts and seed hunter reports suggest that cannabis populations in the accessible lower valleys of the Tajik Pamirs show remarkable adaptation to UV radiation, temperature extremes, and thin mountain soils. The "Gold" designation likely reflects the amber or golden resin coloration commonly associated with sun-cured mountain hashish from this region, or possibly the plant's appearance at maturity in its native highland environment. Specific documented collection history for Pamir Gold as a named line is limited.
 
 ## Description
+- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium
-- **Flowering:** 10–14 weeks
-- **Climate:** Tropical Highland
-- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Medium stature intermediate between indica and sativa expression. Strong UV tolerance and cold resistance are primary adaptive traits. Dense trichome production associated with high-altitude UV adaptation. Aromas and specific cannabinoid profiles are not well documented for this population.
 

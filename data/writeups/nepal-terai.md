@@ -9,14 +9,14 @@ Nepal Terai is a sativa landrace from the Terai — the flat, low-altitude alluv
 The Terai's lowland cannabis tradition is distinct from the highland charas culture of Nepal's mountain districts. The region's proximity to the Indian border and its integration into the broader Indo-Gangetic agricultural system means that Terai cannabis populations may share genetic affinities with lowland North Indian landraces as much as with Himalayan Nepalese types. Systematic documentation of the Nepal Terai cannabis population as a distinct landrace type is limited; most collector attention in Nepal has focused on the highland zones. The Terai is also the most agriculturally developed region of Nepal, meaning cannabis here is more likely to have been influenced by human movement of seed and by competition with cultivated crops than the more isolated highland populations.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** Subtropical lowland (humid, warm)
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — consistent with the lowland tropical/subtropical sativa growth pattern where long seasons and warm temperatures drive maximum vegetative development
-- **Flowering:** 10–13 weeks
-- **Climate:** Subtropical lowland (humid, warm)
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** 10–13 weeks
 
 Tall, open, vigorous sativa architecture typical of lowland tropical-adjacent cannabis. Broader adaptations to heat and humidity than highland Nepalese types; likely more similar to North Indian lowland landraces in character. Specific terpene profiles and other characteristics are not documented for this population; general lowland sativa characteristics (earthy, spicy) are a reasonable inference.
 

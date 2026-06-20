@@ -9,14 +9,14 @@ Transkei (coastal variant) is a sativa landrace from the Transkei — a historic
 Cannabis — known as dagga in southern Africa — has been cultivated and used by Xhosa communities and other peoples of the Eastern Cape for centuries, with uses spanning traditional medicine, ritual, and social contexts. The Transkei coastal landrace developed under the specific conditions of the Wild Coast: a maritime-influenced environment with high summer humidity, warm temperatures, and the rich soils of the river-valley and coastal-terrace farming tradition. The region's relative geographic isolation prior to the twentieth century likely contributed to the development of a locally distinct phenotype. Grower accounts note the strain's remarkable mold resistance — a logical adaptation to the coastal humidity — and its characteristic loose, fluffy bud structure. International collector interest in Transkei material grew significantly in the late twentieth and early twenty-first centuries.
 
 ## Description
+- **Origin:** South Africa (Africa)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — lanky, open growth characteristic of the coastal Wild Coast phenotype
-- **Flowering:** 10–13 weeks — within the typical range for South African coastal sativas
-- **Climate:** Temperate / Continental
-- **Origin:** South Africa (Africa)
+- **Flowering Time:** 10–13 weeks — within the typical range for South African coastal sativas
 
 Loose, open branching with characteristically fluffy, airy bud development; adapted to high coastal humidity with minimal mold susceptibility. Citrus and tropical aromatic notes are commonly reported; the effect is frequently described as electric, cerebral, and energizing — a classic narrow-leaf African sativa experience.
 

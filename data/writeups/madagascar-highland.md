@@ -9,14 +9,14 @@ Madagascar Highland is a tall sativa population from the central highlands of Ma
 Madagascar's central highland plateau has been the cultural and agricultural heartland of the island for centuries, dominated by the Merina kingdom and intensive rice cultivation at altitude. Cannabis cultivation in the highland areas of Madagascar is broadly attested, though documentation of the highland population as a distinct ecotype separate from the coastal lowland feral material is limited. The island's geographic isolation — roughly 400 kilometres from the African mainland — means its cannabis genetics have developed independently, making Madagascar highland material of interest as a distinct gene pool within the broader African landrace tradition.
 
 ## Description
+- **Origin:** Madagascar (Africa)
+- **Climate:** Island highland — cooler than Madagascar's coasts, with seasonal rainfall and the moderate conditions of the central plateau at 1,200–1,500 metres elevation
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 10–14 weeks from equinox/flip
-- **Climate:** Island highland — cooler than Madagascar's coasts, with seasonal rainfall and the moderate conditions of the central plateau at 1,200–1,500 metres elevation
-- **Origin:** Madagascar (Africa)
+- **Flowering Time:** Approximately 10–14 weeks from equinox/flip
 
 Commonly associated with tropical spice terpene notes; effect profile typical of elevated island sativa populations.
 

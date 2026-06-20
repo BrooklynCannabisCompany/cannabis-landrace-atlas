@@ -9,14 +9,14 @@ The Ural Foothills population is a feral Ruderalis-type cannabis found in the fo
 Cannabis has grown wild across the Ural region for centuries, likely originating from a combination of escaped hemp cultivation and naturally spreading feral populations. The Ural foothills sit at an ecological boundary zone where cold, short growing seasons would have strongly selected for early-finishing, auto-flowering characteristics. Grower accounts suggest that Ruderalis populations from this latitude have attracted interest mainly as a source of autoflowering genetics rather than as a cultivated crop in their own right.
 
 ## Description
+- **Origin:** Russia (Europe)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short — typically compact, low-growing plants adapted to exposed foothill terrain
-- **Flowering:** 6–10 weeks; likely initiates flowering based on age rather than photoperiod, consistent with Ruderalis adaptation to the short Ural summers
-- **Climate:** Temperate / Continental
-- **Origin:** Russia (Europe)
+- **Flowering Time:** 6–10 weeks; likely initiates flowering based on age rather than photoperiod, consistent with Ruderalis adaptation to the short Ural summers
 
 Sturdy, with relatively large leaf-to-stem ratios commonly reported in Ruderalis ecotypes. Generally considered low in THC, as is typical for Ruderalis populations; cannabinoid profiles are not well documented for this specific population.
 

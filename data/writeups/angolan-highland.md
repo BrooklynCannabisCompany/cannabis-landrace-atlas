@@ -9,14 +9,14 @@ The Angolan Highland is a tall sativa landrace originating from Angola's elevate
 Cannabis has a long history of cultivation across sub-Saharan Africa, and Angola's interior highlands likely hosted traditional use for generations, though specific documentation of this population is sparse. Commonly reported accounts link Angolan highland populations to the same broad regional gene pool as other Southern African sativa landraces. Trade and movement across the Congo Basin and down into southern Africa may have shaped the genetics of this population over centuries, though no specific introduction dates or historical breeders are documented.
 
 ## Description
+- **Origin:** Angola (Africa)
+- **Climate:** Tropical highland — tolerates heat and alternating wet and dry cycles
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall, commonly 2–3 m or more under open-sky conditions
-- **Flowering:** Approximately 10–14 weeks from flip/equinox
-- **Climate:** Tropical highland — tolerates heat and alternating wet and dry cycles
-- **Origin:** Angola (Africa)
+- **Flowering Time:** Approximately 10–14 weeks from flip/equinox
 
 Grower accounts suggest a spicy-sweet fruit terpene profile; effect commonly described as uplifting and energetic, consistent with equatorial sativa landraces.
 

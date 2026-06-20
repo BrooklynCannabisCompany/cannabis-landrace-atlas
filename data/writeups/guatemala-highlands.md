@@ -9,14 +9,14 @@ Guatemala Highlands refers to cannabis populations associated with the highland 
 Guatemala's highland region is home to the majority of the country's indigenous Maya population, with a deep agricultural history stretching back thousands of years. Cannabis cultivation in the Guatemalan highlands is not extensively documented in the published literature, but the region's position along the Sierra Madre corridor connecting Mexico and Central America suggests that cannabis populations here share genetic influences with both Mexican highland landraces and other Central American types. The "Sierra Madre lineage" characterization implies connection to the broader mountain range cannabis tradition that includes related Mexican highland populations. Formal preservation documentation for this population is limited.
 
 ## Description
+- **Origin:** Guatemala (Americas)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with highland tropical sativas grown at moderate to high elevations under strong mountain sunlight
-- **Flowering:** 11–14 weeks — moderate for a mountain tropical sativa; the highland latitude and altitude produce more pronounced seasonal day-length variation than equatorial South American populations
-- **Climate:** Tropical Lowland
-- **Origin:** Guatemala (Americas)
+- **Flowering Time:** 11–14 weeks — moderate for a mountain tropical sativa; the highland latitude and altitude produce more pronounced seasonal day-length variation than equatorial South American populations
 
 Expected to show upright, branchy growth with moderate internode spacing; highland sativas in the Sierra Madre tradition typically develop vigorous structure under intense UV and cool nights. Not documented for this specific population.
 

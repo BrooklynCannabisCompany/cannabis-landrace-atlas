@@ -9,14 +9,14 @@ The Alay Valley landrace originates from the Alay (Alai) Valley of southern Kyrg
 The Alay Valley has functioned as a significant passage through the Pamir-Alai mountain system for centuries, and cannabis cultivation in this corridor is commonly associated with both pastoral communities and settled agricultural populations along the valley floor. The route's connectivity likely facilitated gene flow between Pamir alpine populations and the more productive lowland gene pools of the Fergana Basin. Documentation of this specific population in cannabis research literature is limited; what is known comes largely from regional ethnobotanical and geographic accounts rather than dedicated genetic studies.
 
 ## Description
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks, consistent with short high-altitude seasons requiring early maturation
-- **Climate:** Alpine / High Mountain
-- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks, consistent with short high-altitude seasons requiring early maturation
 
 Expected to show valley-adapted branching suited to open mountain terrain. Variable; mountain-valley landraces in this region are associated with moderate-to-good resin production. Specific phenotype details for this population are not well-documented; description reflects regional landrace norms for southern Kyrgyzstan.
 

@@ -9,14 +9,14 @@ Central African Rainforest Edge Populations is a collective designation for fera
 The transitional zone between the Congo Basin rainforest and the surrounding savannas constitutes one of Africa's great ecological boundaries. Cannabis growing along this ecotone in the DRC and neighboring countries exists largely outside documented cultivation history; it is understood to represent populations that have naturalized over time, adapting to the oscillating wet-dry, open-canopy conditions of the forest edge. No specific breeders, introduction dates, or variety histories are associated with these populations — they are characterized precisely by their unclassified, feral status and the gaps in documentation that result from operating in remote, difficult terrain.
 
 ## Description
+- **Origin:** DRC (Africa)
+- **Climate:** Transitional jungle/savanna — adapted to both humid rainforest margins and seasonally drier savanna conditions
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall, consistent with unmanaged equatorial growth
-- **Flowering:** Variable — feral ecotone populations often show wide phenotypic variation in maturation time
-- **Climate:** Transitional jungle/savanna — adapted to both humid rainforest margins and seasonally drier savanna conditions
-- **Origin:** DRC (Africa)
+- **Flowering Time:** Variable — feral ecotone populations often show wide phenotypic variation in maturation time
 
 Often unclassified; genetic diversity is likely high given the ecotone's mixing of forest and savanna-adapted populations.
 

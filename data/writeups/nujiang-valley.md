@@ -9,14 +9,14 @@ The Nujiang Valley cannabis population originates from the Nujiang (Salween Rive
 The Nujiang Valley has been inhabited by multiple ethnic minority groups — including the Nu, Lisu, Dulong, and Tibetan peoples — for centuries, each maintaining distinct agricultural and cultural traditions in the deeply incised valley. Cannabis cultivation or semi-cultivation in such remote communities often persists well beyond the reach of governmental oversight or botanical survey, meaning the Nujiang population may represent a genuine relic of traditional Yunnan landrace cannabis. The valley's extreme isolation, created by the surrounding mountain ranges, is likely to have limited gene flow with outside populations and may have contributed to the development of locally distinct genetic characteristics.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Subtropical
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, consistent with canyon-floor cannabis benefiting from sheltered warmth and adequate moisture
-- **Flowering:** 12–18 weeks — an extended photoperiod response typical of Yunnan mountain landraces
-- **Climate:** Subtropical
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 12–18 weeks — an extended photoperiod response typical of Yunnan mountain landraces
 
 Likely intermediate, reflecting the convergence of Himalayan highland and Southeast Asian influences. Not documented in accessible sources; the genetic complexity suggested by the valley's position may contribute interesting secondary metabolite profiles.
 

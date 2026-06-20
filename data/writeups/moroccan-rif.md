@@ -7,14 +7,14 @@ Moroccan Rif is an indica cannabis landrace from the Rif Mountains of northern M
 The Rif Mountains have hosted cannabis cultivation for many centuries, with local Berber farming communities developing and maintaining locally adapted varieties suited to hashish production. Morocco emerged as one of the world's largest hashish exporters during the 20th century, with the Rif region — particularly the area around Ketama — as the epicenter of production. Grower accounts and trade records document the widespread cultivation of compact, resinous indica types across the Rif highlands. Moroccan Rif genetics have been incorporated into numerous European and American breeding programs, particularly from the 1970s onward.
 
 ## Description
+- **Origin:** Morocco (Middle East / Central Asia)
+- **Climate:** Mediterranean
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Mediterranean
-- **Origin:** Morocco (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Indica morphology: medium height, compact, with broad leaves and dense branching. Heavy resin production selected for hashish (kif) preparation. Aromas commonly described as spicy, floral, and hashy with a distinct Moroccan character. Effects are typically reported as relaxing and moderately sedating.
 

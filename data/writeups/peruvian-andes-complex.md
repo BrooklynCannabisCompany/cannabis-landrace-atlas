@@ -9,14 +9,14 @@ Peruvian Andes Complex refers to the broad multi-altitude gene pool of cannabis 
 Peru's Andean highland history is among the richest in the Americas, home to pre-Columbian civilizations including the Inca Empire and its predecessors. Cannabis is not native to the Andes, but introduced populations have adapted over generations to local Andean conditions. The Andean road system — from the Inca qhapaq ñan to Spanish colonial routes — facilitated the movement of agricultural materials across the mountain range at various altitudes. Different valleys and slopes within the Peruvian Andes would have developed distinct local populations over time. As a complex, the Peruvian Andes gene pool encompasses this regional diversity rather than representing a single homogeneous strain.
 
 ## Description
+- **Origin:** Peru (Americas)
+- **Climate:** Mountain highland; diverse across altitudes — temperature, UV, and rainfall vary significantly
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11–15 weeks
-- **Climate:** Mountain highland; diverse across altitudes — temperature, UV, and rainfall vary significantly
-- **Origin:** Peru (Americas)
+- **Flowering Time:** 11–15 weeks
 
 The Peruvian Andes Complex encompasses phenotypic diversity across its altitude range. The sativa category and tall height suggest the lower and mid-elevation Andean valley populations are most represented in this designation, while flowering times of 11–15 weeks reflect the equatorial latitude combined with altitude. Multi-altitude gene pool with significant diversity.
 

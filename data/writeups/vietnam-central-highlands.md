@@ -9,14 +9,14 @@ Vietnam Central Highlands is a sativa landrace from the plateau region of south-
 The Central Highlands of Vietnam were dramatically affected by the Vietnam War and subsequent decades of restricted access, which limited botanical documentation of the region's cannabis populations. The Dak Lak and Kon Tum area is today Vietnam's major coffee-growing zone, reflecting its plateau climate and agricultural productivity. Cannabis is historically associated with indigenous community use in the highlands, though large-scale cultivation in this region is not well documented in the same manner as some other Southeast Asian cannabis traditions. Collector access to genuine landrace material from this specific plateau region is limited, and the population remains understudied.
 
 ## Description
+- **Origin:** Vietnam (Southeast Asia)
+- **Climate:** Plateau tropical — warm year-round but with a meaningful dry season; lower humidity than coastal Vietnam; moderate altitude.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11–14 weeks, consistent with tropical sativas at this latitude and altitude.
-- **Climate:** Plateau tropical — warm year-round but with a meaningful dry season; lower humidity than coastal Vietnam; moderate altitude.
-- **Origin:** Vietnam (Southeast Asia)
+- **Flowering Time:** 11–14 weeks, consistent with tropical sativas at this latitude and altitude.
 
 Tall sativa structure adapted to plateau tropical conditions — likely with slightly more robust branching than equatorial lowland types, reflecting the seasonal plateau climate. Central Highland Vietnamese cannabis is not specifically documented in collector literature; regional tropical sativas are broadly associated with sweet, spicy, and earthy profiles.
 

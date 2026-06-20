@@ -9,14 +9,14 @@ Kona Gold is one of Hawaii's most recognized heirloom cannabis populations, asso
 Kona Gold developed a reputation during the 1970s as a standout Hawaiian cannabis variety, becoming one of the most sought-after strains from the islands during a period when Hawaiian cannabis was internationally recognized for quality. The population is associated with both indigenous island cultivation traditions and the more deliberate outdoor farming that took hold in Hawaii during the countercultural era. Long flowering periods and exceptional terpene complexity — commonly described as tropical fruit, spice, and citrus expressions — are the hallmarks cited in grower and historical accounts. Formal botanical documentation is limited, and the "Kona Gold" name encompasses what may be a range of related but not fully uniform plants.
 
 ## Description
+- **Origin:** Hawaii (Americas)
+- **Climate:** Volcanic tropical highland — fertile volcanic soils, relatively dry western-slope conditions, intense sunlight, year-round warmth, consistent oceanic airflow
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Sativa
 - **Height:** Very tall; Kona's fertile volcanic soils and year-round growing season support exceptional vegetative growth
-- **Flowering:** 12–18 weeks; long flowering consistent with a pure tropical sativa at Hawaiian latitudes
-- **Climate:** Volcanic tropical highland — fertile volcanic soils, relatively dry western-slope conditions, intense sunlight, year-round warmth, consistent oceanic airflow
-- **Origin:** Hawaii (Americas)
+- **Flowering Time:** 12–18 weeks; long flowering consistent with a pure tropical sativa at Hawaiian latitudes
 
 Tall and vigorous sativa structure. Grower accounts consistently describe tropical fruit, spice, and citrus terpene expressions. The Kona coffee terroir parallel — rich volcanic minerals, excellent drainage, consistent sun — is considered to contribute to this population's notable terpene expression. _Recorded locality detail: Big Island._.
 

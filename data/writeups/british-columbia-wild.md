@@ -9,14 +9,14 @@ British Columbia Wild refers to feral and semi-feral cannabis populations found 
 British Columbia developed a significant cannabis cultivation culture from the 1960s onward, with the province becoming one of North America's most recognized outdoor cannabis-producing regions. Feral and naturalized populations in BC represent accidental or intentional releases from this cultivation history rather than a pre-existing indigenous cannabis tradition. The Pacific coastal climate — with its long growing season moderated by ocean influence, abundant moisture, and mild winters — allowed some populations to persist and adapt over multiple generations. Formal documentation of specific feral BC gene pools is minimal.
 
 ## Description
+- **Origin:** Canada (Americas)
+- **Climate:** Rainforest coast — high rainfall, cool maritime temperatures, persistent cloud cover, mild winters
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall; consistent with sativa-dominant cultivars that naturalized in BC's productive coastal conditions
-- **Flowering:** 10–14 weeks; timing suited to BC's temperate outdoor season, finishing before the onset of autumn rains and cold
-- **Climate:** Rainforest coast — high rainfall, cool maritime temperatures, persistent cloud cover, mild winters
-- **Origin:** Canada (Americas)
+- **Flowering Time:** 10–14 weeks; timing suited to BC's temperate outdoor season, finishing before the onset of autumn rains and cold
 
 As a mixed feral gene pool, phenotypic uniformity is not expected. Plants generally reflect sativa-leaning outdoor cultivar heritage, with tall branchy structure and adaptation to cool, wet growing conditions. Mold and botrytis resistance may be a naturally selected trait in this persistently humid environment.
 

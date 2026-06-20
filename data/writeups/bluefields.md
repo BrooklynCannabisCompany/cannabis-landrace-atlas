@@ -9,14 +9,14 @@ The Bluefields landrace originates from Bluefields in Westmoreland Parish, on th
 Westmoreland Parish, including the Bluefields area, has been part of Jamaica's cannabis cultivation landscape for generations, though it receives less documentation than the Blue Mountain region in landrace and collector literature. The southwest coast of Jamaica has distinct climatic character — drier and more consistently warm than the lush eastern mountains — which shapes any long-established plant populations toward coastal lowland adaptation. Available information on the Bluefields population specifically is limited, and most characterization draws on general knowledge of Jamaican coastal cannabis ecology rather than verified collection accounts.
 
 ## Description
+- **Origin:** Jamaica (Americas)
+- **Climate:** Tropical coastal — warm year-round, influenced by Caribbean maritime air, moderate to low humidity compared to Jamaica's northeast coast
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall; typical of Jamaican cannabis grown in warm, tropical coastal conditions
-- **Flowering:** 12–16 weeks; consistent with tropical island landraces at Jamaican latitudes
-- **Climate:** Tropical coastal — warm year-round, influenced by Caribbean maritime air, moderate to low humidity compared to Jamaica's northeast coast
-- **Origin:** Jamaica (Americas)
+- **Flowering Time:** 12–16 weeks; consistent with tropical island landraces at Jamaican latitudes
 
 Jamaican coastal populations are generally described as tall and branchy with a classic tropical sativa structure. The southwest coastal influence may select for somewhat more drought-tolerant characteristics compared to the wetter eastern mountain populations. Specific terpene or cannabinoid profiles for the Bluefields population are not well documented.
 

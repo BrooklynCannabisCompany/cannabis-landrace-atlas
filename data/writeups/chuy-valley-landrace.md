@@ -9,14 +9,14 @@ The Chuy Valley Landrace is a feral-landrace complex from the Chuy (Chu) River V
 The Chuy Valley's cannabis reputation rests largely on reports of wild-growing populations of exceptional quality collected by cannabis travelers and researchers from the 1960s onward. The valley's location in a transitional zone between mountain and steppe, with a productive river valley providing water and fertile alluvial soils, created conditions where cannabis could thrive at a semi-wild scale. Accounts from this period describe plants of remarkable resin production growing without deliberate cultivation across large areas of the valley. The extent to which this represents an ancient wild population versus hemp cultivation that escaped and naturalized is debated; most researchers favor the latter explanation, though the population may have absorbed genetic diversity from multiple sources over time.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; feral populations in productive valley environments can reach considerable height
-- **Flowering:** 10–14 weeks; variable, as expected in a heterogeneous feral population
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks; variable, as expected in a heterogeneous feral population
 
 Highly variable across the population, reflecting the genetic breadth of this complex. Historically reported as high in the best phenotypes; significant variation exists across the population. The broad genetic diversity of the Chuy Valley population makes it particularly interesting for conservation and breeding purposes.
 

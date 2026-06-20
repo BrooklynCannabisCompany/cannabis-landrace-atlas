@@ -7,14 +7,14 @@ Taurus Mountains is an indica-leaning mountain landrace from the Taurus (Toros) 
 Turkey has a documented history of cannabis cultivation and hashish production, though the industry was heavily suppressed through most of the twentieth century. The Taurus Mountains, with their remote highland terrain and traditional pastoral cultures, are among the regions where cannabis populations persisted. The population's connection to broader Levantine and Anatolian cannabis routes reflects Turkey's geographic position as a bridge between Central Asian, Middle Eastern, and European cannabis traditions. Grower accounts suggest mountain populations from this region are well-adapted to rocky, poor soils and Mediterranean-continental mountain conditions. Documentation specific to the Taurus population is limited.
 
 ## Description
+- **Origin:** Turkey (Middle East / Central Asia)
+- **Climate:** Mediterranean
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–12 weeks
-- **Climate:** Mediterranean
-- **Origin:** Turkey (Middle East / Central Asia)
+- **Flowering Time:** 8–12 weeks
 
 Indica-leaning morphology; medium stature adapted to rocky, nutrient-poor mountain soils. Compact, resinous flower clusters suited to dry summers and the region's Mediterranean mountain climate. Likely shows drought tolerance and cold hardiness, given the Taurus range's elevation and seasonal snow cover. Historically connected to hash-producing traditions of the broader Anatolian and Levantine regions.
 

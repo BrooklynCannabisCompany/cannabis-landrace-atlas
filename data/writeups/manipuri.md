@@ -9,14 +9,14 @@ Manipuri is a sativa landrace from Manipur state in northeastern India — a lan
 Northeastern India's cannabis culture, including Manipur, developed largely independently of the Himachali charas belt. The region's cannabis has historically been processed as ganja (dried flower) or pressed into brick-style hash, reflecting the different cultural and trade traditions of the Indo-Burma border zone. Manipur's position as a border state — and its historical connections to Myanmar's cannabis and opium-producing regions — likely influenced the genetic character of local cannabis populations, though the degree of intermixing with Burmese or other Southeast Asian types is not documented. Collector accounts of the Manipuri type describe a tall, humidity-tolerant sativa with the loose structure typical of tropical lowland-to-midland populations.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Humid tropical NE India
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 10–13 weeks
-- **Climate:** Humid tropical NE India
-- **Origin:** India (South Asia)
+- **Flowering Time:** 10–13 weeks
 
 Tall, open branching structure adapted to the humid, dense vegetation of the Indo-Burma border zone. Humidity tolerance is a key reported characteristic, distinguishing Manipuri from the low-humidity Himachali types. Associated with brick-hash production rather than charas; plants may be harvested and processed differently than western Himalayan landraces. Aroma and effect profiles are not well-documented for Manipuri specifically; regional comparisons suggest earthy, spicy, or mildly tropical characteristics.
 

@@ -9,14 +9,14 @@ PNG Gold is a collective name for a type of equatorial sativa associated with Pa
 The "PNG Gold" name emerged primarily in underground collector and enthusiast discourse during the 1990s and 2000s, as international interest in landrace cannabis genetics grew and collectors sought material from remote equatorial populations. The term appears to have been applied somewhat loosely to material of varied highland PNG origin — encompassing Eastern Highlands, Western Highlands, and related provinces — rather than designating a single rigorously defined population. No specific formal breeding history, named breeder, or documented collection event is associated with PNG Gold as a designation. Its reputation rests on informal grower accounts and the circulation of seed material through underground networks.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Mountain jungle — high altitude equatorial, cool nights, intense daytime sun, high rainfall, fertile highland soils.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall; PNG highland sativas are among the tallest cannabis types documented in collector literature.
-- **Flowering:** 12–16 weeks; consistent with equatorial highland growing conditions where long photoperiod manipulation or outdoor growing is required.
-- **Climate:** Mountain jungle — high altitude equatorial, cool nights, intense daytime sun, high rainfall, fertile highland soils.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 12–16 weeks; consistent with equatorial highland growing conditions where long photoperiod manipulation or outdoor growing is required.
 
 Strong sativa psychoactive expression is the most consistently reported characteristic of material sold or traded under this name.
 

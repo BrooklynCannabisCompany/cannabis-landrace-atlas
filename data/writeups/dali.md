@@ -9,14 +9,14 @@ The Dali landrace originates from Dali Prefecture in northwestern Yunnan Provinc
 Yunnan has a long history of cannabis cultivation for fiber and seed, and highland populations such as those from the Dali area are commonly reported to reflect layered genetic influences from Himalayan, Southeast Asian, and interior Chinese cannabis migration routes. The Dali region has historically been home to multiple ethnic minority groups — including the Bai people — who maintained their own agricultural and craft traditions, some of which intersected with cannabis use. Whether the Dali population represents a deliberately maintained landrace or a semi-feral population that escaped early cultivation is not well documented in available sources.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Subtropical
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, consistent with vigorous Yunnan highland types
-- **Flowering:** 12–18 weeks — an extended photoperiod response typical of equatorial-influenced highland sativas
-- **Climate:** Subtropical
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 12–18 weeks — an extended photoperiod response typical of equatorial-influenced highland sativas
 
 Commonly reported as intermediate to broad, with long internodes under mountain subtropical light conditions. Not well characterized in available literature; highland Yunnan populations are generally reported as complex and resinous relative to northern Chinese types.
 

@@ -7,14 +7,14 @@ Khyber is a short, fast-finishing indica landrace from the tribal mountain regio
 The Khyber region has been a crossroads of trade and migration for thousands of years, and cannabis cultivation in the Pakistani tribal areas bordering this pass is longstanding. Grower accounts place Khyber-type hash genetics among the foundational indica strains that influenced Western breeding programs from the 1970s onward. Traditional charas and hashish production in the tribal mountain zones selected for compact, heavily resinous plants capable of surviving short growing seasons at altitude. Specific documentation of distinct Khyber subpopulations is limited.
 
 ## Description
+- **Origin:** Pakistan (Middle East / Central Asia)
+- **Climate:** Mountain / Highland
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short
-- **Flowering:** 8–10 weeks
-- **Climate:** Mountain / Highland
-- **Origin:** Pakistan (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Short and compact with broad, indica-type leaves; dense branching typical of highland hashplant morphology. Heavy resin production; flowers are dense and highly aromatic. Aromas commonly described as earthy, spicy, and hashy. Effects are typically reported as intensely sedating and physically heavy.
 

@@ -9,14 +9,14 @@ Peruvian Amazon Interior refers to a feral sativa population from the deep inter
 The Peruvian Amazon has been inhabited by indigenous Amazonian peoples for thousands of years, with diverse groups maintaining traditional ecological knowledge of the forest. Cannabis is not native to the Americas, so any feral population in the Peruvian Amazon interior would be descended from introduced plants that escaped cultivation and naturalized. The routes and timing of such introductions are not documented, but river trade networks connecting the Amazon Basin with Andean and coastal communities could plausibly have introduced cannabis at various historical moments. Feral populations in deep jungle contexts are among the least documented in the cannabis landrace literature.
 
 ## Description
+- **Origin:** Peru (Americas)
+- **Climate:** Deep jungle; equatorial, extremely hot and humid year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall
-- **Flowering:** Variable
-- **Climate:** Deep jungle; equatorial, extremely hot and humid year-round
-- **Origin:** Peru (Americas)
+- **Flowering Time:** Variable
 
 This population is classified as feral — naturalized and self-sustaining in the wild rather than actively cultivated. Plants are described as very tall, consistent with vigorous growth in the resource-rich but light-competitive rainforest understory and edge environments. Flowering time is listed as variable, reflecting the unpredictable phenotypic expression typical of feral populations with low human selection pressure.
 

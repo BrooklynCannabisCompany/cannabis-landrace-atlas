@@ -9,14 +9,14 @@ Vanuatu is a feral sativa population associated with the island nation of Vanuat
 Cannabis is not native to Vanuatu; its introduction to the archipelago followed historical contact and trade routes. As a Melanesian nation with cultural and geographic ties to both Papua New Guinea and the broader Pacific, Vanuatu likely received cannabis through several introduction pathways over the twentieth century. Plants established in the island environment without ongoing managed cultivation, giving rise to feral populations adapted to local tropical conditions. The specific history of introduction, the source populations involved, and the timeline of naturalisation are not documented in available sources. This entry has no recorded summary beyond its ecological classification.
 
 ## Description
+- **Origin:** Vanuatu (Oceania)
+- **Climate:** Tropical Island / Maritime
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall
-- **Flowering:** 11–14 weeks
-- **Climate:** Tropical Island / Maritime
-- **Origin:** Vanuatu (Oceania)
+- **Flowering Time:** 11–14 weeks
 
 Vanuatu feral sativa plants are tall-growing, consistent with sativa-lineage populations naturalised in a warm, humid tropical island environment. A flowering period of 11–14 weeks is moderate for a tropical population, suggesting some degree of seasonal cue response despite Vanuatu's relatively stable tropical daylengths. Open bud structure is expected as an adaptation to high humidity and periodic heavy rainfall. As a feral population spanning a geographically diverse archipelago, phenotypic variation between northern and southern island plants is plausible. Tropical island.
 

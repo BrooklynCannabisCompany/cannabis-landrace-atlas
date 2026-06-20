@@ -9,14 +9,14 @@ The Vaupés landrace originates from Colombia's Vaupés department, a remote Ama
 Vaupés is among Colombia's least densely populated and most isolated departments, inhabited primarily by indigenous groups who have maintained traditional ecological knowledge of the forest for millennia. Cannabis in this region is not well documented in formal botanical or ethnobotanical literature, and most references to the Vaupés population come from collector and grower networks rather than academic sources. The population's character is inferred largely from the region's extreme Amazonian ecology and from broader patterns of indigenous cannabis use in lowland South America.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Amazon rainforest — near-constant warmth, extremely high humidity, abundant rainfall year-round
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall; vigorous Amazonian growth habit commonly reported
-- **Flowering:** 14–20 weeks; equatorial landrace with minimal photoperiod sensitivity
-- **Climate:** Amazon rainforest — near-constant warmth, extremely high humidity, abundant rainfall year-round
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 14–20 weeks; equatorial landrace with minimal photoperiod sensitivity
 
 Consistent with tropical Amazonian landraces — tall, open, heavily branched structure with narrow leaflets. Exceptional humidity tolerance is a key trait noted in available accounts. Terpene and cannabinoid profiles are not reliably documented for this specific population.
 

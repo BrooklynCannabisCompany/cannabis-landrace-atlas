@@ -9,14 +9,14 @@ Kilimanjaro is a tall sativa landrace associated with the slopes and highland zo
 The Kilimanjaro region has been inhabited for centuries by Chagga and other communities who have practiced agriculture on the mountain's fertile slopes. Cannabis cultivation in this highland context is broadly attested within East African agricultural traditions. The Kilimanjaro name has circulated in the cannabis community for decades as a recognized East African sativa type, and it has been collected and used in breeding by various seed preservation and commercial operations. Whether commercially available "Kilimanjaro" seeds consistently represent material from the actual Kilimanjaro region varies by source.
 
 ## Description
+- **Origin:** Tanzania (Africa)
+- **Climate:** Alpine equatorial — high altitude, strong sunlight and UV exposure, cool to cold nights, seasonal wet-dry cycle
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 11–14 weeks from equinox/flip
-- **Climate:** Alpine equatorial — high altitude, strong sunlight and UV exposure, cool to cold nights, seasonal wet-dry cycle
-- **Origin:** Tanzania (Africa)
+- **Flowering Time:** Approximately 11–14 weeks from equinox/flip
 
 Commonly associated with citrus-spice terpene notes; psychedelic, uplifting effect frequently described in grower and user accounts.
 

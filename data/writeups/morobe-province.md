@@ -9,14 +9,14 @@ Morobe Province occupies a distinctive position in Papua New Guinea's geography,
 Cannabis history in Morobe Province is not formally documented. Lae, the provincial capital, is Papua New Guinea's second-largest city and a major port, which has historically made Morobe one of the more connected PNG provinces to outside trade and movement. However, traditional cannabis populations in Morobe's highland and remote coastal areas would have developed through local cultivation practices less influenced by international variety introductions. The province's status as a transition zone between coastal and highland PNG environments suggests the local cannabis gene pool may reflect this ecological diversity.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Coastal mountain tropical — combining the humidity and heat of the PNG coast with the altitude moderation of the mountain ranges, including the Huon Peninsula highlands.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall; reflecting the sativa growth pattern in a coastal mountain tropical environment.
-- **Flowering:** 11–15 weeks; consistent with PNG coastal-to-highland sativa populations.
-- **Climate:** Coastal mountain tropical — combining the humidity and heat of the PNG coast with the altitude moderation of the mountain ranges, including the Huon Peninsula highlands.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 11–15 weeks; consistent with PNG coastal-to-highland sativa populations.
 
 Highland-to-coast genetic transition zone suggests potential diversity within the population across elevational clines.
 

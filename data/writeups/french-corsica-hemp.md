@@ -9,14 +9,14 @@ French Corsica Hemp describes a feral industrial hemp population from the island
 Hemp cultivation has a documented history on Corsica extending through the Genoese period of governance (fifteenth to eighteenth centuries) and into French rule, when fiber hemp was a component of traditional agriculture in rural Corsican communities. As industrial hemp cultivation declined through the twentieth century, feral populations naturalized in agricultural margins, river valleys, and disturbed terrain across the island. The designation of this entry as Mediterranean feral hemp reflects its status as a naturalized population rather than an actively cultivated landrace, with the island dry climate of Corsica shaping its ecology.
 
 ## Description
+- **Origin:** France (Europe)
+- **Climate:** Island dry Mediterranean
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Feral
 - **Chemotype:** Type IV (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium
-- **Flowering:** 10–13 weeks
-- **Climate:** Island dry Mediterranean
-- **Origin:** France (Europe)
+- **Flowering Time:** 10–13 weeks
 
 As a feral industrial hemp population of medium height with a 10–13 week flowering window and an island dry Mediterranean climate, Corsica hemp plants are expected to show the upright, fiber-type morphology typical of Mediterranean hemp with adaptation to drought stress. The noted high CBD/CBG and low THC profile is characteristic of industrial hemp escapes that have maintained their low-psychoactive cannabinoid balance through naturalization.
 

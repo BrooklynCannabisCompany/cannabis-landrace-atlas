@@ -9,14 +9,14 @@ Benguet is a highland sativa landrace from Benguet Province in the Cordillera Ad
 The Cordillera highlands of Luzon have a long history of indigenous cultivation traditions maintained by peoples including the Ibaloi and Kankanaey communities of Benguet. Cannabis is commonly reported to have been cultivated in these mountain communities over many generations, integrated into local agricultural and cultural practices. The specific Benguet cannabis population is associated with traditional mountain farming, where plants were selected — whether deliberately or through natural adaptation — for performance under cool, wet, high-altitude conditions. Formal documentation of the cultivation lineage is limited, and most accounts derive from ethnobotanical observations and grower reports.
 
 ## Description
+- **Origin:** Philippines (Southeast Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous growth consistent with highland tropical sativa populations
-- **Flowering:** Long, typically 12–18 weeks; adapted to the extended growing season of the Cordillera highlands
-- **Climate:** Tropical Highland
-- **Origin:** Philippines (Southeast Asia)
+- **Flowering Time:** Long, typically 12–18 weeks; adapted to the extended growing season of the Cordillera highlands
 
 Narrow leaflets typical of sativa-dominant landraces; grower accounts suggest open branching and resilient bud structure adapted to high-humidity mountain conditions. Commonly described as incense-forward with tropical fruit undertones — characteristic of Philippine highland cannabis. Commonly reported as energetic and cerebral.
 

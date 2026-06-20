@@ -23,13 +23,16 @@ const DATA_LABELS = {
   type: 'vtype', category: 'vtype', 'vernacular type': 'vtype', 'variety type': 'vtype',
   height: 'height',
   flowering: 'flowering', 'flowering time': 'flowering', 'flowering period': 'flowering',
-  climate: 'climate', 'climate adaptation': 'climate', habitat: 'climate'
+  climate: 'climate', 'climate adaptation': 'climate', habitat: 'climate',
+  // Our own regenerated bullets — recognized so re-running stays idempotent (dropped,
+  // not swept into the prose).
+  morphotype: 'drop', chemotype: 'drop', domestication: 'drop', origin: 'drop'
 };
 
 function floweringText(f) {
   const m = String(f || '').trim();
   if (!m) return '';
-  return /\dw$/.test(m) ? m.replace(/w$/, ' weeks') : m;
+  return m.replace(/(\d)\s*w\b/g, '$1 weeks'); // spell out "7–9w" -> "7–9 weeks"
 }
 
 function originText(r) {
@@ -73,20 +76,21 @@ function parseDescription(body) {
 
 function buildDescriptionSection(r, parsed) {
   const { data, desc } = parsed;
-  const bullets = [
-    `- **Morphotype:** ${r.morphotype}`,
-    `- **Vernacular type:** ${r.category}`,
-    `- **Chemotype:** Type ${r.chemotype} (inferred)`,
-    `- **Domestication:** ${r.domestication}`
-  ];
-  const height = data.height || r.height;
-  if (height) bullets.push(`- **Height:** ${height}`);
-  const flowering = data.flowering || floweringText(r.flowering);
-  if (flowering) bullets.push(`- **Flowering:** ${flowering}`);
-  const climate = data.climate || r.climate;
-  if (climate) bullets.push(`- **Climate:** ${climate}`);
+  // Bullet order mirrors the Index facets (Region≈Origin, Climate, Morphotype, Chemotype,
+  // Domestication, Type (vernacular), Height, Flowering Time).
+  const bullets = [];
   const origin = originText(r);
   if (origin) bullets.push(`- **Origin:** ${origin}`);
+  const climate = data.climate || r.climate;
+  if (climate) bullets.push(`- **Climate:** ${climate}`);
+  bullets.push(`- **Morphotype:** ${r.morphotype}`);
+  bullets.push(`- **Chemotype:** Type ${r.chemotype} (inferred)`);
+  bullets.push(`- **Domestication:** ${r.domestication}`);
+  bullets.push(`- **Vernacular type:** ${r.category}`);
+  const height = data.height || r.height;
+  if (height) bullets.push(`- **Height:** ${height}`);
+  const flowering = floweringText(data.flowering || r.flowering);
+  if (flowering) bullets.push(`- **Flowering Time:** ${flowering}`);
 
   let prose = desc.map(sentence).filter(Boolean).join(' ');
   if (!prose) {

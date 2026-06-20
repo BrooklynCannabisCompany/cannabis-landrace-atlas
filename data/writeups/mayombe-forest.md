@@ -7,14 +7,14 @@ Mayombe Forest refers to a feral sativa cannabis complex associated with the May
 The Mayombe forest is one of the most intact remaining patches of Central African tropical rainforest, straddling the border zone between the Republic of Congo, the Democratic Republic of Congo, Angola, and Gabon. Cannabis in this equatorial rainforest context is likely feral and naturalized within forest margins, clearings, and disturbed ground along river systems and village peripheries. Specific documentation of cannabis collection or selection from the Congolese Mayombe is extremely limited; this population is known primarily by its geographic and ecological context. Very tall, long-flowering sativa types are characteristic of equatorial African cannabis, consistent with the conditions described.
 
 ## Description
+- **Origin:** Congo (Middle East / Central Asia)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall
-- **Flowering:** Variable length
-- **Climate:** Tropical Rainforest
-- **Origin:** Congo (Middle East / Central Asia)
+- **Flowering Time:** Variable length
 
 Very tall sativa complex; equatorial growth forms are typically the tallest cannabis morphologies globally. Long, narrow leaves and extended branching structure common to equatorial African sativa types. Flowering time is variable, as is typical of feral equatorial populations with minimal photoperiod cue. Specific cannabinoid and terpene profiles are undocumented.
 

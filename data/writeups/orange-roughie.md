@@ -9,14 +9,14 @@ Orange Roughie is a rare New Zealand underground heirloom cultivar with a cult r
 Orange Roughie's specific origin history is not formally documented. It is understood to be a regional underground cultivar that circulated within New Zealand's informal grower networks, likely through hand-to-hand seed and clone exchange over decades. The "Tinny Classic" designation — referencing the New Zealand slang for a small quantity of cannabis traditionally sold in tinfoil — situates this cultivar within the local vernacular of New Zealand's underground cannabis culture. No specific breeder, location, or introduction year is verified. The cultivar's citrus-forward character is its most consistently reported distinguishing trait, suggesting it was identified and maintained partly on the basis of this terpene profile.
 
 ## Description
+- **Origin:** New Zealand (Oceania)
+- **Climate:** Maritime temperate — New Zealand's characteristic cool, wet, variable outdoor conditions.
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall; a practical height for outdoor growing in New Zealand's varied garden environments.
-- **Flowering:** 10–14 weeks; fits the New Zealand outdoor season.
-- **Climate:** Maritime temperate — New Zealand's characteristic cool, wet, variable outdoor conditions.
-- **Origin:** New Zealand (Oceania)
+- **Flowering Time:** 10–14 weeks; fits the New Zealand outdoor season.
 
 Citrus-forward terpene expression; regional cult status; preservation rarity.
 

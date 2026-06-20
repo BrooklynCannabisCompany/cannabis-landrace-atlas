@@ -9,14 +9,14 @@ Antioquia Lowlands refers to cannabis populations associated with the lower-elev
 Antioquia Department's lowland regions have historically supported diverse agricultural activity, and cannabis cultivation in these areas likely developed alongside and distinct from the better-known highland landraces of the same department. The specific genealogy of lowland Antioquia populations is not formally documented, but grower accounts suggest these plants reflect generations of selection in warm, humid conditions. Colombia's tropical lowlands have served as corridors for both cultivated and naturalized cannabis, and the Antioquia lowland population may share genetic influence with other northern Colombian populations.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — typical of tropical lowland Colombian sativas adapted to strong equatorial light
-- **Flowering:** 12–18 weeks — consistent with Colombian sativas grown under tropical photoperiods
-- **Climate:** Tropical Lowland
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 12–18 weeks — consistent with Colombian sativas grown under tropical photoperiods
 
 Commonly reported as openly branched with longer internodes than highland counterparts; foliage tends toward narrower leaflets consistent with warm-climate sativa adaptation. Not specifically documented; lowland Colombian sativas are broadly associated with energetic, uplifting effects and varied aromatic profiles.
 

@@ -9,14 +9,14 @@ Polish Feral refers to naturalized cannabis populations found growing wild in Po
 Hemp cultivation in Poland has a history spanning many centuries, with the plant grown for fiber, rope, and seed across the Polish lowlands and agricultural regions. During the Soviet era, Poland maintained significant hemp production as part of state agricultural planning. After a period of decline, limited hemp cultivation has continued under EU regulations. The feral plants found in Poland today are generally understood to be descendants of cultivated hemp that naturalized in disturbed areas, roadsides, and the margins of agricultural land. These populations are not drug-type landraces and represent the naturalized legacy of fiber hemp cultivation rather than any distinct indigenous cannabis population.
 
 ## Description
+- **Origin:** Poland (Europe)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium — typical of European hemp varieties that have naturalized in field and roadside conditions
-- **Flowering:** 10–14 weeks; photoperiod-dependent, consistent with continental European hemp varieties
-- **Climate:** Temperate / Continental
-- **Origin:** Poland (Europe)
+- **Flowering Time:** 10–14 weeks; photoperiod-dependent, consistent with continental European hemp varieties
 
 Upright hemp morphology, with branching more pronounced in feral plants growing without competitive cropping pressure. A defining characteristic of this population; plants are associated with the ability to tolerate cold nights, late spring frosts, and the variable weather of Poland's continental climate. Some variation exists across regions of Poland, though the overall type remains closely aligned with the hemp varieties from which these feral populations descend.
 

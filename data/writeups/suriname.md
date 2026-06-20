@@ -9,14 +9,14 @@ Suriname refers to a tropical rainforest sativa landrace from the interior of Su
 Suriname has an exceptionally diverse cultural heritage, shaped by Dutch colonial rule, the trade in enslaved Africans, indentured laborers from South Asia and Java, and indigenous Amerindian communities. This diversity is reflected in the country's population today and in the movement of agricultural plants through the region. Cannabis cultivation in Suriname likely drew on multiple introduction pathways — from the Caribbean, from Brazil, from South Asian agricultural traditions brought by indentured laborers, and from Maroon communities in the interior who maintained African-influenced agricultural practices. This complex history of genetic input is consistent with the summary noting Caribbean, African, and South American cultivation influences. The interior of Suriname remains remote and sparsely populated, limiting documentation of local cannabis populations.
 
 ## Description
+- **Origin:** Suriname (Americas)
+- **Climate:** Equatorial rainforest; continuously hot, extremely humid, high rainfall year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 14–20 weeks
-- **Climate:** Equatorial rainforest; continuously hot, extremely humid, high rainfall year-round
-- **Origin:** Suriname (Americas)
+- **Flowering Time:** 14–20 weeks
 
 This population is described as a very tall sativa with an extended 14–20 week flowering window, consistent with deep equatorial rainforest cannabis adapted to continuous hot and humid conditions. Interior Suriname. Likely multi-origin genetic inputs; Caribbean, African, and South American influences.
 

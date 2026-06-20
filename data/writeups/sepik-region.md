@@ -9,14 +9,14 @@ Sepik Region is a feral sativa population associated with the Sepik River area o
 Feral cannabis populations in the Sepik River region are thought to descend from plants originally introduced or cultivated by local communities, which subsequently naturalised in the surrounding lowland environment. The region's remoteness and the density of its river-basin ecosystem have allowed feral populations to persist and adapt with minimal outside genetic input. The timeline and pathway of original introduction to this part of Papua New Guinea are not well documented. Because this entry is categorised as feral rather than a maintained cultivar, specific selection history or collector provenance is not available.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall
-- **Flowering:** 13–16 weeks
-- **Climate:** Tropical Lowland
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 13–16 weeks
 
 Sepik Region plants are classified as a feral sativa with a very tall growth habit, consistent with sativa populations naturalised in an equatorial lowland environment where competition for light in dense vegetation favours vertical growth. A flowering period of 13–16 weeks is somewhat shorter than the related Sepik Basin PNG cultivar entry, potentially reflecting adaptation to the specific microenvironmental pressures of feral rather than cultivated conditions. Open bud structure suited to high ambient humidity is expected. Tropical river basin.
 

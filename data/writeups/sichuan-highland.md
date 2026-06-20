@@ -9,14 +9,14 @@ Sichuan Highland is a sativa-type cannabis population associated with the highla
 Sichuan has a long history of cannabis cultivation, primarily for fiber, recorded in ancient Chinese agricultural texts. The highland regions of western Sichuan, bordering Tibet and Yunnan, have been home to multiple ethnic minority groups — including Tibetan, Yi, and Qiang peoples — who maintained their own agricultural and cultural traditions, some of which may have included cannabis. The Sichuan Highland population is described as a mixed gene pool, suggesting it may reflect contributions from multiple regional cannabis traditions — possibly including Tibetan plateau types from the west and Yunnan highland types from the south. Specific documentation of a distinct Sichuan Highland cannabis landrace in accessible sources is limited.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Mountain / Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall, consistent with vigorous highland sativa cannabis benefiting from mountain growing conditions
-- **Flowering:** 10–14 weeks, somewhat shorter than comparable Yunnan highland types — consistent with the more continental and less tropical character of Sichuan's western mountains
-- **Climate:** Mountain / Highland
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, somewhat shorter than comparable Yunnan highland types — consistent with the more continental and less tropical character of Sichuan's western mountains
 
 Likely intermediate to narrow, reflecting sativa influence. Not well documented for this specific population; highland sativa types in China are generally noted for complex profiles.
 

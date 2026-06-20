@@ -9,14 +9,14 @@ Albanian Native refers to the wild regional cannabis population found across Alb
 Cannabis has been present in Albania for centuries, introduced through a combination of Ottoman-era trade, Balkan agricultural traditions, and ancient Thracian or Illyrian cultivation practices. The population described here is understood as a wild regional type — plants that have naturalized across Albanian landscapes through escape from cultivation, seed dispersal, and feral persistence. Over generations, this has produced a mixed hemp/sativa gene pool that reflects both fiber-hemp heritage and local adaptation to the Balkan mountain climate.
 
 ## Description
+- **Origin:** Albania (Europe)
+- **Climate:** Balkan mountain
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium
-- **Flowering:** 10–14 weeks
-- **Climate:** Balkan mountain
-- **Origin:** Albania (Europe)
+- **Flowering Time:** 10–14 weeks
 
 As a hemp/sativa mix of medium height with a 10–14 week flowering window, Albanian Native plants are commonly described as variable in morphology — reflecting the mixed genetic background typical of naturalized Balkan populations. Sativa-leaning individuals with narrower leaflets and taller stature may appear alongside more compact, hemp-type plants. The population is adapted to the Balkan mountain climate, tolerating both warm lowland summers and cooler upland conditions.
 

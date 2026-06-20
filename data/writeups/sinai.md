@@ -7,14 +7,14 @@ Sinai is an indica landrace associated with the Sinai Peninsula of Egypt, a tria
 Cannabis use in the Sinai region is historically documented, with the peninsula serving as a corridor between Egyptian, Levantine, and Arabian cultural zones. Traditional use of cannabis in this area was likely shaped by Bedouin communities who moved through the region's harsh desert terrain. The Egyptian Sinai is geographically isolated from the Nile Delta agricultural zone, and cannabis populations here would have adapted independently to the desert mountain environment. Specific cultivation history for this population is not well documented; the entry's characteristics are inferred from regional context.
 
 ## Description
+- **Origin:** Egypt (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Egypt (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Indica morphology; medium stature suited to rocky, nutrient-poor desert soils. Dense, resinous flowers adapted to extreme heat and cold swing conditions. Compact leaf structure consistent with water-conservation adaptations in arid climates. Likely exhibits strong heat resilience and drought tolerance.
 

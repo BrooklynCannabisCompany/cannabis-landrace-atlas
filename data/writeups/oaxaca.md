@@ -9,14 +9,14 @@ Oaxaca is a sativa landrace from the state of Oaxaca in southern Mexico, where t
 Oaxaca has a deep indigenous agricultural heritage, with the Zapotec and Mixtec civilizations among the most significant pre-Columbian cultures in Mesoamerica. Cannabis cultivation in Oaxaca developed during and after the colonial era, and by the mid-20th century, Oaxacan cannabis had become recognized in the North American market. Grower accounts from the 1960s–1980s describe potent, long-flowering Oaxacan sativas circulating widely. The connection to Haze lineage — while contested and not definitively documented — reflects the influence that Mexican highland sativa genetics had on early California breeding programs. Oaxacan genetics are commonly reported as a component of the complex genetic heritage that produced classic Haze varieties, though exact lineages remain a subject of debate.
 
 ## Description
+- **Origin:** Mexico (Americas)
+- **Climate:** Highland jungle; warm, humid, strong UV, seasonal rains
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 12–18 weeks
-- **Climate:** Highland jungle; warm, humid, strong UV, seasonal rains
-- **Origin:** Mexico (Americas)
+- **Flowering Time:** 12–18 weeks
 
 Oaxacan cannabis is typically described as a very tall, late-flowering sativa suited to the highland jungle climate of southern Mexico. The 12–18 week flowering window reflects both the latitude and altitude of Oaxaca's cultivation zones. Commonly cited as a Haze progenitor population (not definitively confirmed).
 

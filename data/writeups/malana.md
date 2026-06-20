@@ -9,14 +9,14 @@ Malana is an indica-leaning landrace from the Malana Village area in the Parvati
 Malana's reputation in international cannabis culture was established through the overland travel era of the 1960s–1970s and grew substantially in subsequent decades as its charas became a benchmark product in the Himalayan hash trade. The village itself is noted for its unusual cultural and linguistic distinctiveness — the Malani people speak a distinct language and maintain traditional social structures that have historically limited outside contact. This isolation is commonly cited in collector lore as a reason for the genetic distinctiveness of Malana cannabis, though whether the population is truly isolated from the broader Parvati Valley gene pool or represents a selected ecotype within it is not scientifically established. The "Cream" designation refers specifically to the fresh, pale, hand-rubbed charas produced from the plant's live resin glands.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Alpine valley
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Alpine valley
-- **Origin:** India (South Asia)
+- **Flowering Time:** 8–10 weeks
 
 Dense, pale resin production is the defining reported characteristic — the basis for the "Cream" designation in collector usage. Medium stature with compact bud structure typical of high-altitude Parvati Valley types. Smooth, creamy terpene profile in fresh charas is consistently described in accounts; common descriptors include sweet, mild, and almost floral quality distinct from darker, more pungent hash types.
 

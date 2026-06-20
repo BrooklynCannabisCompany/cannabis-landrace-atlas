@@ -9,14 +9,14 @@ North Korea Wild Hemp is a feral escape population of cannabis naturalized in th
 Hemp cultivation on the Korean Peninsula is ancient, with documented use for fiber, rope, and cloth extending back through historical Korean kingdoms. In North Korea, hemp cultivation continued under state agricultural programs through the twentieth century. Feral populations descending from these cultivated stocks have naturalized across the landscape, particularly in rural and uncultivated areas. The North Korea Wild Hemp population is therefore a feral escape rather than a deliberately maintained landrace — a reflection of the agricultural heritage of the peninsula under natural selection rather than human management. Access to and study of this population from outside the country is extremely limited.
 
 ## Description
+- **Origin:** North Korea (East Asia / North Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium, consistent with naturalized hemp in temperate grassland margins
-- **Flowering:** 10–14 weeks, consistent with temperate hemp photoperiod response
-- **Climate:** Temperate / Continental
-- **Origin:** North Korea (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, consistent with temperate hemp photoperiod response
 
 Typically upright; vigorous enough under summer growing conditions but not maintained for fiber quality. Intermediate, adapted to the Korean Peninsula's temperate climate. Low THC as expected of a hemp-derived feral population; CBD content undocumented.
 
