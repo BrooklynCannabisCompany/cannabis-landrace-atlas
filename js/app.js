@@ -7,6 +7,7 @@ import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
 import { relatedStrains } from './relations.js';
 import { initTooltips } from './tooltip.js';
+import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
 
 const panel = document.getElementById('panel');
 const input = document.getElementById('search-input');
@@ -372,13 +373,13 @@ function repoLink(text) {
 
 // Fixed-value fields get a dropdown; combo fields get a free-text input with suggestions.
 const SUBMIT_OPTIONS = {
-  continent: ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia'],
-  climate: ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown'],
-  morphotype: ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified'],
-  chemotype: ['I', 'II', 'III', 'IV', 'V'],
-  domestication: ['Domesticated', 'Heirloom', 'Feral (escaped)', 'Wild'],
-  category: ['Sativa', 'Indica', 'Ruderalis', 'Hybrid-Intermediate', 'Hemp', 'Feral', 'Mixed'],
-  height: ['Short', 'Medium-short', 'Medium', 'Medium-tall', 'Tall', 'Very tall', 'Extremely tall']
+  continent: CONTINENTS,
+  climate: CLIMATES,
+  morphotype: MORPHOTYPES,
+  chemotype: CHEMOTYPES,
+  domestication: DOMESTICATIONS,
+  category: CATEGORY_ORDER,
+  height: HEIGHTS
 };
 const SUBMIT_FIELDS = [
   ['name', 'Name', 'text'],
@@ -838,12 +839,12 @@ function openReferences() {
 // Index facets: [label, record field, optional value formatter, optional value order].
 // Region first — this atlas is about place. Each facet's groups follow the given order.
 const INDEX_FACETS = [
-  ['Region', 'continent', null, ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia']],
-  ['Climate', 'climate', null, ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown']],
-  ['Morphotype', 'morphotype', null, ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified']],
-  ['Chemotype', 'chemotype', (v) => `Type ${v}`, ['I', 'II', 'III', 'IV', 'V']],
-  ['Domestication', 'domestication', null, ['Heirloom', 'Domesticated', 'Feral (escaped)', 'Wild']],
-  ['Type (vernacular)', 'category', null, ['Hemp', 'Sativa', 'Indica', 'Mixed', 'Hybrid-Intermediate', 'Ruderalis', 'Feral']],
+  ['Region', 'continent', null, CONTINENTS],
+  ['Climate', 'climate', null, CLIMATES],
+  ['Morphotype', 'morphotype', null, MORPHOTYPES],
+  ['Chemotype', 'chemotype', (v) => `Type ${v}`, CHEMOTYPES],
+  ['Domestication', 'domestication', null, DOMESTICATIONS],
+  ['Type (vernacular)', 'category', null, CATEGORY_ORDER],
   ['Height', 'height'],
   ['Flowering Time', 'flowering']
 ];
@@ -851,8 +852,8 @@ const INDEX_STATE_KEY = 'cla-index-state';
 function loadIndexState() { try { return JSON.parse(localStorage.getItem(INDEX_STATE_KEY)) || {}; } catch { return {}; } }
 function saveIndexState(st) { try { localStorage.setItem(INDEX_STATE_KEY, JSON.stringify(st)); } catch { /* ignore */ } }
 
-// Ordinal height scale for the Height slider.
-const HEIGHT_SCALE = ['Short', 'Medium-short', 'Medium', 'Medium-tall', 'Tall', 'Very tall', 'Extremely tall'];
+// Ordinal height scale for the Height slider (shared vocabulary).
+const HEIGHT_SCALE = HEIGHTS;
 function heightRank(h) {
   const t = (h || '').toLowerCase();
   if (/extremely/.test(t)) return 6;

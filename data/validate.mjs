@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { CATEGORIES } from './lib/category.mjs';
+import { MORPHOTYPES as MORPHOTYPE_LIST, CHEMOTYPES as CHEMOTYPE_LIST, DOMESTICATIONS as DOMESTICATION_LIST } from './lib/vocab.mjs';
 import { readFileSync } from 'node:fs';
 
-const MORPHOTYPES = new Set(['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Ruderalis (wild-type)', 'Intermediate (NLD–BLD)', 'Unclassified']);
-const CHEMOTYPES = new Set(['I', 'II', 'III', 'IV', 'V']);
-const DOMESTICATIONS = new Set(['Domesticated', 'Heirloom', 'Feral (escaped)', 'Wild']);
+const MORPHOTYPES = new Set(MORPHOTYPE_LIST);
+const CHEMOTYPES = new Set(CHEMOTYPE_LIST);
+const DOMESTICATIONS = new Set(DOMESTICATION_LIST);
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
