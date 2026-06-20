@@ -385,6 +385,10 @@ function openDatabase() {
 
 function openAbout() {
   openContentModal('About', (body) => {
+    const cover = document.createElement('img');
+    cover.src = 'assets/og-cover.png';
+    cover.alt = 'The Cannabis Landrace Atlas';
+    cover.className = 'about-cover';
     const p1 = document.createElement('p');
     p1.textContent = 'The Cannabis Landrace Atlas is a free interactive map of traditional cannabis landraces, heirlooms, and wild populations from around the world.';
     const linksP = document.createElement('p');
@@ -412,7 +416,7 @@ function openAbout() {
     const disclaimer = document.createElement('p');
     disclaimer.className = 'modal-note';
     disclaimer.textContent = 'We do not sell seeds or any other cannabis products.';
-    body.append(p1, linksP, contact, disclaimer);
+    body.append(cover, p1, linksP, contact, disclaimer);
   });
 }
 

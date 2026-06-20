@@ -332,12 +332,19 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .leaf-marker .leaf-img { display: block; transition: transform 0.12s ease; transform-origin: bottom center; }
 .leaf-marker:hover .leaf-img { transform: scale(1.28); }
 
-/* Selected variety: inverted (white) leaf in a purple circle */
+/* Selected variety: the leaf turned white inside a purple circle */
 .leaf-marker-selected { background: none; border: none; }
 .leaf-marker-selected .sel-leaf {
   display: flex; align-items: center; justify-content: center;
   width: 30px; height: 30px; border-radius: 50%;
   background: #6b3fa0; box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+.leaf-marker-selected .sel-leaf-img { display: block; filter: brightness(0) invert(1); }
+
+/* About dialog: branded cover card, centered at the top */
+.about-cover {
+  display: block; width: 240px; max-width: 70%; margin: 2px auto 18px;
+  border-radius: 12px; border: 1px solid var(--line);
 }
 
 /* Marker name tooltip — match the paper/ink palette */
