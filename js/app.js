@@ -14,8 +14,10 @@ const input = document.getElementById('search-input');
 const resultsList = document.getElementById('search-results');
 const submitBtn = document.getElementById('submit-btn');
 const modal = document.getElementById('modal');
+const modalCard = modal.querySelector('.modal-card');
 const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
+let lastFocused = null; // element to restore focus to when a modal closes
 const menuBtn = document.getElementById('menu-btn');
 const appMenu = document.getElementById('app-menu');
 const indexBtn = document.getElementById('index-btn');
@@ -249,7 +251,7 @@ function openListModal(title, list) {
     ul.appendChild(li);
   }
   modalBody.appendChild(ul);
-  modal.hidden = false;
+  showModal();
 }
 
 // ---- Search ----
@@ -323,9 +325,35 @@ function openModal(title, body) {
   modal.classList.remove('wide');
   modalTitle.textContent = title;
   modalBody.textContent = body;
-  modal.hidden = false;
+  showModal();
 }
-function closeModal() { modal.hidden = true; modal.classList.remove('wide'); }
+const FOCUSABLE = 'button:not([disabled]), a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+// Shows the modal with focus management: remember the opener, move focus into the dialog.
+function showModal() {
+  if (!modalCard.contains(document.activeElement)) lastFocused = document.activeElement; // keep opener across modal→modal
+  modal.hidden = false;
+  const first = modalCard.querySelector(FOCUSABLE);
+  (first || modalCard).focus();
+}
+
+function closeModal() {
+  modal.hidden = true;
+  modal.classList.remove('wide');
+  if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+  lastFocused = null;
+}
+
+// Trap Tab within the open dialog.
+modal.addEventListener('keydown', (e) => {
+  if (e.key !== 'Tab' || modal.hidden) return;
+  const items = [...modalCard.querySelectorAll(FOCUSABLE)].filter((el) => el.offsetParent !== null);
+  if (!items.length) return;
+  const first = items[0];
+  const last = items[items.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+});
 
 // Repository that submission issues are filed against. Update if the repo is renamed.
 const REPO = 'BrooklynCannabisCompany/cannabis-landrace-atlas';
@@ -359,7 +387,7 @@ function showIssueFallback(url) {
   note.className = 'modal-note';
   note.textContent = 'The repository is currently private, so you must be signed in to GitHub with access for the page to load.';
   modalBody.append(p, note);
-  modal.hidden = false;
+  showModal();
 }
 
 // An anchor to the GitHub repository.
@@ -733,7 +761,7 @@ function openContentModal(title, build) {
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);
-  modal.hidden = false;
+  showModal();
 }
 
 function openDatabase() {
