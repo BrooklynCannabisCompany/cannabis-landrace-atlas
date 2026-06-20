@@ -56,7 +56,6 @@ function decorateWriteup(strain) {
   wireDisclaimer(strain);
   insertRelated(strain);
   fillLinkSections(strain);
-  addFootnotes(strain);
   decorateWriteupSections(strain);
 }
 
@@ -108,40 +107,6 @@ function decorateWriteupSections(strain) {
 
 function headText(h) { return (h.firstChild ? h.firstChild.textContent : h.textContent).trim(); }
 
-// Adds a "source" footnote marker after each prose section — but ONLY when the strain
-// has a real, citable source (its matched seed-vendor listing). The marker jumps to the
-// strain's Sources section. General foundational background lives on the global
-// References screen (hamburger), so unsourced prose gets no marker.
-function addFootnotes(strain) {
-  if (!strain.seedSources || !strain.seedSources.length) return;
-  const writeup = panel.querySelector('.writeup');
-  if (!writeup) return;
-  const heads = [...writeup.querySelectorAll('h2')];
-  const srcH = heads.find((h) => headText(h) === 'References');
-  if (!srcH) return;
-
-  for (const label of ['Overview', 'History', 'Description']) {
-    const h = heads.find((x) => headText(x) === label);
-    if (!h) continue;
-    let last = null, el = h.nextElementSibling;
-    while (el && el.tagName !== 'H2') { last = el; el = el.nextElementSibling; }
-    if (!last) continue;
-    const sup = document.createElement('sup');
-    sup.className = 'fnref';
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.textContent = 'source';
-    btn.title = 'Source for this variety';
-    btn.addEventListener('click', () => {
-      srcH.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      srcH.classList.add('ref-flash');
-      setTimeout(() => srcH.classList.remove('ref-flash'), 1200);
-    });
-    sup.appendChild(btn);
-    last.appendChild(document.createTextNode(' '));
-    last.appendChild(sup);
-  }
-}
 
 // Replaces a section's empty-slot note with real vendor/forum/photo links when present.
 const SECTION_DATA = {
@@ -664,7 +629,6 @@ function buildFloweringSlider(facet, target) {
     }
   }
   const box = document.createElement('div'); box.className = 'slider-facet';
-  const unit = document.createElement('div'); unit.className = 'ds-unit'; unit.textContent = 'weeks';
   const listHost = document.createElement('div');
   const ds = makeDualSlider(absMin, absMax, (lo, hi) => {
     const matched = ranged.filter((x) => x.w.min <= hi && x.w.max >= lo).map((x) => x.s);
@@ -672,7 +636,7 @@ function buildFloweringSlider(facet, target) {
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
   }, initLo, initHi, 1);
-  box.append(ds.wrap, unit, listHost);
+  box.append(ds.wrap, listHost);
   facet.appendChild(box);
   ds.update();
 }
@@ -718,7 +682,8 @@ function openIndex(target) {
       if (target && target.facet === label && (isRangeFacet || !target.value)) facet.dataset.scrollTarget = '1';
       const fsum = document.createElement('summary');
       fsum.className = 'index-h1';
-      fsum.textContent = label;
+      // Show the unit in the heading (Index only); the panel keeps the plain "Flowering Time".
+      fsum.textContent = label === 'Flowering Time' ? 'Flowering Time (weeks)' : label;
       facet.appendChild(fsum);
       if (label === 'Height') buildHeightChecks(facet, target);
       else if (label === 'Flowering Time') buildFloweringSlider(facet, target);

@@ -73,7 +73,7 @@ export function createMap(elementId, worldGeoJson, onReset) {
       const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control reset-control');
       const link = L.DomUtil.create('a', '', container);
       link.href = '#';
-      link.title = 'Reset view';
+      link.setAttribute('data-tip', 'Reset view'); // fast custom tooltip (see tooltip.js)
       link.setAttribute('role', 'button');
       link.setAttribute('aria-label', 'Reset map to the whole world');
       link.innerHTML =
@@ -88,6 +88,13 @@ export function createMap(elementId, worldGeoJson, onReset) {
     }
   });
   map.addControl(new ResetControl());
+
+  // Replace the zoom buttons' slow native titles with the fast custom tooltip.
+  const c = map.getContainer();
+  const zin = c.querySelector('.leaflet-control-zoom-in');
+  const zout = c.querySelector('.leaflet-control-zoom-out');
+  if (zin) { zin.setAttribute('data-tip', 'Zoom in'); zin.removeAttribute('title'); }
+  if (zout) { zout.setAttribute('data-tip', 'Zoom out'); zout.removeAttribute('title'); }
 
   return map;
 }
