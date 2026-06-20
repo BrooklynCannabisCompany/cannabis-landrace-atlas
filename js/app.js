@@ -18,6 +18,7 @@ const modalBody = document.getElementById('modal-body');
 const menuBtn = document.getElementById('menu-btn');
 const appMenu = document.getElementById('app-menu');
 const indexBtn = document.getElementById('index-btn');
+const contactBtn = document.getElementById('contact-btn');
 
 let strains = [];
 let map = null;
@@ -443,6 +444,73 @@ function buildSubmissionForm(body, mode, strain) {
 function openFeedbackSubmit() {
   openContentModal('Suggest an Addition', (body) => buildSubmissionForm(body, 'add', null));
 }
+
+// Contact form: feature request / bug report / general feedback -> labeled GitHub issue.
+const CONTACT_TYPES = [
+  ['Feature request', 'feature request'],
+  ['Bug report', 'bug'],
+  ['General feedback', 'feedback']
+];
+function openContactForm() {
+  openContentModal('Contact Us', (body) => {
+    const intro = document.createElement('p');
+    intro.className = 'modal-note';
+    intro.textContent = 'Send a feature request, bug report, or general feedback. This opens a pre-filled GitHub issue.';
+    const form = document.createElement('form');
+    form.className = 'submit-form';
+
+    function row(labelText, control) {
+      const wrap = document.createElement('label');
+      wrap.className = 'submit-field';
+      const span = document.createElement('span');
+      span.className = 'submit-label';
+      span.textContent = labelText;
+      wrap.append(span, control);
+      return wrap;
+    }
+
+    const typeSel = document.createElement('select');
+    for (const [display] of CONTACT_TYPES) {
+      const op = document.createElement('option');
+      op.value = display; op.textContent = display;
+      typeSel.appendChild(op);
+    }
+    const titleInput = document.createElement('input');
+    titleInput.type = 'text';
+    const descArea = document.createElement('textarea');
+    descArea.rows = 4;
+    const emailInput = document.createElement('input');
+    emailInput.type = 'email';
+
+    form.append(
+      row('Type', typeSel),
+      row('Title', titleInput),
+      row('Description', descArea),
+      row('Your email (optional)', emailInput)
+    );
+    const submit = document.createElement('button');
+    submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
+    form.appendChild(submit);
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const display = typeSel.value;
+      const title = titleInput.value.trim();
+      const desc = descArea.value.trim();
+      const email = emailInput.value.trim();
+      if (!title) { window.alert('Please enter a title.'); return; }
+      if (!desc) { window.alert('Please enter a description.'); return; }
+      const label = (CONTACT_TYPES.find(([d]) => d === display) || [, 'feedback'])[1];
+      const text = `**Type:** ${display}\n\n${desc}\n\n`
+        + (email ? `**Contact email:** ${email}\n\n` : '')
+        + '_Submitted via the Atlas Contact form._';
+      openIssue(label, `${display}: ${title}`, text);
+      closeModal();
+    });
+
+    body.append(intro, form);
+  });
+}
 function openStrainSubmit(strain) {
   openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain));
 }
@@ -453,6 +521,7 @@ function openSectionSubmit(strain, section) {
 }
 
 submitBtn.addEventListener('click', openFeedbackSubmit);
+contactBtn.addEventListener('click', openContactForm);
 indexBtn.addEventListener('click', () => openIndex());
 modal.addEventListener('click', (e) => { if (e.target.hasAttribute('data-close')) closeModal(); });
 
