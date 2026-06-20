@@ -79,13 +79,58 @@ export function createMap(elementId, worldGeoJson, onReset) {
   return map;
 }
 
+// --- Marker declustering --------------------------------------------------
+// Many varieties resolve to the same approximate point (a country/region centroid),
+// so leaves pile up. We fan each pile out onto a deterministic sunflower (phyllotaxis)
+// spiral. The spacing is geographic (in degrees), so the leaves spread apart as the
+// user zooms in and only overlap at low zoom. SPREAD_DEG is sized so that neighbouring
+// leaves clear the 24px icon at the map's max zoom (z7 ≈ 91px per degree).
+const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
+const SPREAD_DEG = 0.42;  // ~38px between nearest neighbours at maxZoom 7 (icon is 24px)
+const CLUSTER_EPS = 0.6;  // markers within this many degrees are treated as one pile
+
+// Returns a Map of strain id -> [lat, lng] with co-located markers spread out.
+function declusterPositions(strains) {
+  const pts = strains.filter((s) => typeof s.lat === 'number' && s.lng !== null);
+  // Greedy proximity clustering (small dataset; deterministic input order).
+  const clusters = [];
+  for (const s of pts) {
+    let c = clusters.find((cl) => Math.abs(cl.lat - s.lat) < CLUSTER_EPS && Math.abs(cl.lng - s.lng) < CLUSTER_EPS);
+    if (!c) { c = { lat: s.lat, lng: s.lng, members: [] }; clusters.push(c); }
+    c.members.push(s);
+  }
+  const pos = new globalThis.Map();
+  for (const c of clusters) {
+    if (c.members.length === 1) {
+      pos.set(c.members[0].id, [c.members[0].lat, c.members[0].lng]);
+      continue;
+    }
+    // Stable order by id so positions don't shuffle between loads.
+    const members = c.members.slice().sort((a, b) => (a.id < b.id ? -1 : 1));
+    const mLat = members.reduce((t, s) => t + s.lat, 0) / members.length;
+    const mLng = members.reduce((t, s) => t + s.lng, 0) / members.length;
+    const cosLat = Math.cos((mLat * Math.PI) / 180) || 1; // keep pixel spacing ~circular on Mercator
+    members.forEach((s, i) => {
+      const r = SPREAD_DEG * Math.sqrt(i);
+      const a = i * GOLDEN_ANGLE;
+      pos.set(s.id, [mLat + r * Math.sin(a) * cosLat, mLng + r * Math.cos(a)]);
+    });
+  }
+  return pos;
+}
+
+// Displaced render position per strain id (filled by addMarkers, read by flyToStrain).
+let markerPositions = new globalThis.Map();
+
 // Adds markers for every strain with coordinates. Calls onSelect(strain) on click.
 // Returns a Map of strain id -> Leaflet marker for later programmatic selection.
 export function addMarkers(map, strains, onSelect) {
+  markerPositions = declusterPositions(strains);
   const byId = new globalThis.Map();
   for (const s of strains) {
-    if (s.lat === null || s.lng === null || typeof s.lat !== 'number') continue;
-    const marker = L.marker([s.lat, s.lng], { icon: LEAF_ICON, title: s.name });
+    const at = markerPositions.get(s.id);
+    if (!at) continue;
+    const marker = L.marker(at, { icon: LEAF_ICON, title: s.name });
     marker.bindTooltip(s.name, { direction: 'top', offset: [0, -26] });
     marker.on('click', () => onSelect(s));
     marker.addTo(map);
@@ -95,7 +140,10 @@ export function addMarkers(map, strains, onSelect) {
 }
 
 // Pans/zooms so the marker sits in the visible (left) portion when the panel is open.
+// Uses the declustered render position so the view centres on the actual marker.
 export function flyToStrain(map, strain) {
-  if (!strain || strain.lat === null) return;
-  map.flyTo([strain.lat, strain.lng], Math.max(map.getZoom(), 5), { duration: 0.6 });
+  if (!strain) return;
+  const at = markerPositions.get(strain.id) || (typeof strain.lat === 'number' ? [strain.lat, strain.lng] : null);
+  if (!at) return;
+  map.flyTo(at, Math.max(map.getZoom(), 5), { duration: 0.6 });
 }
