@@ -147,7 +147,11 @@ const SECTION_DATA = {
   'Photos': (s) => (s.photos || []).map((url) => ({ img: url })),
   'Seed Sources': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })),
   'Forum Discussions': (s) => (s.forums || []).map((x) => ({ label: x.label, url: x.url })),
-  'References': (s) => (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url }))
+  // References uses its own `references` field when present; otherwise falls back to the
+  // matched seed-vendor listing, which is the citable source the "source" footnotes point to.
+  'References': (s) => (Array.isArray(s.references) && s.references.length
+    ? s.references.map((x) => ({ label: x.label || x.url, url: x.url }))
+    : (s.seedSources || []).map((x) => ({ label: `${x.vendor} — ${x.product}`, url: x.url })))
 };
 function fillLinkSections(strain) {
   panel.querySelectorAll('.writeup h2').forEach((h) => {
