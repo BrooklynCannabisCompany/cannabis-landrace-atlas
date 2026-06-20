@@ -2,7 +2,7 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
 // Pure search/filter logic, shared by the browser UI and Node tests.
-const FIELDS = ['name', 'country', 'region', 'continent', 'type', 'category'];
+const FIELDS = ['name', 'aka', 'country', 'region', 'continent', 'type', 'category'];
 
 export function filterStrains(query, strains, limit = 12) {
   const q = (query || '').trim().toLowerCase();
@@ -11,7 +11,7 @@ export function filterStrains(query, strains, limit = 12) {
   for (const s of strains) {
     let best = Infinity;
     for (const f of FIELDS) {
-      const v = (s[f] || '').toString().toLowerCase();
+      const v = (Array.isArray(s[f]) ? s[f].join(' ') : (s[f] || '')).toString().toLowerCase();
       const idx = v.indexOf(q);
       if (idx === -1) continue;
       // Prefix match on name scores best; earlier index and name field score better.

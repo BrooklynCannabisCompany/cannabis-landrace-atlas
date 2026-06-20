@@ -496,7 +496,9 @@
   {
     "id": "guinea-bissau-mangrove",
     "name": "Guinea-Bissau Mangrove",
-    "aka": [],
+    "aka": [
+      "Guinea Bissau"
+    ],
     "continent": "Africa",
     "country": "Guinea-Bissau",
     "region": "Guinea-Bissau Coastal Mangrove Zone",
@@ -515,7 +517,13 @@
     "climateFull": "Tropical mangrove coast",
     "summary": "Adapted to salt air, seasonal flooding, tropical humidity, and coastal river deltas. One of the more unusual African cannabis ecologies due to mangrove influence.",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Guinea Bissau",
+        "url": "https://www.tltseeds.com/guinea-bissau/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -677,7 +685,13 @@
     "climateFull": "Mountain subtropical",
     "summary": "Classic South African narrow-leaf population, vigorous growth, spicy-incense profile, highly adapted to elevation.",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kwazulu Natal",
+        "url": "https://www.tltseeds.com/kwazulu-natal/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -685,7 +699,9 @@
   {
     "id": "lesotho-highland",
     "name": "Lesotho Highland",
-    "aka": [],
+    "aka": [
+      "Lesotho"
+    ],
     "continent": "Africa",
     "country": "Lesotho",
     "region": "",
@@ -704,7 +720,13 @@
     "climateFull": "Cold highland",
     "summary": "Citrus-resin profile, mountain adaptation",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Lesotho",
+        "url": "https://www.tltseeds.com/lesotho/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -832,6 +854,11 @@
         "vendor": "The Real Seed Company",
         "product": "Malawi Gold",
         "url": "https://therealseedcompany.com/product/malawi-gold-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Malawi Gold",
+        "url": "https://www.tltseeds.com/malawi-gold-2/"
       }
     ],
     "photos": [],
@@ -887,7 +914,13 @@
     "climateFull": "Maritime tropical",
     "summary": "Rare island population shaped by isolation, oceanic weather, and tropical growing conditions.",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Mauritius",
+        "url": "https://www.tltseeds.com/mauritius/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -949,7 +982,9 @@
   {
     "id": "namibian-wild",
     "name": "Namibian Wild",
-    "aka": [],
+    "aka": [
+      "Namibia"
+    ],
     "continent": "Africa",
     "country": "Namibia",
     "region": "",
@@ -968,7 +1003,13 @@
     "climateFull": "Arid desert",
     "summary": "Extreme drought tolerance",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Namibia",
+        "url": "https://www.tltseeds.com/namibia/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -995,7 +1036,23 @@
     "climateFull": "Tropical lowland",
     "summary": "Fast-growing, resilient equatorial type",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Nigerian Osun",
+        "url": "https://www.tltseeds.com/nigerian-osun/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Nigerian Purple",
+        "url": "https://www.tltseeds.com/nigerian-purple/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Nigerian Afropips",
+        "url": "https://www.tltseeds.com/nigerian-afropips/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -1322,7 +1379,13 @@
     "climateFull": "Subtropical highland",
     "summary": "Mango sweetness, long flowering",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Swazi Gold",
+        "url": "https://www.tltseeds.com/swazi-gold/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -1380,7 +1443,13 @@
     "climateFull": "Coastal temp",
     "summary": "Xhosa medicine, Fluffy bud, extreme humidity/mold resistance, lanky, citrus/tropical aroma, electric high",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Transkei",
+        "url": "https://www.tltseeds.com/transkei/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -1461,7 +1530,13 @@
     "climateFull": "River valley tropical",
     "summary": "Fast flowering river-adapted type",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Zambezi",
+        "url": "https://www.tltseeds.com/zambezi/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -1522,6 +1597,11 @@
         "vendor": "The Real Seed Company",
         "product": "Afghaan 90",
         "url": "https://therealseedcompany.com/product/afgaan-90-afghan-heirloom-landrace-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Afghanistan",
+        "url": "https://www.tltseeds.com/afghanistan/"
       }
     ],
     "photos": [],
@@ -1739,7 +1819,13 @@
     "climateFull": "High mountain",
     "summary": "Hash-rich resin landrace",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Badakhshan",
+        "url": "https://www.tltseeds.com/badakhshan/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -1968,6 +2054,11 @@
         "vendor": "The Real Seed Company",
         "product": "Chitrali",
         "url": "https://therealseedcompany.com/product/chitrali-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Chitral",
+        "url": "https://www.tltseeds.com/chitral/"
       }
     ],
     "photos": [],
@@ -2082,6 +2173,11 @@
         "vendor": "The Real Seed Company",
         "product": "Freak Chunk (Deep Chunk)",
         "url": "https://therealseedcompany.com/product/deep-chunk-heirloom-strain-ibl-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Deep Chunk",
+        "url": "https://www.tltseeds.com/deep-chunk/"
       }
     ],
     "photos": [],
@@ -2299,7 +2395,13 @@
     "climateFull": "Arid plateau",
     "summary": "Historic western Afghan cannabis region influenced by Persian trade routes. Known for drought tolerance, resin production, and adaptation to desert-edge environments.",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Herat",
+        "url": "https://www.tltseeds.com/herat/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -2483,7 +2585,9 @@
   {
     "id": "kandahar-paktia",
     "name": "Kandahar / Paktia",
-    "aka": [],
+    "aka": [
+      "Kandahar"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Afghanistan",
     "region": "Kandahar & Paktia Provinces",
@@ -2507,6 +2611,16 @@
         "vendor": "The Real Seed Company",
         "product": "Kandahar",
         "url": "https://therealseedcompany.com/product/kandahar-landrace-stain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kandahar",
+        "url": "https://www.tltseeds.com/kandahar/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kandahar",
+        "url": "https://www.tltseeds.com/kandahar-2/"
       }
     ],
     "photos": [],
@@ -2570,7 +2684,9 @@
   {
     "id": "kazakhstan-steppe",
     "name": "Kazakhstan Steppe",
-    "aka": [],
+    "aka": [
+      "Kazakhstan"
+    ],
     "continent": "Middle East / Central Asia",
     "country": "Kazakhstan",
     "region": "",
@@ -2589,7 +2705,13 @@
     "climateFull": "Open grassland",
     "summary": "Massive feral population across Eurasia",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kazakhstan",
+        "url": "https://www.tltseeds.com/kazakhstan/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -2874,6 +2996,21 @@
         "vendor": "The Real Seed Company",
         "product": "Lebanese",
         "url": "https://therealseedcompany.com/product/lebanese-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Lebanese Red Purple Mutant",
+        "url": "https://www.tltseeds.com/lebanese-red-purple-mutant/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Lebanese",
+        "url": "https://www.tltseeds.com/lebanese-2/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Lebanese",
+        "url": "https://www.tltseeds.com/lebanese/"
       }
     ],
     "photos": [],
@@ -3256,6 +3393,11 @@
         "vendor": "The Real Seed Company",
         "product": "Panjshir",
         "url": "https://therealseedcompany.com/product/panjshir-afghan-hindu-kush-cannabis-landrace-strain-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Panjshir",
+        "url": "https://www.tltseeds.com/panjshir/"
       }
     ],
     "photos": [],
@@ -4037,7 +4179,18 @@
     "climateFull": "Humid jungle mountain",
     "summary": "Extreme vigor and pest resistance",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Arunachal Pradesh",
+        "url": "https://www.tltseeds.com/arunachal-pradesh/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Arunachal Pradesh",
+        "url": "https://www.tltseeds.com/arunachal-pradesh-2/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -4320,6 +4473,11 @@
         "vendor": "The Real Seed Company",
         "product": "Kerala",
         "url": "https://therealseedcompany.com/product/kerala-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Idukki",
+        "url": "https://www.tltseeds.com/idukki/"
       }
     ],
     "photos": [],
@@ -4440,6 +4598,31 @@
         "vendor": "The Real Seed Company",
         "product": "Kashmiri",
         "url": "https://therealseedcompany.com/product/kashmir/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kashmir",
+        "url": "https://www.tltseeds.com/kashmir/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kashmir Early",
+        "url": "https://www.tltseeds.com/kashmir-early/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kashmir Purple",
+        "url": "https://www.tltseeds.com/kashmir-purple/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kashmir Ladhu",
+        "url": "https://www.tltseeds.com/kashmir-ladhu/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kashmir Doda",
+        "url": "https://www.tltseeds.com/kashmir-doda/"
       }
     ],
     "photos": [],
@@ -4807,6 +4990,11 @@
         "vendor": "The Real Seed Company",
         "product": "Nepalese Mountain Ganja",
         "url": "https://therealseedcompany.com/product/nepalese-mountain-ganja-landrace-strain-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Nepalese",
+        "url": "https://www.tltseeds.com/nepalese/"
       }
     ],
     "photos": [],
@@ -4867,6 +5055,11 @@
         "vendor": "The Real Seed Company",
         "product": "Odisha (Orissa)",
         "url": "https://therealseedcompany.com/product/orissa-gold-cannabis-landrace/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Orissa Gold",
+        "url": "https://www.tltseeds.com/orissa-gold/"
       }
     ],
     "photos": [],
@@ -5776,7 +5969,13 @@
     "climateFull": "Cordillera highlands",
     "summary": "Strong tropical adaptation, excellent vigor, likely related to neighboring Ifugao and Benguet populations",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kalinga",
+        "url": "https://www.tltseeds.com/kalinga/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -6343,7 +6542,9 @@
   {
     "id": "vietnam-central-highlands",
     "name": "Vietnam Central Highlands",
-    "aka": [],
+    "aka": [
+      "Vietnam"
+    ],
     "continent": "Southeast Asia",
     "country": "Vietnam",
     "region": "",
@@ -6362,7 +6563,13 @@
     "climateFull": "Plateau tropical",
     "summary": "Dak Lak / Kon Tum region",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Vietnam",
+        "url": "https://www.tltseeds.com/vietnam/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -6883,7 +7090,9 @@
   {
     "id": "mongolian-steppe",
     "name": "Mongolian Steppe",
-    "aka": [],
+    "aka": [
+      "Mongolia"
+    ],
     "continent": "East Asia / North Asia",
     "country": "Mongolia",
     "region": "",
@@ -6902,7 +7111,13 @@
     "climateFull": "Cold steppe",
     "summary": "Feral auto population",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Mongolia",
+        "url": "https://www.tltseeds.com/mongolia/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -7180,7 +7395,9 @@
   {
     "id": "siberia-altai",
     "name": "Siberia / Altai",
-    "aka": [],
+    "aka": [
+      "Siberia"
+    ],
     "continent": "East Asia / North Asia",
     "country": "Russia",
     "region": "",
@@ -7199,7 +7416,13 @@
     "climateFull": "Subarctic",
     "summary": "Ruderalis origin zone",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Siberia",
+        "url": "https://www.tltseeds.com/siberia/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -7531,7 +7754,9 @@
   {
     "id": "brazil-amazon-frontier",
     "name": "Brazil Amazon Frontier",
-    "aka": [],
+    "aka": [
+      "Brazil Amazon"
+    ],
     "continent": "Americas",
     "country": "Brazil",
     "region": "",
@@ -7550,7 +7775,13 @@
     "climateFull": "Deep rainforest",
     "summary": "High variability jungle pool",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Brazil Amazon",
+        "url": "https://www.tltseeds.com/brazil-amazon/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -7901,7 +8132,13 @@
     "climateFull": "Highland tropical",
     "summary": "Colombian Gold expression",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Corinto",
+        "url": "https://www.tltseeds.com/corinto/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -8017,7 +8254,9 @@
   {
     "id": "guatemala-highlands",
     "name": "Guatemala Highlands",
-    "aka": [],
+    "aka": [
+      "Guatemala"
+    ],
     "continent": "Americas",
     "country": "Guatemala",
     "region": "",
@@ -8036,7 +8275,13 @@
     "climateFull": "Mountain tropical",
     "summary": "Sierra Madre lineage",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Guatemala",
+        "url": "https://www.tltseeds.com/guatemala/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -8365,7 +8610,13 @@
     "climateFull": "Jungle lowland",
     "summary": "Fruit terp expression",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Mango Biche",
+        "url": "https://www.tltseeds.com/mango-biche/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -8395,7 +8646,13 @@
     "climateFull": "Tropical island",
     "summary": "Acclimatized Hawaiian heirloom",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Maui Wowie",
+        "url": "https://www.tltseeds.com/maui-wowie/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -8618,7 +8875,13 @@
     "climateFull": "Tropical rainforest",
     "summary": "Long flowering red phenotype",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Panama Red",
+        "url": "https://www.tltseeds.com/panama-red/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -8834,7 +9097,18 @@
     "climateFull": "Highland jungle",
     "summary": "Red psychedelic line",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Punto Rojo By The Landrace Team",
+        "url": "https://www.tltseeds.com/punto-rojo-by-the-landrace-team/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Punto Rojo Tierra Adentro",
+        "url": "https://www.tltseeds.com/punto-rojo-tierra-adentro/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []
@@ -9854,6 +10128,16 @@
         "vendor": "The Real Seed Company",
         "product": "Kalamata Red",
         "url": "https://therealseedcompany.com/product/kalamata-red-heirloom-landrace-cannabis-seeds/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kalamata Red",
+        "url": "https://www.tltseeds.com/kalamata-red/"
+      },
+      {
+        "vendor": "TLT Seeds",
+        "product": "Kalamata Red",
+        "url": "https://www.tltseeds.com/kalamata-red-2/"
       }
     ],
     "photos": [],
@@ -10235,7 +10519,13 @@
     "climateFull": "Tropical highland",
     "summary": "One of the most famous cannabis landraces in history. Known for golden-colored flowers, exceptional vigor, and rich coffee, spice, and tropical aromas.",
     "incomplete": false,
-    "seedSources": [],
+    "seedSources": [
+      {
+        "vendor": "TLT Seeds",
+        "product": "Acapulco Gold",
+        "url": "https://www.tltseeds.com/acapulco-gold/"
+      }
+    ],
     "photos": [],
     "forums": [],
     "links": []

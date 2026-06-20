@@ -1,38 +1,152 @@
 {
-  "acapulco-gold": ["Acapulco"],
-  "aceh": ["Atjeh"],
-  "afghani": ["Afghan"],
-  "blue-mountain-jamaica": ["Blue Mountain"],
-  "cambodian-native": ["Cambodian"],
-  "chitral": ["Chitral Kush"],
-  "chocolate-thai": ["Choc Thai"],
-  "durban-basin": ["Durban"],
-  "guerrero": ["Guerrero Green"],
-  "hindu-kush": ["Kush"],
-  "ketama": ["Ketama Gold"],
-  "kona-gold": ["Kona"],
-  "kullu-valley": ["Kullu", "Kulu"],
-  "lambs-bread": ["Lamb's Breath", "Lambsbread"],
-  "lao": ["Laotian"],
-  "lebanese": ["Leb"],
-  "lebanese-blonde": ["Blonde Lebanese", "Blond Leb"],
-  "lebanese-red": ["Red Lebanese", "Red Leb"],
-  "malana": ["Malana Cream"],
-  "malawi": ["Malawi Gold", "Chamba"],
-  "maui-wowie": ["Maui Waui", "Maui"],
-  "mazar-i-sharif": ["Mazar"],
-  "meo-thai": ["Meo"],
-  "michoacan": ["Michoacan Gold"],
-  "moroccan-rif": ["Rif", "Rifian"],
-  "mullumbimby-madness": ["Mullumbimby"],
-  "nepalese-highland": ["Nepalese", "Nepal"],
-  "oaxaca": ["Oaxacan", "Oaxacan Gold"],
-  "pamir-gold": ["Pamir"],
-  "panama-red": ["Panama"],
-  "parvati-valley-complex": ["Parvati Valley"],
-  "road-kill-skunk": ["RKS", "Roadkill Skunk"],
-  "santa-marta-gold": ["Colombian Gold"],
-  "swazi-gold": ["Swazi", "Swaziland Gold"],
-  "thai-highland": ["Thai", "Thai Stick"],
-  "zacatecas-purple": ["Zacatecas"]
+  "acapulco-gold": [
+    "Acapulco"
+  ],
+  "aceh": [
+    "Atjeh"
+  ],
+  "afghani": [
+    "Afghan"
+  ],
+  "blue-mountain-jamaica": [
+    "Blue Mountain"
+  ],
+  "cambodian-native": [
+    "Cambodian"
+  ],
+  "chitral": [
+    "Chitral Kush"
+  ],
+  "chocolate-thai": [
+    "Choc Thai"
+  ],
+  "durban-basin": [
+    "Durban"
+  ],
+  "guerrero": [
+    "Guerrero Green"
+  ],
+  "hindu-kush": [
+    "Kush"
+  ],
+  "ketama": [
+    "Ketama Gold"
+  ],
+  "kona-gold": [
+    "Kona"
+  ],
+  "kullu-valley": [
+    "Kullu",
+    "Kulu"
+  ],
+  "lambs-bread": [
+    "Lamb's Breath",
+    "Lambsbread"
+  ],
+  "lao": [
+    "Laotian"
+  ],
+  "lebanese": [
+    "Leb"
+  ],
+  "lebanese-blonde": [
+    "Blonde Lebanese",
+    "Blond Leb"
+  ],
+  "lebanese-red": [
+    "Red Lebanese",
+    "Red Leb"
+  ],
+  "malana": [
+    "Malana Cream"
+  ],
+  "malawi": [
+    "Malawi Gold",
+    "Chamba"
+  ],
+  "maui-wowie": [
+    "Maui Waui",
+    "Maui"
+  ],
+  "mazar-i-sharif": [
+    "Mazar"
+  ],
+  "meo-thai": [
+    "Meo"
+  ],
+  "michoacan": [
+    "Michoacan Gold"
+  ],
+  "moroccan-rif": [
+    "Rif",
+    "Rifian"
+  ],
+  "mullumbimby-madness": [
+    "Mullumbimby"
+  ],
+  "nepalese-highland": [
+    "Nepalese",
+    "Nepal"
+  ],
+  "oaxaca": [
+    "Oaxacan",
+    "Oaxacan Gold"
+  ],
+  "pamir-gold": [
+    "Pamir"
+  ],
+  "panama-red": [
+    "Panama"
+  ],
+  "parvati-valley-complex": [
+    "Parvati Valley"
+  ],
+  "road-kill-skunk": [
+    "RKS",
+    "Roadkill Skunk"
+  ],
+  "santa-marta-gold": [
+    "Colombian Gold"
+  ],
+  "swazi-gold": [
+    "Swazi",
+    "Swaziland Gold"
+  ],
+  "thai-highland": [
+    "Thai",
+    "Thai Stick"
+  ],
+  "zacatecas-purple": [
+    "Zacatecas"
+  ],
+  "guatemala-highlands": [
+    "Guatemala"
+  ],
+  "kandahar-paktia": [
+    "Kandahar"
+  ],
+  "kazakhstan-steppe": [
+    "Kazakhstan"
+  ],
+  "namibian-wild": [
+    "Namibia"
+  ],
+  "siberia-altai": [
+    "Siberia"
+  ],
+  "lesotho-highland": [
+    "Lesotho"
+  ],
+  "vietnam-central-highlands": [
+    "Vietnam"
+  ],
+  "guinea-bissau-mangrove": [
+    "Guinea Bissau"
+  ],
+  "brazil-amazon-frontier": [
+    "Brazil Amazon"
+  ],
+  "mongolian-steppe": [
+    "Mongolia"
+  ]
 }
