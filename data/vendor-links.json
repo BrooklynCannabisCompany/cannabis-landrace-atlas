@@ -11,6 +11,18 @@
         "product": "Afghanistan",
         "url": "https://www.tltseeds.com/afghanistan/"
       }
+    ],
+    "references": [
+      {
+        "label": "Weedmaps — Afghani",
+        "url": "https://weedmaps.com/strains/afghani"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Afghan landraces (Overgrow)",
+        "url": "https://overgrow.com/t/afghan-landraces/91845"
+      }
     ]
   },
   "balkh-region-hashplant": {
@@ -326,6 +338,22 @@
         "product": "Malawi Gold",
         "url": "https://www.tltseeds.com/malawi-gold-2/"
       }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Malawi Gold",
+        "url": "https://www.leafly.com/strains/malawi-gold"
+      },
+      {
+        "label": "SeedFinder — Malawi Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/malawi-gold/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Malawi Gold Indoor & Outdoor Grow Journal 2022 (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/malawi-gold-indoor-and-outdoor-grow-journal-2022.512531/"
+      }
     ]
   },
   "malana": {
@@ -509,7 +537,18 @@
         "product": "Swazi Gold",
         "url": "https://www.tltseeds.com/swazi-gold/"
       }
-    ]
+    ],
+    "references": [
+      {
+        "label": "Leafly — Swazi Gold",
+        "url": "https://www.leafly.com/strains/swazi-gold"
+      },
+      {
+        "label": "SeedFinder — Swazi Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/swazi-gold/the-landrace-team"
+      }
+    ],
+    "forums": []
   },
   "acapulco-gold": {
     "seed": [
@@ -517,6 +556,22 @@
         "vendor": "TLT Seeds",
         "product": "Acapulco Gold",
         "url": "https://www.tltseeds.com/acapulco-gold/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Acapulco Gold",
+        "url": "https://www.leafly.com/strains/acapulco-gold"
+      },
+      {
+        "label": "SeedFinder — Acapulco Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/acapulco-gold/the-landrace-team"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Acapulco Gold landrace (Rollitup)",
+        "url": "https://www.rollitup.org/t/acapulco-gold-landrace.781483/"
       }
     ]
   },
@@ -685,6 +740,22 @@
         "product": "Panama Red",
         "url": "https://www.tltseeds.com/panama-red/"
       }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Panama Red",
+        "url": "https://www.leafly.com/strains/panama-red"
+      },
+      {
+        "label": "Weedmaps — Panama Red",
+        "url": "https://weedmaps.com/strains/panama-red"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Panama Red strain — which would you grow (Overgrow)",
+        "url": "https://overgrow.com/t/panama-red-strain-which-would-you-grow/55009"
+      }
     ]
   },
   "nigerian": {
@@ -732,5 +803,86 @@
         "url": "https://www.tltseeds.com/mongolia/"
       }
     ]
+  },
+  "durban-basin": {
+    "references": [
+      {
+        "label": "Leafly — Durban Poison",
+        "url": "https://www.leafly.com/strains/durban-poison"
+      },
+      {
+        "label": "SeedFinder — Durban Poison (Landrace Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/durban-poison/landrace-seeds"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Landrace Durban Poison Outdoor Grow (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/landrace-durban-poison-outdoor-grow.459555/"
+      }
+    ]
+  },
+  "hindu-kush": {
+    "references": [
+      {
+        "label": "Weedmaps — Hindu Kush",
+        "url": "https://weedmaps.com/strains/hindu-kush"
+      },
+      {
+        "label": "SeedFinder — Hindu Kush",
+        "url": "https://seedfinder.eu/en/strain-info/hindu-kush"
+      }
+    ],
+    "forums": [
+      {
+        "label": "MasterKush, Hindu Kush, Afghan Kush — Kush valley Landraces (ICMag)",
+        "url": "https://www.icmag.com/threads/masterkush-hindu-kush-afghan-kush-kush-valley-landraces.248257/"
+      }
+    ]
+  },
+  "chocolate-thai": {
+    "references": [
+      {
+        "label": "Leafly — Chocolate Thai",
+        "url": "https://www.leafly.com/strains/chocolate-thai"
+      },
+      {
+        "label": "SeedFinder — Chocolate Thai",
+        "url": "https://seedfinder.eu/en/strain-info/chocolate-thai/unknown-or-legendary"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Chocolate Thai — Landrace Team (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/chocolate-thai-landrace-team.157254/"
+      }
+    ]
+  },
+  "lambs-bread": {
+    "references": [
+      {
+        "label": "Leafly — Lamb’s Bread",
+        "url": "https://www.leafly.com/strains/lamb-s-bread"
+      },
+      {
+        "label": "SeedFinder — Lambs Bread",
+        "url": "https://seedfinder.eu/en/strain-info/lambs-bread/united-cannabis-seeds"
+      }
+    ],
+    "forums": [
+      {
+        "label": "Jamaican lambsbread (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-lambsbread.216089/"
+      }
+    ]
+  },
+  "oaxaca": {
+    "references": [
+      {
+        "label": "SeedFinder — Oaxaca Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/oaxaca-gold/the-landrace-team"
+      }
+    ],
+    "forums": []
   }
 }

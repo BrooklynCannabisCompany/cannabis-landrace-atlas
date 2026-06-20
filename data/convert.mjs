@@ -102,6 +102,7 @@ for (const file of FILES) {
       seedSources: (vendorLinks[id] && vendorLinks[id].seed) || [],
       photos: (vendorLinks[id] && vendorLinks[id].photo) ? [vendorLinks[id].photo] : [],
       forums: (vendorLinks[id] && vendorLinks[id].forums) || [],
+      references: (vendorLinks[id] && vendorLinks[id].references) || [],
       links: []
     });
   }

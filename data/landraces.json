@@ -24,6 +24,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -51,6 +52,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -78,6 +80,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -105,6 +108,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -132,6 +136,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -159,6 +164,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -186,6 +192,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -213,6 +220,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -240,6 +248,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -267,6 +276,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -302,6 +312,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -329,6 +340,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -357,7 +369,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Landrace Durban Poison Outdoor Grow (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/landrace-durban-poison-outdoor-grow.459555/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Durban Poison",
+        "url": "https://www.leafly.com/strains/durban-poison"
+      },
+      {
+        "label": "SeedFinder — Durban Poison (Landrace Seeds)",
+        "url": "https://seedfinder.eu/en/strain-info/durban-poison/landrace-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -385,6 +412,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -412,6 +440,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -439,6 +468,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -466,6 +496,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -493,6 +524,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -528,6 +560,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -555,6 +588,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -582,6 +616,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -609,6 +644,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -636,6 +672,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -663,6 +700,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -696,6 +734,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -731,6 +770,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -758,6 +798,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -791,6 +832,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -824,6 +866,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -864,7 +907,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Malawi Gold Indoor & Outdoor Grow Journal 2022 (420 Magazine)",
+        "url": "https://www.420magazine.com/community/threads/malawi-gold-indoor-and-outdoor-grow-journal-2022.512531/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Malawi Gold",
+        "url": "https://www.leafly.com/strains/malawi-gold"
+      },
+      {
+        "label": "SeedFinder — Malawi Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/malawi-gold/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -892,6 +950,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -925,6 +984,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -952,6 +1012,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -979,6 +1040,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1014,6 +1076,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1057,6 +1120,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1084,6 +1148,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1111,6 +1176,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1138,6 +1204,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1165,6 +1232,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1192,6 +1260,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1219,6 +1288,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1246,6 +1316,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1273,6 +1344,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1300,6 +1372,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1327,6 +1400,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1354,6 +1428,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1390,6 +1465,16 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [
+      {
+        "label": "Leafly — Swazi Gold",
+        "url": "https://www.leafly.com/strains/swazi-gold"
+      },
+      {
+        "label": "SeedFinder — Swazi Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/swazi-gold/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -1417,6 +1502,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1454,6 +1540,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1481,6 +1568,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1508,6 +1596,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1541,6 +1630,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1568,6 +1658,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1607,7 +1698,18 @@
       }
     ],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Afghan landraces (Overgrow)",
+        "url": "https://overgrow.com/t/afghan-landraces/91845"
+      }
+    ],
+    "references": [
+      {
+        "label": "Weedmaps — Afghani",
+        "url": "https://weedmaps.com/strains/afghani"
+      }
+    ],
     "links": []
   },
   {
@@ -1635,6 +1737,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1662,6 +1765,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1689,6 +1793,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1716,6 +1821,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1743,6 +1849,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1770,6 +1877,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1797,6 +1905,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1830,6 +1939,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1863,6 +1973,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1890,6 +2001,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1917,6 +2029,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1944,6 +2057,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1971,6 +2085,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -1998,6 +2113,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2025,6 +2141,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2065,6 +2182,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2092,6 +2210,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2119,6 +2238,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2146,6 +2266,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2184,6 +2305,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2211,6 +2333,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2238,6 +2361,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2265,6 +2389,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2292,6 +2417,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2319,6 +2445,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2346,6 +2473,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2373,6 +2501,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2406,6 +2535,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2434,7 +2564,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "MasterKush, Hindu Kush, Afghan Kush — Kush valley Landraces (ICMag)",
+        "url": "https://www.icmag.com/threads/masterkush-hindu-kush-afghan-kush-kush-valley-landraces.248257/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Weedmaps — Hindu Kush",
+        "url": "https://weedmaps.com/strains/hindu-kush"
+      },
+      {
+        "label": "SeedFinder — Hindu Kush",
+        "url": "https://seedfinder.eu/en/strain-info/hindu-kush"
+      }
+    ],
     "links": []
   },
   {
@@ -2462,6 +2607,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2507,6 +2653,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2540,6 +2687,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2567,6 +2715,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2594,6 +2743,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2639,6 +2789,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2666,6 +2817,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2693,6 +2845,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2728,6 +2881,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2763,6 +2917,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2790,6 +2945,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2817,6 +2973,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2844,6 +3001,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2871,6 +3029,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2898,6 +3057,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2925,6 +3085,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2952,6 +3113,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -2979,6 +3141,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3029,6 +3192,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3059,6 +3223,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3089,6 +3254,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3116,6 +3282,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3143,6 +3310,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3170,6 +3338,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3210,6 +3379,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3246,6 +3416,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3273,6 +3444,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3300,6 +3472,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3327,6 +3500,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3356,6 +3530,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3383,6 +3558,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3421,6 +3597,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3448,6 +3625,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3475,6 +3653,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3502,6 +3681,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3535,6 +3715,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3562,6 +3743,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3595,6 +3777,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3622,6 +3805,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3655,6 +3839,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3682,6 +3867,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3709,6 +3895,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3736,6 +3923,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3763,6 +3951,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3790,6 +3979,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3817,6 +4007,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3844,6 +4035,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3877,6 +4069,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3904,6 +4097,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3931,6 +4125,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3958,6 +4153,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -3985,6 +4181,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4012,6 +4209,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4039,6 +4237,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4066,6 +4265,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4093,6 +4293,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4120,6 +4321,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4147,6 +4349,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4174,6 +4377,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4212,6 +4416,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4239,6 +4444,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4266,6 +4472,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4293,6 +4500,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4320,6 +4528,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4347,6 +4556,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4374,6 +4584,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4401,6 +4612,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4428,6 +4640,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4461,6 +4674,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4501,6 +4715,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4528,6 +4743,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4561,6 +4777,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4588,6 +4805,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4646,6 +4864,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4673,6 +4892,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4700,6 +4920,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4730,6 +4951,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4763,6 +4985,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4790,6 +5013,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4825,6 +5049,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4852,6 +5077,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4885,6 +5111,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4912,6 +5139,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4939,6 +5167,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -4972,6 +5201,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5018,6 +5248,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5045,6 +5276,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5083,6 +5315,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5119,6 +5352,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5146,6 +5380,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5179,6 +5414,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5206,6 +5442,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5233,6 +5470,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5260,6 +5498,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5287,6 +5526,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5314,6 +5554,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5341,6 +5582,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5368,6 +5610,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5395,6 +5638,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5422,6 +5666,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5451,6 +5696,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5478,6 +5724,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5505,6 +5752,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5532,6 +5780,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5559,6 +5808,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5592,6 +5842,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5619,6 +5870,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5648,6 +5900,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5675,6 +5928,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5702,6 +5956,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5729,6 +5984,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5757,7 +6013,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Chocolate Thai — Landrace Team (THCFarmer)",
+        "url": "https://www.thcfarmer.com/threads/chocolate-thai-landrace-team.157254/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Chocolate Thai",
+        "url": "https://www.leafly.com/strains/chocolate-thai"
+      },
+      {
+        "label": "SeedFinder — Chocolate Thai",
+        "url": "https://seedfinder.eu/en/strain-info/chocolate-thai/unknown-or-legendary"
+      }
+    ],
     "links": []
   },
   {
@@ -5785,6 +6056,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5812,6 +6084,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5845,6 +6118,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5878,6 +6152,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5905,6 +6180,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5938,6 +6214,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5965,6 +6242,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -5998,6 +6276,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6025,6 +6304,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6060,6 +6340,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6087,6 +6368,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6114,6 +6396,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6143,6 +6426,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6170,6 +6454,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6197,6 +6482,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6224,6 +6510,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6251,6 +6538,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6278,6 +6566,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6305,6 +6594,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6332,6 +6622,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6359,6 +6650,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6386,6 +6678,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6413,6 +6706,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6440,6 +6734,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6467,6 +6762,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6494,6 +6790,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6530,6 +6827,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6557,6 +6855,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6592,6 +6891,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6619,6 +6919,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6646,6 +6947,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6673,6 +6975,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6700,6 +7003,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6727,6 +7031,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6754,6 +7059,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6781,6 +7087,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6808,6 +7115,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6835,6 +7143,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6862,6 +7171,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6889,6 +7199,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6916,6 +7227,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6943,6 +7255,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6970,6 +7283,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -6997,6 +7311,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7024,6 +7339,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7051,6 +7367,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7078,6 +7395,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7105,6 +7423,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7140,6 +7459,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7167,6 +7487,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7194,6 +7515,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7221,6 +7543,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7248,6 +7571,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7275,6 +7599,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7302,6 +7627,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7329,6 +7655,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7356,6 +7683,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7383,6 +7711,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7410,6 +7739,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7445,6 +7775,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7472,6 +7803,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7499,6 +7831,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7526,6 +7859,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7553,6 +7887,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7580,6 +7915,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7607,6 +7943,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7634,6 +7971,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7661,6 +7999,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7688,6 +8027,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7715,6 +8055,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7742,6 +8083,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7769,6 +8111,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7804,6 +8147,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7831,6 +8175,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7858,6 +8203,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7885,6 +8231,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7912,6 +8259,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7939,6 +8287,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7966,6 +8315,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -7993,6 +8343,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8020,6 +8371,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8047,6 +8399,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8074,6 +8427,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8101,6 +8455,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8128,6 +8483,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8161,6 +8517,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8188,6 +8545,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8215,6 +8573,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8242,6 +8601,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8269,6 +8629,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8304,6 +8665,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8333,6 +8695,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8360,6 +8723,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8387,6 +8751,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8414,6 +8779,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8441,6 +8807,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8470,7 +8837,22 @@
     "incomplete": false,
     "seedSources": [],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Jamaican lambsbread (ICMag)",
+        "url": "https://www.icmag.com/threads/jamaican-lambsbread.216089/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Lamb’s Bread",
+        "url": "https://www.leafly.com/strains/lamb-s-bread"
+      },
+      {
+        "label": "SeedFinder — Lambs Bread",
+        "url": "https://seedfinder.eu/en/strain-info/lambs-bread/united-cannabis-seeds"
+      }
+    ],
     "links": []
   },
   {
@@ -8498,6 +8880,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8525,6 +8908,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8552,6 +8936,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8579,6 +8964,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8606,6 +8992,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8639,6 +9026,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8675,6 +9063,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8702,6 +9091,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8729,6 +9119,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8758,6 +9149,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8785,6 +9177,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8812,6 +9205,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8839,6 +9233,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8869,6 +9264,12 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [
+      {
+        "label": "SeedFinder — Oaxaca Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/oaxaca-gold/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -8903,7 +9304,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Panama Red strain — which would you grow (Overgrow)",
+        "url": "https://overgrow.com/t/panama-red-strain-which-would-you-grow/55009"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Panama Red",
+        "url": "https://www.leafly.com/strains/panama-red"
+      },
+      {
+        "label": "Weedmaps — Panama Red",
+        "url": "https://weedmaps.com/strains/panama-red"
+      }
+    ],
     "links": []
   },
   {
@@ -8931,6 +9347,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8958,6 +9375,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -8985,6 +9403,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9012,6 +9431,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9039,6 +9459,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9066,6 +9487,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9093,6 +9515,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9131,6 +9554,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9158,6 +9582,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9185,6 +9610,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9212,6 +9638,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9239,6 +9666,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9268,6 +9696,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9295,6 +9724,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9322,6 +9752,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9349,6 +9780,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9376,6 +9808,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9403,6 +9836,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9430,6 +9864,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9457,6 +9892,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9484,6 +9920,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9511,6 +9948,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9538,6 +9976,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9567,6 +10006,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9594,6 +10034,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9621,6 +10062,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9648,6 +10090,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9675,6 +10118,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9702,6 +10146,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9729,6 +10174,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9756,6 +10202,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9783,6 +10230,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9810,6 +10258,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9837,6 +10286,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9870,6 +10320,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9897,6 +10348,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9924,6 +10376,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9951,6 +10404,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -9978,6 +10432,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10005,6 +10460,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10032,6 +10488,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10059,6 +10516,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10086,6 +10544,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10119,6 +10578,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10162,6 +10622,7 @@
     ],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10189,6 +10650,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10216,6 +10678,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10243,6 +10706,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10270,6 +10734,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10297,6 +10762,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10324,6 +10790,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10351,6 +10818,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10378,6 +10846,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10405,6 +10874,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10432,6 +10902,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10459,6 +10930,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10486,6 +10958,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10513,6 +10986,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10547,7 +11021,22 @@
       }
     ],
     "photos": [],
-    "forums": [],
+    "forums": [
+      {
+        "label": "Acapulco Gold landrace (Rollitup)",
+        "url": "https://www.rollitup.org/t/acapulco-gold-landrace.781483/"
+      }
+    ],
+    "references": [
+      {
+        "label": "Leafly — Acapulco Gold",
+        "url": "https://www.leafly.com/strains/acapulco-gold"
+      },
+      {
+        "label": "SeedFinder — Acapulco Gold (The Landrace Team)",
+        "url": "https://seedfinder.eu/en/strain-info/acapulco-gold/the-landrace-team"
+      }
+    ],
     "links": []
   },
   {
@@ -10575,6 +11064,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10602,6 +11092,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10629,6 +11120,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10658,6 +11150,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10685,6 +11178,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10712,6 +11206,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10739,6 +11234,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10766,6 +11262,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10793,6 +11290,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10820,6 +11318,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10847,6 +11346,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10874,6 +11374,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10901,6 +11402,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10928,6 +11430,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10955,6 +11458,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -10982,6 +11486,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11009,6 +11514,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11038,6 +11544,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11065,6 +11572,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11092,6 +11600,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11119,6 +11628,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11146,6 +11656,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11173,6 +11684,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11200,6 +11712,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11227,6 +11740,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11254,6 +11768,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11284,6 +11799,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11311,6 +11827,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11338,6 +11855,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11365,6 +11883,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11392,6 +11911,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11419,6 +11939,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11446,6 +11967,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11473,6 +11995,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11500,6 +12023,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11527,6 +12051,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11554,6 +12079,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11581,6 +12107,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11608,6 +12135,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11635,6 +12163,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11662,6 +12191,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11689,6 +12219,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11716,6 +12247,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11743,6 +12275,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11770,6 +12303,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11797,6 +12331,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11824,6 +12359,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11851,6 +12387,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11878,6 +12415,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11905,6 +12443,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11934,6 +12473,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11961,6 +12501,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -11988,6 +12529,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12015,6 +12557,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12042,6 +12585,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12069,6 +12613,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12096,6 +12641,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12123,6 +12669,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12150,6 +12697,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12180,6 +12728,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12210,6 +12759,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12237,6 +12787,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12264,6 +12815,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12291,6 +12843,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12318,6 +12871,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12345,6 +12899,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12372,6 +12927,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12399,6 +12955,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12426,6 +12983,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12453,6 +13011,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12480,6 +13039,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12507,6 +13067,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12534,6 +13095,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12561,6 +13123,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12588,6 +13151,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12615,6 +13179,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12642,6 +13207,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12669,6 +13235,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   },
   {
@@ -12696,6 +13263,7 @@
     "seedSources": [],
     "photos": [],
     "forums": [],
+    "references": [],
     "links": []
   }
 ]
