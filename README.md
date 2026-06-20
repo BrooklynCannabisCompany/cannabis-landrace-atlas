@@ -14,18 +14,7 @@ npm run serve          # starts python3 -m http.server 8000
 
 Open http://localhost:8000 in your browser.
 
-**There is no build step and no backend.** Everything is plain static files — HTML, CSS, vanilla JS, and JSON. The only command you need to browse the map locally is `npm run serve` (or any static file server you prefer).
-
-## Deploy (free hosting via GitHub Pages)
-
-Because the site is fully static with **relative asset paths**, it can be served as-is from GitHub Pages at no cost — including under a project subpath (e.g. `https://<org>.github.io/<repo>/`).
-
-1. Push this repository to GitHub.
-2. In the repo: **Settings → Pages**.
-3. Under **Build and deployment**, set **Source: Deploy from a branch**, **Branch: `master`** and **folder: `/ (root)`**, then **Save**.
-4. Wait ~1 minute; the public URL appears at the top of the Pages settings. It redeploys automatically on every push to `master`.
-
-No configuration files are required — there is no build step, so the repository contents are served directly. (Cloudflare Pages and Netlify work the same way if you prefer a root-domain URL: connect the repo, leave the build command empty, and set the publish directory to the repository root.)
+**There is no build step and no backend.** Everything is plain static files — HTML, CSS, vanilla JS, and JSON. The only command you need to browse the map locally is `npm run serve` (or any static file server you prefer). Because all asset paths are relative, the site can be served as-is from any static host.
 
 ### Other commands
 

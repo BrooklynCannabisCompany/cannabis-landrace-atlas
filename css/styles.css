@@ -207,6 +207,9 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink);
 }
 .submit-form textarea { resize: vertical; }
+.weeks-row { display: flex; align-items: center; gap: 8px; }
+.weeks-row input { width: 5em; }
+.weeks-row .submit-label { margin: 0; }
 .submit-form .panel-submit { margin-top: 6px; align-self: flex-start; }
 
 /* Related-variety exploration links */

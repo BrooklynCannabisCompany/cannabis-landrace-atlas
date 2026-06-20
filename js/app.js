@@ -341,14 +341,15 @@ function repoLink(text) {
   return a;
 }
 
-// Fixed-value fields get a dropdown; everything else is free text.
+// Fixed-value fields get a dropdown; combo fields get a free-text input with suggestions.
 const SUBMIT_OPTIONS = {
   continent: ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia'],
   climate: ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown'],
   morphotype: ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified'],
   chemotype: ['I', 'II', 'III', 'IV', 'V'],
   domestication: ['Domesticated', 'Heirloom', 'Feral (escaped)', 'Wild'],
-  category: ['Sativa', 'Indica', 'Ruderalis', 'Hybrid-Intermediate', 'Hemp', 'Feral', 'Mixed']
+  category: ['Sativa', 'Indica', 'Ruderalis', 'Hybrid-Intermediate', 'Hemp', 'Feral', 'Mixed'],
+  height: ['Short', 'Medium-short', 'Medium', 'Medium-tall', 'Tall', 'Very tall', 'Extremely tall']
 };
 const SUBMIT_FIELDS = [
   ['name', 'Name', 'text'],
@@ -362,17 +363,48 @@ const SUBMIT_FIELDS = [
   ['domestication', 'Domestication', 'select'],
   ['category', 'Type (vernacular)', 'select'],
   ['type', 'Type descriptor', 'text'],
-  ['height', 'Height', 'text'],
-  ['flowering', 'Flowering Time', 'text'],
-  ['lat', 'Latitude', 'text'],
-  ['lng', 'Longitude', 'text'],
-  ['description', 'Description / notes', 'textarea'],
+  ['height', 'Height', 'combo'],
+  ['flowering', 'Flowering Time', 'weeks'],
+  ['lat', 'Latitude', 'number'],
+  ['lng', 'Longitude', 'number'],
+  ['overview', 'Overview', 'textarea'],
+  ['history', 'History', 'textarea'],
+  ['description', 'Description', 'textarea'],
+  ['grow', 'Grow Information', 'textarea'],
   ['sources', 'Sources (required — real, verifiable links)', 'textarea']
 ];
+// Long-form sections rendered as headed blocks in the issue (not "**Label:** value").
+const PROSE_KEYS = new Set(['overview', 'history', 'description', 'grow', 'sources']);
 
-function prefillFrom(strain) {
-  if (!strain) return {};
+// Parses a flowering value ("7–9w", "8 weeks") into { min, max } strings.
+function parseWeeks(f) {
+  const r = String(f || '').match(/(\d+)\s*[–-]\s*(\d+)/);
+  if (r) return { min: r[1], max: r[2] };
+  const s = String(f || '').match(/(\d+)/);
+  return s ? { min: s[1], max: '' } : { min: '', max: '' };
+}
+
+// Fetches a write-up and extracts the four prose sections (for correction prefill).
+async function fetchWriteupSections(id) {
+  try {
+    const res = await fetch(`data/writeups/${id}.md`);
+    if (!res.ok) return {};
+    const md = await res.text();
+    const sec = (name) => {
+      const m = md.match(new RegExp(`^## ${name}[ \\t]*\\n([\\s\\S]*?)(?=^## |$(?![\\s\\S]))`, 'm'));
+      return m ? m[1].trim() : '';
+    };
+    return { overview: sec('Overview'), history: sec('History'), description: sec('Description'), grow: sec('Grow Information') };
+  } catch { return {}; }
+}
+
+function prefillFrom(strain, sections) {
+  const base = {
+    overview: '', history: '', description: '', grow: '', sources: '', ...(sections || {})
+  };
+  if (!strain) return base;
   return {
+    ...base,
     name: strain.name, aka: (strain.aka || []).join(', '), continent: strain.continent,
     country: strain.country, region: strain.region, climate: strain.climate,
     morphotype: strain.morphotype, chemotype: strain.chemotype, domestication: strain.domestication,
@@ -381,9 +413,20 @@ function prefillFrom(strain) {
   };
 }
 
+function readField(type, ref) {
+  if (type === 'weeks') {
+    const lo = ref.min.value.trim();
+    const hi = ref.max.value.trim();
+    if (lo && hi) return `${lo}–${hi} weeks`;
+    if (lo) return `${lo} weeks`;
+    return '';
+  }
+  return ref.value.trim();
+}
+
 // Builds the add/correction form (mirrors the variety panel) and files an issue on submit.
-function buildSubmissionForm(body, mode, strain) {
-  const pre = prefillFrom(strain);
+function buildSubmissionForm(body, mode, strain, sections) {
+  const pre = prefillFrom(strain, sections);
   const intro = document.createElement('p');
   intro.className = 'modal-note';
   intro.textContent = mode === 'correct'
@@ -398,9 +441,9 @@ function buildSubmissionForm(body, mode, strain) {
     const span = document.createElement('span');
     span.className = 'submit-label';
     span.textContent = label;
-    let field;
+    wrap.appendChild(span);
     if (type === 'select') {
-      field = document.createElement('select');
+      const field = document.createElement('select');
       const blank = document.createElement('option');
       blank.value = ''; blank.textContent = '—';
       field.appendChild(blank);
@@ -409,16 +452,42 @@ function buildSubmissionForm(body, mode, strain) {
         op.value = o; op.textContent = o;
         field.appendChild(op);
       }
+      if (pre[key] != null) field.value = pre[key];
+      fields[key] = field; wrap.appendChild(field);
+    } else if (type === 'combo') {
+      const field = document.createElement('input');
+      field.type = 'text'; field.setAttribute('list', `dl-${key}`);
+      const dl = document.createElement('datalist'); dl.id = `dl-${key}`;
+      for (const o of (SUBMIT_OPTIONS[key] || [])) {
+        const op = document.createElement('option'); op.value = o; dl.appendChild(op);
+      }
+      if (pre[key] != null) field.value = pre[key];
+      fields[key] = field; wrap.append(field, dl);
+    } else if (type === 'weeks') {
+      const row = document.createElement('div'); row.className = 'weeks-row';
+      const lo = document.createElement('input'); lo.type = 'number'; lo.min = '1'; lo.placeholder = 'min';
+      const hi = document.createElement('input'); hi.type = 'number'; hi.min = '1'; hi.placeholder = 'max';
+      const unit = document.createElement('span'); unit.className = 'submit-label'; unit.textContent = 'weeks';
+      const pw = parseWeeks(pre.flowering);
+      lo.value = pw.min; hi.value = pw.max;
+      row.append(lo, document.createTextNode(' – '), hi, unit);
+      fields[key] = { min: lo, max: hi }; wrap.appendChild(row);
+    } else if (type === 'number') {
+      const field = document.createElement('input');
+      field.type = 'number'; field.step = 'any';
+      if (pre[key] != null) field.value = pre[key];
+      fields[key] = field; wrap.appendChild(field);
     } else if (type === 'textarea') {
-      field = document.createElement('textarea');
-      field.rows = 3;
+      const field = document.createElement('textarea');
+      field.rows = PROSE_KEYS.has(key) ? 4 : 3;
+      if (pre[key] != null) field.value = pre[key];
+      fields[key] = field; wrap.appendChild(field);
     } else {
-      field = document.createElement('input');
+      const field = document.createElement('input');
       field.type = 'text';
+      if (pre[key] != null) field.value = pre[key];
+      fields[key] = field; wrap.appendChild(field);
     }
-    if (pre[key] != null) field.value = pre[key];
-    fields[key] = field;
-    wrap.append(span, field);
     form.appendChild(wrap);
   }
   const submit = document.createElement('button');
@@ -428,17 +497,23 @@ function buildSubmissionForm(body, mode, strain) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const vals = {};
-    for (const k of Object.keys(fields)) vals[k] = fields[k].value.trim();
+    for (const [key, , type] of SUBMIT_FIELDS) vals[key] = readField(type, fields[key]);
     if (!vals.name) { window.alert('Name is required.'); return; }
     if (!vals.sources) { window.alert('Please cite at least one real, verifiable source.'); return; }
-    const lines = SUBMIT_FIELDS
-      .filter(([key]) => vals[key])
-      .map(([key, label]) => `**${label.replace(/\s*\(.*\)$/, '')}:** ${vals[key]}`);
+    const shortLines = [];
+    const blocks = [];
+    for (const [key, label, type] of SUBMIT_FIELDS) {
+      if (!vals[key]) continue;
+      const clean = label.replace(/\s*\(.*\)$/, '');
+      if (PROSE_KEYS.has(key)) blocks.push(`### ${clean}\n\n${vals[key]}`);
+      else shortLines.push(`**${clean}:** ${vals[key]}`);
+    }
+    const parts = [shortLines.join('\n'), ...blocks];
     if (mode === 'correct') {
-      const text = `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${lines.join('\n')}\n\n_Submitted via the Atlas correction form._`;
+      const text = `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas correction form._`;
       openIssue('update request', `Correction: ${strain.name}`, text);
     } else {
-      const text = `New variety submission.\n\n${lines.join('\n')}\n\n_Submitted via the Atlas add form._`;
+      const text = `New variety submission.\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas add form._`;
       openIssue('add request', `Add: ${vals.name}`, text);
     }
     closeModal();
@@ -448,7 +523,7 @@ function buildSubmissionForm(body, mode, strain) {
 }
 
 function openFeedbackSubmit() {
-  openContentModal('Suggest an Addition', (body) => buildSubmissionForm(body, 'add', null));
+  openContentModal('Suggest an Addition', (body) => buildSubmissionForm(body, 'add', null, {}));
 }
 
 // Contact form: feature request / bug report / general feedback -> labeled GitHub issue.
@@ -517,8 +592,9 @@ function openContactForm() {
     body.append(intro, form);
   });
 }
-function openStrainSubmit(strain) {
-  openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain));
+async function openStrainSubmit(strain) {
+  const sections = await fetchWriteupSections(strain.id);
+  openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain, sections));
 }
 function openSectionSubmit(strain, section) {
   const text = `Suggested **${section}** for **${strain.name}** (id: \`${strain.id}\`).\n\n`
