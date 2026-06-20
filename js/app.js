@@ -585,28 +585,41 @@ function makeDualSlider(absMin, absMax, onChange, initLo = absMin, initHi = absM
   return { wrap, update };
 }
 
-// Height facet: single-bar dual-thumb slider over the ordinal scale + live list.
-// When opened from a Height fact, both thumbs preset to that height so only it shows.
-function buildHeightSlider(facet, target) {
+// Height facet: a checkbox per height name (all on by default), since the heights are a
+// short discrete scale. The list shows varieties matching any checked height. Opened from
+// a Height fact/search, only that height is checked.
+function buildHeightChecks(facet, target) {
   const ranked = strains.map((s) => ({ s, r: heightRank(s.height) })).filter((x) => x.r >= 0);
-  const box = document.createElement('div'); box.className = 'slider-facet';
-  const label = document.createElement('div'); label.className = 'height-range-label';
-  const listHost = document.createElement('div');
-  let initLo = 0; let initHi = HEIGHT_SCALE.length - 1;
+  const counts = HEIGHT_SCALE.map((_, i) => ranked.filter((x) => x.r === i).length);
+  let only = -1;
   if (target && target.facet === 'Height' && target.value) {
     const r = heightRank(target.value);
-    if (r >= 0) { initLo = r; initHi = r; }
+    if (r >= 0) only = r;
   }
-  const ds = makeDualSlider(0, HEIGHT_SCALE.length - 1, (lo, hi) => {
-    label.textContent = `${HEIGHT_SCALE[lo]} – ${HEIGHT_SCALE[hi]}`;
-    const matched = ranked.filter((x) => x.r >= lo && x.r <= hi).map((x) => x.s);
+  const box = document.createElement('div'); box.className = 'slider-facet';
+  const checks = document.createElement('div'); checks.className = 'height-checks';
+  const listHost = document.createElement('div');
+  const boxes = [];
+  HEIGHT_SCALE.forEach((name, i) => {
+    const lab = document.createElement('label'); lab.className = 'height-check';
+    const cb = document.createElement('input'); cb.type = 'checkbox';
+    cb.checked = only < 0 ? true : i === only;
+    cb.disabled = counts[i] === 0;
+    cb.addEventListener('change', render);
+    lab.append(cb, document.createTextNode(` ${name} (${counts[i]})`));
+    checks.appendChild(lab);
+    boxes.push(cb);
+  });
+  function render() {
+    const on = boxes.map((b) => b.checked);
+    const matched = ranked.filter((x) => on[x.r]).map((x) => x.s);
     listHost.innerHTML = '';
     const count = document.createElement('p'); count.className = 'modal-note'; count.textContent = `${matched.length} varieties`;
     listHost.append(count, varietyLineList(matched));
-  }, initLo, initHi);
-  box.append(label, ds.wrap, listHost);
+  }
+  box.append(checks, listHost);
   facet.appendChild(box);
-  ds.update();
+  render();
 }
 
 // Parse a flowering descriptor into a week range, or null.
@@ -679,15 +692,15 @@ function openIndex(target) {
       facet.className = 'index-facet';
       const fkey = `facet:${label}`;
       facet.open = target ? (target.facet === label) : !!state[fkey];
-      const isSlider = label === 'Height' || label === 'Flowering Time';
-      // Scroll to the facet itself for slider facets (no value group) or a facet opened
+      const isRangeFacet = label === 'Height' || label === 'Flowering Time';
+      // Scroll to the facet itself for range facets (no value group) or a facet opened
       // without a specific value; otherwise the matching value group is the scroll target.
-      if (target && target.facet === label && (isSlider || !target.value)) facet.dataset.scrollTarget = '1';
+      if (target && target.facet === label && (isRangeFacet || !target.value)) facet.dataset.scrollTarget = '1';
       const fsum = document.createElement('summary');
       fsum.className = 'index-h1';
       fsum.textContent = label;
       facet.appendChild(fsum);
-      if (label === 'Height') buildHeightSlider(facet, target);
+      if (label === 'Height') buildHeightChecks(facet, target);
       else if (label === 'Flowering Time') buildFloweringSlider(facet, target);
       else buildValueGroups(facet, label, field, fmt, order, target, state);
       if (!target) facet.addEventListener('toggle', () => { const s = loadIndexState(); s[fkey] = facet.open; saveIndexState(s); });
@@ -707,6 +720,13 @@ function headingEntries() {
   const entries = [];
   for (const [label, field, fmt] of INDEX_FACETS) {
     entries.push({ facet: label, value: null, text: label });
+    if (label === 'Height') {
+      // Offer the clean height names (not the messy raw strings) so "Tall" jumps cleanly.
+      HEIGHT_SCALE.forEach((name, i) => {
+        if (strains.some((s) => heightRank(s.height) === i)) entries.push({ facet: label, value: name, text: name });
+      });
+      continue;
+    }
     const vals = new Set();
     for (const s of strains) { const v = (s[field] || '').toString().trim(); if (v) vals.add(v); }
     for (const v of vals) entries.push({ facet: label, value: v, text: fmt ? fmt(v) : v });

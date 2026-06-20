@@ -87,9 +87,14 @@ summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; p
 }
 .index-variety:hover { background: #eef0e9; }
 
-/* Range-slider facets (Height, Flowering Time) in the Index */
+/* Range/multi-select facets (Height, Flowering Time) in the Index */
 .slider-facet { margin: 6px 0 6px 16px; }
 .height-range-label { font-size: 13px; color: var(--green-dark); margin: 2px 0 6px; }
+/* Height: a checkbox per named height, shown across the top of the facet. */
+.height-checks { display: flex; flex-wrap: wrap; gap: 5px 14px; margin: 4px 0 10px; }
+.height-check { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: var(--green-dark); cursor: pointer; }
+.height-check input { cursor: pointer; margin: 0; }
+.height-check:has(input:disabled) { color: var(--muted); cursor: default; }
 .dual-slider { position: relative; height: 28px; margin: 2px 8px 6px 4px; }
 .ds-track { position: absolute; top: 12px; left: 0; right: 0; height: 4px; background: var(--line); border-radius: 2px; }
 .ds-fill { position: absolute; top: 0; bottom: 0; background: var(--green); border-radius: 2px; }
