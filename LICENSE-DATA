@@ -46,3 +46,13 @@ Note on write-ups
 The strain write-ups in data/writeups/ are AI-generated, unverified drafts.
 They are provided as a starting point only. Corrections and verified additions
 are welcome via the project's contribution process.
+
+Third-party map data
+--------------------
+The world map geometry in data/world.geojson is NOT part of the CC BY-SA dataset
+above. It is derived from Natural Earth (https://www.naturalearthdata.com/),
+whose vector map data is released into the public domain. "Made with Natural Earth."
+
+Map rendering uses the Leaflet library (data/../lib/leaflet/, BSD-2-Clause) and the
+marked Markdown renderer (lib/marked.min.js, MIT); each retains its own upstream
+license.

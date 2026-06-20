@@ -615,7 +615,11 @@ function openLicense() {
   openContentModal('License', (body) => {
     const dl = document.createElement('dl');
     dl.className = 'modal-dl';
-    for (const [t, d] of [['Code', 'MIT License.'], ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).']]) {
+    for (const [t, d] of [
+      ['Code', 'MIT License.'],
+      ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).'],
+      ['Map data', 'World geometry from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
+    ]) {
       const dt = document.createElement('dt'); dt.textContent = t;
       const dd = document.createElement('dd'); dd.textContent = d;
       dl.append(dt, dd);

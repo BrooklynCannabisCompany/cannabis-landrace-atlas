@@ -60,6 +60,7 @@ A few caveats:
 
 - **Coordinates are approximate** — strain origin regions are broad; markers represent rough centroids, not exact growing sites.
 - **Strain write-ups are AI-generated, unverified drafts.** They are a starting point, not authoritative references. Corrections are very welcome — see [Contributing](#contributing).
+- **World map geometry** (`data/world.geojson`) is derived from [Natural Earth](https://www.naturalearthdata.com/), whose map data is in the public domain ("Made with Natural Earth"). It is not covered by the dataset's CC BY-SA license. Map rendering uses [Leaflet](https://leafletjs.com/) (BSD-2-Clause) and [marked](https://github.com/markedjs/marked) (MIT), each under its own license.
 
 ---
 
