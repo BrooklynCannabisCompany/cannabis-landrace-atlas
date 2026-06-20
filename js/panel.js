@@ -140,7 +140,7 @@ export function renderStrain(container, strain, handlers = {}) {
     DOMESTICATION_DEF[strain.domestication], strain.domestication);
   facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet, null, strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
-  traitRow(dl, 'Flowering Time', weeksLabel(strain.flowering));
+  facetRow(dl, 'Flowering Time', 'flowering', weeksLabel(strain.flowering), onFacet, null, strain.flowering);
   if (dl.children.length) container.appendChild(dl);
 
   if (strain.coordsApproximate) {
