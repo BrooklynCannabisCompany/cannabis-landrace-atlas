@@ -6,11 +6,14 @@
 // appears instantly on hover/focus (unlike the browser's slow native `title`).
 
 let tipEl = null;
+let tipTarget = null; // element currently described by the tooltip
+const TIP_ID = 'cla-tooltip';
 
 function ensureTip() {
   if (!tipEl) {
     tipEl = document.createElement('div');
     tipEl.className = 'tooltip';
+    tipEl.id = TIP_ID;
     tipEl.setAttribute('role', 'tooltip');
     tipEl.hidden = true;
     document.body.appendChild(tipEl);
@@ -24,6 +27,8 @@ function showTip(target) {
   const tip = ensureTip();
   tip.textContent = text;
   tip.hidden = false;
+  target.setAttribute('aria-describedby', TIP_ID); // announce to screen readers
+  tipTarget = target;
   // Measure after content is set, then place above (flipping below if cramped).
   const r = target.getBoundingClientRect();
   const tr = tip.getBoundingClientRect();
@@ -39,6 +44,7 @@ function showTip(target) {
 
 function hideTip() {
   if (tipEl) tipEl.hidden = true;
+  if (tipTarget) { tipTarget.removeAttribute('aria-describedby'); tipTarget = null; }
 }
 
 // Wires global delegated listeners once. Any current or future [data-tip] works.
