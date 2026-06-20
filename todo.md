@@ -6,20 +6,13 @@ Snapshot of remaining and recommended work. The app is feature-complete and depl
 [`taxonomy-guide.md`](docs/taxonomy-guide.md),
 [`writeup-generation-guide.md`](docs/writeup-generation-guide.md).
 
-## In progress
-
-- **Forum + reference links for every variety.** Verified, strain-specific Forum
-  Discussions + References (Leafly / GrowDiaries / Weedmaps / SeedFinder) have been added
-  for the **34 best-known landraces** (batches 1–4, in `data/vendor-links.json`). The
-  recognizable tier is covered; the remaining ~410 are obscure regional populations with
-  sparse online coverage.
+Forum + reference link enrichment is **complete**: all 446 varieties were swept (every
+URL verified, 0 dead links), leaving **140 with at least one verified link** (124 with
+references, 110 with forum threads). The rest are obscure regional populations with no
+strain-specific sources online — fillable over time via the ⊕ submission buttons.
 
 ## Planned
 
-- **Background-agent long-tail sweep.** Run parallel agents to attempt forum/reference
-  links for the remaining ~410 varieties; add only real, strain-specific hits to
-  `data/vendor-links.json`, then `npm run convert`. (Needs the go-ahead to spawn agents;
-  expect many "no result" varieties.)
 - **Second, looser scrape-match pass.** Re-match the 262 queued entries in
   `data/strains-to-add.json` against the dataset, and decide which are genuinely new
   varieties worth adding.
