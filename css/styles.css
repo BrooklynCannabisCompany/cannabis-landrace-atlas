@@ -131,7 +131,7 @@ summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; p
   display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
   padding: 8px 10px; border-radius: 4px; cursor: pointer;
 }
-.search-result:hover, .search-result:focus { background: #eef0e9; outline: none; }
+.search-result:hover, .search-result:focus, .search-result.active { background: #eef0e9; outline: none; }
 .r-name { font-weight: 600; }
 .r-place { color: var(--muted); font-size: 12px; text-align: right; }
 .search-empty { padding: 8px 10px; color: var(--muted); }

@@ -255,8 +255,28 @@ function openListModal(title, list) {
 }
 
 // ---- Search ----
+let resultEls = [];   // current result <li>s, for keyboard navigation
+let activeIndex = -1; // highlighted result (aria-activedescendant), -1 = none
+
 function renderSearch(query) {
   showResults(matchHeadings(query), filterStrains(query, strains));
+}
+
+function setActiveResult(i) {
+  if (activeIndex >= 0 && resultEls[activeIndex]) {
+    resultEls[activeIndex].classList.remove('active');
+    resultEls[activeIndex].setAttribute('aria-selected', 'false');
+  }
+  activeIndex = i;
+  const el = resultEls[i];
+  if (el) {
+    el.classList.add('active');
+    el.setAttribute('aria-selected', 'true');
+    el.scrollIntoView({ block: 'nearest' });
+    input.setAttribute('aria-activedescendant', el.id);
+  } else {
+    input.removeAttribute('aria-activedescendant');
+  }
 }
 
 function showResults(headings, items) {
@@ -266,6 +286,9 @@ function showResults(headings, items) {
     li.className = 'search-empty';
     li.textContent = 'No matches';
     resultsList.appendChild(li);
+    resultEls = []; activeIndex = -1;
+    input.setAttribute('aria-expanded', 'true');
+    input.removeAttribute('aria-activedescendant');
     resultsList.hidden = false;
     return;
   }
@@ -297,10 +320,20 @@ function showResults(headings, items) {
     li.addEventListener('keydown', (e) => { if (e.key === 'Enter') select(); });
     resultsList.appendChild(li);
   }
+  resultEls = [...resultsList.querySelectorAll('.search-result')];
+  resultEls.forEach((el, i) => { el.id = `sr-${i}`; el.setAttribute('aria-selected', 'false'); });
+  activeIndex = -1;
+  input.setAttribute('aria-expanded', 'true');
+  input.removeAttribute('aria-activedescendant');
   resultsList.hidden = false;
 }
 
-function hideResults() { resultsList.hidden = true; }
+function hideResults() {
+  resultsList.hidden = true;
+  input.setAttribute('aria-expanded', 'false');
+  input.removeAttribute('aria-activedescendant');
+  resultEls = []; activeIndex = -1;
+}
 
 function selectStrain(s) {
   hideResults();
@@ -309,9 +342,22 @@ function selectStrain(s) {
 
 input.addEventListener('input', () => renderSearch(input.value));
 input.addEventListener('focus', () => { if (input.value.trim()) renderSearch(input.value); });
-// Enter: if the query exactly matches an Index heading, jump there; else open the top strain.
+// Keyboard: ↓/↑ move the highlight, Enter selects the highlight (or jumps to an exact
+// Index heading / the top strain), Escape closes the list.
 input.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    if (resultsList.hidden && input.value.trim()) renderSearch(input.value);
+    if (!resultEls.length) return;
+    e.preventDefault();
+    const next = e.key === 'ArrowDown'
+      ? Math.min(activeIndex + 1, resultEls.length - 1)
+      : Math.max(activeIndex - 1, 0);
+    setActiveResult(next);
+    return;
+  }
+  if (e.key === 'Escape') { if (!resultsList.hidden) { e.stopPropagation(); hideResults(); } return; }
   if (e.key !== 'Enter') return;
+  if (activeIndex >= 0 && resultEls[activeIndex]) { e.preventDefault(); resultEls[activeIndex].click(); return; }
   const q = input.value.trim();
   if (!q) return;
   const exact = matchHeadings(q).find((h) => h.text.toLowerCase() === q.toLowerCase());
