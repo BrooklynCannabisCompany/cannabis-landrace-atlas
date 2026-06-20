@@ -324,12 +324,36 @@ function closeModal() { modal.hidden = true; modal.classList.remove('wide'); }
 // Repository that submission issues are filed against. Update if the repo is renamed.
 const REPO = 'BrooklynCannabisCompany/cannabis-landrace-atlas';
 
-// Opens a pre-filled "new issue" page (the user submits it while logged into GitHub —
-// no token, no backend). label tags the issue ('add request' / 'update request').
+// Builds the pre-filled "new issue" URL, tries to open it in a new tab (via an anchor
+// click — more reliable than window.open against pop-up blockers), and returns the URL
+// so callers can also show a guaranteed-clickable fallback. No token, no backend.
 function openIssue(label, title, bodyText) {
   const url = `https://github.com/${REPO}/issues/new?labels=${encodeURIComponent(label)}`
     + `&title=${encodeURIComponent(title)}&body=${encodeURIComponent(bodyText)}`;
-  window.open(url, '_blank', 'noopener');
+  const a = document.createElement('a');
+  a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  return url;
+}
+
+// Replaces the modal with a confirmation + a direct link, so submission never depends on
+// a pop-up succeeding (and explains the private-repo sign-in requirement).
+function showIssueFallback(url) {
+  modal.classList.remove('wide');
+  modalTitle.textContent = 'Finish on GitHub';
+  modalBody.innerHTML = '';
+  const p = document.createElement('p');
+  const a = document.createElement('a');
+  a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+  a.textContent = 'Open the pre-filled issue on GitHub';
+  p.append('A new tab should have opened. If it did not, ', a, ', then click ', '“Submit new issue”', ' there to send your request.');
+  const note = document.createElement('p');
+  note.className = 'modal-note';
+  note.textContent = 'The repository is currently private, so you must be signed in to GitHub with access for the page to load.';
+  modalBody.append(p, note);
+  modal.hidden = false;
 }
 
 // An anchor to the GitHub repository.
@@ -509,14 +533,15 @@ function buildSubmissionForm(body, mode, strain, sections) {
       else shortLines.push(`**${clean}:** ${vals[key]}`);
     }
     const parts = [shortLines.join('\n'), ...blocks];
+    let url;
     if (mode === 'correct') {
       const text = `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas correction form._`;
-      openIssue('update request', `Correction: ${strain.name}`, text);
+      url = openIssue('update request', `Correction: ${strain.name}`, text);
     } else {
       const text = `New variety submission.\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas add form._`;
-      openIssue('add request', `Add: ${vals.name}`, text);
+      url = openIssue('add request', `Add: ${vals.name}`, text);
     }
-    closeModal();
+    showIssueFallback(url);
   });
 
   body.append(intro, form);
@@ -585,8 +610,7 @@ function openContactForm() {
       const text = `**Type:** ${display}\n\n${desc}\n\n`
         + (email ? `**Contact email:** ${email}\n\n` : '')
         + '_Submitted via the Atlas Contact form._';
-      openIssue(label, `${display}: ${title}`, text);
-      closeModal();
+      showIssueFallback(openIssue(label, `${display}: ${title}`, text));
     });
 
     body.append(intro, form);
@@ -670,8 +694,7 @@ function openSectionSubmit(strain, section) {
       const text = `Requested **${section}** links for **${strain.name}** (id: \`${strain.id}\`):\n\n`
         + urls.map((u) => `- ${u}`).join('\n')
         + `\n\n_Submitted via the Atlas ${section} form._`;
-      openIssue(label, `${section}: ${strain.name}`, text);
-      closeModal();
+      showIssueFallback(openIssue(label, `${section}: ${strain.name}`, text));
     });
 
     form.append(list, addBtn, submit);
