@@ -9,14 +9,14 @@ Isan is a sativa landrace associated with the Isan region (Northeastern Thailand
 Northeastern Thailand has deep roots in cannabis cultivation, with the Isan agricultural tradition producing cannabis both for local use and for the trade that eventually reached international markets. The Thai stick — cannabis flowers tied to bamboo sticks — is widely associated with Isan and central Thai production, and the material sourced from this region played a defining role in shaping Western perceptions of Thai cannabis during the latter half of the twentieth century. The Isan cannabis population adapted to the drier, hotter conditions of the Khorat Plateau — a different selective environment from the highland types, producing plants suited to seasonal drought and open agricultural landscapes. Formal documentation of Isan-specific cultivation lineages is largely absent from the academic literature; most accounts are anecdotal or from grower communities.
 
 ## Description
+- **Origin:** Thailand (Southeast Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — adapted to the open plateau landscape
-- **Flowering:** 12–16 weeks; moderate by Thai sativa standards
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Thailand (Southeast Asia)
+- **Flowering Time:** 12–16 weeks; moderate by Thai sativa standards
 
 Narrow-leaflet Thai sativa structure; adapted to seasonal drought conditions with lower ambient humidity than forest or highland types. Classic Thai sativa aromatics; specific terpene accounts for Isan material describe earthy, sweet, and incense-forward notes. Commonly associated with energetic, cerebral Thai sativa experience; the Thai stick tradition points to a population selected for potency and aromatic quality.
 

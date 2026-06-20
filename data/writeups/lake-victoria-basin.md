@@ -7,14 +7,14 @@ Lake Victoria Basin refers to a regional sativa complex associated with the Ugan
 Cannabis cultivation around Lake Victoria in Uganda has a long history tied to local agricultural and social traditions. The basin's equatorial climate, fertile soils, and proximity to major trade routes would have facilitated both cultivation and the movement of plant material across the region. This population is described as a regional corridor type, suggesting it shares genetic affinities with other East African sativa landraces from Kenya, Tanzania, and Rwanda. Specific ethnobotanical documentation of a distinct Lake Victoria Basin Ugandan landrace is limited; available information is largely inferred from regional cannabis patterns.
 
 ## Description
+- **Origin:** Uganda (Middle East / Central Asia)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 10-14 weeks
-- **Climate:** Tropical Lowland
-- **Origin:** Uganda (Middle East / Central Asia)
+- **Flowering Time:** 10-14 weeks
 
 Tall sativa stature typical of equatorial East African landraces. Long, narrow leaves and extended branching structure common to tropical sativa types. Flowering is long at 10–14 weeks, consistent with equatorial day-length conditions. Cannabinoid and terpene profiles are not specifically documented for this population.
 

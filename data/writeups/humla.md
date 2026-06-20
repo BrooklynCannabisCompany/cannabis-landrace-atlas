@@ -9,14 +9,14 @@ Humla is an indica-leaning landrace from Humla District in Karnali Province, far
 Humla's cannabis populations exist at the intersection of Nepalese and Tibetan cultural spheres. The district's traditional communities have historically produced charas for local use and, to some extent, regional trade, though Humla's inaccessibility has kept it outside the major commercial cannabis circuits that linked more accessible Nepalese districts to international markets. Ethnobotanical and collector documentation of the Humla population specifically is scarce. The charas-type characterization is consistent with the region's altitude, climate, and cultural practices, and aligns with what is known of neighboring far-western Nepalese landraces such as those from Jumla and Dolpa.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** High alpine
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** High alpine
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** 8–10 weeks
 
 Compact to medium stature with dense resin production — the primary selection criteria in charas-producing communities. Broad leaflets and tight bud structure typical of high-altitude, cold-adapted indica-leaning populations. Adapted to intense UV radiation at altitude; resin may function in part as UV protection, contributing to the thick trichome layer reported by collectors.
 

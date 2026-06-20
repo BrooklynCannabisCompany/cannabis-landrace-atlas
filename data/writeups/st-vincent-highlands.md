@@ -9,14 +9,14 @@ St. Vincent Highlands refers to the cannabis population cultivated in the interi
 Saint Vincent has a notable reputation within Caribbean cannabis culture, and its highland cannabis is among the more discussed Eastern Caribbean landrace populations in grower communities. Cannabis cultivation in Saint Vincent's interior is commonly reported to have deep historical roots, with rural mountain farming communities maintaining traditional cultivation practices over generations. The island's volcanic soil fertility and tropical highland climate are frequently cited by grower accounts as key factors in the quality and vigor associated with this population. Saint Vincent's cannabis has historically been significant in the regional cannabis trade, and the highland areas — more isolated from law enforcement access and benefiting from richer soils and cooler temperatures than the coast — are understood to be the center of traditional cultivation.
 
 ## Description
+- **Origin:** Saint Vincent & the Grenadines (Americas)
+- **Climate:** Volcanic tropical highlands — elevated interior terrain with fertile volcanic soils, high rainfall, and cooler temperatures than the coastal zones
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, consistent with the vigorous growth associated with this population in grower accounts
-- **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate:** Volcanic tropical highlands — elevated interior terrain with fertile volcanic soils, high rainfall, and cooler temperatures than the coastal zones
-- **Origin:** Saint Vincent & the Grenadines (Americas)
+- **Flowering Time:** Long-season; commonly reported at 12–16 weeks
 
 Among Eastern Caribbean populations, the St. Vincent Highlands line is frequently cited as having strong outdoor performance and robust vigor; specific aroma/effect profiles are not uniformly documented.
 

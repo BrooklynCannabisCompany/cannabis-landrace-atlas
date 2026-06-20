@@ -9,14 +9,14 @@ Northern Ontario / Quebec Hemp refers to feral or semi-naturalized hemp populati
 Hemp cultivation in Canada has a documented history stretching back to early colonial settlement, when fiber hemp was grown for rope and textile production. In Ontario and Quebec, hemp was cultivated commercially through the nineteenth and into the early twentieth century, and populations that escaped cultivation are thought to have persisted in roadsides, field margins, and disturbed areas across the region. Over many generations of survival through harsh boreal winters and short growing seasons, these feral hemp lines are commonly reported to have developed strong cold tolerance and early-finishing characteristics. The specific genetic lineages involved are not well documented, but European fiber hemp varieties are the most probable ancestral source.
 
 ## Description
+- **Origin:** Canada (Americas)
+- **Climate:** Boreal cold — one of the most cold-adapted cannabis populations documented
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Tall, consistent with fiber hemp heritage
-- **Flowering:** 10–14 weeks, adapted to complete the reproductive cycle within Canada's short frost-free window
-- **Climate:** Boreal cold — one of the most cold-adapted cannabis populations documented
-- **Origin:** Canada (Americas)
+- **Flowering Time:** 10–14 weeks, adapted to complete the reproductive cycle within Canada's short frost-free window
 
 These populations are associated with low-THC hemp phenotypes; specific cannabinoid profiles are not well characterized for feral Canadian lines.
 

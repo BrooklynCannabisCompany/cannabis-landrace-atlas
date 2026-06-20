@@ -9,14 +9,14 @@ Madre de Dios is an Amazonian landrace population from the Madre de Dios Departm
 The Madre de Dios region has been inhabited for millennia by indigenous Amazonian peoples, including groups with traditional botanical knowledge of the rainforest. River trade routes connecting Peru, Bolivia, and Brazil have historically facilitated the movement of people, goods, and plant materials through the region. Cannabis is not indigenous to the Amazon, but introduced populations may have been shaped by indigenous cultivation practices and the intense selective pressure of the rainforest environment over many generations. The remoteness of the Madre de Dios has limited outside documentation of any local cannabis populations, and grower accounts are rare.
 
 ## Description
+- **Origin:** Peru (Americas)
+- **Climate:** Tropical rainforest; extreme humidity, heavy rainfall, year-round warm temperatures
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall
-- **Flowering:** 14–20 weeks
-- **Climate:** Tropical rainforest; extreme humidity, heavy rainfall, year-round warm temperatures
-- **Origin:** Peru (Americas)
+- **Flowering Time:** 14–20 weeks
 
 This population is reported as very tall, consistent with vigorous Amazonian growth habits where competition for light and abundant water drive tall, branchy development. The exceptionally long flowering window of 14–20 weeks reflects both the equatorial latitude and the specific adaptations of rainforest cannabis to near-constant warm temperatures and high humidity. The Mixed category suggests variability in phenotypic expression across the population. Madre de Dios Department, Southeastern Peru.
 

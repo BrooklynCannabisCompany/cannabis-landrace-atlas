@@ -9,14 +9,14 @@ The Sayan Mountains cannabis population is found in the Eastern and Western Saya
 The Sayan Mountains have been inhabited by indigenous peoples — including Tuvans and Buryats — for thousands of years, and cannabis may have been introduced to the region through ancient pastoral and trade connections with the Mongolian steppe and Central Asia. The mountain environment has then subjected any introduced cannabis to strong natural selection for cold hardiness and early finishing. The broader southern Siberia region, including the Altai and Sayan ranges, is associated with ruderalis-type and cold-hardy feral cannabis, and the Sayan population sits within this geographic and genetic context. Specific documentation of the Sayan Mountains population is limited in accessible literature.
 
 ## Description
+- **Origin:** Russia (East Asia / North Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium, constrained by the alpine and sub-alpine conditions of the Sayan range
-- **Flowering:** 10–14 weeks, adapted to complete within the short alpine growing season
-- **Climate:** Alpine / High Mountain
-- **Origin:** Russia (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, adapted to complete within the short alpine growing season
 
 Compact and sturdy, adapted to wind exposure, UV intensity, and cold stress at altitude. Likely intermediate; mountain populations in southern Siberia often show intermediate indica-sativa morphology. Not documented in accessible sources.
 

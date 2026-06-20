@@ -9,14 +9,14 @@ Huambo is a tall sativa landrace from the Huambo region of Angola's central high
 Huambo has historically been one of Angola's most agriculturally productive regions, and cannabis cultivation in the Bié Plateau and surrounding highland areas has been part of the local agricultural and cultural fabric for generations. The connection to what grower accounts call the "Red Angola" lineage suggests a population with distinctive colorful phenotypic expressions — likely including reddish pistil coloration — that has been recognized as a regional type within Angola's diverse landrace gene pool. Specific historical documentation of the Huambo landrace as a distinct variety is limited, but it is understood within the broader Angola Highland and Angola Roja tradition.
 
 ## Description
+- **Origin:** Angola (Africa)
+- **Climate:** Highland tropical — elevated plateau conditions with warm days, cooler nights, and seasonal dry periods
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 10–14 weeks from equinox/flip
-- **Climate:** Highland tropical — elevated plateau conditions with warm days, cooler nights, and seasonal dry periods
-- **Origin:** Angola (Africa)
+- **Flowering Time:** Approximately 10–14 weeks from equinox/flip
 
 Commonly associated with deep earthy sweetness; the Red Angola lineage connection suggests possible reddish pigmentation traits. Part of the Red Angola / Angola Roja gene pool.
 

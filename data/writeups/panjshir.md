@@ -7,14 +7,14 @@ Panjshir is a mountain landrace indica originating from the Panjshir Valley in n
 Cannabis cultivation in the Panjshir Valley is commonly associated with traditional hashish production, a practice widespread across northern and eastern Afghanistan. The valley's long history of relative isolation, particularly through periods of conflict during which outside contact was limited, may have contributed to genetic conservation of a locally adapted landrace. Grower accounts suggest this population has been selected over generations for resin yield under cold alpine conditions, though rigorous documentation is absent.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–11 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 8–11 weeks
 
 Broad-leaf indica morphology; typically compact and sturdy. Dense, resinous flowers adapted to short alpine growing seasons. Aroma commonly described as earthy and hashy, consistent with traditional Afghan hash-producing populations. Reportedly exhibits cold tolerance and dark coloration as seasons shift.
 

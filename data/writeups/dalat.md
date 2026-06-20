@@ -9,14 +9,14 @@ Dalat is a sativa landrace associated with the Da Lat highlands of Lâm Đồng 
 Da Lat developed as a highland retreat during the French colonial period and has remained associated with cooler climate agriculture ever since — it is notably one of Vietnam's primary flower and vegetable growing regions. Cannabis cultivation in the Central Highlands has historically been associated with indigenous Montagnard (highland) ethnic communities who have farmed the region's plateaus and valleys for generations. The specific Dalat cannabis population likely developed within or alongside these highland cultivation traditions, adapting over time to the plateau's cool nights, misty conditions, and pine-forest ecology. Formal ethnobotanical documentation specific to this population is limited; most available information derives from regional horticultural accounts and grower observations.
 
 ## Description
+- **Origin:** Vietnam (Southeast Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous highland sativa growth
-- **Flowering:** 11–14 weeks; relatively fast for a highland tropical sativa
-- **Climate:** Tropical Highland
-- **Origin:** Vietnam (Southeast Asia)
+- **Flowering Time:** 11–14 weeks; relatively fast for a highland tropical sativa
 
 Narrow-leaflet sativa character adapted to highland tropical conditions. Piney and aromatic — the pine-forward character is a notable distinguishing feature among Vietnamese highland cannabis populations, plausibly associated with the pine forests of the Lang Biang Plateau. Inferred to be energetic and cerebral, consistent with highland sativa expression.
 

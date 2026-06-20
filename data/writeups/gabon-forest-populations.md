@@ -9,14 +9,14 @@ Gabon Forest Populations is a designation for feral cannabis ecotypes found with
 Gabon's rainforests cover roughly 85 percent of the country's land area, and cannabis growing in these conditions has likely naturalized over many generations, evolving or adapting outside deliberate cultivation. As feral populations, these plants exist largely undocumented in formal records. Their significance lies primarily in their representation of diverse, adapted rainforest cannabis genetics that have survived without human selection in one of the most demanding humid environments on Earth. Documented history beyond regional inference is not available for these feral populations.
 
 ## Description
+- **Origin:** Gabon (Africa)
+- **Climate:** Equatorial rainforest — very high humidity, heavy rainfall, consistent warmth year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall
-- **Flowering:** Approximately 12–16 weeks from equinox; variable across phenotypes
-- **Climate:** Equatorial rainforest — very high humidity, heavy rainfall, consistent warmth year-round
-- **Origin:** Gabon (Africa)
+- **Flowering Time:** Approximately 12–16 weeks from equinox; variable across phenotypes
 
 Grower accounts suggest a physical effect profile; good resistance to humidity and pests is a noted characteristic. Feral, with high phenotypic variability expected.
 

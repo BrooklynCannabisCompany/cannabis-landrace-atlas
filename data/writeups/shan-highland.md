@@ -9,14 +9,14 @@ Shan Highland is a sativa landrace associated with Myanmar's Shan State — a va
 Cannabis cultivation in Shan State is historically intertwined with the region's complex political landscape — Shan State has long been a zone of significant autonomy and ethnic minority governance, and agricultural practices in many communities remained relatively insulated from central authority. The region's proximity to the Golden Triangle (the confluence of Myanmar, Laos, and Thailand, historically a major opium and cannabis production zone) means Shan cannabis likely exchanged genetics with populations across porous borders over generations. Specific documentation of the Shan Highland cannabis population is limited; it is commonly reported as a border-corridor lineage rather than a narrowly localized strain.
 
 ## Description
+- **Origin:** Myanmar (Southeast Asia)
+- **Climate:** Highland forest — warm days, cooler nights, seasonal monsoon rainfall, and lower humidity than lowland jungle environments.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11–15 weeks, a range consistent with highland tropical sativa populations.
-- **Climate:** Highland forest — warm days, cooler nights, seasonal monsoon rainfall, and lower humidity than lowland jungle environments.
-- **Origin:** Myanmar (Southeast Asia)
+- **Flowering Time:** 11–15 weeks, a range consistent with highland tropical sativa populations.
 
 Tall sativa structure adapted to highland forest conditions — likely with moderate internode spacing compared to lowland coastal types, reflecting the cooler highland nights. Regional highland sativas in this corridor are generally associated with earthy, spicy, and incense-like profiles; specific Shan Highland aroma accounts are sparse.
 

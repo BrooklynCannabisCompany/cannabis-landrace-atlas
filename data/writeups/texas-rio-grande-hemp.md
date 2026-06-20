@@ -9,14 +9,14 @@ Texas Rio Grande Hemp refers to feral or naturalized hemp populations associated
 Hemp cultivation in Texas has historical roots in both commercial fiber production and subsistence agriculture, and feral hemp populations are known to have persisted in various parts of the state following the decline of commercial cultivation. The Rio Grande corridor specifically has a complex agricultural history shaped by the border region's cultural and economic dynamics. Escaped hemp plants in this arid zone are thought to have undergone selection pressure for rapid development and drought-escape strategies over multiple generations. The specific ancestral varieties involved are not well documented, but fiber hemp introductions of European origin are the most plausible source. Genetic exchange with Mexican cannabis populations across the Rio Grande may also be a factor in this region's feral hemp gene pool, though this has not been systematically studied.
 
 ## Description
+- **Origin:** United States (Americas)
+- **Climate:** Arid desert — drought-escape strategy; adapted to extreme heat and low rainfall rather than sustained drought tolerance per se
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium — shorter than typical fiber hemp, possibly reflecting selection for rapid development under resource-limited conditions
-- **Flowering:** 9–12 weeks, adapted to complete reproduction within the seasonal moisture window of an arid desert environment
-- **Climate:** Arid desert — drought-escape strategy; adapted to extreme heat and low rainfall rather than sustained drought tolerance per se
-- **Origin:** United States (Americas)
+- **Flowering Time:** 9–12 weeks, adapted to complete reproduction within the seasonal moisture window of an arid desert environment
 
 As a hemp-derived feral population, THC levels are expected to be low; cannabinoid profiling of this specific population is not available.
 

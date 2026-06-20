@@ -9,13 +9,13 @@ Colombian Boyaca High Plateau refers to cannabis populations associated with the
 Boyacá Department has a rich indigenous and colonial history; it was the site of the decisive Battle of Boyacá in Colombia's independence war. Cannabis cultivation in Boyacá's high plateau is not extensively documented, but the department's position in the Eastern Andes and its tradition of small-scale highland farming suggest cannabis has been present in rural communities for generations. The specific characteristics of a Boyacá high-plateau population — if distinct from other Colombian highland landraces — are not recorded in the available literature. Given the high elevation and cool climate of the Boyacá altiplano, any established landrace population would represent an interesting adaptation to conditions more demanding than those of Colombia's more celebrated cannabis-growing regions.
 
 ## Description
+- **Origin:** Colombia (Americas)
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Not recorded; highland plateau Colombian landraces at comparable elevations are typically medium-tall to tall
-- **Flowering:** Not recorded; at altitudes above 2,500m, flowering duration may be compressed relative to lowland Colombian types
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** Not recorded; at altitudes above 2,500m, flowering duration may be compressed relative to lowland Colombian types
 
 Not documented; high-altitude Andean populations generally develop compact to moderate internodal spacing in response to cold nights and reduced growing-season length. Not documented.
 

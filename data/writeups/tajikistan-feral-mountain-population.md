@@ -7,14 +7,14 @@ The Tajikistan Feral Mountain Population is a feral indica landrace complex foun
 Cannabis has a long history in the Central Asian mountain regions that include Tajikistan, associated with both traditional use among local populations and proximity to important Silk Road corridors. The feral character of this population suggests naturalization over many generations without consistent cultivation management. Tajikistan's position between Afghanistan's Hindu Kush populations to the south and Kazakhstan's steppe populations to the north suggests potential genetic overlap with the Wakhan Corridor and Pamir-adjacent populations. Grower accounts reference wide-leaf, dark-purple phenotypes and hash production traditions consistent with high-altitude Afghan-adjacent populations. Specific documentation of the Tajik feral mountain population is sparse.
 
 ## Description
+- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium
-- **Flowering:** 10–14 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Feral indica complex; medium stature adapted to high-altitude conditions. Wide leaf morphology commonly reported, with dark green to purple coloration as temperatures drop. Dense, resinous flowers suited to traditional hash production in the Pamir region. Strong cold tolerance; adapted to early frosts and short growing seasons.
 

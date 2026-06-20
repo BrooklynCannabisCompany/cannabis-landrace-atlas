@@ -9,14 +9,14 @@ Southern Ecuador Interior Andean Valley refers to a cannabis population from the
 The interior Andean valleys of southern Ecuador have been agriculturally significant since pre-Columbian times, with indigenous communities including the Cañari civilization establishing permanent settlements in the fertile inter-Andean basins. The city of Cuenca (in Azuay Province) is among the most historically important urban centers in Ecuador. Cannabis cultivation in these interior valleys is not well documented in the landrace literature, and records for this specific population are essentially absent. The entry's sparse data fields suggest this is a recognized geographic location for a cannabis population rather than a well-characterized landrace with documented traits.
 
 ## Description
+- **Origin:** Ecuador (Americas)
+- **Climate:** Interior Andean valley; sheltered, warm relative to exposed ridgelines, seasonally variable
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Not documented
-- **Flowering:** Not documented
-- **Climate:** Interior Andean valley; sheltered, warm relative to exposed ridgelines, seasonally variable
-- **Origin:** Ecuador (Americas)
+- **Flowering Time:** Not documented
 
 This population's data fields are largely undocumented — height, flowering, climate, and type are not recorded. The Mixed category and southern Ecuadorian interior Andean valley context suggest a population that may reflect genetic exchange between highland Andean and lower valley influences, characteristic of the complex inter-Andean valley environment. Southern Ecuador interior Andean valleys.
 

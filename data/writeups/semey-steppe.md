@@ -7,14 +7,14 @@ Semey Steppe is a feral steppe cannabis population from the Abai Region (histori
 Cannabis in the Semey region is generally understood to be a naturalized feral population, descended from domesticated stock that escaped cultivation in what was historically an important agricultural zone along the Irtysh River. Kazakhstan is considered part of the broader Central Asian origin zone for cannabis, and the Semey area's position at the edge of the Altai foothills may have allowed for some genetic isolation from western Kazakh populations. Specific cultivation history or intentional selection for this population is not well documented.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Intermediate morphology between indica and sativa, consistent with Kazakh feral landrace populations. Medium-tall stature adapted to open, windswept steppe terrain. Likely exhibits robust cold tolerance and early maturation suited to the region's short growing season. Commonly shows wider leaf patterns than southern Central Asian populations. _Recorded locality detail: formerly Semey._.
 

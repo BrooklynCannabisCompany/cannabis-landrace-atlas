@@ -7,14 +7,14 @@ Tien Shan Alpine Valley is an intermediate landrace from the Tien Shan (Tian Sha
 The Tien Shan Mountains of Kyrgyzstan are among the areas sometimes cited in scientific literature as being within or near the center of cannabis's geographic origin, based on phylogenetic and ecological modeling studies. Cannabis populations here are understood to represent ancient naturalized or semi-cultivated lineages, shaped by the region's extreme mountain environment and proximity to early human populations along trade routes connecting China and the West. Grower accounts of Kyrgyz mountain cannabis describe exceptional cold tolerance and adaptation to alpine meadow conditions. Specific documentation of a distinct "Tien Shan Alpine Valley" cultivar or population is limited; the entry reflects regional landrace characteristics.
 
 ## Description
+- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Alpine / High Mountain
-- **Origin:** Kyrgyzstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Intermediate indica-sativa morphology; medium-tall stature adapted to alpine meadow conditions. Strong cold tolerance, a defining characteristic for populations at Tien Shan elevations. Likely exhibits wide phenotypic variation consistent with a geographically diverse mountain system. Resinous flowers adapted to high UV radiation at altitude and rapid season completion.
 

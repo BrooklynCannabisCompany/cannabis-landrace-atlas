@@ -7,14 +7,14 @@ Zagros Mountains is a highland indica landrace from the Zagros Mountain Range of
 Cannabis use in Iran and the surrounding Middle Eastern region has ancient roots, and the Zagros Mountains — as both a geographic barrier and a corridor for human movement between Mesopotamia and the Iranian plateau — would have been a zone of early cannabis cultivation and natural adaptation. Traditional hash production in Iran, while suppressed under modern law, was historically part of the culture in various regions. The Zagros population's characteristics reflect adaptation to rugged mountain terrain, drought conditions, and a short growing season at altitude. Grower accounts note this region's strong hash-producing potential. Documented lineage is not available; regional inference applies.
 
 ## Description
+- **Origin:** Iran (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–12 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Iran (Middle East / Central Asia)
+- **Flowering Time:** 8–12 weeks
 
 Broad-leaf indica morphology; medium stature adapted to semi-arid mountain terrain. Dense, resinous flowers consistent with traditional hash-producing selections of the broader Middle Eastern region. Well-adapted to rocky soils, drought stress, and the sharp temperature swings of the Zagros at elevation. Compact structure favoring resin production in the short alpine growing season.
 

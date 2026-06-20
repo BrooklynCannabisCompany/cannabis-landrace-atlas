@@ -9,14 +9,14 @@ Pangi Valley is an indica-leaning landrace originating from the remote, cold val
 The Pangi Valley has historically been one of the most cut-off inhabited valleys in Himachal Pradesh, accessible for only part of the year due to heavy snowfall. Cannabis cultivation and use in such high Himalayan valleys has roots going back many generations, likely serving both local subsistence purposes and the traditional charas trade that has long characterized the broader Parvati and Chamba regions. Grower accounts suggest this population has developed through generations of selection under cold, high-altitude pressure rather than deliberate breeding.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Adapted to remote cold valley conditions with short growing seasons and significant temperature swings
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** Commonly reported at 8–10 weeks
-- **Climate:** Adapted to remote cold valley conditions with short growing seasons and significant temperature swings
-- **Origin:** India (South Asia)
+- **Flowering Time:** Commonly reported at 8–10 weeks
 
 Plants are typically compact and resinous, traits associated with indica-leaning Himalayan landraces that must mature before early frosts arrive. The summary notes an isolated resin population, suggesting phenotypes selected for dense glandular trichome expression. Morphology likely resembles other cold-valley Himachali landraces: broad leaflets, sturdy lateral branching, and dense flower clusters.
 

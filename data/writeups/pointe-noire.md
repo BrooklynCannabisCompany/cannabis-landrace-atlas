@@ -9,14 +9,14 @@ Pointe-Noire is a sativa landrace associated with Pointe-Noire, the Republic of 
 The Republic of Congo's cannabis populations are not widely documented in landrace literature. Pointe-Noire's status as a major port with historical connections to Atlantic maritime trade routes suggests cannabis may have arrived or been reinforced through trade over centuries. Populations growing in the coastal rainforest zone around Pointe-Noire would have adapted to persistent heat, high humidity, and the coastal atmospheric conditions of the Atlantic equatorial zone. Grower accounts describing dark foliage phenotypes suggest the local population has developed visually distinctive characteristics, though the genetic basis for this trait is not documented.
 
 ## Description
+- **Origin:** Congo (Africa)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with equatorial coastal sativa expression in central Africa's warm, humid climate
-- **Flowering:** 11–14 weeks — within the typical range for equatorial African sativas
-- **Climate:** Tropical Rainforest
-- **Origin:** Congo (Africa)
+- **Flowering Time:** 11–14 weeks — within the typical range for equatorial African sativas
 
 Open growth habit typical of lowland equatorial sativas; dark foliage phenotypes are reported as a distinguishing visual characteristic. Effects are described as euphoric; specific terpene profiles are not well documented for this population.
 

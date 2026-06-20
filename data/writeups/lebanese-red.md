@@ -7,14 +7,14 @@ Lebanese Red is a traditional highland hash landrace from Lebanon's Bekaa Valley
 Red Lebanese hashish was one of the most sought-after products of the Middle Eastern cannabis trade through the mid-to-late 20th century. Grower accounts and trade records suggest that the "red" designation referred to both the reddish-amber color of the finished hashish and the processing method — typically a later harvest and more intensive pressing compared to blonde production. The plant population associated with red-hash production in the Bekaa Valley is generally understood to be closely related to other Lebanese landraces but selected or processed differently. Specific genetic documentation separating the red-associated landrace from broader Bekaa Valley cannabis is not rigorously established.
 
 ## Description
+- **Origin:** Lebanon (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium-tall
-- **Flowering:** 10–13 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Lebanon (Middle East / Central Asia)
+- **Flowering Time:** 10–13 weeks
 
 Medium to tall stature with heavy resin production. Highly resinous flowers adapted to traditional hashish-making in the Bekaa Valley. Associated with the production of darker, more intensely pressed red Lebanese hashish. Aromas are typically described as rich, spicy, and earthy with floral notes.
 

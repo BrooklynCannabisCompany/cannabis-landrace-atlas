@@ -9,14 +9,14 @@ The Cameroon Highlands strain is a tall sativa complex associated with the eleva
 Cameroon occupies a position at the ecological and cultural crossroads of West and Central Africa, and cannabis cultivation is traditionally reported across multiple regions of the country. The highland areas — encompassing the Bamenda Highlands and adjacent zones — have distinct agricultural traditions and represent a different growing environment from Cameroon's equatorial coastal belt. Specific documented history of the highland sativa complex as a distinct named population is limited, though grower accounts recognize it as ecotypically distinct from lowland Cameroonian material.
 
 ## Description
+- **Origin:** Cameroon (Africa)
+- **Climate:** Humid upland — cooler and wetter than tropical lowlands, with good mold resistance
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 10–14 weeks from equinox/flip
-- **Climate:** Humid upland — cooler and wetter than tropical lowlands, with good mold resistance
-- **Origin:** Cameroon (Africa)
+- **Flowering Time:** Approximately 10–14 weeks from equinox/flip
 
 Commonly associated with a citrus-spice terpene profile; uplifting sativa effect typical of West-Central African highland populations.
 

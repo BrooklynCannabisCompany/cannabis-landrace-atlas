@@ -9,14 +9,14 @@ Chin Highland refers to a sativa landrace associated with the mountainous border
 Chin State is home to the Chin people, a diverse Tibeto-Burman ethnic group with deep roots in the western highlands of Myanmar. Traditional plant cultivation in this region has developed under relative geographic isolation, with steep terrain and dense forest limiting outside contact. Cannabis cultivation in the Chin highland area is plausibly ancient, given the plant's widespread presence across the broader South and Southeast Asian highland belt. The population's position as a genetic corridor suggests it may carry traits from both South Asian (indica-adjacent) and Southeast Asian (sativa) cannabis lineages, though formal documentation is very limited and most available information derives from regional accounts and geographic inference.
 
 ## Description
+- **Origin:** Myanmar (Southeast Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — typical of mountain jungle cannabis populations
-- **Flowering:** 11–15 weeks; moderate by Southeast Asian sativa standards
-- **Climate:** Tropical Highland
-- **Origin:** Myanmar (Southeast Asia)
+- **Flowering Time:** 11–15 weeks; moderate by Southeast Asian sativa standards
 
 Consistent with highland mainland SE Asian sativas; likely shows some variability reflecting the genetic corridor nature of the population. Specific accounts are scarce; earthy, forest, and potentially spiced aromatic character is plausible given regional and climatic context. Inferred to be sativa-dominant and cerebrally active.
 

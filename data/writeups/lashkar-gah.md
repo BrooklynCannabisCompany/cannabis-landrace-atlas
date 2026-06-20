@@ -7,14 +7,14 @@ Lashkar Gah is a short, fast-flowering indica landrace from the desert environme
 Helmand Province and its capital Lashkar Gah sit in the arid Helmand River valley of southern Afghanistan, a region that has historically been important for both agriculture (sustained by the Helmand River's irrigation potential) and opium poppy cultivation. Cannabis cultivation in this southern desert zone has likely co-existed with these agricultural traditions, producing a compact, fast-finishing indica type selected for the extreme heat and aridity of the Helmand valley. Grower accounts describe Lashkar Gah material as typical of southern Afghan desert indica — short, dense, and sedating. Specific documented provenance is limited.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short
-- **Flowering:** 7–9 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 7–9 weeks
 
 Short, compact indica with dense, resinous flowers. Broad-leaf morphology consistent with classic Afghan indica stock. Aromas typically described as earthy, hashy, and pungent. Effects are commonly reported as deeply sedating and physically heavy.
 

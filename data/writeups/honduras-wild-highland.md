@@ -9,14 +9,14 @@ Honduras Wild Highland refers to cannabis populations associated with the highla
 Honduras's highland regions have a history of small-scale indigenous and mestizo farming communities that cultivated a range of crops in the mountain valleys and slopes. Cannabis in Honduras's highlands is not extensively documented in the published literature, and the "wild" designation implies that these populations have established themselves without deliberate maintenance — self-seeding across the highland environment over time. Central American highland cannabis types are generally considered part of a broader Mexican-Central American sativa continuum, sharing characteristics with highland Guatemala and Mexican Sierra Madre types. The specific characteristics distinguishing Honduran wild highland populations are not formally documented.
 
 ## Description
+- **Origin:** Honduras (Americas)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — consistent with Central American highland sativas adapted to mountain growing conditions
-- **Flowering:** 11–14 weeks — moderate for a highland Central American sativa; the more northerly latitude of Honduras (relative to equatorial South America) produces more pronounced seasonal day-length variation
-- **Climate:** Tropical Highland
-- **Origin:** Honduras (Americas)
+- **Flowering Time:** 11–14 weeks — moderate for a highland Central American sativa; the more northerly latitude of Honduras (relative to equatorial South America) produces more pronounced seasonal day-length variation
 
 Not specifically documented; wild highland populations are expected to show variability with generally upright, branchy growth typical of the Central American highland sativa type. Characterized in the source record as a "Wild Central American type"; specific profiles are not documented.
 

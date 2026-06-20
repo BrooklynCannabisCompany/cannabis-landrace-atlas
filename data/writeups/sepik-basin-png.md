@@ -9,14 +9,14 @@ Sepik Basin PNG is a rainforest landrace sativa from the Sepik River Basin of Pa
 Cannabis cultivation in the Sepik River Basin is associated with the subsistence and traditional farming cultures of the many communities along the river and its tributaries. The Sepik region is one of the most culturally and linguistically diverse areas in the world, and local cannabis populations are understood to have developed in relative geographic isolation from highland PNG lines. Whether the Sepik Basin population represents a single continuous tradition or a mosaic of locally distinct sub-populations is not well documented in available sources. It is generally treated within landrace preservation communities as a distinct ecological type adapted to lowland tropical river conditions.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 14–20 weeks
-- **Climate:** Tropical Lowland
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 14–20 weeks
 
 Sepik Basin PNG is classified as a sativa and is among the taller landrace populations in the Oceania category, with a very tall growth habit reflecting the open, humid environment of the river basin. Flowering is long (14–20 weeks), consistent with equatorial sativa populations where daylength changes are minimal and plants rely on cumulative age and environmental cues. Open, airy bud structure is typically expected from populations in such high-humidity environments, as an adaptation against mould in continuously wet conditions. Tropical river basin (equatorial).
 

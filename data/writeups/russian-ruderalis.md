@@ -9,14 +9,14 @@ Russian Ruderalis is the foundational feral cannabis type associated with Russia
 Cannabis Ruderalis was formally described by the Russian botanist D.E. Janischevsky in 1924, based on wild populations collected from the southern Russian steppe. It has since been understood as an ecotype or subspecies adapted to the challenging conditions of high-latitude continental Russia, where photoperiod-dependent flowering would be unreliable. Grower and breeder communities began systematically exploiting Ruderalis genetics in the late twentieth century, crossing it with THC-producing varieties to create the autoflowering strains that are now common in the commercial cannabis market. The wild Russian populations themselves remain largely undocumented in terms of precise regional genetics.
 
 ## Description
+- **Origin:** Russia (Europe)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short — typically the shortest cannabis morphotype, with a compact, bushy structure
-- **Flowering:** 6–10 weeks from germination; the autoflowering trait is the defining characteristic of this population
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Russia (Europe)
+- **Flowering Time:** 6–10 weeks from germination; the autoflowering trait is the defining characteristic of this population
 
 Commonly reported to have broad leaflets and fewer leaflets per leaf compared to Sativa or Indica types. Generally low; Ruderalis populations are not associated with high psychoactive potency in their wild form. Tends to produce large seeds relative to plant size, consistent with feral adaptation focused on reproduction.
 

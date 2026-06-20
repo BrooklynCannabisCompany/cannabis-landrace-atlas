@@ -7,14 +7,14 @@ Iranian #3 is a drought-selected indica line originating in Iran, representing o
 Iran's cannabis populations have been shaped by centuries of cultivation and feral adaptation across the country's vast plateau and mountain environments. Numbered selection lines like Iranian #3 commonly entered Western collections and breeding programs through seed hunters and ethnobotanists working in the region. Documented provenance for specific numbered accessions is rarely available; grower records suggest these lines were valued for their drought hardiness and relatively compact stature.
 
 ## Description
+- **Origin:** Iran (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Iran (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks
 
 Indica morphology: compact to medium height with broad leaves. Dense, resinous flowers typical of arid-adapted Iranian stock. Commonly reported aromas include earthy and spicy notes. Effects are generally described as physically relaxing.
 

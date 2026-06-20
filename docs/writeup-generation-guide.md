@@ -49,9 +49,10 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
 - Write concise, readable prose (a short paragraph each).
 - **`## Description` has a fixed shape:** a canonically-ordered bullet list followed by
   one prose paragraph. The bullets are, in this order (omit a line only if there is no
-  data for it): `**Morphotype:**`, `**Vernacular type:**`, `**Chemotype:**` (always
-  `Type N (inferred)`), `**Domestication:**`, `**Height:**`, `**Flowering:**`,
-  `**Climate:**`, `**Origin:**`. Fill bullets from the strain's data fields even when the
+  data for it), mirroring the Index facet order: `**Origin:**`, `**Climate:**`,
+  `**Morphotype:**`, `**Chemotype:**` (always `Type N (inferred)`), `**Domestication:**`,
+  `**Vernacular type:**`, `**Height:**`, `**Flowering Time:**` (spell out "weeks", never
+  "w"). Fill bullets from the strain's data fields even when the
   prose omits them. The paragraph then describes morphology, aroma/terpenes, effect,
   resin, and any notable traits — without repeating the bullet facts verbatim. The
   normalizer `data/normalize-writeups.mjs` enforces this structure across all write-ups.

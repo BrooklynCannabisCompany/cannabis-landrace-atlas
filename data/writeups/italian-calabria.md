@@ -9,14 +9,14 @@ Italian Calabria refers to a hemp-type cannabis population from Calabria — the
 Hemp cultivation in Calabria has historical roots extending through the Byzantine, Norman, and later Spanish and Bourbon periods when the region was a peripheral agricultural zone of the Mediterranean world. Calabria's rough terrain and relative isolation from northern Italy meant traditional agricultural practices, including hemp cultivation, persisted longer in rural communities here than in more modernized parts of the country. As with most European hemp populations, the decline of industrial hemp cultivation through the twentieth century left feral naturalized populations in agricultural margins and alongside rural roads.
 
 ## Description
+- **Origin:** Italy (Europe)
+- **Climate:** Coastal mountain
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium
-- **Flowering:** 10–13 weeks
-- **Climate:** Coastal mountain
-- **Origin:** Italy (Europe)
+- **Flowering Time:** 10–13 weeks
 
 As a medium-height hemp population with a 10–13 week flowering window adapted to the coastal mountain climate of Calabria, this population is understood as a typical southern Italian feral hemp ecotype — drought-adapted during the long dry summer season of the Mediterranean coast, with some cold tolerance at higher elevations in the Calabrian highlands.
 

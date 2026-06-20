@@ -9,14 +9,14 @@ Kachin Highland is a highland sativa population from Kachin State in the far nor
 Kachin State is home to the Kachin people and numerous other ethnic minorities who have maintained traditional highland agricultural practices across the region's rugged terrain for many generations. The area's geographic position as a corridor between the Tibeto-Himalayan cannabis zone (associated with indica-type populations) and the Southeast Asian highland sativa complex makes it botanically significant. Cannabis migration routes along the mountain ranges connecting the Eastern Himalayas with the highlands of Myanmar and Yunnan likely carried diverse genetic material through Kachin State over centuries. Formal botanical documentation of cannabis in this specific region is very limited, and most available information is inferred from geographic context and general regional knowledge.
 
 ## Description
+- **Origin:** Myanmar (Southeast Asia)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous growth suited to the open forest and agricultural clearings of the Kachin highlands
-- **Flowering:** Very long; 14–20 weeks — one of the longest-season populations in the Southeast Asian highland complex, consistent with northern latitude high-altitude adaptation
-- **Climate:** Tropical Rainforest
-- **Origin:** Myanmar (Southeast Asia)
+- **Flowering Time:** Very long; 14–20 weeks — one of the longest-season populations in the Southeast Asian highland complex, consistent with northern latitude high-altitude adaptation
 
 Highland sativa character; expected to show some variability reflecting the population's position at the genetic interface of Himalayan and Southeast Asian cannabis zones. Specific accounts are scarce; complex aromatic profiles are plausible given the genetic diversity likely present in this border zone. Inferred to be strongly cerebral and sativa-dominant.
 

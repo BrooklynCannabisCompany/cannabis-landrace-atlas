@@ -9,14 +9,14 @@ Zacatecas Purple is a distinctive sativa landrace from Zacatecas, a state in nor
 Zacatecas has a long mining and agricultural history, and its high-altitude plateau climate — semi-arid with warm days and cool nights — differs considerably from the tropical highlands of southern Mexico. Cannabis cultivation in Zacatecas has been part of informal rural agricultural traditions, though the Zacatecas Purple population's specific origins and history of selection are not thoroughly documented in formal sources. Grower and collector accounts consistently highlight the purple trait as a genetically stable characteristic of this population, suggesting long regional cultivation rather than a recent introduction.
 
 ## Description
+- **Origin:** Mexico (Americas)
+- **Climate:** High plateau — semi-arid to sub-humid, warm days, cool to cold nights, moderate seasonal rainfall
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall; typical of Mexican highland sativas with unrestricted outdoor growth potential
-- **Flowering:** 12–16 weeks; long flowering consistent with a sativa landrace at the latitude and altitude of Zacatecas
-- **Climate:** High plateau — semi-arid to sub-humid, warm days, cool to cold nights, moderate seasonal rainfall
-- **Origin:** Mexico (Americas)
+- **Flowering Time:** 12–16 weeks; long flowering consistent with a sativa landrace at the latitude and altitude of Zacatecas
 
 The most prominent reported feature is reliably deep purple coloration expressed even in warm conditions, indicating stable anthocyanin genetics rather than cold-stress-induced pigmentation. Otherwise consistent with tall Mexican sativa structure — long internodes, medium-narrow leaflets, open branching.
 

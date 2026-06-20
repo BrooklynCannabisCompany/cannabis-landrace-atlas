@@ -9,14 +9,14 @@ Phuket is a sativa landrace associated with Thailand's southernmost reaches, gro
 Cannabis cultivation in southern Thailand has a long, if poorly documented, history tied to local fishing and agricultural communities. Phuket and the surrounding Phang Nga coast were relatively isolated from mainland highland cannabis culture, and the local gene pool is commonly reported to reflect that coastal insularity. Grower accounts suggest the Phuket population circulated among collectors during the 1970s–1980s era of Thai cannabis export, though documentation of this specific southern island variant is sparse compared to better-known northern Thai strains.
 
 ## Description
+- **Origin:** Thailand (Southeast Asia)
+- **Climate:** Suited to coastal tropical conditions — high humidity tolerance, warm temperatures, and strong monsoon resilience.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Long-cycling, commonly reported at 11–14 weeks indoors; outdoor timing follows the natural tropical photoperiod.
-- **Climate:** Suited to coastal tropical conditions — high humidity tolerance, warm temperatures, and strong monsoon resilience.
-- **Origin:** Thailand (Southeast Asia)
+- **Flowering Time:** Long-cycling, commonly reported at 11–14 weeks indoors; outdoor timing follows the natural tropical photoperiod.
 
 Tall, slender sativa structure typical of coastal tropical landraces, with long internodal spacing and narrow leaflets adapted to high humidity. Grower accounts associate southern Thai sativas with sweet, fruity, and sometimes floral aromas, and an energetic, cerebral effect profile. These characteristics are consistent with lowland coastal sativa populations across the broader region.
 

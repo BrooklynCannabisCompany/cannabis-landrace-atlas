@@ -10,6 +10,11 @@ function el(tag, className, text) {
   return node;
 }
 
+// Spells out a flowering value's "w" as " weeks" (e.g. "7–9w" -> "7–9 weeks").
+function weeksLabel(value) {
+  return String(value || '').replace(/(\d)\s*w\b/g, '$1 weeks');
+}
+
 function traitRow(dl, label, value) {
   if (!value) return;
   dl.appendChild(el('dt', null, label));
@@ -97,8 +102,12 @@ export function renderStrain(container, strain, handlers = {}) {
     container.appendChild(badge);
   }
 
+  // Facts ordered to match the Index facets (Region, Climate, Morphotype[badge above],
+  // Chemotype, Domestication, Type, Height, Flowering Time).
   const dl = el('dl', 'panel-traits');
   if (Array.isArray(strain.aka) && strain.aka.length) traitRow(dl, 'AKA', strain.aka.join(', '));
+  facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
+  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
   if (strain.chemotype) {
     facetRow(dl, 'Chemotype', 'chemotype', `Type ${strain.chemotype} (inferred)`, onFacet,
       CHEMOTYPE_DEF[strain.chemotype], strain.chemotype);
@@ -107,9 +116,7 @@ export function renderStrain(container, strain, handlers = {}) {
     DOMESTICATION_DEF[strain.domestication], strain.domestication);
   facetRow(dl, 'Type (vernacular)', 'category', strain.type, onFacet, null, strain.category);
   facetRow(dl, 'Height', 'height', strain.height, onFacet);
-  traitRow(dl, 'Flowering', strain.flowering);
-  facetRow(dl, 'Climate', 'climate', strain.climate, onFacet);
-  facetRow(dl, 'Region', 'continent', strain.continent, onFacet);
+  traitRow(dl, 'Flowering Time', weeksLabel(strain.flowering));
   if (dl.children.length) container.appendChild(dl);
 
   if (strain.coordsApproximate) {

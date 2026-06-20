@@ -9,14 +9,14 @@ The Khentii cannabis population is a wild cannabis population from Khentii Provi
 Cannabis has been present across the Mongolian plateau and adjacent regions for a very long time, likely introduced through prehistoric human movement across the Eurasian steppe. Khentii's position at the interface of northern forest and steppe ecosystems may have allowed multiple introductions from both Siberian and more southern steppe directions. As a wild population in a historically significant region, the Khentii plants may represent one of the older naturalized lineages in the area, though formal genetic study of this specific population is not available in accessible literature.
 
 ## Description
+- **Origin:** Mongolia (East Asia / North Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium, consistent with feral populations in forest-steppe ecotones
-- **Flowering:** 10–14 weeks; strong seasonal response to the marked day-length changes of northern Mongolia
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Mongolia (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks; strong seasonal response to the marked day-length changes of northern Mongolia
 
 Typically well-branched where space allows; plants in the open steppe margins tend toward upright forms in denser patches. Likely intermediate, reflecting the transitional ecology of the forest-steppe. Not documented; wild feral populations are not selected for resin content.
 

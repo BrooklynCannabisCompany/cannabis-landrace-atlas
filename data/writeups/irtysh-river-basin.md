@@ -7,14 +7,14 @@ The Irtysh River Basin population is a cold-hardy feral cannabis complex distrib
 The Irtysh corridor has served for millennia as a natural migration and trade route connecting the Altai highlands with the Kazakh steppe and ultimately the Siberian lowlands. Feral cannabis along this system likely reflects a mixture of historically cultivated hemp populations and naturalized escapes spanning many centuries. The geographic position between Xinjiang and Siberian ecosystems means this population may carry ancestral traits from multiple distinct gene pools. Specific documentation of collection or selection within the basin is not widely available in accessible literature.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium
-- **Flowering:** 10–14 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Intermediate morphology between indica and sativa, consistent with cold-adapted feral populations of Central Asia. Medium stature; plants in river-basin habitats may grow taller where moisture and fertility allow. Likely shows ruderalis influence given the latitude and harsh winters of the Kazakhstan steppe. Cannabinoid and terpene profiles are undocumented for this specific corridor population.
 

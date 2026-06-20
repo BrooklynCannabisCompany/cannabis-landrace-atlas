@@ -9,14 +9,14 @@ The Heilongjiang cannabis population is a ruderalis-leaning, auto-adapted feral 
 Feral cannabis in Heilongjiang is generally understood to be descended from hemp cultivated historically in the region for fiber and seed. Over generations of naturalization in a harsh northern environment, populations with autoflowering tendencies would have had a strong survival advantage — only plants that could complete their cycle within the short frost-free window would successfully set seed. This process of natural selection is the same mechanism believed to have produced ruderalis-type cannabis across the broader northern Eurasian zone. Systematic documentation of the Heilongjiang population specifically is limited in accessible sources.
 
 ## Description
+- **Origin:** China (East Asia / North Asia)
+- **Climate:** Alpine / High Mountain
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short, as is typical of ruderalis and auto-adapted cannabis
-- **Flowering:** 6–10 weeks from germination or age-triggered; one of the fastest-completing cannabis types
-- **Climate:** Alpine / High Mountain
-- **Origin:** China (East Asia / North Asia)
+- **Flowering Time:** 6–10 weeks from germination or age-triggered; one of the fastest-completing cannabis types
 
 Compact with reduced branching; adapted to marginal growing conditions. Typically broad and robust for a northern feral type, though specific characterization of the Heilongjiang population is lacking. Minimal psychoactive potency expected in feral ruderalis populations; CBD content undocumented.
 

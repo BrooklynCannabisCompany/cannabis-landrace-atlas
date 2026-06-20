@@ -9,14 +9,14 @@ Waichin Valley is an indica-leaning resin landrace from the Waichin Valley in Hi
 The Waichin Valley lies further from the main Parvati Valley floor than well-known settlements such as Malana or Kasol, and access is correspondingly more limited. Cannabis populations in such remote alpine tributaries have experienced strong natural and informal human selection pressure — the short growing season and cold temperatures demand early-finishing, resilient plants, while the charas tradition incentivizes dense resin production. Grower accounts and seed expedition notes occasionally reference Waichin as sharing the resin-rich character of its Parvati neighbors while potentially maintaining greater genetic isolation due to limited outside contact. Formal botanical documentation of this population as distinct from the broader Parvati charas ecology is not established.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Alpine valley — extreme elevation, cool to cold temperatures, short frost-free season, high UV intensity
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** Commonly reported at 8–10 weeks
-- **Climate:** Alpine valley — extreme elevation, cool to cold temperatures, short frost-free season, high UV intensity
-- **Origin:** India (South Asia)
+- **Flowering Time:** Commonly reported at 8–10 weeks
 
 Plants are expected to be medium-sized, sturdy, and densely resinous — a profile consistent with other alpine charas-line landraces from the Parvati watershed. High elevation typically promotes elevated trichome density, and this is a commonly reported trait across the upper Parvati corridor. The 8–10 week flowering period is essential for the plant to complete its cycle before alpine frosts arrive.
 

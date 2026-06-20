@@ -9,14 +9,14 @@ The Orkhon Valley population is a feral, sativa-leaning cannabis population foun
 The Orkhon Valley's centrality to Mongolian history means it has been continuously inhabited and traversed for centuries, making it a probable site of early cannabis introduction from multiple directions — south from China, west from Central Asia, and north from Siberia. The valley's position as a migration corridor is reflected in the population's described high variability, suggesting ongoing gene flow from different source populations over time. As a feral population, Orkhon Valley cannabis has not been deliberately selected but has adapted to the specific valley-steppe environment of central Mongolia. No strain-specific research is documented in accessible sources.
 
 ## Description
+- **Origin:** Mongolia (East Asia / North Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium-tall, consistent with valley feral cannabis benefiting from relatively sheltered growing conditions compared to open steppe
-- **Flowering:** 10–14 weeks, adapted to the cool Mongolian summer and early autumn frost cycle
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Mongolia (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, adapted to the cool Mongolian summer and early autumn frost cycle
 
 Highly variable; the population's genetic diversity results in variable morphology. Likely intermediate to narrow, reflecting the sativa-leaning character of the population. Not documented; feral populations in this region are not selected for resin.
 

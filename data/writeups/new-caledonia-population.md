@@ -9,14 +9,14 @@ The New Caledonia Population is a rare Pacific island cannabis population associ
 Cannabis history in New Caledonia is not formally documented. The territory's population includes indigenous Kanak communities as well as European and other immigrant communities, and cannabis cultivation in the informal economy has been noted in general terms. New Caledonia's relative isolation within the Pacific — distant from the main PNG and Southeast Asian source regions for Pacific cannabis — means any population present likely arrived through limited contact points and has had opportunity to adapt to local conditions over multiple generations. No verified breeder accounts or formal botanical collection records are known for this specific population.
 
 ## Description
+- **Origin:** New Caledonia (Oceania)
+- **Climate:** Tropical maritime — oceanic influence, seasonal rainfall (wet season from November to April), high heat and humidity during the wet season, milder and drier conditions during the southern hemisphere winter.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Sativa
 - **Height:** Tall; consistent with sativa expression in a tropical maritime island environment.
-- **Flowering:** 12–16 weeks; reflecting the extended flowering typical of tropical sativas.
-- **Climate:** Tropical maritime — oceanic influence, seasonal rainfall (wet season from November to April), high heat and humidity during the wet season, milder and drier conditions during the southern hemisphere winter.
-- **Origin:** New Caledonia (Oceania)
+- **Flowering Time:** 12–16 weeks; reflecting the extended flowering typical of tropical sativas.
 
 Noted as a rare Pacific island population with limited collector documentation.
 

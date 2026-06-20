@@ -9,14 +9,14 @@ Lamb's Bread (also written Lamb's Breath) is a legendary Jamaican cannabis landr
 Jamaica has been a significant cannabis-producing island since at least the nineteenth century, when cannabis (known locally as ganja) was introduced through the arrival of South Asian indentured laborers following the abolition of slavery. Cannabis rapidly became integrated into Afro-Jamaican and then Rastafarian spiritual practice, where it holds the status of a sacred herb. Lamb's Bread is among the most commonly named Jamaican landrace varieties in the documented collector and cultivation tradition, often cited in connection with Rastafarian use and the island's highland growing zones. The name is referenced in Jamaican reggae culture, and the variety became internationally known from the 1970s onward. Specific genealogy within Jamaica (which parish, which elevation zone) is not consistently documented, and the name may have been applied to several related Jamaican sativa populations over time.
 
 ## Description
+- **Origin:** Jamaica (Americas)
+- **Climate:** Tropical Island / Maritime
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — Jamaican landrace sativas grow vigorously in the island's tropical climate
-- **Flowering:** 12–16 weeks — consistent with a tropical island sativa at Jamaica's latitude (approximately 18°N), where seasonal day-length variation is more pronounced than equatorial South American types
-- **Climate:** Tropical Island / Maritime
-- **Origin:** Jamaica (Americas)
+- **Flowering Time:** 12–16 weeks — consistent with a tropical island sativa at Jamaica's latitude (approximately 18°N), where seasonal day-length variation is more pronounced than equatorial South American types
 
 Grower accounts suggest energetic, openly branched growth; Jamaican sativas commonly develop multiple lateral branches and elongated floral clusters under the island's strong Caribbean sunlight. Broadly associated with bright, energetic, uplifting effects; specific aromatic profiles vary by account but earthy, herbal, and spicy notes are commonly referenced.
 

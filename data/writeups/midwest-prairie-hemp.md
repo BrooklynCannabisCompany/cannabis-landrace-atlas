@@ -9,14 +9,14 @@ Midwest Prairie Hemp refers to feral industrial hemp populations naturalized acr
 The United States government's wartime hemp initiative of the early 1940s resulted in large-scale hemp cultivation across Midwest farm states. When legal hemp production ended after the war, naturalized populations persisted and spread along transportation corridors and waterways. These feral populations became known colloquially as "ditch weed" — a descriptor reflecting their weedy, roadside character rather than any cultivation value. The Midwest Prairie Hemp complex represents one of the largest persistent feral hemp gene pools in North America and has attracted interest from CBD breeders and hemp preservationists, though it is not valued for drug-cannabis characteristics.
 
 ## Description
+- **Origin:** United States (Americas)
+- **Climate:** Continental steppe — warm summers, cold winters, moderate to low rainfall, strong seasonal variation, low humidity compared to coastal regions
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Feral
 - **Chemotype:** Type IV (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; fiber hemp varieties develop tall, straight growth suited to fiber production
-- **Flowering:** 10–14 weeks; photoperiod-responsive, timed to Midwest mid-latitude seasonal day-length changes
-- **Climate:** Continental steppe — warm summers, cold winters, moderate to low rainfall, strong seasonal variation, low humidity compared to coastal regions
-- **Origin:** United States (Americas)
+- **Flowering Time:** 10–14 weeks; photoperiod-responsive, timed to Midwest mid-latitude seasonal day-length changes
 
 Consistent with fiber hemp morphology — tall, minimally branched, with small diffuse flowers. High CBD or CBG content is documented in some populations. THC content is very low (typically below legal hemp thresholds). Plants are notably weedy and resilient, capable of persisting in highly disturbed habitats.
 

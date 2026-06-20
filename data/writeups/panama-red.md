@@ -9,14 +9,14 @@ Panama Red is a sativa landrace from Panama, one of the most celebrated and icon
 Panama's geographic position as a trade crossroads — the Panama Canal linking the Atlantic and Pacific — made it a significant transit point for goods including cannabis during the mid-20th century. Cannabis cultivation in Panama's tropical forests and agricultural zones developed from introduced populations that adapted over generations to the hot, humid, high-rainfall conditions of the Panamanian interior. Panama Red gained a significant cultural reputation during the late 1960s and 1970s, commonly cited alongside Colombian and Acapulco Gold as one of the premium imported sativas of the era. Its characteristic red-pistil phenotype and long flowering time became defining traits. By the 1980s, original Panamanian stock became difficult to obtain as the market shifted toward shorter-flowering domestically grown varieties.
 
 ## Description
+- **Origin:** Panama (Americas)
+- **Climate:** Tropical rainforest; hot, humid, high rainfall year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 13–18 weeks
-- **Climate:** Tropical rainforest; hot, humid, high rainfall year-round
-- **Origin:** Panama (Americas)
+- **Flowering Time:** 13–18 weeks
 
 Panama Red is typically described as a very tall sativa with characteristic reddish pistil coloration and an extended flowering period. The 13–18 week flowering window reflects the equatorial tropical forest environment. Reddish pistil coloration ("red" phenotype).
 

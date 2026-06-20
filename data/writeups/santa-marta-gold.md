@@ -9,14 +9,14 @@ Santa Marta Gold is a highland sativa landrace from the Sierra Nevada de Santa M
 The Sierra Nevada de Santa Marta's isolation and the particular combination of tropical climate and high elevation created conditions in which cannabis populations developed distinctive qualities over generations. By the late 1960s and through the 1970s, Santa Marta Gold had become one of the most prized imported sativas reaching North American and European markets, known for golden-orange pistil coloration at maturity, pleasant aroma, and potent, clear effects. Grower accounts from this era consistently rank it among the finest Colombian exports. The genetics from this population were foundational in early Dutch seed bank development and contributed to many hybrid strains produced in the 1980s and beyond. Specific breeding lineages incorporating Santa Marta Gold genetics are well referenced but often imprecisely documented.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Tropical mountain; humid, warm, high elevation, intense sunlight
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 12–18 weeks
-- **Climate:** Tropical mountain; humid, warm, high elevation, intense sunlight
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 12–18 weeks
 
 Santa Marta Gold is typically described as a tall, long-flowering tropical sativa with golden-to-orange pistil coloration at peak maturity. The 12–18 week flowering window is characteristic of highland Colombian equatorial sativas. Sierra Nevada de Santa Marta, Colombia. Golden/orange pistil coloration at maturity, foundational breeding genetics.
 

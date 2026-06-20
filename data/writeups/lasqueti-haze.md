@@ -9,14 +9,14 @@ Lasqueti Haze is a coastal heirloom cultivar associated with Lasqueti Island, a 
 Lasqueti Island's small, independent-minded community made it a center of artisanal cannabis cultivation during BC's formative outdoor growing era. The island's Pacific maritime climate — cool, cloudy summers; mild, rainy winters; persistent moisture — demanded cultivars capable of finishing in the brief warm season before autumn rains set in. Lasqueti Haze is associated with preservation efforts within the island's cultivation community, maintaining genetics that reflect this specific coastal outdoor selection history. Detailed provenance of the original genetics is not formally documented; it is understood as a community-selected adaptation rather than a single breeder's project.
 
 ## Description
+- **Origin:** Canada (Americas)
+- **Climate:** Pacific maritime — cool, cloudy, persistently moist, mild year-round temperatures, low frost risk near the coast
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Mixed
 - **Height:** Tall; consistent with sativa-influenced outdoor cultivar background
-- **Flowering:** 11–15 weeks; suited to BC's outdoor season, requiring completion before mid-autumn deterioration of weather
-- **Climate:** Pacific maritime — cool, cloudy, persistently moist, mild year-round temperatures, low frost risk near the coast
-- **Origin:** Canada (Americas)
+- **Flowering Time:** 11–15 weeks; suited to BC's outdoor season, requiring completion before mid-autumn deterioration of weather
 
 Pacific maritime-adapted cannabis tends toward moderate stature relative to its sativa heritage, with selection pressure for mold resistance and timely finishing. The "Haze" designation in the name suggests sativa-dominant character with the complex terpene qualities often associated with haze-type genetics, though specific characterization is not formally documented for this island population.
 

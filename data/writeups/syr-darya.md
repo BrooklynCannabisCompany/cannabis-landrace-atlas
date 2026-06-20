@@ -7,14 +7,14 @@ Syr Darya is an intermediate landrace associated with the Syr Darya River basin 
 The Syr Darya River basin has supported sedentary agriculture for millennia, and cannabis populations in this corridor likely reflect centuries of cultivation and naturalization alongside irrigation agriculture. As a major Silk Road transit route, the region would have seen cannabis seed stock moving between Afghan, Uzbek, Kazakh, and Chinese populations, potentially producing the intermediate morphology this entry reflects. Grower accounts and ethnobotanical surveys suggest cannabis has long been present along the riverbanks and irrigated agricultural zones of the lower Syr Darya in Kazakhstan. Documentation of a distinct "Syr Darya" population is limited; regional generalities apply.
 
 ## Description
+- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Kazakhstan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Intermediate indica-sativa morphology consistent with a Central Asian river corridor population. Medium-tall stature adapted to floodplain and irrigated agricultural conditions. Likely exhibits drought tolerance and heat adaptability suited to a semi-arid environment. Variable phenotypic expression expected, reflecting diverse genetic influences along the corridor.
 

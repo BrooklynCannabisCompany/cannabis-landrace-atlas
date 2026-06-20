@@ -9,14 +9,14 @@ Northern Territory Bush Cannabis refers to a remote feral cannabis population fo
 The history of cannabis naturalization in Australia's Northern Territory is not formally documented. The Northern Territory's Top End has historically experienced contact with Macassan fishermen from Sulawesi over centuries, and later colonial contact introduced diverse populations to the region. Any of these contact pathways could theoretically have introduced cannabis to the region at various points, though no verified historical records confirm this for the Northern Territory specifically. The mixed ancestry description suggests that the current feral population may be the product of multiple introduction events or genetic mixing from different source populations rather than a single founding event.
 
 ## Description
+- **Origin:** Australia (Oceania)
+- **Climate:** Tropical savanna — pronounced wet and dry seasons in the Top End, intense heat, monsoonal summer rainfall, long dry winter.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; consistent with sativa-type feral cannabis in a tropical savanna environment.
-- **Flowering:** Variable length; reflecting the mixed ancestry and feral, unselected character of this population.
-- **Climate:** Tropical savanna — pronounced wet and dry seasons in the Top End, intense heat, monsoonal summer rainfall, long dry winter.
-- **Origin:** Australia (Oceania)
+- **Flowering Time:** Variable length; reflecting the mixed ancestry and feral, unselected character of this population.
 
 Remote feral population with mixed ancestry — significant genetic variability expected.
 

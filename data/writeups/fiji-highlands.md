@@ -9,14 +9,14 @@ The Fiji Highlands landrace is associated with the Viti Levu Highlands of Fiji, 
 Cannabis cultivation history in Fiji is not formally documented to any precise origin. The plant is not indigenous to the Pacific Islands and arrived at some point through human migration or trade routes, though the timing and pathway to Fiji are uncertain. The Viti Levu interior communities have historically practiced subsistence agriculture, and cannabis cultivation appears to have become integrated into this context at some point in the past. The highlands population's adaptation to volcanic soils and high rainfall suggests multi-generational cultivation under those specific conditions, though no verified historical records confirm the depth of this history.
 
 ## Description
+- **Origin:** Fiji (Oceania)
+- **Climate:** Tropical mountain — consistently warm but tempered by altitude, high rainfall, volcanic soil substrate, Pacific maritime influence.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall, consistent with sativa expression in a highland tropical environment.
-- **Flowering:** 12–18 weeks; the extended range reflects variability within highland-adapted tropical populations.
-- **Climate:** Tropical mountain — consistently warm but tempered by altitude, high rainfall, volcanic soil substrate, Pacific maritime influence.
-- **Origin:** Fiji (Oceania)
+- **Flowering Time:** 12–18 weeks; the extended range reflects variability within highland-adapted tropical populations.
 
 Volcanic soil tolerance and high-rainfall resilience are inferred from the regional growing environment.
 

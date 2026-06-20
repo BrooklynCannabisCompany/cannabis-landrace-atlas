@@ -450,13 +450,13 @@ function openReferences() {
 // Region first — this atlas is about place. Each facet's groups follow the given order.
 const INDEX_FACETS = [
   ['Region', 'continent', null, ['Africa', 'Americas', 'East Asia / North Asia', 'Europe', 'Middle East / Central Asia', 'Oceania', 'South Asia', 'Southeast Asia']],
+  ['Climate', 'climate', null, ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown']],
   ['Morphotype', 'morphotype', null, ['Narrow-Leaf Drug', 'Broad-Leaf Drug', 'Narrow-Leaf Hemp', 'Broad-Leaf Hemp', 'Intermediate (NLD–BLD)', 'Ruderalis (wild-type)', 'Unclassified']],
   ['Chemotype', 'chemotype', (v) => `Type ${v}`, ['I', 'II', 'III', 'IV', 'V']],
   ['Domestication', 'domestication', null, ['Heirloom', 'Domesticated', 'Feral (escaped)', 'Wild']],
   ['Type (vernacular)', 'category', null, ['Hemp', 'Sativa', 'Indica', 'Mixed', 'Hybrid-Intermediate', 'Ruderalis', 'Feral']],
   ['Height', 'height'],
-  ['Flowering Time', 'flowering'],
-  ['Climate', 'climate', null, ['Tropical Rainforest', 'Tropical Lowland', 'Tropical Island / Maritime', 'Tropical Highland', 'Subtropical', 'Mediterranean', 'Steppe / Semi-arid', 'Desert / Arid', 'Mountain / Highland', 'Alpine / High Mountain', 'Temperate / Continental', 'Boreal / Subarctic', 'Other', 'Unknown']]
+  ['Flowering Time', 'flowering']
 ];
 const INDEX_STATE_KEY = 'cla-index-state';
 function loadIndexState() { try { return JSON.parse(localStorage.getItem(INDEX_STATE_KEY)) || {}; } catch { return {}; } }

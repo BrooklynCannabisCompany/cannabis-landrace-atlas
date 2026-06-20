@@ -9,14 +9,14 @@ The Grenada Highland landrace is associated with the central highlands of Grenad
 Grenada's status as a small island with a strong agricultural identity — famously associated with nutmeg and spice production — reflects the fertility and productivity of its volcanic soils. Cannabis cultivation in Grenada's highlands exists within this broader agricultural tradition, though it is not extensively documented in formal landrace literature. The island's isolation and relatively small land area mean this population has likely developed in relative genetic isolation compared to larger continental landrace populations. Available information draws primarily on general knowledge of Grenadian ecology and Eastern Caribbean highland cannabis patterns.
 
 ## Description
+- **Origin:** Grenada (Americas)
+- **Climate:** Tropical volcanic — high rainfall, fertile volcanic soils, warm maritime temperatures, moderate elevation influence in the central highlands
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall; volcanic highland soils and tropical rainfall support vigorous growth
-- **Flowering:** 12–16 weeks; consistent with Eastern Caribbean tropical island populations
-- **Climate:** Tropical volcanic — high rainfall, fertile volcanic soils, warm maritime temperatures, moderate elevation influence in the central highlands
-- **Origin:** Grenada (Americas)
+- **Flowering Time:** 12–16 weeks; consistent with Eastern Caribbean tropical island populations
 
 Specific morphological documentation for Grenada's highland population is not available. General Eastern Caribbean highland cannabis characteristics — tall, open-branching, moisture-adapted — are inferred from the regional ecology. Island isolation may have produced relatively localized phenotypic character.
 

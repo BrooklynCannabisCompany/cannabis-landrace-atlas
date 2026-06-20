@@ -9,14 +9,14 @@ New Ireland is a long, narrow island province of Papua New Guinea, extending nor
 Cannabis history on New Ireland is not formally documented. The island has a long Melanesian habitation history with distinct cultural traditions, augmented by colonial-era contact. Cannabis could have arrived through various historical maritime contact routes, given New Ireland's position along the island chain connecting PNG to the Bismarck Archipelago and further into the Pacific. The feral classification suggests the population naturalized rather than being maintained through sustained intentional cultivation. No verified botanical records or collector accounts are known for this specific population.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Tropical island — maritime air dominance, consistent humidity and warmth, high rainfall, minimal altitude moderation due to the island's narrow profile.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; typical of equatorial island sativas in tropical maritime conditions.
-- **Flowering:** 11–15 weeks; consistent with island tropical PNG feral populations.
-- **Climate:** Tropical island — maritime air dominance, consistent humidity and warmth, high rainfall, minimal altitude moderation due to the island's narrow profile.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 11–15 weeks; consistent with island tropical PNG feral populations.
 
 Maritime adaptation is the primary descriptor for this population.
 

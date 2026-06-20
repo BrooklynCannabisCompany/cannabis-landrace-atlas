@@ -9,14 +9,14 @@ Swazi Gold is a well-known sativa complex from Eswatini (formerly Swaziland), a 
 Cannabis cultivation in Eswatini has deep historical roots, and Swazi Gold became known internationally during the 1970s and 1980s when southern African cannabis entered export markets. The strain's reputation for mango-sweet aroma and long-duration sativa effects made it a reference point for collectors and breeders interested in African genetics. Eswatini's subtropical highland environment — warm summers, cool winters, and a distinct seasonal rainfall pattern — provided selective conditions for a vigorous, long-flowering sativa. The name "Swazi Gold" is associated in part with the golden-hued colas that the strain reportedly produces when allowed to mature fully outdoors. Grower accounts note significant variation within the broader Swazi population, and the name likely encompasses more than one distinct phenotype.
 
 ## Description
+- **Origin:** Eswatini (Africa)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — capable of considerable stature when grown outdoors in appropriate subtropical conditions
-- **Flowering:** 12–16 weeks — a long flowering period consistent with its sativa heritage and the subtropical day-length patterns of Eswatini's growing season
-- **Climate:** Tropical Highland
-- **Origin:** Eswatini (Africa)
+- **Flowering Time:** 12–16 weeks — a long flowering period consistent with its sativa heritage and the subtropical day-length patterns of Eswatini's growing season
 
 Vigorous, upright, and long-branching; the open structure is typical of southern African sativa types adapted to warm, sunny conditions. Mango sweetness is the most commonly reported aromatic characteristic; effects are described as uplifting and long-lasting, reflecting the classic sativa profile.
 

@@ -9,14 +9,14 @@ The Mongolian Steppe cannabis population is a feral autoflowering ruderalis popu
 Cannabis on the Mongolian steppe is generally understood to be descended from plants introduced by pastoral nomads traversing the region over millennia, combined with natural dispersal across the grasslands. The Mongolian steppe's vast, open character and lack of physical barriers between regions means that steppe cannabis populations may be highly variable and genetically mixed, drawing from gene pools originating across a wide arc of northern Eurasia. The ruderalis character of this population reflects the progressive natural selection for early finishing that is common across the northern steppe zone. No strain-specific documentation is available.
 
 ## Description
+- **Origin:** Mongolia (East Asia / North Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Ruderalis (wild-type)
-- **Vernacular type:** Ruderalis
 - **Chemotype:** Type II (inferred)
 - **Domestication:** Wild
+- **Vernacular type:** Ruderalis
 - **Height:** Short, consistent with ruderalis morphology
-- **Flowering:** 6–10 weeks from germination, autoflowering
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Mongolia (East Asia / North Asia)
+- **Flowering Time:** 6–10 weeks from germination, autoflowering
 
 Compact and low-growing; adapted to wind exposure and the open steppe environment. Typically broad relative to tall sativa types; robust and reduced in size. Minimal psychoactive potency; primary interest is in cold hardiness and autoflowering genetics.
 

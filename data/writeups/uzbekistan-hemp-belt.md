@@ -7,14 +7,14 @@ Uzbekistan Hemp Belt is a fiber and hemp selection line from Uzbekistan, categor
 Hemp cultivation in Central Asia, including in the territories of modern Uzbekistan, has a long history tied to fiber production for textiles, rope, and other industrial uses. During the Soviet period, industrial hemp was cultivated across Central Asian republics as a managed crop, with selection focused on fiber yield, tall stature, and low cannabinoid content. The "Uzbekistan Hemp Belt" label likely refers to the zone of historically significant hemp cultivation across the Uzbek agricultural steppe, where fertile soils and irrigation infrastructure supported large-scale fiber crops. Post-Soviet disruption of these programs may have left naturalized populations across the region. Specific documentation of this population is limited.
 
 ## Description
+- **Origin:** Uzbekistan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Uzbekistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Hemp morphology; tall stature consistent with fiber-selected populations. Long growing season (10–14 weeks to flower) typical of large-statured hemp lines. Steppe-adapted; suited to continental arid climate with irrigation-supported agriculture. Low cannabinoid content expected, consistent with hemp selection priorities.
 

@@ -9,14 +9,14 @@ KwaZulu is a well-known South African landrace associated with KwaZulu-Natal Pro
 KwaZulu-Natal has a long and well-documented history of cannabis cultivation — historically known as "dagga" in Zulu and neighboring language traditions — and the Zulu kingdom and its successor communities maintained cannabis as an important plant in cultural, medicinal, and social contexts. The mountainous terrain of the Drakensberg and its foothills provided conditions for highland-adapted landrace development over many generations. KwaZulu material has been collected and preserved by various seed banks and breeders over the decades, and it is among the better-documented South African landraces in international cannabis literature and grower communities.
 
 ## Description
+- **Origin:** South Africa (Africa)
+- **Climate:** Mountain subtropical — Drakensberg escarpment conditions with significant elevation, strong sunlight, and cooler mountain nights
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall, commonly 2–4 m under open conditions
-- **Flowering:** Long, approximately 12–16 weeks from equinox/flip
-- **Climate:** Mountain subtropical — Drakensberg escarpment conditions with significant elevation, strong sunlight, and cooler mountain nights
-- **Origin:** South Africa (Africa)
+- **Flowering Time:** Long, approximately 12–16 weeks from equinox/flip
 
 Spicy-incense profile is commonly reported; vigorous growth and robust constitution are noted characteristics. Classic narrow-leaf sativa phenotype typical of South African highland populations.
 

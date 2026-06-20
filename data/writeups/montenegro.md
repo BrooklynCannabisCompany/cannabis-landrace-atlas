@@ -9,14 +9,14 @@ The Montenegro landrace is an intermediate cannabis population from the Dinaric 
 Cannabis in Montenegro is associated with the broader Balkan hemp and landrace tradition, with Ottoman-era cultivation and later rural persistence in the country's isolated highland communities. Montenegro's extreme terrain — some of Europe's most rugged and least accessible — historically limited outside influence and may have contributed to the preservation of older Balkan cannabis genetics in highland communities. The country's geographic position between the Adriatic coast and the interior Balkan highlands means its cannabis population reflects a blend of coastal Mediterranean and continental mountain influences.
 
 ## Description
+- **Origin:** Montenegro (Europe)
+- **Climate:** Mediterranean mountain
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium
-- **Flowering:** 9–13 weeks
-- **Climate:** Mediterranean mountain
-- **Origin:** Montenegro (Europe)
+- **Flowering Time:** 9–13 weeks
 
 As a medium-height, intermediate (indica–sativa) landrace with a 9–13 week flowering window adapted to the Mediterranean mountain climate of Montenegro, this population is understood as occupying a transitional phenotypic space between the compact, cold-tolerant highland types of the Dinaric interior and the more sativa-influenced coastal Mediterranean populations. Limestone karst terrain and Adriatic maritime influence are the defining ecological characteristics shaping this population.
 

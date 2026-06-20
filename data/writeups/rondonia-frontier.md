@@ -9,14 +9,14 @@ Rondônia Frontier refers to a sativa landrace from Rondônia State in western B
 Rondônia's modern history is largely one of frontier expansion: the construction of roads, the arrival of settlers from southern Brazil and other regions, and large-scale deforestation that converted vast areas of rainforest to agricultural land. This frontier dynamic created conditions in which introduced plants could spread and naturalize across a mosaic of forest edge, agricultural clearings, and degraded jungle. Cannabis populations in Rondônia would have developed in these conditions — tropical rainforest climate with the added complexity of disturbed edge environments. Strong vigor and humidity tolerance, as noted in the summary, are traits consistent with this kind of frontier environment.
 
 ## Description
+- **Origin:** Brazil (Americas)
+- **Climate:** Tropical rainforest; hot, high humidity, high rainfall year-round
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall
-- **Flowering:** 14–20 weeks
-- **Climate:** Tropical rainforest; hot, high humidity, high rainfall year-round
-- **Origin:** Brazil (Americas)
+- **Flowering Time:** 14–20 weeks
 
 This population is described as a very tall sativa with an extended 14–20 week flowering window, consistent with equatorial Amazonian cannabis adapted to continuous hot, humid conditions and high rainfall. Rondônia State, Western Brazil. Strong vigor, humidity tolerance.
 

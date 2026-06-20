@@ -9,14 +9,14 @@ Sylhet is a sativa landrace from the Sylhet Division of northeastern Bangladesh,
 Cannabis has grown in the Bengali lowlands for centuries, recognized in traditional medicine and folk use across the subcontinent. The Sylhet region, with its distinctive ecology dominated by haor basins and tea-garden highlands, provides a varied but predominantly wet environment. Formal documentation of a distinct Sylheti landrace population is limited; most Bengali cannabis populations are grouped broadly in ethnobotanical literature. Grower accounts and informal seed expeditions suggest that cannabis persisting in Bangladesh's monsoon swamps has developed particular resilience to waterlogged and humid conditions that would stress or kill populations from drier regions.
 
 ## Description
+- **Origin:** Bangladesh (South Asia)
+- **Climate:** Monsoon swamp — extreme humidity, seasonal flooding, very high annual rainfall, warm temperatures
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Commonly reported at 10–13 weeks
-- **Climate:** Monsoon swamp — extreme humidity, seasonal flooding, very high annual rainfall, warm temperatures
-- **Origin:** Bangladesh (South Asia)
+- **Flowering Time:** Commonly reported at 10–13 weeks
 
 Plants are expected to be tall with an open, airy structure that helps manage the relentless humidity of the Sylhet environment. Sativa leaf morphology — narrow leaflets, widely spaced internodes — likely dominates, facilitating airflow and reducing mold pressure during the extended wet season. The 10–13 week flowering period aligns with the tail end of the monsoon season in the region.
 

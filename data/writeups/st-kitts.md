@@ -9,14 +9,14 @@ St. Kitts refers to the cannabis population of Saint Kitts — the larger of the
 Cannabis cultivation on Saint Kitts is embedded in the island's rural and Rastafarian cultural traditions, as is common across the Eastern Caribbean. The history of cannabis introduction to the Leeward Islands is not precisely documented in academic sources, but grower accounts and regional context suggest cultivation has occurred across Saint Kitts for many generations. The island's former plantation economy and the social structures that followed emancipation shaped land use across rural Saint Kitts, and cannabis cultivation is commonly associated with small-scale subsistence farming in areas away from commercial agricultural land. The island's proximity to Nevis — separated by a narrow channel — means some genetic exchange between the two islands is plausible, though the populations are tracked separately in this atlas.
 
 ## Description
+- **Origin:** Saint Kitts & Nevis (Americas)
+- **Climate:** Tropical island — adapted to heat, persistent trade winds, volcanic soils, and maritime humidity
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall, consistent with tropical sativa heritage
-- **Flowering:** Long-season; commonly reported at 12–16 weeks
-- **Climate:** Tropical island — adapted to heat, persistent trade winds, volcanic soils, and maritime humidity
-- **Origin:** Saint Kitts & Nevis (Americas)
+- **Flowering Time:** Long-season; commonly reported at 12–16 weeks
 
 Typical of Caribbean sativa landraces — tall, branchy plants with elongated internodes; specific phenotypic details for the Saint Kitts population are not well characterized in available documentation.
 

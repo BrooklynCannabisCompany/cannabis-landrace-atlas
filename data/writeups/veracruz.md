@@ -9,14 +9,14 @@ The Veracruz landrace is associated with the Gulf Coast state of Veracruz, Mexic
 Veracruz has been one of Mexico's most historically significant states since colonial times, serving as a major port and agricultural hub. Cannabis cultivation in Mexico's tropical lowland states, including Veracruz, has longstanding informal roots, though documented landrace collection from this specific state is limited. Mexico's cannabis landraces have been influential in the development of many North American varieties, and coastal lowland populations from states like Veracruz represent a distinct ecological niche compared to the better-known highland populations of states such as Oaxaca or Michoacán.
 
 ## Description
+- **Origin:** Mexico (Americas)
+- **Climate:** Tropical lowland — warm and humid, with significant Gulf moisture and a pronounced wet season
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall; typical of Mexican lowland sativas with unrestricted tropical growth
-- **Flowering:** 11–14 weeks; somewhat shorter than equatorial landraces, consistent with Mexico's shifting tropical photoperiod
-- **Climate:** Tropical lowland — warm and humid, with significant Gulf moisture and a pronounced wet season
-- **Origin:** Mexico (Americas)
+- **Flowering Time:** 11–14 weeks; somewhat shorter than equatorial landraces, consistent with Mexico's shifting tropical photoperiod
 
 Grower accounts of Mexican coastal sativas generally describe tall, branchy plants with medium-narrow leaflets. Terpene profiles associated with Gulf Coast Mexican landraces often lean toward earthy, herbal, and fuel-adjacent expressions, though specific documentation for Veracruz is sparse.
 

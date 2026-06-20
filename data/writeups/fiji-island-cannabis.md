@@ -9,14 +9,14 @@ Fiji Island Cannabis refers to a feral sativa population associated with the Fij
 The history of cannabis naturalization in Fiji is not formally documented. Cannabis is not native to the Pacific Islands, and its arrival in Fiji would have occurred through human agency — trade, migration, or colonial-era introduction — at a date that is not established in verified records. The feral classification of this population indicates it is not maintained through intentional cultivation but has naturalized in the island environment. No specific breeder accounts or formal collection records are known for this general island feral population.
 
 ## Description
+- **Origin:** Fiji (Oceania)
+- **Climate:** Island tropical — warm year-round, high humidity, consistent rainfall, maritime air influence.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; typical of sativa-type cannabis growing in tropical island conditions with high light availability.
-- **Flowering:** 10–14 weeks; the relatively tighter window compared to more documented Pacific sativas may reflect adaptation to Fiji's seasonal light variation.
-- **Climate:** Island tropical — warm year-round, high humidity, consistent rainfall, maritime air influence.
-- **Origin:** Fiji (Oceania)
+- **Flowering Time:** 10–14 weeks; the relatively tighter window compared to more documented Pacific sativas may reflect adaptation to Fiji's seasonal light variation.
 
 Fiji Island Cannabis is a feral — naturalized rather than intentionally maintained. landrace (Narrow-Leaf Drug) from Fiji (Oceania).
 

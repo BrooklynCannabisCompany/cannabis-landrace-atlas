@@ -9,14 +9,14 @@ Rolpa is a sativa landrace from Rolpa District in the mid-hills of western Nepal
 Nepal's cannabis culture extends across much of the hill country, where the plant grows spontaneously along roadsides, terraced fields, and forest margins. Rolpa District, historically remote and underserved by infrastructure, would have limited formal documentation of its cannabis populations. Grower accounts and seed expedition reports occasionally note Nepali mid-hill landraces as vigorous, tall sativas with extended flowering periods — characteristics consistent with populations adapted to the humid, forested valley climates at mid-elevation. No specific breeders, dates, or formalized selection history is documented for this population.
 
 ## Description
+- **Origin:** Nepal (South Asia)
+- **Climate:** Forested valley at mid-elevation, seasonal monsoon rainfall, warm summers with cool-season dry periods
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Commonly reported at 10–14 weeks
-- **Climate:** Forested valley at mid-elevation, seasonal monsoon rainfall, warm summers with cool-season dry periods
-- **Origin:** Nepal (South Asia)
+- **Flowering Time:** Commonly reported at 10–14 weeks
 
 Plants are expected to be tall and vigorously branching, consistent with sativa landraces adapted to forested valley conditions where competition for light drives vertical growth. Leaf structure is likely narrow to medium-width, with elongated internodes. The long flowering window reflects the plant's equatorial-influenced sativa genetics adapted to Nepal's mid-hill climate.
 

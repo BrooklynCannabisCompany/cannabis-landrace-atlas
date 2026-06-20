@@ -9,14 +9,14 @@ The Hungarian Hemp Landrace is a fiber hemp population from Hungary — a landlo
 Hemp cultivation in Hungary is documented from the medieval period and intensified during the eighteenth and nineteenth centuries when Hungary was an important producer of fiber hemp within the Habsburg Empire and later for Russian and European markets. Hungarian hemp varieties developed through centuries of agricultural selection for fiber quality, tall stature, and suitability for the continental plains climate — characterized by warm summers, cold winters, and fertile loess soils. The entry is described as a historic European fiber source with vigorous growth traits, reflecting this long cultivated heritage.
 
 ## Description
+- **Origin:** Hungary (Europe)
+- **Climate:** Continental plains
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Tall
-- **Flowering:** 10–14 weeks
-- **Climate:** Continental plains
-- **Origin:** Hungary (Europe)
+- **Flowering Time:** 10–14 weeks
 
 As a tall hemp landrace with a 10–14 week flowering window adapted to the continental plains of Hungary, this population exemplifies the fiber-oriented selection pressure of Central European industrial hemp cultivation. Tall, upright growth habit, long internodes, and vigorous vegetative development are typical of fiber hemp landraces selected for stalk biomass. The hemp category designation indicates low THC content characteristic of traditional fiber varieties.
 

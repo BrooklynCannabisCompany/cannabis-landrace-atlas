@@ -9,14 +9,14 @@ Thimphu is a sativa landrace from Bhutan, associated with the Thimphu valley and
 Bhutan occupies a unique position in the cannabis landrace world: the plant is essentially ubiquitous in the wild, and traditional Bhutanese culture has not historically valorized cannabis in the same way as neighboring Himalayan cultures with strong charas traditions. This has meant that Bhutanese cannabis has largely grown and adapted without intensive human selection for resin or particular traits, resulting in a diverse, wild-type sativa population. The Thimphu region, at approximately 2,300 metres elevation in a temperate Himalayan valley, provides conditions conducive to robust cannabis growth with a distinct temperate seasonality. Grower accounts and traveler reports have noted tall, vigorous plants along roadsides and field margins throughout the Thimphu area.
 
 ## Description
+- **Origin:** Bhutan (South Asia)
+- **Climate:** Himalayan temperate — distinct seasons, moderate rainfall, warm summers, cool-to-cold winters
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Commonly reported at 10–14 weeks
-- **Climate:** Himalayan temperate — distinct seasons, moderate rainfall, warm summers, cool-to-cold winters
-- **Origin:** Bhutan (South Asia)
+- **Flowering Time:** Commonly reported at 10–14 weeks
 
 Plants are typically tall and vigorous, consistent with a broadly adapted feral population. The wild roadside character means significant phenotypic diversity is expected across any seed lot. Leaf morphology is likely to lean sativa, with medium-to-narrow leaflets. Flowering at 10–14 weeks places this strain in the range of other Himalayan sativa landraces adapted to temperate montane conditions.
 

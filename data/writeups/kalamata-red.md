@@ -9,14 +9,14 @@ Kalamata Red is a rare mixed-category cannabis population associated with the Ka
 Formal documentation of a distinct "Kalamata Red" cannabis population is very limited, and this entry should be understood as reflecting regional cannabis diversity in the southern Peloponnese rather than a named and standardized variety. The Peloponnese has a long agricultural history, and cannabis cultivation in the region — whether for fiber, seed, or resin — is associated with the broad Mediterranean cannabis tradition. The designation "Red" likely refers to a distinctive phenotypic characteristic observed in plants from this specific area, possibly associated with the intense UV exposure, rocky limestone soils, and hot dry conditions of the southern Peloponnese coastline.
 
 ## Description
+- **Origin:** Greece (Europe)
+- **Climate:** Coastal Mediterranean
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall
-- **Flowering:** 11–15 weeks
-- **Climate:** Coastal Mediterranean
-- **Origin:** Greece (Europe)
+- **Flowering Time:** 11–15 weeks
 
 As a tall, mixed-category landrace with an 11–15 week flowering window adapted to the coastal Mediterranean climate of the Kalamata area, Kalamata Red plants are described as sharing the heat tolerance and maritime adaptation of the broader southern Greek sativa tradition, with the additional possible characteristic of red or purplish coloration that gives this population its distinctive name. The extended flowering window of up to 15 weeks reflects sativa-leaning genetics common to southern Mediterranean landraces.
 

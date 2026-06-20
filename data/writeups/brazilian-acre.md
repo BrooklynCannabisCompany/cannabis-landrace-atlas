@@ -9,14 +9,14 @@ Brazilian Acre refers to cannabis populations associated with the state of Acre 
 Cannabis cultivation in the Amazon basin, including Acre, is thought to have arrived via Portuguese colonial trade routes and later spread through river-corridor networks connecting interior communities. The specific history of the Acre population is not well documented in the published literature. Grower accounts suggest that cannabis has been cultivated in and around Acre's river settlements for generations, with plants naturalized to the humid rainforest environment over time. The state's position at the junction of three countries may have contributed to genetic exchange across regional landrace pools. Formal preservation efforts for this population remain limited, making it a candidate of interest for South American landrace conservation.
 
 ## Description
+- **Origin:** Brazil (Americas)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall — consistent with Amazonian equatorial landraces that stretch toward maximum light in dense forest understory
-- **Flowering:** 14–20 weeks — extended photoperiod sensitivity typical of populations near the equator where seasonal day-length variation is minimal
-- **Climate:** Tropical Rainforest
-- **Origin:** Brazil (Americas)
+- **Flowering Time:** 14–20 weeks — extended photoperiod sensitivity typical of populations near the equator where seasonal day-length variation is minimal
 
 Commonly reported as long-branching with elongated internodes, adapted to low-light forest margins. No verified accounts available; regional Amazonian populations are generally associated with energetic, cerebral characteristics.
 

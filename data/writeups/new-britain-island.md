@@ -9,14 +9,14 @@ New Britain Island is the largest island in the Bismarck Archipelago of Papua Ne
 Cannabis history on New Britain Island is not formally documented. The island has a long history of Melanesian habitation, augmented by significant colonial-era activity in Rabaul (the main center on the island's northeastern tip). Cannabis could have arrived through various historical contact pathways, but no verified records establish the timing or source of introduction. The island's volcanic tropical character and relative isolation from mainland PNG's highland communities suggest that any cannabis present on New Britain developed in a distinct ecological and genetic context from the PNG mainland populations.
 
 ## Description
+- **Origin:** Papua New Guinea (Oceania)
+- **Climate:** Volcanic tropical island — high rainfall (one of the wettest regions in PNG), active volcanic zone, consistently hot and humid.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall; typical of island tropical cannabis in full equatorial-adjacent sun.
-- **Flowering:** 11–15 weeks; consistent with PNG island populations.
-- **Climate:** Volcanic tropical island — high rainfall (one of the wettest regions in PNG), active volcanic zone, consistently hot and humid.
-- **Origin:** Papua New Guinea (Oceania)
+- **Flowering Time:** 11–15 weeks; consistent with PNG island populations.
 
 New Britain Island is an island-isolated melanesian population with uncertain cultivation status. landrace (Narrow-Leaf Drug) from Papua New Guinea (Oceania).
 

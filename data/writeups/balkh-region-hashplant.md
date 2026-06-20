@@ -9,14 +9,14 @@ The Balkh Region HashPlant is an indica landrace from the Balkh region of northe
 Balkh (ancient Bactra) was a major center of Zoroastrian culture, a Silk Road hub, and a celebrated city across multiple historical periods. The Balkh region's cannabis cultivation tradition is embedded in this long history of agriculture and trade. Northern Afghan cannabis from the Balkh area is associated with the production of traditional pressed hashish, historically traded northward into Central Asia and westward toward Iran. The population's heavy indica character and fast maturation suggest a history of directed selection for resin production under the challenging conditions of the northern Afghan desert-margin climate. Specific documented history for this population in cannabis literature is sparse; these inferences draw on the broader Afghan indica and northern Afghan agricultural context.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Short — a compact hash plant
-- **Flowering:** 7–9 weeks; among the fastest-finishing of the Afghan landraces
-- **Climate:** Desert / Arid
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 7–9 weeks; among the fastest-finishing of the Afghan landraces
 
 Dense, heavily branched, with broad indica leaves and tight bud structure. Heavy; commonly described as the defining characteristic of this northern Afghan type, with a sedative cannabinoid and terpene profile. The combination of short stature, fast flowering, and heavy resin suggests strong selection pressure for hashish production efficiency.
 

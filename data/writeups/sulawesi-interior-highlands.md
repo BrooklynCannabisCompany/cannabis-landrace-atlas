@@ -9,14 +9,14 @@ Sulawesi Interior Highlands describes a distinct upland cannabis population from
 The interior highlands of Sulawesi remain among the less-accessible parts of the Indonesian archipelago, with indigenous Torajan and other ethnic minority communities maintaining traditional lifestyles in the highland valleys. Cannabis in this context is associated primarily with traditional and feral presence rather than large-scale cultivation. Documentation of the interior highland population as a distinct gene pool is very limited; it is included in the atlas as a recognized distinct upland population based on geographic and ecological separation from coastal Sulawesi cannabis.
 
 ## Description
+- **Origin:** Indonesia (Southeast Asia)
+- **Climate:** Mountain jungle — cooler and wetter than coastal Sulawesi, with sustained cloud cover and high rainfall.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 12–15 weeks, slightly longer than coastal Sulawesi estimates and consistent with highland tropical photoperiod conditions.
-- **Climate:** Mountain jungle — cooler and wetter than coastal Sulawesi, with sustained cloud cover and high rainfall.
-- **Origin:** Indonesia (Southeast Asia)
+- **Flowering Time:** 12–15 weeks, slightly longer than coastal Sulawesi estimates and consistent with highland tropical photoperiod conditions.
 
 Tall sativa structure adapted to mountain jungle conditions — likely with somewhat denser branching and potentially slightly broader leaflets than coastal lowland Sulawesi plants, reflecting the cooler highland environment. Not specifically documented; regional highland Indonesian cannabis is broadly associated with earthy and woody profiles.
 

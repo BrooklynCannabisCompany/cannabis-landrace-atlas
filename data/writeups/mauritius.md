@@ -9,14 +9,14 @@ Mauritius is a small volcanic island nation in the southwestern Indian Ocean, ro
 Cannabis is thought to have arrived in Mauritius through historical trade and labor migration routes crossing the Indian Ocean, likely over several centuries. Grower accounts suggest that populations adapted over generations to the island's specific conditions — high humidity, salt-laden sea breezes, and volcanic soils. Mauritius's relative isolation from mainland African and South Asian gene pools may have allowed this population to develop distinct characteristics, though documented research on its specific lineage remains limited.
 
 ## Description
+- **Origin:** Mauritius (Africa)
+- **Climate:** Tropical Island / Maritime
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — typical of equatorial sativas adapting to abundant light and warmth
-- **Flowering:** 12–18 weeks — among the longer photoperiod responses associated with equatorial island types
-- **Climate:** Tropical Island / Maritime
-- **Origin:** Mauritius (Africa)
+- **Flowering Time:** 12–18 weeks — among the longer photoperiod responses associated with equatorial island types
 
 Commonly described as lanky and open-branched, consistent with island sativa morphology. Specific terpene profiles for this population are not well documented; island sativas in this region are generally associated with uplifting, cerebral effects.
 

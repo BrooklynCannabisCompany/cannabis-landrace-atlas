@@ -9,14 +9,14 @@ Shashamane is an Ethiopian highland sativa landrace from the town of Shashamane 
 Cannabis cultivation in the Shashamane area draws from two overlapping traditions: the long-established Ethiopian highland landrace tradition, and the Rastafarian community that settled on land granted by Emperor Haile Selassie. The Rastafarian presence from the 1950s onward brought sustained attention to Shashamane's cannabis, and grower accounts consistently describe the plants as tall, narrow-leaf sativas producing effects associated with spiritual and reflective use. The Ethiopian highland's high-altitude volcanic plateau provides fertile, mineral-rich soils and intense equatorial sunlight moderated by elevation. Whether the Shashamane population is genetically distinct from other Ethiopian highland landraces or represents a selection within that broader group is not clearly established in published research.
 
 ## Description
+- **Origin:** Ethiopia (Africa)
+- **Climate:** Mountain / Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous sativa growth on the fertile volcanic soils and under the intense high-altitude sunlight of the Oromia highlands
-- **Flowering:** 12–16 weeks — a long flowering window consistent with high-altitude equatorial sativa populations where photoperiod shifts are gradual
-- **Climate:** Mountain / Highland
-- **Origin:** Ethiopia (Africa)
+- **Flowering Time:** 12–16 weeks — a long flowering window consistent with high-altitude equatorial sativa populations where photoperiod shifts are gradual
 
 Narrow-leaf sativa morphology, with elongated leaflets and open, upright branching — typical of classic African highland sativa types. Described as a classic African narrow-leaf sativa; effects are associated with cerebral and uplifting qualities; specific terpene profiles are not formally documented.
 

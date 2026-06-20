@@ -7,14 +7,14 @@ The Kandahar/Paktia strain represents a traditional Afghan indica landrace spann
 Kandahar has long been one of Afghanistan's principal hashish-producing regions, with local farmers selecting cannabis for heavy resin yield over many generations. Paktia's mountain cannabis populations share genetic proximity to the Hindu Kush corridor, linking them to some of the most prized indica gene pools in the world. Grower accounts suggest that seed trade between these provinces has historically connected the two gene pools. Both regions contributed to the indica genetics that entered Western breeding programs during the late 1970s and 1980s. Documented provenance for specific village or farm selections within these provinces remains sparse.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–11 weeks
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 8–11 weeks
 
 Compact to medium stature with broad indica leaves and dense branching. Heavy resin production; flowers are typically dense and aromatic. Reported aromas range from earthy and spicy (Kandahar-influenced) to more floral or piney notes associated with mountain ecotypes. Effects are commonly described as physically sedating and long-lasting.
 

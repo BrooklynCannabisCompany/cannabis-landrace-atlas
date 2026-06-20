@@ -9,14 +9,14 @@ Idukki is a sativa landrace from Idukki District in the Western Ghats of Kerala,
 Idukki Gold has been a reference point in Indian cannabis culture for decades, particularly in Kerala where it is associated with a distinct local tradition of sativa cultivation. Grower accounts and collector reports describe a variety that flourished historically in the district's forests and among smallholder agricultural plots, with the Gold designation typically applied to the better-quality material characterized by its aromatic complexity and potency. The historical record specific to the Idukki District cannabis population in scientific or ethnobotanical literature is limited; most documentation comes from enthusiast accounts, journalist reports on Kerala's cannabis culture, and anecdotal collector testimonies. Whether "Idukki Gold" describes a single stable population or a regional type encompassing significant variation is debated.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Tropical mountain jungle
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — consistent with a vigorous tropical jungle sativa with a long season
-- **Flowering:** 12–16 weeks — among the longer windows for an Indian landrace
-- **Climate:** Tropical mountain jungle
-- **Origin:** India (South Asia)
+- **Flowering Time:** 12–16 weeks — among the longer windows for an Indian landrace
 
 Tall, open branching architecture adapted to competing for light in a dense jungle environment. Commonly reported aroma: citrus-forward with spice undertones — the "citrus-spice" profile referenced in the summary. Long flowering time and tropical adaptation suggest narrow leaflets, extended internodes, and loose floral structure typical of equatorial/near-equatorial sativas.
 

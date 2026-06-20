@@ -9,14 +9,14 @@ Ladakh Wild Population designates a feral cannabis population growing in the Lad
 Cannabis growing wild in Ladakh has been observed by travelers, botanists, and collectors for many decades. The plants appear along roadsides, river margins, and abandoned fields — the classic feral habitat of Cannabis sativa in its ruderal form. Whether these Ladakhi populations represent ancient naturalized cannabis or more recent introductions brought by trade and human movement along the Indus corridor is debated; Ladakh's position as a historical junction of Silk Road-adjacent trade routes means many plant species were introduced and naturalized over centuries. Systematic genetic characterization of the Ladakh wild population has not, to public knowledge, been published, leaving its relationship to neighboring Pakistani, Tibetan, and Kashmiri populations uncertain.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** High-altitude desert
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Medium — consistent with the growth-limiting conditions of high-altitude cold desert
-- **Flowering:** 10–14 weeks — a relatively wide window for a feral population spanning multiple microhabitats
-- **Climate:** High-altitude desert
-- **Origin:** India (South Asia)
+- **Flowering Time:** 10–14 weeks — a relatively wide window for a feral population spanning multiple microhabitats
 
 Extreme cold and UV tolerance is the defining adaptive trait; trichome density may be elevated as UV protection at altitude. Feral populations show high morphological variability; no consistent "type" can be assumed. Adaptation to arid conditions means root systems are likely efficient under water stress; not optimized for wet or waterlogged conditions.
 

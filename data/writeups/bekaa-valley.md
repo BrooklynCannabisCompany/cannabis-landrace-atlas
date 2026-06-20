@@ -9,14 +9,14 @@ The Bekaa Valley landrace originates from the Bekaa (Beqaa) Valley of eastern Le
 Cannabis cultivation in the Bekaa Valley is historically documented across the Ottoman period and into the modern era, when the Bekaa became Lebanon's principal cannabis-growing region. The valley's fertile alluvial soils, reliable sunshine, and relative isolation between two mountain ranges created conditions well-suited to large-scale cultivation. Lebanese hashish — much of it produced from Bekaa Valley cannabis — was a significant commodity in the international hash trade from the mid-twentieth century through the 1980s. The Bekaa population is commonly reported to be distinct from higher-elevation coastal Lebanese cannabis, exhibiting different vigor, structure, and resin expression. Grower accounts from the era of peak production describe a robust, productive landrace adapted to the valley's warm, dry growing conditions.
 
 ## Description
+- **Origin:** Lebanon (Middle East / Central Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks; relatively fast for the Mediterranean-adjacent climate of the Bekaa
-- **Climate:** Temperate / Continental
-- **Origin:** Lebanon (Middle East / Central Asia)
+- **Flowering Time:** 8–10 weeks; relatively fast for the Mediterranean-adjacent climate of the Bekaa
 
 More vigorous and branched than some Lebanese mountain types; adapted to the open, sunny conditions of the valley floor and lower slopes. High; the historical reputation of Bekaa cannabis is built on heavy resin production suited to traditional pressed hashish manufacture. The fertile valley basin setting and warm climate distinguish this population from higher-altitude Lebanese landraces growing in cooler, more marginal conditions.
 

@@ -9,14 +9,14 @@ Borneo refers to a sativa landrace associated with the Indonesian portion of the
 Borneo's interior has historically been home to diverse Dayak peoples with deep traditions of forest agriculture and plant use. While cannabis is not among the most prominently documented cultivated plants of Dayak tradition in the ethnobotanical literature, the island's position along regional trade routes and its long history of inter-island contact with the rest of the Indonesian archipelago likely facilitated the movement of cannabis genetics into and across Kalimantan over many centuries. The specific cultivation and selection history of cannabis in Borneo's interior remains poorly documented; most available information comes from collector accounts of plant material encountered in or sourced from the region.
 
 ## Description
+- **Origin:** Indonesia (Southeast Asia)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Very tall — consistent with equatorial rainforest cannabis growing under high-light, high-humidity jungle conditions
-- **Flowering:** 11–16 weeks; variability expected across different collection sites across the island's vast terrain
-- **Climate:** Tropical Rainforest
-- **Origin:** Indonesia (Southeast Asia)
+- **Flowering Time:** 11–16 weeks; variability expected across different collection sites across the island's vast terrain
 
 Equatorial sativa character — narrow leaflets, open branching, large plant architecture adapted to jungle conditions. Grower accounts are variable; deep jungle origin suggests complex, earthy, and forest-aromatic expression. Associated with strong, cerebral sativa expression characteristic of equatorial landraces.
 

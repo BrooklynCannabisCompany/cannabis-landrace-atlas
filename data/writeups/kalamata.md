@@ -9,14 +9,14 @@ Kalamata is a sativa landrace associated with the coastal Mediterranean environm
 The Peloponnese has been continuously inhabited since antiquity, and the broader southern Greek region has historically been associated with Mediterranean cannabis and hemp cultivation. Documentation specific to a Kalamata cannabis population is limited, and most knowledge of this type is inferred from the region's ecology and from grower accounts of cannabis found in the area. The coastal Mediterranean setting of Kalamata — dry, sunny, and warm — is consistent with the selection of sativa-type cannabis with the heat tolerance and narrow leaflet morphology described for this population.
 
 ## Description
+- **Origin:** Greece (Europe)
+- **Climate:** Coastal Mediterranean
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11–14 weeks
-- **Climate:** Coastal Mediterranean
-- **Origin:** Greece (Europe)
+- **Flowering Time:** 11–14 weeks
 
 Kalamata cannabis is described as a tall sativa landrace with a 11–14 week flowering window, narrow-leaf morphology, and heat tolerance — a profile consistent with a Mediterranean coastal sativa adapted to the dry summers and maritime influence of the southern Peloponnese. Narrow leaflets and tall stature are characteristic of sativa-leaning cannabis from hot Mediterranean environments, where leaf area reduction helps manage water loss during the long dry season.
 

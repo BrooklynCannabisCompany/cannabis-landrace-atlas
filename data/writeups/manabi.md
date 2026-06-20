@@ -9,14 +9,14 @@ Manabí refers to a coastal sativa landrace from Manabí Province on Ecuador's P
 Manabí is one of Ecuador's most historically significant provinces, home to ancient coastal cultures including the Valdivia civilization — among the earliest documented in the Americas. The province has long been a center of coastal trade, agriculture, and maritime activity. Cannabis is not native to the region, but introduced populations adapted to the coastal tropical climate would have been shaped by the distinct seasonal rainfall patterns, coastal humidity, and warm lowland temperatures that define Manabí. Documentation of specific cannabis cultivation history in Manabí is limited, and most accounts are anecdotal or inferred from regional context.
 
 ## Description
+- **Origin:** Ecuador (Americas)
+- **Climate:** Tropical coastal; warm, seasonal rainfall, Pacific coastal influence
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 12–18 weeks
-- **Climate:** Tropical coastal; warm, seasonal rainfall, Pacific coastal influence
-- **Origin:** Ecuador (Americas)
+- **Flowering Time:** 12–18 weeks
 
 This population is described as a tall-growing coastal sativa, adapted to the warm, seasonally variable conditions of Ecuador's Pacific coast. The 12–18 week flowering window is consistent with equatorial sativas in low-elevation tropical environments. The coastal climate — warm temperatures year-round, seasonal rainfall with pronounced dry periods influenced by the Humboldt current — would have selected for plants with good heat tolerance and adaptability to irregular moisture. Manabí Province, Coastal Ecuador.
 

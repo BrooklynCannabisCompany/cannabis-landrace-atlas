@@ -9,14 +9,14 @@ The Amu Darya landrace is associated with the Amu Darya River Basin in Afghanist
 The Amu Darya corridor has been a transit zone for human populations, trade goods, and cultivated plants for millennia. Ancient Bactria — centered on what is now northern Afghanistan and southern Uzbekistan — was among the most cosmopolitan regions of the ancient world, positioned between the Achaemenid Persian Empire, the Maurya Empire, the Hellenistic kingdoms, and the Kushan Empire. Cannabis cultivation and use are embedded in the historical records of this region, and the Amu Darya floodplain is commonly regarded in ethnobotanical accounts as a zone of persistent cannabis cultivation and genetic exchange. Grower accounts suggest the population today represents an intermediate type shaped by these deep histories of contact rather than by the kind of isolated, directed selection seen in highland hash-producing regions.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Intermediate (NLD–BLD)
-- **Vernacular type:** Hybrid-Intermediate
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hybrid-Intermediate
 - **Height:** Medium-tall
-- **Flowering:** 10–14 weeks; longer than pure Afghan indica types, consistent with an intermediate gene pool
-- **Climate:** Desert / Arid
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks; longer than pure Afghan indica types, consistent with an intermediate gene pool
 
 Likely more branched and open than compact Afghan highland types, reflecting some sativa influence. Moderate; floodplain populations are typically less resin-focused than high-mountain selections. The arid floodplain climate — hot and dry with seasonal flooding — shapes plants suited to nutrient-rich alluvial soils and significant heat load.
 

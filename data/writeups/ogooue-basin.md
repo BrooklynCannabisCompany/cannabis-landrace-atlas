@@ -9,14 +9,14 @@ The Ogooué Basin entry describes a feral equatorial sativa population associate
 Gabon's cannabis populations are among the least studied in sub-Saharan Africa. The country's dense rainforest, sparse population outside urban centers, and limited agricultural documentation have kept Ogooué Basin cannabis largely outside the scope of landrace research or seed collecting. Feral populations in river basins like the Ogooué are thought to persist through naturalized seed dispersal rather than active cultivation, though local use likely occurs. The genetic makeup of these plants is essentially unknown; their survival in extreme equatorial humidity suggests significant adaptation to waterlogged, low-light, and mold-pressure conditions.
 
 ## Description
+- **Origin:** Gabon (Africa)
+- **Climate:** Tropical Rainforest
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall — consistent with the tendency of equatorial feral sativas to stretch toward available light under dense forest canopy
-- **Flowering:** 12–18 weeks — the long flowering window is typical of equatorial feral populations near the equator where photoperiod changes are minimal
-- **Climate:** Tropical Rainforest
-- **Origin:** Gabon (Africa)
+- **Flowering Time:** 12–18 weeks — the long flowering window is typical of equatorial feral populations near the equator where photoperiod changes are minimal
 
 Likely elongated and open; adapted to compete for light in a closed-canopy rainforest environment. Entirely undocumented; this population is considered unexplored from a consumer or research perspective.
 

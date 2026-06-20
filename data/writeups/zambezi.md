@@ -9,14 +9,14 @@ Zambezi is a sativa landrace from Mozambique associated with the Zambezi River c
 The Zambezi River has served as a major geographic corridor for human movement and agricultural exchange across southeastern Africa for millennia, connecting the Mozambican coast with the interior of the continent. Cannabis cultivation along the Zambezi corridor is thought to reflect longstanding agricultural traditions of communities living in and around the river valley — including Sena, Shona-related, and other Bantu-speaking peoples who have farmed the fertile floodplains. The river valley's seasonal flooding would have selected for a fast-growing, opportunistic cannabis phenotype capable of completing its life cycle during the favorable season. Specific documentation of the Zambezi landrace in botanical or genetic literature is limited.
 
 ## Description
+- **Origin:** Mozambique (Africa)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — vigorous sativa growth in the fertile alluvial soils and warm conditions of the Zambezi valley
-- **Flowering:** 10–14 weeks — a relatively fast flowering window for a tall African sativa, consistent with river-adapted selection for rapid completion of the reproductive cycle
-- **Climate:** Tropical Lowland
-- **Origin:** Mozambique (Africa)
+- **Flowering Time:** 10–14 weeks — a relatively fast flowering window for a tall African sativa, consistent with river-adapted selection for rapid completion of the reproductive cycle
 
 Fast-growing with open, efficient branching; adapted to capitalize on the Zambezi valley's seasonal growing windows. Specific terpene or effect profiles for this population are not documented; river valley landraces in southeastern Africa are generally consistent with the broader southern African sativa tradition.
 

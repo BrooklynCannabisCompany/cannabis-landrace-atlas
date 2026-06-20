@@ -9,14 +9,14 @@ Korean Native refers to the wild hemp population indigenous to the Korean Penins
 Hemp cultivation in Korea is documented from ancient times, with references in historical records to hemp fiber, cloth, and rope production across the peninsula. Traditional Korean hemp (known historically as *sam*) was grown in dedicated fields and was an important agricultural crop through the Joseon Dynasty period. Following the twentieth century's legal changes, cultivation essentially ceased outside of strictly controlled contexts, and surviving populations are primarily feral escapes or remnant stands in isolated rural areas. The Korean Native is thus a relic of a once-widespread agricultural tradition rather than a deliberately maintained landrace.
 
 ## Description
+- **Origin:** South Korea (East Asia / North Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium, consistent with feral hemp in temperate grassland and disturbed soil margins
-- **Flowering:** 10–14 weeks under the temperate photoperiod cycle of the Korean Peninsula
-- **Climate:** Temperate / Continental
-- **Origin:** South Korea (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks under the temperate photoperiod cycle of the Korean Peninsula
 
 Typically upright; not as robust as deliberately bred fiber varieties due to feral naturalization. Intermediate, adapted to Korea's temperate monsoon conditions. Low THC as expected of a traditional hemp type; specific CBD content undocumented.
 

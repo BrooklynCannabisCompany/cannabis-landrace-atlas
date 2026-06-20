@@ -9,14 +9,14 @@ The Anatolian Plateau Wild population is a broad feral cannabis gene pool from t
 The Anatolian Plateau has been a crossroads of human migration and agricultural exchange since the Neolithic, and cannabis appears in Anatolian historical records spanning multiple civilizations from the Hittites onward. Wild and feral cannabis is documented across the central Anatolian steppe in botanical surveys, typically associated with disturbed ground, roadsides, agricultural margins, and river valleys. Whether these populations are primarily descended from hemp cultivation that went feral, from ancient wild populations, or from a mixture of both is not definitively established. The suggestion that the Anatolian Plateau feral gene pool has fed into Lebanese and Moroccan hash traditions reflects the geographic position of Turkey as a corridor between Central Asia and the Mediterranean basin.
 
 ## Description
+- **Origin:** Turkey (Middle East / Central Asia)
+- **Climate:** Steppe / Semi-arid
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium
-- **Flowering:** 8–11 weeks; adapted to the Anatolian interior's relatively short frost-free season
-- **Climate:** Steppe / Semi-arid
-- **Origin:** Turkey (Middle East / Central Asia)
+- **Flowering Time:** 8–11 weeks; adapted to the Anatolian interior's relatively short frost-free season
 
 Variable; feral populations show considerable heterogeneity in branching, leaf width, and overall architecture. Generally low in feral populations; some individuals may show moderate resin as a legacy of historical drug-type cultivation. Population-level diversity is expected to be high given the broad, feral distribution across the Anatolian Plateau.
 

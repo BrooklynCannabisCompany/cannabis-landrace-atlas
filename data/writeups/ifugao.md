@@ -9,14 +9,14 @@ Ifugao is a highland landrace from Ifugao Province in the Cordillera Administrat
 The indigenous Ifugao people have maintained complex agricultural systems in the Cordillera highlands for an estimated two thousand or more years. Cannabis cultivation within Ifugao society is not as extensively documented as other Cordillera agricultural traditions, but the plant's presence in the highland communities of Luzon is plausible given the long history of traditional plant cultivation in this region. The Ifugao cannabis population is likely related to neighboring highland populations from Benguet and Kalinga provinces, sharing the broad genetic heritage of the Luzon Cordillera highlands while potentially reflecting local selection pressures specific to Ifugao's terrain and rainfall patterns. Most available information derives from general Cordillera landrace documentation and grower accounts.
 
 ## Description
+- **Origin:** Philippines (Southeast Asia)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall — vigorous mountain cultivation
-- **Flowering:** Long; 12–18 weeks reflecting highland tropical adaptation
-- **Climate:** Tropical Lowland
-- **Origin:** Philippines (Southeast Asia)
+- **Flowering Time:** Long; 12–18 weeks reflecting highland tropical adaptation
 
 Narrow-leaf morphology commonly reported for Cordillera highland landraces; adapted to high-humidity and rainfall conditions. Not specifically documented; consistent with the incense and tropical aromatic profiles broadly associated with Philippine highland cannabis. Not well-documented specifically; the mixed category designation suggests phenotypic variability.
 

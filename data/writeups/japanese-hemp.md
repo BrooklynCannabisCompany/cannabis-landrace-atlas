@@ -9,14 +9,14 @@ Japanese Hemp refers to the ancient fiber cannabis lineage historically cultivat
 Cannabis cultivation in Japan is documented from at least the Jomon period, with hemp fiber artifacts recovered from archaeological sites. Through the Nara, Heian, and subsequent periods, hemp was woven into Japanese ritual, ceremonial garment production, and everyday textile use. Regional cultivation traditions developed in areas such as Tochigi, Nagano, and other prefectures, where specific locally adapted varieties were maintained by farming communities. The Meiji era and later American post-war occupation policies led to severe restrictions on hemp cultivation, which significantly disrupted traditional Japanese hemp lineages. A small number of licensed cultivation programs have preserved some traditional seed stock, but the full historical diversity of Japanese Hemp is considered largely at risk.
 
 ## Description
+- **Origin:** Japan (East Asia / North Asia)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Hemp
-- **Vernacular type:** Hemp
 - **Chemotype:** Type V (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Hemp
 - **Height:** Medium-tall, typical of fiber hemp selected for stalk length under temperate conditions
-- **Flowering:** 10–14 weeks, consistent with temperate hemp photoperiod response
-- **Climate:** Temperate / Continental
-- **Origin:** Japan (East Asia / North Asia)
+- **Flowering Time:** 10–14 weeks, consistent with temperate hemp photoperiod response
 
 Upright, sturdy; suitable for bast fiber extraction. Intermediate, adapted to Japan's temperate and semi-humid conditions. Low THC as expected of a traditional fiber selection; specific CBD levels not well documented for traditional Japanese varieties.
 

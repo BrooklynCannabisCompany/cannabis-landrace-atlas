@@ -9,14 +9,14 @@ Ecuador Highland refers to cannabis populations associated with the highland val
 Ecuador's highland region has been intensively farmed since pre-Columbian times, particularly in the inter-Andean basins around Quito, Ambato, Latacunga, and Cuenca. Cannabis in these highland valleys is believed to have been introduced during or after the colonial period, with populations adapting over generations to the altitude ecotype conditions of the Sierra. The population is described in the source record as an altitude ecotype — emphasizing that the defining characteristic is elevation adaptation rather than a specific named lineage or cultivation tradition. Documentation of distinct highland Ecuador cannabis populations is limited.
 
 ## Description
+- **Origin:** Ecuador (Americas)
+- **Climate:** Temperate / Continental
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall — highland valley sativas commonly develop tall, upright structure under strong high-altitude UV
-- **Flowering:** 11–14 weeks — moderate for a South American sativa; the more pronounced day-length seasonality at highland latitudes relative to the equator may promote more defined flowering transitions
-- **Climate:** Temperate / Continental
-- **Origin:** Ecuador (Americas)
+- **Flowering Time:** 11–14 weeks — moderate for a South American sativa; the more pronounced day-length seasonality at highland latitudes relative to the equator may promote more defined flowering transitions
 
 Typically upright and branchy; altitude ecotype populations in other Andean regions are associated with compact internodal spacing relative to lowland types, though Ecuador highland data is limited. Described as an altitude ecotype; specific aromatic or effect profiles are not documented.
 

@@ -9,14 +9,14 @@ Chocolate Thai is a traditional Thai landrace selection associated with central 
 Thailand developed a global reputation for its cannabis during the latter half of the twentieth century, when "Thai sticks" — traditionally prepared cannabis from Thailand — became widely circulated internationally. Within this broader Thai cannabis tradition, Chocolate Thai emerged as a distinct and celebrated selection, prized for its unusual terpene profile dominated by chocolate, coffee, and earthy fermented notes. The precise origins and cultivation history of Chocolate Thai as a specific selection are not formally documented; accounts vary regarding where exactly within Thailand the characteristic expression was strongest. It is understood to be a traditional Thai population selection rather than a modern hybrid, and it is commonly cited as a foundational influence in the development of numerous contemporary cannabis varieties through breeding programs that used it as a parent.
 
 ## Description
+- **Origin:** Thailand (Southeast Asia)
+- **Climate:** Tropical Lowland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Very tall — one of the larger Thai sativa expressions
-- **Flowering:** Very long; 14–20 weeks is commonly reported, consistent with traditional Thai landrace genetics
-- **Climate:** Tropical Lowland
-- **Origin:** Thailand (Southeast Asia)
+- **Flowering Time:** Very long; 14–20 weeks is commonly reported, consistent with traditional Thai landrace genetics
 
 Classic tall Thai sativa structure; large plant architecture, open branching, narrow leaflets. Distinctively described as coffee, dark chocolate, cocoa, and earthy — a profile unusual within the broader Southeast Asian sativa complex and a key reason for its legendary status. Commonly reported as highly psychoactive, cerebral, and long-lasting; associated with the intense sativa experience for which Thai cannabis became internationally known.
 

@@ -9,14 +9,14 @@ The Cape York Peninsula feral cannabis population is found in the northernmost e
 The origins of cannabis on Cape York Peninsula are not formally documented. The region's proximity to Papua New Guinea and the Torres Strait islands has led to speculation that cannabis may have arrived via maritime contact at some point in the past, though this remains unverified. The feral status of this population indicates it has persisted and naturalized without sustained human cultivation. Given the remoteness of Cape York Peninsula — with limited road access and vast tracts of conservation land — this population has likely experienced minimal genetic contamination from introduced cultivated varieties.
 
 ## Description
+- **Origin:** Australia (Oceania)
+- **Climate:** Tropical savanna — pronounced wet and dry seasons, high temperatures, intense UV exposure, periodic drought stress.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall, consistent with sativa-type growth in a tropical environment.
-- **Flowering:** 10–14 weeks, adapted to the strong seasonal photoperiod shift of Australia's tropical north.
-- **Climate:** Tropical savanna — pronounced wet and dry seasons, high temperatures, intense UV exposure, periodic drought stress.
-- **Origin:** Australia (Oceania)
+- **Flowering Time:** 10–14 weeks, adapted to the strong seasonal photoperiod shift of Australia's tropical north.
 
 Grower accounts and regional context suggest heat and drought tolerance as likely adaptations; genetic variability within the feral population is expected to be considerable.
 

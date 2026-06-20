@@ -9,14 +9,14 @@ The Azores Archipelago landrace is a sativa-leaning cannabis population associat
 Cannabis reached the Azores through Portuguese maritime activity, most likely during or after the islands' settlement by Portuguese colonists beginning in the fifteenth century. The islands' isolation from the European mainland and their role as a waystation in transatlantic navigation may have introduced cannabis genetics from multiple source regions over the centuries. The resulting island population, shaped by the Azores' peculiar oceanic climate, represents one of Europe's most geographically isolated cannabis ecotypes. Formal documentation of this population is limited, and most knowledge derives from regional observations rather than systematic study.
 
 ## Description
+- **Origin:** Portugal (Europe)
+- **Climate:** Oceanic maritime
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 11–15 weeks
-- **Climate:** Oceanic maritime
-- **Origin:** Portugal (Europe)
+- **Flowering Time:** 11–15 weeks
 
 Azores Archipelago cannabis is described as a tall, sativa-leaning population with a notably long flowering window of 11–15 weeks — consistent with equatorial sativa influence persisting in a mild oceanic environment where killing frosts are rare and the season extends into late autumn. Plants adapted to the Azores' persistent moisture and volcanic soil are typically reported as vigorous and stretch-prone, with the narrow leaflet morphology associated with sativa types. High ambient humidity selects for some mold tolerance over generations.
 

@@ -9,14 +9,14 @@ Mullumbimby Madness is a legendary heirloom sativa from the Mullumbimby area of 
 The Mullumbimby region's cannabis history is commonly associated with the influx of counterculture communities into the Northern Rivers area of New South Wales from the late 1960s onward. Grower accounts suggest that cannabis seeds brought to the region during this period — likely of diverse origin including Southeast Asian varieties — were grown outdoors in the subtropical hinterland and selected over successive seasons for performance in the local climate. Over time, the Mullumbimby name became associated with particularly vigorous and resinous outdoor lines that circulated within Australian grower networks. The Mullumbimby Madness name itself reflects the plant's reputation for pronounced psychoactive effects. Whether a single stable lineage is behind the name or a collection of related selections is not definitively established.
 
 ## Description
+- **Origin:** Australia (Oceania)
+- **Climate:** Subtropical coastal — warm summers, mild winters, moderate humidity, strong sun exposure with seasonal rainfall.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Heirloom
+- **Vernacular type:** Sativa
 - **Height:** Tall; vigorous outdoor growth in subtropical coastal conditions.
-- **Flowering:** 12–16 weeks; extended flowering consistent with a sativa-dominant line adapted to the long Northern Rivers growing season.
-- **Climate:** Subtropical coastal — warm summers, mild winters, moderate humidity, strong sun exposure with seasonal rainfall.
-- **Origin:** Australia (Oceania)
+- **Flowering Time:** 12–16 weeks; extended flowering consistent with a sativa-dominant line adapted to the long Northern Rivers growing season.
 
 Vigorous growth, tropical fruit and spice terpene expressions, strong psychoactive reputation.
 

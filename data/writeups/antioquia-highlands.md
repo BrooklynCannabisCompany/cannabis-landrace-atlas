@@ -9,14 +9,14 @@ Antioquia Highlands refers to cannabis populations associated with the highland 
 Antioquia Department has a well-established history of cannabis cultivation, particularly in the mountain communities of the northern Andes. While the specific origins of highland Antioquia populations are not formally documented, cultivation in the region is commonly associated with rural farming communities that maintained landraces across generations. The highland populations of Antioquia are considered historically significant and, per the summary, represent a strong preservation candidate — suggesting that traditional seed stocks are under pressure from hybridization and changing agricultural practices. Formal documentation of distinct Antioquia highland phenotypes remains limited in the published literature.
 
 ## Description
+- **Origin:** Colombia (Americas)
+- **Climate:** Tropical Highland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Tall — consistent with Andean highland Colombian landraces grown at moderate to high elevations
-- **Flowering:** 12–18 weeks — a wide range reflecting the genetic variability within a mixed-category mountain landrace
-- **Climate:** Tropical Highland
-- **Origin:** Colombia (Americas)
+- **Flowering Time:** 12–18 weeks — a wide range reflecting the genetic variability within a mixed-category mountain landrace
 
 Typically branchy with moderate internodal spacing; highland populations often develop thicker stems and more compact foliage compared to lowland Colombian types. Not specifically documented for this population; Antioquia highland landraces are broadly associated with complex aromatic profiles shaped by altitude and cool-night conditions.
 

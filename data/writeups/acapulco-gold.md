@@ -14,14 +14,14 @@ most landraces, specific lineage and selection history are not rigorously docume
 and modern seed lines sold under the name vary in authenticity.
 
 ## Description
+- **Origin:** Mexico (Americas)
+- **Climate:** Tropical Highland
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 12–16 weeks
-- **Climate:** Tropical Highland
-- **Origin:** Mexico (Americas)
+- **Flowering Time:** 12–16 weeks
 
 Tall, lanky sativa structure with long internodes. Flowers commonly reported to show golden/amber tones; aromas described as sweet,. Toffee-like, citrus, and woody. Effects typically reported as uplifting and energetic.
 

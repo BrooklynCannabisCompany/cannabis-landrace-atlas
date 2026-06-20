@@ -9,14 +9,14 @@ Masisi is a tall sativa landrace from the Masisi territory of North Kivu Provinc
 Masisi territory in North Kivu is part of the broader eastern DRC highland zone, which has significant agricultural activity and a history of cannabis cultivation tied to local communities. The region's position at the intersection of Central and East African ecological zones — the Albertine Rift is a globally recognized biodiversity hotspot — suggests that Masisi cannabis may reflect influences from both the Congolese highland tradition and neighboring East African populations. Specific documentation of Masisi as a distinct named variety is limited; it is recognized primarily within collector and landrace preservation communities as a representative eastern DRC highland type.
 
 ## Description
+- **Origin:** DRC (Africa)
+- **Climate:** Jungle mountain — elevated, humid montane forest conditions characteristic of the Albertine Rift in eastern DRC
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** Approximately 11–15 weeks from equinox/flip
-- **Climate:** Jungle mountain — elevated, humid montane forest conditions characteristic of the Albertine Rift in eastern DRC
-- **Origin:** DRC (Africa)
+- **Flowering Time:** Approximately 11–15 weeks from equinox/flip
 
 Grower accounts associate a diesel-spice terpene profile; dense resin production is a noted characteristic.
 

@@ -9,14 +9,14 @@ The Herat landrace is a traditional hash indica from the Herat region of western
 Herat's position on trade routes connecting Persia, Central Asia, and the Indian subcontinent made it a center of cultural and commercial exchange for centuries. The influence of Persian trade and cultural norms on Herat — stronger here than in much of Afghanistan — is commonly thought to have shaped the cannabis cultivation tradition of the region, with connections to both Iranian cannabis lineages to the west and the core Afghan landrace populations of the Hindu Kush and Helmand regions to the east and south. Grower accounts suggest that Herat cannabis occupies a transitional genetic position between Iranian plateau and Afghan mountain cannabis types. Specific documented history of this distinct population in cannabis literature is limited, but the regional context supports a long tradition of cannabis cultivation for hashish production.
 
 ## Description
+- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–11 weeks; moderate for an Afghan/Iranian-border indica type
-- **Climate:** Desert / Arid
-- **Origin:** Afghanistan (Middle East / Central Asia)
+- **Flowering Time:** 8–11 weeks; moderate for an Afghan/Iranian-border indica type
 
 Moderate; adapted to open cultivation in a valley-and-plateau agricultural landscape. Good; drought tolerance and resin production are the commonly cited adaptive traits for western Afghan populations. The desert-edge environment of Herat — hot, dry, and sunny — shapes a resilient plant with strong sun and drought adaptation.
 

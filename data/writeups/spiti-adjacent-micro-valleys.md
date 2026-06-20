@@ -9,14 +9,14 @@ Spiti Adjacent Micro-Valleys refers to sparse feral cannabis populations found i
 The Spiti region is geographically and culturally distinct from the well-documented charas-producing valleys of Kullu and Parvati further south in Himachal Pradesh. While traditional cannabis resin (charas) collection has a deep history in adjacent warmer valleys, the Spiti micro-valley populations are understood to represent feral or escaped plants that have naturalized in an exceptionally challenging environment. They are not associated with documented commercial or traditional cultivation in the same manner. Their primary interest to researchers and collectors lies in their apparent survival adaptation to extreme cold, aridity, and short growing seasons at altitude.
 
 ## Description
+- **Origin:** India (Southeast Asia)
+- **Climate:** Extreme alpine desert — cold, dry, high UV exposure, short growing season.
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Short
-- **Flowering:** Rapid at 8–10 weeks, a necessary adaptation to the very short frost-free season at high Himalayan altitude.
-- **Climate:** Extreme alpine desert — cold, dry, high UV exposure, short growing season.
-- **Origin:** India (Southeast Asia)
+- **Flowering Time:** Rapid at 8–10 weeks, a necessary adaptation to the very short frost-free season at high Himalayan altitude.
 
 Short, compact plants consistent with indica-leaning alpine adaptation — reduced stature limits heat and water loss in a harsh environment. Plants in extreme alpine desert conditions are typically stunted relative to cultivated relatives. Not well documented for this specific feral population; charas-type Himalayan landraces generally display earthy, hash-like, and sometimes floral aromatic profiles.
 

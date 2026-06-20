@@ -9,14 +9,14 @@ The Hungarian Basin entry represents a mixed wild cannabis and landrace complex 
 Wild and feral cannabis has been documented in Hungary and the Carpathian Basin since at least the early modern period, associated partly with a long history of hemp cultivation across the region. The Hungarian Plain was a significant node on the ancient steppe corridor that connected the Black Sea steppes to the broader Eurasian interior, and cannabis migration along this corridor — whether carried by Scythian, Hunnic, Avar, or Magyar peoples — has been proposed in archaeobotanical and ethnobotanical literature. Whether surviving Hungarian feral populations carry meaningful genetic continuity with these ancient introductions or represent more recent hemp escapes is not established; the claim of a migration corridor role is biologically plausible but difficult to verify without genomic data.
 
 ## Description
+- **Origin:** Hungary (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Unclassified
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Variable — consistent with a heterogeneous feral population without directed selection
-- **Flowering:** Variable; continental European feral populations typically flower in mid-to-late summer under natural photoperiod conditions
-- **Climate:** Desert / Arid
-- **Origin:** Hungary (Middle East / Central Asia)
+- **Flowering Time:** Variable; continental European feral populations typically flower in mid-to-late summer under natural photoperiod conditions
 
 Likely hemp-type morphology; variable across individuals and populations. Low; European feral hemp populations are not typically resin-rich. The primary interest of this population is genetic and historical rather than horticultural.
 

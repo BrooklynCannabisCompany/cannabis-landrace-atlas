@@ -9,14 +9,14 @@ Ituri Forest is a feral sativa population associated with the Ituri rainforest o
 The Ituri forest has been inhabited for thousands of years by forest-dwelling peoples, and cannabis in this region likely exists as a naturalized or semi-feral plant alongside traditional use. As with other deep rainforest cannabis populations, formal documentation of the Ituri ecotype as a distinct variety is essentially absent. The high phenotypic spread noted in grower accounts is consistent with a diverse, unselected feral population in a biodiverse forest environment. This population is of interest primarily as a conservation and breeding resource representing an isolated, minimally disturbed Central African gene pool.
 
 ## Description
+- **Origin:** DRC (Africa)
+- **Climate:** Equatorial forest — very high humidity, consistent warmth, heavy rainfall, dense canopy light conditions
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Very tall
-- **Flowering:** Variable — phenotypic diversity in feral equatorial populations typically includes wide variation in maturation time
-- **Climate:** Equatorial forest — very high humidity, consistent warmth, heavy rainfall, dense canopy light conditions
-- **Origin:** DRC (Africa)
+- **Flowering Time:** Variable — phenotypic diversity in feral equatorial populations typically includes wide variation in maturation time
 
 High phenotypic spread; fast vegetative growth is commonly noted.
 

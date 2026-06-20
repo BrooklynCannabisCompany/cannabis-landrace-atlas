@@ -7,14 +7,14 @@ Khorasan refers to a cannabis landrace associated with the Greater Khorasan regi
 Greater Khorasan was historically one of the most significant cultural and commercial regions of the Islamic world, and cannabis cultivation in the area likely spans many centuries. The region's position between Afghanistan's famous hashish-producing highlands and the broader Central Asian cannabis belt makes Khorasan genetics a plausible transitional population linking Afghan indica stock with Iranian plateau varieties. Grower accounts note that northeastern Iranian populations share morphological similarities with eastern Afghan landraces while showing adaptations to the drier, cooler conditions of the Iranian semi-arid steppe. Rigorous botanical documentation of distinct Khorasan cannabis populations is sparse.
 
 ## Description
+- **Origin:** Iran (Middle East / Central Asia)
+- **Climate:** Desert / Arid
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 9–12 weeks
-- **Climate:** Desert / Arid
-- **Origin:** Iran (Middle East / Central Asia)
+- **Flowering Time:** 9–12 weeks
 
 Indica-leaning morphology with medium stature and relatively broad leaf structure. Adapted to semi-arid steppe conditions; drought tolerance is a defining characteristic. Resin production is commonly reported as moderate to high, consistent with the hashish traditions of the broader region. Phenotypic expression may vary between more compact Afghan-like types and taller, more open plateau forms.
 

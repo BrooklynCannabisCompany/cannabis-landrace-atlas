@@ -9,14 +9,14 @@ Timor is a feral sativa population from Timor-Leste (East Timor), the small nati
 Timor-Leste's turbulent modern history — Portuguese colonization, Indonesian occupation from 1975 to 1999, and independence in 2002 — left the country relatively isolated from the global cannabis collecting community during the key decades of landrace documentation. Cannabis presence on the island is historically noted but not well documented in terms of cultivation traditions or genetic origins. The feral character of the Timor population suggests naturalized plants rather than a managed agricultural landrace. Its geographic position at the far southeastern margin of Southeast Asian cannabis distribution makes it an unusual and potentially genetically distinct entry in the regional atlas.
 
 ## Description
+- **Origin:** Timor-Leste (Southeast Asia)
+- **Climate:** Tropical island with a distinct dry season — more drought-tolerant than equatorial island varieties; adapted to seasonal rainfall patterns.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Feral
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Feral (escaped)
+- **Vernacular type:** Feral
 - **Height:** Tall
-- **Flowering:** 11–15 weeks, a range typical of tropical island sativa populations.
-- **Climate:** Tropical island with a distinct dry season — more drought-tolerant than equatorial island varieties; adapted to seasonal rainfall patterns.
-- **Origin:** Timor-Leste (Southeast Asia)
+- **Flowering Time:** 11–15 weeks, a range typical of tropical island sativa populations.
 
 Tall feral sativa structure, consistent with long-established naturalized populations in a tropical island environment. Collector accounts are limited; the summary notes woody and citrus characteristics, which are plausible for a feral tropical island population with the island's drier, more seasonal conditions compared to equatorial islands.
 

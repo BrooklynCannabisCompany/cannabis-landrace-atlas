@@ -9,14 +9,14 @@ Xiangkhouang is a highland sativa landrace from the Xiangkhouang Plateau in nort
 The Xiangkhouang Plateau has a complex history — the region was among the most heavily bombed areas in the world during the Second Indochina War (Vietnam War era), and its relative isolation and difficult postwar recovery contributed to limited outside documentation of local agricultural traditions, including cannabis. Traditional cannabis use and cultivation in Xiangkhouang is associated with the plateau's highland ethnic communities. The plateau's position in northeastern Laos, adjacent to Vietnam's Nghe An and Ha Tinh provinces, suggests potential genetic exchange with Vietnamese highland populations across the Annamite range, though this is not well documented. Collector access to this specific plateau's cannabis has been limited.
 
 ## Description
+- **Origin:** Laos (Southeast Asia)
+- **Climate:** Mountain plateau — seasonal monsoon, pronounced dry season, cool nights at 1,000–1,200m elevation, moderate to high solar radiation.
 - **Morphotype:** Narrow-Leaf Drug
-- **Vernacular type:** Sativa
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Sativa
 - **Height:** Tall
-- **Flowering:** 13–18 weeks, a notably long range even by tropical sativa standards, suggesting population heterogeneity and/or the influence of the plateau's subtle photoperiod differences from equatorial lowlands.
-- **Climate:** Mountain plateau — seasonal monsoon, pronounced dry season, cool nights at 1,000–1,200m elevation, moderate to high solar radiation.
-- **Origin:** Laos (Southeast Asia)
+- **Flowering Time:** 13–18 weeks, a notably long range even by tropical sativa standards, suggesting population heterogeneity and/or the influence of the plateau's subtle photoperiod differences from equatorial lowlands.
 
 Tall sativa structure adapted to mountain plateau conditions — cooler nights and distinct seasonality compared to lowland Lao cannabis likely produced plants with somewhat different internode spacing and branching than lowland Mekong valley material. Traditional Lao highland cannabis is broadly associated with earthy, sweet, and incense-like aromatic profiles; specific Xiangkhouang aroma documentation is sparse.
 

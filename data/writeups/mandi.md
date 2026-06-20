@@ -9,14 +9,14 @@ Mandi is an indica-leaning landrace from Mandi District in central Himachal Prad
 Mandi's role as a trade hub — it was historically a major market town connecting hill and plains economies — means its cannabis has been shaped both by local cultivation and by the movement of seeds, genetics, and products through the district. Collector accounts describe Mandi cannabis as part of the Parvati/Kullu complex, feeding the same charas trade system, though the district's lower average elevation produces plants that are typically somewhat more vigorous and taller than the highest-altitude Parvati Valley types. Specific documentation of a distinct "Mandi" landrace as separate from the broader Himachali complex is limited; the characterization as a "charas production and trade corridor feeding Parvati/Kullu systems" reflects the district's functional rather than uniquely genetic identity.
 
 ## Description
+- **Origin:** India (South Asia)
+- **Climate:** Himalayan valley
 - **Morphotype:** Broad-Leaf Drug
-- **Vernacular type:** Indica
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Indica
 - **Height:** Medium
-- **Flowering:** 8–10 weeks
-- **Climate:** Himalayan valley
-- **Origin:** India (South Asia)
+- **Flowering Time:** 8–10 weeks
 
 Medium stature with the resinous bud structure associated with Himachali charas landraces. Himalayan valley conditions — moderate altitude, temperate climate, seasonal rainfall — support a more balanced plant than the extreme alpine types higher in the same drainage. Specific morphological or terpene data for Mandi District cannabis as distinct from the broader Himachali type is not publicly documented.
 

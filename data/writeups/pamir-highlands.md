@@ -7,14 +7,14 @@ Pamir Highlands refers to the broad highland landrace complex of the Pamir Mount
 The Pamir Mountains have served as a geographic crossroads and corridor for human migration and trade between the Central Asian steppe, the Indian subcontinent, and the Chinese world for thousands of years. Cannabis populations in the Tajik Pamirs likely reflect this confluence — incorporating elements from Kazakh, Afghan, and possibly Tibetan gene pools brought by traders, nomads, and settlers across the millennia. The region's extreme isolation has also allowed local adaptation to proceed over long periods without significant outside influence in more remote valleys. Grower accounts of Pamir cannabis generally emphasize its cold hardiness and compact vigor. Scientific documentation of distinct Pamir subpopulations is limited.
 
 ## Description
+- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Climate:** Tropical Highland
 - **Morphotype:** Unclassified
-- **Vernacular type:** Mixed
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
+- **Vernacular type:** Mixed
 - **Height:** Medium
-- **Flowering:** 10–14 weeks
-- **Climate:** Tropical Highland
-- **Origin:** Tajikistan (Middle East / Central Asia)
+- **Flowering Time:** 10–14 weeks
 
 Medium stature mixed-character highland complex; individual plants may express indica-leaning or more intermediate traits. Adapted to alpine mountain conditions with high UV, cold nights, and very low humidity. Phenotypic variation across the broad Pamir complex is expected and significant. Cannabinoid and terpene profiles are undocumented for this general population.
 
