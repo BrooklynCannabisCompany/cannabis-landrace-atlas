@@ -235,39 +235,22 @@ function insertRelated(strain) {
 }
 
 // ---- Facet filter list ----
-const EXACT_FACET_FIELDS = ['category', 'morphotype', 'chemotype', 'domestication'];
+// Panel facts and the classification badges share ONE "browse by attribute" surface with
+// the search jumps: the Index, opened/scrolled to the clicked facet/value (others folded).
+// Maps a data field to its Index heading; Height/Flowering open their slider facet with no
+// preset value.
+const FIELD_TO_INDEX = {
+  continent: 'Region', climate: 'Climate', morphotype: 'Morphotype',
+  chemotype: 'Chemotype', domestication: 'Domestication', category: 'Type (vernacular)',
+  height: 'Height', flowering: 'Flowering Time'
+};
 function openFacet(field, token) {
-  let matches;
-  if (EXACT_FACET_FIELDS.includes(field)) {
-    matches = strains.filter((s) => s[field] === token);
-  } else {
-    const t = token.toLowerCase();
-    matches = strains.filter((s) => String(s[field] || '').toLowerCase().includes(t));
-  }
-  const title = field === 'chemotype' ? `Chemotype ${token}` : token;
-  openListModal(`${title} — ${matches.length} ${matches.length === 1 ? 'variety' : 'varieties'}`, matches);
-}
-
-function openListModal(title, list) {
-  openContentModal(title, (body) => {
-    const ul = document.createElement('ul');
-    ul.className = 'modal-list';
-    for (const s of list) {
-      const li = document.createElement('li');
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'modal-list-link';
-      const nameSpan = document.createElement('span');
-      nameSpan.className = 'r-name'; nameSpan.textContent = s.name;
-      const placeSpan = document.createElement('span');
-      placeSpan.className = 'r-place'; placeSpan.textContent = [s.region, s.country].filter(Boolean).join(', ');
-      btn.append(nameSpan, placeSpan);
-      btn.addEventListener('click', () => { closeModal(); openPanel(s); });
-      li.appendChild(btn);
-      ul.appendChild(li);
-    }
-    body.appendChild(ul);
-  });
+  const label = FIELD_TO_INDEX[field];
+  if (!label) return;
+  const value = (field === 'height' || field === 'flowering')
+    ? null
+    : (String(token || '').trim() || 'Unknown');
+  openIndex({ facet: label, value });
 }
 
 // ---- Search ----
@@ -549,17 +532,25 @@ function heightRank(h) {
   return -1; // variable / unknown
 }
 
-// One-variety-per-line list of links.
+// One-variety-per-line list, styled like the facet-list rows: name (left) + place (right),
+// with a hover highlight. Alphabetical by name.
 function varietyLineList(list) {
-  const wrap = document.createElement('div');
-  wrap.className = 'index-list';
+  const ul = document.createElement('ul');
+  ul.className = 'index-list';
   list.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach((s) => {
+    const li = document.createElement('li');
     const btn = document.createElement('button');
-    btn.type = 'button'; btn.className = 'index-variety'; btn.textContent = s.name;
+    btn.type = 'button'; btn.className = 'index-variety';
+    const name = document.createElement('span');
+    name.className = 'r-name'; name.textContent = s.name;
+    const place = document.createElement('span');
+    place.className = 'r-place'; place.textContent = [s.region, s.country].filter(Boolean).join(', ');
+    btn.append(name, place);
     btn.addEventListener('click', () => { closeModal(); openPanel(s); });
-    wrap.appendChild(btn);
+    li.appendChild(btn);
+    ul.appendChild(li);
   });
-  return wrap;
+  return ul;
 }
 
 // A single-track dual-thumb slider whose thumbs cannot cross. onChange(lo, hi).

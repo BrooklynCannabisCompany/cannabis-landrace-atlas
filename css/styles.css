@@ -78,12 +78,14 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
 summary.index-h1 { font-family: var(--serif); font-size: 17px; cursor: pointer; padding: 4px 0; }
 .index-group { margin: 2px 0 2px 16px; }
 summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; padding: 3px 0; }
-.index-list { font-size: 14px; line-height: 1.5; margin: 2px 0 8px 18px; }
+.index-list { list-style: none; margin: 2px 0 8px 18px; padding: 0; }
+/* Variety rows mirror the facet-list rows (.modal-list-link): name + place, hover highlight. */
 .index-variety {
-  display: block; width: 100%; text-align: left; background: none; border: none;
-  padding: 3px 0; font: inherit; font-size: 14px; color: var(--green-dark); cursor: pointer;
+  display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+  width: 100%; text-align: left; font: inherit; cursor: pointer; color: var(--ink);
+  background: none; border: none; border-bottom: 1px solid var(--line); padding: 7px 4px;
 }
-.index-variety:hover { text-decoration: underline; }
+.index-variety:hover { background: #eef0e9; }
 
 /* Range-slider facets (Height, Flowering Time) in the Index */
 .slider-facet { margin: 6px 0 6px 16px; }
