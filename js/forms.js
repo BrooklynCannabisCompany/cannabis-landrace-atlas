@@ -284,7 +284,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
 }
 
 export function openFeedbackSubmit() {
-  openContentModal('Suggest an Addition', (body) => buildSubmissionForm(body, 'add', null, {}));
+  openContentModal('Suggest Addition', (body) => buildSubmissionForm(body, 'add', null, {}));
 }
 
 export async function openStrainSubmit(strain) {
