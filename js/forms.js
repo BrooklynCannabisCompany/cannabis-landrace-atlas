@@ -89,7 +89,7 @@ const SUBMIT_OPTIONS = {
   height: HEIGHTS
 };
 const SUBMIT_FIELDS = [
-  ['name', 'Name', 'text'],
+  ['name', 'Variety Name', 'text'],
   ['aka', 'AKA (other names, comma-separated)', 'text'],
   ['continent', 'Region', 'select'],
   ['country', 'Country', 'text'],
@@ -314,7 +314,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
   intro.className = 'modal-note';
   intro.textContent = mode === 'correct'
     ? `Edit the fields you want changed for "${strain.name}", then submit. Your suggestion is reviewed before it appears.`
-    : 'Suggest a new variety. Fill in what you know — only Name is required. Your suggestion is reviewed before it appears.';
+    : 'Suggest a new variety. Fill in what you know — only the variety name is required. Your suggestion is reviewed before it appears.';
   const form = document.createElement('form');
   form.className = 'submit-form';
   const fields = {};
@@ -403,7 +403,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
     e.preventDefault();
     const vals = {};
     for (const [key, , type] of SUBMIT_FIELDS) vals[key] = readField(type, fields[key]);
-    if (!vals.name) { window.alert('Name is required.'); return; }
+    if (!vals.name) { window.alert('Variety name is required.'); return; }
     const shortLines = [];
     const blocks = [];
     for (const [key, label] of SUBMIT_FIELDS) {
