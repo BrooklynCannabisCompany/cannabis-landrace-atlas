@@ -236,8 +236,10 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink);
 }
 .submit-form textarea { resize: vertical; }
-/* Corrections form: a thicker green outline marks a field the user has changed. */
-.submit-form .field-changed { border-color: var(--green); box-shadow: 0 0 0 1px var(--green); }
+/* Corrections form: an edited field is marked by turning its label green (a coloured box
+   around the field clashed with the focus outline). */
+.submit-field.changed > .submit-label { color: var(--green); }
+.loc-coord.changed { color: var(--green); }
 
 /* Inline diff overlay: free-text fields paint added/changed words green. A backdrop div
    renders the same text behind a transparent-text field (a native input can't colour part

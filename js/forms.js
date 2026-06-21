@@ -245,7 +245,7 @@ function coordField(text, placeholder) {
 // Builds the picker UI and returns { el, latInput, lngInput }. `initLat`/`initLng` are the
 // prefilled string values ('' when unknown). The Leaflet map is initialised on the next
 // frame, once the modal is visible and the map element has a measurable size.
-function locationPicker(initLat, initLng) {
+function locationPicker(initLat, initLng, trackChanges) {
   const wrap = document.createElement('div');
   wrap.className = 'loc-picker';
   const mapEl = document.createElement('div');
@@ -262,11 +262,23 @@ function locationPicker(initLat, initLng) {
   if (Number.isFinite(startLat)) lat.input.value = startLat;
   if (Number.isFinite(startLng)) lng.input.value = startLng;
 
-  requestAnimationFrame(() => initLocMap(mapEl, lat.input, lng.input, startLat, startLng));
+  // Corrections: green the Lat/Lng label once that coordinate differs from the original.
+  // Map clicks/drag set the inputs without firing 'input', so onCoordSet re-checks both.
+  let onCoordSet = null;
+  if (trackChanges) {
+    const origLat = lat.input.value, origLng = lng.input.value;
+    const markLat = () => lat.label.classList.toggle('changed', lat.input.value !== origLat);
+    const markLng = () => lng.label.classList.toggle('changed', lng.input.value !== origLng);
+    lat.input.addEventListener('input', markLat);
+    lng.input.addEventListener('input', markLng);
+    onCoordSet = () => { markLat(); markLng(); };
+  }
+
+  requestAnimationFrame(() => initLocMap(mapEl, lat.input, lng.input, startLat, startLng, onCoordSet));
   return { el: wrap, latInput: lat.input, lngInput: lng.input };
 }
 
-async function initLocMap(mapEl, latInput, lngInput, startLat, startLng) {
+async function initLocMap(mapEl, latInput, lngInput, startLat, startLng, onSet) {
   const hasStart = Number.isFinite(startLat) && Number.isFinite(startLng);
   const map = L.map(mapEl, {
     center: hasStart ? [startLat, startLng] : [20, 10],
@@ -289,6 +301,7 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng) {
   function place(la, ln) {
     la = round4(la); ln = round4(ln);
     latInput.value = la; lngInput.value = ln;
+    if (onSet) onSet(); // map/drag updates don't fire 'input' — re-check the changed labels
     if (!marker) {
       marker = L.marker([la, ln], { icon: PIN, draggable: true }).addTo(map);
       marker.on('dragend', () => { const p = marker.getLatLng(); place(p.lat, p.lng); });
@@ -341,11 +354,11 @@ function diffSegments(orig, cur) {
 }
 
 // Overlays a text input/textarea with a backdrop that renders the same text but paints the
-// added/changed words green (native fields can't colour part of their own text). When the
-// value matches the original the backdrop is hidden and the field looks normal; when it
-// differs the field's own text goes transparent and the backdrop shows through, and the
-// green outline is toggled too. Reverting to the original clears everything.
-function attachTextDiff(field, multiline, original) {
+// added/changed words green (native fields can't colour part of their own text). When nothing
+// is added the backdrop is hidden and the field looks normal; otherwise the field's own text
+// goes transparent and the backdrop shows through. `onChanged(bool)` fires whenever the
+// value's edited-state vs the original flips (used to green the field's label).
+function attachTextDiff(field, multiline, original, onChanged) {
   const hl = document.createElement('div');
   hl.className = 'hl' + (multiline ? ' hl--multiline' : '');
   const backdrop = document.createElement('div');
@@ -357,9 +370,8 @@ function attachTextDiff(field, multiline, original) {
 
   const render = () => {
     const segs = diffSegments(original, field.value);
-    const changed = segs.some((s) => s.added);
-    hl.classList.toggle('diffing', changed);
-    field.classList.toggle('field-changed', changed);
+    hl.classList.toggle('diffing', segs.some((s) => s.added)); // overlay only when there's added text
+    if (onChanged) onChanged(field.value !== original);
     backdrop.textContent = '';
     for (const s of segs) {
       if (s.added) { const sp = document.createElement('span'); sp.className = 'added'; sp.textContent = s.text; backdrop.appendChild(sp); }
@@ -373,24 +385,24 @@ function attachTextDiff(field, multiline, original) {
   render();
 }
 
-// In the corrections form, flag each field the user has edited. Free-text fields get an
-// inline word-level diff (see attachTextDiff); the rest (dropdowns, the weeks inputs) get a
-// thicker green outline. Skips the location picker (lat/lng) and the References list — neither
-// has a single original value to diff against. Comparing each control to its own initial
-// output avoids false positives from value formatting.
+// In the corrections form, flag each field the user has edited by turning its label green
+// (a coloured box clashed with the focus outline). Free-text fields additionally get the
+// inline word-level diff (see attachTextDiff). lat/lng are handled inside the location picker
+// (their own labels); the References list has no single original value to diff against.
 function highlightChanges(fields) {
-  // 'flowering' is the dual-thumb slider — its current range is always visible via the
-  // thumb bubbles, so it needs no separate "changed" outline.
-  const SKIP = new Set(['lat', 'lng', 'sources', 'flowering']);
+  const SKIP = new Set(['lat', 'lng', 'sources']);
   for (const [key, , type] of SUBMIT_FIELDS) {
     if (SKIP.has(key) || !fields[key]) continue;
-    if (DIFF_TEXT_KEYS.has(key)) { attachTextDiff(fields[key], type === 'textarea', fields[key].value); continue; }
-    const controls = type === 'weeks' ? [fields[key].min, fields[key].max] : [fields[key]];
+    const el = type === 'weeks' ? fields[key].el : fields[key];     // weeks stores its slider wrap
+    const container = el.closest('.submit-field');
+    const mark = (changed) => container && container.classList.toggle('changed', changed);
+    if (DIFF_TEXT_KEYS.has(key)) {
+      attachTextDiff(fields[key], type === 'textarea', fields[key].value, mark);
+      continue;
+    }
     const initial = readField(type, fields[key]);
-    const update = () => {
-      const changed = readField(type, fields[key]) !== initial;
-      controls.forEach((c) => c.classList.toggle('field-changed', changed));
-    };
+    const update = () => mark(readField(type, fields[key]) !== initial);
+    const controls = type === 'weeks' ? [...el.querySelectorAll('input[type="range"]')] : [el];
     controls.forEach((c) => { c.addEventListener('input', update); c.addEventListener('change', update); });
   }
 }
@@ -417,7 +429,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
       const hint = document.createElement('span');
       hint.className = 'submit-hint';
       hint.textContent = 'Click the map to set the origin, or drag the leaf. Coordinates are approximate.';
-      const loc = locationPicker(pre.lat, pre.lng);
+      const loc = locationPicker(pre.lat, pre.lng, mode === 'correct');
       fields.lat = loc.latInput;
       fields.lng = loc.lngInput;
       block.append(heading, hint, loc.el);
@@ -469,6 +481,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
       const cur = { lo, hi };
       const slider = makeDualSlider(FLOWER_MIN, FLOWER_MAX, (l, h) => { cur.lo = l; cur.hi = h; }, lo, hi, 1);
       fields[key] = {
+        el: slider.wrap,
         read: () => (cur.lo === FLOWER_MIN && cur.hi === FLOWER_MAX ? '' : `${cur.lo}–${cur.hi} weeks`)
       };
       wrap.appendChild(slider.wrap);
