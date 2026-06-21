@@ -238,6 +238,23 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .submit-form textarea { resize: vertical; }
 /* Corrections form: a thicker green outline marks a field the user has changed. */
 .submit-form .field-changed { border-color: var(--green); box-shadow: 0 0 0 1px var(--green); }
+
+/* Inline diff overlay: free-text fields paint added/changed words green. A backdrop div
+   renders the same text behind a transparent-text field (a native input can't colour part
+   of its own text); the two must share identical box metrics so the text lines up. */
+.hl { position: relative; }
+.hl-input { box-sizing: border-box; width: 100%; line-height: 1.4; }
+.hl-backdrop {
+  position: absolute; inset: 0; margin: 0; box-sizing: border-box;
+  padding: 6px 8px; border: 1px solid transparent; border-radius: 6px;
+  font: inherit; font-size: 14px; line-height: 1.4;
+  color: var(--ink); background: #fff; pointer-events: none;
+  white-space: pre; overflow: hidden;
+}
+.hl--multiline .hl-backdrop { white-space: pre-wrap; overflow-wrap: break-word; word-break: break-word; }
+.hl.diffing .hl-input { color: transparent; background: transparent; caret-color: var(--ink); }
+.hl:not(.diffing) .hl-backdrop { display: none; }
+.hl-backdrop .added { color: var(--green); }
 .weeks-row { display: flex; align-items: center; gap: 8px; }
 .weeks-row input { width: 5em; }
 .weeks-row .submit-label { margin: 0; }

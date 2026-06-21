@@ -308,15 +308,82 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng) {
   setTimeout(() => map.invalidateSize(), 60); // re-measure once the modal has laid out
 }
 
-// In the corrections form, flag each field the user has edited (current value differs from
-// the prefilled original) with a thicker green outline, so it's clear what they changed.
-// Skips the location picker (lat/lng) and the References list — neither has a single
-// original value to diff against. Comparing each control to its own initial output avoids
-// false positives from value formatting.
+// Free-text fields (text inputs + textareas) that get an inline added/changed-text diff in
+// the corrections form. The rest of the tracked fields just get the green outline.
+const DIFF_TEXT_KEYS = new Set(['name', 'aka', 'country', 'region', 'type', 'height', 'overview', 'history', 'description', 'grow']);
+
+// Splits a string into whitespace / non-whitespace tokens that concatenate back to it.
+function tokenize(s) { return s.match(/\s+|\S+/g) || []; }
+
+// Token-level diff: returns the CURRENT string as [{ text, added }] segments, where `added`
+// marks tokens not present in the original (insertions/changes). Deleted tokens are omitted
+// (we only ever show what's in the box now). LCS-based so unchanged runs stay unmarked.
+function diffSegments(orig, cur) {
+  if (orig === cur) return [{ text: cur, added: false }];
+  const a = tokenize(orig), b = tokenize(cur), n = a.length, m = b.length;
+  const dp = Array.from({ length: n + 1 }, () => new Int32Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) {
+    for (let j = m - 1; j >= 0; j--) {
+      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+  }
+  const segs = [];
+  const push = (text, added) => {
+    const last = segs[segs.length - 1];
+    if (last && last.added === added) last.text += text; else segs.push({ text, added });
+  };
+  let i = 0, j = 0;
+  while (j < m) {
+    if (i < n && a[i] === b[j] && dp[i][j] === dp[i + 1][j + 1] + 1) { push(b[j], false); i++; j++; }
+    else if (i < n && dp[i + 1][j] >= dp[i][j + 1]) { i++; }    // token only in original → deleted, not shown
+    else { push(b[j], true); j++; }                            // token only in current → added/changed
+  }
+  return segs;
+}
+
+// Overlays a text input/textarea with a backdrop that renders the same text but paints the
+// added/changed words green (native fields can't colour part of their own text). When the
+// value matches the original the backdrop is hidden and the field looks normal; when it
+// differs the field's own text goes transparent and the backdrop shows through, and the
+// green outline is toggled too. Reverting to the original clears everything.
+function attachTextDiff(field, multiline, original) {
+  const hl = document.createElement('div');
+  hl.className = 'hl' + (multiline ? ' hl--multiline' : '');
+  const backdrop = document.createElement('div');
+  backdrop.className = 'hl-backdrop';
+  backdrop.setAttribute('aria-hidden', 'true');
+  field.classList.add('hl-input');
+  field.parentNode.replaceChild(hl, field);
+  hl.append(backdrop, field);
+
+  const render = () => {
+    const segs = diffSegments(original, field.value);
+    const changed = segs.some((s) => s.added);
+    hl.classList.toggle('diffing', changed);
+    field.classList.toggle('field-changed', changed);
+    backdrop.textContent = '';
+    for (const s of segs) {
+      if (s.added) { const sp = document.createElement('span'); sp.className = 'added'; sp.textContent = s.text; backdrop.appendChild(sp); }
+      else backdrop.appendChild(document.createTextNode(s.text));
+    }
+    if (multiline && field.value.endsWith('\n')) backdrop.appendChild(document.createTextNode(' ')); // show the last empty line
+    backdrop.scrollTop = field.scrollTop; backdrop.scrollLeft = field.scrollLeft;
+  };
+  field.addEventListener('input', render);
+  field.addEventListener('scroll', () => { backdrop.scrollTop = field.scrollTop; backdrop.scrollLeft = field.scrollLeft; });
+  render();
+}
+
+// In the corrections form, flag each field the user has edited. Free-text fields get an
+// inline word-level diff (see attachTextDiff); the rest (dropdowns, the weeks inputs) get a
+// thicker green outline. Skips the location picker (lat/lng) and the References list — neither
+// has a single original value to diff against. Comparing each control to its own initial
+// output avoids false positives from value formatting.
 function highlightChanges(fields) {
   const SKIP = new Set(['lat', 'lng', 'sources']);
   for (const [key, , type] of SUBMIT_FIELDS) {
     if (SKIP.has(key) || !fields[key]) continue;
+    if (DIFF_TEXT_KEYS.has(key)) { attachTextDiff(fields[key], type === 'textarea', fields[key].value); continue; }
     const controls = type === 'weeks' ? [fields[key].min, fields[key].max] : [fields[key]];
     const initial = readField(type, fields[key]);
     const update = () => {
@@ -348,7 +415,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
       heading.textContent = 'Location';
       const hint = document.createElement('span');
       hint.className = 'submit-hint';
-      hint.textContent = 'Click the map to set the origin, or drag the pin. Coordinates are approximate.';
+      hint.textContent = 'Click the map to set the origin, or drag the leaf. Coordinates are approximate.';
       const loc = locationPicker(pre.lat, pre.lng);
       fields.lat = loc.latInput;
       fields.lng = loc.lngInput;
