@@ -52,20 +52,27 @@ async function submitIssue({ label, title, body }, ts, btn) {
   if (!turnstileToken) { window.alert('Please complete the “Verify you are human” check, then submit again.'); return; }
   const prev = btn.textContent;
   btn.disabled = true; btn.textContent = 'Submitting…';
+  const reset = () => { ts.reset(); btn.disabled = false; btn.textContent = prev; };
+  let res;
   try {
-    const res = await fetch(WORKER_URL, {
+    res = await fetch(WORKER_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ label, title, body, turnstileToken })
     });
-    const data = await res.json().catch(() => ({}));
-    if (res.ok && data.url) { showSubmitSuccess(); return; }
-    throw new Error(data.error || 'failed');
-  } catch {
-    ts.reset();
-    btn.disabled = false; btn.textContent = prev;
-    window.alert('Sorry — your submission could not be sent. Please check your connection and try again.');
+  } catch (err) {
+    // Never reached the Worker (offline, DNS, blocked, CORS).
+    console.error('Submission: could not reach the server.', err);
+    reset();
+    window.alert('Sorry — we could not reach the server. Please check your connection and try again.');
+    return;
   }
+  const data = await res.json().catch(() => ({}));
+  if (res.ok && data.url) { showSubmitSuccess(); return; }
+  // The Worker was reached but rejected the request — surface the reason.
+  console.error('Submission rejected by the server:', res.status, data);
+  reset();
+  window.alert(`Sorry — your submission was not accepted (error ${res.status}: ${data.error || 'unknown'}). Please try again.`);
 }
 
 // Replaces the modal with a thank-you confirmation. (The created issue isn't surfaced —
