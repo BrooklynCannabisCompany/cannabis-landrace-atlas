@@ -289,7 +289,7 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng, onSet) 
   const map = L.map(mapEl, {
     center: hasStart ? [startLat, startLng] : [20, 10],
     zoom: hasStart ? 4 : 1,
-    minZoom: 1, maxZoom: 8,
+    minZoom: 0, maxZoom: 8,
     worldCopyJump: true, attributionControl: false
   });
   const world = await loadWorldGeo();
@@ -323,7 +323,10 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng, onSet) 
   };
   latInput.addEventListener('change', syncFromInputs);
   lngInput.addEventListener('change', syncFromInputs);
-  setTimeout(() => map.invalidateSize(), 60); // re-measure once the modal has laid out
+  setTimeout(() => {
+    map.invalidateSize(); // re-measure once the modal has laid out
+    if (!hasStart) map.fitWorld({ animate: false }); // no coords yet → show the whole world
+  }, 60);
 }
 
 // Free-text fields (text inputs + textareas) that get an inline added/changed-text diff in
