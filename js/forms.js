@@ -9,6 +9,11 @@
 import { openContentModal } from './modal.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
 import { isValidUrl, parseWeeks } from './util.js';
+import { makeDualSlider } from './slider.js';
+
+// Flowering Time slider bounds (weeks), mirroring the Index facet's data-derived range.
+const FLOWER_MIN = 6;
+const FLOWER_MAX = 24;
 
 // Repository that submission issues are filed against. Update if the repo is renamed.
 const REPO = 'BrooklynCannabisCompany/cannabis-landrace-atlas';
@@ -108,7 +113,7 @@ const SUBMIT_FIELDS = [
   ['category', 'Type (vernacular)', 'select'],
   ['type', 'Type descriptor', 'text'],
   ['height', 'Height', 'combo'],
-  ['flowering', 'Flowering Time', 'weeks'],
+  ['flowering', 'Flowering Time (weeks)', 'weeks'],
   ['lat', 'Latitude', 'number'],
   ['lng', 'Longitude', 'number'],
   ['overview', 'Overview', 'textarea'],
@@ -150,13 +155,7 @@ function prefillFrom(strain, sections) {
 }
 
 function readField(type, ref) {
-  if (type === 'weeks') {
-    const lo = ref.min.value.trim();
-    const hi = ref.max.value.trim();
-    if (lo && hi) return `${lo}–${hi} weeks`;
-    if (lo) return `${lo} weeks`;
-    return '';
-  }
+  if (type === 'weeks') return ref.read();
   if (type === 'linklist') {
     return ref.entries().map((e) => (e.name ? `- ${e.name} — ${e.url}` : `- ${e.url}`)).join('\n');
   }
@@ -380,7 +379,9 @@ function attachTextDiff(field, multiline, original) {
 // has a single original value to diff against. Comparing each control to its own initial
 // output avoids false positives from value formatting.
 function highlightChanges(fields) {
-  const SKIP = new Set(['lat', 'lng', 'sources']);
+  // 'flowering' is the dual-thumb slider — its current range is always visible via the
+  // thumb bubbles, so it needs no separate "changed" outline.
+  const SKIP = new Set(['lat', 'lng', 'sources', 'flowering']);
   for (const [key, , type] of SUBMIT_FIELDS) {
     if (SKIP.has(key) || !fields[key]) continue;
     if (DIFF_TEXT_KEYS.has(key)) { attachTextDiff(fields[key], type === 'textarea', fields[key].value); continue; }
@@ -451,14 +452,27 @@ function buildSubmissionForm(body, mode, strain, sections) {
       if (pre[key] != null) field.value = pre[key];
       fields[key] = field; wrap.append(field, dl);
     } else if (type === 'weeks') {
-      const row = document.createElement('div'); row.className = 'weeks-row';
-      const lo = document.createElement('input'); lo.type = 'number'; lo.min = '1'; lo.placeholder = 'min';
-      const hi = document.createElement('input'); hi.type = 'number'; hi.min = '1'; hi.placeholder = 'max';
-      const unit = document.createElement('span'); unit.className = 'submit-label'; unit.textContent = 'weeks';
+      // Dual-thumb weeks slider (same control as the Index Flowering Time facet). The thumbs
+      // preset to the variety's existing range (corrections); the full span means "unspecified"
+      // so an Add can leave flowering blank.
+      const clamp = (v) => Math.max(FLOWER_MIN, Math.min(FLOWER_MAX, v));
       const pw = parseWeeks(pre.flowering);
-      lo.value = pw.min; hi.value = pw.max;
-      row.append(lo, document.createTextNode(' – '), hi, unit);
-      fields[key] = { min: lo, max: hi }; wrap.appendChild(row);
+      let lo = FLOWER_MIN, hi = FLOWER_MAX;
+      if (pw.min !== '' && pw.max !== '') {
+        lo = clamp(+pw.min); hi = clamp(+pw.max);
+        if (lo > hi) [lo, hi] = [hi, lo];
+        if (hi - lo < 1) hi = clamp(lo + 1);
+      } else if (pw.min !== '') {
+        lo = clamp(+pw.min); hi = clamp(+pw.min + 1);
+        if (lo === hi) lo = clamp(hi - 1);
+      }
+      const cur = { lo, hi };
+      const slider = makeDualSlider(FLOWER_MIN, FLOWER_MAX, (l, h) => { cur.lo = l; cur.hi = h; }, lo, hi, 1);
+      fields[key] = {
+        read: () => (cur.lo === FLOWER_MIN && cur.hi === FLOWER_MAX ? '' : `${cur.lo}–${cur.hi} weeks`)
+      };
+      wrap.appendChild(slider.wrap);
+      slider.update();
     } else if (type === 'number') {
       const field = document.createElement('input');
       field.type = 'number'; field.step = 'any';

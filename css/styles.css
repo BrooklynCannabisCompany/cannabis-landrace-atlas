@@ -255,9 +255,6 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .hl.diffing .hl-input { color: transparent; background: transparent; caret-color: var(--ink); }
 .hl:not(.diffing) .hl-backdrop { display: none; }
 .hl-backdrop .added { color: var(--green); }
-.weeks-row { display: flex; align-items: center; gap: 8px; }
-.weeks-row input { width: 5em; }
-.weeks-row .submit-label { margin: 0; }
 
 /* URL-list submission (Photos / Seed Sources / Forum Discussions / References) */
 .url-list { display: flex; flex-direction: column; gap: 6px; }
