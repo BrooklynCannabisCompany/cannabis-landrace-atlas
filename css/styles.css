@@ -376,6 +376,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   display: block; width: 240px; max-width: 70%; margin: 2px auto 18px;
   border-radius: 12px; border: 1px solid var(--line);
 }
+/* Version tucked into the bottom-right corner of the About dialog */
+.about-version { text-align: right; font-size: 11px; color: var(--muted); margin: 10px 0 0; }
 
 /* Marker name tooltip — match the paper/ink palette */
 .leaflet-tooltip {

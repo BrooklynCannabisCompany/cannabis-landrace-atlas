@@ -405,13 +405,13 @@ function openAbout() {
     licenseLink.addEventListener('click', openLicense);
     linksP.append(licenseLink, ' · ', repoLink('GitHub repository'));
 
-    const versionP = document.createElement('p');
-    versionP.className = 'modal-note';
-    versionP.textContent = `Version ${VERSION}`;
     const disclaimer = document.createElement('p');
     disclaimer.className = 'modal-note';
     disclaimer.textContent = 'We do not sell seeds or any other cannabis products.';
-    body.append(cover, p1, linksP, versionP, disclaimer);
+    const versionP = document.createElement('p');
+    versionP.className = 'about-version';
+    versionP.textContent = `Version ${VERSION}`;
+    body.append(cover, p1, linksP, disclaimer, versionP);
   });
 }
 
