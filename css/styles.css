@@ -229,7 +229,7 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .submit-form { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; }
 .submit-field { display: flex; flex-direction: column; gap: 3px; }
 .submit-label { font-size: 12px; color: var(--muted); }
-.submit-form input,
+.submit-form input:not([type="range"]),
 .submit-form select,
 .submit-form textarea {
   font: inherit; font-size: 14px; padding: 6px 8px;
@@ -245,9 +245,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
    renders the same text behind a transparent-text field (a native input can't colour part
    of its own text); the two must share identical box metrics so the text lines up. */
 .hl { position: relative; }
-.hl-input { box-sizing: border-box; width: 100%; line-height: 1.4; }
+/* Keep the input (and its focus ring + caret) painting above the backdrop; its transparent
+   background still lets the diff text show through when diffing. */
+.hl-input { box-sizing: border-box; width: 100%; line-height: 1.4; position: relative; z-index: 1; }
 .hl-backdrop {
-  position: absolute; inset: 0; margin: 0; box-sizing: border-box;
+  position: absolute; inset: 0; margin: 0; box-sizing: border-box; z-index: 0;
   padding: 6px 8px; border: 1px solid transparent; border-radius: 6px;
   font: inherit; font-size: 14px; line-height: 1.4;
   color: var(--ink); background: #fff; pointer-events: none;
