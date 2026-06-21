@@ -248,9 +248,7 @@ function locationPicker(initLat, initLng) {
   coords.className = 'loc-coords';
   const lat = coordField('Lat', 'latitude');
   const lng = coordField('Lng', 'longitude');
-  const clearBtn = document.createElement('button');
-  clearBtn.type = 'button'; clearBtn.className = 'linklike loc-clear'; clearBtn.textContent = 'Clear';
-  coords.append(lat.label, lng.label, clearBtn);
+  coords.append(lat.label, lng.label);
   wrap.append(mapEl, coords);
 
   const startLat = initLat !== '' && initLat != null ? Number(initLat) : null;
@@ -258,11 +256,11 @@ function locationPicker(initLat, initLng) {
   if (Number.isFinite(startLat)) lat.input.value = startLat;
   if (Number.isFinite(startLng)) lng.input.value = startLng;
 
-  requestAnimationFrame(() => initLocMap(mapEl, lat.input, lng.input, clearBtn, startLat, startLng));
+  requestAnimationFrame(() => initLocMap(mapEl, lat.input, lng.input, startLat, startLng));
   return { el: wrap, latInput: lat.input, lngInput: lng.input };
 }
 
-async function initLocMap(mapEl, latInput, lngInput, clearBtn, startLat, startLng) {
+async function initLocMap(mapEl, latInput, lngInput, startLat, startLng) {
   const hasStart = Number.isFinite(startLat) && Number.isFinite(startLng);
   const map = L.map(mapEl, {
     center: hasStart ? [startLat, startLng] : [20, 10],
@@ -294,10 +292,6 @@ async function initLocMap(mapEl, latInput, lngInput, clearBtn, startLat, startLn
   }
   if (hasStart) place(startLat, startLng);
   map.on('click', (e) => place(e.latlng.lat, e.latlng.lng));
-  clearBtn.addEventListener('click', () => {
-    if (marker) { map.removeLayer(marker); marker = null; }
-    latInput.value = ''; lngInput.value = '';
-  });
   const syncFromInputs = () => {
     const la = parseFloat(latInput.value); const ln = parseFloat(lngInput.value);
     if (Number.isFinite(la) && Number.isFinite(ln)) { place(la, ln); map.panTo([la, ln]); }
