@@ -100,11 +100,17 @@ const SUBMIT_OPTIONS = {
   category: CATEGORY_ORDER,
   height: HEIGHTS
 };
+
+// Country suggestions for the Country combobox — the distinct countries already in the
+// dataset, supplied by app.js once it boots (free text is still allowed for new ones).
+let countryOptions = [];
+export function setCountryOptions(list) { countryOptions = Array.isArray(list) ? list : []; }
+const optionsFor = (key) => (key === 'country' ? countryOptions : (SUBMIT_OPTIONS[key] || []));
 const SUBMIT_FIELDS = [
   ['name', 'Variety Name', 'text'],
   ['aka', 'AKA (other names, comma-separated)', 'text'],
   ['continent', 'Region', 'select'],
-  ['country', 'Country', 'text'],
+  ['country', 'Country', 'combo'],
   ['region', 'Sub-region / locality', 'text'],
   ['climate', 'Climate', 'select'],
   ['morphotype', 'Morphotype', 'select'],
@@ -458,7 +464,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
       const field = document.createElement('input');
       field.type = 'text'; field.setAttribute('list', `dl-${key}`);
       const dl = document.createElement('datalist'); dl.id = `dl-${key}`;
-      for (const o of (SUBMIT_OPTIONS[key] || [])) {
+      for (const o of optionsFor(key)) {
         const op = document.createElement('option'); op.value = o; dl.appendChild(op);
       }
       if (pre[key] != null) field.value = pre[key];

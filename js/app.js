@@ -9,7 +9,7 @@ import { relatedStrains } from './relations.js';
 import { initTooltips } from './tooltip.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
 import { modal, openContentModal, closeModal, isModalPersistent } from './modal.js';
-import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink } from './forms.js';
+import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink, setCountryOptions } from './forms.js';
 import { isValidUrl } from './util.js';
 import { makeDualSlider } from './slider.js';
 
@@ -700,6 +700,8 @@ async function boot() {
       fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); })
     ]);
     strains = data;
+    // Distinct dataset countries → suggestions for the submission Country combobox.
+    setCountryOptions([...new Set(strains.map((s) => s.country).filter(Boolean))].sort((a, b) => a.localeCompare(b)));
     map = createMap('map', world, closePanel);
     markersById = addMarkers(map, strains, openPanel);
   } catch (err) {
