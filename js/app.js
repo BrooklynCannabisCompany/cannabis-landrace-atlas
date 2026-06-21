@@ -8,7 +8,7 @@ import { renderMarkdown } from './markdown.js';
 import { relatedStrains } from './relations.js';
 import { initTooltips } from './tooltip.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
-import { modal, openContentModal, closeModal } from './modal.js';
+import { modal, openContentModal, closeModal, isModalPersistent } from './modal.js';
 import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink } from './forms.js';
 import { isValidUrl } from './util.js';
 
@@ -728,7 +728,7 @@ function matchHeadings(q) {
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
   if (!appMenu.hidden) toggleMenu(false);
-  else if (!modal.hidden) closeModal();
+  else if (!modal.hidden) { if (!isModalPersistent()) closeModal(); } // persistent forms ignore Escape
   else if (!resultsList.hidden) hideResults();
   else if (document.body.classList.contains('panel-open')) closePanel();
 });

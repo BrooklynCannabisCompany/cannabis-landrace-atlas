@@ -11,6 +11,10 @@ export const modalBody = document.getElementById('modal-body');
 
 const FOCUSABLE = 'button:not([disabled]), a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
 let lastFocused = null; // element to restore focus to when a modal closes
+let persistent = false; // when true, only the × button closes (no backdrop / Escape dismiss)
+
+// Whether the open modal refuses backdrop/Escape dismissal (e.g. the contribution forms).
+export function isModalPersistent() { return persistent; }
 
 // Shows the modal with focus management: remember the opener, move focus into the dialog.
 export function showModal() {
@@ -23,21 +27,30 @@ export function showModal() {
 export function closeModal() {
   modal.hidden = true;
   modal.classList.remove('wide');
+  persistent = false;
   if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
   lastFocused = null;
 }
 
 // Clears the modal, sets the title, lets `build(body)` fill it, then shows it.
-export function openContentModal(title, build) {
+// `opts.persistent` makes the dialog dismissible only via the × button (so an accidental
+// backdrop click or Escape doesn't discard a half-filled form).
+export function openContentModal(title, build, { persistent: isPersistent = false } = {}) {
   modal.classList.remove('wide');
+  persistent = isPersistent;
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);
   showModal();
 }
 
-// Backdrop / close-button click.
-modal.addEventListener('click', (e) => { if (e.target.hasAttribute('data-close')) closeModal(); });
+// Backdrop / close-button click. In persistent mode only the × button (.modal-close) closes;
+// a backdrop click is ignored.
+modal.addEventListener('click', (e) => {
+  if (!e.target.hasAttribute('data-close')) return;
+  if (persistent && !e.target.classList.contains('modal-close')) return;
+  closeModal();
+});
 
 // Trap Tab within the open dialog.
 modal.addEventListener('keydown', (e) => {

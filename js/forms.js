@@ -426,12 +426,12 @@ function buildSubmissionForm(body, mode, strain, sections) {
 }
 
 export function openFeedbackSubmit() {
-  openContentModal('Suggest Addition', (body) => buildSubmissionForm(body, 'add', null, {}));
+  openContentModal('Suggest Addition', (body) => buildSubmissionForm(body, 'add', null, {}), { persistent: true });
 }
 
 export async function openStrainSubmit(strain) {
   const sections = await fetchWriteupSections(strain.id);
-  openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain, sections));
+  openContentModal('Suggest Corrections', (body) => buildSubmissionForm(body, 'correct', strain, sections), { persistent: true });
 }
 
 // Contact form: feature request / bug report / general feedback -> labeled GitHub issue.
@@ -499,7 +499,7 @@ export function openContactForm() {
     });
 
     body.append(intro, form);
-  });
+  }, { persistent: true });
 }
 
 const SECTION_LABELS = {
@@ -542,5 +542,5 @@ export function openSectionSubmit(strain, section) {
 
     form.append(list.el, tsBox, submit);
     body.append(intro, form);
-  });
+  }, { persistent: true });
 }
