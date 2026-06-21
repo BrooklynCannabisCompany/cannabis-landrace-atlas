@@ -54,11 +54,11 @@ You are required to have personally reviewed any AI-generated code you are submi
 
 ---
 
-## GitHub issues and the Submit buttons
+## In-app submissions
 
-The in-app **Submit** buttons are currently placeholders. Once the project has a public GitHub repository, they will open pre-filled GitHub issue templates — one for new strain submissions and one for corrections. Those templates will mirror the requirements above (description, sources, test output) to guide contributors at the point of entry.
+The in-app **Suggest Addition / Suggest Corrections / Contact Us** buttons (and the ⊕ buttons on the Photos / Seed Sources / Forum Discussions / References sections) open structured forms that anyone can use **without a GitHub account**. Submitting POSTs to a small Cloudflare Worker (see [`worker/`](worker/)) that files a labeled issue on the repository for the maintainers to triage; a Cloudflare Turnstile check gates spam.
 
-Until then, open issues or pull requests manually on GitHub following the guidelines in this document.
+For code and data contributions, open issues or pull requests on GitHub directly, following the guidelines in this document.
 
 ---
 

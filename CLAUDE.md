@@ -27,9 +27,12 @@ native ES modules.
 
 ## Hard constraints (do not break)
 
-- **No build step, no backend.** Don't introduce either. Contributions happen via pre-filled
-  GitHub issues (`js/forms.js` builds `issues/new?...` URLs — no token, the user submits
-  while signed into GitHub).
+- **No build step; the site has no backend.** Keep the static site buildless. Visitor
+  submissions (`js/forms.js`) POST to a small Cloudflare Worker (`worker/`) that files a
+  labeled GitHub issue on the project's behalf — so contributors need no GitHub account; a
+  Cloudflare Turnstile token gates spam. The Worker is the only server-side code and deploys
+  separately from GitHub Pages (`cd worker && npx wrangler deploy`); secrets live in
+  Cloudflare, never in the repo.
 - **`data/landraces.json` is generated, never hand-edited.** Edit `data/raw/*.txt`, the
   pure helpers in `data/lib/*.mjs`, or `data/vendor-links.json`, then run `npm run convert`
   followed by `npm run validate`.

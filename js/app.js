@@ -400,23 +400,10 @@ function openAbout() {
     licenseLink.addEventListener('click', openLicense);
     linksP.append(licenseLink, ' · ', repoLink('GitHub repository'));
 
-    const ext = (href, text) => {
-      const a = document.createElement('a');
-      a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = text;
-      return a;
-    };
-    const contact = document.createElement('p');
-    contact.className = 'modal-note';
-    contact.append(
-      'Contact: ',
-      ext('mailto:BrooklynCannabis@protonmail.com', 'BrooklynCannabis@protonmail.com'),
-      ' · ',
-      ext('https://www.instagram.com/brooklyn_cannabis_company', 'Instagram')
-    );
     const disclaimer = document.createElement('p');
     disclaimer.className = 'modal-note';
     disclaimer.textContent = 'We do not sell seeds or any other cannabis products.';
-    body.append(cover, p1, linksP, contact, disclaimer);
+    body.append(cover, p1, linksP, disclaimer);
   });
 }
 

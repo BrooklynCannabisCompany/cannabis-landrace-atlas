@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-// Contribution UI: the Add / Correction / Contact / section URL forms, and the helpers
-// that file a pre-filled GitHub issue. No backend or token — the user submits the issue
-// while signed into GitHub. Depends only on the generic modal system and the vocab.
+// Contribution UI: the Add / Correction / Contact / section URL forms. Submissions POST
+// to a Cloudflare Worker (worker/), which files a labeled GitHub issue on the project's
+// behalf — so visitors need no GitHub account. A Cloudflare Turnstile token gates spam.
+// Depends only on the generic modal system and the vocab.
 
 import { openContentModal } from './modal.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
@@ -21,33 +22,59 @@ export function repoLink(text) {
   return a;
 }
 
-// Builds the pre-filled "new issue" URL, opens it in a new tab (via an anchor click —
-// more reliable than window.open against pop-up blockers), and returns the URL so callers
-// can also show a guaranteed-clickable fallback.
-function openIssue(label, title, bodyText) {
-  const url = `https://github.com/${REPO}/issues/new?labels=${encodeURIComponent(label)}`
-    + `&title=${encodeURIComponent(title)}&body=${encodeURIComponent(bodyText)}`;
-  const a = document.createElement('a');
-  a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  return url;
+// --- Account-less submission via the Cloudflare Worker proxy ------------------
+// The Worker (worker/) files the GitHub issue on the project's behalf, so visitors need
+// no GitHub account. A Cloudflare Turnstile token proves the submitter is human.
+const WORKER_URL = 'https://cla-submit.brooklyncannabiscompany.workers.dev';
+const TURNSTILE_SITE_KEY = '0x4AAAAAADowXrzQkEBGiRWj';
+
+// Renders a Turnstile widget into `container` once the async-loaded script is ready.
+// Returns { token, reset }: token() reads the current response; reset() clears it so the
+// next attempt gets a fresh token.
+function mountTurnstile(container) {
+  let widgetId = null;
+  const render = () => { widgetId = window.turnstile.render(container, { sitekey: TURNSTILE_SITE_KEY }); };
+  if (window.turnstile) render();
+  else {
+    const timer = setInterval(() => { if (window.turnstile) { clearInterval(timer); render(); } }, 100);
+    setTimeout(() => clearInterval(timer), 10000);
+  }
+  return {
+    token: () => (widgetId != null && window.turnstile ? window.turnstile.getResponse(widgetId) : ''),
+    reset: () => { if (widgetId != null && window.turnstile) window.turnstile.reset(widgetId); }
+  };
 }
 
-// Replaces the modal with a confirmation + a direct link, so submission never depends on
-// a pop-up succeeding (and explains the GitHub sign-in requirement).
-function showIssueFallback(url) {
-  openContentModal('Finish on GitHub', (body) => {
+// POSTs a submission to the Worker (which creates the labeled issue) and shows a
+// confirmation. `ts` is the form's Turnstile handle; `btn` is its submit button.
+async function submitIssue({ label, title, body }, ts, btn) {
+  const turnstileToken = ts.token();
+  if (!turnstileToken) { window.alert('Please complete the “Verify you are human” check, then submit again.'); return; }
+  const prev = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Submitting…';
+  try {
+    const res = await fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ label, title, body, turnstileToken })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (res.ok && data.url) { showSubmitSuccess(); return; }
+    throw new Error(data.error || 'failed');
+  } catch {
+    ts.reset();
+    btn.disabled = false; btn.textContent = prev;
+    window.alert('Sorry — your submission could not be sent. Please check your connection and try again.');
+  }
+}
+
+// Replaces the modal with a thank-you confirmation. (The created issue isn't surfaced —
+// most visitors don't use GitHub, so a link there would only confuse.)
+function showSubmitSuccess() {
+  openContentModal('Thank you', (body) => {
     const p = document.createElement('p');
-    const a = document.createElement('a');
-    a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-    a.textContent = 'Open the pre-filled issue on GitHub';
-    p.append('A new tab should have opened. If it did not, ', a, ', then click “Submit new issue” there to send your request.');
-    const note = document.createElement('p');
-    note.className = 'modal-note';
-    note.textContent = 'You must be signed in to GitHub to submit the issue.';
-    body.append(p, note);
+    p.textContent = 'Thank you — your suggestion was received and will be reviewed before it appears on the Atlas.';
+    body.append(p);
   });
 }
 
@@ -181,14 +208,14 @@ function linkRows(withName, namePlaceholder = 'Name / title') {
   };
 }
 
-// Builds the add/correction form (mirrors the variety panel) and files an issue on submit.
+// Builds the add/correction form (mirrors the variety panel); submits via the Worker proxy.
 function buildSubmissionForm(body, mode, strain, sections) {
   const pre = prefillFrom(strain, sections);
   const intro = document.createElement('p');
   intro.className = 'modal-note';
   intro.textContent = mode === 'correct'
-    ? `Edit the fields you want changed for "${strain.name}", then submit. This opens a pre-filled GitHub issue for review.`
-    : 'Suggest a new variety. Fill in what you know — Name and Sources are required. This opens a pre-filled GitHub issue for review.';
+    ? `Edit the fields you want changed for "${strain.name}", then submit. Your suggestion is reviewed before it appears.`
+    : 'Suggest a new variety. Fill in what you know — Name and Sources are required. Your suggestion is reviewed before it appears.';
   const form = document.createElement('form');
   form.className = 'submit-form';
   const fields = {};
@@ -250,9 +277,11 @@ function buildSubmissionForm(body, mode, strain, sections) {
     }
     form.appendChild(wrap);
   }
+  const tsBox = document.createElement('div'); tsBox.className = 'turnstile-box';
+  const ts = mountTurnstile(tsBox);
   const submit = document.createElement('button');
   submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
-  form.appendChild(submit);
+  form.append(tsBox, submit);
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -269,15 +298,12 @@ function buildSubmissionForm(body, mode, strain, sections) {
       else shortLines.push(`**${clean}:** ${vals[key]}`);
     }
     const parts = [shortLines.join('\n'), ...blocks];
-    let url;
-    if (mode === 'correct') {
-      const text = `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas correction form._`;
-      url = openIssue('update request', `Correction: ${strain.name}`, text);
-    } else {
-      const text = `New variety submission.\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas add form._`;
-      url = openIssue('add request', `Add: ${vals.name}`, text);
-    }
-    showIssueFallback(url);
+    const payload = mode === 'correct'
+      ? { label: 'update request', title: `Correction: ${strain.name}`,
+          body: `Correction request for **${strain.name}** (id: \`${strain.id}\`).\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas correction form._` }
+      : { label: 'add request', title: `Add: ${vals.name}`,
+          body: `New variety submission.\n\n${parts.join('\n\n')}\n\n_Submitted via the Atlas add form._` };
+    submitIssue(payload, ts, submit);
   });
 
   body.append(intro, form);
@@ -302,7 +328,7 @@ export function openContactForm() {
   openContentModal('Contact Us', (body) => {
     const intro = document.createElement('p');
     intro.className = 'modal-note';
-    intro.textContent = 'Send a feature request, bug report, or general feedback. This opens a pre-filled GitHub issue.';
+    intro.textContent = 'Send a feature request, bug report, or general feedback.';
     const form = document.createElement('form');
     form.className = 'submit-form';
 
@@ -335,9 +361,11 @@ export function openContactForm() {
       row('Description', descArea),
       row('Your email (optional)', emailInput)
     );
+    const tsBox = document.createElement('div'); tsBox.className = 'turnstile-box';
+    const ts = mountTurnstile(tsBox);
     const submit = document.createElement('button');
     submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
-    form.appendChild(submit);
+    form.append(tsBox, submit);
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -351,7 +379,7 @@ export function openContactForm() {
       const text = `**Type:** ${display}\n\n${desc}\n\n`
         + (email ? `**Contact email:** ${email}\n\n` : '')
         + '_Submitted via the Atlas Contact form._';
-      showIssueFallback(openIssue(label, `${display}: ${title}`, text));
+      submitIssue({ label, title: `${display}: ${title}`, body: text }, ts, submit);
     });
 
     body.append(intro, form);
@@ -375,11 +403,13 @@ export function openSectionSubmit(strain, section) {
     const intro = document.createElement('p');
     intro.className = 'modal-note';
     intro.textContent = withName
-      ? `Add one or more ${section} for "${strain.name}" — a name/title and a link for each. Submitting opens a pre-filled GitHub issue for review.`
-      : `Add one or more ${section} URLs for "${strain.name}". Each must be a valid link. Submitting opens a pre-filled GitHub issue for review.`;
+      ? `Add one or more ${section} for "${strain.name}" — a name/title and a link for each. Reviewed before it goes live.`
+      : `Add one or more ${section} URLs for "${strain.name}". Each must be a valid link. Reviewed before it goes live.`;
     const form = document.createElement('form');
     form.className = 'submit-form';
     const list = linkRows(withName, namePh);
+    const tsBox = document.createElement('div'); tsBox.className = 'turnstile-box';
+    const ts = mountTurnstile(tsBox);
     const submit = document.createElement('button');
     submit.type = 'submit'; submit.className = 'panel-submit'; submit.textContent = 'Submit';
 
@@ -391,10 +421,10 @@ export function openSectionSubmit(strain, section) {
       const lines = entries.map((en) => (en.name ? `- ${en.name} — ${en.url}` : `- ${en.url}`)).join('\n');
       const text = `Requested **${section}** for **${strain.name}** (id: \`${strain.id}\`):\n\n`
         + `${lines}\n\n_Submitted via the Atlas ${section} form._`;
-      showIssueFallback(openIssue(label, `${section}: ${strain.name}`, text));
+      submitIssue({ label, title: `${section}: ${strain.name}`, body: text }, ts, submit);
     });
 
-    form.append(list.el, submit);
+    form.append(list.el, tsBox, submit);
     body.append(intro, form);
   });
 }

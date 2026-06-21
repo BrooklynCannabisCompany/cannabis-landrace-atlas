@@ -10,6 +10,10 @@ npm-debug.log*
 node_modules/
 coverage/
 
+# Cloudflare Worker (wrangler) local state
+.wrangler/
+worker/.dev.vars
+
 # Environment / secrets
 .env
 .env.*

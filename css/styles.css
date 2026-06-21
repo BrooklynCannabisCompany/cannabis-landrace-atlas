@@ -252,6 +252,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .url-remove:hover { border-color: #c0392b; color: #c0392b; }
 .submit-form .panel-submit { margin-top: 6px; align-self: flex-start; }
+/* Reserve space so the form doesn't jump when the Turnstile widget renders. */
+.turnstile-box { margin-top: 6px; min-height: 65px; }
 
 /* Related-variety exploration links */
 .related-list { font-size: 14.5px; line-height: 1.75; margin: 6px 0 4px; }

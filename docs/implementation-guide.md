@@ -15,7 +15,9 @@ There is **no bundler, no framework, no transpile step**. Vendored libraries liv
 
 **Hard constraints (do not break):**
 - No build step. Don't introduce one. Browser loads `js/*.js` as native ES modules.
-- No backend. Contributions happen via pre-filled GitHub issues (see §12).
+- The site itself has no backend. Visitor submissions POST to a small Cloudflare Worker
+  (`worker/`, see §12) that files a GitHub issue on the project's behalf — it is the only
+  server-side code and deploys separately from Pages.
 - The browser imports the shared vocabulary directly from `data/lib/vocab.mjs`, so that
   file must stay valid ES-module syntax usable by both Node and the browser.
 
@@ -27,6 +29,7 @@ npm run convert          # data/raw/*.txt + enrichment → data/landraces.json
 npm run validate         # checks data/landraces.json against the controlled vocab
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node data/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
+cd worker && npx wrangler deploy   # deploys the submission Worker (see worker/README.md)
 ```
 
 There are no runtime dependencies and `devDependencies` is empty — tests use only the
@@ -52,6 +55,10 @@ data/
   strains-to-add.json   Queue of scraped strains with no dataset match yet.
   lib/*.mjs             Pure helper modules for the pipeline (+ *.test.mjs).
   scrape-tlt.mjs, scrape-rsc.mjs   Seed-vendor sitemap matchers (enrichment).
+worker/
+  src/index.js          Cloudflare Worker: verifies a Turnstile token, files the GitHub
+                        issue. Deployed separately (`wrangler deploy`); holds the secrets.
+  wrangler.toml         Worker config. README.md has the one-time setup + deploy steps.
 docs/
   implementation-guide.md         This file.
   writeup-generation-guide.md     Rules for generating data/writeups/*.md.
@@ -80,7 +87,7 @@ On any fetch failure the map element shows "Unable to load map data." (graceful)
 | `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/Database/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
 | `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, reset/zoom controls + their tooltips. |
 | `panel.js` | Renders the variety panel header: title, place, the two classification **badges** (morphotype + vernacular type) and the trait rows (`facetRow`). Holds the tooltip definition maps (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`). |
-| `forms.js` | All contribution forms: `openFeedbackSubmit` (Suggest Addition), `openStrainSubmit`, `openContactForm`, `openSectionSubmit` (the ⊕ buttons). Builds GitHub-issue URLs (no backend). `repoLink` helper. |
+| `forms.js` | All contribution forms: `openFeedbackSubmit` (Suggest Addition), `openStrainSubmit`, `openContactForm`, `openSectionSubmit` (the ⊕ buttons). Each mounts a Turnstile widget (`mountTurnstile`) and POSTs `{label, title, body, turnstileToken}` to the Worker (`submitIssue` → `WORKER_URL`), then shows a thank-you (`showSubmitSuccess`). `repoLink` helper. |
 | `modal.js` | The single modal host: `openContentModal(title, fill)`, `showModal`/`closeModal`, focus trap + restore, `data-close` handling, dialog ARIA. |
 | `markdown.js` | `renderMarkdown` → marked + an **allowlist sanitizer** (XSS prevention). |
 | `search.js` | `filterStrains(strains, query)` — pure, tested. Searches name/aka/country/region/continent/type/category. |
@@ -220,17 +227,24 @@ position.
 - Link sections (Seed Sources / Forum Discussions / References) render one entry per line;
   References uses `record.references` (falling back to seed sources). Photos render as
   thumbnails.
-- **Contributions create GitHub issues, no backend.** Each form builds a pre-filled
-  `issues/new?labels=…&title=…&body=…` URL and opens it via an anchor click (pop-up
-  blockers killed `window.open`); an in-modal fallback link is also shown. Section ⊕
-  forms use add/remove **name + link** rows and validate URLs with `isValidUrl`. Labels:
-  `add request` / `update request`, and per-section `add image/seed source/forum/reference
-  request`.
+- **Contributions go through the Worker — no GitHub account needed.** Each form mounts a
+  Cloudflare Turnstile widget and, on submit, POSTs `{ label, title, body, turnstileToken }`
+  to the Worker (`WORKER_URL`), which verifies the token and files the labeled issue on the
+  project's behalf, then shows a thank-you. The created issue is intentionally **not** linked
+  back to the visitor (most don't use GitHub). Section ⊕ forms use add/remove **name + link**
+  rows and validate URLs with `isValidUrl`. Labels: `add request` / `update request`, and
+  per-section `add image/seed source/forum/reference request`. See `worker/README.md` for
+  setup/deploy.
 
 ## 13. Security & identity (must hold)
 
 - **Sanitize all rendered Markdown** (`markdown.js` allowlist; `SAFE_HREF = /^(https?:|mailto:|#)/i`)
   and **protocol-check dataset URLs** (`isValidUrl`) before rendering. Never relax these.
+- **Submission Worker (`worker/`):** the GitHub token and Turnstile secret are Cloudflare
+  Worker secrets (`wrangler secret put`) — never in the repo or the static site. The Worker
+  verifies the Turnstile token server-side, restricts CORS to the Pages origin, and only
+  accepts the known issue labels. The GitHub token should be minimally scoped (issues on the
+  one repo). The Turnstile **site key** in `js/forms.js` is public by design.
 - The GitHub remote is the repo under `github.com/BrooklynCannabisCompany`
   (`cannabis-landrace-atlas`), pushed via an SSH **deploy key**. Commit author is
   "Brooklyn Cannabis Company"; contact email `BrooklynCannabis@protonmail.com`.
