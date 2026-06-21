@@ -255,6 +255,15 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 /* Reserve space so the form doesn't jump when the Turnstile widget renders. */
 .turnstile-box { margin-top: 6px; min-height: 65px; }
 
+/* Location picker (Latitude / Longitude) */
+.submit-hint { font-size: 12px; color: var(--muted); margin: -1px 0 1px; }
+.loc-picker { display: flex; flex-direction: column; gap: 6px; }
+.loc-map { height: 220px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.loc-coords { display: flex; align-items: flex-end; gap: 10px; }
+.loc-coord { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: var(--muted); }
+.loc-coord input { width: 7.5em; }
+.loc-clear { margin-left: auto; }
+
 /* Related-variety exploration links */
 .related-list { font-size: 14.5px; line-height: 1.75; margin: 6px 0 4px; }
 .related-item { white-space: nowrap; }

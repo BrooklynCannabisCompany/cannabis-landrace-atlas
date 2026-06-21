@@ -208,6 +208,105 @@ function linkRows(withName, namePlaceholder = 'Name / title') {
   };
 }
 
+// --- Location picker ----------------------------------------------------------
+// A small click-to-place map for the latitude/longitude fields (most contributors don't
+// think in raw coordinates). Reuses the bundled world GeoJSON as a tile-free base — same
+// as the main map — so there's still no external tile server. Clicking the map or dragging
+// the pin fills two bound number inputs; editing the inputs moves the pin.
+
+let worldGeoPromise = null; // the basemap is fetched once and shared by every picker
+function loadWorldGeo() {
+  if (!worldGeoPromise) {
+    worldGeoPromise = fetch('data/world.geojson').then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  }
+  return worldGeoPromise;
+}
+
+const round4 = (n) => Math.round(n * 1e4) / 1e4; // ~11 m precision; coords are approximate
+
+function coordField(text, placeholder) {
+  const label = document.createElement('label');
+  label.className = 'loc-coord';
+  const span = document.createElement('span');
+  span.textContent = text;
+  const input = document.createElement('input');
+  input.type = 'number'; input.step = 'any'; input.placeholder = placeholder;
+  input.setAttribute('aria-label', text === 'Lat' ? 'Latitude' : 'Longitude');
+  label.append(span, input);
+  return { label, input };
+}
+
+// Builds the picker UI and returns { el, latInput, lngInput }. `initLat`/`initLng` are the
+// prefilled string values ('' when unknown). The Leaflet map is initialised on the next
+// frame, once the modal is visible and the map element has a measurable size.
+function locationPicker(initLat, initLng) {
+  const wrap = document.createElement('div');
+  wrap.className = 'loc-picker';
+  const mapEl = document.createElement('div');
+  mapEl.className = 'loc-map';
+  const coords = document.createElement('div');
+  coords.className = 'loc-coords';
+  const lat = coordField('Lat', 'latitude');
+  const lng = coordField('Lng', 'longitude');
+  const clearBtn = document.createElement('button');
+  clearBtn.type = 'button'; clearBtn.className = 'linklike loc-clear'; clearBtn.textContent = 'Clear';
+  coords.append(lat.label, lng.label, clearBtn);
+  wrap.append(mapEl, coords);
+
+  const startLat = initLat !== '' && initLat != null ? Number(initLat) : null;
+  const startLng = initLng !== '' && initLng != null ? Number(initLng) : null;
+  if (Number.isFinite(startLat)) lat.input.value = startLat;
+  if (Number.isFinite(startLng)) lng.input.value = startLng;
+
+  requestAnimationFrame(() => initLocMap(mapEl, lat.input, lng.input, clearBtn, startLat, startLng));
+  return { el: wrap, latInput: lat.input, lngInput: lng.input };
+}
+
+async function initLocMap(mapEl, latInput, lngInput, clearBtn, startLat, startLng) {
+  const hasStart = Number.isFinite(startLat) && Number.isFinite(startLng);
+  const map = L.map(mapEl, {
+    center: hasStart ? [startLat, startLng] : [20, 10],
+    zoom: hasStart ? 4 : 1,
+    minZoom: 1, maxZoom: 8,
+    worldCopyJump: true, attributionControl: false
+  });
+  const world = await loadWorldGeo();
+  if (world) {
+    L.geoJSON(world, {
+      style: { color: '#c8c5bd', weight: 0.7, fillColor: '#e9e6df', fillOpacity: 1 },
+      interactive: false
+    }).addTo(map);
+  }
+  const PIN = L.divIcon({
+    html: '<img src="assets/leaf.svg?v=2" alt="" class="leaf-img" width="26" height="28">',
+    iconSize: [26, 28], iconAnchor: [13, 27], className: 'leaf-marker'
+  });
+  let marker = null;
+  function place(la, ln) {
+    la = round4(la); ln = round4(ln);
+    latInput.value = la; lngInput.value = ln;
+    if (!marker) {
+      marker = L.marker([la, ln], { icon: PIN, draggable: true }).addTo(map);
+      marker.on('dragend', () => { const p = marker.getLatLng(); place(p.lat, p.lng); });
+    } else {
+      marker.setLatLng([la, ln]);
+    }
+  }
+  if (hasStart) place(startLat, startLng);
+  map.on('click', (e) => place(e.latlng.lat, e.latlng.lng));
+  clearBtn.addEventListener('click', () => {
+    if (marker) { map.removeLayer(marker); marker = null; }
+    latInput.value = ''; lngInput.value = '';
+  });
+  const syncFromInputs = () => {
+    const la = parseFloat(latInput.value); const ln = parseFloat(lngInput.value);
+    if (Number.isFinite(la) && Number.isFinite(ln)) { place(la, ln); map.panTo([la, ln]); }
+  };
+  latInput.addEventListener('change', syncFromInputs);
+  lngInput.addEventListener('change', syncFromInputs);
+  setTimeout(() => map.invalidateSize(), 60); // re-measure once the modal has laid out
+}
+
 // Builds the add/correction form (mirrors the variety panel); submits via the Worker proxy.
 function buildSubmissionForm(body, mode, strain, sections) {
   const pre = prefillFrom(strain, sections);
@@ -220,6 +319,23 @@ function buildSubmissionForm(body, mode, strain, sections) {
   form.className = 'submit-form';
   const fields = {};
   for (const [key, label, type] of SUBMIT_FIELDS) {
+    if (key === 'lng') continue; // the lng input is built with lat inside the location picker
+    if (key === 'lat') {
+      const block = document.createElement('div');
+      block.className = 'submit-field';
+      const heading = document.createElement('span');
+      heading.className = 'submit-label';
+      heading.textContent = 'Location';
+      const hint = document.createElement('span');
+      hint.className = 'submit-hint';
+      hint.textContent = 'Click the map to set the origin, or drag the pin. Coordinates are approximate.';
+      const loc = locationPicker(pre.lat, pre.lng);
+      fields.lat = loc.latInput;
+      fields.lng = loc.lngInput;
+      block.append(heading, hint, loc.el);
+      form.appendChild(block);
+      continue;
+    }
     const wrap = document.createElement('label');
     wrap.className = 'submit-field';
     const span = document.createElement('span');
