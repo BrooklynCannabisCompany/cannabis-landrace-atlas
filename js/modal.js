@@ -26,7 +26,7 @@ export function showModal() {
 
 export function closeModal() {
   modal.hidden = true;
-  modal.classList.remove('wide');
+  modal.classList.remove('wide', 'persistent');
   persistent = false;
   if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
   lastFocused = null;
@@ -38,6 +38,7 @@ export function closeModal() {
 export function openContentModal(title, build, { persistent: isPersistent = false } = {}) {
   modal.classList.remove('wide');
   persistent = isPersistent;
+  modal.classList.toggle('persistent', isPersistent); // sticky header for the form dialogs
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);

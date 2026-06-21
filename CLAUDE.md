@@ -25,6 +25,17 @@ There are no dependencies — `devDependencies` is empty; tests use only the Nod
 runner. There is no bundler, framework, or transpile step; the browser loads `js/*.js` as
 native ES modules.
 
+## Versioning
+
+The app version lives in `js/version.js` (`VERSION`) and is shown in the About dialog and as
+the app-title tooltip. **Bump it in every commit**, using judgment for the size of the change:
+
+- **Major commit** (notable feature/behavior change): add `0.01` → `1.00.00` becomes `1.01.00`.
+- **Every other commit** (fixes, tweaks, docs, data): add `0.00.01` → `1.00.00` becomes `1.00.01`.
+
+Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry at 100
+(`1.00.99` + patch → `1.01.00`). Edit the `VERSION` string as part of the same commit.
+
 ## Hard constraints (do not break)
 
 - **No build step; the site has no backend.** Keep the static site buildless. Visitor

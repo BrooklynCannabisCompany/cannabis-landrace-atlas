@@ -12,6 +12,7 @@ import { modal, openContentModal, closeModal, isModalPersistent } from './modal.
 import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink, setCountryOptions } from './forms.js';
 import { isValidUrl } from './util.js';
 import { makeDualSlider } from './slider.js';
+import { VERSION } from './version.js';
 
 const panel = document.getElementById('panel');
 const input = document.getElementById('search-input');
@@ -21,6 +22,9 @@ const menuBtn = document.getElementById('menu-btn');
 const appMenu = document.getElementById('app-menu');
 const indexBtn = document.getElementById('index-btn');
 const contactBtn = document.getElementById('contact-btn');
+
+// The app title carries the version as a tooltip (also shown in the About dialog).
+document.querySelector('.wordmark')?.setAttribute('data-tip', `Version ${VERSION}`);
 
 let strains = [];
 let map = null;
@@ -401,10 +405,13 @@ function openAbout() {
     licenseLink.addEventListener('click', openLicense);
     linksP.append(licenseLink, ' · ', repoLink('GitHub repository'));
 
+    const versionP = document.createElement('p');
+    versionP.className = 'modal-note';
+    versionP.textContent = `Version ${VERSION}`;
     const disclaimer = document.createElement('p');
     disclaimer.className = 'modal-note';
     disclaimer.textContent = 'We do not sell seeds or any other cannabis products.';
-    body.append(cover, p1, linksP, disclaimer);
+    body.append(cover, p1, linksP, versionP, disclaimer);
   });
 }
 

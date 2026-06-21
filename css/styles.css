@@ -415,6 +415,13 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .modal-title { font-family: var(--serif); font-size: 19px; margin: 0 0 10px; }
 .modal-body { font-size: 14.5px; line-height: 1.55; color: var(--ink); }
 
+/* Persistent (form) dialogs: pin the title + × at the top and scroll only the body, so the
+   header stays in view while a long form scrolls. The card itself no longer scrolls, so the
+   absolutely-positioned × stays put. */
+.modal.persistent .modal-card { overflow: hidden; display: flex; flex-direction: column; }
+.modal.persistent .modal-title { flex: 0 0 auto; }
+.modal.persistent .modal-body { flex: 1 1 auto; overflow-y: auto; }
+
 /* ---- Responsive: phones & tablets (desktop > 860px is unchanged) ---- */
 @media (max-width: 860px) {
   /* Page becomes a column so the ribbon stays a single, uncrowded row. */
