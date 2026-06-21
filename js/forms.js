@@ -118,7 +118,7 @@ const SUBMIT_FIELDS = [
   ['domestication', 'Domestication', 'select'],
   ['category', 'Type (vernacular)', 'select'],
   ['type', 'Type descriptor', 'text'],
-  ['height', 'Height', 'combo'],
+  ['height', 'Height', 'select'],
   ['flowering', 'Flowering Time (weeks)', 'weeks'],
   ['lat', 'Latitude', 'number'],
   ['lng', 'Longitude', 'number'],
@@ -328,7 +328,7 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng, onSet) 
 
 // Free-text fields (text inputs + textareas) that get an inline added/changed-text diff in
 // the corrections form. The rest of the tracked fields just get the green outline.
-const DIFF_TEXT_KEYS = new Set(['name', 'aka', 'country', 'region', 'type', 'height', 'overview', 'history', 'description', 'grow']);
+const DIFF_TEXT_KEYS = new Set(['name', 'aka', 'country', 'region', 'type', 'overview', 'history', 'description', 'grow']);
 
 // Splits a string into whitespace / non-whitespace tokens that concatenate back to it.
 function tokenize(s) { return s.match(/\s+|\S+/g) || []; }
@@ -456,6 +456,13 @@ function buildSubmissionForm(body, mode, strain, sections) {
       for (const o of SUBMIT_OPTIONS[key]) {
         const op = document.createElement('option');
         op.value = o; op.textContent = o;
+        field.appendChild(op);
+      }
+      // Preserve a prefilled value that isn't one of the standard options (e.g. a free-text
+      // height like "Tall (2–4m)") so a correction doesn't silently drop it.
+      if (pre[key] && !SUBMIT_OPTIONS[key].includes(pre[key])) {
+        const op = document.createElement('option');
+        op.value = pre[key]; op.textContent = pre[key];
         field.appendChild(op);
       }
       if (pre[key] != null) field.value = pre[key];
