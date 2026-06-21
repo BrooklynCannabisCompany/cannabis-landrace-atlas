@@ -36,7 +36,7 @@ function openIssue(label, title, bodyText) {
 }
 
 // Replaces the modal with a confirmation + a direct link, so submission never depends on
-// a pop-up succeeding (and explains the private-repo sign-in requirement).
+// a pop-up succeeding (and explains the GitHub sign-in requirement).
 function showIssueFallback(url) {
   openContentModal('Finish on GitHub', (body) => {
     const p = document.createElement('p');
@@ -46,7 +46,7 @@ function showIssueFallback(url) {
     p.append('A new tab should have opened. If it did not, ', a, ', then click “Submit new issue” there to send your request.');
     const note = document.createElement('p');
     note.className = 'modal-note';
-    note.textContent = 'The repository is currently private, so you must be signed in to GitHub with access for the page to load.';
+    note.textContent = 'You must be signed in to GitHub to submit the issue.';
     body.append(p, note);
   });
 }
