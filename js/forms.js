@@ -215,7 +215,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
   intro.className = 'modal-note';
   intro.textContent = mode === 'correct'
     ? `Edit the fields you want changed for "${strain.name}", then submit. Your suggestion is reviewed before it appears.`
-    : 'Suggest a new variety. Fill in what you know — Name and Sources are required. Your suggestion is reviewed before it appears.';
+    : 'Suggest a new variety. Fill in what you know — only Name is required. Your suggestion is reviewed before it appears.';
   const form = document.createElement('form');
   form.className = 'submit-form';
   const fields = {};
@@ -288,7 +288,6 @@ function buildSubmissionForm(body, mode, strain, sections) {
     const vals = {};
     for (const [key, , type] of SUBMIT_FIELDS) vals[key] = readField(type, fields[key]);
     if (!vals.name) { window.alert('Name is required.'); return; }
-    if (!vals.sources) { window.alert('Please cite at least one real, verifiable source.'); return; }
     const shortLines = [];
     const blocks = [];
     for (const [key, label] of SUBMIT_FIELDS) {
