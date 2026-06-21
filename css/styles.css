@@ -236,6 +236,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink);
 }
 .submit-form textarea { resize: vertical; }
+/* Corrections form: a thicker green outline marks a field the user has changed. */
+.submit-form .field-changed { border-color: var(--green); box-shadow: 0 0 0 1px var(--green); }
 .weeks-row { display: flex; align-items: center; gap: 8px; }
 .weeks-row input { width: 5em; }
 .weeks-row .submit-label { margin: 0; }

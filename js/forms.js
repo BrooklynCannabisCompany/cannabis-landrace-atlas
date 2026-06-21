@@ -308,6 +308,25 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng) {
   setTimeout(() => map.invalidateSize(), 60); // re-measure once the modal has laid out
 }
 
+// In the corrections form, flag each field the user has edited (current value differs from
+// the prefilled original) with a thicker green outline, so it's clear what they changed.
+// Skips the location picker (lat/lng) and the References list — neither has a single
+// original value to diff against. Comparing each control to its own initial output avoids
+// false positives from value formatting.
+function highlightChanges(fields) {
+  const SKIP = new Set(['lat', 'lng', 'sources']);
+  for (const [key, , type] of SUBMIT_FIELDS) {
+    if (SKIP.has(key) || !fields[key]) continue;
+    const controls = type === 'weeks' ? [fields[key].min, fields[key].max] : [fields[key]];
+    const initial = readField(type, fields[key]);
+    const update = () => {
+      const changed = readField(type, fields[key]) !== initial;
+      controls.forEach((c) => c.classList.toggle('field-changed', changed));
+    };
+    controls.forEach((c) => { c.addEventListener('input', update); c.addEventListener('change', update); });
+  }
+}
+
 // Builds the add/correction form (mirrors the variety panel); submits via the Worker proxy.
 function buildSubmissionForm(body, mode, strain, sections) {
   const pre = prefillFrom(strain, sections);
@@ -394,6 +413,7 @@ function buildSubmissionForm(body, mode, strain, sections) {
     }
     form.appendChild(wrap);
   }
+  if (mode === 'correct') highlightChanges(fields); // green outline on edited fields
   const tsBox = document.createElement('div'); tsBox.className = 'turnstile-box';
   const ts = mountTurnstile(tsBox);
   const submit = document.createElement('button');
