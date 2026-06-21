@@ -62,7 +62,7 @@ The in-app contribution buttons open simple forms — **no account or sign-in re
 - **Contact Us** — send a feature request, bug report, or general feedback.
 - The **⊕** buttons beside Photos / Seed Sources / Forum Discussions / References add verified URLs.
 
-Behind the scenes, submissions are delivered through a small [Cloudflare Worker](worker/) that files a labeled issue on the project's GitHub repository for the maintainers to triage (spam is gated by a Cloudflare Turnstile check). The visitor never needs a GitHub account.
+Behind the scenes, submissions are delivered through a small [Cloudflare Worker](worker/) that files a labeled issue on the project's GitHub repository for the maintainers to triage (spam is gated by a Cloudflare Turnstile check).
 
 ---
 
