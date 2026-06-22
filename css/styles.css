@@ -420,8 +420,13 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 /* Persistent (form) dialogs: pin the title + × at the top and scroll only the body, so the
    header stays in view while a long form scrolls. The card itself no longer scrolls, so the
    absolutely-positioned × stays put. */
-.modal.persistent .modal-card { overflow: hidden; display: flex; flex-direction: column; }
-.modal.persistent .modal-title { flex: 0 0 auto; }
+.modal.persistent .modal-card { overflow: hidden; display: flex; flex-direction: column; padding-left: 32px; padding-right: 32px; }
+/* Title bar: a full-bleed divider under the title + ×; negative margins span the card width
+   while padding keeps the title text aligned with the body. */
+.modal.persistent .modal-title {
+  flex: 0 0 auto; margin: 0 -32px 14px; padding: 0 32px 12px;
+  border-bottom: 1px solid var(--ink);
+}
 .modal.persistent .modal-body { flex: 1 1 auto; overflow-y: auto; }
 
 /* ---- Responsive: phones & tablets (desktop > 860px is unchanged) ---- */
