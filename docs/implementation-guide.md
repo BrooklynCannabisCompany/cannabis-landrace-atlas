@@ -180,8 +180,16 @@ edit it **here only**, then re-validate.
   — AKA, Region, Climate, Chemotype, Domestication, Type (vernacular), Height, Flowering
   Time — then "Location is approximate.", the disclaimer, and the write-up sections.
 - **Modals** (`modal.js`): About, Database (embedded iframe), References, License, and
-  every contribution form all render through `openContentModal`. Esc / backdrop / ✕
-  close; focus is trapped and restored.
+  every contribution form all render through `openContentModal`; focus is trapped and
+  restored. Read-only modals close on Esc / backdrop / ✕. The **contribution forms** open
+  with `{ persistent: true }` (`modal.persistent`): they close **only via ✕** (or a successful
+  submit), so a stray backdrop click / Esc can't discard a half-filled form, and their title +
+  ✕ are pinned in a sticky header (with a divider) while only the body scrolls.
+- **Responsive forms**: the form dialogs hold the location map, a dual-thumb slider, and a
+  Turnstile widget (~300px wide). The card width and a `--pad-x` side-padding variable adapt at
+  the ≤520px (phone) breakpoint — wider card, smaller padding — so the widget and map fit
+  without horizontal overflow; the title divider tracks `--pad-x`. Inputs / selects / textareas
+  are full-width and reflow naturally; tablet (≤860px) uses the 460px-capped card unchanged.
 - **Search**: `filterStrains` for variety matches **plus** Index-heading matches
   (`headingEntries`/`matchHeadings`) so typing e.g. "Tall" or "Indica" jumps into the
   Index. Arrow-key navigation with combobox/`aria-activedescendant` semantics.
@@ -235,6 +243,16 @@ position.
   rows and validate URLs with `isValidUrl`. Labels: `add request` / `update request`, and
   per-section `add image/seed source/forum/reference request`. See `worker/README.md` for
   setup/deploy.
+- **Add/Correction form controls** (`buildSubmissionForm`, `SUBMIT_FIELDS`): selects for the
+  controlled-vocab fields (Height too — a fixed scale; a non-vocab existing value is preserved
+  as an extra option), a Country **combobox** (`datalist` of the dataset's countries, set by
+  app.js via `setCountryOptions`, free text allowed), the Flowering Time **dual-thumb slider**
+  (shared `js/slider.js`; full span = unspecified), and a **location picker** map (`locationPicker`,
+  tile-free GeoJSON base, click/drag a leaf; `fitWorld` when no coords). In **correct** mode only,
+  edited fields are flagged (`highlightChanges`): the field label turns green, and free-text
+  fields get an inline word-level diff overlay painting added/changed words green
+  (`attachTextDiff` — a backdrop behind a transparent-text field). lat/lng have their own green
+  Lat/Lng labels.
 
 ## 13. Security & identity (must hold)
 

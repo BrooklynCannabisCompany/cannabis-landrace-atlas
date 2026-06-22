@@ -420,11 +420,15 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 /* Persistent (form) dialogs: pin the title + × at the top and scroll only the body, so the
    header stays in view while a long form scrolls. The card itself no longer scrolls, so the
    absolutely-positioned × stays put. */
-.modal.persistent .modal-card { overflow: hidden; display: flex; flex-direction: column; padding-left: 32px; padding-right: 32px; }
+.modal.persistent .modal-card {
+  --pad-x: 32px; /* side padding; the title divider tracks it (and phones shrink it) */
+  overflow: hidden; display: flex; flex-direction: column;
+  padding-left: var(--pad-x); padding-right: var(--pad-x);
+}
 /* Title bar: a full-bleed divider under the title + ×; negative margins span the card width
    while padding keeps the title text aligned with the body. */
 .modal.persistent .modal-title {
-  flex: 0 0 auto; margin: 0 -32px 14px; padding: 0 32px 12px;
+  flex: 0 0 auto; margin: 0 calc(-1 * var(--pad-x)) 14px; padding: 0 var(--pad-x) 12px;
   border-bottom: 1px solid var(--ink);
 }
 .modal.persistent .modal-body { flex: 1 1 auto; overflow-y: auto; }
@@ -456,4 +460,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 @media (max-width: 520px) {
   .wordmark { display: none; }
   body.panel-open .panel { height: 85vh; }
+  /* Give the form dialogs more usable width (the Turnstile widget is ~300px) by widening
+     the card and trimming the side padding. */
+  .modal-card { width: min(460px, 94vw); }
+  .modal.persistent .modal-card { --pad-x: 16px; }
 }
