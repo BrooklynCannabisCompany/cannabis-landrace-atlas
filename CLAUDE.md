@@ -14,7 +14,6 @@ below are the load-bearing constraints and the things that bite.
 
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data validator)
-# npm run convert       # ONE-TIME bootstrap only (data/raw → landraces.json). Do NOT re-run.
 npm run validate         # checks data/landraces.json against the controlled vocab
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node --test js/search.test.mjs        # run a single test file
@@ -45,7 +44,8 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
   separately from GitHub Pages (`cd worker && npx wrangler deploy`); secrets live in
   Cloudflare, never in the repo.
 - **`data/landraces.json` is the canonical dataset — edit it directly, then run
-  `npm run validate`.** It was bootstrapped once from `data/raw/` (via `npm run convert`); that
+  `npm run validate`.** It was bootstrapped once from `data/raw/` (via `data/convert.mjs`; the
+  `convert` npm script has been removed); that
   was a one-time step. **Do not re-run `convert`** — it would overwrite the dataset's direct
   edits and enrichment. `data/raw/`, `convert.mjs`, and the `data/lib/*` pipeline helpers are
   historical provenance, not a live regeneration path.

@@ -24,9 +24,9 @@ Open http://localhost:8000 in your browser.
 | `npm run validate` | Validates `data/landraces.json` against the schema/rules |
 
 > **`data/landraces.json` is the maintained dataset — edit it directly.** It was bootstrapped
-> once from `data/raw/` via `npm run convert`; that was a one-time step and **`convert` must not
-> be re-run** (it would overwrite the dataset's direct edits and enrichment). `data/raw/` is kept
-> only as historical provenance.
+> once from `data/raw/` by `data/convert.mjs`; that was a one-time step (the `convert` npm script
+> has been removed) and **must not be re-run** — it would overwrite the dataset's direct edits and
+> enrichment. `data/raw/` and `data/convert.mjs` are kept only as historical provenance.
 
 ---
 

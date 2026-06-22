@@ -26,7 +26,6 @@ There is **no bundler, no framework, no transpile step**. Vendored libraries liv
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data + DOM smoke)
 npm run validate         # checks data/landraces.json against the controlled vocab
-# npm run convert        # ONE-TIME bootstrap (data/raw → landraces.json) — do NOT re-run (§6)
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node data/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 cd worker && npx wrangler deploy   # deploys the submission Worker (see worker/README.md)
@@ -103,7 +102,7 @@ passes a callback (e.g. `addMarkers(map, strains, openPanel)`).
 
 > **`data/landraces.json` is the canonical dataset and is edited directly.** The pipeline
 > below ran **once** to bootstrap it from `raw/*.txt`; it is kept as provenance. **Do not
-> re-run `npm run convert`** — `landraces.json` has since accumulated direct edits and
+> re-run `data/convert.mjs`** (the `convert` npm script has been removed) — `landraces.json` has since accumulated direct edits and
 > enrichment that `convert` would overwrite. After editing `landraces.json`, run
 > `npm run validate`. (`data/raw/`, `convert.mjs`, and `data/lib/*` are not a live path.)
 
@@ -303,7 +302,7 @@ verified manually / via devtools, not in `node --test`.
 ## 15. Conventions & gotchas
 
 - **Edit `data/landraces.json` directly, then `npm run validate`.** It is the canonical
-  dataset; `npm run convert` was a one-time bootstrap and must **not** be re-run (§6).
+  dataset; `data/convert.mjs` was a one-time bootstrap and must **not** be re-run (§6).
 - Add a controlled value in `vocab.mjs` only; the browser and validator both read it.
 - Range sliders: `makeDualSlider(absMin, absMax, onChange, initLo, initHi, minGap, fmt)`.
   Bubbles are inset-corrected to track the native thumb; keep `minGap ≥ 1` where thumbs
