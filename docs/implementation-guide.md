@@ -25,8 +25,8 @@ There is **no bundler, no framework, no transpile step**. Vendored libraries liv
 
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data + DOM smoke)
-npm run convert          # data/raw/*.txt + enrichment → data/landraces.json
 npm run validate         # checks data/landraces.json against the controlled vocab
+# npm run convert        # ONE-TIME bootstrap (data/raw → landraces.json) — do NOT re-run (§6)
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node data/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 cd worker && npx wrangler deploy   # deploys the submission Worker (see worker/README.md)
@@ -44,10 +44,10 @@ js/                     Browser ES modules (see §5).
 lib/                    Vendored libs: leaflet/ (1.9.4) and marked (v12). Not edited.
 assets/leaf.svg         The shared green leaf marker graphic.
 data/
-  raw/landraces-part{1,2,3}.txt   Source text blocks (the original dataset).
-  convert.mjs           Build: raw → landraces.json (the app's data file).
+  raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
+  convert.mjs           One-time bootstrap raw → landraces.json. NOT re-run (§6).
   validate.mjs          Validates landraces.json; validate.test.mjs runs it in CI.
-  landraces.json        GENERATED. 446 records. The app fetches this at boot.
+  landraces.json        The CANONICAL dataset — edited directly. The app fetches it at boot.
   world.geojson         Basemap polygons (simplified; see data/simplify-geojson.mjs).
   writeups/<id>.md      One Markdown write-up per strain (447 files).
   vendor-links.json     Real, curated links per id: { seed[], photo, forums[], references[] }.
@@ -99,11 +99,17 @@ On any fetch failure the map element shows "Unable to load map data." (graceful)
 `app.js`, not in the leaf modules. When a module needs to act on app state, `app.js`
 passes a callback (e.g. `addMarkers(map, strains, openPanel)`).
 
-## 6. Data pipeline (`data/`)
+## 6. Data pipeline (`data/`) — one-time bootstrap, historical
 
-`raw/*.txt` → **`convert.mjs`** → `landraces.json`. `convert.mjs` splits the raw text
-into blocks (tracking the current continent header), then for each block calls the pure
-helpers in `data/lib/`:
+> **`data/landraces.json` is the canonical dataset and is edited directly.** The pipeline
+> below ran **once** to bootstrap it from `raw/*.txt`; it is kept as provenance. **Do not
+> re-run `npm run convert`** — `landraces.json` has since accumulated direct edits and
+> enrichment that `convert` would overwrite. After editing `landraces.json`, run
+> `npm run validate`. (`data/raw/`, `convert.mjs`, and `data/lib/*` are not a live path.)
+
+How the bootstrap worked: `raw/*.txt` → **`convert.mjs`** → `landraces.json`. `convert.mjs`
+split the raw text into blocks (tracking the current continent header), then for each block
+called the pure helpers in `data/lib/`:
 
 - `parse.mjs` — `parseEntry(block)` → `{ name, countryRaw, regionRaw, type, height, flowering, climate, summary, incomplete }`.
 - `id.mjs` — `makeUniqueId(name, seen)` → stable kebab-case id (de-duplicated).
@@ -115,10 +121,10 @@ helpers in `data/lib/`:
 - `taxonomy.mjs` — `deriveMorphotype`, `deriveChemotype`, `deriveDomestication`
   (McPartland & Russo scheme; see [`taxonomy-guide.md`](taxonomy-guide.md)).
 
-`convert.mjs` also merges enrichment: `vendor-links.json` provides `seedSources`,
-`photos`, `forums`, `references`; `aka-generated.json` adds alternate names. **Run
-`npm run convert` whenever you change raw data, the lib helpers, or `vendor-links.json`,
-then `npm run validate`.**
+`convert.mjs` also merged enrichment at bootstrap: `vendor-links.json` provided
+`seedSources`, `photos`, `forums`, `references`; `aka-generated.json` added alternate names.
+Those enrichment files (and `data/lib/*`) are historical — changing them no longer affects
+`landraces.json`, which is now maintained directly.
 
 `validate.mjs` asserts every record's `continent/climate/morphotype/chemotype/
 domestication/category` is in the controlled vocab and coords resolve; warnings are
@@ -296,8 +302,8 @@ verified manually / via devtools, not in `node --test`.
 
 ## 15. Conventions & gotchas
 
-- **Re-run `npm run convert` after editing raw data, `data/lib/*`, or `vendor-links.json`**
-  — `landraces.json` is generated, never hand-edited.
+- **Edit `data/landraces.json` directly, then `npm run validate`.** It is the canonical
+  dataset; `npm run convert` was a one-time bootstrap and must **not** be re-run (§6).
 - Add a controlled value in `vocab.mjs` only; the browser and validator both read it.
 - Range sliders: `makeDualSlider(absMin, absMax, onChange, initLo, initHi, minGap, fmt)`.
   Bubbles are inset-corrected to track the native thumb; keep `minGap ≥ 1` where thumbs

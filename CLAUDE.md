@@ -14,7 +14,7 @@ below are the load-bearing constraints and the things that bite.
 
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data validator)
-npm run convert          # data/raw/*.txt + enrichment → data/landraces.json (GENERATED)
+# npm run convert       # ONE-TIME bootstrap only (data/raw → landraces.json). Do NOT re-run.
 npm run validate         # checks data/landraces.json against the controlled vocab
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node --test js/search.test.mjs        # run a single test file
@@ -44,9 +44,11 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
   Cloudflare Turnstile token gates spam. The Worker is the only server-side code and deploys
   separately from GitHub Pages (`cd worker && npx wrangler deploy`); secrets live in
   Cloudflare, never in the repo.
-- **`data/landraces.json` is generated, never hand-edited.** Edit `data/raw/*.txt`, the
-  pure helpers in `data/lib/*.mjs`, or `data/vendor-links.json`, then run `npm run convert`
-  followed by `npm run validate`.
+- **`data/landraces.json` is the canonical dataset — edit it directly, then run
+  `npm run validate`.** It was bootstrapped once from `data/raw/` (via `npm run convert`); that
+  was a one-time step. **Do not re-run `convert`** — it would overwrite the dataset's direct
+  edits and enrichment. `data/raw/`, `convert.mjs`, and the `data/lib/*` pipeline helpers are
+  historical provenance, not a live regeneration path.
 - **`data/lib/vocab.mjs` is the single source of truth for controlled vocabularies**, imported
   by *both* Node (the validator) and the browser (Index facets, submission forms). It must stay
   valid ES-module syntax usable in both. Add or rename a controlled value here only.

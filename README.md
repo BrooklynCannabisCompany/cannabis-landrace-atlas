@@ -21,15 +21,19 @@ Open http://localhost:8000 in your browser.
 | Command | What it does |
 |---|---|
 | `npm test` | Runs the data and logic tests (Node.js built-in test runner) |
-| `npm run convert` | Regenerates `data/landraces.json` from the raw files in `data/raw/` |
-| `npm run validate` | Validates the compiled dataset against the schema/rules |
+| `npm run validate` | Validates `data/landraces.json` against the schema/rules |
+
+> **`data/landraces.json` is the maintained dataset — edit it directly.** It was bootstrapped
+> once from `data/raw/` via `npm run convert`; that was a one-time step and **`convert` must not
+> be re-run** (it would overwrite the dataset's direct edits and enrichment). `data/raw/` is kept
+> only as historical provenance.
 
 ---
 
 ## How it works
 
 - **Map:** [Leaflet](https://leafletjs.com/) renders a bundled GeoJSON world map (`data/world.geojson`) — no external tile server is required. The selected variety's marker is highlighted; every marker has a hover name tooltip.
-- **Markers & data:** loaded from `data/landraces.json`, generated from the raw source files via `npm run convert`. Each record carries botanical fields — **morphotype, chemotype (inferred), domestication** — alongside region, climate, height, and flowering, derived in `data/lib/` and validated by `npm run validate`. The taxonomy follows McPartland & Russo (see `docs/taxonomy-guide.md`).
+- **Markers & data:** loaded from `data/landraces.json` — the project's maintained dataset (originally bootstrapped once from `data/raw/`, now edited directly). Each record carries botanical fields — **morphotype, chemotype (inferred), domestication** — alongside region, climate, height, and flowering, derived in `data/lib/` and validated by `npm run validate`. The taxonomy follows McPartland & Russo (see `docs/taxonomy-guide.md`).
 - **Panel:** a side panel shows the facts (Morphotype badge + Region, Climate, Chemotype, Domestication, Type, Height, Flowering Time) with explanatory tooltips, then the write-up.
 - **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
 - **Index:** a collapsible, multi-facet browser (Region, Climate, Morphotype, Chemotype, Domestication, Type, Height, Flowering Time) with range sliders for Height and Flowering Time, opened from the ribbon.
