@@ -17,6 +17,42 @@ strain-specific sources online — fillable over time via the ⊕ submission but
   `data/strains-to-add.json` against the dataset, and decide which are genuinely new
   varieties worth adding.
 
+## Decision pending: map each height label to meters
+
+Idea: give each `HEIGHTS` label a meter range (e.g. shown in a tooltip, or to drive the
+Height facet). **Needs a decision on the values before any code change.**
+
+**Data finding:** heights in the dataset are described **qualitatively**, not numerically.
+Of 445 `**Height:**` write-up bullets, only **7** contain meters, and 6 just echo a label
+that already embeds the figure (`Tall (2–4m)`, etc.). So there's no numeric height data to
+average. The usable signals are the few label anchors (`Tall ≈ 2–4 m`, `Very tall ≈ 3–4 m+`)
+and the **strong label↔morphotype correlation**: Short = ruderalis + compact Afghan indica;
+Tall/Very tall/Extremely tall = NLD sativa (tropical). External refs corroborate the
+endpoints: ruderalis ~0.3–1 m (Wikipedia); Afghan indica ~1–2 m; Highland Thai 2–5 m
+(The Real Seed Company — a dataset reference vendor); Réunion-type extremes higher.
+
+**Recommended mapping (clean, monotonic):**
+
+| Label | Recommended | Confidence |
+|---|---|---|
+| Short | under ~1.25 m (≈ 0.4–1.25 m) | High |
+| Medium-short | ~1.25–1.5 m | Medium |
+| Medium | ~1.5–2 m | Medium |
+| Medium-tall | ~2–2.5 m | Medium |
+| Tall | ~2.5–3.5 m | Med-High |
+| Very tall | ~3.5–4.5 m | High |
+| Extremely tall | over ~4.5 m (≈ 4.5–6 m) | High |
+
+Notes:
+- Endpoints + ordering are well-supported; the **mid-scale cut points are interpolated**
+  (no numeric data there).
+- **Alternative** that mirrors the source list's coarser annotations (more overlap):
+  Tall 2–4 m / Very tall 3–5 m / Extremely tall 5 m+.
+- "Short" is the widest-variance bucket — it lumps dwarf ruderalis (~0.3–1 m) with compact
+  Afghan indicas (~1–1.8 m outdoors).
+- Optional next step before committing values: spot-check specific varieties against their
+  `seedSources`/`references` URLs to tighten the mid-scale numbers.
+
 ## Recommended (nice-to-have)
 
 - **Terpene / aroma descriptor.** Per Russo, terpenoid profile drives effect more than
