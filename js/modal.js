@@ -26,19 +26,25 @@ export function showModal() {
 
 export function closeModal() {
   modal.hidden = true;
-  modal.classList.remove('wide', 'persistent');
+  modal.classList.remove('wide', 'persistent', 'headbar', 'divider', 'index-sticky');
   persistent = false;
   if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
   lastFocused = null;
 }
 
-// Clears the modal, sets the title, lets `build(body)` fill it, then shows it.
-// `opts.persistent` makes the dialog dismissible only via the × button (so an accidental
-// backdrop click or Escape doesn't discard a half-filled form).
-export function openContentModal(title, build, { persistent: isPersistent = false } = {}) {
+// Clears the modal, sets the title, lets `build(body)` fill it, then shows it. Options:
+//   persistent   — dismissible only via × (form dialogs); implies a pinned title bar + divider.
+//   divider      — a line under the title bar (About / License / References).
+//   indexHeaders — pinned title bar + sticky H1/H2 section headers (the Index).
+// `headbar` is the shared "pinned title + × over a scrolling body" layout.
+export function openContentModal(title, build, opts = {}) {
+  const { persistent: isPersistent = false, divider = false, indexHeaders = false } = opts;
   modal.classList.remove('wide');
   persistent = isPersistent;
-  modal.classList.toggle('persistent', isPersistent); // sticky header for the form dialogs
+  modal.classList.toggle('persistent', isPersistent);
+  modal.classList.toggle('headbar', isPersistent || indexHeaders);
+  modal.classList.toggle('divider', divider || isPersistent);
+  modal.classList.toggle('index-sticky', indexHeaders);
   modalTitle.textContent = title;
   modalBody.innerHTML = '';
   build(modalBody);

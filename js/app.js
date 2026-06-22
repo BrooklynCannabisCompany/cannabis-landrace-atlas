@@ -412,7 +412,7 @@ function openAbout() {
     versionP.className = 'about-version';
     versionP.textContent = `Version ${VERSION}`;
     body.append(cover, p1, linksP, disclaimer, versionP);
-  });
+  }, { divider: true });
 }
 
 // Appends the shared data-credit text (with the Overgrow link) into an element,
@@ -445,7 +445,7 @@ function openLicense() {
     repoP.className = 'modal-note';
     repoP.append('Source code and full license texts: ', repoLink('GitHub repository'), '.');
     body.append(dl, p, repoP);
-  });
+  }, { divider: true });
 }
 
 function openReferences() {
@@ -464,7 +464,7 @@ function openReferences() {
     appendDataCredit(li);
     ul.appendChild(li);
     body.append(intro, ul);
-  });
+  }, { divider: true });
 }
 
 // Index facets: [label, record field, optional value formatter, optional value order].
@@ -648,6 +648,11 @@ function openIndex(target) {
       const tEl = body.querySelector('[data-scroll-target]');
       if (tEl) requestAnimationFrame(() => tEl.scrollIntoView({ block: 'start' }));
     }
+  }, { indexHeaders: true });
+  // The H2 section header pins just below the (sticky) H1 row — measure the H1 height for it.
+  requestAnimationFrame(() => {
+    const h1 = document.querySelector('#modal-body summary.index-h1');
+    if (h1) modal.style.setProperty('--idx-h1-h', `${h1.offsetHeight}px`);
   });
 }
 

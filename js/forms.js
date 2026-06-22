@@ -480,12 +480,13 @@ function buildSubmissionForm(body, mode, strain, sections) {
       if (pre[key] != null) field.value = pre[key];
       fields[key] = field; wrap.append(field, dl);
     } else if (type === 'weeks') {
-      // Dual-thumb weeks slider (same control as the Index Flowering Time facet). The thumbs
-      // preset to the variety's existing range (corrections); the full span means "unspecified"
-      // so an Add can leave flowering blank.
+      // Dual-thumb weeks slider (same control as the Index Flowering Time facet). Corrections
+      // preset to the variety's existing range; an Add defaults to 9–14 weeks. Widening to the
+      // full span still means "unspecified" (read() returns '').
       const clamp = (v) => Math.max(FLOWER_MIN, Math.min(FLOWER_MAX, v));
       const pw = parseWeeks(pre.flowering);
-      let lo = FLOWER_MIN, hi = FLOWER_MAX;
+      let lo = mode === 'correct' ? FLOWER_MIN : 9;
+      let hi = mode === 'correct' ? FLOWER_MAX : 14;
       if (pw.min !== '' && pw.max !== '') {
         lo = clamp(+pw.min); hi = clamp(+pw.max);
         if (lo > hi) [lo, hi] = [hi, lo];

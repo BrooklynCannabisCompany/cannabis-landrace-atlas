@@ -417,21 +417,27 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .modal-title { font-family: var(--serif); font-size: 19px; margin: 0 0 10px; }
 .modal-body { font-size: 14.5px; line-height: 1.55; color: var(--ink); }
 
-/* Persistent (form) dialogs: pin the title + × at the top and scroll only the body, so the
-   header stays in view while a long form scrolls. The card itself no longer scrolls, so the
-   absolutely-positioned × stays put. */
-.modal.persistent .modal-card {
-  --pad-x: 32px; /* side padding; the title divider tracks it (and phones shrink it) */
+/* Pin the title + × over a scrolling body (the form dialogs and the Index). The card itself
+   no longer scrolls, so the absolute × stays put; the horizontal padding lives on the title
+   and body (not the card) so the body's scrollbar sits in the right-side gutter rather than
+   over the fields. `--pad-x` is the shared side padding (phones shrink it). */
+.modal.headbar .modal-card {
+  --pad-x: 32px;
   overflow: hidden; display: flex; flex-direction: column;
-  padding-left: var(--pad-x); padding-right: var(--pad-x);
+  padding-left: 0; padding-right: 0;
 }
-/* Title bar: a full-bleed divider under the title + ×; negative margins span the card width
-   while padding keeps the title text aligned with the body. */
-.modal.persistent .modal-title {
-  flex: 0 0 auto; margin: 0 calc(-1 * var(--pad-x)) 14px; padding: 0 var(--pad-x) 12px;
-  border-bottom: 1px solid var(--ink);
-}
-.modal.persistent .modal-body { flex: 1 1 auto; overflow-y: auto; }
+.modal.headbar .modal-title { flex: 0 0 auto; margin: 0 0 14px; padding: 0 var(--pad-x); }
+.modal.headbar .modal-body { flex: 1 1 auto; overflow-y: auto; padding: 0 var(--pad-x); }
+
+/* Full-bleed divider under the title bar (forms + About / License / References). Headbar cards
+   have no side padding so the title already spans the card; plain cards use negative margins. */
+.modal.divider .modal-title { border-bottom: 1px solid var(--ink); padding-bottom: 12px; }
+.modal.divider:not(.headbar) .modal-title { margin: 0 -26px 14px; padding-left: 26px; padding-right: 26px; }
+
+/* Index: the current H1 (facet) and H2 (value group) headers pin below the title as you
+   scroll; each is confined to its <details>, so the next one pushes it out. */
+.modal.index-sticky summary.index-h1 { position: sticky; top: 0; z-index: 2; background: #fff; }
+.modal.index-sticky summary.index-h2 { position: sticky; top: var(--idx-h1-h, 30px); z-index: 1; background: #fff; }
 
 /* ---- Responsive: phones & tablets (desktop > 860px is unchanged) ---- */
 @media (max-width: 860px) {
@@ -463,5 +469,5 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   /* Give the form dialogs more usable width (the Turnstile widget is ~300px) by widening
      the card and trimming the side padding. */
   .modal-card { width: min(460px, 94vw); }
-  .modal.persistent .modal-card { --pad-x: 16px; }
+  .modal.headbar .modal-card { --pad-x: 16px; }
 }

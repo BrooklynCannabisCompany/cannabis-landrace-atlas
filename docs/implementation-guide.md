@@ -179,17 +179,26 @@ edit it **here only**, then re-validate.
   (Morphotype + vernacular Type, both purple, clickable, with tooltips), then trait rows
   — AKA, Region, Climate, Chemotype, Domestication, Type (vernacular), Height, Flowering
   Time — then "Location is approximate.", the disclaimer, and the write-up sections.
-- **Modals** (`modal.js`): About, Database (embedded iframe), References, License, and
-  every contribution form all render through `openContentModal`; focus is trapped and
-  restored. Read-only modals close on Esc / backdrop / ✕. The **contribution forms** open
-  with `{ persistent: true }` (`modal.persistent`): they close **only via ✕** (or a successful
-  submit), so a stray backdrop click / Esc can't discard a half-filled form, and their title +
-  ✕ are pinned in a sticky header (with a divider) while only the body scrolls.
-- **Responsive forms**: the form dialogs hold the location map, a dual-thumb slider, and a
-  Turnstile widget (~300px wide). The card width and a `--pad-x` side-padding variable adapt at
-  the ≤520px (phone) breakpoint — wider card, smaller padding — so the widget and map fit
-  without horizontal overflow; the title divider tracks `--pad-x`. Inputs / selects / textareas
-  are full-width and reflow naturally; tablet (≤860px) uses the 460px-capped card unchanged.
+- **Modals** (`modal.js`): About, Database (embedded iframe), References, License, the Index,
+  and every contribution form render through `openContentModal(title, build, opts)`; focus is
+  trapped and restored. `opts` toggles modal classes:
+  - `persistent` (forms) — close **only via ✕** (or a successful submit), so a stray backdrop
+    click / Esc can't discard a half-filled form (`isModalPersistent` gates the Esc/backdrop
+    handlers). Implies `headbar` + `divider`.
+  - `headbar` (forms + Index) — the shared "pinned title + ✕ over a scrolling **body**" layout:
+    the card is a non-scrolling flex column (so the absolute ✕ stays put) and the side padding
+    (`--pad-x`) lives on the title + body, which puts the body's scrollbar in the right-hand
+    gutter instead of over the fields.
+  - `divider` (forms + About / License / References, **not** Index/Database) — a full-bleed line
+    under the title bar.
+  - `indexHeaders` (Index) — `headbar` + sticky H1/H2 section headers (§10).
+  Read-only non-headbar modals (About/License/References/Database) close on Esc / backdrop / ✕
+  and scroll the whole card.
+- **Responsive**: form/Index dialogs hold the location map, a dual-thumb slider, and a Turnstile
+  widget (~300px wide). The card width and `--pad-x` adapt at the ≤520px (phone) breakpoint —
+  wider card (94vw), smaller padding (16px) — so the widget and map fit without horizontal
+  overflow; the title divider and body gutter both track `--pad-x`. Inputs / selects / textareas
+  are full-width; tablet (≤860px) uses the 460px-capped card unchanged.
 - **Search**: `filterStrains` for variety matches **plus** Index-heading matches
   (`headingEntries`/`matchHeadings`) so typing e.g. "Tall" or "Indica" jumps into the
   Index. Arrow-key navigation with combobox/`aria-activedescendant` semantics.
@@ -200,6 +209,13 @@ edit it **here only**, then re-validate.
 `INDEX_FACETS` entry, value groups inside (one-per-line variety rows styled like the
 search/facet list — name left, place right, hover highlight). Persisted expand/collapse
 state in `localStorage` (`cla-index-state`) when opened with no target.
+
+**Sticky section headers** (`indexHeaders` / `.modal.index-sticky`): as you scroll, the
+current facet header (H1, `summary.index-h1`) pins just below the pinned title, and the current
+value-group header (H2, `summary.index-h2`) pins below the H1 — via `position: sticky` (H1 at
+`top:0` of the scrolling body, H2 at `top: var(--idx-h1-h)`). Each is confined to its own
+`<details>`, so the next header pushes the previous one out. `openIndex` measures the rendered
+H1 height into `--idx-h1-h` for the H2 offset.
 
 **Facets are the single filtering surface.** Clicking a panel fact or badge calls
 `openFacet(field, token)`, which maps the data field → its Index heading (`FIELD_TO_INDEX`)
