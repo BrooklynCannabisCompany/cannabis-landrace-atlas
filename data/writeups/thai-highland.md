@@ -15,7 +15,7 @@ Northern Thailand's highland cannabis has been documented since at least the 196
 - **Chemotype:** Type I (inferred)
 - **Domestication:** Domesticated
 - **Vernacular type:** Sativa
-- **Height:** Tall (2–4m+)
+- **Height:** Tall, commonly 2–4 m or more outdoors
 - **Flowering Time:** 14–20 weeks is a notably long range; some highland Thai phenotypes are among the longest-flowering in the genus, requiring patience and a very long warm season outdoors.
 
 Very tall, vigorous plants with a classic narrow-leaf sativa structure — long internodes, thin leaflets, and prolific branching at height. Commonly reaches 2–4 meters or more outdoors. Typically described as incense-like, spicy, and sometimes floral or citrus-touched. Effect is commonly reported as intensely cerebral and energetic, reflective of the high-potency sativa profile long associated with Thai genetics.
