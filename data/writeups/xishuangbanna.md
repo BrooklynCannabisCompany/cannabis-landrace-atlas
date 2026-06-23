@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Xishuangbanna is a sativa landrace from the Xishuangbanna Dai Autonomous Prefecture in the southernmost part of Yunnan Province, China — a region that extends to the borders with Myanmar and Laos. Xishuangbanna is one of the most biodiverse areas in China, characterized by tropical jungle conditions unusually far north due to its low elevation and sheltered river valleys. It is widely regarded as a major Southeast Asian genetic hotspot for cannabis, sitting at the geographic intersection of the Thai, Lao, and Burmese cannabis corridors. Very tall, long-cycling sativa plants are associated with this region.

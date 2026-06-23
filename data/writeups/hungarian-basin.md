@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hungarian Basin entry represents a mixed wild cannabis and landrace complex associated with Hungary and the broader Carpathian Basin — a large, fertile depression in Central Europe enclosed by the Carpathian Mountains and the Alps. Classified as a feral category with variable height and flowering, this population is described in the atlas as an ancient migration corridor between Central Asia and China. The designation reflects the geographic role of the Eurasian steppe corridor, of which the Hungarian Plain (Puszta) represents the westernmost extension, in facilitating the movement of plants, animals, and people across the continent. The cannabis status here is not that of an established drug-type landrace but rather of a feral and weedy population that may preserve ancient steppe-migration genetics.

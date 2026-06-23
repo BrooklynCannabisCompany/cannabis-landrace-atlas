@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lebanese Blonde is a traditional highland hash landrace from Lebanon's Bekaa Valley, historically the source of the pale, lightly pressed hashish known as "Lebanese blonde" or "blond Lebanese." This medium-tall population is adapted to the semi-arid mountain valley conditions of the Bekaa, with drought tolerance and cool mountain nights as defining environmental pressures. It is distinct from Lebanese Red in its processing tradition and typically lighter resin color.
 

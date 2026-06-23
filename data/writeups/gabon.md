@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Gabon is a sativa-type landrace population from the interior rainforests of Gabon in West-Central Africa — one of the most densely forested and sparsely populated countries on the continent. Growing in a tropical rainforest climate with year-round high humidity, heavy precipitation, and equatorial heat, this very tall population represents one of the major rainforest cannabis populations of West-Central Africa. Gabon's forests form part of the Congo Basin forest ecosystem, and cannabis here grows in some of the most consistently humid conditions of any known cannabis habitat.

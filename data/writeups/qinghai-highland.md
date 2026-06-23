@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Qinghai Highland Hemp is a high-altitude hemp population associated with Qinghai Province in western China — a vast plateau province encompassing the eastern portion of the Tibetan Plateau, at elevations typically exceeding 3,000 metres above sea level. Qinghai's plateau cold climate imposes severe constraints on agriculture, and hemp cultivated here has been shaped by conditions of intense UV radiation, low temperatures, short growing seasons, and thin air. This ancient Chinese hemp population is adapted to one of the most challenging agricultural environments in the world.

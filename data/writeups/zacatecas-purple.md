@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Zacatecas Purple is a distinctive sativa landrace from Zacatecas, a state in north-central Mexico's high plateau region. It is notable for producing deep purple coloration even under warm growing conditions — a trait rarely seen in Mexican sativas, which typically express purple hues only in response to cold temperatures. Zacatecas Purple's consistent anthocyanin expression is considered a defining characteristic and a likely product of long selection or genetic drift within this specific regional population. The strain is associated with Mexico's interior plateau environment rather than the coastal or southern highland zones more commonly discussed in landrace literature.

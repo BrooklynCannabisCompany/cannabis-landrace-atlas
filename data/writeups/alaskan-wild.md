@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Alaskan Wild refers to feral cannabis populations found in Alaska, USA — among the northernmost documented cannabis populations in the Americas. These are understood to be ruderalis-type plants adapted to subarctic conditions, characterized by very short stature, rapid autoflowering development, and the ability to complete their life cycle within the brief Alaskan growing season. The population is considered feral in nature, likely descended from hemp introductions rather than representing a true indigenous cannabis tradition, and is notable primarily for its extreme cold-climate adaptation.

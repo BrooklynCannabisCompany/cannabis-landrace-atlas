@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kalamata Red is a rare mixed-category cannabis population associated with the Kalamata area of the southern Peloponnese, Greece — specifically the Messenia regional unit on the Messenian Gulf in southwestern Greece. Distinguished from the broader Kalamata sativa entry by its "Red" designation, this population may be associated with particular phenotypic traits such as red or purple coloration in stems, petioles, or bracts — characteristics sometimes observed in Mediterranean cannabis populations exposed to temperature stress or UV intensity. The summary situates this as a rare southern Greek cannabis population adapted to hot dry summers, maritime influence, and potentially connected to historic hemp and cannabis cultivation in the Peloponnese.

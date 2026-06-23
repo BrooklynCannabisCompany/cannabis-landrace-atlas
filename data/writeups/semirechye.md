@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Semirechye (also rendered as Zhetysu in Kazakh, meaning "Land of Seven Rivers") is a ruderalis and hemp-mixed cannabis population associated with the historically significant river-valley zone of southeastern Kazakhstan. The Semirechye region, centered roughly on the area east of Almaty toward the Ili River basin, sits along ancient Silk Road corridors connecting Central Asia to China and has long been recognized as an important area for cannabis naturalization.
 

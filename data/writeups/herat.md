@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Herat landrace is a traditional hash indica from the Herat region of western Afghanistan — a historic city and agricultural province situated at the intersection of the Iranian Plateau, the Afghan highlands, and the Central Asian steppe. Herat is one of the great cities of the Islamic world, a former capital of the Timurid Empire and a longstanding center of Persian cultural influence in Afghanistan. Its cannabis is associated with the western Afghan cannabis tradition, shaped by drought tolerance, resin production, and adaptation to the desert-edge environment of the Hari River valley and its surrounding arid uplands.

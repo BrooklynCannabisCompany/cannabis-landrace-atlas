@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Yungas landrace is associated with Bolivia's Yungas region — a dramatic ecological transition zone on the eastern slopes of the Andes where high-altitude cloud forest descends into tropical lowland jungle. The Yungas of Bolivia are among the country's most distinctive landscapes, combining the temperature variation of mountain environments with the humidity and lushness of tropical forest. This dual influence produces a unique growing environment that shapes cannabis populations toward tolerance for both cool misty highland conditions and humid jungle warmth.

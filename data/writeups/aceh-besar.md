@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Aceh Besar is a sativa regional landrace from Aceh Besar Regency, the administrative district directly surrounding Banda Aceh at the northern tip of Sumatra, Indonesia. Growing in a coastal tropical climate shaped by proximity to the Strait of Malacca and the Indian Ocean, this population is commonly reported as a faster-finishing variant of the broader Aceh landrace complex. Its shorter flowering window distinguishes it from other Aceh-region populations while retaining the overall sativa character associated with northern Sumatra.

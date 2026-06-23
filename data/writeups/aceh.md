@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Aceh is a sativa landrace originating from the Aceh province at the northern tip of Sumatra, Indonesia — one of the most biologically diverse corners of Southeast Asia. Growing under a tropical rainforest climate characterized by heavy annual rainfall, high humidity, and equatorial heat, this population has adapted to conditions that would challenge most cannabis varieties. Aceh cannabis is commonly associated with strong psychoactive expression and vigorous jungle growth, making it one of the more recognized Indonesian landraces among collectors and ethnobotanists.

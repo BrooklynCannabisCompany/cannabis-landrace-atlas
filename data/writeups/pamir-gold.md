@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Pamir Gold is a highland landrace derived from populations adapted to the high elevations of the Pamir Mountains in Tajikistan — one of the world's most extreme mountain environments, with elevations regularly exceeding 4,000 meters. Classified as an intermediate (Indica–Sativa) highland type, Pamir Gold is noted for strong UV tolerance, cold resistance, and the vigor characteristic of high-altitude mountain cannabis populations.
 

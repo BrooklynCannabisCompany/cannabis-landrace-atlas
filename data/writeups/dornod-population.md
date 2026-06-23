@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dornod Population is a wild cannabis population found in Dornod Province, eastern Mongolia — a vast region of open steppe grassland bordering Russia to the north and China to the south. Eastern Mongolia is one of the largest remaining temperate grassland ecosystems in the world. Cannabis growing here is feral, shaped entirely by the harsh continental climate: extreme temperature swings, short warm seasons, and strong seasonal winds. This population is considered a preservation candidate given the genetic distinctiveness that open-steppe isolation may confer.

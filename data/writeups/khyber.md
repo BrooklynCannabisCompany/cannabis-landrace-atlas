@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Khyber is a short, fast-finishing indica landrace from the tribal mountain regions of Pakistan's Khyber territory — the rugged highland zone traversed by the historic Khyber Pass connecting Pakistan and Afghanistan. This classic hashplant is associated with one of the most storied cannabis-growing corridors in South Asia, where the indica gene pool merges with Afghan highland traditions across a harsh, mountainous terrain.
 

@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-Bohemian Feral refers to naturalized cannabis populations found in the Czech Republic, particularly in the historic Bohemian region. Bohemia has a well-documented history as a hemp-growing region in Central Europe, and the feral plants found there today are generally understood to descend from cultivated hemp that naturalized in agricultural margins, roadsides, and disturbed ground. These are hemp-type plants adapted to the temperate climate of Central Europe.
+Bohemian Feral refers to naturalized cannabis populations found in the Czech Republic, particularly in the historic Bohemian region. Bohemia has a well-documented history as a hemp-growing region in Central Europe, and the feral plants found there today are generally understood to descend from cultivated hemp that naturalized in agricultural margins, roadsides, and disturbed ground. These are hemp-type plants adapted to the temperate climate of Central Europe. The source attributes this naturalized population to the former Czechoslovak lands, spanning both the Czech Republic and Slovakia.
 
 ## History
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Baglung is a sativa landrace from Baglung District in the Gandaki Province of western-central Nepal, situated in the middle hills of the Himalayas at elevations that typically range from roughly 800 to 2,000 meters. The region is known historically as a corridor for charas and temple-ball production, and the cannabis populations grown or semi-wild here are commonly associated with the resinous genetics that fed Nepal's celebrated hash-making traditions. Baglung sits within a broader Nepalese landrace zone that includes neighboring Mustang and Parbat districts.

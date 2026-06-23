@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northern Ontario / Quebec Hemp refers to feral or semi-naturalized hemp populations associated with the boreal and sub-boreal zones of central and eastern Canada. These populations are found across a vast geographic corridor stretching from Ontario into Quebec, where hemp cultivation occurred historically and where escaped plants have persisted in adapted, cold-hardy forms. The defining characteristic of this type is its extreme adaptation to Canada's boreal cold climate — one of the most challenging environments in which Cannabis has established itself as a self-sustaining population.

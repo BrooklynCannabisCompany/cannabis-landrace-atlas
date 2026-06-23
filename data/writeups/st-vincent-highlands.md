@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 St. Vincent Highlands refers to the cannabis population cultivated in the interior highlands of Saint Vincent — the main island of Saint Vincent & the Grenadines, located in the southern Windward Islands of the Eastern Caribbean. Saint Vincent is a volcanic island dominated by the active La Soufrière volcano in the north, with rugged interior mountains and fertile volcanic soils across much of its terrain. The highlands population documented here is revered within Eastern Caribbean cannabis culture for its outdoor performance and is associated with the elevated interior zones of the island rather than the coastal lowlands.

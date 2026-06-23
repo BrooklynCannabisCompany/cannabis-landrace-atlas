@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Black African Magic is a tall sativa population from South Africa, associated with the country's tropical savanna climate zones. It is noted for dark-colored phenotypic expressions — the "black" in the name likely referring to unusually dark leaf pigmentation or dark-tinted resin structures reported by some growers — combined with vigorous vertical growth and strong drought and heat tolerance. As a South African sativa, it is part of the broader narrow-leaf sativa tradition associated with sub-equatorial Africa.

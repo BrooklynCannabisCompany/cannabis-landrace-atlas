@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Don River Basin entry describes a feral intermediate cannabis population associated with the Don River corridor of southern Russia — the great steppe river that flows southward from the Central Russian Upland to the Sea of Azov near Rostov-on-Don. The Don Basin sits within the Eurasian steppe zone, characterized by continental climate extremes: hot dry summers, cold winters, and the open grassland terrain of the southern Russian plains. Cannabis in this region represents a long-naturalized feral population adapted to agricultural landscapes and river valley ecology across the southern Russian steppe.

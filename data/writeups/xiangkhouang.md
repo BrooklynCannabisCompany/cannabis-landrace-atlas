@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Xiangkhouang is a highland sativa landrace from the Xiangkhouang Plateau in northeastern Laos — a broad upland plateau at elevations of roughly 1,000–1,200 meters, most widely known historically as the Plain of Jars archaeological site. The plateau is ecologically distinct from Laos's lowland Mekong corridor, with a cooler, more seasonal mountain plateau climate characterized by a pronounced dry season and a strong monsoon wet season. Cannabis cultivation in this region is associated with traditional practices in highland communities, and the Xiangkhouang gene pool is regarded as a traditional Lao cannabis population adapted to the specific conditions of this elevated plateau.

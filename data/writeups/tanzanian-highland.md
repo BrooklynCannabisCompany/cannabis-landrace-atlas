@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Tanzanian Highland is a sativa landrace from the highland regions of Tanzania in East Africa. Tanzania contains a remarkable range of highland environments — from the slopes of Kilimanjaro and the Southern Highlands to the Usambara and Uluguru ranges — all characterized by a mountain tropical climate with significant elevation, abundant rainfall, and equatorial sunlight. This tall sativa is associated with citrus uplift and balanced psychoactivity, and represents Tanzania's highland agricultural cannabis tradition.

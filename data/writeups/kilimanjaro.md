@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kilimanjaro is a tall sativa landrace associated with the slopes and highland zones around Mount Kilimanjaro in northern Tanzania, East Africa. Africa's highest peak sits on the equator at 3°S latitude, creating a dramatic altitudinal gradient from tropical savanna at the base to alpine conditions at the summit. Cannabis associated with the Kilimanjaro region grows in the alpine equatorial climate of the mountain's mid-elevation zones — characterised by strong UV radiation, cool to cold nights, and distinct wet and dry seasons. Psychedelic uplift and citrus-spice terpenes are commonly associated with this population.

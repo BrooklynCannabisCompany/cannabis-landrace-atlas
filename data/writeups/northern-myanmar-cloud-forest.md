@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northern Myanmar Cloud Forest is a highland cloud-forest sativa landrace from the northern highlands of Myanmar — a zone encompassing the ranges of Kachin State and the Naga, Chin, and Shan highland territories at the convergence of the Eastern Himalayas, the Tibetan Plateau escarpment, and the northern reaches of the Southeast Asian mountain system. Cloud forest ecosystems, defined by persistent low cloud cover, high moisture, and moderate temperatures at altitude, create distinctive selective conditions unlike either the lowland tropics or the high-altitude alpine zones. This rare mountain population is regarded as being influenced by Himalayan, Yunnan, and Southeast Asian cannabis migration routes.

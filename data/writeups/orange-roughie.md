@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Orange Roughie is a rare New Zealand underground heirloom cultivar with a cult reputation within the New Zealand cannabis preservation community. Named with a nod to the famous deep-sea fish of the same name — a New Zealand fishing icon — Orange Roughie is associated with citrus-forward terpene expressions and is described in grower accounts as a "Holy Grail" and "Tinny Classic" of the New Zealand underground scene. It is categorized as a mixed cultivar adapted to New Zealand's maritime temperate climate, with a medium-tall growth habit and a 10–14 week flowering window that suits the New Zealand outdoor season.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Anatolian Plateau Wild population is a broad feral cannabis gene pool from the high, dry steppe plateau of central Turkey. Classified as an indica/hemp mix and assigned to the hemp category, this population is commonly associated with the wide-ranging feral and naturalized cannabis that occurs across the Anatolian interior. The steppe plateau climate — characterized by cold, snowy winters, hot dry summers, and moderate annual rainfall — has shaped a variable, hardy population that grower accounts suggest has historically contributed genetic material to hash-producing landraces further afield, including Lebanese and Moroccan lines.

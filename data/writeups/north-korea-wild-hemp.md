@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 North Korea Wild Hemp is a feral escape population of cannabis naturalized in the Democratic People's Republic of Korea. The Korean Peninsula has a long tradition of hemp cultivation for fiber and textile production, and plants that escaped cultivation over the centuries have naturalized across rural and marginal lands. North Korea's cold temperate climate — characterized by cold, dry winters under Siberian high pressure and warm, humid summers influenced by East Asian monsoon systems — has shaped a population adapted to the peninsula's distinct seasonal cycle.

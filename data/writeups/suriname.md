@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Suriname refers to a tropical rainforest sativa landrace from the interior of Suriname — a small country on the northeastern Atlantic coast of South America, bordered by Guyana to the west, Brazil to the south, and French Guiana to the east. Interior Suriname is characterized by dense equatorial rainforest, major river systems, and some of the most intact primary forest in South America. The climate is equatorial rainforest — hot, extremely wet, and humid year-round with minimal seasonal variation. Cannabis populations adapted to this setting would have developed under continuous tropical conditions, likely shaped by the diverse cultural histories of Suriname's interior communities.

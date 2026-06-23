@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Old Mother Sativa is a historic Australian heirloom sativa preservation line associated with the Northern New South Wales outdoor cannabis tradition. Northern NSW — particularly the region around Mullumbimby and the broader Northern Rivers district — became the epicenter of Australian outdoor cannabis cultivation during the late 1960s through the 1970s and beyond, and Old Mother Sativa is described as connected to this heritage: associated with old Northern NSW outdoor populations, a "Mullumbimby" mother plant, and described informally as a "Holy Grail" of Australian heirloom sativas. The subtropical coastal climate of Northern NSW, with its long summers, warm temperatures, and significant rainfall, defines the environment this line was selected within.

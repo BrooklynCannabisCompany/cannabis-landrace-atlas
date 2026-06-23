@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Morobe Province occupies a distinctive position in Papua New Guinea's geography, encompassing both a significant section of the northern coast of the mainland and the rugged Huon Peninsula, with elevations ranging from sea level to over 4,000 metres in the Saruwaged Range. This coastal-to-mountain gradient makes Morobe Province a highland-to-coast genetic transition zone for cannabis — the province's cannabis populations potentially reflect a cline of adaptation across elevation and climate zones. The Morobe landrace is classified as a sativa with a coastal mountain tropical climate, indicating influence from both the humid coastal lowlands and the cooler highland zones.

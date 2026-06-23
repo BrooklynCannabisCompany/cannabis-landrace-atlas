@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Moroccan Rif is an indica cannabis landrace from the Rif Mountains of northern Morocco — the primary hashish-producing region of the country and one of the most important cannabis-cultivating zones in the Mediterranean world. The Rif cannabis population has been shaped by centuries of hashish cultivation by Berber communities, resulting in a medium-height, early-finishing indica type strongly associated with kif and pressed Moroccan hashish.
 

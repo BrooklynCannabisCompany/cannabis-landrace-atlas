@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northern Queensland feral cannabis refers to escaped and naturalized cannabis populations found in the tropical rainforest zones of far north Queensland, Australia. The region — encompassing the Wet Tropics around Cairns and the Atherton Tablelands north through Cape York — experiences some of Australia's highest rainfall and most consistently tropical conditions, with dense rainforest, high humidity, and warm temperatures year-round. This feral population is described as heat- and humidity-tolerant, with highly variable genetics and potential Southeast Asian genetic influence, consistent with the region's historical connections to Southeast Asia via maritime trade and immigration.

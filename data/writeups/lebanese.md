@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lebanese is a traditional cannabis landrace from Lebanon, historically associated with the country's hashish-producing regions, particularly the Bekaa Valley. Classified as a short-season narrow-leaf drug (NLD) type within a sativa subspecies indica framework, this population has been central to Lebanon's long resin-hash tradition and has contributed genetics to both regional and Western breeding programs.
 

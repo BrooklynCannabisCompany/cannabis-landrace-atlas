@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Altay Xinjiang population is a mountain-steppe cannabis from Altay Prefecture in the far north of Xinjiang, China, in the foothills and valleys of the Altai Mountains where China, Russia, Kazakhstan, and Mongolia converge. This mixed-category landrace is described as cold-hardy and potentially linked to ancestral Central Asian gene pools given its position at the intersection of multiple cannabis-rich regions. The alpine foothill climate of northern Xinjiang — with its cold winters, short growing seasons, and wide temperature swings — distinguishes this population from the desert oasis landraces of southern Xinjiang such as those associated with the Tarim Basin.

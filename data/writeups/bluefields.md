@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bluefields landrace originates from Bluefields in Westmoreland Parish, on the southwest coast of Jamaica. This is a distinct population from the more widely known Blue Mountain populations of eastern Jamaica — situated in a coastal lowland environment rather than the Blue Mountains' cool elevations. The Westmoreland Parish coastal zone is characterized by warm tropical temperatures, maritime humidity, and the influence of the Caribbean Sea. Bluefields has historical significance as a Jamaican coastal community with longstanding agricultural traditions, and the cannabis population here reflects the specific pressures of the southwest coastal environment.

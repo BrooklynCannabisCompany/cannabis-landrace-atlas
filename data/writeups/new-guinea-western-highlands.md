@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 New Guinea Western Highlands represents the cannabis landrace population associated with the Western Highlands Province of Papua New Guinea, centered on the Mount Hagen area — one of the PNG highlands' main urban centers. This mountain jungle sativa is described as representing a distinct tribal zone separate from the eastern highlands populations, reflecting the cultural and geographic distinctiveness of the Western Highlands communities from their eastern neighbors. While the Western Highlands are relatively accessible within the PNG highlands context, the cannabis populations associated with the province's more remote mountain jungle areas are less documented than those of the eastern highlands zone.

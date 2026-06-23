@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ogooué Basin entry describes a feral equatorial sativa population associated with the Ogooué River Basin in Gabon, central Africa. The Ogooué is Gabon's principal river system, draining a vast area of Congo Basin rainforest — one of the wettest and most biodiverse ecosystems on Earth. Cannabis plants growing in or adjacent to this basin would face extreme humidity, near-constant rainfall, and dense canopy conditions. This population is categorized as feral and is considered a likely underexplored genetic reservoir.

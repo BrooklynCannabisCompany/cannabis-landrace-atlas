@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Zagros Mountains is a highland indica landrace from the Zagros Mountain Range of western Iran, a long chain of parallel ridges and valleys running from the Turkish and Iraqi borders in the northwest to the Strait of Hormuz in the southeast. The western Zagros region is one of the oldest agricultural zones in the Middle East, with a rich history of plant cultivation dating back to the Neolithic, situating this population in one of the most historically significant growing regions for cannabis in the broader region.
 

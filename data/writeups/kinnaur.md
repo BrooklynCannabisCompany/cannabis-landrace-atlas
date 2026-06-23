@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kinnaur is a mixed landrace from Kinnaur District in Himachal Pradesh, India — a high-altitude district in the upper Sutlej River valley bordering Tibet to the east and Spiti to the north. Kinnaur occupies a distinctive transitional ecological niche between the wetter, more forested districts of inner Himachal Pradesh to the west and the rain-shadow, semi-arid Spiti Valley to the north. This transitional position is reflected in the cannabis population, which is described as a "transitional resin ecotype" — neither purely the temperate-valley sativa of Kullu nor the extreme cold-arid indica of Spiti, but a mixed-morphology population bridging these adjacent cannabis zones.

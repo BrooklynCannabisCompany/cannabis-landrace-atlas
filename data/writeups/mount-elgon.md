@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Mount Elgon is a tall sativa landrace associated with the slopes and surrounding highland regions of Mount Elgon — an ancient extinct volcano straddling the border between Uganda and Kenya. This is a shared ecotype between both countries, shaped by the cool, moist highland tropical conditions of one of East Africa's most distinctive mountain massifs rising to over 4,300 meters.
 

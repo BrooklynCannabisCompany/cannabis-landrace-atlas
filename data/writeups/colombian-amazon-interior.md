@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Colombian Amazon Interior refers to feral cannabis populations associated with the deep interior of Colombia's Amazon region — the rainforest departments of Vaupés, Guainía, and Amazonas, which together form one of the most remote and least-populated territories in South America. This entry is distinct from the Amazonas Colombia cultivated landrace entry; the "Interior" designation specifically signals feral populations in deep rainforest basin zones rather than documented agricultural communities. High genetic diversity is expected given the scale and isolation of this territory.

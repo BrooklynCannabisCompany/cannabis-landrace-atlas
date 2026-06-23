@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Colombian Black is a Colombian sativa landrace whose name suggests a distinctive phenotypic characteristic — likely referring to dark coloration in the buds, resin, or plant tissue, a trait occasionally reported in certain Colombian highland populations. Colombia has long been recognized as one of the world's premier landrace sativa regions, and named regional varieties like Colombian Black suggest distinct expressions within the broader Colombian gene pool. The specific region within Colombia associated with this population is not recorded in the available data, but its very tall stature and 14–18 week flowering window place it among the longer-finishing Colombian sativas.

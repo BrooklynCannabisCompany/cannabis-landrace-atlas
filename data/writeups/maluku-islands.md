@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Maluku Islands is an island sativa landrace associated with the Maluku (Moluccas) archipelago of eastern Indonesia — a chain of islands stretching between Sulawesi and New Guinea in the equatorial waters of the Banda, Ceram, and Molucca seas. Historically known as the Spice Islands, the Maluku archipelago was one of the most strategically significant maritime trading zones in the pre-modern world. Cannabis growing in this equatorial island tropical climate is characterized by high humidity tolerance, maritime adaptation, and a history likely shaped by centuries of contact with traders from across Asia, the Arab world, and eventually Europe.

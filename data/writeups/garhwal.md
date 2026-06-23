@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Garhwal is a sativa landrace from the Garhwal region of Uttarakhand, India — the western division of this Himalayan state, encompassing the upper Alaknanda and Bhagirathi river drainages and associated forest zones. At mid-altitudes of roughly 1,000 to 2,500 meters, Garhwal's temperate Himalayan forests and river valleys provide conditions suited to tall, vigorous wild-growing sativa cannabis. The population is associated with feral or semi-wild forest growth rather than intensive cultivation, earning it the characterization of "wild forest sativa."

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nagaland / Mizoram designates a sativa landrace complex from the northeastern Indian states of Nagaland and Mizoram — two states in the Indo-Burma border zone, characterized by dense jungle, high rainfall, and mountainous terrain. Nagaland in the north borders Arunachal Pradesh and Myanmar; Mizoram in the south borders Assam, Manipur, and the Chittagong Hill Tracts. Both states share a humid, monsoon-dominated jungle climate and a tradition of cannabis as a semi-wild and semi-cultivated plant. The population is noted for very tall stature, very long flowering times, and exceptional humidity tolerance — hallmarks of tropical jungle sativas adapted to dense canopy competition.

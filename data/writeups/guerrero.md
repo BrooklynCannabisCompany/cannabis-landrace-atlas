@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Guerrero refers to cannabis populations associated with Guerrero State in southwestern Mexico — one of Mexico's historically most significant cannabis-producing regions. Situated along the Pacific coast with a rugged interior of the Sierra Madre del Sur mountain range, Guerrero's diverse topography supports cannabis cultivation from coastal lowlands to highland valleys. The source record explicitly identifies this as a "Very Old School" entry, reflecting its status as one of the foundational regional Mexican landrace types that influenced the global cannabis gene pool during the 1970s and beyond.

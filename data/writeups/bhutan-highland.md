@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Bhutan Highland refers to cannabis populations originating in the Kingdom of Bhutan, a landlocked Himalayan nation wedged between India and China. Bhutan's terrain is defined by steep river valleys, dense forest, and elevations that range from subtropical foothills to alpine peaks above 7,000 meters. The cannabis populations here are adapted to mountain valley conditions — cool nights, intense high-altitude sunlight, and strong seasonal variation — and are classified as a Himalayan landrace with mixed morphological expression. Bhutan's traditional relationship with cannabis is complex; the plant grows semi-wild and has historically been used as animal fodder more than for psychoactive purposes.

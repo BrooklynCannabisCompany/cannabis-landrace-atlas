@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-Caucasus Feral refers to wild and naturalized cannabis populations found in Georgia, in the foothills and lower slopes of the Greater and Lesser Caucasus Mountains. Georgia occupies an ancient crossroads between Europe and Asia, and its feral cannabis populations are correspondingly variable — reflecting a long history of both hemp cultivation and the natural movement of cannabis along the Silk Road and Caucasus mountain corridors. These medium-to-tall plants are adapted to mountain foothill conditions and are commonly described as cold-hardy and morphologically diverse.
+Caucasus Feral refers to wild and naturalized cannabis populations found in Georgia, in the foothills and lower slopes of the Greater and Lesser Caucasus Mountains. Georgia occupies an ancient crossroads between Europe and Asia, and its feral cannabis populations are correspondingly variable — reflecting a long history of both hemp cultivation and the natural movement of cannabis along the Silk Road and Caucasus mountain corridors. These medium-to-tall plants are adapted to mountain foothill conditions and are commonly described as cold-hardy and morphologically diverse. Related feral populations occur across the wider South Caucasus, extending from Georgia into neighboring Armenia and Azerbaijan.
 
 ## History
 

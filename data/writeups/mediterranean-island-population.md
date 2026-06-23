@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mediterranean Island Population is a sativa-leaning cannabis landrace associated with Cyprus — the third-largest island in the Mediterranean Sea, located in the northeastern corner of the basin south of Turkey and west of Syria. Cyprus experiences one of the most extreme Mediterranean climates in Europe: long, intensely hot and rainless summers extending from May to October, mild wet winters, and persistent exposure to dry continental airflows from Anatolia and the Middle East. Rocky soils, salt air, and occasional strong winds characterize much of the island's terrain. This population is described as adapted to these demanding conditions through selection for drought tolerance, maritime resilience, and rocky soil survival.

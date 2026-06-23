@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Gulf Province is a coastal lowland province of Papua New Guinea, occupying a broad arc of the Gulf of Papua coastline south of the highlands. The province is dominated by lowland tropical rainforest, extensive swamp systems, and river deltas — an environment markedly different from the PNG highland provinces. The cannabis population associated with Gulf Province is a sativa landrace shaped by this lowland tropical rainforest setting, selected under conditions of consistently high humidity, high temperatures, and heavy rainfall. It is categorized as a humidity-selected population, reflecting the dominant environmental pressure in this lowland coastal zone.

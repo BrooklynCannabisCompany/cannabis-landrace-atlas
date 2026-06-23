@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ko Chang is a sativa landrace associated with Ko Chang Island, situated in Trat Province in the Gulf of Thailand near the Cambodian border — Thailand's second-largest island. Growing under an island tropical climate with year-round warmth, high coastal humidity, and pronounced monsoon rainfall, this population represents a maritime-adapted Thai cannabis type distinct from the highland mountain landraces of Northern Thailand or the plateau types of Isan. Ko Chang cannabis is broadly categorized as a humidity-adapted coastal type, reflecting its island origin and the selective pressures of a consistently warm, wet coastal environment.

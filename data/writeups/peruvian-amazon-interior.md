@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Peruvian Amazon Interior refers to a feral sativa population from the deep interior of the Peruvian Amazon Basin. Peru's Amazon territory covers a vast lowland region east of the Andes, encompassing some of the most remote and biodiverse rainforest on Earth. A feral designation indicates a population that has naturalized outside of active cultivation — reproducing and persisting in the wild with little or no ongoing human management. In the context of the deep Peruvian Amazon, such a population would exist in extreme isolation, shaped entirely by the intense selective pressures of the tropical rainforest environment.

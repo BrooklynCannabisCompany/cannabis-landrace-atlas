@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chiapas refers to cannabis populations associated with the state of Chiapas in far southeastern Mexico, bordering Guatemala. Chiapas is geographically diverse, spanning Pacific coastal lowlands, the Sierra Madre de Chiapas mountain range, the Central Highlands, and the Lacandon jungle in the north. The cannabis populations from this region are classified as a highland tropical sativa landrace, reflecting adaptation to the state's mountainous interior, where elevation moderates the tropical heat and produces a distinct growing climate compared to Mexico's Pacific or Gulf lowlands.

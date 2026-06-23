@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Colombian Cloud Forest refers to cannabis populations associated with the Colombian Andean cloud forest belt — the misty, high-humidity forest zones that cloak the Andean slopes of Colombia at elevations typically between 1,500 and 3,000 meters. These cloud forests are found along multiple Andean ridgelines across the country and are characterized by persistent fog and mist, moderate temperatures, very high humidity, and rich biodiversity. The population is classified as a highland tropical sativa landrace specifically adapted to the combination of elevation and rainforest-level moisture that defines the cloud forest environment.

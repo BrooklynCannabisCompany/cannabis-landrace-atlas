@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Tarbagatai Range is a mountain cannabis population associated with the Tarbagatai Mountains (Tarbagatay), a range straddling the border between Kazakhstan and the Xinjiang region of China. Located in a remote and sparsely populated zone of eastern Kazakhstan, this population occupies an alpine steppe environment that has historically seen little outside contact, potentially preserving relic wild cannabis genetics of significant interest.
 

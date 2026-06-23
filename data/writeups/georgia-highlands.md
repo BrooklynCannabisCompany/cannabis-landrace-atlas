@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Georgia Highlands landrace is an intermediate cannabis population from the Greater and Lesser Caucasus highlands of Georgia — a country occupying the southern Caucasus between the Black Sea and the Caspian Sea, bordered by Russia to the north, Turkey and Armenia to the south. The Georgian highlands encompass some of the most rugged terrain in Eurasia, with the Greater Caucasus range forming the northern border and the Lesser Caucasus occupying the south, separated by fertile river valleys including the Mtkvari (Kura) and Rioni corridors. This crossroads position between Europe, Anatolia, Persia, and Central Asia has shaped a historically significant and genetically diverse cannabis population.

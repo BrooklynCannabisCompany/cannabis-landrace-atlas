@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Altai Foothills population is a ruderalis-category cannabis from the foothill zones of the Altai Mountains in Russia, straddling the borders of Siberia, Kazakhstan, and Mongolia. This short, early-finishing plant is regarded by researchers as one of the strongest candidates for ancestral ruderalis — the wild, autoflowering form of Cannabis that adapted to the extreme continental climate of Inner Asia. The Altai region's brief summers, severe winters, and wide latitude place significant evolutionary pressure on any plant reliant on photoperiod for flowering initiation.

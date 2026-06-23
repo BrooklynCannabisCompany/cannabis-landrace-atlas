@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Madre de Dios is an Amazonian landrace population from the Madre de Dios Department in southeastern Peru, one of the most remote and biodiverse regions of the Amazon Basin. Bordering Bolivia and Brazil, this department is characterized by lowland tropical rainforest, massive river systems, and some of the highest biodiversity on Earth. Any cannabis population adapted to this environment would have developed under conditions of extreme humidity, year-round heavy rainfall, and consistently high temperatures — the defining features of deep Amazonian tropical rainforest. This population is classified as Mixed, suggesting phenotypic variability consistent with a feral or semi-cultivated Amazonian gene pool.

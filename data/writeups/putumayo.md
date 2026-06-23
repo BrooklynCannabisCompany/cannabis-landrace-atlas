@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Putumayo refers to a landrace population from the Putumayo Department of southern Colombia, one of the most ecologically complex regions in the country. Putumayo sits at the junction where the Colombian Andes descend into the headwaters of the Amazon Basin — a meeting of mountain and jungle ecosystems that produces exceptional biodiversity and a range of distinct microclimates within a relatively small geographic area. Cannabis from this zone would have been exposed to influences from both the Andean highland tradition and the Amazonian lowland tradition, producing the mixed, highly diverse tropical genetics described in the record.

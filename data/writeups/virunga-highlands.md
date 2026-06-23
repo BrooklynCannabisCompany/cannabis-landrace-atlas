@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Virunga Highlands is a sativa landrace associated with the highland zone near the Virunga Mountains in the Democratic Republic of Congo (DRC), the chain of active and dormant volcanoes straddling the border area of the DRC, Rwanda, and Uganda along the East African Rift Valley. This volcanic alpine tropical environment — at elevations of 1,500–4,500 meters — produces a distinctly cooler, cloudier climate than the equatorial rainforest lowlands, shaping a sativa population adapted to high-altitude equatorial conditions.
 

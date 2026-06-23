@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ecuador Coastal Lowlands refers to cannabis populations associated with Ecuador's Pacific coast region — a strip of lowland tropical terrain extending from the Colombian border in the north to the Peruvian border in the south, encompassing provinces such as Esmeraldas, Manabí, Los Ríos, Guayas, and El Oro. This region is characterized by tropical warmth, high humidity, and a coastal climate strongly influenced by Pacific Ocean currents and the adjacent Andes rain shadow. The population is classified as a coastal tropical sativa adapted to humid lowland conditions.

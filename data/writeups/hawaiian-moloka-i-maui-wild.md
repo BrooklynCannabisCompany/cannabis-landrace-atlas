@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hawaiian Molokaʻi / Maui Wild entry refers to mixed escape and feral cannabis populations found on the islands of Molokaʻi and Maui in the Hawaiian archipelago. Both islands have distinct ecological characters — Molokaʻi is relatively undeveloped and rural, while Maui encompasses highly varied terrain from coastal lowlands to the high volcanic slopes of Haleakalā. The cannabis populations on these islands are described as feral escape populations with variable heritage rather than coherent traditional landraces, representing naturalized plant communities derived from cultivar introductions during Hawaii's outdoor growing era.

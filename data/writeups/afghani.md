@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Afghani is a broad-leaf indica landrace from the mountains of Afghanistan, long
 associated with traditional hashish production. It is one of the foundational

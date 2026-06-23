@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chimbu Province (also known as Simbu Province) is a highland province of Papua New Guinea situated in the central cordillera of the island's mainland, at elevations typically ranging from around 1,500 to over 3,000 metres. The cannabis population associated with Chimbu Province is a highland tropical landrace sativa, shaped by the cool nights, intense equatorial sunlight, and fertile volcanic soils characteristic of the PNG highlands. It is reported to express strong psychoactive character, consistent with the broader category of PNG highland sativas that have attracted attention from collectors and breeders.

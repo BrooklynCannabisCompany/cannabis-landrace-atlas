@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rondônia Frontier refers to a sativa landrace from Rondônia State in western Brazil, one of the Amazon Basin's most significant frontier agricultural zones. Rondônia borders Bolivia to the south and southwest and is characterized by a mix of tropical rainforest, frontier farming zones, and river systems that connect it to the broader Amazonian network. The state became a major focus of agricultural frontier expansion — particularly during the latter half of the 20th century — making it a zone where introduced plant populations, including cannabis, would have encountered both deep rainforest conditions and the disrupted edge environments created by frontier agriculture.

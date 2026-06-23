@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 St. Lucia refers to the cannabis population of the island of Saint Lucia, a volcanic island in the Eastern Caribbean's Windward Islands group. Saint Lucia is notable for its dramatic landscape — dominated by the twin Piton mountains and rugged volcanic terrain — and its tropical island climate of high rainfall, warm temperatures, and consistent trade-wind exposure. The cannabis population documented here reflects this volcanic island environment, with a profile that encompasses both lowland and highland cultivation contexts across a relatively small but topographically varied landmass.

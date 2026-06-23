@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Kunlun Foothills refers to a cannabis population associated with the foothills of the Kunlun Mountain range along the southern edge of the Tarim Basin in Xinjiang, China. This high-altitude desert margin environment — where the Kunlun range descends toward the hyper-arid Taklamakan Desert — imposes extreme selective pressure characterized by high UV radiation, arid soils, severe temperature swings, and a very short frost-free season. The population is classified as an indica-leaning mountain-desert type.
 

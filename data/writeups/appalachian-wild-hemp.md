@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Appalachian Wild Hemp refers to feral industrial hemp populations persisting in the Appalachian region of the eastern United States. These plants are descended from hemp cultivated for fiber during historical periods of domestic hemp production — most notably the World War II-era "Hemp for Victory" programs — and have since naturalized along roadsides, river bottoms, and disturbed habitats across parts of the Appalachian range. As feral industrial hemp, this population is low in THC and typically expressive of CBD or CBG, reflecting its fiber hemp ancestry rather than any drug-cultivar selection.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Pointe-Noire is a sativa landrace associated with Pointe-Noire, the Republic of Congo's main port city and economic hub, situated on the Atlantic coast of central Africa. This coastal rainforest zone — characterized by warm, humid conditions at the edge of the Congo Basin — provides the environmental context for a tall sativa with reportedly dark foliage phenotypes and euphoric effects. Pointe-Noire sits at the junction of the Atlantic Ocean and the equatorial rainforest belt, giving cannabis grown here exposure to both oceanic humidity and the biological richness of the Congo Basin margin.

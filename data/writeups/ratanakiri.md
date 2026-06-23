@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ratanakiri landrace originates from Ratanakiri Province in northeastern Cambodia — one of the country's most remote and least-developed highland regions, bordering both Laos to the north and Vietnam to the east. This geographic isolation, combined with the province's rugged upland topography and tropical forest cover, is widely regarded as a key factor in preserving a distinct local cannabis gene pool relatively separate from lowland Cambodian populations. The strain is classified as a highland landrace with mixed characteristics, reflecting both the altitude of the surrounding Annamite Range foothills and possible cross-pollination across porous borders.

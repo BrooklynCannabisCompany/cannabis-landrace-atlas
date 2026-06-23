@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ituri Forest is a feral sativa population associated with the Ituri rainforest of northeastern Democratic Republic of Congo — one of the most biologically and culturally significant forest systems in Africa. The Ituri forest is home to the Mbuti and other forest-dwelling communities and forms part of the Congo Basin rainforest complex. Cannabis growing here is feral, shaped by equatorial forest conditions — constant warmth, dense canopy, very high humidity — and is characterized by very tall stature, fast vegetative growth, and high phenotypic spread across individuals.

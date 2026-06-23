@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kona Gold is one of Hawaii's most recognized heirloom cannabis populations, associated with the Kona District on the western slope of Hawaiʻi's Big Island. The Kona coast occupies a distinctive microclimate created by the rain shadow of Mauna Loa and Mauna Kea — relatively dry and sunny compared to the windward eastern side of the island, with fertile volcanic soils, year-round warmth, strong sunlight, and consistent oceanic airflow. This is the same terroir that produces Kona coffee, one of the world's most prized coffee-growing regions, and the parallel between Kona's exceptional volcanic-soil quality and its cannabis heritage is frequently noted.

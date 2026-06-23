@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Transkei (coastal variant) is a sativa landrace from the Transkei — a historic region along the Eastern Cape Wild Coast of South Africa, between the Kei and Umtamvuna rivers. Also known as Dagga, Transkei Wild, or Eastern Cape Wild, this coastal variant refers specifically to material sourced from the shoreline and coastal lowland zones, growing under a coastal temperate climate moderated by the Indian Ocean. It is associated with the Xhosa people and their traditional medicinal and cultural use of cannabis, and is celebrated for extreme humidity and mold resistance, characteristically fluffy buds, a lanky growth habit, and a citrus-tropical aroma with an electric, energizing high.

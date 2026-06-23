@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Idukki is a sativa landrace from Idukki District in the Western Ghats of Kerala, India — a high-rainfall, heavily forested mountain district known for spice and tea cultivation, biodiversity, and, among cannabis collectors, for the variety commonly called "Idukki Gold." Located at elevations ranging from about 500 to over 2,000 meters in the Ghats range, Idukki's tropical mountain jungle climate is defined by intense monsoon rainfall, warm temperatures year-round, and dense canopy. The cannabis associated with this region is celebrated in Indian collector accounts for its citrus and spice aroma, long flowering time, and soaring effect profile.

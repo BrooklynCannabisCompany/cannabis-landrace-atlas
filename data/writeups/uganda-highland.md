@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Uganda Highland is a sativa landrace from the highland regions of Uganda in East-Central Africa. Uganda straddles the equator and encompasses a range of highland environments — from the Buganda plateau and Ankole hills in the south and west to the highlands bordering Kenya and the slopes of the Rwenzori range. This tall equatorial highland sativa is associated with vigorous growth and woody, earthy aromatic character, reflecting the fertile red soils and equatorial conditions of Uganda's highland agricultural zones.

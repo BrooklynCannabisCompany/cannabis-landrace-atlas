@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Shan Highland is a sativa landrace associated with Myanmar's Shan State — a vast, elevated plateau region in the country's east, sharing long borders with China, Laos, and Thailand. The Shan Plateau sits at elevations that range from roughly 1,000 to over 2,000 meters, producing a highland forest climate distinct from Myanmar's lowland tropical zones. This border-corridor lineage reflects its position at the intersection of several of Southeast Asia's most historically cannabis-rich regions, and grower accounts suggest it carries genetics consistent with the broader highland sativa complex of the upper Mekong and Salween river corridors.

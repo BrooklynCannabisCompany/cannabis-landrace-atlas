@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Caspian Coast Population is an intermediate cannabis landrace associated with the Caspian Sea Basin of Kazakhstan — the vast, sparsely populated steppe and semi-desert zone along Kazakhstan's Caspian shoreline. This region, encompassing the Mangystau and Atyrau oblasts on the northeastern Caspian coast, is characterized by salt-flat terrain, low rainfall, strong winds, and extreme temperature swings between summer and winter. The Caspian Sea exerts a moderating maritime influence on an otherwise harsh continental steppe environment. This population is understood as historically linked to Silk Road movement and Caspian trade routes.
+The Caspian Coast Population is an intermediate cannabis landrace associated with the Caspian Sea Basin of Kazakhstan — the vast, sparsely populated steppe and semi-desert zone along Kazakhstan's Caspian shoreline. This region, encompassing the Mangystau and Atyrau oblasts on the northeastern Caspian coast, is characterized by salt-flat terrain, low rainfall, strong winds, and extreme temperature swings between summer and winter. The Caspian Sea exerts a moderating maritime influence on an otherwise harsh continental steppe environment. This population is understood as historically linked to Silk Road movement and Caspian trade routes. The Caspian basin is shared among several states, and related coastal populations extend south into Turkmenistan and Azerbaijan.
 
 ## History
 

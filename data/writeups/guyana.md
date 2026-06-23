@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Guyana refers to cannabis populations associated with the interior of Guyana — the South American nation on the northeastern Atlantic coast, bordering Venezuela, Brazil, and Suriname. Guyana's interior is dominated by vast equatorial rainforest, the Pakaraima Mountains, and the Rupununi savanna, with much of the population concentrated along the coastal strip. Interior Guyana, where this landrace is situated, is characterized by equatorial rainforest conditions: sustained heat, very high rainfall, and near-constant humidity. The source record notes likely genetic influence from Caribbean, South American, and historic trade-route genetics, reflecting Guyana's unique position at the intersection of Caribbean island culture, Atlantic trade, and South American forest environments.

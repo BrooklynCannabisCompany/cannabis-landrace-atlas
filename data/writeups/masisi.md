@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Masisi is a tall sativa landrace from the Masisi territory of North Kivu Province in the eastern Democratic Republic of Congo — a rugged, elevated region in the Albertine Rift zone bordering Rwanda and Uganda. Masisi sits in a jungle-mountain climate at moderate altitude, with a mix of montane forest and highland conditions that are distinct from both the Congo Basin lowlands and the open East African savanna. A diesel-spice terpene expression and dense resin production are commonly associated with this population.

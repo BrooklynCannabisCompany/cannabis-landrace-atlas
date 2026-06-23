@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Zhetysu (also known as Semirechye — "Land of Seven Rivers") is a steppe-landrace complex from southeastern Kazakhstan, in the region east of Almaty bounded by the Ili River basin, Lake Balkhash, and the foothills of the Tian Shan and Dzungarian Alatau mountains. One of Kazakhstan's most fertile and ecologically diverse zones, Zhetysu has a long history of cannabis cultivation and is recognized for its significant genetic diversity and ancient cultivation heritage.
 

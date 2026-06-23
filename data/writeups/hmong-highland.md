@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Hmong Highland is a sativa landrace associated with Hmong cultivation traditions in the mountain zones of Laos — particularly the high-altitude areas of northern Laos where Hmong communities have historically maintained cannabis cultivation as part of broader highland agricultural practice. The Hmong are a highland ethnic group with a wide distribution across northern Laos, northern Vietnam, southern China, and northern Thailand; the Lao expression of Hmong Highland cannabis is situated in the rugged mountain jungle terrain of Phongsali, Houaphanh, and adjacent highland provinces. This population is associated with a powerful psychedelic expression.

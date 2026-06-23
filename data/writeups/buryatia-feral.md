@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Buryatia Feral is a wild-growing cannabis population from the Republic of Buryatia in southeastern Siberia, Russia — a vast region centered on Lake Baikal and extending into the mountain steppe and taiga zones bordering Mongolia. This feral hemp population is characterized by extreme cold tolerance, a highly variable gene pool, and adaptation to one of the shortest and most challenging growing seasons in the world. Buryatia's continental mountain steppe climate — with very cold winters, warm but brief summers, and dramatic day-length variation — imposes severe selection pressure that shapes a population capable of completing its reproductive cycle within a compressed warm window.

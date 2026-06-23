@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sichuan Highland is a sativa-type cannabis population associated with the highland zones of Sichuan Province in southwestern China. Sichuan is a geographically diverse province encompassing the fertile Sichuan Basin in the east and a mountainous western region that rises dramatically toward the Tibetan Plateau. Cannabis associated with the Sichuan highlands is found in the mountain areas of western Sichuan, where elevation, UV intensity, and temperature variation differ substantially from the lowland basin. The population is classified as a mixed gene pool and is considered an ancient Chinese cannabis population.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ukrainian Ruderalis is a short-to-medium feral cannabis population from the steppe and agricultural zones of Ukraine, representing one of the most important ruderalis-type ecotypes known for its early-flowering and autoflowering traits. Ukraine's open steppe landscape — characterized by cold winters, hot dry summers, and the vast grassland plains of the Pontic-Caspian zone — has been a major source of ruderalis-type cannabis with the early-finishing, cold-hardy adaptations that have become highly valued in modern cannabis breeding for autoflowering varieties.

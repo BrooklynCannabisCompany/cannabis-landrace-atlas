@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chaco Feral refers to feral cannabis populations found in Paraguay's portion of the Gran Chaco — a vast subtropical lowland extending across western Paraguay, northern Argentina, southeastern Bolivia, and a corner of Brazil. Paraguay's Chaco is one of the driest and hottest regions in South America, characterized by thorny dry woodland, seasonal flooding followed by intense drought, and extreme temperature swings. Cannabis naturalized here represents an unusual adaptation profile for South America: heat tolerance, drought resistance, and survival in seasonal dry woodland rather than humid rainforest.

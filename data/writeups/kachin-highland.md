@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kachin Highland is a highland sativa population from Kachin State in the far north of Myanmar — one of the most remote and least documented cannabis-producing regions in Southeast Asia. Kachin State borders China's Yunnan Province to the east and northeast, India's Arunachal Pradesh and Nagaland to the west, and contains some of Myanmar's highest mountains, including Hkakabo Razi, the highest peak in Southeast Asia. Growing under a mountain rainforest climate with heavy rainfall and significant elevational variation, this population is regarded as influenced by Himalayan and Southeast Asian cannabis migration routes — an intersection of genetic lineages from two major global cannabis regions.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Benguet is a highland sativa landrace from Benguet Province in the Cordillera Administrative Region of Luzon, Philippines. Situated at elevations commonly exceeding 1,500 m above sea level in the mountainous interior of Luzon, the region experiences a tropical mountain climate with cooler temperatures, significant rainfall, and distinct seasonal variation compared to the Philippine lowlands. Benguet is among the most recognized Philippine cannabis populations, noted for vigorous growth, strong mold resistance, and a distinctive incense-and-fruit terpene profile.

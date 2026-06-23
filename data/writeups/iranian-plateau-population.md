@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Iranian Plateau Population refers to the broad regional cannabis gene pool distributed across the Central Iranian Plateau — a vast, high-elevation basin stretching across much of Iran's interior. This is not a single cultivar but a mosaic of landrace populations adapted over centuries to drought, alkaline soils, and extreme seasonal temperature swings. It is widely considered a transitional zone where Central Asian, Afghan, and Middle Eastern cannabis gene pools converge and overlap.
 

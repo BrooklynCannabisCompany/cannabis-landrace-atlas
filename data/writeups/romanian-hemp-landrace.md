@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Romanian Hemp Landrace is a traditional hemp population from Romania — a large Central/Eastern European country occupying the lower Danube basin, Carpathian arc, and Pannonian plain, bordered by Ukraine, Moldova, Bulgaria, Serbia, and Hungary. Romania has one of Europe's most significant and historically deep hemp cultivation traditions, with fiber hemp grown across the Carpathian foothills, Moldavian plateau, and Wallachian plains for centuries. The population is described as very tall, vigorous, and among the most important historic hemp gene pools in Europe for its strong fiber traits and overall plant vigor.

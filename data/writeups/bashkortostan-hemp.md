@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Bashkortostan Hemp refers to the traditional fiber hemp landrace historically cultivated in the Republic of Bashkortostan, a federal subject of Russia located in the southern Ural region at the boundary of Europe and Asia. This is a tall, fiber-type cannabis associated with Russia's long heritage of industrial hemp production. Bashkortostan's continental climate — warm summers and cold winters — has shaped a hemp population suited to large-scale cultivation for fiber and seed rather than for psychoactive use.

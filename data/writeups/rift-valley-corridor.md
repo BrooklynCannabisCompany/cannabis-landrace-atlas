@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Rift Valley Corridor is a mixed-category landrace complex associated with Kenya's Great Rift Valley — one of the world's great geological and ecological features, stretching from the Afar Triangle in the north down through East Africa. In Kenya, the Rift Valley encompasses a vast range of habitats, from semi-arid savanna floors to fertile highland escarpments. This regional landrace complex is described as exhibiting broad genetic diversity, excellent heat and drought tolerance, and a tall growth habit, reflecting its origin in an ancient human and biological migration corridor.
+The Rift Valley Corridor is a mixed-category landrace complex associated with Kenya's Great Rift Valley — one of the world's great geological and ecological features, stretching from the Afar Triangle in the north down through East Africa. In Kenya, the Rift Valley encompasses a vast range of habitats, from semi-arid savanna floors to fertile highland escarpments. This regional landrace complex is described as exhibiting broad genetic diversity, excellent heat and drought tolerance, and a tall growth habit, reflecting its origin in an ancient human and biological migration corridor. As a corridor complex its range extends beyond Kenya, north into Ethiopia and south into Tanzania.
 
 ## History
 

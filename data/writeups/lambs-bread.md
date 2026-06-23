@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Lamb's Bread (also written Lamb's Breath) is a legendary Jamaican cannabis landrace long associated with Rastafarian culture and the island's deep tradition of cannabis use as a sacrament. Jamaica's tropical island climate — characterized by warm temperatures year-round, high humidity, seasonal rainfall, and strong Caribbean sunlight — has shaped this sativa into one of the most culturally significant cannabis landraces in the Western Hemisphere. Lamb's Bread is celebrated for its energetic growth, tropical adaptation, and its association with Jamaica's spiritual and musical heritage.

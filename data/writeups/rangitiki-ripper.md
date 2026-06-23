@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rangitiki Ripper is a regional heirloom cultivar associated with the Rangitīkei District of New Zealand's North Island — a largely rural stretch of river valleys and hill country running inland from the Manawatū–Whanganui region. Adapted over successive outdoor growing seasons to the variable temperate maritime conditions of New Zealand's lower North Island, this line is typically described by grower accounts as vigorous and resilient, capable of handling the unpredictable spring frosts, wet autumns, and moderate summers characteristic of the district.

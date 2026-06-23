@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Coromandel Bud is a historic heirloom cannabis population associated with the Coromandel Peninsula on New Zealand's North Island. The Coromandel Peninsula is a narrow, forested landmass east of Auckland, bounded by the Firth of Thames to the west and the Pacific Ocean to the east, with a maritime coastal climate influenced by both warm northerly flows and cooler southern weather systems. This mixed-category heirloom population is regarded by old-school New Zealand growers as a landmark regional line, valued for its outdoor vigor, mold resistance, and capacity to perform in New Zealand's variable coastal conditions.

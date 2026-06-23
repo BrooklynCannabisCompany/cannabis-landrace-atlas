@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Peruvian Montaña refers to a sativa landrace from the Peruvian Montaña — the distinctive ecological zone on the eastern slopes of the Peruvian Andes where mountain terrain descends into cloud forest and ultimately into the Amazon lowlands. "Montaña" in Peruvian geography specifically refers to this eastern Andean slope region, which is neither the high puna nor the deep jungle, but the forested intermediate zone characterized by steep terrain, high rainfall, persistent cloud cover, and remarkable biodiversity. This zone corresponds to what is broadly called cloud forest or ceja de selva.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northland Feral is a naturalized hemp and sativa mixed population associated with New Zealand's Northland region — the long, narrow peninsula that forms the northernmost part of the North Island. Northland has New Zealand's warmest and most subtropical climate, with mild winters, warm humid summers, and a maritime subtropical character influenced by its exposure to both the Tasman Sea and the Pacific Ocean. The population is categorized as a hemp/sativa mix, suggesting origins in hemp cultivation or introduction of hemp varieties that have subsequently naturalized and mixed with other cannabis genetics in the region.

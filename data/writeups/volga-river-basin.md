@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Volga River Basin population is a naturalized feral cannabis found along and around Russia's Volga River, the longest river in Europe and a historically significant corridor linking Eastern Europe and the steppe regions that extend toward Central Asia. This intermediate (Indica–Sativa) feral population inhabits a river-steppe climate, where the Volga floodplain provides more sheltered growing conditions than the surrounding open steppe. The population is associated with a long history of hemp cultivation and trade along this route.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kullu Valley is a sativa landrace from the Kullu Valley of Himachal Pradesh, India — the broad, fertile valley of the Beas River running roughly north to south through central Himachal Pradesh, situated at elevations of approximately 1,200 to 1,500 meters at its valley floor. Kullu (also spelled Kulu or Kullu) is historically one of the most celebrated cannabis-producing regions of India, forming the southern end of the Parvati–Kullu corridor that has been a center of charas and cannabis commerce for generations. The valley's temperate Himalayan conditions support very tall, vigorous sativa growth with flowering times reaching well into the late season.

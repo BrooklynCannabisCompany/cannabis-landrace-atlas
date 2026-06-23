@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Xinjiang landrace refers to cannabis populations historically associated with China's Xinjiang Uyghur Autonomous Region, a vast territory spanning desert basins, steppe grasslands, and mountain ranges in the country's far northwest. Situated at a continental crossroads between Central Asia, the Tibetan Plateau, and the rest of China, Xinjiang's cannabis gene pool is thought to reflect both ancient cultivation traditions and feral dispersal across its arid interior. The region's extreme climate — hot summers, bitterly cold winters, and very low annual rainfall — has shaped populations with notable tolerance to drought and temperature extremes.

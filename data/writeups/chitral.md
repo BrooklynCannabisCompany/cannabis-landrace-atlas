@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chitral is a classic indica landrace from Chitral District in the northernmost part of Khyber Pakhtunkhwa province, Pakistan — a high, narrow valley system carved by the Chitral River (Kunar) deep within the Hindu Kush mountain range. Chitral is commonly regarded as one of the most important traditional charas-producing regions in Pakistan, and its cannabis is closely tied to the Hindu Kush gene pool. The population is characterized by fast flowering, cold hardiness, short compact stature, and heavy resin production shaped by altitude, cold stress, and generations of human selection for charas quality.

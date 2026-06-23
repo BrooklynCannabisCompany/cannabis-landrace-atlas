@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Namibian Wild is a feral cannabis population found in Namibia, a country in southwestern Africa dominated by the Namib Desert — one of the world's oldest and driest deserts — and the semi-arid Kalahari. This population grows in an arid desert climate and is categorized as feral, suggesting it reproduces without active cultivation. It is notably medium in stature compared to tall African sativas, likely a direct adaptation to water scarcity and harsh, desiccating conditions. Extreme drought tolerance is its defining trait.

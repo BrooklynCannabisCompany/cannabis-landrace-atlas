@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Huila Highlands refers to cannabis populations associated with the highland zones of Colombia's Huila Department — a department situated in the upper Magdalena River valley, between the Central and Eastern Andes cordilleras of southwestern Colombia. Huila is famous for its coffee production and its position near the Nevado del Huila volcano, and its highland agricultural zones experience the characteristic Andean climate of intense equatorial sunlight, cool to cold nights, and dramatic topographic variation. This highland sativa landrace is associated with cool nights, intense mountain sun, and strong adaptation to Andean mountain conditions.

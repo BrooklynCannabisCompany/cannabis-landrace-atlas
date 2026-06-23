@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dzungarian Basin Population is a wild-feral cannabis from the Dzungarian (Junggar) Basin of northern Xinjiang, China — a large enclosed depression between the Tianshan Mountains to the south and the Altai range to the north. Unlike the Tarim Basin to the south, the Dzungarian Basin has a semi-arid rather than hyperarid climate, with grass steppe and shrub-steppe habitats that historically supported more diverse wild flora. This feral-category cannabis population is associated with the ancient Silk Road corridors crossing northern Xinjiang and is considered potentially significant for understanding the linkage between Central Asian and East Asian cannabis gene pools.

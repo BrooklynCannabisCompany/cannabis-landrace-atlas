@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lebanese Red is a traditional highland hash landrace from Lebanon's Bekaa Valley, associated with the production of red Lebanese hashish — a darker, more heavily pressed variety that was distinguished from blonde Lebanese hash in the international trade. This medium-tall, highly resinous population is adapted to the Bekaa Valley's semi-arid mountain valley climate, with seasonal drought and cool mountain nights as key environmental conditions.
 

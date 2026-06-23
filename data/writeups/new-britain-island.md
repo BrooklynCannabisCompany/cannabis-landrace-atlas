@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 New Britain Island is the largest island in the Bismarck Archipelago of Papua New Guinea, a long, arc-shaped island lying northeast of the PNG mainland. The cannabis population associated with New Britain Island is an island-isolated Melanesian feral or landrace population, shaped by the island's volcanic tropical climate — active and dormant volcanoes dominate the eastern end of the island, and the climate is characterized by high rainfall, heat, and humidity across most of the island's terrain. New Britain's cannabis population is classified as a feral/landrace type, reflecting uncertainty about the degree of intentional cultivation versus naturalization.

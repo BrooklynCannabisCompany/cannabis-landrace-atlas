@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Alborz Mountains landrace originates from the Alborz (Elburz) Mountain Range of northern Iran, a dramatic chain running east to west between the Caspian Sea coast and the Iranian Plateau. This indica-leaning mountain landrace is distinct from the drier plateau populations of central and southern Iran, shaped instead by the Alborz's steep terrain, cool mountain nights, and the significant moisture carried northward from the Caspian Sea. Grower accounts and regional observers commonly note that this population occupies an ecological niche quite different from the arid desert-edge cannabis of the Iranian interior.

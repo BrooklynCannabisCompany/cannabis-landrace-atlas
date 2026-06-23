@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Black Sea Coast landrace is a tall, sativa-leaning cannabis population associated with the Eastern Black Sea coast of Georgia — a region of exceptional biological diversity occupying the narrow subtropical strip between the Greater Caucasus Mountains and the Black Sea. The Georgian Black Sea coast (the Colchis lowland and Adjara region) experiences some of the highest rainfall in the Caucasus, mild winters, and persistent humidity driven by warm Black Sea airflow meeting the Caucasus ranges. This distinctive climate has shaped a long-flowering sativa population adapted to moisture-rich coastal conditions.
+The Black Sea Coast landrace is a tall, sativa-leaning cannabis population associated with the Eastern Black Sea coast of Georgia — a region of exceptional biological diversity occupying the narrow subtropical strip between the Greater Caucasus Mountains and the Black Sea. The Georgian Black Sea coast (the Colchis lowland and Adjara region) experiences some of the highest rainfall in the Caucasus, mild winters, and persistent humidity driven by warm Black Sea airflow meeting the Caucasus ranges. This distinctive climate has shaped a long-flowering sativa population adapted to moisture-rich coastal conditions. The eastern Black Sea littoral continues south from Georgia into the neighboring Black Sea coast of Turkey, where related populations occur.
 
 ## History
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Yarkand landrace is an indica-type cannabis population associated with the Yarkand (Yarkent) oasis and surrounding areas of the Tarim Basin in the Xinjiang Uyghur Autonomous Region of China. The Tarim Basin is one of the world's largest enclosed desert basins, dominated by the Taklamakan Desert, with fertile corridors along its river systems where oasis settlements have supported agriculture for millennia. Cannabis populations from this region are considered part of the broader Tarim gene pool, which may represent some of the most geographically isolated and genetically distinct indica-leaning landrace material in East Asia.

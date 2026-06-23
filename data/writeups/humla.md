@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Humla is an indica-leaning landrace from Humla District in Karnali Province, far-western Nepal — one of the most remote and least developed districts in the country, sharing a long border with Tibet. At elevations typically between 2,500 and 4,500 meters in its principal valleys, Humla's high-alpine climate is harsh: short summers, intense UV radiation, cold nights even in midsummer, and low humidity. Cannabis grown here is associated with the charas tradition — hand-rubbed resin — and the population is accordingly noted for resin-dense, compact growth suited to this labor-intensive extraction method.

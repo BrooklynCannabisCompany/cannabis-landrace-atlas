@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Cape York Peninsula feral cannabis population is found in the northernmost extent of Queensland, Australia — a remote, sparsely populated region of tropical savanna, monsoon forest, and wetlands that extends toward the Torres Strait and Papua New Guinea. This isolated northern Australian feral population is notable for its adaptation to intense heat, seasonal drought, and the harsh conditions of Australia's tropical north. Its isolation from both cultivated cannabis populations and the more temperate southern Australian feral populations suggests potentially unique adaptive traits have developed over time.

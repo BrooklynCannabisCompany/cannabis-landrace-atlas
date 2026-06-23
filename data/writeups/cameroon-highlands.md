@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Cameroon Highlands strain is a tall sativa complex associated with the elevated upland regions of Cameroon in West-Central Africa. Growing in a humid upland climate at altitude — cooler and less saturated than Cameroon's equatorial lowlands — this population is commonly associated with a citrus-spice terpene expression and notably strong mold resistance. Cameroon's highlands span the western part of the country near the Nigerian border and extend into a distinct ecological zone that has likely supported cannabis cultivation for generations.

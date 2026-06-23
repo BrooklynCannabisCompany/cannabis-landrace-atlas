@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Fiji Highlands landrace is associated with the Viti Levu Highlands of Fiji, the mountainous interior of Fiji's largest island, Viti Levu, located in the southwestern Pacific Ocean. This highland tropical sativa is adapted to the island's volcanic soils, high rainfall, and the moderating influence of Pacific maritime air masses. The Viti Levu Highlands experience significantly different conditions from Fiji's coastal lowlands — cooler temperatures, heavier and more consistent rainfall, and misty mountain conditions — making this a distinct population from any lowland Fijian cannabis. It is classified as a tall sativa landrace with a flowering window of 12–18 weeks.

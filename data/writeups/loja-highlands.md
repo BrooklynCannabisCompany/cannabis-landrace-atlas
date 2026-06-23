@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Loja Highlands refers to a highland sativa population from the southern Ecuadorian province of Loja, situated near the border with Peru in the southern Andes. This region sits at elevations that produce cooler temperatures, strong ultraviolet radiation, and the complex microclimates typical of Andean mountain terrain. The Loja province is geographically significant as a transition zone between the more humid northern Andes and the drier valleys that extend toward northern Peru, giving any cannabis populations here a distinct environmental context compared to northern Ecuadorian highland strains.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nevis is a small volcanic island in the Eastern Caribbean, part of the federation of Saint Kitts & Nevis. The cannabis population documented here originates from Nevis Island itself — distinct from its sister island Saint Kitts, though the two share a close geographic relationship separated by a narrow channel. Like other Caribbean island landraces, this population is broadly sativa in character, shaped by the island's tropical maritime climate, persistent trade winds, and the relative isolation that comes with small-island geography.

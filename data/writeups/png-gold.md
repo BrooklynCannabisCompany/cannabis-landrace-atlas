@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 PNG Gold is a collective name for a type of equatorial sativa associated with Papua New Guinea's highland provinces — not a single formally defined cultivar, but rather a regional designation that has been applied to potent, very tall sativa cannabis from PNG's mountain jungle growing zones. PNG Gold developed a reputation within international cannabis collector communities from the 1990s onward as a benchmark for equatorial sativa potency and character. The designation is most commonly associated with the highland provinces of mainland PNG, where mountain jungle conditions at significant altitude shape a distinctive cannabis expression.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Japanese Hemp refers to the ancient fiber cannabis lineage historically cultivated across Japan — a temperate island nation with a documented hemp cultivation tradition spanning many centuries. Hemp in Japan has been associated with Shinto religious practice, textile production, and rope-making, and dedicated regional varieties were developed and maintained across different prefectures. The Japanese Hemp population occupies a distinct cultural and botanical position: insular isolation over centuries likely contributed to genetic differentiation from continental Asian hemp stocks.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mustang is an indica-leaning landrace from Mustang District in Gandaki Province, Nepal — a semi-autonomous former kingdom and rain-shadow desert region occupying the upper Kali Gandaki River valley north of the Annapurna and Dhaulagiri massifs. Mustang sits behind the Himalayan watershed, receiving very little monsoon rainfall, producing a semi-arid to arid alpine desert climate more similar to the Tibetan Plateau than to the lush mid-hills of Nepal. Cannabis in Mustang grows under conditions of extreme dryness, cold nights, intense UV radiation, and a very short growing season, yielding a compact, early-finishing indica-leaning population with noted adaptations to cold and desiccation.

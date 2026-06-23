@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Lasqueti Haze is a coastal heirloom cultivar associated with Lasqueti Island, a small, largely off-grid island in the Strait of Georgia, British Columbia, Canada. Lasqueti Island has a long tradition of alternative and back-to-land community life dating to the 1970s, and cannabis cultivation has been part of the island's agricultural identity for decades. This preservation line is characterized as a selection adapted to the cool Pacific maritime conditions of the BC coast, representing a piece of British Columbia's outdoor cannabis cultivation heritage rather than a pure landrace in the traditional sense.

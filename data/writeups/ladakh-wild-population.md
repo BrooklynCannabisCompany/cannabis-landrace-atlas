@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ladakh Wild Population designates a feral cannabis population growing in the Ladakh region of northern India — a high-altitude cold desert occupying the upper Indus River basin at elevations typically between 3,000 and 4,500 meters, with some areas higher. Ladakh is among the most extreme environments in which cannabis is known to grow: intense UV radiation, sub-zero winter temperatures, low annual rainfall, thin air, and a very short frost-free season define the landscape. This population is not a managed landrace but a feral or naturalized wild-type, and is noted as one of the highest-elevation cannabis populations known anywhere in the world.

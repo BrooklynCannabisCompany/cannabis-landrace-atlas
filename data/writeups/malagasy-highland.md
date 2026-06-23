@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Malagasy Highland is a tall landrace population from Madagascar's central plateau — the interior highland region of the island in the southwestern Indian Ocean. This entry overlaps ecologically and geographically with the Madagascar Highland population, both referring to cannabis adapted to Madagascar's central highlands, though Malagasy Highland is categorized as a mixed type and is associated with slightly longer flowering and a broader phenotypic range. It is understood as part of Madagascar's unique African island gene pool, adapted to the cooler tropical mountain conditions of the central plateau.

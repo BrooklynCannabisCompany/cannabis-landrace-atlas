@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Brazilian Acre refers to cannabis populations associated with the state of Acre in Brazil's westernmost Amazon region, bordering Peru and Bolivia. Acre sits within one of the most botanically diverse stretches of the Amazon basin, characterized by dense primary rainforest, high annual rainfall, and near-equatorial temperatures year-round. Landraces from this area are believed to represent long-adapted, broad-genetic-diversity populations shaped by the region's extreme equatorial conditions and relative geographic isolation.

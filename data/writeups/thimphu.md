@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Thimphu is a sativa landrace from Bhutan, associated with the Thimphu valley and its surroundings — the capital region of the Kingdom of Bhutan in the central Himalayas. Bhutan's temperate mountain climate, with its mix of subtropical valleys and high-altitude slopes, supports a remarkably diverse range of flora, and cannabis is commonly found growing wild throughout the country. In Bhutan, cannabis has historically been so abundant as to be considered a weed — famously used as pig fodder — and the wild roadside populations noted in the summary reflect this broad, feral character.

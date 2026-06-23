@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ferghana Valley landrace is an indica cannabis from the Ferghana Valley of Uzbekistan — a densely populated, agriculturally rich depression in the heart of Central Asia, ringed by the Tian Shan and Pamir-Alai mountain ranges and drained by the Syr Darya River. The Ferghana Valley has been one of the most important agricultural regions of Central Asia for millennia, and its cannabis is associated with the Silk Road hash lineage — a tradition of cannabis cultivation and resin production linked to the valley's position at the center of ancient trade networks connecting China, India, Persia, and the Mediterranean world.

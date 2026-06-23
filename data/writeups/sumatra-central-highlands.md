@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sumatra Central Highlands refers to the interior gene pool of cannabis from the Barisan mountain range that forms Sumatra's mountainous spine, distinct from the better-known Acehnese cannabis traditions of the far northwest. The Central Highlands region encompasses the high-altitude lake districts (including the Toba Plateau area) and the surrounding highland rainforest zones, where cooler temperatures, persistent cloud cover, and very high rainfall create conditions distinct from both Aceh and the Sumatran lowlands. This very tall, long-cycling sativa population represents a highland rainforest adaptation within one of Southeast Asia's most botanically diverse islands.

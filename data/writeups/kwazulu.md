@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 KwaZulu is a well-known South African landrace associated with KwaZulu-Natal Province, particularly the Drakensberg Mountain range, in the eastern-southern part of the country. Growing at the intersection of subtropical coastal and mountain highland conditions, KwaZulu represents a classic South African narrow-leaf sativa population adapted to the dramatic elevational gradients of the Drakensberg escarpment. Its spicy-incense profile, vigorous growth, and high degree of adaptation to elevation make it one of the more distinctive and recognized South African landraces.

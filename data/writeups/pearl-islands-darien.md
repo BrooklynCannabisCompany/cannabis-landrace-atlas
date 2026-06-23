@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Pearl Islands / Darién refers to a sativa landrace population associated with two distinct but geographically proximate regions of Panama: the Pearl Islands (Archipiélago de las Perlas), a Pacific island chain in the Gulf of Panama, and the Darién — the dense jungle region bordering Colombia on Panama's eastern frontier. Both areas share a jungle coastal and equatorial rainforest character, with extreme humidity, high rainfall, and consistently warm temperatures. This entry is described as a Panama Red origin zone, suggesting that populations from these areas may be among the source genetics for the iconic Panama Red strain.

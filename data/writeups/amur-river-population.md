@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Amur River Population is a feral cannabis population naturalized along the Amur River Basin of the Russian Far East — the great river system forming the border between Russia and northeastern China. This remote region experiences a monsoon-influenced continental climate with cold, snow-heavy winters and warm, humid summers driven by Pacific monsoon systems. The population is considered a regionally significant gene pool for East Asian cannabis diversity.

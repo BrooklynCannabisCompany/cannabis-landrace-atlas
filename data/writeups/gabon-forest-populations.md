@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Gabon Forest Populations is a designation for feral cannabis ecotypes found within the equatorial rainforest zones of Gabon in West-Central Africa. Distinct from but closely related to the Gabon interior sativa type, these feral populations grow under the dense canopy and extreme humidity of Gabon's equatorial forests. Very tall stature, broad phenotypic variability, and notably good resistance to both humidity and pests are commonly associated with these populations, which represent an unmanaged slice of West-Central African cannabis genetics.

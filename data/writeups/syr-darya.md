@@ -1,7 +1,5 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
-Syr Darya is an intermediate landrace associated with the Syr Darya River basin in Kazakhstan, one of the two major river systems draining Central Asia into the Aral Sea. The Syr Darya corridor runs from the Tian Shan Mountains through the Fergana Valley and across the Kazakh steppe, historically serving as a critical Silk Road route and agricultural lifeline through an otherwise arid region.
+Syr Darya is an intermediate landrace associated with the Syr Darya River basin in Kazakhstan, one of the two major river systems draining Central Asia into the Aral Sea. The Syr Darya corridor runs from the Tian Shan Mountains through the Fergana Valley and across the Kazakh steppe, historically serving as a critical Silk Road route and agricultural lifeline through an otherwise arid region. The Syr Darya corridor crosses several Central Asian states, with related populations extending upstream into Tajikistan and Uzbekistan.
 
 ## History
 The Syr Darya River basin has supported sedentary agriculture for millennia, and cannabis populations in this corridor likely reflect centuries of cultivation and naturalization alongside irrigation agriculture. As a major Silk Road transit route, the region would have seen cannabis seed stock moving between Afghan, Uzbek, Kazakh, and Chinese populations, potentially producing the intermediate morphology this entry reflects. Grower accounts and ethnobotanical surveys suggest cannabis has long been present along the riverbanks and irrigated agricultural zones of the lower Syr Darya in Kazakhstan. Documentation of a distinct "Syr Darya" population is limited; regional generalities apply.

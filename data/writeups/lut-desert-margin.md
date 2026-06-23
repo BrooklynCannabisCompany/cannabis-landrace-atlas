@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lut Desert Margin refers to a cannabis population found at the periphery of the Dasht-e Lut (Lut Desert) in eastern Iran — one of the hottest and most arid places on Earth, with recorded surface temperatures among the highest ever measured. This desert-edge feral population has adapted to an environment of hyper-aridity, extreme heat, and severely stressed soils at the margin of one of the planet's most inhospitable landscapes.
 

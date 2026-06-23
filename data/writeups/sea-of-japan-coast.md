@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Sea of Japan Coast population is a feral, sativa-leaning cannabis population naturalized along the Russian coastline of the Sea of Japan — primarily the southern portions of the Russian Far East, in the zone where the continental landmass meets the maritime influence of the Sea of Japan. This coastal environment differs meaningfully from inland Siberian conditions: maritime moisture moderates temperature extremes, and persistent summer humidity is a defining feature. The population is considered likely related to Primorsky Krai feral cannabis populations, which share the same maritime coastal zone.

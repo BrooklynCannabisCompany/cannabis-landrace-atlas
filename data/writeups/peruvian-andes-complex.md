@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Peruvian Andes Complex refers to the broad multi-altitude gene pool of cannabis landraces distributed across the Peruvian Andes — the massive mountain spine that runs the length of the country, dividing the Pacific coast from the Amazon Basin. Peru's Andes span an enormous elevation range, from inter-Andean valleys at moderate elevations to high-altitude puna grasslands above 4,000 meters. This complex designation acknowledges that Peruvian Andean cannabis is not a single discrete population but a set of related landrace populations adapted to different altitudes, valleys, and microclimates within the broader Andean corridor.

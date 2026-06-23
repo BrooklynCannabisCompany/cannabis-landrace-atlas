@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Kosovo landrace is an intermediate cannabis population from the Kosovo Highlands — the upland territory of Kosovo, a partially recognized state in the central Balkans bordered by Serbia, North Macedonia, Albania, and Montenegro. Kosovo's terrain is dominated by mountain ranges including the Šar Mountains, the Kopaonik massif, and the Kosovo Plain at the center — a fertile basin surrounded by highland rim. The continental mountain climate brings cold snowy winters and warm summers. This population is described as adapted to rugged uplands and positioned between Albanian, Serbian, and Macedonian cannabis corridors, reflecting Kosovo's geographic position at a crossroads of Balkan gene flow.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Khotan is a cannabis landrace associated with the ancient oasis city of Khotan (Hotan) located at the southern margin of the Tarim Basin in Xinjiang, China, at the foot of the Kunlun Mountains. Khotan has one of the longest recorded histories of any Central Asian oasis city, and its cannabis population is associated with ancient cultivation traditions adapted to the extreme heat and aridity of the Tarim Basin's desert edge.
 

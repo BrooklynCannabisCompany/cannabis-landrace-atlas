@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Khovd Mongolian Gene Pool is a wild cannabis population from Khovd Province in far western Mongolia — a remote region of mountain steppe, river valleys, and semi-arid basins bordering China's Xinjiang region to the south and Russia's Altai Republic to the north. Western Mongolia is geographically and ecologically distinct from the eastern steppe, with higher terrain, greater climatic variation, and a degree of geographic isolation that may have allowed a regionally distinct cannabis gene pool to develop. The population is described as cold hardy and potentially genetically differentiated from better-studied Mongolian populations.

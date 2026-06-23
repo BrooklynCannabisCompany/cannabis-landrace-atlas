@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ethiopian Highland is a tall sativa landrace from the elevated plateaus and mountain ranges of Ethiopia in East Africa. Ethiopia's highland climate — characterised by a dry tropical regime, high altitude, strong UV radiation, and cooler temperatures than surrounding lowlands — has produced one of Africa's most distinctive cannabis populations. Commonly associated with incense and spice terpene notes and a spiritually inclined psychoactive effect, this population has a documented history of traditional use tied to Ethiopian cultural and religious traditions. It is among the more widely recognised East African landraces in international collector and breeder communities.

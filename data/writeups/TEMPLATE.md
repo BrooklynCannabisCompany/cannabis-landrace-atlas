@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 <2–4 sentences situating the strain in its country/region; hedged where uncertain>
 

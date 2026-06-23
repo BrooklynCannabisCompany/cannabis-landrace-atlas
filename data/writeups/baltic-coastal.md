@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Baltic Coastal refers to naturalized feral hemp populations found along the coastal regions of the Baltic states — Estonia, Latvia, and Lithuania, listed here under the collective designation "Baltics." These hemp-type plants grow in the distinctive maritime cold environment of the Baltic Sea coast, where salt-laden winds, sandy soils, and the moderating influence of the sea create growing conditions quite different from those found inland. The population is particularly noted for its salt resistance and cold hardiness.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sikkim is a sativa landrace from the northeastern Indian state of Sikkim, a small, mountainous region bordered by Nepal, Tibet, and Bhutan. Sikkim's climate is dominated by humid mountain jungle environments at lower elevations transitioning to high-altitude temperate forest, with significant monsoon rainfall and exceptional biodiversity. Cannabis in Sikkim grows both wild and semi-cultivated, and populations in the region have been noted for strong vigor and adaptation to the dense forest understory and margins at varying elevations.

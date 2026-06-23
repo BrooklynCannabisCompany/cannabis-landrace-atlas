@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ivory Coast (Côte d'Ivoire) entry describes a feral sativa complex associated with the rainforest coastal belt of Ivory Coast in West Africa. Part of the broader Liberia Belt feral sativa complex, this very tall population grows in the equatorial rainforest and coastal jungle zone that stretches across the Upper Guinea region of West Africa. A mango and tropical fruit terpene expression is commonly associated with this material, and its mold resistance is noted as a feature of its coastal jungle adaptation.

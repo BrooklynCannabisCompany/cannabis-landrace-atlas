@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Congolese Highland is a tall sativa landrace from the elevated regions of the Democratic Republic of Congo — one of the most ecologically diverse countries in Africa. Growing in a mountain tropical climate at elevation, away from the intense humidity of the Congo Basin floor, this population is associated with a citrus-diesel euphoric terpene expression. The DRC's eastern highlands, including areas around the Albertine Rift, are among the most botanically rich zones in Africa and have a history of cannabis cultivation.

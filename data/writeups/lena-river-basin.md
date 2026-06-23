@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Lena River Basin population is an extreme northern feral cannabis population naturalized along the Lena River drainage system in Eastern Siberia, Russia — one of the world's great Arctic rivers. The Lena flows northward from the mountains near Lake Baikal to the Arctic Ocean, and cannabis naturalized in this basin sits near the absolute northern limit of the species' known range. The population is classified as intermediate between indica and sativa character, and it is considered of exceptional interest for its potential cold-hardiness genetics.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Australian Bastard Cannabis (ABC) is a uniquely isolated feral population found across parts of Australia, notable for its dramatically altered leaf morphology that distinguishes it from virtually all other known cannabis populations. Rather than the familiar palmate, multi-fingered leaves associated with Cannabis sativa or indica, ABC plants commonly produce small, rounded, almost succulent-looking leaflets with fewer serrations — a trait believed to have emerged over generations of adaptation and selection pressure in isolation from conventional cannabis gene pools. This population falls within the Oceania continent and is categorized as a unique feral heirloom, making it an important preservation candidate.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mondulkiri is a highland tropical landrace from Mondulkiri Province — the largest but most sparsely populated province of Cambodia, situated in the eastern highlands bordering Vietnam. Rising from the surrounding lowland plains to an elevated plateau and forested mountain zone, Mondulkiri has a mountain forest climate distinctly different from the hot lowland tropics of most of Cambodia. This remote eastern Cambodian population is characterized by strong tropical adaptation and a highland growing environment that sets it apart from the lowland Cambodian Native type.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Réunion Island is a French overseas territory in the western Indian Ocean, approximately 700 km east of Madagascar and roughly 170 km southwest of Mauritius. Its cannabis landrace is among the most extreme in flowering duration documented in the Atlas, with some reports of individual plants taking up to nine months to complete. This extremely tall sativa — adapted to volcanic soils, persistent trade winds, and humid tropical conditions — is associated with mango, carrot, and wood aromatic notes, and is sometimes referred to locally as "trip weed" for its reported potency and character.

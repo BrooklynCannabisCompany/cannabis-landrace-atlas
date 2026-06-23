@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lake Victoria Basin refers to a regional sativa complex associated with the Ugandan areas of the Lake Victoria watershed — the vast equatorial lake basin shared by Uganda, Kenya, and Tanzania. This is a broad East African corridor population of tall tropical sativa type, connected to the cannabis traditions of the lakeside communities of Uganda's southern and southwestern regions.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Barot Valley is an indica-leaning resin landrace originating in the Barot Valley of Himachal Pradesh, India — a remote alpine valley in the Uhl River drainage of the Mandi district. Sitting at elevations between approximately 1,500 and 2,500 meters, Barot Valley is geographically isolated, accessible historically only by difficult mountain tracks. This isolation is thought to have preserved a distinct cannabis population with strong resin production traits, described by collectors as sharing characteristics with the broader Parvati Valley complex while representing its own localized genetic expression.

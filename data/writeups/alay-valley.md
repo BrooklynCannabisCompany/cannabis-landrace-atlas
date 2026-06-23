@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Alay Valley landrace originates from the Alay (Alai) Valley of southern Kyrgyzstan, a high-altitude corridor that connects the Pamir mountain system to the east with the Fergana Basin to the west. This mountain-valley population is classified as a mixed-category landrace, reflecting the geographic position of the Alay Valley as a transitional zone between Pamir highland cannabis types and the lowland Fergana landrace traditions. Grower accounts suggest the population is shaped by the valley's cold, short growing seasons and its historic role as a trade route between Tajikistan, Uzbekistan, and the broader Central Asian region.

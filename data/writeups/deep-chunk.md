@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Deep Chunk is a broadleaf Afghan landrace selection derived from traditional Afghan cannabis stock originating in the Hindu Kush Mountains of Afghanistan. It is commonly described as one of the most resinous and structurally dense Afghan-type cannabis selections to enter Western breeding programs, and has become a legendary parent plant in modern indica breeding. Unlike a naturally occurring regional landrace population, Deep Chunk is understood to represent a selected lineage — a particular expression of Afghan genetics that was preserved and circulated in cannabis breeding communities, associated with the arid mountain valleys of the Hindu Kush.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bolaven Plateau landrace originates from the high volcanic plateau of southern Laos, a distinctive geographic feature rising 1,000–1,300 m above the surrounding Mekong lowlands in Champasak and adjacent provinces. The plateau's volcanic basalt soils are exceptionally fertile, and its climate — warmer days tempered by cooler highland nights, with heavy monsoon rainfall — creates growing conditions markedly different from the lowland jungle environments typical of broader Lao cannabis. Cannabis grown here is commonly associated with vigorous, long-flowering sativa expression shaped by the unique combination of rich soil and altitude.

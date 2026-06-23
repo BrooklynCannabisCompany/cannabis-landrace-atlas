@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Samy K Mountain is a highland landrace from Papua New Guinea, preserved as a distinct population valued for its vigorous growth and long flowering cycle. Papua New Guinea hosts some of the world's most geographically isolated cannabis populations, with highland groups in particular having developed in conditions of high altitude, dramatic rainfall variation, and cool mountain nights. While a precise regional location for this population is not recorded in available data, its classification as a highland landrace situates it within PNG's mountainous interior — likely at elevations where tropical conditions are moderated by altitude.

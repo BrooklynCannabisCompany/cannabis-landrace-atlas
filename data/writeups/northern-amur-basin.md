@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Northern Amur Basin population is a boreal feral cannabis population, sativa-leaning in character, found in the Upper Amur River Basin of the Russian Far East. This region sits at the transition between temperate and boreal forest zones, with monsoonal summer rainfall driving vigorous seasonal growth, and long, severe winters that impose strong selective pressure for cold hardiness and rapid maturation. The Northern Amur Basin population may preserve genetics distinct from the more southerly Amur River populations, owing to the cooler and more boreal character of its habitat.
+The Northern Amur Basin population is a boreal feral cannabis population, sativa-leaning in character, found in the Upper Amur River Basin of the Russian Far East. This region sits at the transition between temperate and boreal forest zones, with monsoonal summer rainfall driving vigorous seasonal growth, and long, severe winters that impose strong selective pressure for cold hardiness and rapid maturation. The Northern Amur Basin population may preserve genetics distinct from the more southerly Amur River populations, owing to the cooler and more boreal character of its habitat. The Amur forms much of the Russia–China border, and related populations occur on the Chinese side of the basin as well.
 
 ## History
 

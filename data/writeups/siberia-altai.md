@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Siberia / Altai ruderalis population is associated with the broad region encompassing southern Siberia and the Altai mountain and foothills zone of Russia — widely considered the origin zone or a primary center of diversification for *Cannabis ruderalis*, the autoflowering form of cannabis. The Altai region in particular, with its transition from high mountains to open steppe, is frequently cited in cannabis genetic literature as a key area for ruderalis-type cannabis. Plants from this zone are typically short, fast-completing, and autoflowering, reflecting adaptation to the short subarctic growing season.

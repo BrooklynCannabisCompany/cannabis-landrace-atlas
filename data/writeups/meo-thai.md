@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Meo Thai is a sativa landrace associated with highland tropical growing zones in Thailand, specifically connected to the Hmong (historically called Meo or Meao in Thai) cultivation tradition within the Thai highland context. As a named population it overlaps conceptually with the broader Thai Highland Hmong genetic zone but is catalogued here as a distinct Thai entry, associated with the traditional Thai stick genetics produced by Hmong and other hill tribe communities cultivating cannabis in Thailand's highland zones. This population sits within the traditional Thai landrace complex and carries the character associated with highland Thai cannabis cultivation.

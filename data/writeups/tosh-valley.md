@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Tosh Valley is an indica-leaning resin landrace from the Tosh Valley in Himachal Pradesh, India — a tributary valley of the Parvati River system, located above the village of Tosh near Kheerganga. Tosh Valley sits within the broader Parvati corridor, one of the most celebrated charas-producing landscapes in the world, and populations here are closely related to the resin-selection ecology that also defines Malana, Kasol, and the wider Parvati basin. Grower accounts suggest high resin selection pressure has shaped this population over generations.

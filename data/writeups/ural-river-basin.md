@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Ural River Basin population grows along and around the Ural River watershed in Russia, a geographic corridor that forms one of the traditional boundaries between Europe and Asia. This intermediate (Indica–Sativa) feral population occupies a continental grassland environment where steppe transitions to riparian vegetation. The Ural River basin is considered an important transition zone, and the cannabis populations found there reflect that geographic complexity, showing considerable morphological variability.
+The Ural River Basin population grows along and around the Ural River watershed in Russia, a geographic corridor that forms one of the traditional boundaries between Europe and Asia. This intermediate (Indica–Sativa) feral population occupies a continental grassland environment where steppe transitions to riparian vegetation. The Ural River basin is considered an important transition zone, and the cannabis populations found there reflect that geographic complexity, showing considerable morphological variability. The Ural River corridor crosses the Russia–Kazakhstan frontier, and these feral populations extend into northwestern Kazakhstan.
 
 ## History
 

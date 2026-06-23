@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Khentii cannabis population is a wild cannabis population from Khentii Province in northeastern Mongolia — a region of forested mountains and river valleys bordering Russia's Siberian taiga to the north. Khentii is the birthplace of Genghis Khan and has been a center of Mongolian pastoral and nomadic culture for millennia. The cannabis found here is feral, occupying the forest-steppe ecotone where boreal forest gives way to open grassland. The population is characterized by strong seasonal response and is considered a possible ancestral feral population given the region's long history of human habitation.

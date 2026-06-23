@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Casamance is a coastal sativa landrace associated with the Casamance region of Senegal in West Africa — a semi-detached southern strip of Senegal bordered by The Gambia and Guinea-Bissau. The region's tropical coastal climate, marked by a distinct wet season, high temperatures, and proximity to the Atlantic, has shaped a population known for relatively fast finishing, heat-hardiness, and an airy open structure typical of coastal West African sativas. It is among the more accessible West African landraces by name in grower accounts.

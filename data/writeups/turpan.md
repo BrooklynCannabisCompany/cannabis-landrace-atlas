@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Turpan is a mixed oasis landrace from the Turpan Basin (also spelled Turfan) in China's Xinjiang region — one of the lowest, hottest, and most arid places on Earth, lying below sea level in a depression rimmed by mountains. The oasis city of Turpan has been an important Silk Road stop for millennia, and cannabis cultivated in its extreme environment represents one of the most heat- and drought-adapted populations documented.
 

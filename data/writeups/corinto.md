@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Corinto is a Colombian sativa landrace from Colombia, associated in the source record with the Colombian Gold expression — suggesting it represents a named or regionally identified variant within the broader Colombian Gold complex. The name Corinto may refer to a specific municipality or locality within Colombia where this particular expression was cultivated or collected, though the region is not specified in the available data. It is classified as a highland tropical sativa with a tall stature and moderate-length flowering window.

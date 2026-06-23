@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Cuban Mountain Population is associated with Cuba's Sierra Maestra mountain range — the island's largest and most rugged mountain system, running along the southeastern coast of Cuba. The Sierra Maestra reaches elevations over 1,800 meters and produces a distinct tropical mountain climate: cooler, wetter, and cloudier than Cuba's coastal lowlands. This is a rarely documented island population, and available information is limited; what is understood comes primarily from general knowledge of the Sierra Maestra ecology and broader Caribbean highland cannabis patterns rather than verified systematic collection.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ucayali Basin landrace originates from the broad lowland river system of Peru's Ucayali River, one of the principal tributaries of the Amazon. This equatorial rainforest zone in eastern Peru sits at low altitude and receives intense year-round rainfall, forming one of the most biodiverse and humid cannabis habitats documented in South America. As a sativa-type landrace adapted to equatorial conditions, plants from this region are commonly reported to grow very tall and to require extended flowering periods of 14–20 weeks.

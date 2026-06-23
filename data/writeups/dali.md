@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dali landrace originates from Dali Prefecture in northwestern Yunnan Province, China — a high-elevation plateau region situated at roughly 1,900–2,200 metres above sea level in the Hengduan Mountain foothills. Yunnan is widely regarded as one of the most genetically diverse cannabis regions in East Asia, and the Dali population sits at a crossroads of ecological and cultural influence, positioned between the Tibetan Plateau to the northwest and the lowland subtropical zones to the south and east. This makes Dali a candidate for significant genetic complexity within China's highland cannabis traditions.

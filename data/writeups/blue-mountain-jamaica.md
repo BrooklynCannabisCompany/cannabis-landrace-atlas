@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Blue Mountain Jamaica is one of the most recognized cannabis landrace populations from the Caribbean, associated with the Blue Mountains of eastern Jamaica. This rugged highland range, which includes some of the highest peaks in the Caribbean, provides a distinctly different growing environment from Jamaica's coastal lowlands — cooler temperatures, persistent cloud and mist, high rainfall, and rich volcanic soils. Cannabis cultivated in and around the Blue Mountains has long been associated with strong vigor, an incense-and-fruit terpene profile, and adaptation to both elevation and the persistent humidity of Jamaica's eastern mountain system.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Oaxaca is a sativa landrace from the state of Oaxaca in southern Mexico, where the Sierra Madre del Sur meets a complex landscape of mountain valleys, highland jungle, and Pacific coastal terrain. The state is one of the most ecologically and culturally diverse in Mexico, home to over a dozen indigenous groups and a remarkable range of microclimates. Cannabis from Oaxaca is associated with the highland jungle zones of the state — elevations where tropical vegetation meets mountain conditions, producing a specific climate of warm days, seasonal rains, and significant UV exposure. Oaxacan cannabis genetics are widely discussed among landrace enthusiasts, in part due to their commonly cited role in the ancestry of legendary Haze varieties.

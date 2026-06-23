@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Venezuela Andes landrace refers to cannabis populations associated with the Venezuelan extension of the Andes mountain range — a highland ecological zone in western Venezuela characterized by cooler temperatures, strong tropical sunlight, and significant diurnal temperature variation. This region represents one of northern South America's classic mountain cannabis ecologies, where plants are commonly reported to adapt to elevation, reduced oxygen, cooler nights, and high UV radiation in ways that distinguish them from lowland tropical populations.

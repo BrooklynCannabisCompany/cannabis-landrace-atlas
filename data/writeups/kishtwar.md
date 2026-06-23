@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kishtwar is an indica-leaning landrace from the Kishtwar district of Jammu and Kashmir, India — a high-mountain valley district in the upper Chenab River drainage. Kishtwar town sits at approximately 1,600 meters, but the surrounding terrain rises steeply to peaks above 5,000 meters. The district is relatively isolated, connected to the broader Kashmir/Jammu road network by a route that was unreliable until recent years. Cannabis from Kishtwar is described as a "lesser-known" charas-adjacent population in the valley zone adjacent to the more famous Kashmir Valley charas belt, sharing characteristics with that tradition while remaining distinct.

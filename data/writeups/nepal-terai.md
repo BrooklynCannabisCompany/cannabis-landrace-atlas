@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nepal Terai is a sativa landrace from the Terai — the flat, low-altitude alluvial plains that form the southern strip of Nepal, stretching along the border with India. Contrasting sharply with the mountainous terrain that defines most of Nepal, the Terai sits at elevations below 300 meters and is characterized by a hot, humid, subtropical climate with high annual rainfall driven by the monsoon. Cannabis growing in this lowland zone occupies a very different ecological niche from the celebrated Himalayan highland types, producing very tall, vigorous sativa plants in a warm, productive environment more similar to the Indian subtropical plains than to the cool Himalayan valleys above.

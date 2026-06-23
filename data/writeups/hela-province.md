@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Hela Province is one of Papua New Guinea's newest provinces, carved out of the Southern Highlands Province in 2012, and encompasses some of the most rugged and remote highland terrain in PNG. The cannabis landrace associated with Hela Province is a sativa type adapted to isolated interior mountain conditions — high altitude, significant rainfall, cool nights, and the physical isolation of mountain valley communities. As a summary, this is described as an isolated interior mountain population, reflecting both the geographic remoteness of Hela's highland communities and the likely limited outside influence on the local cannabis gene pool.

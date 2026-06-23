@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dominica Highlands landrace is associated with the interior highland zone of Dominica — a small but exceptionally rugged island in the Lesser Antilles known as "the Nature Isle of the Caribbean." Dominica's interior is dominated by volcanic peaks, dense rainforest, and some of the highest annual rainfall totals in the Caribbean. The interior highlands landrace reflects adaptation to volcanic soils, extremely high rainfall, steep rugged terrain, and the persistent humidity and cloud cover that characterize Dominica's mountain interior. This is a sativa-type highland population distinct from any lowland coastal material on the same island.

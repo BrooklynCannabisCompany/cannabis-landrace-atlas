@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Trinidad Highlands refers to the cannabis population associated with the Northern Range Mountains of Trinidad — the island's principal mountain system, which runs east–west along the northern coast and reaches elevations above 900 meters. Trinidad is the larger and more southerly of the two main islands of Trinidad & Tobago, located just off the northeastern coast of Venezuela. This geographic position gives Trinidad a dual cultural and ecological character: it sits at the boundary of the Caribbean island world and the South American mainland, and grower accounts suggest its cannabis population reflects both Caribbean island landrace traditions and South American continental influences.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Arunachal Pradesh is a sativa landrace originating in the northeastern Indian state of Arunachal Pradesh, a territory of dramatic elevation gradients, dense jungle cover, and high annual rainfall bordering Bhutan, China, and Myanmar. Cannabis grows semi-wild in this biodiversity hotspot, shaped by a humid jungle-mountain climate that rewards vigorous, pest-resistant plants. Grower accounts suggest this population is among the most robust of South Asian landraces, commonly reaching very tall heights under natural conditions.

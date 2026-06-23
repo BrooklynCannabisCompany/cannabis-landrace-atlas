@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 French Corsica Hemp describes a feral industrial hemp population from the island of Corsica — a French island territory in the western Mediterranean Sea located north of Sardinia and west of the Italian peninsula. Corsica's climate is primarily Mediterranean but strongly influenced by the island's mountainous terrain, which rises to over 2,700 meters and creates a range of microclimates from hot, dry coastal zones to cool, humid highland forests. The population described is understood as low-THC, feral industrial hemp characterized by relatively high CBD and/or CBG content, representing escaped cultivation from historic fiber hemp growing.

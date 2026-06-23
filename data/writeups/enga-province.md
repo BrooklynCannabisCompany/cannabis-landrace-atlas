@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Enga Province is the most westerly of Papua New Guinea's highland provinces and one of the most remote, characterized by rugged mountain terrain, high-altitude valleys, and traditionally isolated communities. The cannabis landrace associated with Enga Province is a sativa type adapted to mountain highland conditions, cultivated within what grower accounts describe as a remote tribal cultivation zone. Its geographic isolation — Enga was among the last highland provinces to have sustained outside contact in the colonial period — is commonly cited as a reason for the population's distinctiveness from more accessible PNG highland landraces.

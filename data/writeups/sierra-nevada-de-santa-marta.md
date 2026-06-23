@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sierra Nevada de Santa Marta designates the landrace population from the Sierra Nevada de Santa Marta mountain range in northern Colombia — an isolated coastal massif rising from the Caribbean lowlands near Santa Marta and representing one of the world's highest coastal mountain systems. This entry documents the broader Sierra Nevada de Santa Marta sativa population, a critically important node in global cannabis genetics and associated in grower tradition with Punto Rojo origin genetics. The mountain's isolation from the main Andes chain, combined with its dramatic elevation gradient from tropical coast to high alpine zones, produced environmental conditions for distinctly adapted cannabis populations.

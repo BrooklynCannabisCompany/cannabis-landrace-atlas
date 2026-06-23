@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Florida Everglades refers to feral cannabis populations naturalized in or around the Everglades region of southern Florida, USA. This is a humidity-adapted escape population descended from cultivated cannabis that naturalized in Florida's wet subtropical environment — typically attributed to escaped cultivars and guerrilla cultivation from the 1970s onward. The Everglades region is characterized by extraordinary humidity, standing water, sawgrass prairies, subtropical forest, and a warm, wet climate that poses extreme challenges for most cannabis varieties. Persistence in this environment implies meaningful adaptation to wet, humid, and heat-stressed conditions.

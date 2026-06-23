@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rolpa is a sativa landrace from Rolpa District in the mid-hills of western Nepal, a forested valley region characterized by rugged terrain, dense subtropical and temperate forest cover, and a predominantly rural population. Nepal has a long association with cannabis cultivation, and the mid-western hills — including areas around Rolpa — are part of a broader landscape where wild and semi-cultivated cannabis has grown for centuries. This population is described as a wild valley expression, suggesting it is largely feral or semi-wild rather than intensively cultivated.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Road Kill Skunk is a legendary heirloom cultivar associated with the preservation communities of Northern California and the Pacific Northwest. Unlike the true landraces documented elsewhere in this atlas, Road Kill Skunk is a historic cultivated line — an early-generation domesticated variety rather than a wild or traditional landrace population. It is widely regarded among cannabis preservationists as representing an era of intense skunk-type breeding from the 1970s–1980s, and its name references the overwhelmingly pungent, skunk-spray aroma that distinguishes it from modern skunk-derived varieties. Its status as a "lost" or nearly lost line lends it significant cultural and genetic value among those working to preserve pre-commercialization cannabis heritage.

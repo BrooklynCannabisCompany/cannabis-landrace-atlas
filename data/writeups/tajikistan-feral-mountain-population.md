@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Tajikistan Feral Mountain Population is a feral indica landrace complex found in the high-altitude terrain of Tajikistan, a country dominated by the Pamir Mountains in the east and the western outliers of the Tian Shan to the north. Tajikistan's rugged mountain geography, with elevations frequently exceeding 3,000–4,000 meters, creates extreme cold-stress growing conditions that have shaped a distinctly cold-tolerant, compact cannabis population.
 

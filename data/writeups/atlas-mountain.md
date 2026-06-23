@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Atlas Mountain landrace originates from Morocco's Atlas Mountain range in North Africa, the traditional heartland of Moroccan hashish production. Growing in a semi-arid mountain climate characterized by hot dry summers, cold winters at elevation, and low humidity, this population has long been associated with exceptionally high resin production. It is among the most historically significant cannabis populations in Africa and the broader cannabis world, forming the genetic basis of Moroccan "kief" and pressed hash traditions.

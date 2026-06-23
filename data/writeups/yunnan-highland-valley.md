@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Yunnan Highland/Valley landrace designates a sativa complex associated with the elevated terrain and deep river valleys of Yunnan Province in southwestern China. Yunnan is one of China's most botanically diverse provinces, encompassing dramatic altitude gradients from lowland subtropical zones to high mountain plateaus, and is situated at the junction of the Tibetan Plateau, the Southeast Asian peninsula, and the Chinese interior. Cannabis populations here are considered part of an ancient Chinese gene pool and are sometimes described as a unified regional system spanning highland and valley ecological zones. Yunnan is among the most credible locations in the world for some of the oldest continuous human interactions with Cannabis, given the province's botanical diversity and long ethnobotanical history.

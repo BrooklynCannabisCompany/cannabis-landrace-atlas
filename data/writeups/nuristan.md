@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Nuristan is an indica cannabis landrace from Nuristan Province in northeastern Afghanistan — a remote, heavily forested mountainous region in the Hindu Kush system bordering Pakistan's Chitral district. Nuristan is one of Afghanistan's most geographically isolated and culturally distinct provinces, and its cannabis population is associated with the wild Hindu Kush lineage that has long been considered foundational to classic indica genetics.
 

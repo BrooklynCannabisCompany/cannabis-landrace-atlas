@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Zambezi is a sativa landrace from Mozambique associated with the Zambezi River corridor — the fourth-longest river in Africa, which drains into the Indian Ocean through a broad delta on Mozambique's central coast. Growing in a river valley tropical climate characterized by seasonal flooding, rich alluvial soils, high heat, and variable dry-season conditions, this tall sativa is described as a fast-flowering, river-adapted type. The Zambezi valley's distinct ecology and its position as a natural corridor through southeastern Africa likely shaped the characteristics of cannabis grown there.

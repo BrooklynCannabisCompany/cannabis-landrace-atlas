@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Crimean Population is a mixed-category cannabis entry associated with the Crimean Peninsula — the strategically positioned landmass projecting into the Black Sea between Ukraine and Russia, with a contested political status since 2014. The Crimean climate is notably diverse for such a small peninsula: the southern coast experiences a mild Mediterranean-influenced microclimate sheltered by the Crimean Mountains, while the northern steppe zones are more continental and semi-arid. This climatic diversity, combined with the peninsula's position as a historic crossroads of European and Asian cannabis movement, has produced a highly variable regional gene pool.

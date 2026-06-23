@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Polish Feral refers to naturalized cannabis populations found growing wild in Poland, originating from the country's longstanding tradition of hemp cultivation. Poland has been one of Central Europe's significant hemp-growing nations, and plants that escape cultivation have established feral populations in various parts of the country. These hemp-type plants are adapted to Poland's continental climate and are particularly noted for their cold resistance — an understandable adaptation given Poland's harsh winters and variable spring weather.

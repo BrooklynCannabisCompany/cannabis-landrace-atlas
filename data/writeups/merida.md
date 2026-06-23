@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mérida refers to a highland sativa landrace from Mérida State in the Venezuelan Andes — the mountainous western region of Venezuela where the Andes extend into the country before giving way to the lowland plains. This is the Venezuelan Andes specifically, not to be confused with the city of Mérida in Mexico's Yucatán Peninsula. The Venezuelan Mérida highlands sit at elevations that produce cool nights, strong equatorial sunlight, and the microclimatic diversity characteristic of high Andean terrain. This population represents classic Venezuelan Andean cannabis, distinct from lowland or coastal Venezuelan populations.

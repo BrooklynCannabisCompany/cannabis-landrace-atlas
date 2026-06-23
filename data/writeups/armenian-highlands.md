@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Armenian Highlands landrace is an indica-leaning cannabis population native to the high-elevation volcanic plateau of Armenia — one of the oldest continuously inhabited regions in Eurasia. Situated between the Greater and Lesser Caucasus ranges, the Armenian Highland sits at elevations typically above 1,500 meters, with volcanic soils, cold winters, and short, dry summers. This ecological setting has historically shaped compact, early-finishing cannabis populations well suited to rapid maturation before the onset of cold autumn weather.

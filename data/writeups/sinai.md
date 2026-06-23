@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Sinai is an indica landrace associated with the Sinai Peninsula of Egypt, a triangular desert landmass bridging northeastern Africa and the Middle East between the Gulf of Suez and the Gulf of Aqaba. The Sinai's dramatic desert mountain landscape — centered on the high granite peaks of the southern peninsula — produces extreme temperature swings between day and night, and between summer and winter, a climate that would shape a highly stress-tolerant cannabis population.
 

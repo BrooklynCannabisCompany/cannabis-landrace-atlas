@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Uzbekistan Hemp Belt is a fiber and hemp selection line from Uzbekistan, categorized as a hemp population rather than a drug landrace. Uzbekistan's agricultural history — shaped by Soviet-era large-scale crop management and centuries of pre-Soviet Central Asian cultivation — included significant hemp production, particularly for fiber. This population represents the cultivated hemp tradition of the Uzbek steppe rather than a wild or drug-producing landrace.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Red Lao is a sativa variant from Laos distinguished by its pigmented phenotype expression — most commonly reported as reddish or purple coloration appearing on stems, petioles, or sometimes the flowers themselves. Laos sits within one of Southeast Asia's most historically significant cannabis corridors, spanning the Mekong River valley and the highland jungles of the interior. This particular variant is understood to be a naturally occurring color-expressed phenotype within Lao landrace populations rather than a separate stable breed, adapted to the country's jungle monsoon climate.

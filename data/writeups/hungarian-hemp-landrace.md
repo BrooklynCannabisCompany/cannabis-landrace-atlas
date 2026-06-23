@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hungarian Hemp Landrace is a fiber hemp population from Hungary — a landlocked Central European country occupying the Carpathian Basin, dominated by the Great Hungarian Plain (Alföld) and bordered by the Danube and Tisza rivers. Hungary has one of the oldest and most significant hemp cultivation traditions in Central Europe, with fiber hemp historically grown across the fertile plains for textile, rope, and oil production. This entry represents the traditional Hungarian hemp gene pool, characterized by tall, vigorous fiber-oriented plants adapted to the continental plains climate.

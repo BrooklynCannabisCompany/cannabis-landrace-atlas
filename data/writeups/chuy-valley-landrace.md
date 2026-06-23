@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Chuy Valley Landrace is a feral-landrace complex from the Chuy (Chu) River Valley in northern Kazakhstan, running along the northern slopes of the Kyrgyz Ala-Too range and the border zone between Kazakhstan and Kyrgyzstan. The Chuy Valley is internationally recognized among cannabis researchers and collectors as one of the most famous wild cannabis regions in the world, historically producing some of the highest-quality traditional Central Asian cannabis resin. The population is characterized by extensive genetic diversity and is commonly understood to contain both feral escapees from hemp cultivation and potentially older, more established wild or semi-wild lineages.

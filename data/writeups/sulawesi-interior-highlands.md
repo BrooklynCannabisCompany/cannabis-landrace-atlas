@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sulawesi Interior Highlands describes a distinct upland cannabis population from the interior mountainous regions of Sulawesi, Indonesia, separate from coastal or lowland Sulawesi populations. Sulawesi's interior is characterized by rugged mountain jungle terrain, with highland areas hosting cooler temperatures and heavier, more sustained rainfall than the coasts. This mountain jungle environment would drive distinct adaptive pressures compared to the lowland island tropical conditions, and grower accounts suggest the interior highland population may differ meaningfully from coastal Sulawesi cannabis in morphology and flowering behavior.

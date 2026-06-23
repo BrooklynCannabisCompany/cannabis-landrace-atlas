@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Michoacán is a sativa landrace from the state of Michoacán in west-central Mexico, situated where the Sierra Madre del Sur meets the Trans-Mexican Volcanic Belt. The state's diverse topography includes high pine-forested mountains, deep valleys, and Pacific coastal lowlands, but the landrace associated with this name is typically linked to the highland pine-mountain-forest zones where cannabis has historically been cultivated. Michoacán is one of the Mexican states with a recognized cannabis cultivation tradition, and this population reflects adaptation to the cool, resinous conditions of highland Mexican mountain forest.

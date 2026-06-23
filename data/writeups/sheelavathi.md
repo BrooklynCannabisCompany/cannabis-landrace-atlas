@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sheelavathi is a sativa landrace from India, associated with the tropical maritime coastal belt of the subcontinent. The name is relatively uncommon in documented landrace records, and specific regional pinpointing is limited, but the tropical maritime climate classification places this strain in proximity to India's southern or southwestern coastline — areas that have historically supported tall, slow-flowering sativa cannabis populations adapted to humid, maritime-influenced growing conditions. The summary notes a distinctive aromatic profile: spicy, skunky, and musky.

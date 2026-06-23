@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Khorasan refers to a cannabis landrace associated with the Greater Khorasan region of northeastern Iran — a historic geographic area bordering Afghanistan to the east and Turkmenistan to the north. This semi-arid steppe zone was a critical corridor on the ancient Silk Road, and the Khorasan population is considered an indica-leaning desert-edge landrace adapted to drought, seasonal temperature extremes, and mountain-steppe environments.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Lao is a sativa landrace broadly representing the cannabis populations of Laos — a landlocked country in the heart of mainland Southeast Asia, with terrain ranging from the Mekong River lowlands to substantial highland and mountain zones. Growing under a jungle monsoon climate characterized by a pronounced wet season and warm temperatures, Lao cannabis is associated with the classic Indochina sativa character: very tall, long-flowering, and expressive of the aromatic and psychoactive qualities typical of the broader Southeast Asian sativa complex. As a broad regional designation, "Lao" encompasses diverse populations across the country's varied geography.

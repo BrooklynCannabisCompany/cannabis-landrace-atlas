@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kalamata is a sativa landrace associated with the coastal Mediterranean environment of the Kalamata region in the southern Peloponnese, Greece. Kalamata is the capital of the Messenia regional unit, situated on the Messenian Gulf in the southwestern Peloponnese — an area famous for its eponymous olives and characterized by long, intensely hot and dry summers, mild wet winters, and strong maritime influence from the Ionian Sea. This population is described as heat-tolerant with narrow-leaf morphology, consistent with a sativa landrace adapted to the demanding conditions of the southern Greek coastline.

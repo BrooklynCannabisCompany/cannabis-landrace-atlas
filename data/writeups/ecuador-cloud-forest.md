@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ecuador Cloud Forest refers to cannabis populations associated with the Ecuadorian cloud forest belt — the misty, high-humidity forested slopes of the Andes in Ecuador, spanning the western and eastern Andean flanks. Ecuador's cloud forests occupy the transition zone between Andean páramo and lowland rainforest, typically between 1,200 and 3,500 meters elevation, and are characterized by persistent fog, high rainfall, moderate temperatures, and extraordinary biodiversity. This population is classified as a mountain-jungle sativa landrace specifically adapted to persistent fog, high humidity, and the moderate temperatures along the Andean slopes.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sierra Leone Coastal Forest describes a feral sativa population from the humid coastal rainforest zone of Sierra Leone in West Africa. Sierra Leone's coastal and lowland regions receive among the highest annual rainfall in West Africa, with some areas recording over 3,000 mm per year. Cannabis growing in this environment — dense humid jungle at the edge of the Atlantic — would face intense mold pressure, competition for light under closed canopy, and near-constant high humidity. This very tall feral population is noted for mold resistance and fast jungle growth.

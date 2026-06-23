@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sepik Region is a feral sativa population associated with the Sepik River area of northern Papua New Guinea. The Sepik is one of the longest rivers in the Pacific, draining a vast lowland basin characterised by equatorial heat, high rainfall, and dense tropical vegetation. As a feral population, this entry represents cannabis plants growing without ongoing human cultivation management in the Sepik's tropical river basin environment — distinct from formally preserved or cultivated landrace selections from the same broad region.

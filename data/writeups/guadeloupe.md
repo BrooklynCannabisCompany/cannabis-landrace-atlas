@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Guadeloupe entry in this atlas refers to a Caribbean island landrace associated with Guadeloupe — a French overseas territory in the Lesser Antilles consisting of two main islands (Basse-Terre and Grande-Terre) separated by a narrow sea channel. The record is filed under Martinique as country, reflecting a data grouping of French Caribbean territories; the population itself is associated with Guadeloupe's island environment. Guadeloupe's climate is tropical maritime, shaped by trade winds, seasonal rainfall, and the distinct character of each island — volcanic and mountainous Basse-Terre versus the flatter, drier Grande-Terre. The cannabis population here is adapted to this humid island tropical environment.

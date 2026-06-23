@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Balkan Population entry represents a traditional intermediate cannabis population associated with Serbia and the broader Balkan Peninsula — the large southeastern European landmass bounded by the Adriatic, Aegean, and Black seas. Serbia occupies the northern and central interior of this peninsula, sitting astride the Danube, Sava, and Morava river systems that historically served as major axes of trade and migration. This population is understood as reflecting the diverse cannabis genetics that spread throughout Southeastern Europe via Ottoman, Mediterranean, and Danube corridor trade routes over many centuries.

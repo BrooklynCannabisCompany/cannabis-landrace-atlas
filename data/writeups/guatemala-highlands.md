@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Guatemala Highlands refers to cannabis populations associated with the highland region of Guatemala — the mountainous interior of the country dominated by the Sierra Madre de Guatemala and its associated volcanic ranges. Guatemala's highlands span elevations from roughly 1,500 to over 3,700 meters, with a mosaic of highland valleys, volcanic slopes, and cloud forest zones. The source record characterizes this entry as a Sierra Madre lineage, anchoring it to the mountain range system that connects through southern Mexico into Guatemala's western highlands. It is classified as a mountain tropical sativa.

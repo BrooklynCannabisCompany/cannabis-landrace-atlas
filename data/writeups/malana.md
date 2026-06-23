@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Malana is an indica-leaning landrace from the Malana Village area in the Parvati Valley of Kullu District, Himachal Pradesh, India. Malana is a high-altitude settlement — approximately 2,600–2,800 meters — in a side canyon above the main Parvati River, accessible historically only by steep trail. The cannabis grown in and around Malana is among the most renowned in South Asian collector culture, associated with "Malana Cream," a hand-rubbed charas prized for its pale color, smooth consistency, and potency. The village's geographic isolation is thought to have contributed to the preservation of a distinct local genetic type.

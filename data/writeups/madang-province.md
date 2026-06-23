@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Madang Province is a coastal province of Papua New Guinea lying along the Bismarck Sea, with terrain ranging from coastal lowlands and coral atolls to dramatic highland ranges that rise steeply from the coast. This geographic diversity — from sea level to significant elevations within a relatively short distance — makes Madang Province a zone of potentially significant cannabis genetic diversity. The cannabis population associated with Madang Province is an equatorial sativa of very tall growth, adapted to lowland tropical conditions, with a flowering window of 12–16 weeks. No specific summary information is available beyond the base record fields.

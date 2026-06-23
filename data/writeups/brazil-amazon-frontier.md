@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Brazil Amazon Frontier describes feral cannabis populations associated with the active deforestation and settlement frontier zones of the Brazilian Amazon — areas where primary forest meets cleared land, particularly across the arc of deforestation in states such as Rondônia, Pará, and Mato Grosso. These are not systematically cultivated landraces but rather feral populations that have established themselves in disturbed habitats along forest edges and settlement corridors. High variability is the defining characteristic of this entry.

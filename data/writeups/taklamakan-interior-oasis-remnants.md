@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Taklamakan Interior Oasis Remnants refers to cannabis populations associated with the isolated oasis settlements within and around the Taklamakan Desert in China's Xinjiang region. The Taklamakan is one of the world's largest and driest sand deserts, largely inhospitable to most plant life, but dotted with oasis settlements fed by meltwater rivers descending from surrounding mountains. Cannabis adapted to survive in these hyper-arid oasis environments represents some of the most drought-tolerant populations documented.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Simien Mountains is a highland African sativa landrace from the Simien Mountains of northern Ethiopia — a dramatic high-altitude plateau and escarpment in the Amhara Region, and a UNESCO World Heritage Site. The Simien range reaches elevations exceeding 4,500 m, making it one of Africa's highest mountain systems. Cannabis growing in this environment would be subjected to intense Afro-alpine conditions: high UV radiation, cool to cold nights, and significant altitude. This population is considered potentially one of Africa's most isolated mountain cannabis populations.

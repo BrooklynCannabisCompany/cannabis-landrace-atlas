@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Orkhon Valley population is a feral, sativa-leaning cannabis population found in the Orkhon River Valley of central Mongolia — a historic corridor that has served as a center of Mongolian civilization for over a millennium. The Orkhon Valley UNESCO World Heritage site encompasses ancient capitals, monasteries, and the heartland of the Mongol Empire. As a feral population in this valley-steppe environment, the cannabis here is highly variable, adapted to the cool summers and cold winters of Mongolia's central zone, and shaped by the valley's long history as a route for human and cultural movement.

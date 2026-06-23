@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Tuva Feral is a cold-adapted feral hemp population from the Republic of Tuva (Tyva), a federal subject of Russia located in south-central Siberia, bordering Mongolia. Tuva sits in a landlocked basin surrounded by mountain ranges, producing an extreme continental climate that is one of the coldest inhabited regions in Asia outside of northeastern Siberia. Cannabis naturalized in this environment represents an exceptionally cold-hardy gene pool.
 

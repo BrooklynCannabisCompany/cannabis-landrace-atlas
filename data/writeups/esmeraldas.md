@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Esmeraldas refers to cannabis populations associated with Ecuador's Esmeraldas Province — the northernmost coastal province of Ecuador, bordering Colombia, and home to some of the most intact Pacific rainforest remaining in South America. Esmeraldas is characterized by extraordinary rainfall (among the highest on Ecuador's coast), year-round warmth, and a predominantly Afro-Ecuadorian cultural heritage that has shaped the region's agricultural traditions for centuries. The population is classified as a tropical coastal landrace with Mixed genetics, and the source record specifically notes likely influence from Afro-Ecuadorian cultivation traditions — a culturally significant distinction.

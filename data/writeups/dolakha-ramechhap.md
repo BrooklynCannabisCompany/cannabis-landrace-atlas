@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Dolakha / Ramechhap designates a sativa complex from the adjoining districts of Dolakha and Ramechhap in Bagmati Province, east-central Nepal. These mid-Himalayan valley districts lie at elevations ranging from about 600 to over 3,600 meters, creating a range of microclimates that supports variable cannabis morphology. The population is characterized by mixed morphology — grower accounts suggest significant phenotypic variation plant-to-plant — which is consistent with a mid-Himalayan complex that has developed across a range of elevations and valley exposures rather than in a single isolated microhabitat.

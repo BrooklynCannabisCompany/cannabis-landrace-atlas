@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Peru Cloud Forest Edge refers to a hybrid landrace population from the transition zone where Peru's eastern Andean slopes give way to the cloud forest — the ecological boundary between highland mountain environments and the mist-shrouded montane rainforest that descends toward the Amazon Basin. This crossover zone is characterized by a distinct blend of conditions: lower temperatures and higher altitudes from the Andean side meeting the extreme humidity and rainfall of the cloud forest. Cannabis populations in this transition zone would have been exposed to, and potentially hybridized between, both highland Andean and cloud forest gene pools, producing the intermediate character reflected in the Hybrid-Intermediate category.

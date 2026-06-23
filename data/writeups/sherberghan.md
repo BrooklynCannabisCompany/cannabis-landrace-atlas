@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Sherberghan (also spelled Sheberghan) is a steppe-adapted hash landrace indica from Jowzjan Province in northern Afghanistan. Located in the flat plains and semi-arid steppes south of the Amu Darya River, Sherberghan sits in a distinct agricultural zone compared to the better-known mountain valleys of southern and eastern Afghanistan. Its proximity to Uzbekistan and Turkmenistan has historically connected it to Central Asian cannabis trade routes.
 

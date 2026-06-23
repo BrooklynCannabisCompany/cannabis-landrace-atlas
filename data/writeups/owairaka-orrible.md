@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Owairaka 'Orrible is a rare regional heirloom sativa associated with Owairaka — the Mount Albert area of Auckland, on New Zealand's North Island. The name's deliberately self-deprecating humor (a cockney-inflected "horrible") is consistent with the naming conventions of New Zealand's underground cannabis culture, where ironic or playful names were common for informal cultivars. The cultivar is believed to have circulated through underground grower networks during the 1970s–1990s, selected under the cool, wet maritime temperate conditions of Auckland's North Island climate. It is categorized as a sativa with tall growth and an 11–15 week flowering window.

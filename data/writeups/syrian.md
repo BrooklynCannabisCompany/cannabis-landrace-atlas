@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Syrian is a sativa-leaning (NLD, narrow-leaf drug) landrace from Syria, classified here under the Sativa Subsp. Indica designation — reflecting the terminological complexity around Syrian cannabis, which is often described as a compact, short-season, narrow-leaf hashplant rather than a classic broad-leaf indica. Syria sits in the semi-arid Levant, a historically pivotal region for cannabis movement between the Mediterranean world, the Arabian Peninsula, and Central Asia.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Mayombe Forest refers to a feral sativa cannabis complex associated with the Mayombe forest region of the Republic of Congo — a dense, ancient equatorial rainforest zone spanning the coastal lowlands of the Congo Basin's western margin. This is described as an ancient rainforest corridor population of very tall sativa character, growing in one of central Africa's most biologically rich and isolated forest ecosystems.
 

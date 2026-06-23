@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bale Mountains strain is a feral or semi-feral cannabis ecotype associated with the Bale Mountains of southeastern Ethiopia — a high-altitude massif within the Eastern African Rift system. Growing at elevations that impose alpine conditions including cold nights, strong UV radiation, and a dry highland climate, this population represents a cold-adapted Ethiopian mountain ecotype distinct from the better-known lowland or Rift Valley Ethiopian populations. An incense-leaning terpene character is commonly associated with Ethiopian highland cannabis generally.

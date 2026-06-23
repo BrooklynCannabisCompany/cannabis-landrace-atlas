@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Zimbabwe Mashonaland is a sativa landrace from Mashonaland — the north-central plateau region of Zimbabwe encompassing the three Mashonaland provinces (East, West, and Central) that surround the capital, Harare. Sitting on Zimbabwe's high plateau at elevations typically between 1,200 and 1,600 m, Mashonaland experiences a highland tropical climate with warm to hot days, cool nights, a distinct wet season, and strong sunlight. This tall sativa is described as exhibiting structured growth and a balanced, euphoric effect.

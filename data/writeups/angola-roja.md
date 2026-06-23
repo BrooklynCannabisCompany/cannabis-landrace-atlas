@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Angola Roja is a tall, vigorous landrace population associated with central and highland Angola and the broader Southern African region. It is particularly noted for colorful phenotypic expressions — most distinctively red-tinged pistils — which give rise to the "Roja" (red) designation. Adapted to Angola's tropical highland climate with its alternating wet and dry seasons, this population is considered an important representative of the Southern African gene pool and may exhibit mixed sativa-leaning characteristics across its range.

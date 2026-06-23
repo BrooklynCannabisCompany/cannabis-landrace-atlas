@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hindu Kush Upper Valleys landrace refers to the more remote, high-elevation cannabis populations of the upper Hindu Kush in Afghanistan — the valley systems and passes above the main cultivation zones that are more difficult to access and potentially less influenced by modern cultivation practices, seed introductions, or deliberate hybridization than the lower-elevation Afghan cannabis lines. Situated higher in the Hindu Kush range than the more accessible valley-floor populations, this alpine indica is associated with phenotypes that may preserve a more archaic or genetically intact expression of the Hindu Kush cannabis tradition.

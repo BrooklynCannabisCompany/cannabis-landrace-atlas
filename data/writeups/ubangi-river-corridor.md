@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Ubangi River Corridor is a feral sativa population associated with the Ubangi River, the major tributary forming much of the border between the Democratic Republic of Congo (DRC) and the Central African Republic. This riverine tropical corridor, draining vast areas of equatorial forest, historically served as a significant human migration and trade route through Central Africa, linking cannabis populations across a broad region.
 

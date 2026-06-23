@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Wakhan Corridor is a highland landrace complex from the Wakhan Corridor of northeastern Afghanistan, the long narrow panhandle of territory that extends eastward between Tajikistan and Pakistan to meet China's Xinjiang region. This remote, high-altitude valley — largely populated by Wakhi and Kyrgyz communities — sits between the Hindu Kush and Pamir mountain systems at elevations of 2,800–4,500 meters, making it one of the most geographically isolated cannabis-growing zones in the world.
 

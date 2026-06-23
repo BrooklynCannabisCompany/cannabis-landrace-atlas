@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Cambodian Native refers to a sativa landrace associated with the lowland tropical regions of Cambodia. Growing under a tropical monsoon climate with a pronounced wet season and warm temperatures year-round, this population represents the lowland Cambodian cannabis type — faster-flowering than the highland variants found further north in the region, and adapted to the hot, humid conditions of the Mekong Basin and Cambodian plains. It is broadly classified as a fast-flowering jungle type within the Southeast Asian sativa complex.

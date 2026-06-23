@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Tibetan Plateau Wild Cannabis refers to isolated wild cannabis populations found on or in the margins of the Tibetan Plateau in China — the world's highest and largest plateau, often called "the roof of the world," sitting at average elevations exceeding 4,000 metres above sea level. Cannabis growing on or near the plateau exists under extraordinary conditions: extreme UV radiation, low oxygen, intense cold, high winds, and a very short frost-free growing season. These populations are classified as wild sativa types, though they exist in one of the most climatically challenging environments in which the species is known to be found.

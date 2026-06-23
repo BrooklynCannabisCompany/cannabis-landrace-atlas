@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kenya Highland is a tall sativa landrace from the Central Kenya Highlands — the elevated agricultural heartland of Kenya centred around Mount Kenya and the surrounding Aberdare Range in East Africa. Growing at equatorial altitude with strong sunlight, cooler temperatures than surrounding lowlands, and a bimodal rainfall pattern, this population is adapted to some of the most productive growing conditions in sub-Saharan Africa. Mount Kenya and the central highlands have been among the most historically significant cannabis cultivation areas in East Africa, producing a classic highland African sativa with a well-established reputation.

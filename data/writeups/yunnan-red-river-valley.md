@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Yunnan Red River Valley landrace is a tropical mountain sativa associated with the Honghe (Red River) Valley corridor in southern Yunnan Province, China, near the border with Vietnam. The Red River originates on the Yunnan Plateau and carves a dramatic descent through layered mountain terrain before crossing into Vietnam and emptying into the Gulf of Tonkin. This gradient produces a spectrum of microclimates along the valley, ranging from cooler highland conditions to hot, humid lowland zones dominated by monsoon subtropical weather. Cannabis populations here are considered likely to share ancestry with Southeast Asian populations across the border, reflecting the biogeographic continuity of the region rather than sharp political boundaries.

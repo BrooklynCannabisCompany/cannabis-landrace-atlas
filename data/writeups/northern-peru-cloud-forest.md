@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northern Peru Cloud Forest refers to a sativa landrace population adapted to the cloud forest belt along the eastern slopes of the Andes in northern Peru. This zone — sometimes called the ceja de selva ("eyebrow of the jungle") — is characterized by persistent fog, extremely high humidity, moderate temperatures, and dense montane rainforest vegetation. The eastern Andean slopes of northern Peru form one of the most biodiverse transition zones on Earth, where Andean mountain conditions meet the western edge of the Amazon Basin. Any cannabis population adapted to this specific environment would have been shaped by chronic moisture stress, limited direct sunlight filtered through cloud cover, and the moderate temperature regime of mid-elevation montane forest.

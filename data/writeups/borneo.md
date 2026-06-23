@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Borneo refers to a sativa landrace associated with the Indonesian portion of the island of Borneo (Kalimantan), the world's third-largest island and one of the most biodiverse terrestrial environments on Earth. Growing under an equatorial rainforest climate with year-round rainfall, high humidity, and consistently warm temperatures, cannabis populations from Borneo/Kalimantan are commonly described as exhibiting deep jungle variability — a reflection of the island's extraordinary ecological complexity and the varied microhabitats available across its vast interior.

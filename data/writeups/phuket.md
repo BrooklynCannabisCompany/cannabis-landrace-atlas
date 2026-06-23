@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Phuket is a sativa landrace associated with Thailand's southernmost reaches, growing on and around the island of Phuket and the surrounding coastal tropical lowlands of the Andaman Sea coast. Situated well south of the classic northern Thai highland cannabis regions, this population developed under equatorial-influenced conditions — high year-round humidity, warm temperatures, and pronounced monsoon seasons — giving it a character typically described as a distinctly southern Thai expression rather than a northern highland type.

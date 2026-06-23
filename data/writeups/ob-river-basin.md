@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ob River Basin population is a naturalized feral cannabis population found along the extensive Ob River watershed in western Siberia, Russia. The Ob is one of the world's longest rivers, draining a vast boreal floodplain that covers much of western Siberia from the Altai and Kazakh steppe in the south to the Arctic Ocean in the north. Cannabis in this basin is naturalized along floodplain margins and disturbed riparian areas, adapting over generations to the short growing season and the seasonal flooding dynamics of this immense river system.

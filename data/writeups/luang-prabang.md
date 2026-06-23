@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Luang Prabang is a sativa landrace associated with the area around Luang Prabang, the historic royal capital of Laos, situated at the confluence of the Mekong and Nam Khan rivers in northern Laos. The region is surrounded by forested mountain terrain, with a mountain jungle climate that differs meaningfully from the lowland Mekong zones further south. Luang Prabang cannabis is associated with a high psychedelic expression — a characteristic that, along with the region's cultural prominence, has given this population a certain distinction within the broader Lao landrace complex.

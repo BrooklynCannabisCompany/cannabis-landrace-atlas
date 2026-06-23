@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kumaoni is a sativa landrace from the Kumaon division of Uttarakhand, India — the eastern division of the state, encompassing the foothills and mid-altitude Himalayan zone from roughly 500 to 2,500 meters elevation. The Kumaon Hills are a distinct cultural and geographic region, home to a unique hill culture and a diverse flora shaped by the transition from tropical foothills to temperate Himalayan forests. Cannabis in Kumaon grows semi-wild and is semi-cultivated in the foothill and mid-altitude zones, producing plants described as a "balanced upland expression" — neither the extreme resin concentration of the alpine charas belt nor the towering vigour of lowland or jungle sativas.

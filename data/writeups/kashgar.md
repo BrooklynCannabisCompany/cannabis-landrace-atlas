@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Kashgar is a cannabis population associated with the historic oasis city of Kashgar (Kashi) in the Xinjiang Uyghur Autonomous Region of western China, situated at the western edge of the Tarim Basin where the Pamir, Karakoram, and Tian Shan mountain systems converge. As one of the Silk Road's most significant trading hubs, Kashgar has historically been a crossroads of Central Asian, South Asian, and Chinese influence — and its cannabis population likely reflects this broad heritage.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Vanuatu is a feral sativa population associated with the island nation of Vanuatu, a Melanesian archipelago in the southwestern Pacific Ocean lying east of northern Australia and west of Fiji. Vanuatu's islands experience a tropical island climate characterised by warm temperatures year-round, high humidity, substantial rainfall (particularly in the northern islands), and cyclone exposure during the wet season. The country spans a considerable north–south extent, meaning climate conditions vary from equatorial in the north to slightly more seasonal in the south, and the feral cannabis population there has likely adapted across this range.

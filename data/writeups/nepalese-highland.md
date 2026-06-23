@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nepalese Highland is a broad sativa complex designation covering cannabis populations from the mid-altitude and high-altitude Himalayan zones of Nepal — a geographic and genetic umbrella that encompasses material from across the country's hill and mountain regions without attributing it to a specific district or valley. Nepal has been one of the most celebrated cannabis-producing nations in South Asia, and the "Nepalese Highland" category represents the general type associated with this reputation: tall sativas with long flowering times, resinous genetics suited to charas and temple-ball production, and adaptation to Himalayan mixed-zone conditions.

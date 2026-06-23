@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Tian Shan Wild is a ruderalis population from the Tian Shan mountain region of Kyrgyzstan, classified as a feral auto-adapted population. Distinct from the Tien Shan Alpine Valley landrace entry, this entry specifically represents the wild, ruderalis-type cannabis that grows without cultivation in the high cold-alpine zones of the Kyrgyz Tian Shan, where short growing seasons and extreme temperatures have driven adaptation toward automatic (day-length independent) flowering behavior.
 

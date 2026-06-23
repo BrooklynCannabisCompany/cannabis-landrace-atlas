@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Korean Native refers to the wild hemp population indigenous to the Korean Peninsula — today found primarily in South Korea, where small feral populations persist in rural and mountainous areas despite strict legal controls on cannabis cultivation. Korea has a long history of hemp cultivation for fiber and textile production, and the Korean Native represents the remnant feral and semi-cultivated lineage descended from that ancient agricultural tradition. The population is adapted to Korea's temperate climate, characterized by four distinct seasons and a humid monsoon summer.

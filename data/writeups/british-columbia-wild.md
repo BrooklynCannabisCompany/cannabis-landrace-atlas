@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 British Columbia Wild refers to feral and semi-feral cannabis populations found along the Pacific coast and interior regions of British Columbia, Canada. The province's rainforest coast — characterized by exceptionally high rainfall, cool maritime temperatures, and dense temperate forest — has supported escaped or naturalized cannabis plants derived from decades of outdoor cultivation activity. This gene pool is described as a mixed sativa-type collection rather than a single coherent landrace, reflecting the diverse origins of cannabis brought to BC by cultivators over the twentieth century.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Montagnard is a sativa landrace associated with the indigenous highland peoples of Vietnam's Central Highlands — a region the French colonial administration collectively termed "Montagnard" (mountain people). This designation encompasses diverse ethnic groups including the Jarai, Bahnar, Ede, Mnong, and others who inhabit the highland plateau and forested mountain zones of Vietnam's interior. Growing under a highland jungle climate with pronounced monsoon rainfall and moderately cooler temperatures than the Vietnamese coastal lowlands, this population represents the tribal forest lineage of Vietnamese highland cannabis.

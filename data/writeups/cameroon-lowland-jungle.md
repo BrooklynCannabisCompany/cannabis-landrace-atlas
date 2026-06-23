@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Cameroon Lowland Jungle is a feral sativa population associated with Cameroon's equatorial rainforest lowlands in West-Central Africa. Growing in one of the most humid and consistently warm environments on Earth — the Gulf of Guinea rainforest belt — this very tall population is adapted to extreme humidity and year-round precipitation. Its genetics are understood to be highly variable, as is typical of feral populations in biodiverse rainforest corridors, and it represents one node of the broader Congo–Cameroon–Gabon equatorial gene pool.

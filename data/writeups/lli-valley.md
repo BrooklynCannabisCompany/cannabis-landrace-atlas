@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The LLI Valley entry refers to the Ili River Valley (also romanized as Ili or Ili) of southeastern Kazakhstan — a broad, fertile river corridor running westward from Xinjiang, China into Kazakhstan's Almaty region. This landrace-feral complex is associated with one of Central Asia's most historically significant migration and trade corridors, connecting the Xinjiang basin with the Kazakh steppe and considered a potentially important ancestral cannabis population.
 

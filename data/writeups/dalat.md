@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Dalat is a sativa landrace associated with the Da Lat highlands of Lâm Đồng Province in the Central Highlands of Vietnam. Da Lat sits at approximately 1,500 m above sea level on the Lang Biang Plateau, giving it a notably cooler and more temperate climate than the surrounding lowland tropics — a distinctly different growing environment from the hot, humid lowlands that characterize most of Vietnam. Cannabis from this region is commonly noted for a piney, aromatic terpene expression, a quality plausibly linked to the conifer-dominated forest ecosystems of the Lang Biang Plateau.

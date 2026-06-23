@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Canadian Prairie Hemp refers to fiber hemp varieties and their descendants adapted to Canada's Prairie provinces — principally Manitoba, Saskatchewan, and Alberta. This broad agricultural region is characterized by a continental cold steppe climate with short, warm summers, cold winters, low annual precipitation, and extreme seasonal temperature variation. Hemp cultivation on the Canadian prairies has a long history tied to fiber and seed production, and the varieties adapted to this environment represent a distinct cold-climate, short-season hemp gene pool shaped by the demands of commercial fiber agriculture in northern latitudes.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 St. Kitts refers to the cannabis population of Saint Kitts — the larger of the two islands in the federation of Saint Kitts & Nevis, located in the northern Leeward Islands of the Eastern Caribbean. Saint Kitts is a volcanic island characterized by a central mountain range (dominated by Mount Liamuiga) surrounded by coastal lowlands historically used for sugar cane cultivation. The cannabis population here is classified as a sativa-dominant Caribbean island landrace, adapted to the island's combination of volcanic soils, tropical heat, consistent trade winds, and maritime climate.

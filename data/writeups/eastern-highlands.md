@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Eastern Highlands population refers to cannabis originating from the Eastern Highlands Province of Papua New Guinea, a mountainous inland province lying within the central cordillera of the PNG mainland. This region is part of the broader PNG highlands zone known for producing distinctive equatorial sativa landraces, sometimes collectively referred to under the name "PNG Gold." The Eastern Highlands cannabis population is shaped by mountain jungle conditions — high altitude, intense tropical sunlight, significant rainfall, and cooler temperatures than the PNG lowlands — producing very tall sativa-type plants with extended flowering periods.

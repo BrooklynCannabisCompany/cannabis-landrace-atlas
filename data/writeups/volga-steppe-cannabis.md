@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Volga Steppe Cannabis refers to a hemp and Ruderalis-mixed feral population found in the dry steppe zones of Russia's Volga region. This is a population shaped by the harsh, arid conditions of the open steppe away from the river corridor itself — a drier, more exposed environment than the riparian Volga floodplain. The plants are noted for their drought and cold resistance, traits that are commonly associated with steppe-adapted cannabis populations at this latitude.

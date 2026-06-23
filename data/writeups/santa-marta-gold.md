@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Santa Marta Gold is a highland sativa landrace from the Sierra Nevada de Santa Marta in Colombia — the isolated coastal mountain massif in the far north of the country near the Caribbean coast. This is the Colombian Sierra Nevada de Santa Marta specifically, not any other mountain range sharing a similar name. Santa Marta Gold is one of the most renowned tropical sativas in cannabis history, celebrated for its quality and potency and widely regarded as one of the foundational Colombian genetics that influenced modern cannabis breeding globally.

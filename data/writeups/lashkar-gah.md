@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Lashkar Gah is a short, fast-flowering indica landrace from the desert environment of southern Afghanistan, associated with the city and province of Lashkar Gah in Helmand Province. This is a deep desert Afghan type — adapted to one of the hottest and driest regions of Afghanistan — and is reported as a sedative landrace in the classic Afghan indica tradition.
 

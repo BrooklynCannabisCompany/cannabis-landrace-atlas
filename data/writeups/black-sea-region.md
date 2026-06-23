@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Black Sea Region landrace is a sativa-leaning coastal cannabis from the Turkish Black Sea coast — the humid, heavily forested strip of northern Turkey that runs from the Georgian border in the east to the Istanbul hinterland in the west. This tall, long-flowering population is adapted to conditions that are highly unusual for Turkish cannabis: heavy rainfall, persistent high humidity, mild winters, and the maritime influence of the Black Sea. It is commonly distinguished from the drier, more compact cannabis types of inland Anatolia, representing a distinct ecological and genetic lineage within the Turkish cannabis landscape.

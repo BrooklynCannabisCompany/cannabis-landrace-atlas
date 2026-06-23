@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Congo Basin Interior Swamp is a sativa-type landrace population associated with the interior swamp forests of the DR Congo — one of the most extreme and isolated cannabis habitats on Earth. Growing in the equatorial swamp forest environment of the central Congo Basin, this very tall population is adapted to year-round heavy rainfall, extreme humidity, seasonal flooding, and the dense canopy conditions of one of the world's largest and least-disturbed rainforest systems. Equatorial Central Africa is widely regarded among researchers and collectors as an important reservoir of ancient, highly diverse African cannabis genetics.
+The Congo Basin Interior Swamp is a sativa-type landrace population associated with the interior swamp forests of the DR Congo — one of the most extreme and isolated cannabis habitats on Earth. Growing in the equatorial swamp forest environment of the central Congo Basin, this very tall population is adapted to year-round heavy rainfall, extreme humidity, seasonal flooding, and the dense canopy conditions of one of the world's largest and least-disturbed rainforest systems. Equatorial Central Africa is widely regarded among researchers and collectors as an important reservoir of ancient, highly diverse African cannabis genetics. The interior swamp-forest habitat spans both the Democratic Republic of the Congo and the neighboring Republic of the Congo.
 
 ## History
 

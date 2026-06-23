@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ifugao is a highland landrace from Ifugao Province in the Cordillera Administrative Region of Luzon, Philippines. The Ifugao are most widely known for the Banaue Rice Terraces, a UNESCO World Heritage landscape that reflects millennia of sophisticated mountain agriculture. Cannabis cultivation in Ifugao Province occurs in a mountain tropical climate with heavy rainfall, significant elevation, and cooler temperatures than the Philippine lowlands — conditions that have shaped a robust, narrow-leaf landrace adapted to wet highland cultivation. Ifugao cannabis is commonly associated with traditional mountain cultivation, strong vigor, and adaptation to heavy rainfall.

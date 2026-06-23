@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Grenada Highland landrace is associated with the central highlands of Grenada — a small volcanic island in the southern Eastern Caribbean, at the southern end of the Grenadines. Grenada's interior is characterized by rugged volcanic terrain, high rainfall, lush tropical vegetation, and fertile soils. The highland cannabis population from this island is described as small but historically significant within the Eastern Caribbean context, representing an island-isolated tropical mountain landrace shaped by Grenada's distinctive volcanic ecology and tropical maritime climate.

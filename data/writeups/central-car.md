@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Central CAR refers to a landrace cannabis population from the interior of the Central African Republic — a landlocked, equatorial country in the heart of sub-Saharan Africa. Growing in a tropical savanna-to-rainforest transitional climate characterized by warm temperatures and strong seasonal rainfall patterns, this tall sativa-type population likely reflects the influence of the region's long-standing position on Central African trade routes and its geographic proximity to the Congo Basin gene pool to the south. Documentation of this population is limited, and what is known is inferred from regional ecology and context.

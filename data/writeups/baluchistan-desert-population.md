@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Baluchistan Desert Population is an indica-leaning landrace from the Baluchistan (Balochistan) province of southwestern Pakistan — a vast, sparsely populated region of arid mountains, desert plateaus, and rocky terrain stretching from the Afghan border to the Arabian Sea. This medium-height desert mountain landrace is adapted to the extreme heat, drought, and rocky soils that define Baluchistan's harsh environment. Grower accounts and regional cannabis literature commonly situate Baluchistan cannabis within the broader Afghan-Iranian cannabis corridor, noting its connectivity to landrace populations on both the Afghan and Iranian sides of the border.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chin Hills is a mountain landrace from Chin State, western Myanmar — specifically associated with the rugged highland ranges of the Chin Hills that form a natural barrier between Myanmar and the Indian states of Mizoram and Manipur. Growing in a highland subtropical climate with heavy monsoon precipitation and significant elevational variation, this population is described as an isolated highland cannabis adapted to elevation and monsoon conditions. Its geographic position at the South Asian / Southeast Asian boundary gives it particular interest for growers and collectors studying the genetics of the highland border corridor.

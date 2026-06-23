@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Brazil Amazon Wild represents the broader spectrum of wild and semi-wild Cannabis populations found across the core Amazon basin in Brazil. Unlike frontier feral populations tied to recent settlement, this entry is associated with the genetic diversity of the deeper equatorial forest zone — one of the most biologically complex environments on Earth. It is classified as a Sativa complex, indicating that these are not uniform populations but rather a pool of related but highly variable plants shaped by the Amazon's equatorial conditions.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Selenge River Basin population is a feral, sativa-leaning cannabis population found along the Selenge River watershed in northern Mongolia — a major river system that flows northward from central Mongolia into Lake Baikal in Russia. The Selenge basin encompasses a transition zone between Mongolian forest-steppe and the boreal forests of the Russian border region, and cannabis naturalized here occupies river valley and grassland habitats within this northern Mongolian landscape. The population is characterized by strong cold tolerance and vigorous seasonal growth adapted to the forest-steppe's marked seasonal cycle.

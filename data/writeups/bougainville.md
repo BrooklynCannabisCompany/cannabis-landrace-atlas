@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bougainville landrace originates from Bougainville Island, an autonomous region of Papua New Guinea situated in the western Pacific Ocean. This island sativa population is geographically and genetically distinct from mainland Papua New Guinea populations such as those found in the highlands or the Sepik Basin. Bougainville Island's position near the equator, combined with its volcanic soils, dense rainforest cover, and consistently high humidity, has shaped a cannabis population well-adapted to extreme tropical island conditions. It is classified as a tall, equatorial sativa with an extended flowering window.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rasol is a mixed landrace from the Himalayan village of Rasol in Himachal Pradesh, India — a small settlement situated above the Chalal valley, itself a tributary of the Parvati region. This population is notable among landrace enthusiasts for reported high-CBD phenotypes, an unusual trait compared to the typically THC-dominant resin selections of the broader Parvati corridor. Its mixed classification reflects phenotypic variability likely arising from both wild feral plants and village-cultivated material in the surrounding area.

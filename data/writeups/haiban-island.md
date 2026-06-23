@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Haiban Island landrace is associated with Haiban Island in the South China Sea — one of China's southernmost territories, situated in a tropical oceanic environment far removed from the country's continental landmass. This position places it among the most southerly cannabis populations attributed to China, experiencing year-round warmth, high humidity, and the seasonal rhythms of South China Sea monsoon weather. The population is classified as a tropical island sativa landrace adapted to these equatorial-adjacent coastal conditions.

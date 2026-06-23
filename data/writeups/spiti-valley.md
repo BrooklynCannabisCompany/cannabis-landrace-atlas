@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Spiti Valley is an indica-leaning landrace from the Spiti Valley of Himachal Pradesh, India — a high-altitude cold desert situated between the greater Himalayas and the Tibetan plateau. With elevations commonly exceeding 3,500 metres and an arid, extreme climate characterized by long severe winters and very short growing seasons, Spiti represents one of the harshest environments in which cannabis is known to survive. This population is classified as a harsh survival ecotype, reflecting selection pressure that rewards early maturation, compact form, and stress tolerance above all else.

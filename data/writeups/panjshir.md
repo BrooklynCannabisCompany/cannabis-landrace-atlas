@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Panjshir is a mountain landrace indica originating from the Panjshir Valley in northeastern Afghanistan, a steep river gorge cutting through the Hindu Kush roughly 150 km north of Kabul. The valley's geographic isolation — flanked by high ridgelines and historically difficult to access — has likely allowed this population to develop distinct characteristics separate from the broader Afghani gene pool.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Midwest Prairie Hemp refers to feral industrial hemp populations naturalized across the American Midwest — particularly in states such as Kansas, Nebraska, Missouri, Iowa, and neighboring areas. These populations are remnants of the World War II-era "Hemp for Victory" program, which encouraged widespread domestic hemp cultivation for fiber and rope production. Following the program's end, abandoned hemp crops naturalized across Midwestern roadsides, river bottoms, and disturbed habitats, persisting as feral populations for decades. This material is characterized by low THC content and commonly expresses elevated CBD, consistent with its industrial fiber hemp ancestry.

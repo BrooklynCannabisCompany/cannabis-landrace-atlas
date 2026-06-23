@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Fiji Island Cannabis refers to a feral sativa population associated with the Fijian island chain in the southwestern Pacific Ocean. Unlike the distinct Fiji Highlands highland landrace, this entry represents a lowland or general island feral population, adapted to Fiji's island tropical climate — consistent warmth, high humidity, and significant rainfall distributed across the archipelago's various islands. As a feral population, it is not associated with a specific cultivated landrace tradition but rather represents naturalized cannabis that has persisted in the Fijian island environment.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Tibet River Valley landrace is a high-altitude feral cannabis population distributed across the Yarlung Tsangpo (upper Brahmaputra) and associated river valleys of the Tibet Autonomous Region, China. Situated at elevations commonly exceeding 3,000–4,500 metres above sea level, this population is widely regarded as one of the highest-elevation cannabis populations documented anywhere in the world. Its alpine river valley habitat subjects plants to intense ultraviolet radiation, dramatic diurnal temperature swings, thin air, and a compressed growing season — conditions that are thought to have shaped a distinct genetic constitution separate from the better-studied lowland Yunnan and Nepalese populations.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Dolpo is an indica-leaning landrace from Dolpa District in Karnali Province, western Nepal — one of the most remote and least accessible districts in the country. Dolpa sits on the high Tibetan Plateau transition zone, with most habitable settlements above 3,000 meters and some approaching 5,000 meters. Cannabis in Dolpa grows under conditions of extreme alpine cold, intense UV radiation, and a very short growing season. The population is accordingly compact in stature and noted for thick resin production — adaptations that parallel high-altitude landraces across the broader Himalayan region.

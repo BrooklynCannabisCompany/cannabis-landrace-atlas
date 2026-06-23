@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bekaa Valley landrace originates from the Bekaa (Beqaa) Valley of eastern Lebanon — a broad, elevated agricultural plain running between the Lebanon Mountains to the west and the Anti-Lebanon Mountains to the east. This indica landrace is commonly distinguished from Lebanese coastal populations by its more vigorous growth habit and its association with large-scale historical hashish production. The Bekaa Valley has been, by most accounts, the primary center of cannabis cultivation and hashish production in Lebanon, and remains one of the most recognized traditional hash-producing regions in the Middle East.

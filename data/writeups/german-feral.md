@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 German Feral refers to naturalized cannabis populations found growing wild in Germany, originating from escaped industrial hemp cultivation. Germany has a documented history of hemp growing that was revived in the modern era under EU regulations, and plants that escape from licensed fields — or that persist from earlier cultivation periods — have established feral populations in various parts of the country. These are hemp-type plants adapted to Germany's temperate climate rather than drug-type landraces.

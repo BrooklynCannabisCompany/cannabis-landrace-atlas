@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Pangi Valley is an indica-leaning landrace originating from the remote, cold valleys of Himachal Pradesh, India. Situated in a deeply isolated corridor of the western Himalayas, the valley's extreme geographical barriers have kept this population largely insulated from outside genetic influence. Growers and collectors associate Pangi Valley cannabis with heavy resin production shaped by the harsh alpine conditions of the region.

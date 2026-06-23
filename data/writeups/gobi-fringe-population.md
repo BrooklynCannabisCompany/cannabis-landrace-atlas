@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Gobi Fringe Population is a wild-feral cannabis population found along the margins of the Gobi Desert in Mongolia — one of the most climatically extreme environments in which cannabis is known to naturalize. The Gobi fringe is characterized by semi-desert conditions: sparse rainfall, intense summer heat, bitterly cold winters, and strong desiccating winds. Cannabis surviving here is generally understood to have developed exceptional drought and temperature tolerance, making this population of significant potential interest for stress-resistance breeding.

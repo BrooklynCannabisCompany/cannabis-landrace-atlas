@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Tahiti is a feral sativa population associated with the island of Tahiti in French Polynesia, the principal island of the Society Islands group in the central South Pacific. Tahiti's coastal environment is characterised by a warm, humid tropical climate with trade wind influence, high year-round temperatures, and significant salt-laden air exposure — conditions that have shaped this population's noted tolerance for salt and humidity. Sitting at roughly 17–18° south latitude, Tahiti experiences moderate seasonal daylength variation, which is reflected in the population's relatively compact 10–13 week flowering window for a tropical type.

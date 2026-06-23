@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hengduan Mountains cannabis population originates from the Hengduan Mountain Range — a series of roughly parallel north-south ridges and deep river valleys spanning the border zone between Tibet and Yunnan in southwestern China. This corridor is globally recognized as a biodiversity hotspot and is considered a potentially important center of cannabis genetic diversity, linking high-altitude Tibetan plateau types to the north with subtropical Yunnan populations to the south. The dramatic elevation gradient and geographic complexity of the Hengduan system have likely allowed distinct cannabis subpopulations to develop in relative isolation.

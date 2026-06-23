@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Colombian Boyaca High Plateau refers to cannabis populations associated with the high plateau (altiplano) of Boyacá Department in the Eastern Andes of Colombia. Boyacá is a highland department dominated by the Cordillera Oriental, with much of its territory sitting above 2,000 meters elevation. This entry has minimal data recorded — no type, height, or flowering information is available — but its geographic and climatic context (high Andean plateau, Eastern Andes Colombia) provides the essential framing. Cannabis populations from high-plateau Boyacá would be expected to reflect meaningful cold-tolerance and altitude adaptation.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Pondoland is a sativa landrace from the Pondoland region of South Africa's Eastern Cape and KwaZulu-Natal coast — a coastal subtropical zone known for its rugged terrain, indigenous forest, and mild, humid climate. This tall coastal sativa is associated with citrus and sweet tropical aromatic expression, and occupies a similar ecological niche to other renowned South African coastal landraces from the Eastern Cape coastline. Pondoland is situated along the Wild Coast, a stretch of coastline characterized by its relative isolation and rich biodiversity.

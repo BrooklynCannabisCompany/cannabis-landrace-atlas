@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Fann Mountains landrace is an indica cannabis from the Fann Mountains (Fan-Daria) of western Tajikistan — a dramatic cluster of high peaks rising within the western Pamir-Alai mountain system, located between Samarkand and the main Pamir massif. The Fann Mountains are known for extreme alpine scenery, including a series of high-altitude glacial lakes, and they sit at significant elevation with a cold, short growing season. This population is described as a cold-resin phenotype — a short, high-altitude indica with resin production driven by the physiological stresses of the Fann's extreme mountain environment.

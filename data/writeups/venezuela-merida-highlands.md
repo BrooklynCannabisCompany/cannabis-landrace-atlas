@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Venezuela Mérida Highlands landrace is associated with the Mérida region of the Venezuelan Andes — a distinct highland area centered on the city of Mérida and the surrounding sierra, which includes some of the highest peaks in Venezuela. This population is described as a cold-adapted ecotype within the broader Venezuelan Andean highland context, selected by the notably cool and mist-influenced climate of the Mérida highlands. It is distinct from other Venezuelan highland populations due to the specific thermal regime and altitude of the Mérida sierra.

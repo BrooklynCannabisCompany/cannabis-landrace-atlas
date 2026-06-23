@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Pamir Highlands refers to the broad highland landrace complex of the Pamir Mountains in Tajikistan — one of the world's most isolated and extreme mountain systems, situated at the junction of the Tian Shan, Hindu Kush, Karakoram, and Himalayan ranges. This is described as a highland landrace complex of mixed character, representing populations distributed across the Tajik Pamir rather than a single selected cultivar. It is considered a potential ancestral migration corridor linking Central and South Asian cannabis gene pools.
 

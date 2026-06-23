@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mango Biche is a Colombian sativa landrace named for its reportedly distinctive fruity terpene profile — "biche" in Colombian Spanish refers to unripe fruit, suggesting green-mango or tropical-fruit aromatic qualities. This population is associated with Colombia's jungle lowland climates, situating it among the equatorial lowland strains rather than the better-documented highland Colombian lines. Like other Colombian lowland landraces, it would have developed under conditions of consistent heat, high humidity, and abundant rainfall characteristic of tropical jungle zones.

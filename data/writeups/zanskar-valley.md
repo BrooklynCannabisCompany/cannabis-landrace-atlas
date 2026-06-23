@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Zanskar Valley is an indica-leaning wild population from the Zanskar Valley in the Ladakh region of India — one of the most extreme and isolated high-altitude environments in the world. Zanskar is a cold desert plateau ringed by the Zanskar Range and the greater Himalayas, with elevations typically between 3,500 and 4,400 metres and winter temperatures that can drop far below freezing for months at a time. Cannabis surviving in this environment represents an extreme alpine desert ecotype, classified as feral, and is described as thriving in the harshest cannabis environments on record.

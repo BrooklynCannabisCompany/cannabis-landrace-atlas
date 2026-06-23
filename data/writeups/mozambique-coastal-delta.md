@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mozambique Coastal Delta landrace is a tall, coastal sativa landrace from the Indian Ocean-facing shoreline and delta zones of Mozambique in southeastern Africa. Growing in a tropical coastal climate — characterized by heat, high humidity, salt air, and the influence of the Indian Ocean monsoon — this population is associated with strong heat tolerance and vigorous growth. Historical trade across the Indian Ocean may have contributed to the genetic composition of Mozambique's coastal cannabis populations.

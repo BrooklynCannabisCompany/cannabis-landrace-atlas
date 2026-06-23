@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Santa Marta Highlands refers to the highland cannabis landrace from the Sierra Nevada de Santa Marta in northern Colombia — an isolated coastal mountain massif rising dramatically from the Caribbean coastal plain near the city of Santa Marta. This is one of the most celebrated cannabis-producing regions in the world, home to what is commonly described as the origin zone for Colombian Gold and related iconic tropical sativa varieties. The Sierra Nevada de Santa Marta is geologically distinct from the main Colombian Andes, forming an isolated mountain system with remarkable ecological diversity — from lowland tropical forest to high-altitude páramo — all within a relatively compact geographic area.

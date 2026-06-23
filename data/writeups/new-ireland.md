@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 New Ireland is a long, narrow island province of Papua New Guinea, extending north-northwest from the Bismarck Archipelago toward the equator. The New Ireland cannabis population is a feral sativa described as a maritime adaptation, reflecting the island's elongated, sea-surrounded geography and the dominant influence of ocean air masses on its climate. New Ireland lies in a tropical island zone characterized by consistent warmth, high humidity, and rainfall distributed across the island's narrow terrain with limited interior highland buffering.

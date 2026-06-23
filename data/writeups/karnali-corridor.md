@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Karnali Corridor designates a Himalayan landrace complex associated with the Karnali River Basin in far-western Nepal. The Karnali is Nepal's largest river by volume, draining a vast territory from its Tibetan headwaters through the high Himalaya and mid-hills of western Nepal before entering the Terai lowlands. Cannabis populations along this corridor occupy a transitional zone between the high-altitude indica-leaning types of Humla and Dolpa to the north and the lower-altitude, more sativa-influenced populations of the mid-hills. The corridor's geographic position — connecting possible Indian, Tibetan, and Nepalese cannabis migration routes — gives this population potential significance for understanding Himalayan cannabis genetics.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ecuador Highland refers to cannabis populations associated with the highland valley zone of Ecuador's Andean interior — the inter-Andean corridor known as the "Sierra," which runs the length of the country between the Western and Eastern Cordilleras. Ecuador's highland valleys sit at elevations typically between 2,000 and 3,000 meters, with the famous "Avenue of the Volcanoes" defining the landscape. Cannabis populations from this zone are adapted to the distinct climate of high-altitude Andean valleys: strong UV radiation, cool nights, warm days, and seasonal rainfall patterns that differ from both the coastal lowlands and the cloud forest flanks.

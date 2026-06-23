@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Solomon Islands Feral Cannabis refers to naturalised cannabis populations found in the Solomon Islands, a Melanesian archipelago in the southwestern Pacific Ocean lying east of Papua New Guinea. The Solomon Islands experience a consistently equatorial climate with high humidity, warm temperatures year-round, and substantial rainfall driven by their position in the inter-tropical convergence zone. This feral sativa population is noted for its adaptation to high-humidity island conditions — a defining environmental pressure for any plant naturalised in this environment.

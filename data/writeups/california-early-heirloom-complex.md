@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The California Early Heirloom Complex refers to a mixed population of escaped hybrid cannabis that naturalized in California's Mediterranean climate zone. Rather than a single coherent landrace, this is understood as a gene pool assembled from diverse cultivar introductions — primarily during the 1960s through 1980s outdoor cultivation era — that have persisted and cross-pollinated across multiple generations in California's coastal and interior Mediterranean growing zones. The designation "early" reflects selection pressure toward earlier finishing times suited to California's cool, fog-influenced fall season, particularly along the coast and in northern coastal ranges.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Sangha Basin entry describes a feral rainforest cannabis population associated with the Sangha River Basin — a vast tributary system of the Congo River spanning parts of Cameroon, the Central African Republic, and the Republic of Congo. This very tall, very-long-flowering feral population occupies one of the most remote and biodiverse tropical rainforest zones in Africa. It is described as one of the continent's least-studied cannabis regions, and is noted for exceptional humidity tolerance and a highly diverse feral gene pool.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bosnia Highlands landrace is an intermediate cannabis population from the Dinaric Alps of Bosnia and Herzegovina — a mountainous country in the western Balkans sharing borders with Croatia, Serbia, and Montenegro. The Dinaric Alps dominate Bosnia's landscape, characterized by high karst limestone plateaus, dense coniferous forests, and river canyons carved by the Neretva, Bosna, and Drina rivers. Cold winters, humid summers, and significant snowfall define the highland climate here. This population is understood as potentially preserving older Balkan hemp and cannabis genetics shaped by these demanding mountain conditions.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nigerian refers to the sativa landrace populations cultivated across Nigeria, West Africa's most populous country, situated in the tropical lowland zone between the Gulf of Guinea coast and the drier savanna regions to the north. This tall, fast-growing equatorial type is adapted to Nigeria's tropical lowland climate — warm, humid, with pronounced wet and dry seasons. It is considered a resilient, fast-maturing sativa representative of the West African equatorial cannabis tradition.

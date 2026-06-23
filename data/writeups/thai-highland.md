@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Thai Highland is a classic highland tropical sativa landrace from the mountains of northern Thailand — one of the most celebrated and widely referenced cannabis gene pools in the world. Situated in the ranges of Chiang Mai, Chiang Rai, Mae Hong Son, and surrounding provinces, the northern Thai highlands offer a tropical mountain climate distinct from both the Thai lowlands and the southern coastal zones. The plants are known for exceptional stature — commonly reported at 2–4 meters or taller — vigorous growth, incense and spice aromatics, and a long flowering season adapted to the monsoon rhythms of the region.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Northern Territory Bush Cannabis refers to a remote feral cannabis population found in Australia's Northern Territory — a vast, sparsely populated jurisdiction covering the top third of the Australian continent, characterized by tropical savanna in the north and arid desert in the south. This feral population is described as having mixed ancestry, suggesting introduction from multiple source populations rather than descent from a single coherent landrace. The tropical savanna climate of the Top End — with its pronounced wet and dry seasons, intense heat, and seasonal monsoon rainfall — defines the primary environmental context for this population.

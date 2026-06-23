@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Swazi Gold is a well-known sativa complex from Eswatini (formerly Swaziland), a small landlocked kingdom in southern Africa situated between South Africa and Mozambique. Growing in a subtropical highland climate on elevated terrain between the Drakensberg escarpment and the Mozambican lowveld, Swazi Gold is one of the more recognized southern African sativa names internationally. It is associated with mango sweetness and a characteristically long flowering period, and grows to very tall stature when given space and a full natural season.

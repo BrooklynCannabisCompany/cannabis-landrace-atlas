@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Italian Calabria refers to a hemp-type cannabis population from Calabria — the rugged toe of the Italian boot, the southernmost region of mainland Italy, separated from Sicily by the narrow Strait of Messina. Calabria is mountainous and deeply rural, with the Calabrian Apennines running its length and giving way to narrow coastal strips along both the Tyrrhenian and Ionian seas. The coastal mountain climate — warm dry summers along the coasts, cooler and wetter in the highlands — has shaped a feral European hemp population adapted to this distinctive southern Italian environment.

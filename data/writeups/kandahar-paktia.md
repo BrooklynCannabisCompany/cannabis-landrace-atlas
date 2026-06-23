@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Kandahar/Paktia strain represents a traditional Afghan indica landrace spanning two distinct provinces: Kandahar in the arid south and Paktia in the eastern mountains bordering Pakistan. These two environments impose different pressures — the flat, semi-desert conditions of Kandahar versus the cooler, higher-elevation terrain of Paktia — making this a population with influences from both southern Afghan desert adaptation and eastern mountain genetics. It is historically important as a source of hashish-producing indica stock.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Eastern Cape Wild is a tall sativa landrace associated with the Eastern Cape province of South Africa — a region with a temperate coastal climate along the southern Indian Ocean shore. Unlike the more subtropical zones of KwaZulu-Natal or the tropical savanna of the country's interior, the Eastern Cape's milder, more temperate coastal conditions have shaped a population adapted to moderate temperatures and the specific seasonal rhythms of South Africa's southeastern coast. A sour plum terpene character and suitability as a daytime smoke are commonly associated with this material.

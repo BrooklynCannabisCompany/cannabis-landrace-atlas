@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Lancang River Valley landrace is associated with the upper reaches of the Lancang River — known internationally as the Mekong — as it cuts through the mountainous terrain of Yunnan Province, China. This deep river canyon system is one of the world's great biodiversity corridors, connecting the Tibetan Plateau in the north with the lowlands of Southeast Asia to the south. Cannabis populations found along the Lancang valley are likely to reflect this geographic connectivity, with probable genetic contributions from both Yunnan highland types and Southeast Asian lowland populations that share this river watershed.

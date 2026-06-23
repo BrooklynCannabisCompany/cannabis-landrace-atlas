@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Horowhenua Ice is a temperate heirloom cultivar associated with the Horowhenua District on the southwestern coast of New Zealand's North Island. Horowhenua is a low-lying coastal district between the Tararua Range and the Tasman Sea, characterized by a cool-temperate maritime climate with frequent westerly winds, significant rainfall, and moderate temperatures. The "Ice" designation in the cultivar name likely refers to reported trichome density or resin expression, though the primary adaptation story is one of tolerance for cooler conditions and shorter growing seasons than are typical of more northerly New Zealand populations. It is categorized as a mixed regional preservation line.

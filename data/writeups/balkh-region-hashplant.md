@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Balkh Region HashPlant is an indica landrace from the Balkh region of northern Afghanistan, historically one of the most significant cities and agricultural areas of the ancient world. Located in the fertile plains and foothills south of the Amu Darya River, Balkh sits at the northern edge of the Afghan landmass where the Hindu Kush foothills give way to the steppe lowlands. This short, fast-finishing indica is commonly described as a heavy sedative expression — a dense, resin-laden hash plant suited to the northern desert climate where hot summers and cold winters demand rapid ripening.

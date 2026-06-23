@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Panama Red is a sativa landrace from Panama, one of the most celebrated and iconic tropical cannabis varieties from the Americas. Panama is a narrow isthmus connecting Central and South America, with tropical rainforest covering much of its interior and both Pacific and Caribbean coasts. Panama Red is named for the reddish pistil coloration commonly reported in mature plants — a phenotypic trait associated with certain tropical sativa populations. The strain became widely recognized in the North American cannabis market during the 1960s and 1970s, when Panamanian cannabis circulated alongside Colombian and Mexican imports.

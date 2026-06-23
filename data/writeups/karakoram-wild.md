@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Karakoram Wild refers to a wild or semi-feral cannabis population associated with the Karakoram mountain range of northern Pakistan — one of the world's most extreme high-altitude environments, home to K2 and numerous other peaks above 7,000 meters. The Karakoram sits at the junction of the Himalaya, Hindu Kush, and Pamir ranges, making it a potential contact zone for multiple distinct cannabis gene pools. Information on this specific population is limited.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mount Kenya Region landrace originates from the highlands surrounding Mount Kenya in central Kenya, Africa's second-highest peak. Growing at elevation under an equatorial mountain climate — characterized by intense ultraviolet light, cool nights, and pronounced wet and dry seasons — this population is a mixed-category highland African landrace. It is commonly associated with vigorous growth and cool-night adaptation, and is believed to be related to Rift Valley populations while remaining distinct due to the specific pressures of high-altitude cultivation near the mountain's slopes.

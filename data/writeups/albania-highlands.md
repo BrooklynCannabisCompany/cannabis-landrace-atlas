@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Albania Highlands landrace is an indica-leaning cannabis population native to the rugged mountainous interior of Albania — a country of the western Balkans bordered by Montenegro, Kosovo, North Macedonia, and Greece. The terrain here is among the most challenging in Europe, dominated by steep limestone ranges, narrow river gorges, and high-altitude plateaus. This population is associated with the isolated communities of the Albanian highlands, where difficult terrain historically limited contact with neighboring cannabis gene pools and allowed a relatively distinct local ecotype to persist.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Tarim Basin Population is a feral-landrace cannabis complex from the Tarim Basin in China's Xinjiang region — an enormous inland basin rimmed by the Tian Shan, Kunlun, and Pamir mountain ranges. The Tarim is one of the world's largest enclosed drainage basins and one of the driest non-polar regions on Earth. Cannabis populations surviving under these hyper-arid conditions represent exceptionally stress-adapted gene pools.
 

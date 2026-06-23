@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Korla (also romanized as Ku'erle) is an oasis landrace associated with the city of Korla in central Xinjiang, China, situated along the Konqi River in the eastern Tarim Basin. Korla sits at a geographic and commercial crossroads within Xinjiang, and its cannabis population — categorized as a mixed oasis landrace — likely reflects the long history of Silk Road commerce and multi-directional plant material exchange that characterized this trade hub.
 

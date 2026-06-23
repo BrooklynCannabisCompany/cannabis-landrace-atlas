@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Kyrgyzstan Tian Shan is a ruderalis-leaning wild cannabis type distributed across the Tian Shan mountain system of Kyrgyzstan — a high, rugged range spanning the country's northern and central regions. This is a cold alpine feral population, short in stature and early to mature, shaped by the extreme elevation and abbreviated growing seasons characteristic of the Kyrgyz Tian Shan.
 

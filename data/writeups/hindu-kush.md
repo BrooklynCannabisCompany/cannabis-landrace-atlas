@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hindu Kush landrace originates from the Hindu Kush Mountain Range of Afghanistan — one of the world's most celebrated cannabis regions and a foundational source of modern indica genetics. Spanning roughly 800 km across northern and central Afghanistan (and into northwestern Pakistan), the Hindu Kush is a high, rugged mountain system whose deep valleys and short, cold growing seasons have shaped a compact, resin-rich indica cannabis that is among the most influential genetic lineages in the history of Western cannabis cultivation. Grower accounts and cannabis literature consistently describe this population as the archetype of the classic indica: dense, fast-finishing, heavily resinous, and powerfully sedative.

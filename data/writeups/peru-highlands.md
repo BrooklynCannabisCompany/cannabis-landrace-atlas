@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Peru Highlands refers to a sativa landrace from the high-altitude Andean regions of Peru, adapted to the cold, thin-air conditions of the High Andes. Peru's highest Andean zones — the puna and adjacent high valleys — present some of the most extreme conditions in which cannabis can be cultivated, with cold nights, intense solar radiation at altitude, seasonal frosts, and a short growing season by tropical standards. This population represents highland cold-altitude cannabis adaptation, distinct from Peru's lower-elevation Andean valley populations or cloud forest edge strains.

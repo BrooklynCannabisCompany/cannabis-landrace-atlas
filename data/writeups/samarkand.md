@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Samarkand is a Central Asian landrace associated with the ancient city of Samarkand in Uzbekistan, one of the most significant trading hubs on the historic Silk Road. Situated in the Zeravshan River valley, Samarkand served for millennia as a crossroads connecting Persian, Indian, and Chinese civilizations, and cannabis populations in this region likely reflect that long history of exchange and selection.
 

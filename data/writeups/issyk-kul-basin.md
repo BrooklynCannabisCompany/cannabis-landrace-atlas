@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Issyk-Kul Basin population is a cold-adapted feral cannabis type found in and around the alpine basin containing Issyk-Kul Lake in Kyrgyzstan — one of the world's largest and deepest alpine lakes. The basin sits at roughly 1,600 meters elevation in the Tian Shan mountain system, creating a distinct microclimate that moderates the extreme cold of the surrounding peaks. The population's ruderalis-leaning character reflects the short, cold growing season of this high Central Asian environment.
 

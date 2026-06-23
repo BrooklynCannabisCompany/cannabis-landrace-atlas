@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-Kashmir refers to the cannabis landrace of the Kashmir Valley in the Jammu and Kashmir union territory of India — the broad, fertile valley of the Jhelum River situated at roughly 1,600 meters elevation and surrounded by the Greater Himalayan and Pir Panjal ranges. This is one of South Asia's most historically documented cannabis-producing regions, associated for centuries with high-quality charas production. The Kashmir Valley's temperate mountain climate — cool but not extreme, with fertile alluvial soils and strong seasonal definition — has shaped an indica-leaning landrace of medium-tall stature and notable resin production.
+Kashmir refers to the cannabis landrace of the Kashmir Valley in the Jammu and Kashmir union territory of India — the broad, fertile valley of the Jhelum River situated at roughly 1,600 meters elevation and surrounded by the Greater Himalayan and Pir Panjal ranges. This is one of South Asia's most historically documented cannabis-producing regions, associated for centuries with high-quality charas production. The Kashmir Valley's temperate mountain climate — cool but not extreme, with fertile alluvial soils and strong seasonal definition — has shaped an indica-leaning landrace of medium-tall stature and notable resin production. The broader Kashmir region spans the India–Pakistan border, and closely related populations extend into Pakistani-administered Kashmir.
 
 ## History
 

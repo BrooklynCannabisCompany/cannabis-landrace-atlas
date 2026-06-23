@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Serbian Feral Population is a naturalized intermediate cannabis population associated with Serbia's Danube, Morava, and Sava river basins — the three great waterway systems that define Serbia's geography and historically served as major axes of trade, settlement, and agricultural activity. Serbia occupies the central Balkans, with a landscape ranging from the fertile Pannonian plain in the north to the rolling hills and river valleys of the interior. The feral cannabis populations along these river corridors are described as descended largely from historic hemp cultivation, highly adaptable, and thoroughly naturalized throughout Serbian agricultural regions.

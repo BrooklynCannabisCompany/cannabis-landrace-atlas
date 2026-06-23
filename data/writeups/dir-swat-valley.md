@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dir / Swat Valley landrace is a classic indica cannabis from the Dir and Swat districts of Khyber Pakhtunkhwa province in northern Pakistan, a mountain valley corridor running through the western Hindu Kush and adjacent ranges. This region is commonly associated with the traditional Pakistani charas corridor — a zone of overlapping resin chemotypes connecting the Hindu Kush of Chitral and Kunar to the west with the Khyber and Kaghan Valley regions to the east. Grower accounts describe the Dir/Swat population as representative of the compact, fast-finishing, resin-focused indica type characteristic of the Pakistani highland cannabis tradition.

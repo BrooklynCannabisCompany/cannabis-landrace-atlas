@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Uzbekistan Tashkent is a Central Asian intermediate landrace from the Tashkent Region of Uzbekistan, associated with the capital city and its surrounding fertile agricultural zone in the foothills of the western Tian Shan. Tashkent sits at the crossroads of the Fergana Valley and the broader Uzbek steppe, historically one of the most important Central Asian cities on the Silk Road and a major hub connecting Afghan, Kazakh, and Chinese cannabis populations.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kauai Electric is a rare Hawaiian cannabis population associated with Kauaʻi Island — the oldest and geologically most weathered of the main Hawaiian islands, located at the northwestern end of the archipelago. Kauaʻi is characterized by exceptionally high rainfall on its northern and eastern sides (including some of the wettest locations on Earth), lush tropical vegetation, volcanic soils, and intense equatorial-influenced sunlight. Kauai Electric is specifically associated with Kauaʻi's wet tropical environment and is adapted to volcanic soils, intense sunlight, and the island's year-round growing conditions.

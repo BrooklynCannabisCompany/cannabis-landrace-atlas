@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nariño Highlands refers to a highland sativa population from the Nariño Department in southern Colombia, near the border with Ecuador. This region sits in the Colombian Andes at elevations that produce cool temperatures, strong ultraviolet radiation, and the complex microclimates characteristic of high Andean terrain. Nariño's position at the southern extreme of Colombia's Andean corridor places it geographically and genetically distinct from the more widely documented cannabis populations of the Sierra Nevada de Santa Marta to the north or the Cauca Valley to the northeast. The proximity to Ecuador also raises the possibility of genetic exchange with northern Ecuadorian Andean populations, though this is not documented.

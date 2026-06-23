@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Acapulco Gold is a celebrated sativa landrace associated with the Guerrero region
 around Acapulco on Mexico's Pacific coast. It is one of the most famous traditional

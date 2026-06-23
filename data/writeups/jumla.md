@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Jumla is an indica-leaning landrace from Jumla District in Karnali Province, far-western Nepal. Jumla is the headquarters of Karnali Province and sits at an elevation of approximately 2,300 meters in the Tila River valley, making it one of the highest-altitude district headquarters in Nepal. Cannabis in Jumla is part of the charas-lineage tradition of far-western Nepal's Karnali zone, with the population adapted to cold Himalayan valley conditions, short growing seasons, and the cultural context of hand-rubbed resin production.

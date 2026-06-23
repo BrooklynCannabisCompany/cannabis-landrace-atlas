@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mandi is an indica-leaning landrace from Mandi District in central Himachal Pradesh, India — a district situated in the middle Beas River valley and its tributaries, at elevations ranging from roughly 700 to 2,500 meters. Mandi District is historically significant as a trade and transit corridor linking the Kullu Valley and upper Parvati basin to the Punjabi plains below, making it a geographic crossroads through which cannabis and charas moved from higher-altitude production zones to lowland markets. The cannabis of Mandi District itself is associated with this charas production and trade tradition.

@@ -1,7 +1,5 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
-The Irtysh River Basin population is a cold-hardy feral cannabis complex distributed along the Irtysh River watershed in Kazakhstan — a river corridor that links the Altai Mountains, the Xinjiang region of western China, and the West Siberian Plain. This is a river-corridor population rather than a cultivated landrace, naturalized across floodplain and steppe habitats along one of Central Asia's longest river systems.
+The Irtysh River Basin population is a cold-hardy feral cannabis complex distributed along the Irtysh River watershed in Kazakhstan — a river corridor that links the Altai Mountains, the Xinjiang region of western China, and the West Siberian Plain. This is a river-corridor population rather than a cultivated landrace, naturalized across floodplain and steppe habitats along one of Central Asia's longest river systems. The Irtysh corridor is transnational, running from China through Kazakhstan and on into Russia.
 
 ## History
 The Irtysh corridor has served for millennia as a natural migration and trade route connecting the Altai highlands with the Kazakh steppe and ultimately the Siberian lowlands. Feral cannabis along this system likely reflects a mixture of historically cultivated hemp populations and naturalized escapes spanning many centuries. The geographic position between Xinjiang and Siberian ecosystems means this population may carry ancestral traits from multiple distinct gene pools. Specific documentation of collection or selection within the basin is not widely available in accessible literature.

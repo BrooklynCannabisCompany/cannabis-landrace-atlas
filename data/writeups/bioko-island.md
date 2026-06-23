@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bioko Island landrace is a feral sativa population from Bioko Island, the Atlantic Ocean island that makes up the northernmost part of Equatorial Guinea. Bioko sits in the Gulf of Guinea roughly 30 km off the coast of Cameroon, straddling the equator, and is characterized by one of the most extreme equatorial rainforest climates on Earth — near-constant high humidity, very high annual rainfall, and minimal seasonal variation in day length. This tall, variable-length-flowering feral population represents an isolated island gene pool shaped by extreme humidity adaptation, geographically separated from mainland African cannabis populations.

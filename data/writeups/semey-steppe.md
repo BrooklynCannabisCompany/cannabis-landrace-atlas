@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Semey Steppe is a feral steppe cannabis population from the Abai Region (historically known as Semey) in northeastern Kazakhstan, situated along the Irtysh River near the border with Russia and China. This population is adapted to the open grasslands and extreme continental climate of the Kazakh steppe, where cannabis is believed to have naturalized over centuries, persisting without consistent cultivation management.
 

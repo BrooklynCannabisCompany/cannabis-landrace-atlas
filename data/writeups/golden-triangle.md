@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Golden Triangle is a sativa complex associated with the tri-border highland zone where Laos, Thailand, and Myanmar converge — catalogued here under Laos, which hosts a substantial portion of this genetic zone along the upper Mekong River in Phongsali and Luang Namtha provinces. This area is historically and botanically significant as a major confluence point for Southeast Asian cannabis genetics, where populations carried by diverse highland ethnic communities — Hmong, Akha, Shan, Lahu, and others — have mixed and cross-pollinated over many generations. The Golden Triangle is often treated as a genetic mixing hub rather than a single uniform landrace.

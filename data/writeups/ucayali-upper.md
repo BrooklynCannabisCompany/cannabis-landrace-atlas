@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ucayali Upper landrace is associated with the upper watershed of Peru's Ucayali River, in the transitional zone where Andean foothills give way to the Amazonian lowlands. This region sits higher in elevation than the lower Ucayali Basin and is subject to seasonal flooding cycles, shifting river corridors, and dense tropical rainforest conditions. It is typically understood to represent a distinct population from lower-basin Ucayali plants, shaped by somewhat different edaphic and microclimate pressures along the upper river corridor.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mahia Madness is a historic coastal heirloom sativa associated with the Mahia Peninsula in the Hawke's Bay region of New Zealand's North Island. The Mahia Peninsula is a remote, narrow headland on the east coast of the North Island, projecting into the Pacific Ocean between Poverty Bay and Hawke Bay. Its oceanic exposure, warm northerly air flows from the subtropical Pacific, and distinctly maritime weather patterns — characterized by hot, dry summers offset by humid coastal conditions — have shaped this sativa-type heirloom line. The cultivar is described as adapted to oceanic weather patterns and humid summers, with an outdoor history on New Zealand's east coast.

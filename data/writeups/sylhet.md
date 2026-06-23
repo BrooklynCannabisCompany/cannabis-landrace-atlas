@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sylhet is a sativa landrace from the Sylhet Division of northeastern Bangladesh, a region defined by its haor wetlands, floodplains, and tropical monsoon climate. Sylhet is one of the wettest regions in the world, receiving exceptionally heavy annual rainfall, and its low-lying terrain is subject to seasonal flooding. Cannabis plants that persist in this environment have adapted to waterlogged soils, high humidity, and intense monsoon cycles — giving the population its characterization as flood-adapted jungle cannabis.

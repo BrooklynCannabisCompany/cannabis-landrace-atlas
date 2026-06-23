@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 New Guinea Eastern Highlands is a sativa landrace entry representing the broader cannabis population from the eastern highlands zone of Papua New Guinea — overlapping with but distinct from province-specific records such as the Eastern Highlands Province entry. This record captures the general PNG Gold lineage associated with eastern highlands territory, characterized by very tall equatorial sativa growth in mountain jungle conditions. The eastern highlands of New Guinea form one of the more botanically documented zones of PNG cannabis, partly due to the region's relative accessibility via the Highlands Highway and the presence of Goroka as a highland center.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hawaiian Kona / Volcano Zone landrace-type population is associated with the Kona coast and volcanic highland zone of Hawaiʻi's Big Island. This distinct microclimate — shaped by active volcanic activity, high-altitude tropical conditions, and the rain shadow of Mauna Loa and Mauna Kea — produces unique growing conditions for cannabis. The area is characterized by volcanic soils, strong sunlight, moderate temperatures at elevation, and the particular moisture patterns created by the interaction of trade winds with the island's massive volcanic peaks. This is an altitude-adapted island line, distinct from the broader Hawaiian Feral Sativa Complex.

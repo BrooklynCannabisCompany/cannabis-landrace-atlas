@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Russian Ruderalis is the foundational feral cannabis type associated with Russia's continental steppe regions, widely recognized as the primary natural source of autoflowering genetics. Unlike photoperiod-dependent cannabis, Ruderalis initiates flowering based on plant age rather than day length, an adaptation to the short summers of northern and central Russia. This population has had an outsized influence on modern cannabis breeding globally, despite being a modest, low-THC plant in its natural form.

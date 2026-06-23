@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Gobi Desert Margins population is a feral intermediate cannabis from the periphery of the Gobi Desert in Mongolia — the transition zone between the true desert core and the surrounding steppe and semi-arid grasslands. This medium-height, cold-desert-adapted feral population is characterized by adaptation to severe temperature swings, drought, and persistent wind exposure. Mongolia's geographic position places this population at an intriguing intersection of Siberian, Central Asian, and East Asian cannabis distribution zones, and it is commonly noted for its potential to preserve ancient steppe genetics distinct from the better-documented landrace populations of the surrounding regions.
+The Gobi Desert Margins population is a feral intermediate cannabis from the periphery of the Gobi Desert in Mongolia — the transition zone between the true desert core and the surrounding steppe and semi-arid grasslands. This medium-height, cold-desert-adapted feral population is characterized by adaptation to severe temperature swings, drought, and persistent wind exposure. Mongolia's geographic position places this population at an intriguing intersection of Siberian, Central Asian, and East Asian cannabis distribution zones, and it is commonly noted for its potential to preserve ancient steppe genetics distinct from the better-documented landrace populations of the surrounding regions. The Gobi straddles the Mongolia–China border, and these margin populations extend into the Chinese side of the desert as well.
 
 ## History
 

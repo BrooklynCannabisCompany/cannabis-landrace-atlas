@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Central African Rainforest Edge Populations is a collective designation for feral and semi-feral cannabis gene pools found along the ecotone where the Congo Basin rainforest gives way to savanna — spanning portions of the Democratic Republic of Congo and extending into the Congo–Cameroon–Gabon corridor. These very tall, genetically diverse feral populations occupy a transitional jungle-savanna climate and are often unclassified, representing some of the least-studied and most biologically diverse wild cannabis gene pools in Africa.

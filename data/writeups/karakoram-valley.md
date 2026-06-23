@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-Karakoram Valley refers to cannabis populations originating in the high-altitude valleys of the Karakoram mountain range in northern Pakistan — one of the most rugged mountain systems on Earth, with numerous peaks exceeding 7,000 meters. The principal valleys of the Pakistani Karakoram include the Hunza, Shigar, and Hushe drainages in Gilgit-Baltistan. Cannabis here grows in alpine valley settings characterized by intense UV exposure, cold nights, low humidity, and a very short frost-free season. The result is an indica-leaning population highly adapted to environmental extremes, described as one of the world's most challenging cannabis habitats.
+Karakoram Valley refers to cannabis populations originating in the high-altitude valleys of the Karakoram mountain range in northern Pakistan — one of the most rugged mountain systems on Earth, with numerous peaks exceeding 7,000 meters. The principal valleys of the Pakistani Karakoram include the Hunza, Shigar, and Hushe drainages in Gilgit-Baltistan. Cannabis here grows in alpine valley settings characterized by intense UV exposure, cold nights, low humidity, and a very short frost-free season. The result is an indica-leaning population highly adapted to environmental extremes, described as one of the world's most challenging cannabis habitats. The Karakoram range straddles the Pakistan–India border, and related high-altitude populations extend into the Indian-administered Ladakh region.
 
 ## History
 

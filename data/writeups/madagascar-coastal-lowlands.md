@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Madagascar Coastal Lowlands is a feral sativa population associated with the humid coastal lowland zones of Madagascar — the large island nation off the southeastern coast of Africa in the Indian Ocean. The coastal lowland climate of Madagascar is characterised by high humidity, warm temperatures, and significant rainfall, particularly on the eastern coast which faces the prevailing trade winds. This very tall, feral population is noted for fast growth and strong mold resistance, adaptations consistent with the warm, persistently humid conditions of the island's lowland margins.

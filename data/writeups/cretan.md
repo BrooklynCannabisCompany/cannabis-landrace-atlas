@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Cretan refers to the hemp-type cannabis population associated with the island of Crete — the largest and southernmost of the Greek islands, situated in the eastern Mediterranean where it serves as a biological and cultural bridge between Europe, North Africa, and the Levant. Crete's climate is characterized by long, intensely dry and hot summers, mild wet winters, and persistent exposure to desiccating winds including the dry southern sirocco. This harsh Mediterranean island environment has shaped a drought-adapted hemp population of medium height with a relatively manageable flowering window.

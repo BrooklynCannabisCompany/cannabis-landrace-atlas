@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mullumbimby Madness is a legendary heirloom sativa from the Mullumbimby area of the Northern Rivers region of New South Wales, Australia. Mullumbimby, a small town in the Byron Bay hinterland, became synonymous with outdoor cannabis cultivation during Australia's late-1960s and early-1970s counterculture era, when the Northern Rivers region attracted communities that cultivated cannabis in the subtropical coastal hinterland. This Australian heirloom sativa is renowned for vigorous growth, tropical fruit and spice terpene expressions, and its association with a foundational period of Australian cannabis culture that predates commercial seed production.

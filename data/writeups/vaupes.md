@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Vaupés landrace originates from Colombia's Vaupés department, a remote Amazonian territory in the far southeast of the country bordering Brazil. The region is dominated by dense equatorial rainforest, numerous river systems, and exceptionally high biodiversity. The Vaupés cannabis population is associated with indigenous Amazonian communities and is characterized in grower accounts by exceptional humidity tolerance and highly vigorous growth — traits consistent with long adaptation to one of the wettest and most biologically diverse environments in South America.

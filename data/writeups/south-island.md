@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 South Island refers to a feral hemp/sativa mix population associated with New Zealand's South Island — the larger and more southerly of New Zealand's two main landmasses. The South Island is characterised by a cool temperate climate across most of its area, with significant variation from the wet, mild West Coast to the drier, more continental conditions of the Canterbury Plains and Central Otago, and the sub-alpine environments of the Southern Alps. This population is described as cold-adapted, reflecting the pressures of the South Island's comparatively harsh growing conditions by New Zealand standards.

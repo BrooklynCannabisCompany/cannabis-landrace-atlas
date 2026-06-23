@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Danube Basin entry represents a naturalized hemp-feral cannabis population associated with the Danube River Basin of Hungary — a country whose territory encompasses much of the middle Danube floodplain, the Great Hungarian Plain (Alföld), and the foothills of the Carpathians. The Danube River and its tributaries have historically provided fertile alluvial soils and a reliable water source for agriculture across Central Europe, making the Danube Basin one of Europe's oldest and most productive hemp cultivation regions. Hungary's location at the heart of the Carpathian Basin places it at a key junction of Central European cannabis corridors.

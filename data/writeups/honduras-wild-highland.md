@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Honduras Wild Highland refers to cannabis populations associated with the highland zones of Honduras — the mountainous interior of the country, particularly the pine-covered ranges of the central highlands (including the departments of Francisco Morazán, Comayagua, and Intibucá) and the cloud-forested ranges of the west. Honduras is one of the most mountainous countries in Central America, and its highland zones have distinct growing conditions compared to the Caribbean or Pacific lowlands. The "Wild" designation in this entry suggests these are naturalized or semi-feral populations rather than actively managed cultivated landraces.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Manabí refers to a coastal sativa landrace from Manabí Province on Ecuador's Pacific coast. This province stretches along the central coast of Ecuador and encompasses lowland tropical terrain, river estuaries, and seasonally dry coastal forest — a climate profile distinct from the Andean highland populations found inland. Manabí sits at low elevation, influenced by the warm Humboldt and El Niño currents that shape Pacific coastal weather patterns, producing a tropical coastal environment with seasonal rainfall and consistently warm temperatures. This population is explicitly distinct from Ecuador's better-known Andean landrace populations.

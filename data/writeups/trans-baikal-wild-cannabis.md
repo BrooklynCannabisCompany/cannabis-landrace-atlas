@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Trans-Baikal Wild Cannabis is a ruderalis population from the Transbaikal (Zabaykalsky) region of Russia, a vast territory of steppe, taiga, and semi-arid grasslands east of Lake Baikal, bordering Mongolia and China. This is among the northernmost and easternmost cannabis populations documented in Central Asia, persisting as wild plants in one of the most climatically extreme inhabited regions on Earth.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Westmoreland / Saint Ann refers to the cannabis populations associated with two parishes of Jamaica — Westmoreland on the island's southwest coast, and Saint Ann on the north-central coast — both of which are historically significant within Jamaican cannabis culture. Jamaica is one of the most documented sources of Caribbean cannabis landraces, and the Westmoreland and Saint Ann parishes are commonly cited in connection with the Lamb's Bread lineage system — a name associated with some of the most celebrated traditional Jamaican sativa genetics. This entry encompasses the cultivated landrace tradition of these parishes, which spans both coastal and interior elevation growing environments.

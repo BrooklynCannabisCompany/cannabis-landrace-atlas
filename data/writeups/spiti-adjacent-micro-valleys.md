@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Spiti Adjacent Micro-Valleys refers to sparse feral cannabis populations found in the side valleys and tributary drainages that flank the Spiti Valley in India's Himachal Pradesh — one of the harshest high-altitude environments in the world. The Spiti Valley itself sits at elevations typically between 3,500 and 4,400 meters in a cold desert rain shadow, receiving very little rainfall and enduring extreme temperature swings. Cannabis surviving in these micro-valleys is classified as a feral, indica-leaning wild population — plants adapted over generations to the extreme alpine desert conditions rather than cultivated landraces managed by farmers for fiber or resin.

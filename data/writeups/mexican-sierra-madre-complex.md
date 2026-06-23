@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mexican Sierra Madre Complex refers to the broad genetic corridor of sativa landraces distributed across the Sierra Madre mountain ranges of Mexico — encompassing the Sierra Madre Occidental in the west, the Sierra Madre Oriental in the east, and the Sierra Madre del Sur in the south. This is a complex designation rather than a single discrete population, reflecting the reality that cannabis genetics across these vast mountain ranges share common traits while also varying considerably by locality and altitude. The corridor runs through the states most historically associated with Mexican cannabis cultivation, creating a distributed gene pool shaped by diverse mountain microclimates.

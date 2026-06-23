@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Azerbaijan Lowlands landrace is an intermediate cannabis population originating in the Kura-Aras Lowlands of Azerbaijan — the broad alluvial plain formed by the Kura and Aras rivers as they converge and drain into the Caspian Sea. This region occupies a striking ecological niche: surrounded by the Caucasus Mountains to the north and Lesser Caucasus to the southwest, the lowlands experience warm, semi-arid summers and mild winters strongly modulated by proximity to the Caspian Sea. This population represents a distinct ecological contrast to the highland Caucasus landraces of the surrounding mountain zones.

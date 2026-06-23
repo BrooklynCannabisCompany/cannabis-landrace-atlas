@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Huambo is a tall sativa landrace from the Huambo region of Angola's central highland plateau in southern-central Africa. Huambo (formerly Nova Lisboa) sits at approximately 1,700 metres elevation on the Bié Plateau, giving this population a highland tropical climate with warm days, cooler nights, and a distinct dry season. Commonly associated with the Red Angola lineage and a deep earthy sweetness, the Huambo strain represents an important node in Angola's highland cannabis tradition.

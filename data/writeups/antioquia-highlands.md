@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Antioquia Highlands refers to cannabis populations associated with the highland zones of Colombia's Antioquia Department, situated in the northern Andes. Antioquia is one of Colombia's most historically significant cannabis-producing regions, and its mountain populations have long been recognized by cultivators as genetically distinct from lowland Colombian strains. The population is classified as a Mixed mountain landrace, shaped by the cool nights, intense equatorial sunlight, and variable topography of the Andean highlands.

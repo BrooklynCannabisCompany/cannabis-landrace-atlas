@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Malawi is a very tall pure sativa complex from the landlocked East-Central African country of Malawi, growing at the altitudes of the Malawi Plateau along the shores of Lake Malawi. One of the most celebrated African landraces in international cannabis culture, Malawi Gold — as it is often called — is renowned for its intensely psychedelic sativa effect, exceptional size, and the significant regional variation found across its plateau tropical homeland. It is among the most widely recognized African strains outside the continent and has influenced many commercial sativa-leaning varieties.

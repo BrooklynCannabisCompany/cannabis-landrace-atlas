@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mindanao Interior Uplands is a sativa landrace associated with the interior highland zones of Mindanao, the second-largest island of the Philippines. Mindanao's interior uplands encompass mountain ranges reaching significant elevation above the surrounding lowlands, covered in dense equatorial mountain jungle and home to a diverse array of indigenous communities including Lumad peoples. Growing under an equatorial mountain jungle climate with year-round rainfall and high humidity, this population is characterized by very tall growth, a fast-to-moderate flowering period for a tropical sativa, and dense forest adaptation.

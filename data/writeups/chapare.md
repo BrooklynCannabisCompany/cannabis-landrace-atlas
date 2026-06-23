@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chapare refers to cannabis populations associated with the Chapare region of Bolivia's Cochabamba Department — a tropical lowland zone on the eastern Andean foothills descending toward the Amazon basin. The Chapare is renowned as one of Bolivia's most productive agricultural zones, receiving extraordinary rainfall (some of the highest in South America) and maintaining near-constant warmth year-round. Cannabis in this region is classified as a tropical landrace with Mixed category genetics, reflecting the vigorous, diverse growth typical of this exceptionally fertile environment.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Gaoligong Mountains landrace originates from the Gaoligong Mountain Range in western Yunnan Province, China — one of the country's most celebrated biodiversity hotspots. The Gaoligong range runs roughly north-south along the border with Myanmar, forming a dramatic series of ridges and valleys that channel moisture-laden air from the Bay of Bengal. This creates an exceptional mosaic of mountain rainforest ecosystems ranging from tropical foothills to alpine zones, and the cannabis populations found here are believed to reflect this ecological richness.

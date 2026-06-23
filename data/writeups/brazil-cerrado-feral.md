@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Brazil Cerrado Feral refers to feral cannabis populations found in Brazil's Cerrado biome — the vast tropical savanna that covers much of central Brazil, including parts of Minas Gerais, Goiás, Mato Grosso, and neighboring states. The Cerrado is characterized by a pronounced dry season, high temperatures, and nutrient-poor savanna soils, making it a dramatically different environment from the Amazon rainforest. Cannabis that has naturalized here represents a distinct adaptation profile centered on heat and drought tolerance rather than humidity tolerance.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Misiones refers to a subtropical landrace population from the province of Misiones in far northeastern Argentina. Misiones is a narrow province flanked by Brazil to the north and east and Paraguay to the west, characterized by Atlantic Forest subtropical vegetation, red laterite soils, and a warm, humid climate driven by summer monsoon-like rainfall. This is a distinctly subtropical South American setting, unusual for Argentina more broadly and quite different from the temperate pampas or the arid Patagonian south. Any cannabis population adapted here would have developed under warm, humid summers and mild winters, with broad genetic diversity expected in a region at the crossroads of Paraguayan, Brazilian, and Argentine agricultural traditions.

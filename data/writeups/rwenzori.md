@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rwenzori is a highland mountain sativa landrace from the Rwenzori Mountains of western Uganda — a range on the border with the Democratic Republic of Congo, known historically as the "Mountains of the Moon." The Rwenzori range rises to over 5,000 m and hosts one of Africa's most unusual ecosystems: Afro-montane cloud forest characterized by persistent mist, intense equatorial UV radiation at altitude, steep terrain, and dramatic temperature swings between day and night. Cannabis adapted to this environment would have undergone significant selection pressure from these combined stresses.

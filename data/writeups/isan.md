@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Isan is a sativa landrace associated with the Isan region (Northeastern Thailand) — a broad, semi-arid plateau bounded by the Mekong River to the north and east and the Phetchabun and Sankamphaeng ranges to the west and south. Unlike the highland mountain landraces of Northern Thailand, Isan cannabis developed under a dry plateau climate characterized by pronounced seasonal drought, lower humidity than the jungle highlands, and warm temperatures. This region was historically one of Thailand's primary cannabis production zones, strongly associated with the traditional "Thai stick" preparation that gave Thai cannabis much of its international identity.

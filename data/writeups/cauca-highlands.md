@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Cauca Highlands refers to cannabis populations associated with the Cauca Department of Colombia, situated in the Central and Western Andes mountain ranges of southwestern Colombia. This is a high-elevation Colombian population adapted to the cool mountain nights, intense equatorial sunlight, and variable terrain of the Andean cordillera at elevations typically ranging from 1,500 to over 2,500 meters. Cauca is geographically and climatically distinct from Colombia's better-known lowland cannabis regions, producing landrace plants shaped by altitude and mountain exposure.

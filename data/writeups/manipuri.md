@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Manipuri is a sativa landrace from Manipur state in northeastern India — a landlocked state in the Indo-Burma border zone, sharing borders with Nagaland, Assam, Mizoram, and Myanmar. Manipur's terrain includes the Imphal Valley at roughly 800 meters elevation and surrounding forested hill ranges reaching above 2,800 meters. The climate is humid and tropical, with a pronounced monsoon season delivering high annual rainfall. Manipuri cannabis is characterized as a tall sativa associated historically with brick-hash production, distinct from the charas tradition of the Western Himalayas.

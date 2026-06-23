@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Dagestan landrace is an indica-leaning mountain cannabis from the Republic of Dagestan in the eastern North Caucasus region of Russia, bordering Azerbaijan to the south and the Caspian Sea to the east. Dagestan's rugged terrain — a succession of mountain ranges, deep gorges, and high plateaus — combined with strong sunlight, dry summers, and cold winters, has shaped a cannabis population adapted to semi-arid mountain conditions at the intersection of Central Asian, Caucasian, and Russian cannabis zones. This geographic position makes Dagestan a transitional landrace — influenced by but distinct from the gene pools of Azerbaijan, Georgia, and the Central Asian cannabis corridor.

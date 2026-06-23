@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 The Durban basin population is a pure-sativa landrace from the subtropical coastal
 region around Durban in KwaZulu-Natal, South Africa. South African "Durban" sativas

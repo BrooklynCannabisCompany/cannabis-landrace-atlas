@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Gansu Hemp is an ancient fiber and seed hemp selection associated with Gansu Province in northwestern China — a long, geographically diverse corridor province that spans from the edge of the Tibetan Plateau in the south to the Gobi Desert and the Hexi Corridor in the north. Gansu sits at a historical crossroads: it was a critical passage along the Silk Road, and cannabis has been cultivated in the region for fiber and grain for thousands of years. The Gansu Hemp population reflects this deep agricultural heritage rather than selection for resin or drug use.

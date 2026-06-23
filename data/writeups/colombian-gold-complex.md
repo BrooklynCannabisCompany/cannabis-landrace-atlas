@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Colombian Gold Complex refers to the broader sativa genetic complex associated with the "Colombian Gold" lineage from the Northern Andes corridor of Colombia — encompassing the related populations of the Santa Marta, Magdalena, and surrounding mountain regions that gave rise to the internationally celebrated Colombian Gold variety of the 1970s export era. The "Complex" designation signals that this entry covers the wider genetic pool from which the named Colombian Gold derived, rather than a single stabilized variety. It is situated in the mountain jungle zone of northern Colombia.

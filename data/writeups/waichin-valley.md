@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Waichin Valley is an indica-leaning resin landrace from the Waichin Valley in Himachal Pradesh, India — a high alpine tributary of the Parvati River system, located beyond Tosh and among the more remote reaches of the Parvati watershed. The valley sits at significant elevation, and its cannabis population is described as a high-resin charas line, situating it firmly within the charas-producing tradition of the broader Parvati corridor. The alpine valley setting and extreme elevation contribute to an even more isolated and climatically pressured environment than many of the Parvati valley's more accessible cannabis-producing areas.

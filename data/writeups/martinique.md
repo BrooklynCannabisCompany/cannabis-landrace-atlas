@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Martinique landrace is associated with Martinique, a French overseas territory and volcanic island in the Lesser Antilles of the Eastern Caribbean. Martinique is characterized by a dramatic volcanic landscape dominated by Mount Pelée in the north, tropical rainforest, fertile volcanic soils, and a warm maritime climate shaped by Atlantic trade winds. The cannabis population here is a Caribbean island landrace of sativa type, adapted to the island's humid tropical conditions, volcanic terrain, and maritime seasonal weather patterns.

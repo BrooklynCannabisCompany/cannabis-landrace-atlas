@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Madagascar Highland is a tall sativa population from the central highlands of Madagascar — the elevated interior plateau of the island, distinct from the humid coastal lowlands. Growing on an island highland climate characterised by cooler temperatures than the coasts, strong seasonal rainfall, and the biogeographic isolation that defines all Malagasy life, this population represents an isolated island expression of African sativa genetics shaped by centuries of adaptation on a uniquely diverse island. A tropical spice terpene character is commonly associated with this material.

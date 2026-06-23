@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Shashamane is an Ethiopian highland sativa landrace from the town of Shashamane in the Oromia Region of central Ethiopia. The town occupies a plateau at approximately 1,700–1,800 m elevation in the Ethiopian highlands, south of Addis Ababa in the upper Rift Valley. Shashamane is internationally known as the site of a Rastafarian community established in the mid-twentieth century, and the cannabis cultivated there is associated with both Ethiopian highland agricultural traditions and the spiritual practices of that community. It is described as a classic African narrow-leaf sativa adapted to volcanic soils, high elevation, and East African highland conditions.

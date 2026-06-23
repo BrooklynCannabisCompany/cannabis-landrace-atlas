@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Hawaiian Feral Sativa Complex refers to the broad, heterogeneous population of escaped and naturalized cannabis found across the Hawaiian Islands. Rather than a single coherent landrace, this is an acclimatized hybrid gene pool combining Southeast Asian sativa genetics with American cultivar introductions — most notably from the 1970s era of widespread outdoor cultivation and guerrilla farming in Hawaii. Plants from this complex have naturalized across various Hawaiian island environments, adapting to the islands' diverse tropical and sub-tropical microclimates over multiple feral generations.

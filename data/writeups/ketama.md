@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Ketama is an indica landrace from the Ketama area of Morocco's Rif Mountains, one of the most concentrated and historically significant cannabis-producing regions in the world. The Rif highlands around Ketama have long been the epicenter of Moroccan hashish production, and the local landrace is closely associated with the kif and traditional pressed hashish for which the region is famous.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Orissa Gold is a sativa landrace from the state of Odisha (formerly Orissa) on the eastern coast of India — a state of coastal plains, river deltas, and eastern Ghats hill ranges, with a subtropical to tropical coastal climate characterized by high humidity, hot summers, and substantial monsoon rainfall. Cannabis from Odisha is associated with very tall, vigorously stretching sativa plants and an extended flowering time, producing material historically described by collectors as delivering a soaring, energetic effect with woody and peppery aromatic notes. The "Gold" designation parallels similar regional prestige names (Idukki Gold, Goa Gold) applied to celebrated Indian sativa types.

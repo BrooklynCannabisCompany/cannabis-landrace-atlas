@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Nujiang Valley cannabis population originates from the Nujiang (Salween River) Valley in western Yunnan Province, China — one of the most geographically isolated and ethnically diverse regions in the country. The Nujiang Grand Canyon is among the world's deepest river gorges, cutting through the Gaoligong and Biluo Snow Mountains and creating a dramatic range of microclimates from subtropical canyon floors to alpine ridgelines. Cannabis in this remote valley is believed to be influenced by both Himalayan and Southeast Asian genetic sources, reflecting the Salween River's role as a north-south biodiversity corridor.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Black Meao is a highland sativa landrace associated with the Hmong (Meao) communities of Northern Thailand, particularly the elevated terrain of the Chiang Mai and Chiang Rai regions. Grown at significant altitude under a tropical mountain climate characterized by monsoon rainfall and a distinct dry-cool season, this population is distinguished from lowland Thai varieties by its adaptation to high elevations and exceptionally long flowering period. It is regarded as one of the more specific ethnic-community-associated cannabis populations in Southeast Asia, tied to the traditional cultivation practices of highland hill tribe groups.

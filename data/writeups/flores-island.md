@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Flores Island is a feral sativa population associated with the Indonesian island of Flores, situated in the Lesser Sunda Islands east of Lombok and west of the Banda Sea. Flores is a volcanic island of significant geographic and ecological diversity, with a tropical island climate that varies from humid on the coasts to somewhat drier in rain-shadow areas. Cannabis found on Flores is generally characterized as a feral or naturalized population — plants that have established and persisted outside active cultivation — with a reported wood and citrus aromatic profile and a complex origin reflecting the island's position along historical maritime trade routes.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Primorsky Krai Feral is a feral cannabis population naturalized in Primorsky Krai — the southernmost territory of the Russian Far East, bordering China and North Korea and facing the Sea of Japan. This maritime region experiences a climate distinct from inland Siberian populations: cold winters remain intense, but summer humidity and warmth are moderated by maritime influence from the Sea of Japan. The Primorsky Krai population is considered potentially distinct from inland Siberian feral populations given the coastal temperate character of its environment.

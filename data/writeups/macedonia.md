@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Macedonia landrace is an intermediate cannabis population from North Macedonia — a landlocked country in the southern Balkans bordered by Serbia, Kosovo, Albania, Greece, and Bulgaria. North Macedonia occupies a landscape of mountain ranges intersected by fertile river valleys — including the Vardar River corridor, which connects the Aegean coast to the central Balkans — and the Ohrid and Prespa lake basins in the west. The mountain-valley climate of North Macedonia, combining continental and Mediterranean influences from the south, has shaped an intermediate cannabis population adapted to this transitional Balkan ecology.

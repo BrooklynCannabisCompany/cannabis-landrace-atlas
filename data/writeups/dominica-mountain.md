@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Dominica Mountain refers to cannabis populations from the mountainous interior of Dominica, the volcanic Lesser Antilles island. This entry captures the general mountain landrace context of Dominica, overlapping with but distinct from the more specifically named Dominica Highlands entry. Dominica's volcanic mountain terrain, extremely high annual rainfall, and rugged landscape create a growing environment unlike most other Caribbean islands — persistently wet, cloud-influenced, and mineral-rich. Cannabis adapted to this environment is characterized by heavy-rainfall and volcanic-terrain adaptation, placing it among the more extreme moisture-adapted Caribbean populations.

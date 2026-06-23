@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Angolan Highland is a tall sativa landrace originating from Angola's elevated interior plateau regions of central-southern Africa. Adapted to Angola's tropical highland climate — characterized by pronounced wet and dry seasons, intense equatorial sunlight, and moderate altitude — this population is noted for vigorous vertical growth often exceeding two to three metres. Its spicy-sweet fruit terpene character and strong heat tolerance distinguish it among the broader Southern African gene pool.

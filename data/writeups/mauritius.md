@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Mauritius is a small volcanic island nation in the southwestern Indian Ocean, roughly 900 km east of Madagascar. The cannabis population documented here is an island landrace shaped by centuries of geographic isolation, equatorial maritime weather, and the island's mix of tropical growing conditions. As a tropical island sativa, it is commonly reported to produce tall, elongated plants suited to the consistently warm, humid environment of Mauritius.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Iranian #3 is a drought-selected indica line originating in Iran, representing one of several collected accessions from the country's diverse cannabis-growing regions. The designation "#3" suggests it is a numbered selection from a broader Iranian collection rather than a geographically named population. It is associated with the arid plateau conditions common across much of Iran.
 

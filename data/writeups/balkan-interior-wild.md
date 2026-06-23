@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Balkan Interior Wild refers to a wild or feral sativa-type cannabis population found in the interior mountain forest zones of Serbia and the broader Balkan Peninsula. Unlike the more regionally specific Balkan Population entry, this record emphasizes the wild gene corridor character of feral plants naturalized across the forested mountain interiors of the western and central Balkans. Serbia's interior is dominated by mountain ranges and dense forest cover — the Šumadija, Kopaonik, and Stara Planina regions — where escaped and naturalized cannabis populations can persist with minimal human management.

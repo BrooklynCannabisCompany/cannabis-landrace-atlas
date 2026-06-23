@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Vietnamese Highland describes the broad upland gene pool of cannabis from Vietnam's mountainous interior regions — a diverse category encompassing sativa landraces from the highland zones of the country outside the specific Central Highlands plateau. Vietnam's highland geography is varied, stretching from the Hoang Lien Son range in the far north (home to Sa Pa and the Muong Hoa Valley) through the Truong Son (Annamite) mountain range that forms the spine of the country along the Lao border. This broad upland gene pool reflects mountain jungle conditions across multiple distinct highland ecosystems within Vietnam.

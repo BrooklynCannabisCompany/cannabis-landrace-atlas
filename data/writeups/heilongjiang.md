@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Heilongjiang cannabis population is a ruderalis-leaning, auto-adapted feral population from Heilongjiang Province in the far northeast of China — the country's northernmost province, bordering Russia along the Amur River. Heilongjiang experiences one of China's coldest and shortest growing seasons, with long winters, deep frosts, and a summer period too brief for conventionally photoperiod-dependent cannabis to reliably complete. The feral population found here has adapted accordingly, exhibiting autoflowering or near-autoflowering characteristics that allow plants to flower based on age rather than day length.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Sayan Mountains cannabis population is found in the Eastern and Western Sayan Mountain ranges of southern Russia — a rugged highland system forming the northern rim of the Mongolian Plateau and separating Siberia from the Mongolian steppe. The Sayan range encompasses alpine meadows, taiga forest, and forest-steppe zones, and cannabis naturalized here occupies habitats across this ecological gradient. The population is characterized by cold hardiness, adaptation to strong UV at altitude, and the short growing seasons typical of the southern Siberian mountain environment. It is considered potentially related to populations from the neighboring Tuva and Buryatia regions.

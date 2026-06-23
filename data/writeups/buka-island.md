@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Buka Island is the northernmost major island of the Bougainville province of Papua New Guinea, situated close to the border with the Solomon Islands. The cannabis population associated with Buka Island represents a feral sativa gene pool at the northern edge of the PNG island arc, in a zone where Melanesian island cultures have historically maintained connections across the maritime border. As a feral population in a tropical island setting, it is categorized separately from the more documented Bougainville landrace to the south, though geographic proximity means some genetic overlap is plausible.

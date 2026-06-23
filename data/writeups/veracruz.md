@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Veracruz landrace is associated with the Gulf Coast state of Veracruz, Mexico — a long, narrow coastal state running along the western shore of the Gulf of Mexico. The region encompasses tropical lowland rainforest, cloud forest transition zones, and fertile coastal plains shaped by a warm, humid tropical climate with pronounced seasonal rainfall. As a sativa-type landrace adapted to tropical lowland conditions, Veracruz cannabis is typically described as a tall, moderately long-flowering plant suited to Mexico's Gulf Coast environment.

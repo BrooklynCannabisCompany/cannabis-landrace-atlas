@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Spanish Sierra Nevada refers to a sativa/hemp cannabis population associated with the Sierra Nevada mountain range of southern Spain — the high alpine massif in the Granada province of Andalusia, home to the highest peaks on the Iberian Peninsula including Mulhacén (3,479 m). This entry is specifically anchored to the Spanish Sierra Nevada in Andalusia, not the Sierra Nevada of Colombia or any other same-named range. The Spanish Sierra Nevada rises dramatically from the warm Mediterranean coast and the city of Granada, creating a unique vertical gradient of climate zones from Mediterranean lowlands to alpine terrain above the treeline. The population is characterized by high-altitude adaptation and a mountain Mediterranean climate profile.

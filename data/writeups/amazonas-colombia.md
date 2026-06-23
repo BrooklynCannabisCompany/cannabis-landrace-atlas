@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Amazonas Colombia refers to cannabis populations associated with Colombia's Amazonas Department in the country's far south, bordering Peru and Brazil. This region lies almost entirely within primary equatorial rainforest and contains some of the most remote and biologically diverse territory in South America. The population is categorized as a Sativa growing under equatorial rainforest conditions, with grower accounts highlighting exceptional humidity tolerance and vigorous growth habits characteristic of long-adapted Amazonian landraces.

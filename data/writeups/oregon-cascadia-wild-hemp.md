@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Oregon Cascadia Wild Hemp refers to feral hemp populations documented in the Pacific Northwest of the United States, broadly associated with the temperate rainforest zone of Oregon and the broader Cascadia bioregion. These are naturalized or escaped hemp plants — Cannabis sativa of hemp lineage — that have persisted outside of cultivation in the region's characteristic wet, mild climate. The designation "Pacific NW feral line" reflects their status as plants that have adapted to the environment over time rather than actively cultivated populations.

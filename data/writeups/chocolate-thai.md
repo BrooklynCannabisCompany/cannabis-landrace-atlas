@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chocolate Thai is a traditional Thai landrace selection associated with central and southern Thailand — a population renowned in cannabis history for its distinctive coffee, cocoa, and earthy aromatic profile. Unlike the highland mountain types from Northern Thailand, Chocolate Thai is commonly associated with the warmer, lower-elevation growing zones of central and southern Thailand, where tropical lowland conditions shaped a different expression within the broader Thai landrace complex. Its influence on modern cannabis breeding has been substantial, making it one of the most historically significant Southeast Asian landraces.

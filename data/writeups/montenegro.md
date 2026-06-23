@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Montenegro landrace is an intermediate cannabis population from the Dinaric Alps of Montenegro — a small Balkan country on the Adriatic coast bordering Croatia, Bosnia and Herzegovina, Serbia, Kosovo, and Albania. Montenegro is dominated by rugged limestone karst mountains, narrow river canyons, and a short but intensely Mediterranean Adriatic coastline. The name Montenegro ("Black Mountain") reflects the dramatic relief of a country where the alpine landscape rises steeply from the Adriatic shore. This population is described as representing a transition between Balkan and Mediterranean ecologies, shaped by the combination of Adriatic maritime influence and continental mountain conditions.

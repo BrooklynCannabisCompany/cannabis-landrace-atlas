@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Mazar I Sharif is a short, fast-finishing indica landrace from the northern Afghan city and region of Mazar-i-Sharif in Balkh Province — an area situated between the Hindu Kush foothills and the Amu Darya river plain bordering Uzbekistan and Turkmenistan. This strain is associated with high resin production and is one of the most recognized Afghan indica names in both hashish tradition and Western cannabis breeding.
 

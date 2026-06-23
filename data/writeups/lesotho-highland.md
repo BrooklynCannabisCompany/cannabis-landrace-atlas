@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Lesotho Highland is a medium-tall sativa landrace from the mountain kingdom of Lesotho — a landlocked country entirely surrounded by South Africa and positioned almost entirely above 1,400 metres elevation. Lesotho's cold highland climate, with its harsh winters, short growing season, and strong summer sunlight, has produced a cannabis population notable for its cold adaptation — rare among African landraces — and a citrus-resin terpene profile. Lesotho has a history of cannabis production that has made it a significant supplier within southern Africa.

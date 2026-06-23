@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Huallaga Valley refers to cannabis populations associated with the Huallaga River Valley in Peru — a major river corridor in the high selva (montaña) zone of central Peru, draining the eastern Andean slopes into the Amazon basin through the departments of Huánuco, San Martín, and Loreto. The Upper Huallaga Valley is situated at the critical transition between the Andean highlands and the Amazonian lowland jungle, combining influences from both environments. This population is classified as a tropical-Andean sativa landrace reflecting the dual highland-Amazonian character of the valley.

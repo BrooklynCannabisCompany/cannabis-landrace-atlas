@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Jilin Wild Hemp is a Chinese ruderalis hemp population naturalized in Jilin Province, northeastern China. Jilin borders Russia and North Korea and experiences a harsh continental climate with severe winters and a short growing season. The population is described as entirely adapted to freezing conditions and autoflowering — characteristics that place it firmly within the ruderalis spectrum of cannabis adaptation, where survival in extreme northern latitudes has driven the evolution of age-based rather than photoperiod-based flowering.

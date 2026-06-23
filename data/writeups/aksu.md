@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Aksu is an oasis landrace from Aksu Prefecture in the northwestern Tarim Basin of Xinjiang, China. Situated along ancient Silk Road trade routes, this mixed-category cannabis population is associated with irrigated agricultural cultivation in one of Central Asia's most arid desert zones. The Tarim Basin's unique geography — surrounded by the Tianshan Mountains to the north and the Kunlun range to the south — creates conditions that grower accounts suggest have shaped a drought-tolerant, resource-efficient plant adapted to the extremes of a desert oasis environment.

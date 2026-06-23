@@ -1,8 +1,6 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
-The Dnieper Basin entry describes a naturalized feral cannabis population associated with the Dnieper River Basin of Ukraine — the great river that runs from the Russian uplands southward through Ukraine to the Black Sea, forming the backbone of the country's river system. Ukraine has been one of Europe's most significant hemp-producing nations historically, and the Dnieper corridor and its tributaries supported extensive hemp cultivation across the forest-steppe and steppe zones of central and southern Ukraine. The feral populations described here represent naturalized descendants of this long cultivation history.
+The Dnieper Basin entry describes a naturalized feral cannabis population associated with the Dnieper River Basin of Ukraine — the great river that runs from the Russian uplands southward through Ukraine to the Black Sea, forming the backbone of the country's river system. Ukraine has been one of Europe's most significant hemp-producing nations historically, and the Dnieper corridor and its tributaries supported extensive hemp cultivation across the forest-steppe and steppe zones of central and southern Ukraine. The feral populations described here represent naturalized descendants of this long cultivation history. The Dnieper rises in Russia and flows through Belarus before crossing Ukraine, and naturalized populations occur along its Belarusian reaches as well.
 
 ## History
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Transkei-2 represents the inland variant of the Transkei sativa landrace from South Africa's Eastern Cape — specifically material collected from the dry inland river valleys, hills, and escarpment zones away from the Wild Coast shoreline. While sharing the broader Transkei geographic origin with the coastal variant, this inland type grows under a distinctly different climate: an inland temperate environment with greater temperature swings, lower humidity, and drier conditions during portions of the year. It is distinguished from the coastal Transkei by denser flower clusters, sturdier branching, and a spicy, herbal, and aniseed aromatic profile rather than the citrus-tropical notes of the coastal form.

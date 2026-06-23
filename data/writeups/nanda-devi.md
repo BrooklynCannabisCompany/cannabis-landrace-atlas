@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Nanda Devi designates a wild sativa population associated with the high-altitude zones of the Nanda Devi region of Uttarakhand, India — the area surrounding the Nanda Devi massif (7,816 m) and the Nanda Devi Biosphere Reserve in the Chamoli and Pithoragarh districts of the Kumaon and Garhwal Himalayas. This is an extreme alpine environment, and the cannabis population here is characterized as a wild feral type — an isolated gene pool growing without cultivation or selection by humans. The region is among the most biologically sensitive in the Indian Himalaya and has been protected as a biosphere reserve since 1988, with access to its inner sanctuary severely restricted.

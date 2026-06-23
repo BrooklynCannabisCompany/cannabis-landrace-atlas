@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Eastern Anatolian Highlands landrace is an indica-leaning cannabis from the high plateau and mountain regions of eastern Turkey — a vast, elevated region characterized by cold winters, dry summers, and altitudes typically exceeding 1,500–2,000 m. This population is commonly considered one of the most likely sources of traditional Anatolian hash-producing cannabis, shaped by the harsh continental climate of a region that historically connects the Caucasus, Mesopotamia, and the Iranian Plateau. Grower accounts suggest the population reflects the environmental extremes of Turkey's eastern interior — cold, wind-exposed, and demanding rapid completion before the early autumn frosts that characterize this high plateau.

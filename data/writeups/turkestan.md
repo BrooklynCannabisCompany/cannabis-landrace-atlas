@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Turkestan is an indica landrace associated with the historic Turkestan region of Uzbekistan — a name that historically referred to the broad Central Asian territories inhabited by Turkic peoples, but is anchored here to Uzbekistan specifically. The Uzbek portion of this region lies in the heart of the Silk Road corridor, encompassing fertile agricultural zones in the Fergana Valley and surrounding areas historically important for cannabis cultivation and trade.
 

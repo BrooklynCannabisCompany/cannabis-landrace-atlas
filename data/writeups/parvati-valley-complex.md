@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Parvati Valley Complex is an indica-leaning resin complex from the Parvati River valley of Kullu District, Himachal Pradesh, India — a lateral Himalayan valley ascending from its confluence with the Beas River at roughly 1,000 meters to the high passes bordering Spiti at above 4,000 meters. The Parvati Valley is internationally recognized as one of the premier charas-producing zones of the world, encompassing sub-populations from multiple villages and elevation bands — including the celebrated Malana village at its head and the main valley settlements of Manikaran, Kasol, and Khir Ganga. The "complex" designation reflects the genetic and ecological diversity within this single extended valley corridor.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Antioquia Lowlands refers to cannabis populations associated with the lower-elevation zones of Colombia's Antioquia Department, particularly the warmer valleys and tropical lowland areas of the northern Andes foothills. In contrast to the highland populations of the same department, this landrace is adapted to the heat, humidity, and year-round growing conditions typical of Colombia's tropical lowlands. It is classified as a Sativa and is distinct from highland Antioquia populations in both morphology and climate adaptation.

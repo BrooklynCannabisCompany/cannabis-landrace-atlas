@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Pernambuco is a sativa landrace from the state of Pernambuco on Brazil's northeastern Atlantic coast. Pernambuco is a coastal state in the region known as the Nordeste, situated at roughly 8° south of the equator and characterized by a tropical equatorial coastal climate — hot temperatures, high humidity near the coast, and a mix of wet and dry seasonal patterns driven by the Atlantic. This northeastern Brazilian coastal setting is distinct from the Amazon Basin interior or the southern subtropical regions, giving this population a specific climate context: equatorial coastal with pronounced seasonality.

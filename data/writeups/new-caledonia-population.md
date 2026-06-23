@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The New Caledonia Population is a rare Pacific island cannabis population associated with New Caledonia, a French territory in the southwestern Pacific Ocean approximately 1,200 kilometres east of Australia. New Caledonia is notable for its exceptional biodiversity, unique geology, and a climate that ranges from tropical maritime on the northern coast to more temperate conditions in the south. The cannabis population found here is adapted to oceanic conditions, heat, and seasonal rainfall typical of New Caledonia's tropical maritime climate. It is classified as a sativa heirloom island population and is considered rare within the broader Pacific cannabis landrace context.

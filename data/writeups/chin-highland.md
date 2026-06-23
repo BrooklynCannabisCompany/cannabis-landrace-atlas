@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chin Highland refers to a sativa landrace associated with the mountainous border region of western Myanmar, in the area broadly corresponding to Chin State and the ranges along the Indian border. Growing under a mountain jungle climate characterized by heavy monsoon rainfall, high humidity, and elevations that moderate equatorial heat, this population occupies a botanical and cultural corridor between South Asian and Southeast Asian cannabis types. It is generally described as a border genetic corridor, reflecting its position on the geographic and cultural interface between the Indian subcontinent and mainland Southeast Asia.

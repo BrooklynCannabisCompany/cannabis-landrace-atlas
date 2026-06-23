@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Bursa landrace originates from Bursa Province in northwestern Turkey, situated at the foot of Uludağ (Mount Olympus of Mysia) on the southern shore of the Sea of Marmara. Bursa lies at a geographic crossroads between the Anatolian interior and the Balkans, and this intermediate hybrid-category landrace reflects that position — neither a pure highland indica type nor a sativa-influenced coastal population, but a moderate, adaptable cannabis shaped by the fertile plains, mild maritime influences from the Marmara, and the historical agricultural productivity of this region.

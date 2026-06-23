@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Timor is a feral sativa population from Timor-Leste (East Timor), the small nation occupying the eastern half of the island of Timor and the exclave of Oecusse, situated at the southeastern edge of the Indonesian archipelago near the boundary with Australia. The island of Timor is ecologically distinct within Southeast Asia — its climate is drier and more seasonal than the equatorial islands to the west, with a pronounced dry season driven by Australian monsoonal systems. Cannabis surviving here is classified as feral sativa, adapted to tropical island conditions and long described by the limited collector accounts that exist as producing woody and citrus aromatic profiles.

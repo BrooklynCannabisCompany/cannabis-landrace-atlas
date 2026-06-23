@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Yenisei Basin landrace refers to feral cannabis populations associated with the Yenisei River corridor and surrounding Siberian taiga in Russia. The Yenisei is one of the world's great rivers, draining a vast swath of central Siberia from the Sayan Mountains northward to the Arctic Ocean. Cannabis found along this corridor is a feral boreal population — descended from plants that escaped cultivation and naturalised in forest-edge and river-margin habitats over generations. Its intermediate indica–sativa character likely reflects both the mixed ancestry of historical hemp cultivation in the region and the strong selective pressure imposed by Siberia's extreme seasonality.

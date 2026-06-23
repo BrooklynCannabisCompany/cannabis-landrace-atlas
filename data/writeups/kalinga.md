@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Kalinga is a highland sativa landrace from Kalinga Province in the Cordillera Administrative Region of Luzon, Philippines. Situated in the rugged mountain terrain of the northern Cordillera highlands at significant elevation, Kalinga experiences a climate characterized by heavy rainfall, high humidity, and cooler temperatures than the Philippine lowlands. The province is home to the Kalinga people, known for their warrior traditions and rich indigenous culture. Cannabis from this region is commonly associated with strong tropical adaptation, excellent vigor, and a close genetic relationship to the neighboring Ifugao and Benguet populations of the Luzon Cordillera.

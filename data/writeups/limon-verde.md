@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Limon Verde is a Colombian heirloom cannabis population associated with the Colombian Andes — a tropical mountain sativa landrace known informally for citrus-forward aromatic expressions. The name ("Green Lemon" in Spanish) reflects this citrus character, which is said to be a consistent trait noted by growers who have worked with this population. It is situated in the broader context of Andean Colombian sativa landraces and is associated with vigorous growth and strong tropical mountain adaptation.

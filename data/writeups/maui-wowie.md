@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Maui Wowie is an acclimatized Hawaiian heirloom sativa, associated with the island of Maui in the Hawaiian archipelago. Unlike strictly wild or traditionally cultivated landraces, Maui Wowie is considered an acclimatized heirloom — a population that arrived in Hawaii (likely via mainland United States or Pacific trade routes) and adapted over decades to the island's tropical climate. Maui's volcanic soils, trade winds, intense Pacific sunlight, and tropical island environment are commonly cited as the environmental context that shaped this strain's character.

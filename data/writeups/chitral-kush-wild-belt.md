@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Chitral Kush Wild Belt is an indica landrace from the wild and semi-wild cannabis populations found in the high alpine valleys of Chitral District, Pakistan — a zone that overlaps geographically with the cultivated Chitral landrace but represents a broader feral-to-cultivated continuum rather than a purely directed cultivated selection. This population is associated with the extreme resin expression observed when cannabis in the Hindu Kush region grows under cold stress, including both deliberately cultivated plants and those that have naturalized along valley margins and high slopes. Grower accounts describe this as a feral and cultivated mix with extreme resin development driven by cold alpine conditions.

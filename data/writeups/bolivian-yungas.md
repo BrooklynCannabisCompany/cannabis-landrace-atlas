@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Bolivian Yungas refers to cannabis populations associated with Bolivia's Yungas region — the dramatic cloud-forest transition zone on the eastern slopes of the Andes, descending from the high altiplano toward the Amazon lowlands. The Yungas encompasses provinces of La Paz Department and is characterized by steep terrain, persistent cloud cover, high rainfall, and a climate that blends Andean altitude influence with Amazonian humidity. This Andean-Amazon transition produces a distinctive growing environment unlike either the highland altiplano or the lowland jungle.

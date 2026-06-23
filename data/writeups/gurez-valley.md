@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Gurez Valley is an indica landrace from the Gurez Valley of the Bandipora District in Jammu and Kashmir, India — a remote, glacier-fed valley in the upper Kishanganga River drainage, situated close to the Line of Control with Pakistan. Accessible only seasonally due to heavy snowfall, the Gurez Valley has remained largely isolated from outside influence. Cannabis populations here are described as cold-adapted and resinous, comparable in expression to the better-known Kashmir Valley landrace while representing a distinct, more geographically isolated population.

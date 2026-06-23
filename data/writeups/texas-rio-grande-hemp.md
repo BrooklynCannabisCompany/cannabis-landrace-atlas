@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Texas Rio Grande Hemp refers to feral or naturalized hemp populations associated with the Rio Grande corridor of Texas — the arid desert and semi-arid zone along the United States–Mexico border in southwestern Texas. This region is characterized by extreme heat, low annual rainfall, caliche soils, and dramatic seasonal temperature swings. The population documented here is classified as a "drought escape" hemp line, meaning it is adapted to complete its life cycle — germinating, growing, flowering, and setting seed — within the narrow window of seasonal moisture availability, effectively outpacing drought rather than tolerating prolonged dry conditions.

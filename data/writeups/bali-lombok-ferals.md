@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Bali / Lombok Ferals refers to a feral hybrid population distributed across the Indonesian islands of Bali and Lombok, situated in the Lesser Sunda Islands east of Java. Neither island has a strong documented history of intentional landrace cannabis cultivation comparable to Sumatra or Kalimantan; rather, the plants found here are broadly characterized as escaped or naturalized populations — cannabis that has reverted to a semi-wild state after introduction, likely representing a mixture of genetic backgrounds. Climate and growing conditions vary across both islands, from coastal lowlands to mountainous inland zones.

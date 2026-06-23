@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Southern Ecuador Interior Andean Valley refers to a cannabis population from the interior Andean valley region of southern Ecuador. Southern Ecuador's interior Andean geography encompasses the inter-Andean valley system that lies between the Cordillera Occidental and the Cordillera Real, extending through provinces such as Azuay and Loja. These sheltered interior valleys have a distinct climate compared to either the Pacific coastal lowlands or the exposed highland ridgelines — generally warmer and drier than outer Andean slopes, with a valley-bottom temperature profile shaped by the surrounding mountain terrain.

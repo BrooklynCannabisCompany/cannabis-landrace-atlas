@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Salta Feral refers to a feral cannabis population naturalized in the Salta Province of northwestern Argentina. Salta is a geographically diverse province in the Andean foothills and pre-Andean valleys of the far northwest, characterized by dramatic elevation changes, a subtropical highland climate, and pronounced seasonal temperature swings. The mountain foothills climate of the Salta region — hot summers, cold winters, and dry periods — is quite distinct from the humid subtropical conditions of northeastern Argentina (Misiones) or the temperate pampas. A feral population established here would have been shaped by these conditions: drought tolerance and adaptation to large temperature swings, as noted in the summary.

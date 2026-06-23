@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Muang Sing is a sativa regional complex associated with Muang Sing district in Luang Namtha Province, northwestern Laos — a small but botanically significant highland valley near the tri-border point where Laos, Myanmar, and China's Yunnan Province converge. This location situates Muang Sing squarely within the broader Golden Triangle genetic zone, and the population is broadly characterized as a Golden Triangle variant shaped by the specific highland conditions of the Muang Sing valley and its surrounding mountain terrain. Diverse ethnic communities — including Tai Lue, Akha, Hmong, and others — have historically cultivated crops in this highland zone.

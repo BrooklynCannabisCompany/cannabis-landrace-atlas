@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sepik Basin PNG is a rainforest landrace sativa from the Sepik River Basin of Papua New Guinea — one of the largest lowland river systems in the Pacific region. The Sepik Basin occupies a vast area of northern Papua New Guinea, characterised by equatorial heat, extremely high annual rainfall, seasonal flooding, and dense tropical forest interspersed with areas of traditional agriculture. This population is explicitly distinguished from PNG highland populations: it represents a low-elevation, river-valley-adapted line shaped by conditions of continuous warmth and moisture rather than the cooler, altitude-moderated environment of PNG's interior highlands.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Manus Island is the principal island of Manus Province, Papua New Guinea's most northerly and most isolated province, located in the Admiralty Islands group in the Bismarck Sea. This remote island gene pool represents a feral sativa population shaped by the island's equatorial conditions — consistent warmth, high humidity, significant rainfall, and the genetic isolation that comes with island geography separated from mainland PNG. The equatorial island setting and feral classification suggest a naturalized population that has adapted to Manus Island's specific maritime conditions without sustained intentional cultivation.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chiang Mai is a highland sativa landrace from Chiang Mai Province in Northern Thailand — one of the most celebrated cannabis-producing regions in Southeast Asia. Set in a landscape of steep forested mountains reaching above 2,500 m, with a tropical mountain climate defined by a cool-dry winter, a hot-dry pre-monsoon, and a warm monsoon growing season, this population has been shaped by both its demanding environment and generations of traditional cultivation. Among Thai cannabis varieties, Chiang Mai is particularly noted for exceptional vigor, a very long flowering period, and the classic terpene expression associated with Northern Thai highland genetics.

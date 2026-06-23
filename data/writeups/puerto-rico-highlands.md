@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Puerto Rico Highlands refers to the cannabis population associated with the Cordillera Central of Puerto Rico — the island's mountainous interior spine, which runs east–west and reaches elevations above 1,000 meters. This is a mountain tropical landrace distinct from any lowland or coastal cannabis found elsewhere on the island. Situated in the Caribbean but elevated above the humid coastal plain, the Cordillera Central offers cooler temperatures, frequent cloud cover, and high rainfall — conditions that shape a population combining the vigorous growth of a tropical sativa with greater elevation tolerance than typical sea-level Caribbean landraces.

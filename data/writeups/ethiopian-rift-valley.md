@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Ethiopian Rift Valley is a medium-statured sativa landrace from the Great Rift Valley corridor of Ethiopia in East Africa. Distinct from the better-known Ethiopian Highland population, this variant occupies Ethiopia's lower-altitude rift zones — characterised by a warmer, drier semi-arid climate with less temperature variation than the high plateau. The result is a notably faster-finishing cannabis type relative to highland Ethiopian material, making it one of the quicker East African sativas on record.

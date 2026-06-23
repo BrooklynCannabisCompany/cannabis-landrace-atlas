@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Kazakhstan Steppe refers to the massive feral and semi-feral cannabis population spread across the open grasslands of Kazakhstan — one of the largest contiguous cannabis populations on Earth. Distributed across millions of hectares of Eurasian steppe, this population spans a wide range of latitudes and microclimates and is broadly classified as a ruderalis/hemp complex, reflecting its origins in both historical hemp cultivation and long-established feral naturalization.
 

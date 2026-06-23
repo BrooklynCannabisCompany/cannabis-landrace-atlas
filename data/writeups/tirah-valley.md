@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Tirah Valley is a resin-heavy indica landrace from the Tirah Valley of Pakistan, a remote mountainous area in the Khyber tribal region west of Peshawar, bordering Afghanistan's Nangarhar Province. Tirah is one of the most historically isolated regions of the Hindu Kush foothills — a rugged, densely forested valley traditionally governed by the Afridi and Orakzai Pashtun tribes. Its isolation and proximity to the Afghanistan border place it within the broader Afghan-Pakistani indica cannabis zone.
 

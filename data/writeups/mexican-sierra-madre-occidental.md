@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mexican Sierra Madre Occidental landrace is associated with Mexico's Sierra Madre Occidental — the country's largest and most significant mountain range, running roughly parallel to the Pacific coast through the states of Sonora, Chihuahua, Sinaloa, Durango, Nayarit, Jalisco, and Zacatecas. This rugged range of mountains and deep barrancas has been one of Mexico's most important cannabis-producing regions, with highland communities cultivating sativa landraces adapted to its elevation, seasonal rainfall, and rugged terrain for generations. Populations from this mountain system are commonly cited as source material for many classic Mexican sativas.

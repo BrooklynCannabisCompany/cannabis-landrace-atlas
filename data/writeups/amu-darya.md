@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Amu Darya landrace is associated with the Amu Darya River Basin in Afghanistan, a region commonly described as one of the most important cannabis migration corridors in Central Asia. The Amu Darya (historically the Oxus River) forms the northern border of Afghanistan with Turkmenistan, Uzbekistan, and Tajikistan, and its floodplain has historically connected the Pamirs to the east, the Hindu Kush to the south, and the Turkestan lowlands to the north and west. This intermediate hybrid-category landrace reflects the genetic crossroads character of the region, where indica-leaning Afghan highland populations would have encountered sativa-leaning lowland and Central Asian types along historic trade and movement routes.

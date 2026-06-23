@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Rutshuru is a highland equatorial sativa landrace from Rutshuru Territory in North Kivu Province, eastern Democratic Republic of Congo. This region sits within the Albertine Rift — the western branch of the East African Rift system — and is defined by its proximity to active volcanic mountain systems, including the Virunga range. Cannabis grown here is adapted to fertile volcanic soils, high equatorial rainfall, and the complex highland conditions of one of Africa's most geologically and ecologically remarkable zones.

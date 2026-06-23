@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Badakhshan is an indica landrace from the high mountain province of Badakhshan in northeastern Afghanistan, one of the most remote and rugged regions of the Hindu Kush-Pamir system. The area spans the upper Amu Darya tributaries and the Wakhan Corridor, sharing borders with Tajikistan, Pakistan, and China. Badakhshan's cannabis is commonly described as a hash-rich resin landrace — a short, fast-finishing indica type adapted to the extreme conditions of high-altitude Afghan mountain cultivation. The region's isolation and traditional land use patterns have likely contributed to the preservation of a relatively intact landrace gene pool.

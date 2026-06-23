@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Albanian Native refers to the wild regional cannabis population found across Albania — a small Balkan country on the Adriatic coast with terrain spanning coastal lowlands, river valleys, and high mountain ranges. As a hemp/sativa mixed population, this entry likely encompasses the semi-feral and naturalized cannabis found throughout Albanian agricultural land and roadsides rather than a single cultivated landrace. Albania has a long association with cannabis cultivation, particularly in certain rural regions, and this entry represents the broader indigenous gene pool of that country.

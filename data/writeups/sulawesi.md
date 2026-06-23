@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Sulawesi is a sativa landrace from the island of Sulawesi, Indonesia — a distinctively shaped island in the Wallacea biogeographic zone between the Sunda and Sahul continental shelves. Sulawesi's ecology has long been recognized as highly distinct from neighboring Borneo and Java due to its geographic isolation, and the same insularity applies to its cannabis populations. This island-adapted jungle cannabis represents a gene pool that developed under equatorial island tropical conditions — consistently warm, humid, and without the dramatic seasonal dry periods found on some other Indonesian islands.

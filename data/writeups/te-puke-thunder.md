@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Te Puke Thunder is a historic heirloom sativa from the Bay of Plenty region on New Zealand's North Island — one of New Zealand's most celebrated regional cannabis lines. Te Puke is a small town in the Bay of Plenty known for its horticultural output, situated in an area that benefits from a maritime subtropical climate: long, warm summers, mild winters, and moderate humidity. This combination of a favourable growing climate and the attentive outdoor selection practices of New Zealand growers over decades produced a line with a strong reputation for vigour, outdoor performance, and regional identity.

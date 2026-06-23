@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Punto Rojo is a legendary Colombian sativa landrace whose name translates to "red point" or "red dot," referring to the distinctive reddish coloration that appears on the calyxes and pistils of some phenotypes at maturity. This is a Colombian strain — not to be confused with similarly named varieties from other countries — associated with the highland jungle climate zones of Colombia. Punto Rojo is among the most storied Colombian landraces, celebrated in South American cannabis culture for its psychedelic, cerebral character and its visually distinctive appearance.

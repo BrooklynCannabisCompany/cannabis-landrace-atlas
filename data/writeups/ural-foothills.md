@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Ural Foothills population is a feral Ruderalis-type cannabis found in the foothills of the Ural Mountains in Russia, the natural boundary between Europe and Asia. This is a northern, cold-adapted population growing at latitudes where summer seasons are short and winters are severe. Plants of this type are typically short-statured and have been shaped over many generations by the harsh continental temperate climate of the region rather than by deliberate cultivation.

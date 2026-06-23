@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Chamba is an indica-leaning landrace from Chamba District in Himachal Pradesh, India — a cold mountain district in the upper Ravi River watershed bordering Jammu and Kashmir to the north. The district's terrain is rugged and largely roadless in its higher reaches, with elevations suitable for cannabis cultivation ranging from about 1,000 to over 3,000 meters. Chamba cannabis is associated with dense resin production and the hash-making traditions common across Himachal Pradesh's northern hill districts.

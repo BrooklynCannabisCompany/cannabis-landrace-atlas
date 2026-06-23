@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Llanos refers to a sativa landrace population associated with the vast tropical savanna plains of Colombia — the Llanos Orientales — a sweeping lowland region stretching eastward from the Andes foothills toward the Venezuelan border. Adapted to the flat, seasonally flooded grasslands that define this climate zone, this population represents cannabis shaped by a savanna tropical environment rather than the highland or jungle conditions more commonly associated with Colombian landraces. The Llanos covers millions of hectares, and any cannabis populations here would have developed under intense seasonal rainfall alternating with dry periods, high heat, and open exposure.

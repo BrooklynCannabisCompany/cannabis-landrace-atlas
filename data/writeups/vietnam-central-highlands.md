@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Vietnam Central Highlands is a sativa landrace from the plateau region of south-central Vietnam, associated specifically with the Dak Lak and Kon Tum provinces — the two largest and most prominent provinces of the Tay Nguyen (Central Highlands) plateau. This elevated interior region sits at roughly 400–1,000 meters above sea level and is distinct climatically from Vietnam's coastal lowlands, featuring a plateau tropical climate with a pronounced dry season. The area is home to multiple indigenous ethnic minority groups (Montagnards), and cannabis has historically been present in highland village contexts across the region.

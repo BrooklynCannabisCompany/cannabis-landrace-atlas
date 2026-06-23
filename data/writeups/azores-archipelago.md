@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Azores Archipelago landrace is a sativa-leaning cannabis population associated with the nine volcanic islands of the Azores — a Portuguese autonomous region located in the North Atlantic Ocean roughly 1,500 kilometers west of mainland Portugal. The Azores experience a true oceanic maritime climate: mild year-round temperatures, persistently high humidity, strong Atlantic winds, and volcanic soils rich in minerals. This ecological setting, among the most distinctive in Europe, has shaped a tall, long-flowering sativa population adapted to the unique pressures of island life in the mid-Atlantic.

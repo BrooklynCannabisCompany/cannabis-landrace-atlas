@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 Portuguese Algarve refers to a hemp-type feral cannabis population from the Algarve — the southernmost region of Portugal, occupying the country's Atlantic and Mediterranean coast below the Serra de Monchique and Serra do Caldeirão ranges. The Algarve is one of the driest, hottest, and most sun-drenched corners of the Iberian Peninsula and indeed of all Europe, with long rainless summers, calcareous soils, and exposure to both Atlantic and Mediterranean weather systems. The feral hemp population of this region is characterized primarily by drought tolerance, adapted to the Algarve's characteristically dry coastal conditions.

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 Taurus Mountains is an indica-leaning mountain landrace from the Taurus (Toros) Mountain Range in southern Turkey, a major arc of peaks running parallel to the Mediterranean coast across the provinces of Antalya, Konya, Mersin, and Adana. The Taurus system creates a sharp climatic divide between the Mediterranean coast and the Anatolian interior, and cannabis adapted to its rocky high-altitude terrain occupies a distinct ecological niche between these two zones.
 

@@ -1,5 +1,3 @@
-> _AI-generated draft — unverified. [Help us improve it.](#suggest)_
-
 ## Overview
 
 The Mongolian Steppe cannabis population is a feral autoflowering ruderalis population distributed across the cold steppe grasslands of Mongolia. This population represents the most climatically extreme end of the Mongolian cannabis spectrum — plants that have adapted to the open, wind-swept steppe by abandoning dependence on photoperiod entirely, instead flowering based on age. Mongolia's cold steppe climate, with its severe winters, short warm seasons, and high continental aridity, is among the most challenging environments in which cannabis is found.
