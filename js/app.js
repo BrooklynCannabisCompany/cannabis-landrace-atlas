@@ -58,7 +58,6 @@ function closePanel() {
 const writeupCache = new Map(); // strain id -> rendered (pre-decoration) HTML
 
 function decorateWriteup(strain) {
-  wireDisclaimer(strain);
   insertRelated(strain);
   fillLinkSections(strain);
   decorateWriteupSections(strain);
@@ -84,13 +83,6 @@ async function loadWriteup(strain) {
   } catch {
     if (reqId === currentId) { setWriteupMissing(panel); insertRelated(strain); }
   }
-}
-
-// Wires the disclaimer's "Help us improve it." link to the Suggest Corrections flow.
-function wireDisclaimer(strain) {
-  const link = panel.querySelector('.writeup a[href="#suggest"]');
-  if (!link) return;
-  link.addEventListener('click', (e) => { e.preventDefault(); openStrainSubmit(strain); });
 }
 
 // Adds a "+" submit button beside the link-collecting write-up sections.

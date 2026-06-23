@@ -183,7 +183,8 @@ edit it **here only**, then re-validate.
 - **Panel content order** (matches the Index facet order): title, place, badges
   (Morphotype + vernacular Type, both purple, clickable, with tooltips), then trait rows
   — AKA, Region, Climate, Chemotype, Domestication, Type (vernacular), Height, Flowering
-  Time — then "Location is approximate.", the disclaimer, and the write-up sections.
+  Time — then "Location is approximate." and the write-up sections. (Write-ups are
+  AI-generated drafts; that caveat lives in the README, not in every panel.)
 - **Modals** (`modal.js`): About, Database (embedded iframe), References, License, the Index,
   and every contribution form render through `openContentModal(title, build, opts)`; focus is
   trapped and restored. `opts` toggles modal classes:
@@ -249,9 +250,9 @@ position.
 ## 12. Write-ups & contributions
 
 - Write-ups (`data/writeups/<id>.md`) are loaded on demand, rendered with `markdown.js`
-  (sanitized), cached per id, then **decorated** at runtime (`decorateWriteup`): wire the
-  disclaimer link, insert related-variety links, fill the link sections from the record's
-  arrays, and append the ⊕ add buttons. See `docs/writeup-generation-guide.md` for the
+  (sanitized), cached per id, then **decorated** at runtime (`decorateWriteup`): insert
+  related-variety links, fill the link sections from the record's arrays, and append the ⊕
+  add buttons. See `docs/writeup-generation-guide.md` for the
   generation rules (fixed 8-section shape, no invented URLs, honest hedging).
 - Link sections (Seed Sources / Forum Discussions / References) render one entry per line;
   References uses `record.references` (falling back to seed sources). Photos render as
