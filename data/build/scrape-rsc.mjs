@@ -1,20 +1,21 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 //
-// Matches The Real Seed Company product pages (data/rsc-urls.txt, from their sitemap)
+// Matches The Real Seed Company product pages (data/build/rsc-urls.txt, from their sitemap)
 // against landraces.json. Matches add an RSC seed source (-> Seed Sources + References)
 // and an AKA (when the RSC name is a shorter base form); unmatched strains are merged into
-// data/strains-to-add.json. Mirrors scrape-tlt.mjs.
+// data/build/strains-to-add.json. Mirrors scrape-tlt.mjs.
 //
-//   node data/scrape-rsc.mjs            # dry run
-//   node data/scrape-rsc.mjs --write    # apply (run `npm run convert` after)
+// Provenance tool only — not a live path (see CLAUDE.md / implementation-guide §6).
+//   node data/build/scrape-rsc.mjs            # dry run
+//   node data/build/scrape-rsc.mjs --write    # apply
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const records = JSON.parse(readFileSync(join(here, 'landraces.json'), 'utf8'));
+const records = JSON.parse(readFileSync(join(here, '..', 'landraces.json'), 'utf8'));
 const VENDOR = 'The Real Seed Company';
 
 // Non-product slugs (podcasts, projects, books) to skip.
@@ -108,5 +109,5 @@ if (!process.argv.includes('--write')) {
   writeFileSync(akaPath, `${JSON.stringify(aka, null, 2)}\n`);
   writeFileSync(addPath, `${JSON.stringify(queue, null, 2)}\n`);
   console.log(`wrote: +${seedAdds} seed sources, +${akaAdds} akas, +${queued} queued (queue now ${queue.length})`);
-  console.log('Now run: npm run convert');
+  console.log('Wrote enrichment files (historical pipeline; convert is not re-run).');
 }

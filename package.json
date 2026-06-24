@@ -6,7 +6,7 @@
   "description": "Static world map of cannabis landraces.",
   "scripts": {
     "test": "node --test",
-    "validate": "node data/validate.mjs",
+    "validate": "node data/build/validate.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "devDependencies": {}

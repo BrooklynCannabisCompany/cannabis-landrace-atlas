@@ -56,7 +56,7 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
   "w"). Fill bullets from the strain's data fields even when the
   prose omits them. The paragraph then describes morphology, aroma/terpenes, effect,
   resin, and any notable traits — without repeating the bullet facts verbatim. The
-  normalizer `data/normalize-writeups.mjs` enforces this structure across all write-ups.
+  normalizer `data/build/normalize-writeups.mjs` enforces this structure across all write-ups.
 - **Use honest hedging.** Cannabis landrace provenance is rarely documented
   rigorously. Prefer "commonly reported", "grower accounts suggest", "is associated
   with", "typically". Never state contested lineage as settled fact.
@@ -80,8 +80,8 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
   - Forum Discussions: `_No verified forum links yet — use the ⊕ button to suggest one._`
 
 - They are filled later from real sources — the seed-bank enrichment scrapers and the
-  web-research pass (both write into `data/vendor-links.json`, merged in by
-  `data/convert.mjs`), plus community submissions via the per-section **⊕** button — not
+  web-research pass (both write into `data/build/vendor-links.json`, merged in by
+  `data/build/convert.mjs`), plus community submissions via the per-section **⊕** button — not
   by generation. The ⊕ forms collect a **name + link** per entry. The app injects these
   arrays into the sections at runtime; the generated Markdown only carries the empty-slot
   note.
@@ -94,7 +94,7 @@ generator, and the prose MUST be unmistakably about THAT strain in THAT location
 - The per-strain `## References` section holds only strain-specific sources — curated
   `references[]` from the web-research pass (Leafly / GrowDiaries / Weedmaps / SeedFinder)
   or, failing that, the matched seed-vendor listing — all injected at runtime from
-  `data/vendor-links.json`. The generated file uses the empty-slot note; never invent URLs
+  `data/build/vendor-links.json`. The generated file uses the empty-slot note; never invent URLs
   or citations here:
 
   ```

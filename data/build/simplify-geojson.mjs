@@ -4,14 +4,14 @@
 // Shrinks data/world.geojson by rounding coordinates to a fixed precision and dropping
 // consecutive duplicate points. At the app's max zoom (7) two decimals (~1.1 km) is
 // imperceptible, but it removes the long decimal tails that dominate the file size.
-// Idempotent. Usage: node data/simplify-geojson.mjs [decimals]
+// Idempotent. Usage: node data/build/simplify-geojson.mjs [decimals]
 
 import { readFileSync, writeFileSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const path = join(here, 'world.geojson');
+const path = join(here, '..', 'world.geojson');
 const decimals = Number(process.argv[2] || 2);
 const factor = 10 ** decimals;
 const round = (n) => Math.round(n * factor) / factor;

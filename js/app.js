@@ -7,7 +7,7 @@ import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
 import { relatedStrains } from './relations.js';
 import { initTooltips } from './tooltip.js';
-import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
+import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/vocab.mjs';
 import { modal, openContentModal, closeModal, isModalPersistent } from './modal.js';
 import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink, setCountryOptions } from './forms.js';
 import { isValidUrl } from './util.js';

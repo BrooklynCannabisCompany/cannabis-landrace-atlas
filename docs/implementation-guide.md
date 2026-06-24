@@ -18,8 +18,9 @@ There is **no bundler, no framework, no transpile step**. Vendored libraries liv
 - The site itself has no backend. Visitor submissions POST to a small Cloudflare Worker
   (`worker/`, see §12) that files a GitHub issue on the project's behalf — it is the only
   server-side code and deploys separately from Pages.
-- The browser imports the shared vocabulary directly from `data/lib/vocab.mjs`, so that
-  file must stay valid ES-module syntax usable by both Node and the browser.
+- The browser imports the shared vocabulary directly from `data/vocab.mjs`, so that
+  file must stay valid ES-module syntax usable by both Node and the browser. Runtime files
+  live directly in `data/`; the pipeline tooling lives in `data/build/` (see §6).
 
 ## 2. Commands
 
@@ -27,7 +28,7 @@ There is **no bundler, no framework, no transpile step**. Vendored libraries liv
 npm test                 # node --test — runs every *.test.mjs (logic + data + DOM smoke)
 npm run validate         # checks data/landraces.json against the controlled vocab
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
-node data/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
+node data/build/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 cd worker && npx wrangler deploy   # deploys the submission Worker (see worker/README.md)
 ```
 
@@ -42,18 +43,20 @@ css/styles.css          All styles (one file). CSS variables in :root.
 js/                     Browser ES modules (see §5).
 lib/                    Vendored libs: leaflet/ (1.9.4) and marked (v12). Not edited.
 assets/leaf.svg         The shared green leaf marker graphic.
-data/
-  raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
-  convert.mjs           One-time bootstrap raw → landraces.json. NOT re-run (§6).
-  validate.mjs          Validates landraces.json; validate.test.mjs runs it in CI.
+data/                   RUNTIME ONLY — what the browser fetches/imports.
   landraces.json        The CANONICAL dataset — edited directly. The app fetches it at boot.
-  world.geojson         Basemap polygons (simplified; see data/simplify-geojson.mjs).
+  world.geojson         Basemap polygons (simplified; see data/build/simplify-geojson.mjs).
   writeups/<id>.md      One Markdown write-up per strain (447 files).
-  vendor-links.json     Real, curated links per id: { seed[], photo, forums[], references[] }.
-  aka-generated.json    Curated alternate names per id: { id: [names] }.
-  strains-to-add.json   Queue of scraped strains with no dataset match yet.
-  lib/*.mjs             Pure helper modules for the pipeline (+ *.test.mjs).
-  scrape-tlt.mjs, scrape-rsc.mjs   Seed-vendor sitemap matchers (enrichment).
+  vocab.mjs             Controlled vocabularies — imported by the browser AND the validator.
+  build/                PIPELINE TOOLING — never fetched at runtime (§6).
+    raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
+    convert.mjs         One-time bootstrap raw → ../landraces.json. NOT re-run (§6).
+    validate.mjs        Validates ../landraces.json; validate.test.mjs runs it in CI.
+    vendor-links.json   Real, curated links per id: { seed[], photo, forums[], references[] }.
+    aka-generated.json  Curated alternate names per id: { id: [names] }.
+    strains-to-add.json Queue of scraped strains with no dataset match yet.
+    lib/*.mjs           Pure helper modules for the pipeline (+ *.test.mjs).
+    scrape-tlt.mjs, scrape-rsc.mjs   Seed-vendor sitemap matchers (enrichment).
 worker/
   src/index.js          Cloudflare Worker: verifies a Turnstile token, files the GitHub
                         issue. Deployed separately (`wrangler deploy`); holds the secrets.
@@ -98,17 +101,22 @@ On any fetch failure the map element shows "Unable to load map data." (graceful)
 `app.js`, not in the leaf modules. When a module needs to act on app state, `app.js`
 passes a callback (e.g. `addMarkers(map, strains, openPanel)`).
 
-## 6. Data pipeline (`data/`) — one-time bootstrap, historical
+## 6. Data pipeline (`data/build/`) — one-time bootstrap, historical
 
+> **Layout:** runtime files (`landraces.json`, `world.geojson`, `writeups/`, `vocab.mjs`)
+> live directly in `data/`; everything that *builds* the dataset lives in **`data/build/`**.
+> The build paths below are relative to `data/build/`, and the scripts reach the runtime
+> files via `../` (e.g. `convert.mjs` writes `../landraces.json`).
+>
 > **`data/landraces.json` is the canonical dataset and is edited directly.** The pipeline
-> below ran **once** to bootstrap it from `raw/*.txt`; it is kept as provenance. **Do not
-> re-run `data/convert.mjs`** (the `convert` npm script has been removed) — `landraces.json` has since accumulated direct edits and
-> enrichment that `convert` would overwrite. After editing `landraces.json`, run
-> `npm run validate`. (`data/raw/`, `convert.mjs`, and `data/lib/*` are not a live path.)
+> below ran **once** to bootstrap it from `build/raw/*.txt`; it is kept as provenance. **Do not
+> re-run `data/build/convert.mjs`** (the `convert` npm script has been removed) — `landraces.json`
+> has since accumulated direct edits and enrichment that `convert` would overwrite. After editing
+> `landraces.json`, run `npm run validate`. (`data/build/` is not a live path.)
 
-How the bootstrap worked: `raw/*.txt` → **`convert.mjs`** → `landraces.json`. `convert.mjs`
-split the raw text into blocks (tracking the current continent header), then for each block
-called the pure helpers in `data/lib/`:
+How the bootstrap worked: `build/raw/*.txt` → **`build/convert.mjs`** → `landraces.json`.
+`convert.mjs` split the raw text into blocks (tracking the current continent header), then for
+each block called the pure helpers in `data/build/lib/`:
 
 - `parse.mjs` — `parseEntry(block)` → `{ name, countryRaw, regionRaw, type, height, flowering, climate, summary, incomplete }`.
 - `id.mjs` — `makeUniqueId(name, seen)` → stable kebab-case id (de-duplicated).
@@ -122,7 +130,7 @@ called the pure helpers in `data/lib/`:
 
 `convert.mjs` also merged enrichment at bootstrap: `vendor-links.json` provided
 `seedSources`, `photos`, `forums`, `references`; `aka-generated.json` added alternate names.
-Those enrichment files (and `data/lib/*`) are historical — changing them no longer affects
+Those enrichment files (and `data/build/lib/*`) are historical — changing them no longer affects
 `landraces.json`, which is now maintained directly.
 
 `validate.mjs` asserts every record's `continent/climate/morphotype/chemotype/
@@ -162,7 +170,7 @@ writing into `vendor-links.json`; unmatched go to `strains-to-add.json`.
 }
 ```
 
-## 8. Controlled vocabulary (`data/lib/vocab.mjs`)
+## 8. Controlled vocabulary (`data/vocab.mjs`)
 
 Single source of truth, **imported by both Node (validation) and the browser (Index
 facets, forms)**. Arrays are in display order: `CONTINENTS`, `CLIMATES`, `MORPHOTYPES`,
@@ -294,8 +302,8 @@ position.
 
 ## 14. Testing
 
-`node --test` runs every `*.test.mjs`: pure pipeline helpers (`data/lib/*.test.mjs`),
-the data validator (`data/validate.test.mjs`), and browser-logic/DOM tests
+`node --test` runs every `*.test.mjs`: pure pipeline helpers (`data/build/lib/*.test.mjs`),
+the data validator (`data/build/validate.test.mjs`), and browser-logic/DOM tests
 (`js/search.test.mjs`, `js/relations.test.mjs`, `js/util.test.mjs`). Keep tests green;
 add a test when you add a pure function. Browser-only behaviour (Leaflet, modal focus) is
 verified manually / via devtools, not in `node --test`.
@@ -303,7 +311,7 @@ verified manually / via devtools, not in `node --test`.
 ## 15. Conventions & gotchas
 
 - **Edit `data/landraces.json` directly, then `npm run validate`.** It is the canonical
-  dataset; `data/convert.mjs` was a one-time bootstrap and must **not** be re-run (§6).
+  dataset; `data/build/convert.mjs` was a one-time bootstrap and must **not** be re-run (§6).
 - Add a controlled value in `vocab.mjs` only; the browser and validator both read it.
 - Range sliders: `makeDualSlider(absMin, absMax, onChange, initLo, initHi, minGap, fmt)`.
   Bubbles are inset-corrected to track the native thumb; keep `minGap ≥ 1` where thumbs

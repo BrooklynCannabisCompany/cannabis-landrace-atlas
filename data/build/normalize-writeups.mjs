@@ -8,14 +8,14 @@
 // existing data bullet (e.g. "Tall, 2–3 m") is kept as that bullet's text, and any
 // non-data sentences become the paragraph.
 //
-// Usage:  node data/normalize-writeups.mjs [--dry [id ...]]
+// Usage:  node data/build/normalize-writeups.mjs [--dry [id ...]]
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const records = JSON.parse(readFileSync(join(here, 'landraces.json'), 'utf8'));
+const records = JSON.parse(readFileSync(join(here, '..', 'landraces.json'), 'utf8'));
 
 // Existing bullet labels that correspond to a structured data slot (everything else
 // is treated as descriptive prose).
@@ -117,7 +117,7 @@ let changed = 0;
 let skipped = 0;
 for (const r of records) {
   if (onlyIds.length && !onlyIds.includes(r.id)) continue;
-  const path = join(here, 'writeups', `${r.id}.md`);
+  const path = join(here, '..', 'writeups', `${r.id}.md`);
   let md;
   try { md = readFileSync(path, 'utf8'); } catch { skipped++; continue; }
 

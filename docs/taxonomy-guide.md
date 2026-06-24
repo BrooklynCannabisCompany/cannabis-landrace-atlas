@@ -2,7 +2,7 @@
 
 How The Cannabis Landrace Atlas classifies varieties, why, and exactly how each field is
 derived. Grounded in **McPartland** (cannabis systematics) and **Russo** (chemotaxonomy /
-entourage). The derivation lives in `data/lib/taxonomy.mjs`; the displayed tooltips live in
+entourage). The derivation lives in `data/build/lib/taxonomy.mjs`; the displayed tooltips live in
 `js/panel.js` (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`).
 
 ## Guiding principles
@@ -27,7 +27,7 @@ entourage). The derivation lives in `data/lib/taxonomy.mjs`; the displayed toolt
 Each record carries: `morphotype`, `chemotype` (+ `chemotypeInferred`), `domestication`,
 and `category` (the vernacular type). The panel shows morphotype + vernacular type as the
 two badges; chemotype and domestication as trait rows. Controlled values live in
-`data/lib/vocab.mjs`.
+`data/vocab.mjs`.
 
 ### 1. Morphotype (primary classification)
 
@@ -82,7 +82,7 @@ as feral/wild *C. sativa* subsp. *spontanea*, not a species. Hence morphotype
 The everyday Sativa/Indica-style grouping, kept for familiarity and search, **not** as the
 scientific category. Vocab (`CATEGORY_ORDER`): **Hemp, Sativa, Indica, Mixed,
 Hybrid-Intermediate, Ruderalis, Feral**. Derived upstream by
-`data/lib/category.mjs` (`normalizeCategory`). Its badge tooltip (`CATEGORY_DEF`) defines
+`data/build/lib/category.mjs` (`normalizeCategory`). Its badge tooltip (`CATEGORY_DEF`) defines
 each in plain terms and avoids the word "vernacular" in the user-facing copy.
 
 ## Known limitation / future work

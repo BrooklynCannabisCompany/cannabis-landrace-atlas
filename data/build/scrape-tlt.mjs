@@ -1,20 +1,21 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 //
-// Matches TLT Seeds product pages (data/tlt-urls.txt, from their sitemap) against
+// Matches TLT Seeds product pages (data/build/tlt-urls.txt, from their sitemap) against
 // landraces.json. Matches add a TLT seed source (-> Seed Sources + References) and an AKA;
-// unmatched strains are queued in data/strains-to-add.json for later addition.
+// unmatched strains are queued in data/build/strains-to-add.json for later addition.
 //
-//   node data/scrape-tlt.mjs            # dry run: prints match stats + samples
-//   node data/scrape-tlt.mjs --write    # updates vendor-links.json, aka-generated.json,
-//                                        # strains-to-add.json (run `npm run convert` after)
+// Provenance tool only — not a live path (see CLAUDE.md / implementation-guide §6).
+//   node data/build/scrape-tlt.mjs            # dry run: prints match stats + samples
+//   node data/build/scrape-tlt.mjs --write    # updates vendor-links.json, aka-generated.json,
+//                                              # strains-to-add.json
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const records = JSON.parse(readFileSync(join(here, 'landraces.json'), 'utf8'));
+const records = JSON.parse(readFileSync(join(here, '..', 'landraces.json'), 'utf8'));
 
 // Slugs that are blog posts / articles, not strain products — excluded from matching.
 const ARTICLE = /(^news$|^\d+$|history|how-to|hashish|-hash$|water-hash|rosin-hash|charas|11-hour|method|terpenes|plasticity|immune-system|psychosis|intoxication|negative-reactions|expedition|strain-hunting|prohibition|drug-policy|drugs-and|concept-of-drugs|islam|religious|status-in|questions-and|importance-of|why-choose|select-a|know-the-plant|hermaphroditism|archaic|greek-world|islamic|ancient-asia|origins-of-cannabis|cannabis-in-|cannabis-history|cannabis-and-|cannabis-origins|cannabis-status|cannabis-why|the-new-european|from-cannabis|from-landraces|on-southern|on-the-uganda|the-origins-of|the-legendary|the-arrival|southern-local-sativas|historical-background|mauritius-landrace-cannabis|sri-lanka-cannabis|northern-africa-egypt|^black-africa$|^north-asia$|iranian-seeds|maajoune)/;
@@ -104,5 +105,5 @@ if (!process.argv.includes('--write')) {
   writeFileSync(akaPath, `${JSON.stringify(aka, null, 2)}\n`);
   writeFileSync(join(here, 'strains-to-add.json'), `${JSON.stringify(unmatched, null, 2)}\n`);
   console.log(`wrote: +${seedAdds} seed sources, +${akaAdds} akas, ${unmatched.length} queued in strains-to-add.json`);
-  console.log('Now run: npm run convert');
+  console.log('Wrote enrichment files (historical pipeline; convert is not re-run).');
 }

@@ -14,7 +14,7 @@ strain-specific sources online — fillable over time via the ⊕ submission but
 ## Planned
 
 - **Second, looser scrape-match pass.** Re-match the 262 queued entries in
-  `data/strains-to-add.json` against the dataset, and decide which are genuinely new
+  `data/build/strains-to-add.json` against the dataset, and decide which are genuinely new
   varieties worth adding.
 
 ## Decision pending: map each height label to meters
@@ -56,7 +56,7 @@ Notes:
 ## Recommended (nice-to-have)
 
 - **Terpene / aroma descriptor.** Per Russo, terpenoid profile drives effect more than
-  Sativa/Indica. Add an inferred aroma/terpene field (vocab in `data/lib/vocab.mjs`),
+  Sativa/Indica. Add an inferred aroma/terpene field (vocab in `data/vocab.mjs`),
   surfaced near Chemotype. See `docs/taxonomy-guide.md` (Known limitation).
 - **Accessibility pass.** Keyboard-only walkthrough of markers → panel → Index; verify
   focus order, ARIA on the Index `<details>` tree, and contrast on badges/links.
@@ -65,7 +65,7 @@ Notes:
 - **Basemap payload.** `data/world.geojson` is ~2.5MB; monitor load on mobile and consider
   further simplification or relying on host gzip.
 - **Write-up quality spot-check.** Audit obscure write-ups for over-confident claims (the
-  generation guide favors hedging). Re-run `node data/normalize-writeups.mjs` after any
+  generation guide favors hedging). Re-run `node data/build/normalize-writeups.mjs` after any
   data-field changes.
 - **More automated coverage.** `node --test` covers pure logic + a DOM smoke test; a small
   browser test (Playwright/devtools) for the Index facet → slider/checkbox flows and the

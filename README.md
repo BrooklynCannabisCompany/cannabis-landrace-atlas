@@ -23,19 +23,25 @@ Open http://localhost:8000 in your browser.
 | `npm test` | Runs the data and logic tests (Node.js built-in test runner) |
 | `npm run validate` | Validates `data/landraces.json` against the schema/rules |
 
+> **`data/` holds the runtime files; `data/build/` holds the pipeline tooling.** The browser
+> only fetches/imports what's directly in `data/` (`landraces.json`, `world.geojson`,
+> `writeups/`, `vocab.mjs`); the build scripts, helpers, raw sources, and intermediate
+> artifacts live under `data/build/`.
+>
 > **`data/landraces.json` is the maintained dataset — edit it directly.** It was bootstrapped
-> once from `data/raw/` by `data/convert.mjs`; that was a one-time step (the `convert` npm script
-> has been removed) and **must not be re-run** — it would overwrite the dataset's direct edits and
-> enrichment. `data/raw/` and `data/convert.mjs` are kept only as historical provenance.
+> once from `data/build/raw/` by `data/build/convert.mjs`; that was a one-time step (the
+> `convert` npm script has been removed) and **must not be re-run** — it would overwrite the
+> dataset's direct edits and enrichment. `data/build/raw/` and `data/build/convert.mjs` are kept
+> only as historical provenance.
 
 ---
 
 ## How it works
 
 - **Map:** [Leaflet](https://leafletjs.com/) renders a bundled GeoJSON world map (`data/world.geojson`) — no external tile server is required. The selected variety's marker is highlighted; every marker has a hover name tooltip.
-- **Markers & data:** loaded from `data/landraces.json` — the project's maintained dataset (originally bootstrapped once from `data/raw/`, now edited directly). Each record carries botanical fields — **morphotype, chemotype (inferred), domestication** — alongside region, climate, height, and flowering, derived in `data/lib/` and validated by `npm run validate`. The taxonomy follows McPartland & Russo (see `docs/taxonomy-guide.md`).
+- **Markers & data:** loaded from `data/landraces.json` — the project's maintained dataset (originally bootstrapped once from `data/build/raw/`, now edited directly). Each record carries botanical fields — **morphotype, chemotype (inferred), domestication** — alongside region, climate, height, and flowering, derived in `data/build/lib/` and validated by `npm run validate`. The taxonomy follows McPartland & Russo (see `docs/taxonomy-guide.md`).
 - **Panel:** a side panel shows the facts (Morphotype badge + Region, Climate, Chemotype, Domestication, Type, Height, Flowering Time) with explanatory tooltips, then the write-up.
-- **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
+- **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/build/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
 - **Index:** a collapsible, multi-facet browser (Region, Climate, Morphotype, Chemotype, Domestication, Type, Height, Flowering Time) with range sliders for Height and Flowering Time, opened from the ribbon.
 - **Database:** the hamburger menu embeds the searchable original dataset.
 - **Submissions:** the ribbon's "Suggest Addition", "Suggest Corrections", and "Contact Us" buttons — plus the ⊕ buttons on the Photos / Seed Sources / Forum Discussions / References sections — open simple in-app forms. Submitting sends your suggestion to the maintainers for review; no account or sign-in is required.
@@ -73,7 +79,7 @@ Behind the scenes, submissions are delivered through a small [Cloudflare Worker]
 ## License
 
 - **Code** (JS, CSS, HTML, tooling): MIT — see [`LICENSE`](LICENSE).
-- **Dataset and write-ups** (`data/landraces.json`, `data/raw/`, `data/writeups/`): Creative Commons Attribution-ShareAlike 4.0 International — see [`LICENSE-DATA`](LICENSE-DATA).
+- **Dataset and write-ups** (`data/landraces.json`, `data/writeups/`, `data/build/raw/`): Creative Commons Attribution-ShareAlike 4.0 International — see [`LICENSE-DATA`](LICENSE-DATA).
 
 ---
 

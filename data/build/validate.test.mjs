@@ -20,7 +20,7 @@ test('validateRecords flags bad data', () => {
 });
 
 test('generated landraces.json has no validation errors', () => {
-  const data = JSON.parse(readFileSync(join(__dirname, 'landraces.json'), 'utf8'));
+  const data = JSON.parse(readFileSync(join(__dirname, '..', 'landraces.json'), 'utf8'));
   const { errors } = validateRecords(data);
   assert.deepEqual(errors, [], `validation errors:\n${errors.join('\n')}`);
 });

@@ -17,7 +17,7 @@ npm test                 # node --test — runs every *.test.mjs (logic + data v
 npm run validate         # checks data/landraces.json against the controlled vocab
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node --test js/search.test.mjs        # run a single test file
-node data/normalize-writeups.mjs      # rewrites the ## Description block of every write-up
+node data/build/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 ```
 
 There are no dependencies — `devDependencies` is empty; tests use only the Node built-in
@@ -43,15 +43,21 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
   Cloudflare Turnstile token gates spam. The Worker is the only server-side code and deploys
   separately from GitHub Pages (`cd worker && npx wrangler deploy`); secrets live in
   Cloudflare, never in the repo.
+- **`data/` holds only runtime files; `data/build/` holds the pipeline tooling.** What the
+  browser fetches/imports lives directly in `data/`: `landraces.json`, `world.geojson`,
+  `writeups/`, and `vocab.mjs`. Everything used to *build* the dataset — `convert.mjs`,
+  `validate.mjs`, the scrape/normalize scripts, the `lib/` helpers, `raw/`, and the
+  intermediate `*.json`/`*-urls.txt` artifacts — lives under `data/build/`. Keep that split.
 - **`data/landraces.json` is the canonical dataset — edit it directly, then run
-  `npm run validate`.** It was bootstrapped once from `data/raw/` (via `data/convert.mjs`; the
-  `convert` npm script has been removed); that
-  was a one-time step. **Do not re-run `convert`** — it would overwrite the dataset's direct
-  edits and enrichment. `data/raw/`, `convert.mjs`, and the `data/lib/*` pipeline helpers are
-  historical provenance, not a live regeneration path.
-- **`data/lib/vocab.mjs` is the single source of truth for controlled vocabularies**, imported
-  by *both* Node (the validator) and the browser (Index facets, submission forms). It must stay
-  valid ES-module syntax usable in both. Add or rename a controlled value here only.
+  `npm run validate`.** It was bootstrapped once from `data/build/raw/` (via
+  `data/build/convert.mjs`; the `convert` npm script has been removed); that was a one-time
+  step. **Do not re-run `convert`** — it would overwrite the dataset's direct edits and
+  enrichment. `data/build/raw/`, `data/build/convert.mjs`, and the `data/build/lib/*` pipeline
+  helpers are historical provenance, not a live regeneration path.
+- **`data/vocab.mjs` is the single source of truth for controlled vocabularies**, imported
+  by *both* Node (the validator, as `../vocab.mjs`) and the browser (Index facets, submission
+  forms). It must stay valid ES-module syntax usable in both. Add or rename a controlled value
+  here only.
 - **Security invariants — never relax:** rendered Markdown is sanitized through an allowlist
   in `js/markdown.js` (`SAFE_HREF = /^(https?:|mailto:|#)/i`); dataset URLs are protocol-checked
   via `isValidUrl` (http/https only) in `js/util.js` before rendering.

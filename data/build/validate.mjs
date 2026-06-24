@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { CATEGORIES } from './lib/category.mjs';
-import { MORPHOTYPES as MORPHOTYPE_LIST, CHEMOTYPES as CHEMOTYPE_LIST, DOMESTICATIONS as DOMESTICATION_LIST } from './lib/vocab.mjs';
+import { MORPHOTYPES as MORPHOTYPE_LIST, CHEMOTYPES as CHEMOTYPE_LIST, DOMESTICATIONS as DOMESTICATION_LIST } from '../vocab.mjs';
 import { readFileSync } from 'node:fs';
 
 const MORPHOTYPES = new Set(MORPHOTYPE_LIST);
@@ -54,7 +54,7 @@ export function validateRecords(records) {
 // CLI entry: node data/validate.mjs
 if (import.meta.url === `file://${process.argv[1]}`) {
   const __d = dirname(fileURLToPath(import.meta.url));
-  const data = JSON.parse(readFileSync(join(__d, 'landraces.json'), 'utf8'));
+  const data = JSON.parse(readFileSync(join(__d, '..', 'landraces.json'), 'utf8'));
   const { errors, warnings } = validateRecords(data);
   for (const w of warnings) console.log(`WARN  ${w}`);
   for (const e of errors) console.error(`ERROR ${e}`);

@@ -109,7 +109,7 @@ for (const file of FILES) {
 }
 
 writeFileSync(
-  join(__dirname, 'landraces.json'),
+  join(__dirname, '..', 'landraces.json'),
   JSON.stringify(records, null, 2) + '\n',
   'utf8'
 );

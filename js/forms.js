@@ -7,7 +7,7 @@
 // Depends only on the generic modal system and the vocab.
 
 import { openContentModal } from './modal.js';
-import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/lib/vocab.mjs';
+import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/vocab.mjs';
 import { isValidUrl, parseWeeks } from './util.js';
 import { makeDualSlider } from './slider.js';
 

@@ -8,7 +8,7 @@ Thank you for your interest in improving the Atlas. This document covers everyth
 
 Contributions welcome in these areas:
 
-- **Data corrections** — fixing strain names, coordinates, categories, or metadata directly in `data/landraces.json` (the maintained dataset; `data/raw/` is historical provenance only — do not regenerate from it).
+- **Data corrections** — fixing strain names, coordinates, categories, or metadata directly in `data/landraces.json` (the maintained dataset; `data/build/raw/` is historical provenance only — do not regenerate from it).
 - **New strains** — adding well-documented landraces or heirloom varieties with real sources.
 - **Write-up improvements** — correcting or expanding the per-strain Markdown files in `data/writeups/`.
 - **Code improvements** — bug fixes, search logic, map rendering, UI/UX, tooling.

@@ -8,14 +8,14 @@ import { dirname, join } from 'node:path';
 import { cleanRegion } from './lib/normalize.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const data = JSON.parse(readFileSync(join(__dirname, 'landraces.json'), 'utf8'));
+const data = JSON.parse(readFileSync(join(__dirname, '..', 'landraces.json'), 'utf8'));
 const MARK = '_Recorded locality detail:';
 let touched = 0;
 
 for (const r of data) {
   const { note } = cleanRegion(r.region, r.country);
   if (!note) continue;
-  const p = join(__dirname, 'writeups', `${r.id}.md`);
+  const p = join(__dirname, '..', 'writeups', `${r.id}.md`);
   if (!existsSync(p)) continue;
   let t = readFileSync(p, 'utf8');
   if (t.includes(MARK)) continue; // idempotent
