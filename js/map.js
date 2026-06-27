@@ -99,43 +99,52 @@ export function createMap(elementId, worldGeoJson, onReset) {
   return map;
 }
 
-// --- Labels toggle control ------------------------------------------------
-// A top-left control stacked beneath the zoom (+/-) and reset buttons. The button mirrors
-// the ☰-menu "Labels" item; app.js keeps the two in sync via the returned setLabelsActive.
-// Returns { setLabelsActive(on) } so app.js can reflect state toggled from the menu.
-export function addLabelsControl(map, { onToggleLabels }) {
+// --- Top-left toggle controls ---------------------------------------------
+// Each map toggle (Labels, States & Provinces, Rivers) is one of these, stacked beneath the
+// zoom (+/-) and reset buttons and mirroring its ☰-menu item; app.js keeps the two in sync.
+// `spec` = { className, svg, label, onToggle }. Returns { setActive(on) } so app.js can
+// reflect state toggled from the menu. `label` is the noun used in the tooltip/aria text.
+export function addToggleControl(map, { className, svg, label, onToggle }) {
   let btn = null;
-  const Group = L.Control.extend({
+  const Control = L.Control.extend({
     options: { position: 'topleft' },
     onAdd() {
-      const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control labels-control');
+      const container = L.DomUtil.create('div', `leaflet-bar leaflet-control ${className}`);
       L.DomEvent.disableClickPropagation(container);
-      btn = L.DomUtil.create('a', 'labels-toggle', container);
+      btn = L.DomUtil.create('a', 'map-toggle', container);
       btn.href = '#';
       btn.setAttribute('role', 'button');
       btn.setAttribute('aria-pressed', 'false');
-      btn.setAttribute('aria-label', 'Show map labels');
-      btn.setAttribute('data-tip', 'Show labels');
-      btn.innerHTML =
-        '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-        '<path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0l-7.2-7.2a2 2 0 0 1-.6-1.4V4a1 1 0 0 1 1-1h7.8a2 2 0 0 1 1.4.6l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.1"/></svg>';
+      btn.setAttribute('aria-label', `Show ${label}`);
+      btn.setAttribute('data-tip', `Show ${label}`);
+      btn.innerHTML = svg;
       L.DomEvent.on(btn, 'click', L.DomEvent.stop);
-      L.DomEvent.on(btn, 'click', () => onToggleLabels());
+      L.DomEvent.on(btn, 'click', () => onToggle());
       return container;
     }
   });
-  map.addControl(new Group());
+  map.addControl(new Control());
 
   return {
-    setLabelsActive(on) {
+    setActive(on) {
       if (!btn) return;
       btn.classList.toggle('active', on);
       btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      btn.setAttribute('data-tip', on ? 'Hide labels' : 'Show labels');
-      btn.setAttribute('aria-label', on ? 'Hide map labels' : 'Show map labels');
+      btn.setAttribute('data-tip', `${on ? 'Hide' : 'Show'} ${label}`);
+      btn.setAttribute('aria-label', `${on ? 'Hide' : 'Show'} ${label}`);
     }
   };
 }
+
+// SVG glyphs for the toggle buttons (16px, currentColor stroke).
+export const TOGGLE_ICONS = {
+  // a price-tag (labels)
+  labels: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0l-7.2-7.2a2 2 0 0 1-.6-1.4V4a1 1 0 0 1 1-1h7.8a2 2 0 0 1 1.4.6l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.1"/></svg>',
+  // a map with a fold/border (states & provinces)
+  states: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>',
+  // a wavy river line (rivers)
+  rivers: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7c3 0 3-2 6-2s3 4 6 4 3-2 6-2"/><path d="M3 16c3 0 3-2 6-2s3 4 6 4 3-2 6-2"/></svg>'
+};
 
 // --- Marker declustering --------------------------------------------------
 // Many varieties resolve to the same approximate point (a country/region centroid),

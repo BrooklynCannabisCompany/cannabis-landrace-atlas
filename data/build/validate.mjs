@@ -92,5 +92,19 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
   }
 
-  process.exit(errors.length + labelErrors ? 1 : 0);
+  // Basemap geometry files (optional decoration; validated when present).
+  let geoErrors = 0;
+  for (const file of ['lakes.geojson', 'rivers.geojson', 'admin1.geojson']) {
+    try {
+      const g = JSON.parse(readFileSync(join(__d, '..', 'geo', file), 'utf8'));
+      const ok = g && g.type === 'FeatureCollection' && Array.isArray(g.features) && g.features.length > 0;
+      if (!ok) { console.error(`ERROR geo/${file}: not a non-empty FeatureCollection`); geoErrors += 1; }
+      else console.log(`${file}: ${g.features.length} features`);
+    } catch (e) {
+      console.error(`ERROR geo/${file}: cannot read data/geo/${file} (${e.message})`);
+      geoErrors += 1;
+    }
+  }
+
+  process.exit(errors.length + labelErrors + geoErrors ? 1 : 0);
 }

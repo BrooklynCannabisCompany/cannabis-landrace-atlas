@@ -1,19 +1,22 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 //
-// Labels overlay: an optional, zoom-aware set of place labels drawn over the basemap.
-// Three layers — country names (derived at runtime from world.geojson), bodies of water
-// (data/labels/water.json), and major cities (data/labels/cities.json). All labels are
-// non-interactive and sit in a dedicated pane *below* the leaf markers, so they never
-// steal a click. `createLabels` returns a small controller; app.js owns the on/off state.
+// Labels overlay: zoom-aware place labels drawn over the basemap, organized into independently
+// toggled groups so each map control drives its own set:
+//   - 'place'  — country names (from world.geojson), oceans/seas, cities  (Labels toggle)
+//   - 'states' — first-order divisions (data/labels/states.json)          (States toggle)
+//   - 'rivers' — major rivers (data/labels/rivers.json)                   (Rivers toggle)
+//   - 'lakes'  — major inland lakes (data/labels/lakes.json)              (always on)
+// All labels are non-interactive and sit in a dedicated pane *below* the leaf markers, so
+// they never steal a click. `createLabels` returns a controller; app.js owns the toggles.
 //
 // Relies on the global `L` from lib/leaflet/leaflet.js (used only inside createLabels, so
 // the pure gating helpers below remain importable under plain Node for tests).
 
 // --- Pure zoom-gating helpers (unit-tested in labels.test.mjs) --------------
 // The map's zoom range is 2..7. Each label carries a minZoom; it shows once the map is
-// zoomed to (or past) it. The mappings below spread the three layers across that range so
-// the map fills in gracefully rather than all at once.
+// zoomed to (or past) it. The mappings spread the layers across that range so the map fills
+// in gracefully rather than all at once.
 
 export function visibleAtZoom(minZoom, zoom) {
   return zoom >= minZoom;
@@ -49,6 +52,19 @@ export function waterMinZoom(rank) {
   return rank <= 0 ? 2 : 3;
 }
 
+// Natural Earth lakes scalerank (0 = biggest). Lakes are always on, but still gated so tiny
+// ones don't clutter the world view.
+export function lakeMinZoom(rank) {
+  return rank <= 0 ? 3 : 4;
+}
+
+// Natural Earth rivers scalerank (1 = biggest). Major rivers (Amazon, Nile) at zoom 4.
+export function riverMinZoom(rank) {
+  if (rank <= 2) return 4;
+  if (rank <= 4) return 5;
+  return 6;
+}
+
 // --- Runtime overlay --------------------------------------------------------
 
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
@@ -58,22 +74,25 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, (c) => ESCAPES[c]);
 }
 
-// Builds the overlay and returns a controller with setVisible(on). Labels are added to /
-// removed from their layer groups by zoom; the groups attach to the map only while on.
-export function createLabels(map, world, cities, water, states) {
-  // A pane below the marker pane (z 600), above the basemap overlay (z 400).
+// Builds the label overlay. `data` = { world, cities, water, states, lakes, rivers }.
+// Returns { setGroupVisible(key, on) } where key is 'place' | 'states' | 'rivers' | 'lakes'.
+export function createLabels(map, data) {
+  // A pane below the marker pane (z 600), above the basemap/geometry panes (z <= 414).
   map.createPane('labelPane');
   const pane = map.getPane('labelPane');
   pane.style.zIndex = 450;
   pane.style.pointerEvents = 'none';
 
-  const entries = []; // { marker, group, minZoom }
-  const countriesG = L.layerGroup();
-  const statesG = L.layerGroup();
-  const waterG = L.layerGroup();
-  const citiesG = L.layerGroup();
+  const groups = {
+    place: L.layerGroup(),
+    states: L.layerGroup(),
+    rivers: L.layerGroup(),
+    lakes: L.layerGroup()
+  };
+  const on = { place: false, states: false, rivers: false, lakes: false };
+  const entries = []; // { marker, key, minZoom }
 
-  const add = (group, lat, lng, html, className, minZoom) => {
+  const add = (key, lat, lng, html, className, minZoom) => {
     if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
     const marker = L.marker([lat, lng], {
       icon: L.divIcon({ html, className, iconSize: null }),
@@ -81,61 +100,47 @@ export function createLabels(map, world, cities, water, states) {
       keyboard: false,
       pane: 'labelPane'
     });
-    entries.push({ marker, group, minZoom });
+    entries.push({ marker, key, minZoom });
   };
+  const text = (key, lat, lng, name, className, minZoom) =>
+    add(key, lat, lng, `<span class="lbl-t">${esc(name)}</span>`, className, minZoom);
 
-  for (const f of world.features || []) {
+  // 'place' group: countries (from world geometry), oceans/seas, cities.
+  for (const f of (data.world && data.world.features) || []) {
     const p = f.properties || {};
     if (typeof p.LABEL_X !== 'number' || typeof p.LABEL_Y !== 'number') continue;
     const name = p.NAME_EN || p.NAME;
-    if (!name) continue;
-    add(countriesG, p.LABEL_Y, p.LABEL_X,
-      `<span class="lbl-t">${esc(name)}</span>`, 'lbl lbl-country', countryMinZoom(p.LABELRANK));
+    if (name) text('place', p.LABEL_Y, p.LABEL_X, name, 'lbl lbl-country', countryMinZoom(p.LABELRANK));
   }
-  for (const s of states || []) {
-    add(statesG, s.lat, s.lng,
-      `<span class="lbl-t">${esc(s.name)}</span>`, 'lbl lbl-state', stateMinZoom(s.rank));
-  }
-  for (const w of water || []) {
-    add(waterG, w.lat, w.lng,
-      `<span class="lbl-t">${esc(w.name)}</span>`, 'lbl lbl-water', waterMinZoom(w.rank));
-  }
-  for (const c of cities || []) {
-    add(citiesG, c.lat, c.lng,
+  for (const w of data.water || []) text('place', w.lat, w.lng, w.name, 'lbl lbl-water', waterMinZoom(w.rank));
+  for (const c of data.cities || []) {
+    add('place', c.lat, c.lng,
       `<span class="lbl-dot"></span><span class="lbl-t lbl-city-t">${esc(c.name)}</span>`,
       'lbl lbl-city', cityMinZoom(c.rank));
   }
+  // Independently-toggled groups.
+  for (const s of data.states || []) text('states', s.lat, s.lng, s.name, 'lbl lbl-state', stateMinZoom(s.rank));
+  for (const r of data.rivers || []) text('rivers', r.lat, r.lng, r.name, 'lbl lbl-river', riverMinZoom(r.rank));
+  for (const k of data.lakes || []) text('lakes', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
 
-  let on = false;
   const applyZoom = () => {
     const z = map.getZoom();
     for (const e of entries) {
-      const want = on && visibleAtZoom(e.minZoom, z);
-      const has = e.group.hasLayer(e.marker);
-      if (want && !has) e.group.addLayer(e.marker);
-      else if (!want && has) e.group.removeLayer(e.marker);
+      const want = on[e.key] && visibleAtZoom(e.minZoom, z);
+      const has = groups[e.key].hasLayer(e.marker);
+      if (want && !has) groups[e.key].addLayer(e.marker);
+      else if (!want && has) groups[e.key].removeLayer(e.marker);
     }
   };
-  const onZoom = () => applyZoom();
+  map.on('zoomend', applyZoom);
 
-  function setVisible(next) {
-    if (next === on) return;
-    on = next;
-    if (on) {
-      countriesG.addTo(map);
-      statesG.addTo(map);
-      waterG.addTo(map);
-      citiesG.addTo(map);
-      map.on('zoomend', onZoom);
-      applyZoom();
-    } else {
-      map.off('zoomend', onZoom);
-      countriesG.remove();
-      statesG.remove();
-      waterG.remove();
-      citiesG.remove();
-    }
+  function setGroupVisible(key, vis) {
+    if (!(key in on) || on[key] === vis) return;
+    on[key] = vis;
+    if (vis) groups[key].addTo(map);
+    else groups[key].remove();
+    applyZoom();
   }
 
-  return { setVisible };
+  return { setGroupVisible };
 }

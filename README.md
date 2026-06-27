@@ -59,7 +59,7 @@ A few caveats:
 
 - **Coordinates are approximate** — strain origin regions are broad; markers represent rough centroids, not exact growing sites.
 - **Strain write-ups are AI-generated, unverified drafts.** They are a starting point, not authoritative references. Corrections are very welcome — see [Contributing](#contributing).
-- **World map geometry** (`data/world.geojson`) and the optional **place-label data** (`data/labels/cities.json`, `data/labels/water.json`, `data/labels/states.json`, plus the country names drawn from the world geometry) are derived from [Natural Earth](https://www.naturalearthdata.com/), whose map data is in the public domain ("Made with Natural Earth"). They are not covered by the dataset's CC BY-SA license. Map rendering uses [Leaflet](https://leafletjs.com/) (BSD-2-Clause) and [marked](https://github.com/markedjs/marked) (MIT), each under its own license.
+- **World map geometry** (`data/world.geojson`) and the optional **place-label data** (`data/labels/cities.json`, `data/labels/water.json`, `data/labels/states.json`, `data/labels/lakes.json`, `data/labels/rivers.json`, plus the country names drawn from the world geometry) and the **basemap geometry** (`data/geo/lakes.geojson`, `data/geo/rivers.geojson`, `data/geo/admin1.geojson`) are derived from [Natural Earth](https://www.naturalearthdata.com/), whose map data is in the public domain ("Made with Natural Earth"). They are not covered by the dataset's CC BY-SA license. Map rendering uses [Leaflet](https://leafletjs.com/) (BSD-2-Clause) and [marked](https://github.com/markedjs/marked) (MIT), each under its own license.
 
 ---
 

@@ -358,11 +358,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .reset-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
 .reset-control a:hover { color: var(--green-dark); }
 
-/* ---- Labels toggle control (top-left, stacked under the zoom/reset buttons) ---- */
-.labels-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
-.labels-control a:hover { color: var(--green-dark); }
-.labels-control a.active { background: var(--green); color: #fff; }
-.labels-control a.active:hover { background: var(--green-dark); color: #fff; }
+/* ---- Map toggle controls (top-left, stacked under the zoom/reset buttons) ---- */
+.map-toggle { display: flex; align-items: center; justify-content: center; color: var(--ink); }
+.map-toggle:hover { color: var(--green-dark); }
+.map-toggle.active { background: var(--green); color: #fff; }
+.map-toggle.active:hover { background: var(--green-dark); color: #fff; }
 
 /* ---- Map labels overlay ---- */
 /* Each label marker is a zero-size anchor at the place point; the text/dot are absolutely
@@ -387,6 +387,9 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .lbl-water .lbl-t {
   font-family: var(--serif); font-style: italic; font-size: 11px; color: #5d6e7c;
 }
+/* Lakes & rivers: italic blue, like other water labels (lakes a touch stronger than rivers). */
+.lbl-lake .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10.5px; color: #5d6e7c; }
+.lbl-river .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10px; color: #7c93a3; }
 .lbl-city .lbl-dot {
   position: absolute; left: 0; top: 0; transform: translate(-50%, -50%);
   width: 3px; height: 3px; border-radius: 50%; background: #6b6760;
@@ -494,7 +497,7 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   /* Labels themselves shrink slightly for density on small screens. (The toggle lives in
      the top-left control stack and in the ☰ menu, both reachable on mobile.) */
   .lbl-country .lbl-t, .lbl-water .lbl-t { font-size: 10px; }
-  .lbl-state .lbl-t, .lbl-city .lbl-t { font-size: 9.5px; }
+  .lbl-state .lbl-t, .lbl-city .lbl-t, .lbl-lake .lbl-t, .lbl-river .lbl-t { font-size: 9.5px; }
 
   /* Panel becomes a bottom sheet. */
   .panel {

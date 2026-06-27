@@ -50,8 +50,10 @@ are welcome via the project's contribution process.
 Third-party map data
 --------------------
 The world map geometry in data/world.geojson and the optional place-label data
-in data/labels/ (cities.json, water.json and states.json, plus the country names
-drawn from the world geometry) are NOT part of the CC BY-SA dataset above. They are derived from
+in data/labels/ (cities.json, water.json, states.json, lakes.json and rivers.json,
+plus the country names drawn from the world geometry) and the basemap geometry in
+data/geo/ (lakes.geojson, rivers.geojson and admin1.geojson) are NOT part of the
+CC BY-SA dataset above. They are derived from
 Natural Earth (https://www.naturalearthdata.com/), whose vector map data is released
 into the public domain. "Made with Natural Earth."
 

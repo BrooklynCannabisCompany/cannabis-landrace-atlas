@@ -5,7 +5,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  visibleAtZoom, countryMinZoom, stateMinZoom, cityMinZoom, waterMinZoom
+  visibleAtZoom, countryMinZoom, stateMinZoom, cityMinZoom, waterMinZoom,
+  lakeMinZoom, riverMinZoom
 } from './labels.js';
 
 test('visibleAtZoom shows a label only at or above its minZoom', () => {
@@ -52,4 +53,17 @@ test('waterMinZoom shows oceans first, then seas', () => {
   assert.equal(waterMinZoom(0), 2);  // oceans — visible as soon as labels are on
   assert.equal(waterMinZoom(1), 3);  // seas/bays/gulfs
   assert.equal(waterMinZoom(5), 3);
+});
+
+test('lakeMinZoom shows the biggest lakes earliest', () => {
+  assert.equal(lakeMinZoom(0), 3);   // Superior, Baikal, Victoria
+  assert.equal(lakeMinZoom(1), 4);
+});
+
+test('riverMinZoom reveals major rivers before minor ones', () => {
+  assert.equal(riverMinZoom(1), 4);  // Amazon, Nile, Yangtze
+  assert.equal(riverMinZoom(2), 4);  // Mekong
+  assert.equal(riverMinZoom(3), 5);
+  assert.equal(riverMinZoom(4), 5);
+  assert.equal(riverMinZoom(5), 6);
 });
