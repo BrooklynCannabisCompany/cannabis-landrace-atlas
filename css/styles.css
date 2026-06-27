@@ -60,6 +60,10 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   font: inherit; cursor: pointer; border-radius: 4px; color: var(--ink);
 }
 .app-menu-item:hover { background: #eef0e9; color: var(--green-dark); }
+/* Checkable menu item (Labels): leaves room for a check, shown when on. */
+.app-menu-check { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.app-menu-check::after { content: '✓'; color: var(--green-dark); visibility: hidden; }
+.app-menu-check.on::after { visibility: visible; }
 
 /* Menu modal content */
 .modal-note { color: var(--muted); font-size: 13px; }
@@ -354,6 +358,41 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .reset-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
 .reset-control a:hover { color: var(--green-dark); }
 
+/* ---- Labels toggle control (top-left, stacked under the zoom/reset buttons) ---- */
+.labels-control a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
+.labels-control a:hover { color: var(--green-dark); }
+.labels-control a.active { background: var(--green); color: #fff; }
+.labels-control a.active:hover { background: var(--green-dark); color: #fff; }
+
+/* ---- Map labels overlay ---- */
+/* Each label marker is a zero-size anchor at the place point; the text/dot are absolutely
+   positioned children so they centre on the point without fighting Leaflet's transform.
+   A paper-tinted halo keeps names legible over borders and leaf markers. */
+.lbl { width: 0 !important; height: 0 !important; background: none; border: none; }
+.lbl .lbl-t {
+  position: absolute; left: 0; top: 0; transform: translate(-50%, -50%);
+  white-space: nowrap; user-select: none;
+  text-shadow: -1px -1px 1.5px #f2efe8, 1px -1px 1.5px #f2efe8,
+               -1px 1px 1.5px #f2efe8, 1px 1px 1.5px #f2efe8, 0 0 2px #f2efe8;
+}
+.lbl-country .lbl-t {
+  font-family: var(--serif); font-variant: small-caps; letter-spacing: 0.07em;
+  font-size: 11px; color: #6b6760;
+}
+/* States/provinces: subordinate to countries — smaller and lighter small-caps. */
+.lbl-state .lbl-t {
+  font-family: var(--serif); font-variant: small-caps; letter-spacing: 0.04em;
+  font-size: 10px; color: #8a857c;
+}
+.lbl-water .lbl-t {
+  font-family: var(--serif); font-style: italic; font-size: 11px; color: #5d6e7c;
+}
+.lbl-city .lbl-dot {
+  position: absolute; left: 0; top: 0; transform: translate(-50%, -50%);
+  width: 3px; height: 3px; border-radius: 50%; background: #6b6760;
+}
+.lbl-city .lbl-t { left: 5px; transform: translateY(-50%); font-size: 10.5px; color: #57534b; }
+
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }
 .leaf-marker:hover { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5)); z-index: 1000 !important; }
@@ -451,6 +490,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
      (always listed there), so the row stays just ☰ + (wordmark) + search. */
   #submit-btn, #contact-btn { display: none; }
   .search-group { flex: 1 1 auto; max-width: none; margin: 0; }
+
+  /* Labels themselves shrink slightly for density on small screens. (The toggle lives in
+     the top-left control stack and in the ☰ menu, both reachable on mobile.) */
+  .lbl-country .lbl-t, .lbl-water .lbl-t { font-size: 10px; }
+  .lbl-state .lbl-t, .lbl-city .lbl-t { font-size: 9.5px; }
 
   /* Panel becomes a bottom sheet. */
   .panel {

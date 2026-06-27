@@ -49,9 +49,11 @@ are welcome via the project's contribution process.
 
 Third-party map data
 --------------------
-The world map geometry in data/world.geojson is NOT part of the CC BY-SA dataset
-above. It is derived from Natural Earth (https://www.naturalearthdata.com/),
-whose vector map data is released into the public domain. "Made with Natural Earth."
+The world map geometry in data/world.geojson and the optional place-label data
+in data/labels/ (cities.json, water.json and states.json, plus the country names
+drawn from the world geometry) are NOT part of the CC BY-SA dataset above. They are derived from
+Natural Earth (https://www.naturalearthdata.com/), whose vector map data is released
+into the public domain. "Made with Natural Earth."
 
 Map rendering uses the Leaflet library (data/../lib/leaflet/, BSD-2-Clause) and the
 marked Markdown renderer (lib/marked.min.js, MIT); each retains its own upstream

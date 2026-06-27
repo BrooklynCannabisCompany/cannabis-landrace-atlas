@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-import { createMap, addMarkers, flyToStrain, setMarkerSelected } from './map.js';
+import { createMap, addMarkers, flyToStrain, setMarkerSelected, addLabelsControl } from './map.js';
+import { createLabels } from './labels.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -30,6 +31,27 @@ let strains = [];
 let map = null;
 let markersById = new Map();
 let currentId = null;
+let labels = null;          // labels-overlay controller (created in boot)
+let labelsControl = null;   // top-left Labels toggle button (created in boot)
+let labelsOn = false;
+
+// ---- Labels overlay ----
+// Single source of truth for the labels on/off state, shared by the map button and the
+// ☰-menu "Labels" item. Persisted so a returning visitor keeps their choice.
+const LABELS_KEY = 'cla-labels';
+const labelsMenuItem = appMenu.querySelector('[data-menu="labels"]');
+
+function setLabels(on, persist = true) {
+  labelsOn = on;
+  labels?.setVisible(on);
+  labelsControl?.setLabelsActive(on);
+  if (labelsMenuItem) {
+    labelsMenuItem.classList.toggle('on', on);
+    labelsMenuItem.setAttribute('aria-checked', on ? 'true' : 'false');
+  }
+  if (persist) { try { localStorage.setItem(LABELS_KEY, on ? '1' : '0'); } catch { /* ignore */ } }
+}
+function toggleLabels() { setLabels(!labelsOn); }
 
 // ---- Panel ----
 function openPanel(strain) {
@@ -344,7 +366,7 @@ appMenu.addEventListener('click', (e) => {
   const item = e.target.closest('.app-menu-item');
   if (!item) return;
   toggleMenu(false);
-  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense, suggest: openFeedbackSubmit, contact: openContactForm }[item.dataset.menu] || (() => {}))();
+  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense, labels: toggleLabels, suggest: openFeedbackSubmit, contact: openContactForm }[item.dataset.menu] || (() => {}))();
 });
 
 
@@ -424,7 +446,7 @@ function openLicense() {
     for (const [t, d] of [
       ['Code', 'MIT License.'],
       ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).'],
-      ['Map data', 'World geometry from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
+      ['Map data', 'World geometry and place labels — country names, states/provinces, cities, oceans and seas — from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
     ]) {
       const dt = document.createElement('dt'); dt.textContent = t;
       const dd = document.createElement('dd'); dd.textContent = d;
@@ -699,15 +721,26 @@ document.addEventListener('click', (e) => {
 // ---- Boot ----
 async function boot() {
   try {
-    const [data, world] = await Promise.all([
+    // The map fails hard without strains + world geometry; the two label data files are
+    // optional decoration, so a missing/broken file degrades to an empty layer.
+    const [data, world, cities, water, states] = await Promise.all([
       fetch('data/landraces.json').then((r) => { if (!r.ok) throw new Error('data'); return r.json(); }),
-      fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); })
+      fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); }),
+      fetch('data/labels/cities.json').then((r) => (r.ok ? r.json() : [])).catch(() => []),
+      fetch('data/labels/water.json').then((r) => (r.ok ? r.json() : [])).catch(() => []),
+      fetch('data/labels/states.json').then((r) => (r.ok ? r.json() : [])).catch(() => [])
     ]);
     strains = data;
     // Distinct dataset countries → suggestions for the submission Country combobox.
     setCountryOptions([...new Set(strains.map((s) => s.country).filter(Boolean))].sort((a, b) => a.localeCompare(b)));
     map = createMap('map', world, closePanel);
     markersById = addMarkers(map, strains, openPanel);
+    // Labels overlay + its controls. Restore the persisted on/off choice.
+    labels = createLabels(map, world, cities, water, states);
+    labelsControl = addLabelsControl(map, { onToggleLabels: toggleLabels });
+    let saved = false;
+    try { saved = localStorage.getItem(LABELS_KEY) === '1'; } catch { /* ignore */ }
+    setLabels(saved, false);
   } catch (err) {
     document.getElementById('map').innerHTML = '<div class="map-error">Unable to load map data.</div>';
     console.error('The Cannabis Landrace Atlas failed to load:', err);

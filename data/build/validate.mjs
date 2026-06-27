@@ -51,6 +51,23 @@ export function validateRecords(records) {
   return { errors, warnings };
 }
 
+// Validates a label data file (cities/water): an array of { name, lat, lng, rank }.
+export function validateLabelPoints(records, kind = 'label') {
+  const errors = [];
+  if (!Array.isArray(records)) {
+    errors.push(`${kind}: not an array`);
+    return { errors };
+  }
+  records.forEach((r, i) => {
+    const where = `${kind}[${i}]${r && r.name ? ` "${r.name}"` : ''}`;
+    if (!r || typeof r.name !== 'string' || !r.name.trim()) errors.push(`${where}: missing name`);
+    if (!r || typeof r.lat !== 'number' || r.lat < -90 || r.lat > 90) errors.push(`${where}: lat out of range`);
+    if (!r || typeof r.lng !== 'number' || r.lng < -180 || r.lng > 180) errors.push(`${where}: lng out of range`);
+    if (!r || !Number.isFinite(r.rank)) errors.push(`${where}: rank not a number`);
+  });
+  return { errors };
+}
+
 // CLI entry: node data/validate.mjs
 if (import.meta.url === `file://${process.argv[1]}`) {
   const __d = dirname(fileURLToPath(import.meta.url));
@@ -59,5 +76,21 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const w of warnings) console.log(`WARN  ${w}`);
   for (const e of errors) console.error(`ERROR ${e}`);
   console.log(`\n${data.length} records — ${errors.length} errors, ${warnings.length} warnings`);
-  process.exit(errors.length ? 1 : 0);
+
+  // Label data files (optional decoration; validated when present).
+  let labelErrors = 0;
+  for (const [file, kind] of [['cities.json', 'cities'], ['water.json', 'water'], ['states.json', 'states']]) {
+    try {
+      const recs = JSON.parse(readFileSync(join(__d, '..', 'labels', file), 'utf8'));
+      const res = validateLabelPoints(recs, kind);
+      for (const e of res.errors) console.error(`ERROR ${e}`);
+      labelErrors += res.errors.length;
+      console.log(`${kind}: ${Array.isArray(recs) ? recs.length : 0} points — ${res.errors.length} errors`);
+    } catch (e) {
+      console.error(`ERROR ${kind}: cannot read data/labels/${file} (${e.message})`);
+      labelErrors += 1;
+    }
+  }
+
+  process.exit(errors.length + labelErrors ? 1 : 0);
 }

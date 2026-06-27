@@ -31,7 +31,16 @@ export function setMarkerSelected(marker, on) {
   if (marker) marker.setIcon(on ? SELECTED_ICON : LEAF_ICON);
 }
 
-const INITIAL_VIEW = { center: [20, 10], zoom: 2 };
+// The whole-world frame, excluding the empty polar caps. We fit this to the viewport
+// rather than using a fixed zoom so the world fills large screens instead of sitting tiny
+// in the middle; on small screens Leaflet just picks a lower zoom. Used for the initial
+// view and the reset button.
+const WORLD_BOUNDS = [[-56, -168], [76, 178]];
+const INITIAL_VIEW = { center: [20, 10], zoom: 2 }; // fallback before fitBounds runs
+
+function fitWorld(map) {
+  map.fitBounds(WORLD_BOUNDS, { animate: false });
+}
 
 // `onReset` (optional) runs after the view resets — e.g. to close the panel.
 export function createMap(elementId, worldGeoJson, onReset) {
@@ -55,6 +64,8 @@ export function createMap(elementId, worldGeoJson, onReset) {
     interactive: false
   }).addTo(map);
 
+  fitWorld(map); // size the world to the viewport (adaptive to screen size)
+
   // Reset-view control: same-size icon button stacked below the +/- zoom buttons.
   const ResetControl = L.Control.extend({
     options: { position: 'topleft' },
@@ -70,7 +81,7 @@ export function createMap(elementId, worldGeoJson, onReset) {
         '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg>';
       L.DomEvent.on(link, 'click', L.DomEvent.stop);
       L.DomEvent.on(link, 'click', () => {
-        map.setView(INITIAL_VIEW.center, INITIAL_VIEW.zoom);
+        fitWorld(map);
         if (typeof onReset === 'function') onReset();
       });
       return container;
@@ -86,6 +97,44 @@ export function createMap(elementId, worldGeoJson, onReset) {
   if (zout) { zout.setAttribute('data-tip', 'Zoom out'); zout.removeAttribute('title'); }
 
   return map;
+}
+
+// --- Labels toggle control ------------------------------------------------
+// A top-left control stacked beneath the zoom (+/-) and reset buttons. The button mirrors
+// the ☰-menu "Labels" item; app.js keeps the two in sync via the returned setLabelsActive.
+// Returns { setLabelsActive(on) } so app.js can reflect state toggled from the menu.
+export function addLabelsControl(map, { onToggleLabels }) {
+  let btn = null;
+  const Group = L.Control.extend({
+    options: { position: 'topleft' },
+    onAdd() {
+      const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control labels-control');
+      L.DomEvent.disableClickPropagation(container);
+      btn = L.DomUtil.create('a', 'labels-toggle', container);
+      btn.href = '#';
+      btn.setAttribute('role', 'button');
+      btn.setAttribute('aria-pressed', 'false');
+      btn.setAttribute('aria-label', 'Show map labels');
+      btn.setAttribute('data-tip', 'Show labels');
+      btn.innerHTML =
+        '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0l-7.2-7.2a2 2 0 0 1-.6-1.4V4a1 1 0 0 1 1-1h7.8a2 2 0 0 1 1.4.6l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.1"/></svg>';
+      L.DomEvent.on(btn, 'click', L.DomEvent.stop);
+      L.DomEvent.on(btn, 'click', () => onToggleLabels());
+      return container;
+    }
+  });
+  map.addControl(new Group());
+
+  return {
+    setLabelsActive(on) {
+      if (!btn) return;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.setAttribute('data-tip', on ? 'Hide labels' : 'Show labels');
+      btn.setAttribute('aria-label', on ? 'Hide map labels' : 'Show map labels');
+    }
+  };
 }
 
 // --- Marker declustering --------------------------------------------------
