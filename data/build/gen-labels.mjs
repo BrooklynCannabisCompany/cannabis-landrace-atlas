@@ -175,12 +175,13 @@ function lineMidpoint(geometry) {
   return best ? best[Math.floor(best.length / 2)] : null;
 }
 
-// Major rivers (centerlines). 50m, trimmed to scalerank <= 5 (drops the smallest tributaries)
-// to keep the file light; carries `name`/`rank` for labels. Lazy-loaded by the Rivers toggle.
+// Named rivers (centerlines). 50m, every named river (so notable mid-size ones like the
+// Hudson and Thames — scalerank 6 — are included); carries `name`/`rank` so the runtime can
+// gate the smallest to deeper zooms. Lazy-loaded by the Rivers toggle.
 async function genRivers() {
   const g = await getJson(`${NE}/ne_50m_rivers_lake_centerlines.geojson`);
   const features = g.features
-    .filter((f) => f.properties.scalerank <= 5 && (f.properties.name_en || f.properties.name))
+    .filter((f) => f.properties.name_en || f.properties.name)
     .map((f) => ({
       type: 'Feature',
       properties: { name: f.properties.name_en || f.properties.name, rank: f.properties.scalerank },

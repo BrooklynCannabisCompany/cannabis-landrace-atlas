@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControl, TOGGLE_ICONS } from './map.js';
+import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControls, TOGGLE_ICONS } from './map.js';
 import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
@@ -40,12 +40,12 @@ let geo = null;             // basemap-geometry controller (created in boot)
 // layer whose GeoJSON is lazy-loaded on first enable. Each has a map button + a synced
 // ☰-menu item and is persisted. Lakes are always on (no toggle).
 const TOGGLES = {
-  labels: { storage: 'cla-labels', group: 'place', label: 'labels', icon: TOGGLE_ICONS.labels, className: 'labels-control' },
-  states: { storage: 'cla-states', group: 'states', label: 'states & provinces', icon: TOGGLE_ICONS.states, className: 'states-control', geo: 'borders', url: 'data/geo/admin1.geojson' },
-  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', icon: TOGGLE_ICONS.rivers, className: 'rivers-control', geo: 'rivers', url: 'data/geo/rivers.geojson' }
+  labels: { storage: 'cla-labels', group: 'place', label: 'labels', icon: TOGGLE_ICONS.labels },
+  states: { storage: 'cla-states', group: 'states', label: 'states & provinces', icon: TOGGLE_ICONS.states, geo: 'borders', url: 'data/geo/admin1.geojson' },
+  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', icon: TOGGLE_ICONS.rivers, geo: 'rivers', url: 'data/geo/rivers.geojson' }
 };
 const toggleOn = { labels: false, states: false, rivers: false };
-const toggleControls = {};   // id -> { setActive }
+let toggleCtl = null;        // grouped control: { setActive(id, on) }
 const toggleMenuItems = {};  // id -> menu element
 const geoLoaded = {};        // url -> true once fetched
 
@@ -67,7 +67,7 @@ function setToggle(id, on, persist = true) {
     geo?.setVisible(t.geo, on);
     if (on) ensureGeo(t.geo, t.url);
   }
-  toggleControls[id]?.setActive(on);
+  toggleCtl?.setActive(id, on);
   const mi = toggleMenuItems[id];
   if (mi) { mi.classList.toggle('on', on); mi.setAttribute('aria-checked', on ? 'true' : 'false'); }
   if (persist) { try { localStorage.setItem(t.storage, on ? '1' : '0'); } catch { /* ignore */ } }
@@ -770,15 +770,14 @@ async function boot() {
     geo.setVisible('lakes', true);           // lakes: always-on shapes…
     labels.setGroupVisible('lakes', true);   // …and always-on labels (zoom-permitting)
 
-    // The three toggle controls (top-left stack) + their ☰-menu items, then restore state.
+    // The toggle controls — one grouped top-left bar — plus their ☰-menu items, then restore.
+    toggleCtl = addToggleControls(map, Object.keys(TOGGLES).map((id) => ({
+      id, svg: TOGGLES[id].icon, label: TOGGLES[id].label, onToggle: () => setToggle(id, !toggleOn[id])
+    })));
     for (const id of Object.keys(TOGGLES)) {
-      const t = TOGGLES[id];
-      toggleControls[id] = addToggleControl(map, {
-        className: t.className, svg: t.icon, label: t.label, onToggle: () => setToggle(id, !toggleOn[id])
-      });
       toggleMenuItems[id] = appMenu.querySelector(`[data-menu="${id}"]`);
       let saved = false;
-      try { saved = localStorage.getItem(t.storage) === '1'; } catch { /* ignore */ }
+      try { saved = localStorage.getItem(TOGGLES[id].storage) === '1'; } catch { /* ignore */ }
       setToggle(id, saved, false);
     }
   } catch (err) {

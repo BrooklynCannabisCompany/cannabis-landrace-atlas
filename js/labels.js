@@ -58,11 +58,13 @@ export function lakeMinZoom(rank) {
   return rank <= 0 ? 3 : 4;
 }
 
-// Natural Earth rivers scalerank (1 = biggest). Major rivers (Amazon, Nile) at zoom 4.
+// Natural Earth rivers scalerank (1 = biggest). Major rivers (Amazon, Nile) at zoom 4; the
+// smallest named ones (rank 6 — e.g. the Hudson, Thames) only at max zoom so low zooms stay clean.
 export function riverMinZoom(rank) {
   if (rank <= 2) return 4;
   if (rank <= 4) return 5;
-  return 6;
+  if (rank <= 5) return 6;
+  return 7;
 }
 
 // --- Runtime overlay --------------------------------------------------------

@@ -66,4 +66,5 @@ test('riverMinZoom reveals major rivers before minor ones', () => {
   assert.equal(riverMinZoom(3), 5);
   assert.equal(riverMinZoom(4), 5);
   assert.equal(riverMinZoom(5), 6);
+  assert.equal(riverMinZoom(6), 7);  // Hudson, Thames — only at max zoom
 });

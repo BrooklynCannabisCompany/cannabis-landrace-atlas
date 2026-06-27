@@ -100,50 +100,55 @@ export function createMap(elementId, worldGeoJson, onReset) {
 }
 
 // --- Top-left toggle controls ---------------------------------------------
-// Each map toggle (Labels, States & Provinces, Rivers) is one of these, stacked beneath the
-// zoom (+/-) and reset buttons and mirroring its ☰-menu item; app.js keeps the two in sync.
-// `spec` = { className, svg, label, onToggle }. Returns { setActive(on) } so app.js can
-// reflect state toggled from the menu. `label` is the noun used in the tooltip/aria text.
-export function addToggleControl(map, { className, svg, label, onToggle }) {
-  let btn = null;
+// The map toggles (Labels, States & Provinces, Rivers) live in ONE leaflet-bar so they stack
+// with no gap between them (like the +/- zoom buttons), beneath the zoom and reset bars. Each
+// button mirrors its ☰-menu item; app.js keeps the two in sync. `specs` = [{ id, svg, label,
+// onToggle }]. Returns { setActive(id, on) } so app.js can reflect state toggled from the menu.
+export function addToggleControls(map, specs) {
+  const btns = {};
   const Control = L.Control.extend({
     options: { position: 'topleft' },
     onAdd() {
-      const container = L.DomUtil.create('div', `leaflet-bar leaflet-control ${className}`);
+      const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control map-toggles');
       L.DomEvent.disableClickPropagation(container);
-      btn = L.DomUtil.create('a', 'map-toggle', container);
-      btn.href = '#';
-      btn.setAttribute('role', 'button');
-      btn.setAttribute('aria-pressed', 'false');
-      btn.setAttribute('aria-label', `Show ${label}`);
-      btn.setAttribute('data-tip', `Show ${label}`);
-      btn.innerHTML = svg;
-      L.DomEvent.on(btn, 'click', L.DomEvent.stop);
-      L.DomEvent.on(btn, 'click', () => onToggle());
+      for (const s of specs) {
+        const btn = L.DomUtil.create('a', 'map-toggle', container);
+        btn.href = '#';
+        btn.setAttribute('role', 'button');
+        btn.setAttribute('aria-pressed', 'false');
+        btn.setAttribute('aria-label', `Show ${s.label}`);
+        btn.setAttribute('data-tip', `Show ${s.label}`);
+        btn.innerHTML = s.svg;
+        L.DomEvent.on(btn, 'click', L.DomEvent.stop);
+        L.DomEvent.on(btn, 'click', () => s.onToggle());
+        btns[s.id] = { el: btn, label: s.label };
+      }
       return container;
     }
   });
   map.addControl(new Control());
 
   return {
-    setActive(on) {
-      if (!btn) return;
-      btn.classList.toggle('active', on);
-      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-      btn.setAttribute('data-tip', `${on ? 'Hide' : 'Show'} ${label}`);
-      btn.setAttribute('aria-label', `${on ? 'Hide' : 'Show'} ${label}`);
+    setActive(id, on) {
+      const b = btns[id];
+      if (!b) return;
+      b.el.classList.toggle('active', on);
+      b.el.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.el.setAttribute('data-tip', `${on ? 'Hide' : 'Show'} ${b.label}`);
+      b.el.setAttribute('aria-label', `${on ? 'Hide' : 'Show'} ${b.label}`);
     }
   };
 }
 
-// SVG glyphs for the toggle buttons (16px, currentColor stroke).
+// SVG glyphs for the toggle buttons (16px, currentColor stroke). Each uses bold, solid shapes
+// so it reads clearly in both the normal and the active (white-on-green) states.
 export const TOGGLE_ICONS = {
   // a price-tag (labels)
   labels: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0l-7.2-7.2a2 2 0 0 1-.6-1.4V4a1 1 0 0 1 1-1h7.8a2 2 0 0 1 1.4.6l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.1"/></svg>',
-  // a map with a fold/border (states & provinces)
+  // a folded map with a fold/border (states & provinces)
   states: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>',
-  // a wavy river line (rivers)
-  rivers: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7c3 0 3-2 6-2s3 4 6 4 3-2 6-2"/><path d="M3 16c3 0 3-2 6-2s3 4 6 4 3-2 6-2"/></svg>'
+  // three wave lines (rivers) — spans the width so it stays legible at 16px / when inverted
+  rivers: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6.5c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/><path d="M2 12c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/><path d="M2 17.5c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/></svg>'
 };
 
 // --- Marker declustering --------------------------------------------------
