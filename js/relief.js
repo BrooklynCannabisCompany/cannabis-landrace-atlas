@@ -108,14 +108,26 @@ export function createRelief(map, peaks) {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     draw(topLeft, size);
   }
-  const onMove = () => reset();
+  // During a zoom, Leaflet scales the whole pane (and our canvas) by the zoom ratio, so the
+  // already-drawn triangles would flash at the wrong size/position until we redraw. Hide the
+  // canvas for the duration of the zoom and redraw crisply on zoomend. Panning needs no hide:
+  // the pane transform keeps the drawn content geographically aligned until moveend redraws.
+  const onZoomStart = () => { canvas.style.visibility = 'hidden'; };
+  const onRedraw = () => { reset(); canvas.style.visibility = 'visible'; };
 
   function setVisible(next) {
     if (next === on) return;
     on = next;
     canvas.style.display = on ? '' : 'none';
-    if (on) { map.on('moveend zoomend resize', onMove); reset(); }
-    else map.off('moveend zoomend resize', onMove);
+    if (on) {
+      map.on('zoomstart', onZoomStart);
+      map.on('zoomend moveend resize', onRedraw);
+      canvas.style.visibility = 'visible';
+      reset();
+    } else {
+      map.off('zoomstart', onZoomStart);
+      map.off('zoomend moveend resize', onRedraw);
+    }
   }
   function setScatter(rows) {
     scatter = rows;

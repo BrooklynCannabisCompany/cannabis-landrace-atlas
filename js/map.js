@@ -76,9 +76,8 @@ export function createMap(elementId, worldGeoJson, onReset) {
       link.setAttribute('data-tip', 'Reset view'); // fast custom tooltip (see tooltip.js)
       link.setAttribute('role', 'button');
       link.setAttribute('aria-label', 'Reset map to the whole world');
-      link.innerHTML =
-        '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">' +
-        '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg>';
+      // Icon is a CSS mask (see .reset-control a::before) rather than an inline SVG — inline
+      // SVGs in Leaflet controls intermittently fail to repaint during map compositing.
       L.DomEvent.on(link, 'click', L.DomEvent.stop);
       L.DomEvent.on(link, 'click', () => {
         fitWorld(map);
@@ -100,10 +99,12 @@ export function createMap(elementId, worldGeoJson, onReset) {
 }
 
 // --- Top-left toggle controls ---------------------------------------------
-// The map toggles (Labels, States & Provinces, Rivers) live in ONE leaflet-bar so they stack
-// with no gap between them (like the +/- zoom buttons), beneath the zoom and reset bars. Each
-// button mirrors its ☰-menu item; app.js keeps the two in sync. `specs` = [{ id, svg, label,
-// onToggle }]. Returns { setActive(id, on) } so app.js can reflect state toggled from the menu.
+// The map toggles (Labels, States & Provinces, Rivers, Mountains) live in ONE leaflet-bar so
+// they stack with no gap (like the +/- zoom buttons), beneath the zoom and reset bars. Each
+// button mirrors its ☰-menu item; app.js keeps the two in sync. `specs` = [{ id, label,
+// onToggle }]; the icon is a CSS mask keyed on `map-toggle--<id>` (NOT an inline SVG — inline
+// SVGs in Leaflet controls intermittently fail to repaint during map compositing).
+// Returns { setActive(id, on) } so app.js can reflect state toggled from the menu.
 export function addToggleControls(map, specs) {
   const btns = {};
   const Control = L.Control.extend({
@@ -112,13 +113,12 @@ export function addToggleControls(map, specs) {
       const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control map-toggles');
       L.DomEvent.disableClickPropagation(container);
       for (const s of specs) {
-        const btn = L.DomUtil.create('a', 'map-toggle', container);
+        const btn = L.DomUtil.create('a', `map-toggle map-toggle--${s.id}`, container);
         btn.href = '#';
         btn.setAttribute('role', 'button');
         btn.setAttribute('aria-pressed', 'false');
         btn.setAttribute('aria-label', `Show ${s.label}`);
         btn.setAttribute('data-tip', `Show ${s.label}`);
-        btn.innerHTML = s.svg;
         L.DomEvent.on(btn, 'click', L.DomEvent.stop);
         L.DomEvent.on(btn, 'click', () => s.onToggle());
         btns[s.id] = { el: btn, label: s.label };
@@ -139,19 +139,6 @@ export function addToggleControls(map, specs) {
     }
   };
 }
-
-// SVG glyphs for the toggle buttons (16px, currentColor stroke). Each uses bold, solid shapes
-// so it reads clearly in both the normal and the active (white-on-green) states.
-export const TOGGLE_ICONS = {
-  // a price-tag (labels)
-  labels: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0l-7.2-7.2a2 2 0 0 1-.6-1.4V4a1 1 0 0 1 1-1h7.8a2 2 0 0 1 1.4.6l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.1"/></svg>',
-  // a folded map with a fold/border (states & provinces)
-  states: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>',
-  // three wave lines (rivers) — spans the width so it stays legible at 16px / when inverted
-  rivers: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6.5c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/><path d="M2 12c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/><path d="M2 17.5c2.4 0 2.4 2 4.8 2s2.4-2 4.8-2 2.4 2 4.8 2 2.4-2 4.8-2"/></svg>',
-  // a mountain range silhouette (mountains)
-  mountains: '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20 9.5 7l4.5 7.5L17 10l5 10z"/></svg>'
-};
 
 // --- Marker declustering --------------------------------------------------
 // Many varieties resolve to the same approximate point (a country/region centroid),

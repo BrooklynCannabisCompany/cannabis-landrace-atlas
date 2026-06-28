@@ -364,6 +364,21 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .map-toggle.active { background: var(--green); color: #fff; }
 .map-toggle.active:hover { background: var(--green-dark); color: #fff; }
 
+/* Control icons are CSS masks tinted by `currentColor` rather than inline SVGs, which
+   intermittently fail to repaint inside Leaflet controls during map compositing. The glyph is
+   the element's own ::before box (painted reliably), so the white button background is kept. */
+.map-toggle::before, .reset-control a::before {
+  content: ''; display: block; width: 16px; height: 16px;
+  background-color: currentColor;
+  -webkit-mask: var(--mt-icon) center / 16px 16px no-repeat;
+          mask: var(--mt-icon) center / 16px 16px no-repeat;
+}
+.map-toggle--labels { --mt-icon: url(../assets/icons/labels.svg); }
+.map-toggle--states { --mt-icon: url(../assets/icons/states.svg); }
+.map-toggle--rivers { --mt-icon: url(../assets/icons/rivers.svg); }
+.map-toggle--mountains { --mt-icon: url(../assets/icons/mountains.svg); }
+.reset-control a { --mt-icon: url(../assets/icons/reset.svg); }
+
 /* ---- Map labels overlay ---- */
 /* Each label marker is a zero-size anchor at the place point; the text/dot are absolutely
    positioned children so they centre on the point without fighting Leaflet's transform.

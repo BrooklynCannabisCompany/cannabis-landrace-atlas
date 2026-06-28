@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 
-import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControls, TOGGLE_ICONS } from './map.js';
+import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControls } from './map.js';
 import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
 import { createRelief } from './relief.js';
@@ -43,10 +43,10 @@ let reliefLoaded = false;   // relief scatter lazy-fetched once
 // layer whose GeoJSON is lazy-loaded on first enable. Each has a map button + a synced
 // ☰-menu item and is persisted. Lakes are always on (no toggle).
 const TOGGLES = {
-  labels: { storage: 'cla-labels', group: 'place', label: 'labels', icon: TOGGLE_ICONS.labels },
-  states: { storage: 'cla-states', group: 'states', label: 'states & provinces', icon: TOGGLE_ICONS.states, geo: 'borders', url: 'data/geo/admin1.geojson' },
-  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', icon: TOGGLE_ICONS.rivers, geo: 'rivers', url: 'data/geo/rivers.geojson' },
-  mountains: { storage: 'cla-mountains', group: 'mountains', label: 'mountains', icon: TOGGLE_ICONS.mountains }
+  labels: { storage: 'cla-labels', group: 'place', label: 'labels' },
+  states: { storage: 'cla-states', group: 'states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
+  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
+  mountains: { storage: 'cla-mountains', group: 'mountains', label: 'mountains' }
 };
 const toggleOn = { labels: false, states: false, rivers: false, mountains: false };
 let toggleCtl = null;        // grouped control: { setActive(id, on) }
@@ -789,7 +789,7 @@ async function boot() {
 
     // The toggle controls — one grouped top-left bar — plus their ☰-menu items, then restore.
     toggleCtl = addToggleControls(map, Object.keys(TOGGLES).map((id) => ({
-      id, svg: TOGGLES[id].icon, label: TOGGLES[id].label, onToggle: () => setToggle(id, !toggleOn[id])
+      id, label: TOGGLES[id].label, onToggle: () => setToggle(id, !toggleOn[id])
     })));
     for (const id of Object.keys(TOGGLES)) {
       toggleMenuItems[id] = appMenu.querySelector(`[data-menu="${id}"]`);
