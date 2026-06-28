@@ -43,15 +43,19 @@ css/styles.css          All styles (one file). CSS variables in :root.
 js/                     Browser ES modules (see §5).
 lib/                    Vendored libs: leaflet/ (1.9.4) and marked (v12). Not edited.
 assets/leaf.svg         The shared green leaf marker graphic.
+assets/icons/*.svg      Map-control glyphs, used as CSS masks (labels/states/rivers/mountains/reset).
 data/                   RUNTIME ONLY — what the browser fetches/imports.
   landraces.json        The CANONICAL dataset — edited directly. The app fetches it at boot.
   world.geojson         Basemap polygons (simplified; see data/build/simplify-geojson.mjs).
   writeups/<id>.md      One Markdown write-up per strain (447 files).
   vocab.mjs             Controlled vocabularies — imported by the browser AND the validator.
+  labels/*.json         Map-label points (cities, water, states, lakes, rivers, ranges, peaks).
+  geo/                  Overlay geometry: lakes/rivers/admin1 .geojson + relief.json (triangles).
   build/                PIPELINE TOOLING — never fetched at runtime (§6).
     raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
     convert.mjs         One-time bootstrap raw → ../landraces.json. NOT re-run (§6).
-    validate.mjs        Validates ../landraces.json; validate.test.mjs runs it in CI.
+    gen-labels.mjs      One-time generator: data/labels/* + data/geo/* from Natural Earth (network).
+    validate.mjs        Validates ../landraces.json + the labels/geo files; validate.test.mjs runs it.
     vendor-links.json   Real, curated links per id: { seed[], photo, forums[], references[] }.
     aka-generated.json  Curated alternate names per id: { id: [names] }.
     strains-to-add.json Queue of scraped strains with no dataset match yet.
@@ -71,23 +75,33 @@ docs/
 
 `js/app.js` is the orchestrator. At the bottom it calls `initTooltips()` then `boot()`:
 
-1. `boot()` fetches `data/landraces.json` and `data/world.geojson` in parallel.
-2. `createMap('map', world, closePanel)` builds the Leaflet map (GeoJSON basemap, no
-   tiles) and the zoom + reset controls.
+1. `boot()` fetches `data/landraces.json` + `data/world.geojson` in parallel, alongside the
+   small `data/labels/*` point files and `data/geo/lakes.geojson` (each degrades to empty on
+   failure, so a missing overlay file never breaks the map).
+2. `createMap('map', world, closePanel)` builds the Leaflet map (GeoJSON basemap, no tiles),
+   fits the world to the viewport (`fitWorld`), and adds the zoom + reset controls.
 3. `addMarkers(map, strains, openPanel)` places one marker per strain (declustered, §11)
    and returns `markersById` (id → Leaflet marker).
-4. User interactions flow through `app.js`: clicking a marker or a search result →
+4. The **overlays** are wired: `createLabels` (text), `createGeoLayers` (lake/river/border
+   geometry), `createRelief` (mountain triangles); `addToggleControls` builds the top-left
+   toggle stack; each toggle (Labels / States & Provinces / Rivers / Mountains) is restored
+   from `localStorage` and kept in sync with its ☰-menu item. Rivers/borders/relief geometry
+   is lazy-fetched on first enable; lakes are always on.
+5. User interactions flow through `app.js`: clicking a marker or a search result →
    `openPanel(strain)`; clicking a fact/badge → `openFacet` → `openIndex` (§10); menu →
    the modal openers.
 
-On any fetch failure the map element shows "Unable to load map data." (graceful).
+On any fetch failure for the core data the map element shows "Unable to load map data."
 
 ## 5. Browser modules (`js/`)
 
 | Module | Responsibility |
 |---|---|
 | `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/Database/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
-| `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, reset/zoom controls + their tooltips. |
+| `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, world-fit (`fitWorld`/`WORLD_BOUNDS`), reset/zoom controls, and `addToggleControls` (the top-left overlay-toggle stack; icons are CSS masks). |
+| `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`mountains`) + always-on lakes, drawn in a pane below the markers. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
+| `geolayers.js` | `createGeoLayers(map)` — lake (always-on), river, and admin-1-border geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily. |
+| `relief.js` | `createRelief(map, peaks)` — the mountain triangle-relief **canvas** layer: scatters/peaks culled to the viewport, redrawn on move/zoom (hidden during the zoom animation to avoid a stale flash). |
 | `panel.js` | Renders the variety panel header: title, place, the two classification **badges** (morphotype + vernacular type) and the trait rows (`facetRow`). Holds the tooltip definition maps (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`). |
 | `forms.js` | All contribution forms: `openFeedbackSubmit` (Suggest Addition), `openStrainSubmit`, `openContactForm`, `openSectionSubmit` (the ⊕ buttons). Each mounts a Turnstile widget (`mountTurnstile`) and POSTs `{label, title, body, turnstileToken}` to the Worker (`submitIssue` → `WORKER_URL`), then shows a thank-you (`showSubmitSuccess`). `repoLink` helper. |
 | `modal.js` | The single modal host: `openContentModal(title, fill)`, `showModal`/`closeModal`, focus trap + restore, `data-close` handling, dialog ARIA. |
@@ -303,10 +317,11 @@ position.
 ## 14. Testing
 
 `node --test` runs every `*.test.mjs`: pure pipeline helpers (`data/build/lib/*.test.mjs`),
-the data validator (`data/build/validate.test.mjs`), and browser-logic/DOM tests
-(`js/search.test.mjs`, `js/relations.test.mjs`, `js/util.test.mjs`). Keep tests green;
-add a test when you add a pure function. Browser-only behaviour (Leaflet, modal focus) is
-verified manually / via devtools, not in `node --test`.
+the data validator + label/geo file integrity (`data/build/validate.test.mjs`), and
+browser-logic tests (`js/search.test.mjs`, `js/relations.test.mjs`, `js/util.test.mjs`, and
+the overlay zoom-gating helpers in `js/labels.test.mjs`). Keep tests green; add a test when
+you add a pure function. Browser-only behaviour (Leaflet, the canvas relief layer, modal
+focus, the mask-based control icons) is verified manually / via devtools, not in `node --test`.
 
 ## 15. Conventions & gotchas
 

@@ -14,10 +14,11 @@ below are the load-bearing constraints and the things that bite.
 
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data validator)
-npm run validate         # checks data/landraces.json against the controlled vocab
+npm run validate         # validates landraces.json + the data/labels & data/geo files
 npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
 node --test js/search.test.mjs        # run a single test file
 node data/build/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
+node data/build/gen-labels.mjs           # regenerates data/labels/* and data/geo/* from Natural Earth (network)
 ```
 
 There are no dependencies — `devDependencies` is empty; tests use only the Node built-in
@@ -45,9 +46,14 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
   Cloudflare, never in the repo.
 - **`data/` holds only runtime files; `data/build/` holds the pipeline tooling.** What the
   browser fetches/imports lives directly in `data/`: `landraces.json`, `world.geojson`,
-  `writeups/`, and `vocab.mjs`. Everything used to *build* the dataset — `convert.mjs`,
-  `validate.mjs`, the scrape/normalize scripts, the `lib/` helpers, `raw/`, and the
-  intermediate `*.json`/`*-urls.txt` artifacts — lives under `data/build/`. Keep that split.
+  `writeups/`, `vocab.mjs`, the map-label point files in `data/labels/` (`cities`, `water`,
+  `states`, `lakes`, `rivers`, `ranges`, `peaks` — `.json`), and the overlay geometry in
+  `data/geo/` (`lakes`/`rivers`/`admin1`.geojson, plus `relief.json`). The `data/labels/`
+  and `data/geo/` files are generated once from public-domain **Natural Earth** by
+  `data/build/gen-labels.mjs` (run manually; needs network) — like `convert`, it is provenance,
+  not a live regen path. Everything used to *build* the dataset — `convert.mjs`, `validate.mjs`,
+  `gen-labels.mjs`, the scrape/normalize scripts, the `lib/` helpers, `raw/`, and the
+  intermediate artifacts — lives under `data/build/`. Keep that split.
 - **`data/landraces.json` is the canonical dataset — edit it directly, then run
   `npm run validate`.** It was bootstrapped once from `data/build/raw/` (via
   `data/build/convert.mjs`; the `convert` npm script has been removed); that was a one-time
@@ -77,9 +83,19 @@ repo deploys.
   `markersById`, `currentId`). Leaf modules export named functions and stay stateless;
   `app.js` passes callbacks when a module needs to act on app state (e.g.
   `addMarkers(map, strains, openPanel)`).
-- `boot()` fetches `data/landraces.json` + `data/world.geojson`, builds a tile-free Leaflet
-  GeoJSON basemap, and places one marker per strain (declustered onto a sunflower spiral in
-  `js/map.js`, since many varieties share an approximate centroid).
+- `boot()` fetches `data/landraces.json` + `data/world.geojson` (+ the small `data/labels/`
+  point files and `data/geo/lakes.geojson`), builds a tile-free Leaflet GeoJSON basemap, and
+  places one marker per strain (declustered onto a sunflower spiral in `js/map.js`, since many
+  varieties share an approximate centroid). The view is fit to the world via `fitBounds`
+  (adaptive to screen size), not a fixed zoom.
+- **Map overlays** (all off by default except always-on lakes; zoom-gated; state persisted):
+  a top-left stack of toggles (`addToggleControls` in `js/map.js`; icons are CSS masks, not
+  inline SVG) plus synced ☰-menu items drives — **Labels** (country/city/water names),
+  **States & Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Mountains**
+  (triangle relief + range/peak names). `js/labels.js` renders text labels (per-group
+  visibility, pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js`
+  renders lake/river/border geometry (`data/geo/*.geojson`, lazy-loaded for rivers/borders);
+  `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).
 - The **Index** (`openIndex` in `app.js`) is the single "browse by attribute" surface: clicking
   a panel fact/badge routes through `openFacet` → `openIndex({facet, value})`, the same path as a
   search jump. Height and Flowering Time use checkbox/dual-slider facets rather than value groups.
