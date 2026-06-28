@@ -359,25 +359,29 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .reset-control a:hover { color: var(--green-dark); }
 
 /* ---- Map toggle controls (top-left, stacked under the zoom/reset buttons) ---- */
-.map-toggle { display: flex; align-items: center; justify-content: center; color: var(--ink); }
+/* `.map-toggles a` (class+type) ties Leaflet's `.leaflet-bar a` specificity and wins by source
+   order, so the flex centering actually applies (a bare `.map-toggle` would lose to Leaflet). */
+.map-toggles a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
 .map-toggle:hover { color: var(--green-dark); }
 .map-toggle.active { background: var(--green); color: #fff; }
 .map-toggle.active:hover { background: var(--green-dark); color: #fff; }
 
 /* Control icons are CSS masks tinted by `currentColor` rather than inline SVGs, which
    intermittently fail to repaint inside Leaflet controls during map compositing. The glyph is
-   the element's own ::before box (painted reliably), so the white button background is kept. */
+   an inline-block ::before, centred by the Leaflet button's own text-align/line-height (the
+   button computes to display:block), so it lines up exactly like the old inline SVG did. The
+   masks are inlined as data-URIs so there is no separate file fetch to flash blank on load. */
 .map-toggle::before, .reset-control a::before {
   content: ''; display: block; width: 16px; height: 16px;
   background-color: currentColor;
   -webkit-mask: var(--mt-icon) center / 16px 16px no-repeat;
           mask: var(--mt-icon) center / 16px 16px no-repeat;
 }
-.map-toggle--labels { --mt-icon: url(../assets/icons/labels.svg); }
-.map-toggle--states { --mt-icon: url(../assets/icons/states.svg); }
-.map-toggle--rivers { --mt-icon: url(../assets/icons/rivers.svg); }
-.map-toggle--mountains { --mt-icon: url(../assets/icons/mountains.svg); }
-.reset-control a { --mt-icon: url(../assets/icons/reset.svg); }
+.map-toggle--labels { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20.6%2013.4%2013.4%2020.6a2%202%200%200%201-2.8%200l-7.2-7.2a2%202%200%200%201-.6-1.4V4a1%201%200%200%201%201-1h7.8a2%202%200%200%201%201.4.6l7.6%207.6a2%202%200%200%201%200%202.8z%22%2F%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%221.1%22%2F%3E%3C%2Fsvg%3E"); }
+.map-toggle--states { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M9%204%203%206v14l6-2%206%202%206-2V4l-6%202-6-2z%22%2F%3E%3Cpath%20d%3D%22M9%204v14M15%206v14%22%2F%3E%3C%2Fsvg%3E"); }
+.map-toggle--rivers { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%206.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2012c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2017.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3C%2Fsvg%3E"); }
+.map-toggle--mountains { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%2020%209.5%207l4.5%207.5L17%2010l5%2010z%22%2F%3E%3C%2Fsvg%3E"); }
+.reset-control a { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M3%2012h18M12%203c2.5%202.6%202.5%2015.4%200%2018M12%203c-2.5%202.6-2.5%2015.4%200%2018%22%2F%3E%3C%2Fsvg%3E"); }
 
 /* ---- Map labels overlay ---- */
 /* Each label marker is a zero-size anchor at the place point; the text/dot are absolutely

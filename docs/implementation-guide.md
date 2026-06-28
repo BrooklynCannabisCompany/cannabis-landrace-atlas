@@ -43,7 +43,6 @@ css/styles.css          All styles (one file). CSS variables in :root.
 js/                     Browser ES modules (see §5).
 lib/                    Vendored libs: leaflet/ (1.9.4) and marked (v12). Not edited.
 assets/leaf.svg         The shared green leaf marker graphic.
-assets/icons/*.svg      Map-control glyphs, used as CSS masks (labels/states/rivers/mountains/reset).
 data/                   RUNTIME ONLY — what the browser fetches/imports.
   landraces.json        The CANONICAL dataset — edited directly. The app fetches it at boot.
   world.geojson         Basemap polygons (simplified; see data/build/simplify-geojson.mjs).
