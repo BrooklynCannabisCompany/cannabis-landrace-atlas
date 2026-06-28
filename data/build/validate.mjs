@@ -79,7 +79,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   // Label data files (optional decoration; validated when present).
   let labelErrors = 0;
-  for (const [file, kind] of [['cities.json', 'cities'], ['water.json', 'water'], ['states.json', 'states'], ['lakes.json', 'lakes'], ['rivers.json', 'rivers'], ['ranges.json', 'ranges'], ['peaks.json', 'peaks']]) {
+  for (const [file, kind] of [['cities.json', 'cities'], ['water.json', 'water'], ['states.json', 'states'], ['lakes.json', 'lakes'], ['rivers.json', 'rivers'], ['ranges.json', 'ranges'], ['peaks.json', 'peaks'], ['landforms.json', 'landforms']]) {
     try {
       const recs = JSON.parse(readFileSync(join(__d, '..', 'labels', file), 'utf8'));
       const res = validateLabelPoints(recs, kind);
@@ -94,7 +94,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   // Basemap geometry files (optional decoration; validated when present).
   let geoErrors = 0;
-  for (const file of ['lakes.geojson', 'rivers.geojson', 'admin1.geojson']) {
+  for (const file of ['lakes.geojson', 'rivers.geojson', 'admin1.geojson', 'deserts.geojson']) {
     try {
       const g = JSON.parse(readFileSync(join(__d, '..', 'geo', file), 'utf8'));
       const ok = g && g.type === 'FeatureCollection' && Array.isArray(g.features) && g.features.length > 0;

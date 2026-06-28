@@ -76,6 +76,15 @@ export function rangeMinZoom(rank) {
   return 6;
 }
 
+// Named landform regions (deserts/plateaus/basins/deltas) scalerank — large physical areas,
+// so the prominent ones (Sahara, Tibetan Plateau) show at the world view, smaller ones deeper.
+export function landformMinZoom(rank) {
+  if (rank <= 1) return 2;
+  if (rank <= 3) return 3;
+  if (rank <= 5) return 4;
+  return 5;
+}
+
 // Peak scalerank (1 = most prominent). Peaks come in a notch deeper than ranges.
 export function peakMinZoom(rank) {
   if (rank <= 2) return 4;
@@ -109,8 +118,9 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, (c) => ESCAPES[c]);
 }
 
-// Builds the label overlay. `data` = { world, cities, water, states, lakes, rivers }.
-// Returns { setGroupVisible(key, on) } where key is 'place' | 'states' | 'rivers' | 'mountains'.
+// Builds the label overlay. `data` = { world, cities, water, states, lakes, rivers, ranges,
+// peaks, landforms }. Returns { setGroupVisible(key, on) } — key is 'place' | 'states' |
+// 'rivers' | 'terrain'.
 // Lake names live in the 'place' group (with countries/cities/oceans) so they follow the
 // Labels toggle — only the lake *shapes* (geolayers.js) are always on.
 export function createLabels(map, data) {
@@ -124,9 +134,9 @@ export function createLabels(map, data) {
     place: L.layerGroup(),
     states: L.layerGroup(),
     rivers: L.layerGroup(),
-    mountains: L.layerGroup()
+    terrain: L.layerGroup()
   };
-  const on = { place: false, states: false, rivers: false, mountains: false };
+  const on = { place: false, states: false, rivers: false, terrain: false };
   const entries = []; // { marker, key, minZoom }
 
   const add = (key, lat, lng, html, className, minZoom) => {
@@ -159,9 +169,11 @@ export function createLabels(map, data) {
   for (const s of data.states || []) text('states', s.lat, s.lng, s.name, 'lbl lbl-state', stateMinZoom(s.rank));
   for (const r of data.rivers || []) text('rivers', r.lat, r.lng, r.name, 'lbl lbl-river', riverMinZoom(r.rank));
   for (const k of data.lakes || []) text('place', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
-  // Mountains: range + peak NAME labels (the triangles themselves are drawn by relief.js).
-  for (const r of data.ranges || []) text('mountains', r.lat, r.lng, r.name, 'lbl lbl-range', rangeMinZoom(r.rank));
-  for (const p of data.peaks || []) text('mountains', p.lat, p.lng, p.name, 'lbl lbl-peak', peakMinZoom(p.rank));
+  // Terrain: range + peak names (triangles drawn by relief.js) and named landform regions
+  // (deserts/plateaus/basins/deltas). All in the one 'terrain' group (Terrain toggle).
+  for (const r of data.ranges || []) text('terrain', r.lat, r.lng, r.name, 'lbl lbl-range', rangeMinZoom(r.rank));
+  for (const p of data.peaks || []) text('terrain', p.lat, p.lng, p.name, 'lbl lbl-peak', peakMinZoom(p.rank));
+  for (const lf of data.landforms || []) text('terrain', lf.lat, lf.lng, lf.name, `lbl lbl-${lf.kind}`, landformMinZoom(lf.rank));
 
   const applyZoom = () => {
     const z = map.getZoom();

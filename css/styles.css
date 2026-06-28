@@ -167,7 +167,7 @@ summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; p
 
 /* ---- Layout ---- */
 .layout { height: calc(100% - var(--ribbon-h)); display: flex; }
-.map { flex: 1 1 auto; height: 100%; background: #eef1f4; }
+.map { flex: 1 1 auto; height: 100%; background: #cfe9ec; } /* aqua ocean */
 .map-error {
   display: flex; height: 100%; align-items: center; justify-content: center;
   color: var(--muted); font-size: 15px;
@@ -383,7 +383,7 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .map-toggle--labels { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20.6%2013.4%2013.4%2020.6a2%202%200%200%201-2.8%200l-7.2-7.2a2%202%200%200%201-.6-1.4V4a1%201%200%200%201%201-1h7.8a2%202%200%200%201%201.4.6l7.6%207.6a2%202%200%200%201%200%202.8z%22%2F%3E%3Ccircle%20cx%3D%227.5%22%20cy%3D%227.5%22%20r%3D%221.1%22%2F%3E%3C%2Fsvg%3E"); }
 .map-toggle--states { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M9%204%203%206v14l6-2%206%202%206-2V4l-6%202-6-2z%22%2F%3E%3Cpath%20d%3D%22M9%204v14M15%206v14%22%2F%3E%3C%2Fsvg%3E"); }
 .map-toggle--rivers { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%206.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2012c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2017.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3C%2Fsvg%3E"); }
-.map-toggle--mountains { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%2020%209.5%207l4.5%207.5L17%2010l5%2010z%22%2F%3E%3C%2Fsvg%3E"); }
+.map-toggle--terrain { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%2020%209.5%207l4.5%207.5L17%2010l5%2010z%22%2F%3E%3C%2Fsvg%3E"); }
 .reset-control a { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M3%2012h18M12%203c2.5%202.6%202.5%2015.4%200%2018M12%203c-2.5%202.6-2.5%2015.4%200%2018%22%2F%3E%3C%2Fsvg%3E"); }
 
 /* ---- Map labels overlay ---- */
@@ -407,11 +407,11 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   font-size: 10px; color: #8a857c;
 }
 .lbl-water .lbl-t {
-  font-family: var(--serif); font-style: italic; font-size: 11px; color: #5d6e7c;
+  font-family: var(--serif); font-style: italic; font-size: 11px; color: #2f8a9c; /* aqua ink */
 }
-/* Lakes & rivers: italic blue, like other water labels (lakes a touch stronger than rivers). */
-.lbl-lake .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10.5px; color: #5d6e7c; }
-.lbl-river .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10px; color: #7c93a3; }
+/* Lakes & rivers: italic aqua, like the other water labels (lakes a touch stronger). */
+.lbl-lake .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10.5px; color: #2f8a9c; }
+.lbl-river .lbl-t { font-family: var(--serif); font-style: italic; font-size: 10px; color: #3f9aae; }
 .lbl-city .lbl-dot {
   position: absolute; left: 0; top: 0; transform: translate(-50%, -50%);
   width: 3px; height: 3px; border-radius: 50%; background: #6b6760;
@@ -424,6 +424,14 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   font-size: 10.5px; color: #8a6f57;
 }
 .lbl-peak .lbl-t { left: 7px; transform: translateY(-50%); font-size: 10px; color: #6b5b48; }
+/* Landform regions (Terrain): deserts / plateaus / basins / deltas — muted earthy serif. */
+.lbl-desert .lbl-t, .lbl-plateau .lbl-t, .lbl-basin .lbl-t, .lbl-delta .lbl-t {
+  font-family: var(--serif); font-style: italic; letter-spacing: 0.06em; font-size: 10.5px;
+}
+.lbl-desert .lbl-t { color: #b58a44; font-variant: small-caps; letter-spacing: 0.1em; } /* sandy */
+.lbl-plateau .lbl-t { color: #8a7a5c; }
+.lbl-basin .lbl-t { color: #7e8a6a; }
+.lbl-delta .lbl-t { color: #5f9aa0; } /* deltas read as wet — a touch aqua */
 /* Triangle-relief canvas: non-interactive overlay, positioned by Leaflet. */
 .relief-canvas { position: absolute; left: 0; top: 0; pointer-events: none; }
 
@@ -529,7 +537,8 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
      the top-left control stack and in the ☰ menu, both reachable on mobile.) */
   .lbl-country .lbl-t, .lbl-water .lbl-t { font-size: 10px; }
   .lbl-state .lbl-t, .lbl-city .lbl-t, .lbl-lake .lbl-t, .lbl-river .lbl-t,
-  .lbl-range .lbl-t, .lbl-peak .lbl-t { font-size: 9.5px; }
+  .lbl-range .lbl-t, .lbl-peak .lbl-t,
+  .lbl-desert .lbl-t, .lbl-plateau .lbl-t, .lbl-basin .lbl-t, .lbl-delta .lbl-t { font-size: 9.5px; }
 
   /* Panel becomes a bottom sheet. */
   .panel {

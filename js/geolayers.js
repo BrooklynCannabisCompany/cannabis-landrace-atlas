@@ -13,10 +13,15 @@
 // Relies on the global `L` from lib/leaflet/leaflet.js.
 
 const LAYERS = {
-  // pane z-order: lakes (410) < borders (412) < rivers (414), all below labelPane (450).
+  // pane z-order: deserts (408) < lakes (410) < borders (412) < rivers (414), below labels (450).
+  // Desert tint sits below the relief canvas (411) so mountains draw over the sand.
+  deserts: {
+    pane: 'desertsPane', z: 408, minZoom: 3,
+    style: { fillColor: '#e8dcc0', fillOpacity: 0.55, stroke: false }
+  },
   lakes: {
     pane: 'lakesPane', z: 410, minZoom: 3,
-    style: { fillColor: '#eef1f4', fillOpacity: 1, color: '#cdd6dc', weight: 0.5 }
+    style: { fillColor: '#cfe9ec', fillOpacity: 1, color: '#a9d2d9', weight: 0.5 } // aqua water
   },
   borders: {
     pane: 'bordersPane', z: 412, minZoom: 4,
@@ -24,7 +29,7 @@ const LAYERS = {
   },
   rivers: {
     pane: 'riversPane', z: 414, minZoom: 3,
-    style: { fill: false, color: '#9fb3c2', weight: 0.8, opacity: 0.9 }
+    style: { fill: false, color: '#4fa6bd', weight: 0.8, opacity: 0.95 } // aqua
   }
 };
 

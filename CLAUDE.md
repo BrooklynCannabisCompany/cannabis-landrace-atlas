@@ -47,8 +47,9 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
 - **`data/` holds only runtime files; `data/build/` holds the pipeline tooling.** What the
   browser fetches/imports lives directly in `data/`: `landraces.json`, `world.geojson`,
   `writeups/`, `vocab.mjs`, the map-label point files in `data/labels/` (`cities`, `water`,
-  `states`, `lakes`, `rivers`, `ranges`, `peaks` — `.json`), and the overlay geometry in
-  `data/geo/` (`lakes`/`rivers`/`admin1`.geojson, plus `relief.json`). The `data/labels/`
+  `states`, `lakes`, `rivers`, `ranges`, `peaks`, `landforms` — `.json`), and the overlay
+  geometry in `data/geo/` (`lakes`/`rivers`/`admin1`/`deserts`.geojson, plus `relief.json`).
+  The `data/labels/`
   and `data/geo/` files are generated once from public-domain **Natural Earth** by
   `data/build/gen-labels.mjs` (run manually; needs network) — like `convert`, it is provenance,
   not a live regen path. Everything used to *build* the dataset — `convert.mjs`, `validate.mjs`,
@@ -91,11 +92,12 @@ repo deploys.
 - **Map overlays** (all toggles off by default; zoom-gated; state persisted): a top-left stack
   of toggles (`addToggleControls` in `js/map.js`; icons are CSS masks, not inline SVG) plus
   synced ☰-menu items drives — **Labels** (country/city/ocean **and lake** names), **States &
-  Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Mountains** (triangle
-  relief + range/peak names). Lake *outlines* are the one always-on element (basemap water);
+  Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Terrain** (mountain
+  triangle relief + range/peak names, plus desert/plateau/basin/delta names and a sandy desert
+  tint). Water (oceans/lakes/rivers) is aqua. Lake *outlines* are the one always-on element;
   their names ride the Labels toggle. `js/labels.js` renders text labels (per-group visibility,
   pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js` renders
-  lake/river/border geometry (`data/geo/*.geojson`, lazy-loaded for rivers/borders);
+  lake/river/border/desert-tint geometry (`data/geo/*.geojson`, lazy-loaded except lakes);
   `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).
 - The **Index** (`openIndex` in `app.js`) is the single "browse by attribute" surface: clicking
   a panel fact/badge routes through `openFacet` → `openIndex({facet, value})`, the same path as a

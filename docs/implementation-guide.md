@@ -48,8 +48,8 @@ data/                   RUNTIME ONLY — what the browser fetches/imports.
   world.geojson         Basemap polygons (simplified; see data/build/simplify-geojson.mjs).
   writeups/<id>.md      One Markdown write-up per strain (447 files).
   vocab.mjs             Controlled vocabularies — imported by the browser AND the validator.
-  labels/*.json         Map-label points (cities, water, states, lakes, rivers, ranges, peaks).
-  geo/                  Overlay geometry: lakes/rivers/admin1 .geojson + relief.json (triangles).
+  labels/*.json         Map-label points (cities, water, states, lakes, rivers, ranges, peaks, landforms).
+  geo/                  Overlay geometry: lakes/rivers/admin1/deserts .geojson + relief.json (triangles).
   build/                PIPELINE TOOLING — never fetched at runtime (§6).
     raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
     convert.mjs         One-time bootstrap raw → ../landraces.json. NOT re-run (§6).
@@ -83,7 +83,7 @@ docs/
    and returns `markersById` (id → Leaflet marker).
 4. The **overlays** are wired: `createLabels` (text), `createGeoLayers` (lake/river/border
    geometry), `createRelief` (mountain triangles); `addToggleControls` builds the top-left
-   toggle stack; each toggle (Labels / States & Provinces / Rivers / Mountains) is restored
+   toggle stack; each toggle (Labels / States & Provinces / Rivers / Terrain) is restored
    from `localStorage` and kept in sync with its ☰-menu item. Rivers/borders/relief geometry
    is lazy-fetched on first enable. Lake *outlines* are always on (basemap water); lake *names*
    ride the Labels toggle (they sit in the `place` label group).
@@ -99,8 +99,8 @@ On any fetch failure for the core data the map element shows "Unable to load map
 |---|---|
 | `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/Database/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
 | `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, world-fit (`fitWorld`/`WORLD_BOUNDS`), reset/zoom controls, and `addToggleControls` (the top-left overlay-toggle stack; icons are CSS masks). |
-| `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`mountains`), drawn in a pane below the markers. Lake names live in `place` (Labels toggle); ocean/city/country names too. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
-| `geolayers.js` | `createGeoLayers(map)` — lake (always-on), river, and admin-1-border geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily. |
+| `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`terrain`), drawn in a pane below the markers. Lake names live in `place` (Labels toggle); the `terrain` group holds range/peak names + desert/plateau/basin/delta names. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
+| `geolayers.js` | `createGeoLayers(map)` — lake (always-on, aqua), river (aqua), admin-1-border, and desert-tint geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily (lakes at boot). |
 | `relief.js` | `createRelief(map, peaks)` — the mountain triangle-relief **canvas** layer: scatters/peaks culled to the viewport, redrawn on move/zoom (hidden during the zoom animation to avoid a stale flash). |
 | `panel.js` | Renders the variety panel header: title, place, the two classification **badges** (morphotype + vernacular type) and the trait rows (`facetRow`). Holds the tooltip definition maps (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`). |
 | `forms.js` | All contribution forms: `openFeedbackSubmit` (Suggest Addition), `openStrainSubmit`, `openContactForm`, `openSectionSubmit` (the ⊕ buttons). Each mounts a Turnstile widget (`mountTurnstile`) and POSTs `{label, title, body, turnstileToken}` to the Worker (`submitIssue` → `WORKER_URL`), then shows a thank-you (`showSubmitSuccess`). `repoLink` helper. |

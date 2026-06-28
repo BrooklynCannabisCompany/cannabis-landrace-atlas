@@ -47,7 +47,7 @@ test('validateLabelPoints rejects a non-array', () => {
   assert.equal(validateLabelPoints({}, 'sample').errors.length, 1);
 });
 
-for (const file of ['cities', 'water', 'states', 'lakes', 'rivers', 'ranges', 'peaks']) {
+for (const file of ['cities', 'water', 'states', 'lakes', 'rivers', 'ranges', 'peaks', 'landforms']) {
   test(`generated ${file}.json is a valid label-point file`, () => {
     const rows = readJson(join(labelsDir, `${file}.json`));
     assert.ok(Array.isArray(rows) && rows.length > 0, `${file}.json should be a non-empty array`);
@@ -57,7 +57,7 @@ for (const file of ['cities', 'water', 'states', 'lakes', 'rivers', 'ranges', 'p
 }
 
 test('generated geo files are non-empty FeatureCollections', () => {
-  for (const file of ['lakes.geojson', 'rivers.geojson', 'admin1.geojson']) {
+  for (const file of ['lakes.geojson', 'rivers.geojson', 'admin1.geojson', 'deserts.geojson']) {
     const g = readJson(join(geoDir, file));
     assert.equal(g.type, 'FeatureCollection', `${file} type`);
     assert.ok(Array.isArray(g.features) && g.features.length > 0, `${file} features`);

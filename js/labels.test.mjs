@@ -6,7 +6,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   visibleAtZoom, countryMinZoom, stateMinZoom, cityMinZoom, waterMinZoom,
-  lakeMinZoom, riverMinZoom, rangeMinZoom, peakMinZoom, peakSizeTier, reliefMaxLevel
+  lakeMinZoom, riverMinZoom, rangeMinZoom, peakMinZoom, peakSizeTier, reliefMaxLevel,
+  landformMinZoom
 } from './labels.js';
 
 test('visibleAtZoom shows a label only at or above its minZoom', () => {
@@ -90,6 +91,14 @@ test('peakSizeTier bins elevation into 1..4', () => {
   assert.equal(peakSizeTier(3776), 2); // Fuji
   assert.equal(peakSizeTier(1200), 1);
   assert.equal(peakSizeTier(0), 1);
+});
+
+test('landformMinZoom shows big regions (deserts/plateaus) early', () => {
+  assert.equal(landformMinZoom(0), 2);  // Sahara, Tibetan Plateau
+  assert.equal(landformMinZoom(1), 2);
+  assert.equal(landformMinZoom(3), 3);
+  assert.equal(landformMinZoom(5), 4);
+  assert.equal(landformMinZoom(7), 5);
 });
 
 test('reliefMaxLevel densifies the triangle scatter as zoom increases', () => {

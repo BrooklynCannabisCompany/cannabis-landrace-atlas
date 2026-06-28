@@ -46,9 +46,9 @@ const TOGGLES = {
   labels: { storage: 'cla-labels', group: 'place', label: 'labels' },
   states: { storage: 'cla-states', group: 'states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
   rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
-  mountains: { storage: 'cla-mountains', group: 'mountains', label: 'mountains' }
+  terrain: { storage: 'cla-terrain', group: 'terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
 };
-const toggleOn = { labels: false, states: false, rivers: false, mountains: false };
+const toggleOn = { labels: false, states: false, rivers: false, terrain: false };
 let toggleCtl = null;        // grouped control: { setActive(id, on) }
 const toggleMenuItems = {};  // id -> menu element
 const geoLoaded = {};        // url -> true once fetched
@@ -71,7 +71,7 @@ function setToggle(id, on, persist = true) {
     geo?.setVisible(t.geo, on);
     if (on) ensureGeo(t.geo, t.url);
   }
-  if (id === 'mountains') {
+  if (id === 'terrain') {
     relief?.setVisible(on);
     if (on && !reliefLoaded) {
       reliefLoaded = true;
@@ -761,7 +761,7 @@ async function boot() {
     // files degrade to empty so a missing/broken one never breaks the map. Large geometry
     // (rivers, admin-1 borders) is lazy-loaded on first toggle, not here.
     const j = (url) => fetch(url).then((r) => (r.ok ? r.json() : [])).catch(() => []);
-    const [data, world, cities, water, states, lakes, rivers, ranges, peaks, lakesGeo] = await Promise.all([
+    const [data, world, cities, water, states, lakes, rivers, ranges, peaks, landforms, lakesGeo] = await Promise.all([
       fetch('data/landraces.json').then((r) => { if (!r.ok) throw new Error('data'); return r.json(); }),
       fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); }),
       j('data/labels/cities.json'),
@@ -771,6 +771,7 @@ async function boot() {
       j('data/labels/rivers.json'),
       j('data/labels/ranges.json'),
       j('data/labels/peaks.json'),
+      j('data/labels/landforms.json'),
       fetch('data/geo/lakes.geojson').then((r) => (r.ok ? r.json() : null)).catch(() => null)
     ]);
     strains = data;
@@ -780,7 +781,7 @@ async function boot() {
     markersById = addMarkers(map, strains, openPanel);
 
     // Text labels + basemap geometry.
-    labels = createLabels(map, { world, cities, water, states, lakes, rivers, ranges, peaks });
+    labels = createLabels(map, { world, cities, water, states, lakes, rivers, ranges, peaks, landforms });
     geo = createGeoLayers(map);
     if (lakesGeo) geo.provide('lakes', lakesGeo);
     geo.setVisible('lakes', true);           // lake *shapes* are always on (basemap water)…

@@ -11,12 +11,14 @@
 //                              of countries with well-known, landrace-relevant divisions
 //   data/labels/ranges.json  — mountain-range labels (name, lat, lng, rank)
 //   data/labels/peaks.json   — named peaks (name, lat, lng, rank, elev) for ▲ markers
+//   data/labels/landforms.json — desert/plateau/basin/delta labels (name, lat, lng, rank, kind)
 //
 // ...and the basemap geometry the hydrography/borders layers fetch:
 //
 //   data/geo/lakes.geojson   — major inland lakes (polygons, with `name`)
 //   data/geo/rivers.geojson  — major rivers (lines, with `name`/`rank`)
 //   data/geo/admin1.geojson  — admin-1 boundary lines for the allowlist (geometry only)
+//   data/geo/deserts.geojson — desert polygons for the sandy Terrain tint (geometry only)
 //
 // Country-name labels need no file; they are derived at runtime from world.geojson.
 //
@@ -304,40 +306,70 @@ async function genPeaks() {
   console.log(`peaks.json: ${peaks.length} peaks`);
 }
 
-// Triangle-relief field: scatter points inside each mountain-range polygon. Each point is
-// {lat, lng, r, lvl} — r drives size variation, lvl (0..2) drives zoom density. Rendered on a
-// canvas at runtime (data/geo/relief.json). Lazy-loaded by the Mountains toggle.
+// Triangle-relief field: fill each mountain-range polygon on a JITTERED GRID (even coverage,
+// no bald gaps) so big ranges read as a continuous wall rather than scattered dots. No
+// per-range cap — count scales with area. Each point is [lat, lng, r, lvl]: r drives size
+// variation, lvl (0..2) drives zoom density. Rendered on a canvas (data/geo/relief.json).
+const RELIEF_SPACING = 0.28; // degrees between grid points (smaller = denser/more wall-like)
 async function genRelief() {
   const g = await getJson(`${NE}/ne_10m_geography_regions_polys.geojson`);
   const ranges = g.features.filter((f) => /range\/mtn/i.test(f.properties.FEATURECLA || ''));
-  const DENSITY = 5;  // triangles per square degree (tuned for ~6k total)
-  const CAP = 90;     // max triangles per range, so the giant ranges don't dominate
-  const pts = [];     // compact: [lat, lng, r, lvl]
+  const pts = []; // compact: [lat, lng, r, lvl]
   let seed = 1234567;
   for (const f of ranges) {
     seed = (seed * 48271) >>> 0 || 1;
     const rng = lcg(seed);
-    const rings = outerRings(f.geometry);
-    const total = rings.reduce((s, p) => s + p.area, 0) || 0.0001;
-    const target = Math.max(3, Math.min(CAP, Math.round(total * DENSITY)));
-    for (const p of rings) {
-      const share = Math.max(1, Math.round(target * (p.area / total)));
+    for (const p of outerRings(f.geometry)) {
       const [minx, miny, maxx, maxy] = p.bbox;
-      let placed = 0; let attempts = 0; const maxAttempts = share * 60;
-      while (placed < share && attempts < maxAttempts) {
-        attempts += 1;
-        const x = minx + rng() * (maxx - minx);
-        const y = miny + rng() * (maxy - miny);
-        if (!ptInRing(x, y, p.ring)) continue;
-        const rr = rng();
-        const lvl = rr < 0.34 ? 0 : rr < 0.67 ? 1 : 2;
-        pts.push([round2(y), round2(x), Math.round(rng() * 100) / 100, lvl]);
-        placed += 1;
+      for (let gy = miny; gy <= maxy; gy += RELIEF_SPACING) {
+        for (let gx = minx; gx <= maxx; gx += RELIEF_SPACING) {
+          const x = gx + (rng() - 0.5) * RELIEF_SPACING * 0.8;
+          const y = gy + (rng() - 0.5) * RELIEF_SPACING * 0.8;
+          const rr = rng();
+          const size = Math.round(rng() * 100) / 100;
+          if (!ptInRing(x, y, p.ring)) continue;
+          const lvl = rr < 0.34 ? 0 : rr < 0.67 ? 1 : 2;
+          pts.push([round2(y), round2(x), size, lvl]);
+        }
       }
     }
   }
   writeFileSync(join(geoOut, 'relief.json'), `${JSON.stringify(pts)}\n`);
   console.log(`relief.json: ${pts.length} triangles`);
+}
+
+// Named landform regions for the Terrain layer: deserts, plateaus, basins, deltas. Label
+// points (centroid of the largest ring) + a `kind`, from regions_polys.
+const LANDFORM_KINDS = { Desert: 'desert', Plateau: 'plateau', Basin: 'basin', Delta: 'delta' };
+async function genLandforms() {
+  const g = await getJson(`${NE}/ne_10m_geography_regions_polys.geojson`);
+  const items = g.features
+    .filter((f) => LANDFORM_KINDS[f.properties.FEATURECLA])
+    .map((f) => {
+      const name = f.properties.NAME_EN || f.properties.NAME;
+      const c = largestRingCentroid(f.geometry);
+      return name && c
+        ? { name, lat: round(c[1]), lng: round(c[0]), rank: f.properties.SCALERANK, kind: LANDFORM_KINDS[f.properties.FEATURECLA] }
+        : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name));
+  writeFileSync(join(out, 'landforms.json'), `${JSON.stringify(items, null, 0)}\n`);
+  console.log(`landforms.json: ${items.length} landforms (deserts/plateaus/basins/deltas)`);
+}
+
+// Desert polygons for the subtle sandy tint under the Terrain toggle (geometry only).
+async function genDeserts() {
+  const g = await getJson(`${NE}/ne_10m_geography_regions_polys.geojson`);
+  const features = g.features
+    .filter((f) => f.properties.FEATURECLA === 'Desert')
+    .map((f) => ({
+      type: 'Feature',
+      properties: {},
+      geometry: { type: f.geometry.type, coordinates: simplifyCoords(f.geometry.coordinates) }
+    }));
+  writeGeo('deserts.geojson', features);
+  console.log(`deserts.geojson: ${features.length} deserts`);
 }
 
 await genCities();
@@ -349,3 +381,5 @@ await genAdmin1();
 await genRanges();
 await genPeaks();
 await genRelief();
+await genLandforms();
+await genDeserts();
