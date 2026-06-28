@@ -42,9 +42,10 @@ let geo = null;             // basemap-geometry controller (created in boot)
 const TOGGLES = {
   labels: { storage: 'cla-labels', group: 'place', label: 'labels', icon: TOGGLE_ICONS.labels },
   states: { storage: 'cla-states', group: 'states', label: 'states & provinces', icon: TOGGLE_ICONS.states, geo: 'borders', url: 'data/geo/admin1.geojson' },
-  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', icon: TOGGLE_ICONS.rivers, geo: 'rivers', url: 'data/geo/rivers.geojson' }
+  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', icon: TOGGLE_ICONS.rivers, geo: 'rivers', url: 'data/geo/rivers.geojson' },
+  mountains: { storage: 'cla-mountains', group: 'mountains', label: 'mountains', icon: TOGGLE_ICONS.mountains }
 };
-const toggleOn = { labels: false, states: false, rivers: false };
+const toggleOn = { labels: false, states: false, rivers: false, mountains: false };
 let toggleCtl = null;        // grouped control: { setActive(id, on) }
 const toggleMenuItems = {};  // id -> menu element
 const geoLoaded = {};        // url -> true once fetched
@@ -468,7 +469,7 @@ function openLicense() {
     for (const [t, d] of [
       ['Code', 'MIT License.'],
       ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).'],
-      ['Map data', 'World geometry, place labels (country names, states/provinces, cities, oceans and seas), lakes, rivers, and admin-1 borders — all from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
+      ['Map data', 'World geometry, place labels (country names, states/provinces, cities, oceans and seas), lakes, rivers, admin-1 borders, mountain ranges and peaks — all from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
     ]) {
       const dt = document.createElement('dt'); dt.textContent = t;
       const dd = document.createElement('dd'); dd.textContent = d;
@@ -747,7 +748,7 @@ async function boot() {
     // files degrade to empty so a missing/broken one never breaks the map. Large geometry
     // (rivers, admin-1 borders) is lazy-loaded on first toggle, not here.
     const j = (url) => fetch(url).then((r) => (r.ok ? r.json() : [])).catch(() => []);
-    const [data, world, cities, water, states, lakes, rivers, lakesGeo] = await Promise.all([
+    const [data, world, cities, water, states, lakes, rivers, ranges, peaks, lakesGeo] = await Promise.all([
       fetch('data/landraces.json').then((r) => { if (!r.ok) throw new Error('data'); return r.json(); }),
       fetch('data/world.geojson').then((r) => { if (!r.ok) throw new Error('geo'); return r.json(); }),
       j('data/labels/cities.json'),
@@ -755,6 +756,8 @@ async function boot() {
       j('data/labels/states.json'),
       j('data/labels/lakes.json'),
       j('data/labels/rivers.json'),
+      j('data/labels/ranges.json'),
+      j('data/labels/peaks.json'),
       fetch('data/geo/lakes.geojson').then((r) => (r.ok ? r.json() : null)).catch(() => null)
     ]);
     strains = data;
@@ -764,7 +767,7 @@ async function boot() {
     markersById = addMarkers(map, strains, openPanel);
 
     // Text labels + basemap geometry.
-    labels = createLabels(map, { world, cities, water, states, lakes, rivers });
+    labels = createLabels(map, { world, cities, water, states, lakes, rivers, ranges, peaks });
     geo = createGeoLayers(map);
     if (lakesGeo) geo.provide('lakes', lakesGeo);
     geo.setVisible('lakes', true);           // lakes: always-on shapes…

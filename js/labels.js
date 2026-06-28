@@ -67,6 +67,31 @@ export function riverMinZoom(rank) {
   return 7;
 }
 
+// Natural Earth physical-region scalerank for ranges (1 = biggest). The great ranges
+// (Himalayas, Andes — rank 1) show from zoom 3; smaller ranges fill in deeper.
+export function rangeMinZoom(rank) {
+  if (rank <= 1) return 3;
+  if (rank <= 3) return 4;
+  if (rank <= 4) return 5;
+  return 6;
+}
+
+// Peak scalerank (1 = most prominent). Peaks come in a notch deeper than ranges.
+export function peakMinZoom(rank) {
+  if (rank <= 2) return 4;
+  if (rank <= 4) return 5;
+  if (rank <= 6) return 6;
+  return 7;
+}
+
+// Coarse elevation tier (1..4) driving the ▲ size — deliberately approximate, not exact.
+export function peakSizeTier(elev) {
+  if (elev >= 6000) return 4;
+  if (elev >= 4000) return 3;
+  if (elev >= 2000) return 2;
+  return 1;
+}
+
 // --- Runtime overlay --------------------------------------------------------
 
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
@@ -89,9 +114,10 @@ export function createLabels(map, data) {
     place: L.layerGroup(),
     states: L.layerGroup(),
     rivers: L.layerGroup(),
-    lakes: L.layerGroup()
+    lakes: L.layerGroup(),
+    mountains: L.layerGroup()
   };
-  const on = { place: false, states: false, rivers: false, lakes: false };
+  const on = { place: false, states: false, rivers: false, lakes: false, mountains: false };
   const entries = []; // { marker, key, minZoom }
 
   const add = (key, lat, lng, html, className, minZoom) => {
@@ -124,6 +150,13 @@ export function createLabels(map, data) {
   for (const s of data.states || []) text('states', s.lat, s.lng, s.name, 'lbl lbl-state', stateMinZoom(s.rank));
   for (const r of data.rivers || []) text('rivers', r.lat, r.lng, r.name, 'lbl lbl-river', riverMinZoom(r.rank));
   for (const k of data.lakes || []) text('lakes', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
+  // Mountains: range area-labels + peak ▲ markers (▲ sized by elevation tier), one group.
+  for (const r of data.ranges || []) text('mountains', r.lat, r.lng, r.name, 'lbl lbl-range', rangeMinZoom(r.rank));
+  for (const p of data.peaks || []) {
+    add('mountains', p.lat, p.lng,
+      `<span class="lbl-peak-mark t${peakSizeTier(p.elev)}">▲</span><span class="lbl-t lbl-peak-t">${esc(p.name)}</span>`,
+      'lbl lbl-peak', peakMinZoom(p.rank));
+  }
 
   const applyZoom = () => {
     const z = map.getZoom();

@@ -6,7 +6,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   visibleAtZoom, countryMinZoom, stateMinZoom, cityMinZoom, waterMinZoom,
-  lakeMinZoom, riverMinZoom
+  lakeMinZoom, riverMinZoom, rangeMinZoom, peakMinZoom, peakSizeTier
 } from './labels.js';
 
 test('visibleAtZoom shows a label only at or above its minZoom', () => {
@@ -67,4 +67,27 @@ test('riverMinZoom reveals major rivers before minor ones', () => {
   assert.equal(riverMinZoom(4), 5);
   assert.equal(riverMinZoom(5), 6);
   assert.equal(riverMinZoom(6), 7);  // Hudson, Thames — only at max zoom
+});
+
+test('rangeMinZoom shows the great ranges earliest', () => {
+  assert.equal(rangeMinZoom(1), 3);  // Himalayas, Andes
+  assert.equal(rangeMinZoom(2), 4);  // Hindu Kush
+  assert.equal(rangeMinZoom(3), 4);
+  assert.equal(rangeMinZoom(4), 5);
+  assert.equal(rangeMinZoom(6), 6);
+});
+
+test('peakMinZoom keeps peaks a notch deeper than ranges', () => {
+  assert.equal(peakMinZoom(1), 4);   // Everest
+  assert.equal(peakMinZoom(4), 5);
+  assert.equal(peakMinZoom(6), 6);
+  assert.equal(peakMinZoom(9), 7);
+});
+
+test('peakSizeTier bins elevation into 1..4', () => {
+  assert.equal(peakSizeTier(8848), 4); // Everest
+  assert.equal(peakSizeTier(4807), 3); // Mont Blanc
+  assert.equal(peakSizeTier(3776), 2); // Fuji
+  assert.equal(peakSizeTier(1200), 1);
+  assert.equal(peakSizeTier(0), 1);
 });

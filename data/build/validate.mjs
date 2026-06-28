@@ -79,7 +79,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   // Label data files (optional decoration; validated when present).
   let labelErrors = 0;
-  for (const [file, kind] of [['cities.json', 'cities'], ['water.json', 'water'], ['states.json', 'states']]) {
+  for (const [file, kind] of [['cities.json', 'cities'], ['water.json', 'water'], ['states.json', 'states'], ['lakes.json', 'lakes'], ['rivers.json', 'rivers'], ['ranges.json', 'ranges'], ['peaks.json', 'peaks']]) {
     try {
       const recs = JSON.parse(readFileSync(join(__d, '..', 'labels', file), 'utf8'));
       const res = validateLabelPoints(recs, kind);

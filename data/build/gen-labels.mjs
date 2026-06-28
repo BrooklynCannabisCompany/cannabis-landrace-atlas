@@ -9,6 +9,8 @@
 //   data/labels/water.json   — oceans + major seas (name, lat, lng, rank)
 //   data/labels/states.json  — first-order divisions (states/provinces) for an allowlist
 //                              of countries with well-known, landrace-relevant divisions
+//   data/labels/ranges.json  — mountain-range labels (name, lat, lng, rank)
+//   data/labels/peaks.json   — named peaks (name, lat, lng, rank, elev) for ▲ markers
 //
 // ...and the basemap geometry the hydrography/borders layers fetch:
 //
@@ -223,9 +225,50 @@ async function genAdmin1() {
   console.log(`admin1.geojson: ${features.length} boundary features`);
 }
 
+// Mountain ranges (label points). From the named-physical-regions polygons, filtered to
+// Range/mtn; we keep only a centroid label point + name + rank (the polygons themselves are
+// not drawn). Tiny, so it loads at boot under the Mountains toggle.
+async function genRanges() {
+  const g = await getJson(`${NE}/ne_10m_geography_regions_polys.geojson`);
+  const ranges = g.features
+    .filter((f) => /range\/mtn/i.test(f.properties.FEATURECLA || ''))
+    .map((f) => {
+      const name = f.properties.NAME_EN || f.properties.NAME;
+      const c = largestRingCentroid(f.geometry);
+      return name && c ? { name, lat: round(c[1]), lng: round(c[0]), rank: f.properties.SCALERANK } : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name));
+  writeFileSync(join(out, 'ranges.json'), `${JSON.stringify(ranges, null, 0)}\n`);
+  console.log(`ranges.json: ${ranges.length} ranges`);
+}
+
+// Named peaks (▲ markers). From the elevation points, mountains only; `elev` (metres) drives
+// the runtime triangle-size tier — it is never shown as text.
+async function genPeaks() {
+  const g = await getJson(`${NE}/ne_10m_geography_regions_elevation_points.geojson`);
+  const peaks = g.features
+    .filter((f) => /mountain/i.test(f.properties.featurecla || '') && (f.properties.name_en || f.properties.name))
+    .map((f) => {
+      const [lng, lat] = f.geometry.coordinates;
+      return {
+        name: f.properties.name_en || f.properties.name,
+        lat: round(lat), lng: round(lng),
+        rank: f.properties.scalerank,
+        elev: Number(f.properties.elevation) || 0
+      };
+    })
+    .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lng))
+    .sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name));
+  writeFileSync(join(out, 'peaks.json'), `${JSON.stringify(peaks, null, 0)}\n`);
+  console.log(`peaks.json: ${peaks.length} peaks`);
+}
+
 await genCities();
 await genWater();
 await genStates();
 await genLakes();
 await genRivers();
 await genAdmin1();
+await genRanges();
+await genPeaks();
