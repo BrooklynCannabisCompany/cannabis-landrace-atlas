@@ -106,5 +106,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
   }
 
+  // Triangle-relief scatter: a non-empty array of [lat, lng, r, lvl] rows.
+  try {
+    const rel = JSON.parse(readFileSync(join(__d, '..', 'geo', 'relief.json'), 'utf8'));
+    const ok = Array.isArray(rel) && rel.length > 0 && rel.every((p) => Array.isArray(p)
+      && typeof p[0] === 'number' && p[0] >= -90 && p[0] <= 90
+      && typeof p[1] === 'number' && p[1] >= -180 && p[1] <= 180);
+    if (!ok) { console.error('ERROR geo/relief.json: not a valid [lat,lng,r,lvl] array'); geoErrors += 1; }
+    else console.log(`relief.json: ${rel.length} triangles`);
+  } catch (e) {
+    console.error(`ERROR geo/relief.json: cannot read data/geo/relief.json (${e.message})`);
+    geoErrors += 1;
+  }
+
   process.exit(errors.length + labelErrors + geoErrors ? 1 : 0);
 }

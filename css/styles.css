@@ -395,17 +395,15 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
   width: 3px; height: 3px; border-radius: 50%; background: #6b6760;
 }
 .lbl-city .lbl-t { left: 5px; transform: translateY(-50%); font-size: 10.5px; color: #57534b; }
-/* Mountains: ranges as muted, letter-spaced brown serif; peaks as a ▲ + name, ▲ sized by tier. */
+/* Mountains: range/peak name labels (the triangles themselves are drawn on the relief canvas).
+   Ranges as muted, letter-spaced brown serif; peak names offset to clear their triangle. */
 .lbl-range .lbl-t {
   font-family: var(--serif); font-style: italic; letter-spacing: 0.12em;
   font-size: 10.5px; color: #8a6f57;
 }
-.lbl-peak .lbl-peak-mark { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); color: #7a6a57; line-height: 1; }
-.lbl-peak .lbl-peak-mark.t1 { font-size: 6px; }
-.lbl-peak .lbl-peak-mark.t2 { font-size: 9px; }
-.lbl-peak .lbl-peak-mark.t3 { font-size: 12px; }
-.lbl-peak .lbl-peak-mark.t4 { font-size: 15px; }
 .lbl-peak .lbl-t { left: 7px; transform: translateY(-50%); font-size: 10px; color: #6b5b48; }
+/* Triangle-relief canvas: non-interactive overlay, positioned by Leaflet. */
+.relief-canvas { position: absolute; left: 0; top: 0; pointer-events: none; }
 
 /* ---- Marker (shared green leaf SVG image) ---- */
 .leaf-marker { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3)); }

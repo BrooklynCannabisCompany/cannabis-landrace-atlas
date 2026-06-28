@@ -4,6 +4,7 @@
 import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControls, TOGGLE_ICONS } from './map.js';
 import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
+import { createRelief } from './relief.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -34,6 +35,8 @@ let markersById = new Map();
 let currentId = null;
 let labels = null;          // text-label overlay controller (created in boot)
 let geo = null;             // basemap-geometry controller (created in boot)
+let relief = null;          // mountain triangle-relief canvas layer (created in boot)
+let reliefLoaded = false;   // relief scatter lazy-fetched once
 
 // ---- Map overlay toggles ----
 // Three independent toggles, each driving a label group and (for states/rivers) a geometry
@@ -67,6 +70,16 @@ function setToggle(id, on, persist = true) {
   if (t.geo) {
     geo?.setVisible(t.geo, on);
     if (on) ensureGeo(t.geo, t.url);
+  }
+  if (id === 'mountains') {
+    relief?.setVisible(on);
+    if (on && !reliefLoaded) {
+      reliefLoaded = true;
+      fetch('data/geo/relief.json')
+        .then((r) => (r.ok ? r.json() : null))
+        .then((rows) => { if (rows) relief.setScatter(rows); })
+        .catch(() => { reliefLoaded = false; });
+    }
   }
   toggleCtl?.setActive(id, on);
   const mi = toggleMenuItems[id];
@@ -772,6 +785,7 @@ async function boot() {
     if (lakesGeo) geo.provide('lakes', lakesGeo);
     geo.setVisible('lakes', true);           // lakes: always-on shapes…
     labels.setGroupVisible('lakes', true);   // …and always-on labels (zoom-permitting)
+    relief = createRelief(map, peaks);       // mountain triangles (scatter lazy-loaded on toggle)
 
     // The toggle controls — one grouped top-left bar — plus their ☰-menu items, then restore.
     toggleCtl = addToggleControls(map, Object.keys(TOGGLES).map((id) => ({

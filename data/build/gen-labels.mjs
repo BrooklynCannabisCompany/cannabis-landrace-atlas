@@ -166,6 +166,46 @@ async function genLakes() {
   console.log(`lakes.geojson: ${features.length} lakes (+${labels.length} labels)`);
 }
 
+// --- Triangle-relief sampling (mountain ranges drawn as a field of triangles) ----------
+// Deterministic LCG so regenerating produces a stable scatter.
+function lcg(seed) {
+  let x = (seed >>> 0) || 1;
+  return () => (x = (x * 1664525 + 1013904223) >>> 0) / 4294967296;
+}
+// Ray-casting point-in-ring test (ring = [[lng,lat],...]).
+function ptInRing(x, y, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const xi = ring[i][0]; const yi = ring[i][1];
+    const xj = ring[j][0]; const yj = ring[j][1];
+    if (((yi > y) !== (yj > y)) && (x < ((xj - xi) * (y - yi)) / (yj - yi) + xi)) inside = !inside;
+  }
+  return inside;
+}
+function ringArea(ring) {
+  let a = 0;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    a += ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
+  }
+  return Math.abs(a / 2);
+}
+// Outer rings of a (Multi)Polygon, each with its bbox and area (holes ignored — fine for fill).
+function outerRings(geom) {
+  const polys = geom.type === 'Polygon' ? [geom.coordinates] : geom.coordinates;
+  const out = [];
+  for (const poly of polys) {
+    const ring = poly[0];
+    if (!ring || ring.length < 4) continue;
+    let minx = Infinity; let miny = Infinity; let maxx = -Infinity; let maxy = -Infinity;
+    for (const [x, y] of ring) {
+      if (x < minx) minx = x; if (x > maxx) maxx = x;
+      if (y < miny) miny = y; if (y > maxy) maxy = y;
+    }
+    out.push({ ring, bbox: [minx, miny, maxx, maxy], area: ringArea(ring) });
+  }
+  return out;
+}
+
 // Midpoint vertex of the longest line in a (Multi)LineString — a stable label anchor.
 function lineMidpoint(geometry) {
   const lines = geometry.type === 'LineString' ? [geometry.coordinates] : geometry.coordinates;
@@ -264,6 +304,42 @@ async function genPeaks() {
   console.log(`peaks.json: ${peaks.length} peaks`);
 }
 
+// Triangle-relief field: scatter points inside each mountain-range polygon. Each point is
+// {lat, lng, r, lvl} — r drives size variation, lvl (0..2) drives zoom density. Rendered on a
+// canvas at runtime (data/geo/relief.json). Lazy-loaded by the Mountains toggle.
+async function genRelief() {
+  const g = await getJson(`${NE}/ne_10m_geography_regions_polys.geojson`);
+  const ranges = g.features.filter((f) => /range\/mtn/i.test(f.properties.FEATURECLA || ''));
+  const DENSITY = 5;  // triangles per square degree (tuned for ~6k total)
+  const CAP = 90;     // max triangles per range, so the giant ranges don't dominate
+  const pts = [];     // compact: [lat, lng, r, lvl]
+  let seed = 1234567;
+  for (const f of ranges) {
+    seed = (seed * 48271) >>> 0 || 1;
+    const rng = lcg(seed);
+    const rings = outerRings(f.geometry);
+    const total = rings.reduce((s, p) => s + p.area, 0) || 0.0001;
+    const target = Math.max(3, Math.min(CAP, Math.round(total * DENSITY)));
+    for (const p of rings) {
+      const share = Math.max(1, Math.round(target * (p.area / total)));
+      const [minx, miny, maxx, maxy] = p.bbox;
+      let placed = 0; let attempts = 0; const maxAttempts = share * 60;
+      while (placed < share && attempts < maxAttempts) {
+        attempts += 1;
+        const x = minx + rng() * (maxx - minx);
+        const y = miny + rng() * (maxy - miny);
+        if (!ptInRing(x, y, p.ring)) continue;
+        const rr = rng();
+        const lvl = rr < 0.34 ? 0 : rr < 0.67 ? 1 : 2;
+        pts.push([round2(y), round2(x), Math.round(rng() * 100) / 100, lvl]);
+        placed += 1;
+      }
+    }
+  }
+  writeFileSync(join(geoOut, 'relief.json'), `${JSON.stringify(pts)}\n`);
+  console.log(`relief.json: ${pts.length} triangles`);
+}
+
 await genCities();
 await genWater();
 await genStates();
@@ -272,3 +348,4 @@ await genRivers();
 await genAdmin1();
 await genRanges();
 await genPeaks();
+await genRelief();

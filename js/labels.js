@@ -84,12 +84,20 @@ export function peakMinZoom(rank) {
   return 7;
 }
 
-// Coarse elevation tier (1..4) driving the ▲ size — deliberately approximate, not exact.
+// Coarse elevation tier (1..4) driving the peak triangle size — deliberately approximate.
 export function peakSizeTier(elev) {
   if (elev >= 6000) return 4;
   if (elev >= 4000) return 3;
   if (elev >= 2000) return 2;
   return 1;
+}
+
+// Highest relief-scatter level (0..2) drawn at a given zoom — denser as you zoom in, so the
+// world view stays sparse. Used by the canvas relief layer.
+export function reliefMaxLevel(zoom) {
+  if (zoom <= 4) return 0;
+  if (zoom === 5) return 1;
+  return 2;
 }
 
 // --- Runtime overlay --------------------------------------------------------
@@ -150,13 +158,9 @@ export function createLabels(map, data) {
   for (const s of data.states || []) text('states', s.lat, s.lng, s.name, 'lbl lbl-state', stateMinZoom(s.rank));
   for (const r of data.rivers || []) text('rivers', r.lat, r.lng, r.name, 'lbl lbl-river', riverMinZoom(r.rank));
   for (const k of data.lakes || []) text('lakes', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
-  // Mountains: range area-labels + peak ▲ markers (▲ sized by elevation tier), one group.
+  // Mountains: range + peak NAME labels (the triangles themselves are drawn by relief.js).
   for (const r of data.ranges || []) text('mountains', r.lat, r.lng, r.name, 'lbl lbl-range', rangeMinZoom(r.rank));
-  for (const p of data.peaks || []) {
-    add('mountains', p.lat, p.lng,
-      `<span class="lbl-peak-mark t${peakSizeTier(p.elev)}">▲</span><span class="lbl-t lbl-peak-t">${esc(p.name)}</span>`,
-      'lbl lbl-peak', peakMinZoom(p.rank));
-  }
+  for (const p of data.peaks || []) text('mountains', p.lat, p.lng, p.name, 'lbl lbl-peak', peakMinZoom(p.rank));
 
   const applyZoom = () => {
     const z = map.getZoom();
