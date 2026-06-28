@@ -363,7 +363,10 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
    order, so the flex centering actually applies (a bare `.map-toggle` would lose to Leaflet). */
 .map-toggles a { display: flex; align-items: center; justify-content: center; color: var(--ink); }
 .map-toggle:hover { color: var(--green-dark); }
-.map-toggle.active { background: var(--green); color: #fff; }
+/* Keep an active toggle green through Leaflet's :hover AND :focus (both grey, specificity
+   0,2,1) — without the :focus rule, clicking then moving the cursor left it stuck grey.
+   The :hover rule is listed last so a hovered+focused active button still darkens. */
+.map-toggle.active, .map-toggle.active:focus { background: var(--green); color: #fff; }
 .map-toggle.active:hover { background: var(--green-dark); color: #fff; }
 
 /* Control icons are CSS masks tinted by `currentColor` rather than inline SVGs, which
