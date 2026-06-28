@@ -85,7 +85,8 @@ docs/
    geometry), `createRelief` (mountain triangles); `addToggleControls` builds the top-left
    toggle stack; each toggle (Labels / States & Provinces / Rivers / Mountains) is restored
    from `localStorage` and kept in sync with its ☰-menu item. Rivers/borders/relief geometry
-   is lazy-fetched on first enable; lakes are always on.
+   is lazy-fetched on first enable. Lake *outlines* are always on (basemap water); lake *names*
+   ride the Labels toggle (they sit in the `place` label group).
 5. User interactions flow through `app.js`: clicking a marker or a search result →
    `openPanel(strain)`; clicking a fact/badge → `openFacet` → `openIndex` (§10); menu →
    the modal openers.
@@ -98,7 +99,7 @@ On any fetch failure for the core data the map element shows "Unable to load map
 |---|---|
 | `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/Database/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
 | `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, world-fit (`fitWorld`/`WORLD_BOUNDS`), reset/zoom controls, and `addToggleControls` (the top-left overlay-toggle stack; icons are CSS masks). |
-| `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`mountains`) + always-on lakes, drawn in a pane below the markers. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
+| `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`mountains`), drawn in a pane below the markers. Lake names live in `place` (Labels toggle); ocean/city/country names too. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
 | `geolayers.js` | `createGeoLayers(map)` — lake (always-on), river, and admin-1-border geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily. |
 | `relief.js` | `createRelief(map, peaks)` — the mountain triangle-relief **canvas** layer: scatters/peaks culled to the viewport, redrawn on move/zoom (hidden during the zoom animation to avoid a stale flash). |
 | `panel.js` | Renders the variety panel header: title, place, the two classification **badges** (morphotype + vernacular type) and the trait rows (`facetRow`). Holds the tooltip definition maps (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`). |

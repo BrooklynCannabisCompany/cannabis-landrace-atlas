@@ -110,7 +110,9 @@ function esc(s) {
 }
 
 // Builds the label overlay. `data` = { world, cities, water, states, lakes, rivers }.
-// Returns { setGroupVisible(key, on) } where key is 'place' | 'states' | 'rivers' | 'lakes'.
+// Returns { setGroupVisible(key, on) } where key is 'place' | 'states' | 'rivers' | 'mountains'.
+// Lake names live in the 'place' group (with countries/cities/oceans) so they follow the
+// Labels toggle — only the lake *shapes* (geolayers.js) are always on.
 export function createLabels(map, data) {
   // A pane below the marker pane (z 600), above the basemap/geometry panes (z <= 414).
   map.createPane('labelPane');
@@ -122,10 +124,9 @@ export function createLabels(map, data) {
     place: L.layerGroup(),
     states: L.layerGroup(),
     rivers: L.layerGroup(),
-    lakes: L.layerGroup(),
     mountains: L.layerGroup()
   };
-  const on = { place: false, states: false, rivers: false, lakes: false, mountains: false };
+  const on = { place: false, states: false, rivers: false, mountains: false };
   const entries = []; // { marker, key, minZoom }
 
   const add = (key, lat, lng, html, className, minZoom) => {
@@ -157,7 +158,7 @@ export function createLabels(map, data) {
   // Independently-toggled groups.
   for (const s of data.states || []) text('states', s.lat, s.lng, s.name, 'lbl lbl-state', stateMinZoom(s.rank));
   for (const r of data.rivers || []) text('rivers', r.lat, r.lng, r.name, 'lbl lbl-river', riverMinZoom(r.rank));
-  for (const k of data.lakes || []) text('lakes', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
+  for (const k of data.lakes || []) text('place', k.lat, k.lng, k.name, 'lbl lbl-lake', lakeMinZoom(k.rank));
   // Mountains: range + peak NAME labels (the triangles themselves are drawn by relief.js).
   for (const r of data.ranges || []) text('mountains', r.lat, r.lng, r.name, 'lbl lbl-range', rangeMinZoom(r.rank));
   for (const p of data.peaks || []) text('mountains', p.lat, p.lng, p.name, 'lbl lbl-peak', peakMinZoom(p.rank));

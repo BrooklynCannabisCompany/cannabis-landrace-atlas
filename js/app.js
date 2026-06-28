@@ -783,9 +783,10 @@ async function boot() {
     labels = createLabels(map, { world, cities, water, states, lakes, rivers, ranges, peaks });
     geo = createGeoLayers(map);
     if (lakesGeo) geo.provide('lakes', lakesGeo);
-    geo.setVisible('lakes', true);           // lakes: always-on shapes…
-    labels.setGroupVisible('lakes', true);   // …and always-on labels (zoom-permitting)
+    geo.setVisible('lakes', true);           // lake *shapes* are always on (basemap water)…
     relief = createRelief(map, peaks);       // mountain triangles (scatter lazy-loaded on toggle)
+    // …lake *names* ride the Labels toggle (they sit in the 'place' label group), so "Labels
+    // off" means no place names at all.
 
     // The toggle controls — one grouped top-left bar — plus their ☰-menu items, then restore.
     toggleCtl = addToggleControls(map, Object.keys(TOGGLES).map((id) => ({

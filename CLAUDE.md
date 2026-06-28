@@ -88,13 +88,14 @@ repo deploys.
   places one marker per strain (declustered onto a sunflower spiral in `js/map.js`, since many
   varieties share an approximate centroid). The view is fit to the world via `fitBounds`
   (adaptive to screen size), not a fixed zoom.
-- **Map overlays** (all off by default except always-on lakes; zoom-gated; state persisted):
-  a top-left stack of toggles (`addToggleControls` in `js/map.js`; icons are CSS masks, not
-  inline SVG) plus synced ☰-menu items drives — **Labels** (country/city/water names),
-  **States & Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Mountains**
-  (triangle relief + range/peak names). `js/labels.js` renders text labels (per-group
-  visibility, pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js`
-  renders lake/river/border geometry (`data/geo/*.geojson`, lazy-loaded for rivers/borders);
+- **Map overlays** (all toggles off by default; zoom-gated; state persisted): a top-left stack
+  of toggles (`addToggleControls` in `js/map.js`; icons are CSS masks, not inline SVG) plus
+  synced ☰-menu items drives — **Labels** (country/city/ocean **and lake** names), **States &
+  Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Mountains** (triangle
+  relief + range/peak names). Lake *outlines* are the one always-on element (basemap water);
+  their names ride the Labels toggle. `js/labels.js` renders text labels (per-group visibility,
+  pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js` renders
+  lake/river/border geometry (`data/geo/*.geojson`, lazy-loaded for rivers/borders);
   `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).
 - The **Index** (`openIndex` in `app.js`) is the single "browse by attribute" surface: clicking
   a panel fact/badge routes through `openFacet` → `openIndex({facet, value})`, the same path as a
