@@ -65,3 +65,70 @@ export function matchPlace(record, gaz) {
     null
   );
 }
+
+function pointInRing(point, ring) {
+  const [x, y] = point;
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const xi = ring[i][0], yi = ring[i][1];
+    const xj = ring[j][0], yj = ring[j][1];
+    const intersect = (yi > y) !== (yj > y) &&
+      x < ((xj - xi) * (y - yi)) / (yj - yi) + xi;
+    if (intersect) inside = !inside;
+  }
+  return inside;
+}
+
+function pointInPoly(point, rings) {
+  // even-odd across outer ring + holes: inside outer, outside holes
+  let inside = false;
+  for (const ring of rings) if (pointInRing(point, ring)) inside = !inside;
+  return inside;
+}
+
+export function pointInPolygon(point, geometry) {
+  if (geometry.type === 'Polygon') return pointInPoly(point, geometry.coordinates);
+  if (geometry.type === 'MultiPolygon') return geometry.coordinates.some(poly => pointInPoly(point, poly));
+  return false;
+}
+
+const COUNTRY_ALIASES = {
+  'alaska': ['united states of america'],
+  'hawaii': ['united states of america'],
+  'drc': ['dem. rep. congo'],
+  'dr congo': ['dem. rep. congo'],
+  'baltics': ['estonia', 'latvia', 'lithuania'],
+  'crimea': ['ukraine', 'russia'],
+};
+
+export function buildCountryIndex(world) {
+  const idx = new Map();
+  for (const f of world.features) {
+    const p = f.properties || {};
+    for (const key of [p.NAME, p.ADMIN, p.NAME_LONG]) {
+      if (!key) continue;
+      const k = key.toLowerCase();
+      if (!idx.has(k)) idx.set(k, []);
+      if (!idx.get(k).includes(f.geometry)) idx.get(k).push(f.geometry);
+    }
+  }
+  return idx;
+}
+
+export function resolveCountry(country, index) {
+  const lc = String(country || '').toLowerCase();
+  for (const t of [lc, lc.replace(/\s*&\s*/g, ' and ')]) {
+    if (index.has(t)) return index.get(t);
+  }
+  const aliases = COUNTRY_ALIASES[lc];
+  if (aliases) {
+    const geos = [];
+    for (const a of aliases) if (index.has(a)) geos.push(...index.get(a));
+    if (geos.length) return geos;
+  }
+  return [];
+}
+
+export function inAny(point, geometries) {
+  return geometries.some(g => pointInPolygon(point, g));
+}
