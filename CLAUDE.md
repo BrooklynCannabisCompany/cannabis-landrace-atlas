@@ -15,7 +15,7 @@ below are the load-bearing constraints and the things that bite.
 ```bash
 npm test                 # node --test — runs every *.test.mjs (logic + data validator)
 npm run validate         # validates landraces.json + the data/labels & data/geo files
-npm run serve            # python3 -m http.server 8000  (then open http://localhost:8000)
+npm run serve            # node serve.mjs — no-store static server (open http://localhost:8000)
 node --test js/search.test.mjs        # run a single test file
 node data/build/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 node data/build/gen-labels.mjs           # regenerates data/labels/* and data/geo/* from Natural Earth (network)

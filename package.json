@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node --test",
     "validate": "node data/build/validate.mjs",
-    "serve": "python3 -m http.server 8000"
+    "serve": "node serve.mjs"
   },
   "devDependencies": {}
 }

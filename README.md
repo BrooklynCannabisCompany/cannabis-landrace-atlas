@@ -9,7 +9,7 @@ A static, no-backend world map of cannabis landraces with per-strain write-ups a
 ```bash
 git clone https://github.com/BrooklynCannabisCompany/cannabis-landrace-atlas.git
 cd cannabis-landrace-atlas
-npm run serve          # starts python3 -m http.server 8000
+npm run serve          # starts a no-cache static server (node serve.mjs) on :8000
 ```
 
 Open http://localhost:8000 in your browser.

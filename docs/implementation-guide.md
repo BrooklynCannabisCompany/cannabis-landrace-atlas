@@ -323,6 +323,32 @@ the overlay zoom-gating helpers in `js/labels.test.mjs`). Keep tests green; add 
 you add a pure function. Browser-only behaviour (Leaflet, the canvas relief layer, modal
 focus, the mask-based control icons) is verified manually / via devtools, not in `node --test`.
 
+**Run the dev server with `npm run serve`** (`serve.mjs`, a dependency-free Node static server
+that sends `Cache-Control: no-store`) so the browser never serves a stale cached module — most
+"it regressed" reports this project has seen were actually a stale cache, not a code change.
+Hard-reload anyway if in doubt.
+
+### Browser smoke test (run before claiming a map/overlay change is done)
+
+These are the behaviours `node --test` can't see (CSS specificity, Leaflet rendering, the
+canvas) — exactly where regressions have slipped in. Load `npm run serve` and verify:
+
+1. **Loads clean** — markers appear, basemap renders, **no console errors**; the world view
+   fills the screen; the reset (globe) button returns to it.
+2. **Control icons** — all six top-left buttons show a **centred** icon (zoom ±, reset, and the
+   four toggles); none is blank. An **active** toggle is green and **stays green on hover and
+   after clicking** (focus); inactive buttons grey on hover.
+3. **Labels is the master text switch** — with Labels **off**, no names show even when
+   States/Rivers/Terrain are on (their geometry still renders); with Labels **on**, names show
+   for each enabled feature plus base country/city/ocean/lake names; turning a feature off
+   removes both its geometry and its names.
+4. **Per-layer geometry** (zoom in past each layer's gate): States → admin-1 border lines;
+   Rivers → river lines (incl. the Hudson at deep zoom); Terrain → a dense triangle-relief
+   "wall" over ranges + sandy desert tint; lake outlines always present. Water is aqua.
+5. **Zoom** — panning/zooming with Terrain on shows no stale-position relief flash.
+6. **Mobile (≤ 860px)** — the control stack and labels stay usable/legible; the panel is a
+   bottom sheet.
+
 ## 15. Conventions & gotchas
 
 - **Edit `data/landraces.json` directly, then `npm run validate`.** It is the canonical
