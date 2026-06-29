@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import {
   normalize, loadGazetteer, matchPlace,
   pointInPolygon, buildCountryIndex, resolveCountry, inAny,
+  ringsCentroid, foothillsOffset, inWater, nudgeToLand,
 } from './refine-coords.mjs';
 
 const LABELS = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'labels');
@@ -84,4 +85,28 @@ test('inAny: Oaxaca point is in Mexico, not Brazil', () => {
   const oax = [-96.209, 16.94];
   assert.equal(inAny(oax, resolveCountry('Mexico', idx)), true);
   assert.equal(inAny(oax, resolveCountry('Brazil', idx)), false);
+});
+
+test('foothillsOffset moves ~0.25 deg toward the centroid', () => {
+  const moved = foothillsOffset([0, 0], [10, 0], 0.25);
+  assert.ok(Math.abs(moved[0] - 0.25) < 1e-9 && Math.abs(moved[1]) < 1e-9);
+});
+
+test('ringsCentroid returns the mean of outer-ring vertices', () => {
+  const sq = { type: 'Polygon', coordinates: [[[0, 0], [0, 4], [4, 4], [4, 0], [0, 0]]] };
+  const c = ringsCentroid([sq]);
+  assert.ok(Math.abs(c[0] - 1.6) < 1e-9 && Math.abs(c[1] - 1.6) < 1e-9);
+});
+
+test('inWater detects a point inside a lake polygon', () => {
+  const lakes = [{ type: 'Polygon', coordinates: [[[0, 0], [0, 2], [2, 2], [2, 0], [0, 0]]] }];
+  assert.equal(inWater([1, 1], lakes), true);
+  assert.equal(inWater([5, 5], lakes), false);
+});
+
+test('nudgeToLand escapes a lake toward land', () => {
+  const land = [{ type: 'Polygon', coordinates: [[[0, 0], [0, 10], [10, 10], [10, 0], [0, 0]]] }];
+  const lakes = [{ type: 'Polygon', coordinates: [[[0, 0], [0, 2], [2, 2], [2, 0], [0, 0]]] }];
+  const out = nudgeToLand([1, 1], land, lakes, [8, 8]);
+  assert.ok(out && inAny(out, land) && !inWater(out, lakes));
 });

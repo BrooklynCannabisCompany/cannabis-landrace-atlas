@@ -132,3 +132,38 @@ export function resolveCountry(country, index) {
 export function inAny(point, geometries) {
   return geometries.some(g => pointInPolygon(point, g));
 }
+
+export function ringsCentroid(geometries) {
+  let sx = 0, sy = 0, n = 0;
+  for (const g of geometries) {
+    const polys = g.type === 'MultiPolygon' ? g.coordinates : [g.coordinates];
+    for (const poly of polys) {
+      for (const [x, y] of poly[0]) { sx += x; sy += y; n++; }
+    }
+  }
+  return n ? [sx / n, sy / n] : [0, 0];
+}
+
+export function foothillsOffset(point, centroid, deg = 0.25) {
+  const dx = centroid[0] - point[0];
+  const dy = centroid[1] - point[1];
+  const len = Math.hypot(dx, dy);
+  if (len < 1e-9) return [point[0], point[1]];
+  return [point[0] + (dx / len) * deg, point[1] + (dy / len) * deg];
+}
+
+export function inWater(point, lakeGeometries) {
+  return lakeGeometries.some(g => pointInPolygon(point, g));
+}
+
+export function nudgeToLand(point, geometries, lakeGeometries, centroid) {
+  const dx = centroid[0] - point[0];
+  const dy = centroid[1] - point[1];
+  const len = Math.hypot(dx, dy) || 1;
+  const ux = dx / len, uy = dy / len;
+  for (let i = 0; i <= 25; i++) {
+    const p = [point[0] + ux * 0.1 * i, point[1] + uy * 0.1 * i];
+    if (inAny(p, geometries) && !inWater(p, lakeGeometries)) return p;
+  }
+  return null;
+}
