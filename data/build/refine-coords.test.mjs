@@ -142,14 +142,23 @@ test('decideRefinement rejects a match that lands outside the country', () => {
   assert.equal(d.action, 'reject-country');
 });
 
-test('run(dry-run) moves the Mexican state cluster and never crosses a country', () => {
+test('run(dry-run) never moves a pin across a country and is idempotent on shipped data', () => {
   const report = run({ dryRun: true });
   const idx = buildCountryIndex(world);
+  // Invariant: any proposed move stays inside its own country.
   for (const mv of report.moved) {
     const geos = resolveCountry(mv.country, idx);
     if (geos.length) assert.ok(inAny([mv.lng, mv.lat], geos), `${mv.name} stayed in ${mv.country}`);
   }
-  const oax = report.moved.find(m => m.name === 'Oaxaca');
-  assert.ok(oax && oax.lat < 20, 'Oaxaca moved south into Oaxaca state');
+  // The shipped dataset is already refined, so a re-run proposes no further moves.
+  assert.equal(report.moved.length, 0, 'idempotent: refined data yields no new moves');
   assert.ok(typeof report.none === 'number');
+});
+
+test('shipped dataset: Oaxaca sits in its southern-Mexico state', () => {
+  const idx = buildCountryIndex(world);
+  const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'landraces.json'), 'utf8'));
+  const oax = data.find(r => r.name === 'Oaxaca');
+  assert.ok(oax.lat < 20, 'Oaxaca placed in the south of Mexico');
+  assert.ok(inAny([oax.lng, oax.lat], resolveCountry('Mexico', idx)), 'Oaxaca inside Mexico');
 });
