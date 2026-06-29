@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const GAZ_FILES = ['states', 'cities', 'ranges', 'peaks', 'landforms', 'lakes', 'rivers'];
 
@@ -221,4 +222,71 @@ export function decideRefinement(record, ctx) {
     action: 'move', lat, lng, matched: m.matchedName,
     distanceKm: Math.round(haversineKm(record.lat, record.lng, lat, lng)),
   };
+}
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const DATA = path.join(HERE, '..');
+
+export function run({ dryRun = false } = {}) {
+  const labelsDir = path.join(DATA, 'labels');
+  const data = JSON.parse(fs.readFileSync(path.join(DATA, 'landraces.json'), 'utf8'));
+  const world = JSON.parse(fs.readFileSync(path.join(DATA, 'world.geojson'), 'utf8'));
+  const lakesGeo = JSON.parse(fs.readFileSync(path.join(DATA, 'geo', 'lakes.geojson'), 'utf8'));
+  const ctx = {
+    gaz: loadGazetteer(labelsDir),
+    countryIndex: buildCountryIndex(world),
+    lakes: lakesGeo.features.map(f => f.geometry),
+    centroidCache: new Map(),
+  };
+  const report = { moved: [], mountains: [], rejectedCountry: [], rejectedWater: [], ambiguous: [], none: 0 };
+
+  for (const r of data) {
+    const d = decideRefinement(r, ctx);
+    const tag = { name: r.name, country: r.country, matched: d.matched };
+    switch (d.action) {
+      case 'move': {
+        const entry = { ...tag, from: [r.lat, r.lng], lat: d.lat, lng: d.lng, distanceKm: d.distanceKm };
+        report.moved.push(entry);
+        const cands = ctx.gaz.get(d.matched) || [];
+        if (cands.some(c => c.src === 'peaks' || c.src === 'ranges')) report.mountains.push(entry);
+        if (!dryRun) { r.lat = d.lat; r.lng = d.lng; }
+        break;
+      }
+      case 'reject-country': report.rejectedCountry.push({ ...tag, reason: d.reason }); break;
+      case 'reject-water': report.rejectedWater.push(tag); break;
+      case 'ambiguous': report.ambiguous.push({ ...tag, reason: d.reason }); break;
+      default: report.none++;
+    }
+  }
+
+  if (!dryRun) {
+    fs.writeFileSync(path.join(DATA, 'landraces.json'), JSON.stringify(data, null, 2) + '\n');
+  }
+  return report;
+}
+
+function printReport(report) {
+  const line = (e) => `  ${e.name} (${e.country})  →  ${e.lat},${e.lng}  [${e.matched}, ${e.distanceKm}km]`;
+  console.log(`\n✅ Moved: ${report.moved.length}`);
+  for (const e of report.moved) console.log(line(e));
+  console.log(`\n⛰️  Mountain (foothills offset) — review: ${report.mountains.length}`);
+  for (const e of report.mountains) console.log(line(e));
+  console.log(`\n🚫 Rejected — would cross country: ${report.rejectedCountry.length}`);
+  for (const e of report.rejectedCountry) console.log(`  ${e.name} (${e.country}) [${e.matched}]`);
+  console.log(`\n💧 Rejected — water, unresolvable: ${report.rejectedWater.length}`);
+  for (const e of report.rejectedWater) console.log(`  ${e.name} (${e.country}) [${e.matched}]`);
+  console.log(`\n❓ Needs your call (ambiguous): ${report.ambiguous.length}`);
+  for (const e of report.ambiguous) console.log(`  ${e.name} (${e.country}) [${e.matched}]`);
+  console.log(`\n⏭️  No place found / already placed: ${report.none}`);
+}
+
+function main() {
+  const dryRun = process.argv.includes('--dry-run');
+  const report = run({ dryRun });
+  printReport(report);
+  console.log(`\n${dryRun ? 'DRY RUN — no files written.' : 'Applied to data/landraces.json.'}`);
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main();
 }

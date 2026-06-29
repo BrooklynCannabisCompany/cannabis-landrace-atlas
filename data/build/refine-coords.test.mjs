@@ -7,7 +7,7 @@ import {
   normalize, loadGazetteer, matchPlace,
   pointInPolygon, buildCountryIndex, resolveCountry, inAny,
   ringsCentroid, foothillsOffset, inWater, nudgeToLand,
-  decideRefinement,
+  decideRefinement, run,
 } from './refine-coords.mjs';
 
 const LABELS = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'labels');
@@ -140,4 +140,16 @@ test('decideRefinement rejects a match that lands outside the country', () => {
   const ctx2 = { ...ctx, gaz };
   const d = decideRefinement({ name: 'Narnia', region: '', country: 'Mexico', lat: 23, lng: -102 }, ctx2);
   assert.equal(d.action, 'reject-country');
+});
+
+test('run(dry-run) moves the Mexican state cluster and never crosses a country', () => {
+  const report = run({ dryRun: true });
+  const idx = buildCountryIndex(world);
+  for (const mv of report.moved) {
+    const geos = resolveCountry(mv.country, idx);
+    if (geos.length) assert.ok(inAny([mv.lng, mv.lat], geos), `${mv.name} stayed in ${mv.country}`);
+  }
+  const oax = report.moved.find(m => m.name === 'Oaxaca');
+  assert.ok(oax && oax.lat < 20, 'Oaxaca moved south into Oaxaca state');
+  assert.ok(typeof report.none === 'number');
 });
