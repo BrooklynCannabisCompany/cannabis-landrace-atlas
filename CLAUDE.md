@@ -91,11 +91,14 @@ repo deploys.
   (adaptive to screen size), not a fixed zoom.
 - **Map overlays** (all toggles off by default; zoom-gated; state persisted): a top-left stack
   of toggles (`addToggleControls` in `js/map.js`; icons are CSS masks, not inline SVG) plus
-  synced ☰-menu items drives — **Labels** (country/city/ocean **and lake** names), **States &
-  Provinces** (admin-1 borders + labels), **Rivers** (lines + names), **Terrain** (mountain
-  triangle relief + range/peak names, plus desert/plateau/basin/delta names and a sandy desert
-  tint). Water (oceans/lakes/rivers) is aqua. Lake *outlines* are the one always-on element;
-  their names ride the Labels toggle. `js/labels.js` renders text labels (per-group visibility,
+  synced ☰-menu items drives the layers. **Labels is the master text switch**: off ⇒ no names
+  anywhere; on ⇒ names for whatever feature layers are also enabled (plus the base
+  country/city/ocean/lake names). The feature toggles draw their own *geometry* independent of
+  Labels — **States & Provinces** (admin-1 borders), **Rivers** (lines), **Terrain** (mountain
+  triangle relief + a sandy desert tint) — and their *names* (state/river/range/peak/
+  desert/plateau/basin/delta) appear only when that toggle AND Labels are on
+  (`applyLabelVisibility` in `app.js`). Water (oceans/lakes/rivers) is aqua. Lake *outlines*
+  are the one always-on geometry. `js/labels.js` renders text labels (per-group visibility,
   pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js` renders
   lake/river/border/desert-tint geometry (`data/geo/*.geojson`, lazy-loaded except lakes);
   `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).

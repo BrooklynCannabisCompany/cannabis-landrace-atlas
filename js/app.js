@@ -39,16 +39,30 @@ let relief = null;          // mountain triangle-relief canvas layer (created in
 let reliefLoaded = false;   // relief scatter lazy-fetched once
 
 // ---- Map overlay toggles ----
-// Three independent toggles, each driving a label group and (for states/rivers) a geometry
-// layer whose GeoJSON is lazy-loaded on first enable. Each has a map button + a synced
-// ☰-menu item and is persisted. Lakes are always on (no toggle).
+// Labels is the MASTER text switch: with it off, no names show at all; with it on, names show
+// for whichever feature layers are also enabled. States/Rivers/Terrain each draw their own
+// geometry (borders, river lines, relief + desert tint) independent of Labels, lazy-loaded on
+// first enable. Each toggle has a map button + a synced ☰-menu item and is persisted; lakes
+// are always on (no toggle).
 const TOGGLES = {
-  labels: { storage: 'cla-labels', group: 'place', label: 'labels' },
-  states: { storage: 'cla-states', group: 'states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
-  rivers: { storage: 'cla-rivers', group: 'rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
-  terrain: { storage: 'cla-terrain', group: 'terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
+  labels: { storage: 'cla-labels', label: 'labels' },
+  states: { storage: 'cla-states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
+  rivers: { storage: 'cla-rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
+  terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
 };
 const toggleOn = { labels: false, states: false, rivers: false, terrain: false };
+
+// Each label group is visible only when the master Labels toggle is on AND (for feature
+// groups) that feature is also enabled. 'place' (country/city/ocean/lake names) is the base
+// set shown whenever Labels is on.
+function applyLabelVisibility() {
+  if (!labels) return;
+  const L = toggleOn.labels;
+  labels.setGroupVisible('place', L);
+  labels.setGroupVisible('states', L && toggleOn.states);
+  labels.setGroupVisible('rivers', L && toggleOn.rivers);
+  labels.setGroupVisible('terrain', L && toggleOn.terrain);
+}
 let toggleCtl = null;        // grouped control: { setActive(id, on) }
 const toggleMenuItems = {};  // id -> menu element
 const geoLoaded = {};        // url -> true once fetched
@@ -66,11 +80,13 @@ async function ensureGeo(key, url) {
 function setToggle(id, on, persist = true) {
   const t = TOGGLES[id];
   toggleOn[id] = on;
-  labels?.setGroupVisible(t.group, on);
+  // Feature geometry follows its own toggle, independent of the master Labels switch.
   if (t.geo) {
     geo?.setVisible(t.geo, on);
     if (on) ensureGeo(t.geo, t.url);
   }
+  // Text labels are gated by Labels (master) AND each feature's own toggle.
+  applyLabelVisibility();
   if (id === 'terrain') {
     relief?.setVisible(on);
     if (on && !reliefLoaded) {
