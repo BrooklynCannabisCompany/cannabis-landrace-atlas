@@ -7,6 +7,7 @@ import {
   normalize, loadGazetteer, matchPlace,
   pointInPolygon, buildCountryIndex, resolveCountry, inAny,
   ringsCentroid, foothillsOffset, inWater, nudgeToLand,
+  decideRefinement,
 } from './refine-coords.mjs';
 
 const LABELS = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'labels');
@@ -109,4 +110,34 @@ test('nudgeToLand escapes a lake toward land', () => {
   const lakes = [{ type: 'Polygon', coordinates: [[[0, 0], [0, 2], [2, 2], [2, 0], [0, 0]]] }];
   const out = nudgeToLand([1, 1], land, lakes, [8, 8]);
   assert.ok(out && inAny(out, land) && !inWater(out, lakes));
+});
+
+function makeCtx() {
+  const gaz = loadGazetteer(LABELS);
+  const countryIndex = buildCountryIndex(world);
+  return { gaz, countryIndex, lakes: [], centroidCache: new Map() };
+}
+
+test('decideRefinement moves a centroid-pinned Mexican state into that state', () => {
+  const ctx = makeCtx();
+  const r = { name: 'Oaxaca', region: '', country: 'Mexico', lat: 23.894, lng: -102.415 };
+  const d = decideRefinement(r, ctx);
+  assert.equal(d.action, 'move');
+  // Oaxaca state ~ (16.94, -96.21)
+  assert.ok(Math.abs(d.lat - 16.94) < 0.6 && Math.abs(d.lng - -96.21) < 0.6);
+  assert.ok(inAny([d.lng, d.lat], resolveCountry('Mexico', ctx.countryIndex)));
+});
+
+test('decideRefinement returns none when no place named', () => {
+  const ctx = makeCtx();
+  const d = decideRefinement({ name: 'Black African Magic', region: '', country: 'DRC', lat: -4, lng: 21 }, ctx);
+  assert.equal(d.action, 'none');
+});
+
+test('decideRefinement rejects a match that lands outside the country', () => {
+  const ctx = makeCtx();
+  const gaz = new Map([['narnia', [{ name: 'Narnia', lat: 0, lng: 0, src: 'states', rank: 1 }]]]);
+  const ctx2 = { ...ctx, gaz };
+  const d = decideRefinement({ name: 'Narnia', region: '', country: 'Mexico', lat: 23, lng: -102 }, ctx2);
+  assert.equal(d.action, 'reject-country');
 });

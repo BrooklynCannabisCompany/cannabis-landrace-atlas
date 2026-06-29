@@ -167,3 +167,58 @@ export function nudgeToLand(point, geometries, lakeGeometries, centroid) {
   }
   return null;
 }
+
+function haversineKm(aLat, aLng, bLat, bLng) {
+  const R = 6371, toRad = d => (d * Math.PI) / 180;
+  const dLat = toRad(bLat - aLat), dLng = toRad(bLng - aLng);
+  const s = Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(aLat)) * Math.cos(toRad(bLat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(s)));
+}
+
+function round3(n) { return Math.round(n * 1000) / 1000; }
+
+function centroidFor(country, geos, cache) {
+  if (!cache.has(country)) cache.set(country, ringsCentroid(geos));
+  return cache.get(country);
+}
+
+export function decideRefinement(record, ctx) {
+  const { gaz, countryIndex, lakes, centroidCache } = ctx;
+  const m = matchPlace(record, gaz);
+  if (!m) return { action: 'none', reason: 'no-place' };
+
+  const geos = resolveCountry(record.country, countryIndex);
+  if (!geos.length) return { action: 'none', reason: 'country-unresolved', matched: m.matchedName };
+
+  const inCountry = m.candidates.filter(c => inAny([c.lng, c.lat], geos));
+  if (!inCountry.length) {
+    return { action: 'reject-country', matched: m.matchedName, reason: 'match only outside country' };
+  }
+  if (inCountry.length >= 2) {
+    const spread = Math.max(...inCountry.map(c =>
+      Math.max(...inCountry.map(d => Math.hypot(c.lng - d.lng, c.lat - d.lat)))));
+    if (spread > 1.0) return { action: 'ambiguous', matched: m.matchedName, reason: 'multiple in-country matches' };
+  }
+
+  inCountry.sort((a, b) => (SRC_PRIORITY[a.src] - SRC_PRIORITY[b.src]) || (a.rank - b.rank));
+  const chosen = inCountry[0];
+  let pt = [chosen.lng, chosen.lat];
+
+  if (chosen.src === 'peaks' || chosen.src === 'ranges') {
+    pt = foothillsOffset(pt, centroidFor(record.country, geos, centroidCache));
+  }
+
+  if (!inAny(pt, geos) || inWater(pt, lakes)) {
+    const safe = nudgeToLand(pt, geos, lakes, centroidFor(record.country, geos, centroidCache));
+    if (!safe) return { action: 'reject-water', matched: m.matchedName };
+    pt = safe;
+  }
+
+  const lat = round3(pt[1]), lng = round3(pt[0]);
+  if (lat === record.lat && lng === record.lng) return { action: 'none', reason: 'already-placed', matched: m.matchedName };
+  return {
+    action: 'move', lat, lng, matched: m.matchedName,
+    distanceKm: Math.round(haversineKm(record.lat, record.lng, lat, lng)),
+  };
+}
