@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import fs from 'node:fs';
 import { flattenAdmin1, flattenCities } from './fetch-ne-gazetteer.mjs';
-import { mergeGazetteer } from './refine-unresolved.mjs';
+import { mergeGazetteer, residueKind } from './refine-unresolved.mjs';
 import { loadGazetteer, buildCountryIndex, decideRefinement, resolveCountry, inAny } from './refine-coords.mjs';
 
 const DBUILD = path.dirname(fileURLToPath(import.meta.url));
@@ -41,4 +41,15 @@ test('mergeGazetteer makes an NE-only city resolvable and decideRefinement moves
   assert.equal(d.action, 'move');
   assert.ok(Math.abs(d.lat - 39.476) < 0.1 && Math.abs(d.lng - 75.97) < 0.1);
   assert.ok(inAny([d.lng, d.lat], resolveCountry('China', ctx.countryIndex)));
+});
+
+test('residueKind buckets residue names (country-aware)', () => {
+  assert.equal(residueKind('Atlas Mountains', 'Morocco'), 'named-feature');
+  assert.equal(residueKind('Bekaa Valley', 'Lebanon'), 'named-feature');
+  assert.equal(residueKind('Virunga Highlands', 'DRC'), 'named-feature'); // real toponym + descriptor
+  assert.equal(residueKind('Angolan Highland', 'Angola'), 'descriptor');
+  assert.equal(residueKind('Madagascar Coastal Lowlands', 'Madagascar'), 'descriptor');
+  assert.equal(residueKind('Malagasy Highland', 'Madagascar'), 'descriptor'); // irregular demonym
+  assert.equal(residueKind('Nigerian', 'Nigeria'), 'vague');
+  assert.equal(residueKind('Afghani', 'Afghanistan'), 'vague');
 });
