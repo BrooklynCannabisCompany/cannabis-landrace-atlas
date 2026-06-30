@@ -1,6 +1,15 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import fs from 'node:fs';
 import { flattenAdmin1, flattenCities } from './fetch-ne-gazetteer.mjs';
+import { mergeGazetteer } from './refine-unresolved.mjs';
+import { loadGazetteer, buildCountryIndex, decideRefinement, resolveCountry, inAny } from './refine-coords.mjs';
+
+const DBUILD = path.dirname(fileURLToPath(import.meta.url));
+const LABELS = path.join(DBUILD, '..', 'labels');
+const world = JSON.parse(fs.readFileSync(path.join(DBUILD, '..', 'world.geojson'), 'utf8'));
 
 test('flattenAdmin1 maps name/admin/latitude/longitude and skips incomplete', () => {
   const gj = { features: [
@@ -18,4 +27,18 @@ test('flattenCities maps NAME/ADM0NAME/LATITUDE/LONGITUDE', () => {
   ] };
   const out = flattenCities(gj);
   assert.deepEqual(out[0], { name: 'Herat', lat: 34.33, lng: 62.17, country: 'Afghanistan', src: 'ne-city' });
+});
+
+test('mergeGazetteer makes an NE-only city resolvable and decideRefinement moves it in-country', () => {
+  const local = loadGazetteer(LABELS);
+  assert.equal(local.get('kashgar'), undefined, 'Kashgar is absent from the local gazetteer');
+  const enriched = mergeGazetteer(local, [
+    { name: 'Kashgar', lat: 39.476, lng: 75.97, country: 'China', src: 'ne-city' },
+  ]);
+  const ctx = { gaz: enriched, countryIndex: buildCountryIndex(world), lakes: [], centroidCache: new Map() };
+  const r = { name: 'Kashgar', region: '', country: 'China', lat: 35.0, lng: 103.0 };
+  const d = decideRefinement(r, ctx);
+  assert.equal(d.action, 'move');
+  assert.ok(Math.abs(d.lat - 39.476) < 0.1 && Math.abs(d.lng - 75.97) < 0.1);
+  assert.ok(inAny([d.lng, d.lat], resolveCountry('China', ctx.countryIndex)));
 });
