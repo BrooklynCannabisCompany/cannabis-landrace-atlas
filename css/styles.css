@@ -486,10 +486,6 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 }
 .modal-list-link:hover { background: #eef0e9; }
 
-/* Near-full-width modal for the embedded Database; iframe fills the space */
-.modal.wide .modal-card { width: 97vw; max-width: 1500px; max-height: 95vh; padding: 16px 18px 10px; }
-.modal.wide .modal-note { margin: 2px 0; }
-.db-frame { width: 100%; height: calc(95vh - 96px); border: 1px solid var(--line); border-radius: 6px; margin-top: 4px; }
 .modal-close {
   position: absolute; top: 10px; right: 14px; border: none; background: none;
   font-size: 24px; line-height: 1; color: var(--muted); cursor: pointer;

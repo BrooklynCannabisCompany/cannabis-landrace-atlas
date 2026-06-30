@@ -97,7 +97,7 @@ On any fetch failure for the core data the map element shows "Unable to load map
 
 | Module | Responsibility |
 |---|---|
-| `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/Database/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
+| `app.js` | Orchestrator: boot, panel open/close, search, the Index, all hamburger-menu screens (About/References/License), facet→Index routing, global keys. Holds module state (`strains`, `map`, `markersById`, `currentId`). |
 | `map.js` | Leaflet setup, leaf + selected icons, marker **declustering** (sunflower spiral), `flyToStrain`, `setMarkerSelected`, world-fit (`fitWorld`/`WORLD_BOUNDS`), reset/zoom controls, and `addToggleControls` (the top-left overlay-toggle stack; icons are CSS masks). |
 | `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`terrain`), drawn in a pane below the markers. Lake names live in `place` (Labels toggle); the `terrain` group holds range/peak names + desert/plateau/basin/delta names. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
 | `geolayers.js` | `createGeoLayers(map)` — lake (always-on, aqua), river (aqua), admin-1-border, and desert-tint geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily (lakes at boot). |
@@ -198,7 +198,7 @@ edit it **here only**, then re-validate.
   (Index icon button + search input), and two icon buttons — **+** (Suggest Addition)
   and ✉ (Contact Us), each with a `data-tip` tooltip. On screens ≤860px the two icon
   buttons are hidden and reached via the hamburger instead (the ribbon collapses to one
-  row); the hamburger lists About, Index, Database, References, License, Suggest
+  row); the hamburger lists About, Index, References, License, Suggest
   Addition, Contact Us.
 - **Map + panel**: map fills the viewport; selecting a variety slides in the right
   **panel** (`body.panel-open`). On ≤860px the panel becomes a bottom sheet.
@@ -207,7 +207,7 @@ edit it **here only**, then re-validate.
   — AKA, Region, Climate, Chemotype, Domestication, Type (vernacular), Height, Flowering
   Time — then "Location is approximate." and the write-up sections. (Write-ups are
   AI-generated drafts; that caveat lives in the README, not in every panel.)
-- **Modals** (`modal.js`): About, Database (embedded iframe), References, License, the Index,
+- **Modals** (`modal.js`): About, References, License, the Index,
   and every contribution form render through `openContentModal(title, build, opts)`; focus is
   trapped and restored. `opts` toggles modal classes:
   - `persistent` (forms) — close **only via ✕** (or a successful submit), so a stray backdrop
@@ -217,10 +217,10 @@ edit it **here only**, then re-validate.
     the card is a non-scrolling flex column (so the absolute ✕ stays put) and the side padding
     (`--pad-x`) lives on the title + body, which puts the body's scrollbar in the right-hand
     gutter instead of over the fields.
-  - `divider` (forms + About / License / References, **not** Index/Database) — a full-bleed line
+  - `divider` (forms + About / License / References, **not** the Index) — a full-bleed line
     under the title bar.
   - `indexHeaders` (Index) — `headbar` + sticky H1/H2 section headers (§10).
-  Read-only non-headbar modals (About/License/References/Database) close on Esc / backdrop / ✕
+  Read-only non-headbar modals (About/License/References) close on Esc / backdrop / ✕
   and scroll the whole card.
 - **Responsive**: form/Index dialogs hold the location map, a dual-thumb slider, and a Turnstile
   widget (~300px wide). The card width and `--pad-x` adapt at the ≤520px (phone) breakpoint —

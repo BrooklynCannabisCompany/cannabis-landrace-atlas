@@ -418,41 +418,9 @@ appMenu.addEventListener('click', (e) => {
   toggleMenu(false);
   const menu = item.dataset.menu;
   if (menu in TOGGLES) { setToggle(menu, !toggleOn[menu]); return; }
-  ({ about: openAbout, index: openIndex, database: openDatabase, references: openReferences, license: openLicense, suggest: openFeedbackSubmit, contact: openContactForm }[menu] || (() => {}))();
+  ({ about: openAbout, index: openIndex, references: openReferences, license: openLicense, suggest: openFeedbackSubmit, contact: openContactForm }[menu] || (() => {}))();
 });
 
-
-function openDatabase() {
-  openContentModal('Database', (body) => {
-    const note = document.createElement('p');
-    note.className = 'modal-note';
-    note.append('Searchable database of the ');
-    const dsLink = document.createElement('a');
-    dsLink.href = 'https://overgrow.com/t/attempted-complete-global-landrace-hemp-heirloom-strain-list/238462';
-    dsLink.target = '_blank'; dsLink.rel = 'noopener noreferrer';
-    dsLink.textContent = 'original dataset';
-    note.append(dsLink, '.');
-    const frame = document.createElement('iframe');
-    frame.src = 'https://simpletestsite.neocities.org/global%20landraces.HTML';
-    frame.className = 'db-frame';
-    frame.title = 'Searchable database of original dataset';
-    frame.loading = 'lazy';
-    // Defense-in-depth for the third-party embed: allow only scripts (treat as an
-    // opaque origin — no top navigation, cookies, or storage on the host), send no
-    // referrer, and deny all Permissions-Policy features.
-    frame.setAttribute('sandbox', 'allow-scripts allow-popups allow-popups-to-escape-sandbox');
-    frame.referrerPolicy = 'no-referrer';
-    frame.setAttribute('allow', '');
-    const fallback = document.createElement('p');
-    fallback.className = 'modal-note';
-    const a = document.createElement('a');
-    a.href = frame.src; a.target = '_blank'; a.rel = 'noopener noreferrer';
-    a.textContent = 'Open the database in a new tab';
-    fallback.append('If the embed does not load, ', a, '.');
-    body.append(note, frame, fallback);
-  });
-  modal.classList.add('wide');
-}
 
 function openAbout() {
   openContentModal('About', (body) => {

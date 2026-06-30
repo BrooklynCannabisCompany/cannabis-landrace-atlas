@@ -44,7 +44,6 @@ Open http://localhost:8000 in your browser.
 - **Panel:** a side panel shows the facts (Morphotype badge + Region, Climate, Chemotype, Domestication, Type, Height, Flowering Time) with explanatory tooltips, then the write-up.
 - **Write-ups:** each strain's Markdown write-up is fetched on demand from `data/writeups/<id>.md`. The `## Description` section is a consistent fact bullet list + prose paragraph (`data/build/normalize-writeups.mjs`). Drafts are AI-generated and unverified; link sections contain only real, verified URLs.
 - **Index:** a collapsible, multi-facet browser (Region, Climate, Morphotype, Chemotype, Domestication, Type, Height, Flowering Time) with range sliders for Height and Flowering Time, opened from the ribbon.
-- **Database:** the hamburger menu embeds the searchable original dataset.
 - **Submissions:** the ribbon's "Suggest Addition", "Suggest Corrections", and "Contact Us" buttons — plus the ⊕ buttons on the Photos / Seed Sources / Forum Discussions / References sections — open simple in-app forms. Submitting sends your suggestion to the maintainers for review; no account or sign-in is required.
 
 ---

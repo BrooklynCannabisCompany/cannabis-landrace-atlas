@@ -26,7 +26,7 @@ export function showModal() {
 
 export function closeModal() {
   modal.hidden = true;
-  modal.classList.remove('wide', 'persistent', 'headbar', 'divider', 'index-sticky');
+  modal.classList.remove('persistent', 'headbar', 'divider', 'index-sticky');
   persistent = false;
   if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
   lastFocused = null;
@@ -39,7 +39,6 @@ export function closeModal() {
 // `headbar` is the shared "pinned title + × over a scrolling body" layout.
 export function openContentModal(title, build, opts = {}) {
   const { persistent: isPersistent = false, divider = false, indexHeaders = false } = opts;
-  modal.classList.remove('wide');
   persistent = isPersistent;
   modal.classList.toggle('persistent', isPersistent);
   modal.classList.toggle('headbar', isPersistent || indexHeaders);
