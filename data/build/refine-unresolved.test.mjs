@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import fs from 'node:fs';
-import { flattenAdmin1, flattenCities } from './fetch-ne-gazetteer.mjs';
+import { flattenAdmin1, flattenCities, flattenRegions } from './fetch-ne-gazetteer.mjs';
 import { mergeGazetteer, residueKind } from './refine-unresolved.mjs';
 import { loadGazetteer, buildCountryIndex, decideRefinement, resolveCountry, inAny } from './refine-coords.mjs';
 
@@ -27,6 +27,22 @@ test('flattenCities maps NAME/ADM0NAME/LATITUDE/LONGITUDE', () => {
   ] };
   const out = flattenCities(gj);
   assert.deepEqual(out[0], { name: 'Herat', lat: 34.33, lng: 62.17, country: 'Afghanistan', src: 'ne-city' });
+});
+
+test('flattenRegions maps NAME + FEATURECLA→src with a geometry centroid, skipping non-land types', () => {
+  const square = { type: 'Polygon', coordinates: [[[0, 0], [0, 4], [4, 4], [4, 0], [0, 0]]] };
+  const gj = { features: [
+    { properties: { NAME: 'Testovia Range', FEATURECLA: 'Range/mtn' }, geometry: square },
+    { properties: { NAME: 'Flatovia', FEATURECLA: 'Plateau' }, geometry: square },
+    { properties: { NAME: 'Isla Skip', FEATURECLA: 'Island' }, geometry: square },
+    { properties: { NAME: 'NoGeom', FEATURECLA: 'Basin' } },
+  ] };
+  const out = flattenRegions(gj);
+  assert.equal(out.length, 2);
+  const rng = out.find((e) => e.name === 'Testovia Range');
+  assert.equal(rng.src, 'ranges');
+  assert.ok(Math.abs(rng.lat - 1.6) < 1e-9 && Math.abs(rng.lng - 1.6) < 1e-9);
+  assert.equal(out.find((e) => e.name === 'Flatovia').src, 'landforms');
 });
 
 test('mergeGazetteer makes an NE-only city resolvable and decideRefinement moves it in-country', () => {
