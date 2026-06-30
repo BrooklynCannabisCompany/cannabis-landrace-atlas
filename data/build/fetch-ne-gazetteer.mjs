@@ -16,7 +16,9 @@ const FEATURECLA_SRC = {
   'Range/mtn': 'ranges', Foothills: 'ranges',
   Plateau: 'landforms', Basin: 'landforms', Valley: 'landforms', Desert: 'landforms',
   Depression: 'landforms', Lowland: 'landforms', Plain: 'landforms', Delta: 'landforms',
-  Gorge: 'landforms', Tundra: 'landforms', Wetlands: 'landforms', Geoarea: 'landforms',
+  Gorge: 'landforms', Tundra: 'landforms', Wetlands: 'landforms',
+  // 'Geoarea' deliberately excluded — continent-scale regions (e.g. "Siberia") whose
+  // centroid is a poor, often-uninhabited point far from any grow region.
 };
 
 export function gazPath() {
