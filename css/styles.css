@@ -60,10 +60,13 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   font: inherit; cursor: pointer; border-radius: 4px; color: var(--ink);
 }
 .app-menu-item:hover { background: #eef0e9; color: var(--green-dark); }
-/* Checkable menu item (Labels): leaves room for a check, shown when on. */
-.app-menu-check { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.app-menu-check::after { content: '✓'; color: var(--green-dark); visibility: hidden; }
-.app-menu-check.on::after { visibility: visible; }
+/* Checkable menu items (Labels, States, Rivers, Terrain): a left-side marker so the row
+   reads as toggleable in both states — a grey ✕ when off, a green ✓ when on. */
+.app-menu-check { display: flex; align-items: center; gap: 8px; }
+.app-menu-check::before {
+  content: '✕'; flex: 0 0 auto; width: 1em; text-align: center; color: var(--muted);
+}
+.app-menu-check.on::before { content: '✓'; color: var(--green-dark); }
 
 /* Menu modal content */
 .modal-note { color: var(--muted); font-size: 13px; }
