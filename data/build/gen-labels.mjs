@@ -244,22 +244,26 @@ async function genRivers() {
   console.log(`rivers.geojson: ${features.length} rivers (+${labels.length} labels)`);
 }
 
-// Admin-1 boundary lines for the allowlist. Hybrid source: the 50m admin-1 *lines* file
-// (internal borders, no coastline) covers the big coastline-heavy countries cheaply; the
-// remaining allowlist countries fall back to 50m admin-1 *polygon outlines*. Geometry only
-// (labels come from states.json). Lazy-loaded by the States & Provinces toggle.
+// Admin-1 boundary lines for the allowlist — internal borders only (no coastline), so the
+// overlay stays light and doesn't double-draw the basemap's coasts. The 50m lines file is
+// cheap but *omits whole countries* (Mexico, Colombia, Argentina, Afghanistan, Thailand,
+// Morocco, Germany, Nepal, Pakistan), which left the overlay empty there; fill those gaps
+// from the complete 10m *lines* file (still internal-borders-only). Geometry only (labels
+// come from states.json). Lazy-loaded by the States & Provinces toggle.
 async function genAdmin1() {
-  const lines = await getJson(`${NE}/ne_50m_admin_1_states_provinces_lines.geojson`);
-  const covered = new Set(lines.features.map((f) => f.properties.ADM0_NAME).filter(Boolean));
+  const lines50 = await getJson(`${NE}/ne_50m_admin_1_states_provinces_lines.geojson`);
+  const covered = new Set(lines50.features.map((f) => f.properties.ADM0_NAME).filter(Boolean));
   const features = [];
-  for (const f of lines.features) {
+  // 50m lines for the countries it covers.
+  for (const f of lines50.features) {
     if (ADMIN1_COUNTRIES.has(f.properties.ADM0_NAME)) {
       features.push({ type: 'Feature', properties: {}, geometry: { type: f.geometry.type, coordinates: simplifyCoords(f.geometry.coordinates) } });
     }
   }
-  const polys = await getJson(`${NE}/ne_50m_admin_1_states_provinces.geojson`);
-  for (const f of polys.features) {
-    if (ADMIN1_COUNTRIES.has(f.properties.admin) && !covered.has(f.properties.admin)) {
+  // 10m lines fill the allowlist countries the 50m file omits entirely.
+  const lines10 = await getJson(`${NE}/ne_10m_admin_1_states_provinces_lines.geojson`);
+  for (const f of lines10.features) {
+    if (ADMIN1_COUNTRIES.has(f.properties.ADM0_NAME) && !covered.has(f.properties.ADM0_NAME)) {
       features.push({ type: 'Feature', properties: {}, geometry: { type: f.geometry.type, coordinates: simplifyCoords(f.geometry.coordinates) } });
     }
   }
@@ -372,14 +376,21 @@ async function genDeserts() {
   console.log(`deserts.geojson: ${features.length} deserts`);
 }
 
-await genCities();
-await genWater();
-await genStates();
-await genLakes();
-await genRivers();
-await genAdmin1();
-await genRanges();
-await genPeaks();
-await genRelief();
-await genLandforms();
-await genDeserts();
+// Each generator is independent. With no argument, regenerate everything; with one or more
+// names (e.g. `node gen-labels.mjs admin1`), regenerate only those — handy for a surgical
+// re-pull of a single file without churning the rest.
+const GENERATORS = {
+  cities: genCities, water: genWater, states: genStates, lakes: genLakes,
+  rivers: genRivers, admin1: genAdmin1, ranges: genRanges, peaks: genPeaks,
+  relief: genRelief, landforms: genLandforms, deserts: genDeserts,
+};
+const selected = process.argv.slice(2);
+const toRun = selected.length ? selected : Object.keys(GENERATORS);
+for (const name of toRun) {
+  const fn = GENERATORS[name];
+  if (!fn) {
+    console.error(`unknown generator "${name}" — choose from: ${Object.keys(GENERATORS).join(', ')}`);
+    process.exit(1);
+  }
+  await fn();
+}
