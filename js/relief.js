@@ -15,7 +15,7 @@ const FILL = '#8a6f57';
 const EDGE = 'rgba(94, 75, 55, 0.85)';
 
 // Base on-screen triangle size (px) by zoom — kept small per the chosen style.
-function baseSize(zoom) {
+export function baseSize(zoom) {
   if (zoom <= 3) return 0.9;
   if (zoom <= 4) return 1.1;
   if (zoom <= 5) return 1.3;
@@ -47,12 +47,24 @@ export function createRelief(map, peaks) {
     const base = baseSize(z);
     const pad = 12;
 
+    // Cheap raw-degree viewport reject before the costly per-point projection.
+    // relief.json can hold ~40k rows; projecting every one on each pan/zoom is
+    // wasteful when only a fraction fall in view. Latitude never wraps, so always
+    // filter on it; filter longitude only when the bounds sit within [-180,180]
+    // (skip near world-view / an antimeridian pan, where the pixel cull still applies).
+    const b = map.getBounds().pad(0.15);
+    const south = b.getSouth(), north = b.getNorth();
+    const west = b.getWest(), east = b.getEast();
+    const lngFilter = west >= -180 && east <= 180;
+
     // Range scatter: cull to viewport, gate by level, sort back-to-front for overlap depth.
     if (scatter) {
       const maxLvl = reliefMaxLevel(z);
       const items = [];
       for (const row of scatter) {
         if (row[3] > maxLvl) continue;
+        if (row[0] < south || row[0] > north) continue;
+        if (lngFilter && (row[1] < west || row[1] > east)) continue;
         const p = map.latLngToLayerPoint([row[0], row[1]]).subtract(topLeft);
         if (p.x < -pad || p.y < -pad || p.x > size.x + pad || p.y > size.y + pad) continue;
         const r = row[2];
