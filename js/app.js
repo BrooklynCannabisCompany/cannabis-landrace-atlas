@@ -374,7 +374,10 @@ function selectStrain(s) {
   openPanel(s); // openPanel clears the search box
 }
 
-input.addEventListener('input', () => renderSearch(input.value));
+input.addEventListener('input', () => {
+  if (!input.value.trim()) { hideResults(); return; }
+  renderSearch(input.value);
+});
 input.addEventListener('focus', () => { if (input.value.trim()) renderSearch(input.value); });
 // Keyboard: ↓/↑ move the highlight, Enter selects the highlight (or jumps to an exact
 // Index heading / the top strain), Escape closes the list.
