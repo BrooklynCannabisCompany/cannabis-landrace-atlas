@@ -22,6 +22,59 @@ test('validateRecords flags bad data', () => {
   assert.ok(errors.some((e) => /lat out of range/.test(e)));
 });
 
+// A record that passes every check, so tests can perturb one field at a time.
+const validRecord = {
+  id: 'ok', name: 'OK', continent: 'Africa', climate: 'Savanna',
+  category: 'Sativa', morphotype: 'Unclassified', chemotype: 'I', domestication: 'Heirloom',
+  coordsApproximate: true, links: [], lat: 0, lng: 0, summary: 'x'
+};
+
+test('validateRecords flags invalid continent and climate', () => {
+  const { errors } = validateRecords([
+    { ...validRecord, continent: 'Atlantis' },
+    { ...validRecord, id: 'ok2', climate: '' }
+  ]);
+  assert.ok(errors.some((e) => /invalid continent "Atlantis"/.test(e)));
+  assert.ok(errors.some((e) => /invalid climate ""/.test(e)));
+});
+
+test('validateRecords reports a null record instead of throwing', () => {
+  assert.doesNotThrow(() => validateRecords([null]));
+  const { errors } = validateRecords([null]);
+  assert.ok(errors.some((e) => /record is null/.test(e)));
+});
+
+test('validateRecords flags missing id, missing name, and bad links', () => {
+  const { errors } = validateRecords([
+    { ...validRecord, id: '', name: '' },
+    { ...validRecord, id: 'l1', links: 'nope' },
+    { ...validRecord, id: 'l2', links: [{ url: 'https://x', embed: 'yes' }] },
+    { ...validRecord, id: 'l3', links: [{ embed: false }] }
+  ]);
+  assert.ok(errors.some((e) => /missing id/.test(e)));
+  assert.ok(errors.some((e) => /missing name/.test(e)));
+  assert.ok(errors.some((e) => /links not an array/.test(e)));
+  assert.ok(errors.some((e) => /link\.embed not boolean/.test(e)));
+  assert.ok(errors.some((e) => /link missing url/.test(e)));
+});
+
+test('validateRecords flags lng out of range', () => {
+  const { errors } = validateRecords([{ ...validRecord, lng: 999 }]);
+  assert.ok(errors.some((e) => /lng out of range/.test(e)));
+});
+
+test('validateRecords emits warnings (not errors) for thin data', () => {
+  const { errors, warnings } = validateRecords([
+    { ...validRecord, id: 'w1', lat: null, lng: null },
+    { ...validRecord, id: 'w2', incomplete: true },
+    { ...validRecord, id: 'w3', summary: '' }
+  ]);
+  assert.deepEqual(errors, []);
+  assert.ok(warnings.some((w) => /missing coordinates/.test(w)));
+  assert.ok(warnings.some((w) => /marked incomplete/.test(w)));
+  assert.ok(warnings.some((w) => /empty summary/.test(w)));
+});
+
 test('generated landraces.json has no validation errors', () => {
   const data = JSON.parse(readFileSync(join(__dirname, '..', 'landraces.json'), 'utf8'));
   const { errors } = validateRecords(data);

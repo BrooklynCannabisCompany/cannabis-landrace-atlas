@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { CATEGORIES } from './lib/category.mjs';
-import { MORPHOTYPES as MORPHOTYPE_LIST, CHEMOTYPES as CHEMOTYPE_LIST, DOMESTICATIONS as DOMESTICATION_LIST } from '../vocab.mjs';
+import { MORPHOTYPES as MORPHOTYPE_LIST, CHEMOTYPES as CHEMOTYPE_LIST, DOMESTICATIONS as DOMESTICATION_LIST, CONTINENTS as CONTINENT_LIST, CLIMATES as CLIMATE_LIST } from '../vocab.mjs';
 import { readFileSync } from 'node:fs';
 
 const MORPHOTYPES = new Set(MORPHOTYPE_LIST);
 const CHEMOTYPES = new Set(CHEMOTYPE_LIST);
 const DOMESTICATIONS = new Set(DOMESTICATION_LIST);
+const CONTINENTS = new Set(CONTINENT_LIST);
+const CLIMATES = new Set(CLIMATE_LIST);
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -23,10 +25,13 @@ export function validateRecords(records) {
 
   for (const r of records) {
     const where = r && r.id ? r.id : JSON.stringify(r).slice(0, 40);
+    if (!r) { errors.push(`${where}: record is null`); continue; }
     if (!r.id) errors.push(`${where}: missing id`);
     if (ids.has(r.id)) errors.push(`${r.id}: duplicate id`);
     ids.add(r.id);
     if (!r.name) errors.push(`${where}: missing name`);
+    if (!CONTINENTS.has(r.continent)) errors.push(`${where}: invalid continent "${r.continent}"`);
+    if (!CLIMATES.has(r.climate)) errors.push(`${where}: invalid climate "${r.climate}"`);
     if (!CATEGORIES.has(r.category)) errors.push(`${where}: invalid category "${r.category}"`);
     if (!MORPHOTYPES.has(r.morphotype)) errors.push(`${where}: invalid morphotype "${r.morphotype}"`);
     if (!CHEMOTYPES.has(r.chemotype)) errors.push(`${where}: invalid chemotype "${r.chemotype}"`);
