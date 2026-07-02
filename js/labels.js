@@ -3,12 +3,13 @@
 //
 // Labels overlay: zoom-aware place labels drawn over the basemap, organized into independently
 // toggled groups so each map control drives its own set:
-//   - 'place'  — country names (from world.geojson), oceans/seas, cities  (Labels toggle)
-//   - 'states' — first-order divisions (data/labels/states.json)          (States toggle)
-//   - 'rivers' — major rivers (data/labels/rivers.json)                   (Rivers toggle)
-//   - 'lakes'  — major inland lakes (data/labels/lakes.json)              (always on)
-// All labels are non-interactive and sit in a dedicated pane *below* the leaf markers, so
-// they never steal a click. `createLabels` returns a controller; app.js owns the toggles.
+//   - 'place'   — country names (world.geojson), oceans/seas, cities, lake names  (Labels toggle)
+//   - 'states'  — first-order divisions (data/labels/states.json)                 (States toggle)
+//   - 'rivers'  — major rivers (data/labels/rivers.json)                          (Rivers toggle)
+//   - 'terrain' — ranges/peaks/landforms (deserts, plateaus, basins, deltas)      (Terrain toggle)
+// Lake *names* sit in 'place' so they follow the Labels toggle; only lake *shapes* (geolayers.js)
+// are always on. All labels are non-interactive and sit in a dedicated pane *below* the leaf
+// markers, so they never steal a click. `createLabels` returns a controller; app.js owns the toggles.
 //
 // Relies on the global `L` from lib/leaflet/leaflet.js (used only inside createLabels, so
 // the pure gating helpers below remain importable under plain Node for tests).
@@ -52,8 +53,8 @@ export function waterMinZoom(rank) {
   return rank <= 0 ? 2 : 3;
 }
 
-// Natural Earth lakes scalerank (0 = biggest). Lakes are always on, but still gated so tiny
-// ones don't clutter the world view.
+// Natural Earth lakes scalerank (0 = biggest). Lake names ride the Labels toggle (they sit in
+// the 'place' group) and are additionally zoom-gated so tiny ones don't clutter the world view.
 export function lakeMinZoom(rank) {
   return rank <= 0 ? 3 : 4;
 }

@@ -58,10 +58,18 @@ const ADMIN1_COUNTRIES = new Set([
   'Morocco', 'South Africa', 'Australia', 'Russia', 'Germany'
 ]);
 
-async function getJson(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.json();
+// Memoized by URL: a full no-arg run calls several generators that each need the same large
+// Natural Earth file (ne_10m_geography_regions_polys is used by ranges/relief/landforms/deserts),
+// so cache the parsed result and download each source only once per run.
+const jsonCache = new Map();
+function getJson(url) {
+  if (!jsonCache.has(url)) {
+    jsonCache.set(url, fetch(url).then((r) => {
+      if (!r.ok) throw new Error(`${r.status} ${url}`);
+      return r.json();
+    }));
+  }
+  return jsonCache.get(url);
 }
 
 // Area-weighted centroid of a polygon's largest ring — a representative point that lands
