@@ -8,7 +8,7 @@
 
 import { openContentModal } from './modal.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/vocab.mjs';
-import { isValidUrl, parseWeeks } from './util.js';
+import { isValidUrl, parseWeeks, tokenize, diffSegments } from './util.js';
 import { makeDualSlider } from './slider.js';
 
 // Flowering Time slider bounds (weeks), mirroring the Index facet's data-derived range.
@@ -332,35 +332,6 @@ async function initLocMap(mapEl, latInput, lngInput, startLat, startLng, onSet) 
 // Free-text fields (text inputs + textareas) that get an inline added/changed-text diff in
 // the corrections form. The rest of the tracked fields just get the green outline.
 const DIFF_TEXT_KEYS = new Set(['name', 'aka', 'country', 'region', 'type', 'overview', 'history', 'description', 'grow']);
-
-// Splits a string into whitespace / non-whitespace tokens that concatenate back to it.
-function tokenize(s) { return s.match(/\s+|\S+/g) || []; }
-
-// Token-level diff: returns the CURRENT string as [{ text, added }] segments, where `added`
-// marks tokens not present in the original (insertions/changes). Deleted tokens are omitted
-// (we only ever show what's in the box now). LCS-based so unchanged runs stay unmarked.
-function diffSegments(orig, cur) {
-  if (orig === cur) return [{ text: cur, added: false }];
-  const a = tokenize(orig), b = tokenize(cur), n = a.length, m = b.length;
-  const dp = Array.from({ length: n + 1 }, () => new Int32Array(m + 1));
-  for (let i = n - 1; i >= 0; i--) {
-    for (let j = m - 1; j >= 0; j--) {
-      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
-    }
-  }
-  const segs = [];
-  const push = (text, added) => {
-    const last = segs[segs.length - 1];
-    if (last && last.added === added) last.text += text; else segs.push({ text, added });
-  };
-  let i = 0, j = 0;
-  while (j < m) {
-    if (i < n && a[i] === b[j] && dp[i][j] === dp[i + 1][j + 1] + 1) { push(b[j], false); i++; j++; }
-    else if (i < n && dp[i + 1][j] >= dp[i][j + 1]) { i++; }    // token only in original → deleted, not shown
-    else { push(b[j], true); j++; }                            // token only in current → added/changed
-  }
-  return segs;
-}
 
 // Overlays a text input/textarea with a backdrop that renders the same text but paints the
 // added/changed words green (native fields can't colour part of their own text). When nothing

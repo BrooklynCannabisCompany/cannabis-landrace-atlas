@@ -11,7 +11,7 @@ function el(tag, className, text) {
 }
 
 // Spells out a flowering value's "w" as " weeks" (e.g. "7–9w" -> "7–9 weeks").
-function weeksLabel(value) {
+export function weeksLabel(value) {
   return String(value || '').replace(/(\d)\s*w\b/g, '$1 weeks');
 }
 

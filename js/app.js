@@ -13,7 +13,7 @@ import { initTooltips } from './tooltip.js';
 import { CONTINENTS, CLIMATES, MORPHOTYPES, CHEMOTYPES, DOMESTICATIONS, CATEGORY_ORDER, HEIGHTS } from '../data/vocab.mjs';
 import { modal, openContentModal, closeModal, isModalPersistent } from './modal.js';
 import { openFeedbackSubmit, openContactForm, openStrainSubmit, openSectionSubmit, repoLink, setCountryOptions } from './forms.js';
-import { isValidUrl } from './util.js';
+import { isValidUrl, heightRank, floweringWeeks } from './util.js';
 import { makeDualSlider } from './slider.js';
 import { VERSION } from './version.js';
 
@@ -520,19 +520,9 @@ const INDEX_STATE_KEY = 'cla-index-state';
 function loadIndexState() { try { return JSON.parse(localStorage.getItem(INDEX_STATE_KEY)) || {}; } catch { return {}; } }
 function saveIndexState(st) { try { localStorage.setItem(INDEX_STATE_KEY, JSON.stringify(st)); } catch { /* ignore */ } }
 
-// Ordinal height scale for the Height slider (shared vocabulary).
+// Ordinal height scale for the Height slider (shared vocabulary). heightRank (util.js) maps
+// a height string to an index into this scale.
 const HEIGHT_SCALE = HEIGHTS;
-function heightRank(h) {
-  const t = (h || '').toLowerCase();
-  if (/extremely/.test(t)) return 6;
-  if (/very tall/.test(t)) return 5;
-  if (/medium-tall|medium tall/.test(t)) return 3;
-  if (/short-medium|medium-short|medium short/.test(t)) return 1;
-  if (/\btall\b/.test(t)) return 4;
-  if (/\bmedium\b/.test(t)) return 2;
-  if (/\bshort\b/.test(t)) return 0;
-  return -1; // variable / unknown
-}
 
 // One-variety-per-line list, styled like the facet-list rows: name (left) + place (right),
 // with a hover highlight. Alphabetical by name.
@@ -590,15 +580,6 @@ function buildHeightChecks(facet, target) {
   box.append(checks, listHost);
   facet.appendChild(box);
   render();
-}
-
-// Parse a flowering descriptor into a week range, or null.
-function floweringWeeks(f) {
-  const r = String(f || '').match(/(\d+)\s*[–-]\s*(\d+)/);
-  if (r) return { min: +r[1], max: +r[2] };
-  const s = String(f || '').match(/(\d+)\s*w/i);
-  if (s) return { min: +s[1], max: +s[1] };
-  return null;
 }
 
 // Flowering Time facet: weeks dual-thumb slider; lists varieties whose range overlaps.
