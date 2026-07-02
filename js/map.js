@@ -151,7 +151,7 @@ const SPREAD_DEG = 0.42;  // ~38px between nearest neighbours at maxZoom 7 (icon
 const CLUSTER_EPS = 0.6;  // markers within this many degrees are treated as one pile
 
 // Returns a Map of strain id -> [lat, lng] with co-located markers spread out.
-function declusterPositions(strains) {
+export function declusterPositions(strains) {
   const pts = strains.filter((s) => typeof s.lat === 'number' && s.lng !== null);
   // Greedy proximity clustering (small dataset; deterministic input order).
   const clusters = [];

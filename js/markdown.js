@@ -15,7 +15,7 @@ const ALLOWED = {
   UL: [], OL: [], LI: [], SUP: [], SUB: [],
   TABLE: [], THEAD: [], TBODY: [], TR: [], TH: [], TD: []
 };
-const SAFE_HREF = /^(https?:|mailto:|#)/i;
+export const SAFE_HREF = /^(https?:|mailto:|#)/i;
 
 function sanitize(html) {
   const tpl = document.createElement('template'); // inert: no scripts run, no images load
