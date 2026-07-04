@@ -5,6 +5,7 @@ import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControl
 import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
 import { createRelief } from './relief.js';
+import { createHeat } from './heat.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -37,6 +38,7 @@ let labels = null;          // text-label overlay controller (created in boot)
 let geo = null;             // basemap-geometry controller (created in boot)
 let relief = null;          // mountain triangle-relief canvas layer (created in boot)
 let reliefLoaded = false;   // relief scatter lazy-fetched once
+let heat = null;            // flowering-time heat map canvas layer (created in boot)
 
 // ---- Map overlay toggles ----
 // Labels is the MASTER text switch: with it off, no names show at all; with it on, names show
@@ -48,9 +50,10 @@ const TOGGLES = {
   labels: { storage: 'cla-labels', label: 'labels' },
   states: { storage: 'cla-states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
   rivers: { storage: 'cla-rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
-  terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
+  terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' },
+  heat: { storage: 'cla-heat', label: 'flowering heat map' }
 };
-const toggleOn = { labels: false, states: false, rivers: false, terrain: false };
+const toggleOn = { labels: false, states: false, rivers: false, terrain: false, heat: false };
 
 // Each label group is visible only when the master Labels toggle is on AND (for feature
 // groups) that feature is also enabled. 'place' (country/city/ocean/lake names) is the base
@@ -97,6 +100,9 @@ function setToggle(id, on, persist = true) {
         .catch(() => { reliefLoaded = false; });
     }
   }
+  // The heat map is geometry, not text — independent of Labels; points were set from the
+  // already-loaded dataset in boot(), so there is nothing to lazy-fetch.
+  if (id === 'heat') heat?.setVisible(on);
   toggleCtl?.setActive(id, on);
   const mi = toggleMenuItems[id];
   if (mi) { mi.classList.toggle('on', on); mi.setAttribute('aria-checked', on ? 'true' : 'false'); }
@@ -754,6 +760,19 @@ async function boot() {
     if (lakesGeo) geo.provide('lakes', lakesGeo);
     geo.setVisible('lakes', true);           // lake *shapes* are always on (basemap water)…
     relief = createRelief(map, peaks);       // mountain triangles (scatter lazy-loaded on toggle)
+
+    // Flowering-time heat map: use the MAX of each strain's flowering range (the weeks a grower
+    // must actually wait to finish it) and feed the layer the TRUE coordinates (region surface,
+    // not the declustered pin positions). Unparseable ("Variable"/blank) or un-placed records
+    // are skipped.
+    heat = createHeat(map);
+    heat.setPoints(strains.reduce((acc, s) => {
+      const w = floweringWeeks(s.flowering);
+      if (w && typeof s.lat === 'number' && typeof s.lng === 'number') {
+        acc.push({ lat: s.lat, lng: s.lng, weeks: w.max });
+      }
+      return acc;
+    }, []));
     // …lake *names* ride the Labels toggle (they sit in the 'place' label group), so "Labels
     // off" means no place names at all.
 

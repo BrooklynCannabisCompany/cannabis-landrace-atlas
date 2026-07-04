@@ -387,7 +387,30 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
 .map-toggle--states { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M9%204%203%206v14l6-2%206%202%206-2V4l-6%202-6-2z%22%2F%3E%3Cpath%20d%3D%22M9%204v14M15%206v14%22%2F%3E%3C%2Fsvg%3E"); }
 .map-toggle--rivers { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%206.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2012c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3Cpath%20d%3D%22M2%2017.5c2.4%200%202.4%202%204.8%202s2.4-2%204.8-2%202.4%202%204.8%202%202.4-2%204.8-2%22%2F%3E%3C%2Fsvg%3E"); }
 .map-toggle--terrain { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%2020%209.5%207l4.5%207.5L17%2010l5%2010z%22%2F%3E%3C%2Fsvg%3E"); }
+.map-toggle--heat { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M8.5%2014.5A2.5%202.5%200%200%200%2011%2012c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054%202-6%20.5%202.5%202%204.9%204%206.5%202%201.6%203%203.5%203%205.5a7%207%200%201%201-14%200c0-1.153.433-2.294%201-3a2.5%202.5%200%200%200%202.5%202.5z%22%2F%3E%3C%2Fsvg%3E"); }
 .reset-control a { --mt-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M3%2012h18M12%203c2.5%202.6%202.5%2015.4%200%2018M12%203c-2.5%202.6-2.5%2015.4%200%2018%22%2F%3E%3C%2Fsvg%3E"); }
+
+/* ---- Flowering heat map legend ---- */
+/* Shown only while the heat toggle is on (the JS sets [hidden]); bottom-left so it clears the
+   bottom-right Leaflet attribution. The gradient mirrors the ramp in js/heat.js exactly. */
+.heat-legend {
+  position: absolute; left: 10px; bottom: 22px; z-index: 700;
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 4px 6px;
+  padding: 5px 8px; pointer-events: none;
+  background: rgba(255, 255, 255, 0.9); border: 1px solid var(--line);
+  border-radius: 6px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  font-size: 11px; color: var(--ink);
+}
+.heat-legend[hidden] { display: none; }
+/* Stops are the js/heat.js ramp composited over the basemap land fill (#e9e6df) at the layer's max
+   alpha (0.45), so the swatch reads like the actual on-map tint. The bar is linear in weeks
+   (LO_WEEKS at 0% → HI_WEEKS+ at 100%), matching valueToT's absolute scale. */
+.heat-legend-bar {
+  width: 90px; height: 8px; border-radius: 999px;
+  background: linear-gradient(to right,
+    #9ab0dc 0%, #c5a3d5 25%, #e19bb8 50%, #ee9197 75%, #f38784 100%);
+}
+.heat-legend-cap { grid-column: 1 / -1; text-align: center; color: var(--muted); font-size: 10px; }
 
 /* ---- Map labels overlay ---- */
 /* Each label marker is a zero-size anchor at the place point; the text/dot are absolutely
