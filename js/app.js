@@ -4,6 +4,7 @@
 import { createMap, addMarkers, flyToStrain, setMarkerSelected, addToggleControls } from './map.js';
 import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
+import { createGraticule } from './graticule.js';
 import { createRelief } from './relief.js';
 import { createHeat } from './heat.js';
 import { createClimate } from './climate.js';
@@ -37,6 +38,7 @@ let markersById = new Map();
 let currentId = null;
 let labels = null;          // text-label overlay controller (created in boot)
 let geo = null;             // basemap-geometry controller (created in boot)
+let graticule = null;       // lat/long grid overlay (created in boot)
 let relief = null;          // mountain triangle-relief canvas layer (created in boot)
 let reliefLoaded = false;   // relief scatter lazy-fetched once
 let heat = null;            // flowering-time heat map canvas layer (created in boot)
@@ -50,12 +52,13 @@ let climateLoaded = false;  // data/geo/climate.json lazy-fetched once
 // first enable. Each toggle has a map button + a synced ☰-menu item and is persisted; lakes
 // are always on (no toggle).
 const TOGGLES = {
+  graticule: { storage: 'cla-graticule', label: 'lat/long lines' },
   labels: { storage: 'cla-labels', label: 'labels' },
   states: { storage: 'cla-states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
   rivers: { storage: 'cla-rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
   terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
 };
-const toggleOn = { labels: false, states: false, rivers: false, terrain: false };
+const toggleOn = { graticule: false, labels: false, states: false, rivers: false, terrain: false };
 
 // Each label group is visible only when the master Labels toggle is on AND (for feature
 // groups) that feature is also enabled. 'place' (country/city/ocean/lake names) is the base
@@ -92,6 +95,8 @@ function setToggle(id, on, persist = true) {
   }
   // Text labels are gated by Labels (master) AND each feature's own toggle.
   applyLabelVisibility();
+  // The lat/long graticule is its own independent line overlay (no text, no gating).
+  if (id === 'graticule') graticule?.setVisible(on);
   if (id === 'terrain') {
     relief?.setVisible(on);
     if (on && !reliefLoaded) {
@@ -807,6 +812,7 @@ async function boot() {
     // Text labels + basemap geometry.
     labels = createLabels(map, { world, cities, water, states, lakes, rivers, ranges, peaks, landforms });
     geo = createGeoLayers(map);
+    graticule = createGraticule(map);        // lat/long grid (built on demand, zoom-adaptive)
     if (lakesGeo) geo.provide('lakes', lakesGeo);
     geo.setVisible('lakes', true);           // lake *shapes* are always on (basemap water)…
     relief = createRelief(map, peaks);       // mountain triangles (scatter lazy-loaded on toggle)

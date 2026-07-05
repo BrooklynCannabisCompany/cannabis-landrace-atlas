@@ -106,6 +106,9 @@ repo deploys.
   pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js` renders
   lake/river/border/desert-tint geometry (`data/geo/*.geojson`, lazy-loaded except lakes);
   `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).
+  **Lat/Long Lines** is a separate *independent* toggle at the top of the stack (above Labels):
+  `js/graticule.js` draws a zoom-adaptive coordinate graticule (runtime-generated line GeoJSON, no
+  data file; equator/prime meridian stronger) — not gated by Labels.
 - **Heat maps** are a *second, separate* toggle bar (rendered by a second `addToggleControls`
   call, so a gap separates it from the geometry toggles) plus a **Heat Maps** ☰-submenu, and are
   **mutually exclusive** — only one is active at a time, or none, via `setHeat`/`HEATMAPS` in
