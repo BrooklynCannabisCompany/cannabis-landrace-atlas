@@ -148,9 +148,11 @@ export function createClimate(map) {
   }
 
   // Daylight band labels: merge consecutive BAND_STEP bands that round to the same hour into one, so
-  // there's a single label (and single visual band) per value, placed once at the right edge — bold,
-  // with a white halo for legibility.
-  function drawBandLabels(size, m) {
+  // there's a single label per value. Each is drawn as a small yellow sun badge (disc + rays, hours
+  // inside) at the right edge — the badge keeps the value legible over any background and stops it
+  // blending into place labels when zoomed in. A badge that would overlap the previous one is
+  // skipped (bands bunch up toward the poles).
+  function drawBandLabels(size) {
     const segs = [];
     for (let lat = -90; lat < 90; lat += BAND_STEP) {
       const v = Math.round(growDaylight(lat + BAND_STEP / 2));
@@ -158,18 +160,34 @@ export function createClimate(map) {
       if (last && last.v === v) last.hi = lat + BAND_STEP;
       else segs.push({ lo: lat, hi: lat + BAND_STEP, v });
     }
-    ctx.font = 'bold 12px system-ui, -apple-system, sans-serif';
-    ctx.textAlign = 'right';
+    const R = 12, cx = size.x - 22;
+    ctx.font = 'bold 11px system-ui, -apple-system, sans-serif';
+    ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
+    ctx.lineCap = 'round';
+    let lastY = -Infinity;
     for (const s of segs) {
-      const yc = (map.latLngToContainerPoint([s.hi, 0]).y + map.latLngToContainerPoint([s.lo, 0]).y) / 2;
-      if (yc < 10 || yc > size.y - 10) continue;
-      const label = `${s.v}h`;
-      ctx.lineWidth = 4;
-      ctx.strokeStyle = 'rgba(255,255,255,0.9)';
-      ctx.strokeText(label, size.x - 10, yc);
-      ctx.fillStyle = '#2a2620';
-      ctx.fillText(label, size.x - 10, yc);
+      const cy = (map.latLngToContainerPoint([s.hi, 0]).y + map.latLngToContainerPoint([s.lo, 0]).y) / 2;
+      if (cy < R + 5 || cy > size.y - R - 5 || Math.abs(cy - lastY) < 2 * R + 3) continue;
+      lastY = cy;
+      ctx.strokeStyle = '#e0a52c';
+      ctx.lineWidth = 2;
+      for (let k = 0; k < 8; k++) {
+        const a = k * Math.PI / 4;
+        ctx.beginPath();
+        ctx.moveTo(cx + Math.cos(a) * (R + 2), cy + Math.sin(a) * (R + 2));
+        ctx.lineTo(cx + Math.cos(a) * (R + 6), cy + Math.sin(a) * (R + 6));
+        ctx.stroke();
+      }
+      ctx.beginPath();
+      ctx.arc(cx, cy, R, 0, 2 * Math.PI);
+      ctx.fillStyle = '#ffd23f';
+      ctx.fill();
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = '#e0a52c';
+      ctx.stroke();
+      ctx.fillStyle = '#5a4a1e';
+      ctx.fillText(`${s.v}h`, cx, cy);
     }
   }
 
@@ -192,7 +210,7 @@ export function createClimate(map) {
         ctx.fillRect(x, y, CELL, CELL);
       }
     }
-    if (day) drawBandLabels(size, m);
+    if (day) drawBandLabels(size);
   }
 
   function reset() {
