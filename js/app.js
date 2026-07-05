@@ -6,6 +6,7 @@ import { createLabels } from './labels.js';
 import { createGeoLayers } from './geolayers.js';
 import { createRelief } from './relief.js';
 import { createHeat } from './heat.js';
+import { createClimate } from './climate.js';
 import { renderStrain, setWriteupHtml, setWriteupMissing } from './panel.js';
 import { filterStrains } from './search.js';
 import { renderMarkdown } from './markdown.js';
@@ -39,6 +40,8 @@ let geo = null;             // basemap-geometry controller (created in boot)
 let relief = null;          // mountain triangle-relief canvas layer (created in boot)
 let reliefLoaded = false;   // relief scatter lazy-fetched once
 let heat = null;            // flowering-time heat map canvas layer (created in boot)
+let climate = null;         // climate grid heat maps (temp/rain/daylight; created in boot)
+let climateLoaded = false;  // data/geo/climate.json lazy-fetched once
 
 // ---- Map overlay toggles ----
 // Labels is the MASTER text switch: with it off, no names show at all; with it on, names show
@@ -50,10 +53,9 @@ const TOGGLES = {
   labels: { storage: 'cla-labels', label: 'labels' },
   states: { storage: 'cla-states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
   rivers: { storage: 'cla-rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },
-  terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' },
-  heat: { storage: 'cla-heat', label: 'flowering heat map' }
+  terrain: { storage: 'cla-terrain', label: 'terrain', geo: 'deserts', url: 'data/geo/deserts.geojson' }
 };
-const toggleOn = { labels: false, states: false, rivers: false, terrain: false, heat: false };
+const toggleOn = { labels: false, states: false, rivers: false, terrain: false };
 
 // Each label group is visible only when the master Labels toggle is on AND (for feature
 // groups) that feature is also enabled. 'place' (country/city/ocean/lake names) is the base
@@ -100,13 +102,53 @@ function setToggle(id, on, persist = true) {
         .catch(() => { reliefLoaded = false; });
     }
   }
-  // The heat map is geometry, not text — independent of Labels; points were set from the
-  // already-loaded dataset in boot(), so there is nothing to lazy-fetch.
-  if (id === 'heat') heat?.setVisible(on);
   toggleCtl?.setActive(id, on);
   const mi = toggleMenuItems[id];
   if (mi) { mi.classList.toggle('on', on); mi.setAttribute('aria-checked', on ? 'true' : 'false'); }
   if (persist) { try { localStorage.setItem(t.storage, on ? '1' : '0'); } catch { /* ignore */ } }
+}
+
+// ---- Heat maps (mutually exclusive) ----
+// A separate overlay group where only one is active at a time (or none): the flowering-time
+// surface (interpolated from the varieties), two land-only climate grids from data/geo/climate.json
+// (summer temperature, growing season rainfall), and a growing season daylight map drawn as latitude
+// bands from solar geometry. They live in their own toggle bar below the geometry toggles, so a gap
+// separates the two groups. A single setting persists which (if any) is on. 'flowering' drives the
+// point layer; the climate entries drive the shared climate renderer's active metric.
+const HEATMAPS = [
+  { id: 'flowering', label: 'flowering heat map' },
+  { id: 'temp', label: 'summer temperature', metric: 'temp' },
+  { id: 'rain', label: 'growing season rainfall', metric: 'rain' },
+  { id: 'daylight', label: 'growing season daylight', metric: 'day' }
+];
+const HEAT_KEY = 'cla-heatmap';
+let currentHeat = null;      // id of the active heat map, or null
+let heatCtl = null;          // grouped control for the heat-map bar
+const heatMenuItems = {};    // id -> menu element
+
+function setHeat(id, persist = true) {
+  currentHeat = currentHeat === id ? null : id;      // clicking the active one turns it off
+  heat?.setVisible(currentHeat === 'flowering');
+  const metric = HEATMAPS.find((h) => h.id === currentHeat)?.metric || null;
+  // temp/rain read the climate grid; daylight ('day') is drawn from latitude alone, so only the
+  // grid-backed metrics trigger the lazy fetch.
+  if ((metric === 'temp' || metric === 'rain') && !climateLoaded) {
+    climateLoaded = true;
+    fetch('data/geo/climate.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((g) => { if (g) climate.setData(g); else climateLoaded = false; })
+      .catch(() => { climateLoaded = false; });
+  }
+  climate?.show(metric);
+  for (const h of HEATMAPS) {
+    const on = h.id === currentHeat;
+    heatCtl?.setActive(h.id, on);
+    const mi = heatMenuItems[h.id];
+    if (mi) { mi.classList.toggle('on', on); mi.setAttribute('aria-checked', on ? 'true' : 'false'); }
+  }
+  // Show the collapsed submenu header as active when any heat map is on.
+  appMenu.querySelector('.app-menu-sub-toggle[data-submenu="heatmaps"]')?.classList.toggle('on', !!currentHeat);
+  if (persist) { try { localStorage.setItem(HEAT_KEY, currentHeat || ''); } catch { /* ignore */ } }
 }
 
 // ---- Panel ----
@@ -424,9 +466,16 @@ menuBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleMenu(); })
 appMenu.addEventListener('click', (e) => {
   const item = e.target.closest('.app-menu-item');
   if (!item) return;
+  // A submenu header expands/collapses its group in place — keep the menu open.
+  if (item.dataset.submenu) {
+    const sub = appMenu.querySelector(`.app-menu-sub-items[data-submenu="${item.dataset.submenu}"]`);
+    if (sub) { sub.hidden = !sub.hidden; item.setAttribute('aria-expanded', String(!sub.hidden)); }
+    return;
+  }
   toggleMenu(false);
   const menu = item.dataset.menu;
   if (menu in TOGGLES) { setToggle(menu, !toggleOn[menu]); return; }
+  if (HEATMAPS.some((h) => h.id === menu)) { setHeat(menu); return; }
   ({ about: openAbout, index: openIndex, references: openReferences, license: openLicense, suggest: openFeedbackSubmit, contact: openContactForm }[menu] || (() => {}))();
 });
 
@@ -475,7 +524,8 @@ function openLicense() {
     for (const [t, d] of [
       ['Code', 'MIT License.'],
       ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).'],
-      ['Map data', 'World geometry, place labels (country names, states/provinces, cities, oceans and seas), lakes, rivers, admin-1 borders, mountain ranges and peaks — all from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).']
+      ['Map data', 'World geometry, place labels (country names, states/provinces, cities, oceans and seas), lakes, rivers, admin-1 borders, mountain ranges and peaks — all from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).'],
+      ['Climate data', 'The summer temperature and growing season rainfall heat maps are derived from NASA POWER climatology (MERRA-2, 2001–2020), which is in the public domain. The growing season daylight map is computed from latitude.']
     ]) {
       const dt = document.createElement('dt'); dt.textContent = t;
       const dd = document.createElement('dd'); dd.textContent = d;
@@ -773,10 +823,11 @@ async function boot() {
       }
       return acc;
     }, []));
+    climate = createClimate(map);            // temp/rain/daylight grids (climate.json lazy-loaded)
     // …lake *names* ride the Labels toggle (they sit in the 'place' label group), so "Labels
     // off" means no place names at all.
 
-    // The toggle controls — one grouped top-left bar — plus their ☰-menu items, then restore.
+    // The geometry toggles — one grouped top-left bar — plus their ☰-menu items, then restore.
     toggleCtl = addToggleControls(map, Object.keys(TOGGLES).map((id) => ({
       id, label: TOGGLES[id].label, onToggle: () => setToggle(id, !toggleOn[id])
     })));
@@ -786,6 +837,20 @@ async function boot() {
       try { saved = localStorage.getItem(TOGGLES[id].storage) === '1'; } catch { /* ignore */ }
       setToggle(id, saved, false);
     }
+
+    // The heat-map toggles — a second bar (the gap between bars groups them apart) — plus their
+    // ☰-menu items. Mutually exclusive; restore the one saved selection, migrating the old boolean
+    // flowering key (cla-heat) to the new single-selection key.
+    heatCtl = addToggleControls(map, HEATMAPS.map((h) => ({
+      id: h.id, label: h.label, onToggle: () => setHeat(h.id)
+    })));
+    for (const h of HEATMAPS) heatMenuItems[h.id] = appMenu.querySelector(`[data-menu="${h.id}"]`);
+    let savedHeat = '';
+    try {
+      savedHeat = localStorage.getItem(HEAT_KEY) ||
+        (localStorage.getItem('cla-heat') === '1' ? 'flowering' : '');
+    } catch { /* ignore */ }
+    if (HEATMAPS.some((h) => h.id === savedHeat)) setHeat(savedHeat, false);
   } catch (err) {
     document.getElementById('map').innerHTML = '<div class="map-error">Unable to load map data.</div>';
     console.error('The Cannabis Landrace Atlas failed to load:', err);

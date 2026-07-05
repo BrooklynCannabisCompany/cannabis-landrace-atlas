@@ -19,6 +19,7 @@ npm run serve            # node serve.mjs — no-store static server (open http:
 node --test js/search.test.mjs        # run a single test file
 node data/build/normalize-writeups.mjs   # rewrites the ## Description block of every write-up
 node data/build/gen-labels.mjs           # regenerates data/labels/* and data/geo/* from Natural Earth (network)
+node data/build/gen-climate.mjs          # regenerates data/geo/climate.json from NASA POWER climatology (network)
 ```
 
 There are no dependencies — `devDependencies` is empty; tests use only the Node built-in
@@ -48,13 +49,16 @@ Format is `MAJOR.MINOR.PATCH` with MINOR/PATCH zero-padded to two digits; carry 
   browser fetches/imports lives directly in `data/`: `landraces.json`, `world.geojson`,
   `writeups/`, `vocab.mjs`, the map-label point files in `data/labels/` (`cities`, `water`,
   `states`, `lakes`, `rivers`, `ranges`, `peaks`, `landforms` — `.json`), and the overlay
-  geometry in `data/geo/` (`lakes`/`rivers`/`admin1`/`deserts`.geojson, plus `relief.json`).
+  geometry in `data/geo/` (`lakes`/`rivers`/`admin1`/`deserts`.geojson, `relief.json`, and the
+  climate heat-map grid `climate.json`).
   The `data/labels/`
-  and `data/geo/` files are generated once from public-domain **Natural Earth** by
-  `data/build/gen-labels.mjs` (run manually; needs network) — like `convert`, it is provenance,
-  not a live regen path. Everything used to *build* the dataset — `convert.mjs`, `validate.mjs`,
-  `gen-labels.mjs`, the scrape/normalize scripts, the `lib/` helpers, `raw/`, and the
-  intermediate artifacts — lives under `data/build/`. Keep that split.
+  and `data/geo/` files are generated once from public-domain sources — **Natural Earth** by
+  `data/build/gen-labels.mjs`, and the climate grid (`climate.json`) from **NASA POWER**
+  climatology by `data/build/gen-climate.mjs` (both run manually; need network) — like `convert`,
+  they are provenance, not a live regen path. Everything used to *build* the dataset —
+  `convert.mjs`, `validate.mjs`, `gen-labels.mjs`, `gen-climate.mjs`, the scrape/normalize scripts,
+  the `lib/` helpers, `raw/`, and the intermediate artifacts — lives under `data/build/`. Keep
+  that split.
 - **`data/landraces.json` is the canonical dataset — edit it directly, then run
   `npm run validate`.** It was bootstrapped once from `data/build/raw/` (via
   `data/build/convert.mjs`; the `convert` npm script has been removed); that was a one-time
@@ -102,6 +106,16 @@ repo deploys.
   pure zoom-gating helpers — unit-tested in `labels.test.mjs`); `js/geolayers.js` renders
   lake/river/border/desert-tint geometry (`data/geo/*.geojson`, lazy-loaded except lakes);
   `js/relief.js` draws the mountain triangle field on a canvas (`data/geo/relief.json`, lazy).
+- **Heat maps** are a *second, separate* toggle bar (rendered by a second `addToggleControls`
+  call, so a gap separates it from the geometry toggles) plus a **Heat Maps** ☰-submenu, and are
+  **mutually exclusive** — only one is active at a time, or none, via `setHeat`/`HEATMAPS` in
+  `app.js` (single persisted key `cla-heatmap`; independent of Labels). **Flowering** (`js/heat.js`)
+  interpolates the varieties' flowering time from their true coordinates on an absolute grower scale
+  (`valueToT`). In `js/climate.js`: **Summer Temperature** and **Growing Season Rainfall** bilinearly
+  render the land-only grid `data/geo/climate.json` (lazy-loaded; poles coarsened), while **Growing
+  Season Daylight** is drawn as latitude bands from solar geometry (`growDaylight`, no grid). All
+  ramps avoid green (reserved for the leaf pins); each has a unit legend. Pure helpers unit-tested in
+  `heat.test.mjs` / `climate.test.mjs`.
 - The **Index** (`openIndex` in `app.js`) is the single "browse by attribute" surface: clicking
   a panel fact/badge routes through `openFacet` → `openIndex({facet, value})`, the same path as a
   search jump. Height and Flowering Time use checkbox/dual-slider facets rather than value groups.

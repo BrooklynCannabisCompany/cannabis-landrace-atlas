@@ -49,11 +49,12 @@ data/                   RUNTIME ONLY — what the browser fetches/imports.
   writeups/<id>.md      One Markdown write-up per strain (447 files).
   vocab.mjs             Controlled vocabularies — imported by the browser AND the validator.
   labels/*.json         Map-label points (cities, water, states, lakes, rivers, ranges, peaks, landforms).
-  geo/                  Overlay geometry: lakes/rivers/admin1/deserts .geojson + relief.json (triangles).
+  geo/                  Overlay geometry: lakes/rivers/admin1/deserts .geojson + relief.json (triangles) + climate.json (heat-map grid).
   build/                PIPELINE TOOLING — never fetched at runtime (§6).
     raw/landraces-part{1,2,3}.txt   Source text blocks (historical provenance only).
     convert.mjs         One-time bootstrap raw → ../landraces.json. NOT re-run (§6).
     gen-labels.mjs      One-time generator: data/labels/* + data/geo/* from Natural Earth (network).
+    gen-climate.mjs     One-time generator: data/geo/climate.json from NASA POWER climatology (network).
     validate.mjs        Validates ../landraces.json + the labels/geo files; validate.test.mjs runs it.
     vendor-links.json   Real, curated links per id: { seed[], photo, forums[], references[] }.
     aka-generated.json  Curated alternate names per id: { id: [names] }.
@@ -102,6 +103,8 @@ On any fetch failure for the core data the map element shows "Unable to load map
 | `labels.js` | `createLabels(map, data)` — zoom-aware text labels in four toggle groups (`place`/`states`/`rivers`/`terrain`), drawn in a pane below the markers. Lake names live in `place` (Labels toggle); the `terrain` group holds range/peak names + desert/plateau/basin/delta names. Exports the pure zoom-gating helpers (`*MinZoom`, `peakSizeTier`, `reliefMaxLevel`) unit-tested in `labels.test.mjs`. |
 | `geolayers.js` | `createGeoLayers(map)` — lake (always-on, aqua), river (aqua), admin-1-border, and desert-tint geometry as `L.geoJSON` in dedicated panes; per-layer zoom gating; data provided lazily (lakes at boot). |
 | `relief.js` | `createRelief(map, peaks)` — the mountain triangle-relief **canvas** layer: scatters/peaks culled to the viewport, redrawn on move/zoom (hidden during the zoom animation to avoid a stale flash). |
+| `heat.js` | `createHeat(map)` — the **flowering-time** heat map: a Gaussian inverse-distance surface over the varieties' true coordinates on a **canvas**, colored on an absolute grower week-scale (`valueToT`; ≤8w blue → 16w+ red, no green). Pure `heatColor`/`valueToT`/`heatAlpha` unit-tested in `heat.test.mjs`. |
+| `climate.js` | `createClimate(map)` — the **climate** heat maps, one at a time. **Summer temperature** and **growing season rainfall** bilinearly sample the pre-computed land-only grid `data/geo/climate.json` (lazy-loaded) onto a **canvas**, coverage-scaled alpha feathering the coastline; **growing season daylight** is drawn as full-width latitude bands from solar geometry (`growDaylight`), needing no grid. Per-metric ramps (no green) + unit legends. Pure `rampColor`/`norm`/`legendGradient`/`growDaylight`/`METRICS` unit-tested in `climate.test.mjs`. The flowering + climate maps form one **mutually-exclusive** toggle group (`setHeat`/`HEATMAPS` in `app.js`, second toggle bar + a **Heat Maps** ☰-submenu, key `cla-heatmap`). |
 | `panel.js` | Renders the variety panel header: title, place, the two classification **badges** (morphotype + vernacular type) and the trait rows (`facetRow`). Holds the tooltip definition maps (`MORPHOTYPE_DEF`, `CHEMOTYPE_DEF`, `DOMESTICATION_DEF`, `CATEGORY_DEF`). |
 | `forms.js` | All contribution forms: `openFeedbackSubmit` (Suggest Addition), `openStrainSubmit`, `openContactForm`, `openSectionSubmit` (the ⊕ buttons). Each mounts a Turnstile widget (`mountTurnstile`) and POSTs `{label, title, body, turnstileToken}` to the Worker (`submitIssue` → `WORKER_URL`), then shows a thank-you (`showSubmitSuccess`). `repoLink` helper. |
 | `modal.js` | The single modal host: `openContentModal(title, fill)`, `showModal`/`closeModal`, focus trap + restore, `data-close` handling, dialog ARIA. |
