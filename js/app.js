@@ -52,7 +52,7 @@ let climateLoaded = false;  // data/geo/climate.json lazy-fetched once
 // first enable. Each toggle has a map button + a synced ☰-menu item and is persisted; lakes
 // are always on (no toggle).
 const TOGGLES = {
-  graticule: { storage: 'cla-graticule', label: 'lat/long lines' },
+  graticule: { storage: 'cla-graticule', label: 'latitude/longitude' },
   labels: { storage: 'cla-labels', label: 'labels' },
   states: { storage: 'cla-states', label: 'states & provinces', geo: 'borders', url: 'data/geo/admin1.geojson' },
   rivers: { storage: 'cla-rivers', label: 'rivers', geo: 'rivers', url: 'data/geo/rivers.geojson' },

@@ -2,7 +2,18 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { graticuleStep, graticuleFeatures } from './graticule.js';
+import { graticuleStep, graticuleFeatures, fmtLat, fmtLng } from './graticule.js';
+
+test('fmtLat / fmtLng label degrees with a hemisphere suffix (none at 0 and ±180)', () => {
+  assert.equal(fmtLat(0), '0°');
+  assert.equal(fmtLat(30), '30°N');
+  assert.equal(fmtLat(-60), '60°S');
+  assert.equal(fmtLng(0), '0°');
+  assert.equal(fmtLng(90), '90°E');
+  assert.equal(fmtLng(-120), '120°W');
+  assert.equal(fmtLng(180), '180°');
+  assert.equal(fmtLng(-180), '180°');
+});
 
 test('graticuleStep gets finer (smaller) as you zoom in, never coarser', () => {
   let prev = Infinity;
