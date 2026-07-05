@@ -130,9 +130,9 @@ function setHeat(id, persist = true) {
   currentHeat = currentHeat === id ? null : id;      // clicking the active one turns it off
   heat?.setVisible(currentHeat === 'flowering');
   const metric = HEATMAPS.find((h) => h.id === currentHeat)?.metric || null;
-  // temp/rain read the climate grid; daylight ('day') is drawn from latitude alone, so only the
-  // grid-backed metrics trigger the lazy fetch.
-  if ((metric === 'temp' || metric === 'rain') && !climateLoaded) {
+  // temp/rain read the climate grid; daylight is valued by latitude but uses the grid as its land
+  // mask — so any climate metric triggers the lazy fetch.
+  if (metric && !climateLoaded) {
     climateLoaded = true;
     fetch('data/geo/climate.json')
       .then((r) => (r.ok ? r.json() : null))

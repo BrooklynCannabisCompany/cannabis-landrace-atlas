@@ -1,15 +1,16 @@
 // SPDX-License-Identifier: MIT
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 //
-// Climate heat maps: three optional land-only tints driven by the pre-computed grid in
+// Climate heat maps: three optional land-only tints. Two are driven by the pre-computed grid in
 // data/geo/climate.json (built once from public-domain NASA POWER climatology by
-// data/build/gen-climate.mjs). Unlike the flowering layer — which interpolates the varieties
-// themselves — these are properties of place, so they render a coarse global grid, bilinearly
-// sampled and clamped to land (null cells stay transparent).
+// data/build/gen-climate.mjs); the third is valued from latitude. Unlike the flowering layer —
+// which interpolates the varieties themselves — these are properties of place, rendered on a coarse
+// grid, bilinearly sampled and clamped to land (null cells stay transparent).
 //
-//   temp  mean temperature over each location's 6 warmest months (°C)
-//   rain  total precipitation over those months (mm)
-//   day   mean daylight hours over those months
+//   temp  mean temperature over each location's 6 warmest months (°C)   — from the grid
+//   rain  total precipitation over those months (mm)                    — from the grid
+//   day   mean growing-season daylight (h), rounded into latitude bands — from solar geometry,
+//         masked to land via the temperature grid (no data of its own)
 //
 // `createClimate(map)` → { setData(grid), show(metric|null) }; metric is 'temp' | 'rain' | 'day'.
 // Ramps avoid green (reserved for the leaf pins). Relies on the global `L`.
@@ -29,15 +30,15 @@ export const METRICS = {
     stops: [[0, [201, 150, 58]], [0.5, [210, 196, 214]], [1, [36, 86, 168]]]
   },
   day: {
-    label: 'Growing Season Daylight', unit: 'h', lo: 12, hi: 18, fmt: (v) => `${Math.round(v)}h`,
-    bands: true,   // drawn as latitude bands from solar geometry, NOT sampled from the climate grid
-    // short day (equator) darker gold → long day (poles) bright yellow. No green.
-    stops: [[0, [196, 142, 38]], [1, [255, 228, 80]]]
+    label: 'Growing Season Daylight', unit: 'h', fmt: (v) => `${Math.round(v)}h`,
+    bands: true,   // valued by latitude (solar geometry), rounded into hour bands; masked to land
+    // lo/hi are set below to the actual band range. Short day (equator) bright amber-yellow → long
+    // day (poles) vivid bright yellow — starts bright, but stays saturated so the steps read.
+    stops: [[0, [230, 176, 34]], [1, [255, 238, 96]]]
   }
 };
 
-const MAX_ALPHA = 0.52;                // grid tint (temp/rain)
-const BAND_ALPHA = 0.42;               // latitude bands (daylight)
+const MAX_ALPHA = 0.52;                // land tint (all three maps)
 const CELL = 6;                        // screen sampling cell, px
 const BAND_STEP = 10;                  // latitude band width, degrees (0, 10, 20, …)
 const LAND = [0xe9, 0xe6, 0xdf];       // basemap land fill, for legend compositing
@@ -60,6 +61,15 @@ export function growDaylight(latDeg) {
   let s = 0;
   for (const m of months) s += dayLength(latDeg, MID_DOY[m]);
   return s / 6;
+}
+
+// The daylight color scale + legend use the ACTUAL range of the drawn bands (shortest near the
+// equator, longest at the poles), not a fixed guess, so the key labels match what's on screen.
+{
+  const vals = [];
+  for (let lat = -90; lat < 90; lat += BAND_STEP) vals.push(growDaylight(lat + BAND_STEP / 2));
+  METRICS.day.lo = Math.round(Math.min(...vals) * 10) / 10;
+  METRICS.day.hi = Math.round(Math.max(...vals) * 10) / 10;
 }
 
 // Linear ramp lookup on a normalized value t (clamped to [0,1]) → [r,g,b] ints.
@@ -118,9 +128,9 @@ export function createClimate(map) {
   // where coverage is the fraction of the 4 surrounding cells that carried data (bilinear weight of
   // the present cells, 0..1) — full over land interior, falling toward 0 across a coast so the tint
   // fades into the ocean instead of painting a hard land-only edge. null when no cell is in range.
-  function sample(lat, lng) {
+  function sample(lat, lng, key) {
     const { res, lat0, lng0, nLat, nLng } = grid.meta;
-    const arr = grid[metric];
+    const arr = grid[key];
     const gi = (lat - lat0) / res - 0.5;
     const gj = (lng - lng0) / res - 0.5;
     const i0 = Math.floor(gi), j0 = Math.floor(gj);
@@ -137,50 +147,52 @@ export function createClimate(map) {
     return wsum > 0.001 ? [vsum / wsum, wsum] : null;
   }
 
-  // Daylight: full-width latitude bands (every BAND_STEP degrees), colored by the growing-season
-  // day length at each band — it depends on latitude alone, so bands read it more honestly than a
-  // grid tint would.
-  function drawBands(size, m) {
-    ctx.font = '600 11px system-ui, -apple-system, sans-serif';
+  // Daylight band labels: merge consecutive BAND_STEP bands that round to the same hour into one, so
+  // there's a single label (and single visual band) per value, placed once at the right edge — bold,
+  // with a white halo for legibility.
+  function drawBandLabels(size, m) {
+    const segs = [];
+    for (let lat = -90; lat < 90; lat += BAND_STEP) {
+      const v = Math.round(growDaylight(lat + BAND_STEP / 2));
+      const last = segs[segs.length - 1];
+      if (last && last.v === v) last.hi = lat + BAND_STEP;
+      else segs.push({ lo: lat, hi: lat + BAND_STEP, v });
+    }
+    ctx.font = 'bold 12px system-ui, -apple-system, sans-serif';
     ctx.textAlign = 'right';
     ctx.textBaseline = 'middle';
-    for (let lat = -90; lat < 90; lat += BAND_STEP) {
-      const val = growDaylight(lat + BAND_STEP / 2);
-      const [r, g, b] = rampColor(m.stops, norm(val, m.lo, m.hi));
-      const yTop = map.latLngToContainerPoint([Math.min(90, lat + BAND_STEP), 0]).y;
-      const yBot = map.latLngToContainerPoint([lat, 0]).y;
-      ctx.fillStyle = `rgba(${r},${g},${b},${BAND_ALPHA})`;
-      ctx.fillRect(0, yTop, size.x, yBot - yTop);
-      // Label each band with its daylight hours at the right edge (skip bands too thin to fit).
-      const yc = (yTop + yBot) / 2;
-      if (yBot - yTop > 15 && yc > 8 && yc < size.y - 8) {
-        const label = m.fmt(val);
-        ctx.lineWidth = 3;
-        ctx.strokeStyle = 'rgba(255,255,255,0.85)';
-        ctx.strokeText(label, size.x - 10, yc);
-        ctx.fillStyle = 'rgba(60,53,42,0.92)';
-        ctx.fillText(label, size.x - 10, yc);
-      }
+    for (const s of segs) {
+      const yc = (map.latLngToContainerPoint([s.hi, 0]).y + map.latLngToContainerPoint([s.lo, 0]).y) / 2;
+      if (yc < 10 || yc > size.y - 10) continue;
+      const label = `${s.v}h`;
+      ctx.lineWidth = 4;
+      ctx.strokeStyle = 'rgba(255,255,255,0.9)';
+      ctx.strokeText(label, size.x - 10, yc);
+      ctx.fillStyle = '#2a2620';
+      ctx.fillText(label, size.x - 10, yc);
     }
   }
 
   function draw(size) {
     ctx.clearRect(0, 0, size.x, size.y);
-    if (!metric) return;
+    if (!metric || !grid) return;         // every climate map (incl. daylight's land mask) needs the grid
     const m = METRICS[metric];
-    if (m.bands) { drawBands(size, m); return; }
-    if (!grid) return;
+    const day = !!m.bands;
     for (let y = 0; y < size.y; y += CELL) {
       for (let x = 0; x < size.x; x += CELL) {
         const ll = map.containerPointToLatLng([x + CELL / 2, y + CELL / 2]);
-        const s = sample(ll.lat, ll.lng);
+        // Daylight is valued by latitude (rounded into hour bands, so equal neighbours merge) but
+        // still masked to land via the temperature grid, so it never tints — and greens — the ocean.
+        const s = sample(ll.lat, ll.lng, day ? 'temp' : metric);
         if (!s) continue;
-        const [r, g, b] = rampColor(m.stops, norm(s[0], m.lo, m.hi));
+        const val = day ? Math.round(growDaylight(ll.lat)) : s[0];
+        const [r, g, b] = rampColor(m.stops, norm(val, m.lo, m.hi));
         // Coverage-scaled alpha (eased) keeps interiors solid but feathers the coastline.
         ctx.fillStyle = `rgba(${r},${g},${b},${MAX_ALPHA * Math.min(1, s[1] * 1.4)})`;
         ctx.fillRect(x, y, CELL, CELL);
       }
     }
+    if (day) drawBandLabels(size, m);
   }
 
   function reset() {
@@ -242,7 +254,7 @@ export function createClimate(map) {
       return out;
     };
     grid = { meta: g.meta, temp: dense('temp'), rain: dense('rain') };
-    if (metric && !METRICS[metric].bands) reset();
+    if (metric) reset();
   }
 
   canvas.style.display = 'none';
