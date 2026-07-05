@@ -10,6 +10,9 @@ npm-debug.log*
 node_modules/
 coverage/
 
+# One-time climate build tile cache (data/geo/climate.json is the committed output)
+data/build/.cache-climate/
+
 # Cloudflare Worker (wrangler) local state
 .wrangler/
 worker/.dev.vars
