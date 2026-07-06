@@ -218,6 +218,13 @@ export function createClimate(map) {
         // Coverage-scaled alpha (eased) keeps interiors solid but feathers the coastline.
         ctx.fillStyle = `rgba(${r},${g},${b},${MAX_ALPHA * Math.min(1, s[1] * 1.4)})`;
         ctx.fillRect(x, y, CELL, CELL);
+        // Daylight bands are low-contrast, so draw a boundary line at the top of any land cell whose
+        // hour-band differs from the cell above it — this delineates the steps without changing the
+        // fill. Land-masked because it only runs on filled cells.
+        if (day && Math.round(growDaylight(map.containerPointToLatLng([x + CELL / 2, y - CELL / 2]).lat)) !== val) {
+          ctx.fillStyle = 'rgba(60, 46, 16, 0.6)';
+          ctx.fillRect(x, y, CELL, 1.5);
+        }
       }
     }
     if (day) drawBandLabels(size);
