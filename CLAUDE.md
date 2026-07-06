@@ -115,7 +115,7 @@ repo deploys.
   **mutually exclusive** — only one is active at a time, or none, via `setHeat`/`HEATMAPS` in
   `app.js` (single persisted key `cla-heatmap`; independent of Labels). **Flowering** (`js/heat.js`)
   interpolates the varieties' flowering time from their true coordinates on an absolute grower scale
-  (`valueToT`). In `js/climate.js`: **Summer Temperature** and **Growing Season Rainfall** bilinearly
+  (`valueToT`). In `js/climate.js`: **Growing Season Temperature** and **Growing Season Rainfall** bilinearly
   render the land-only grid `data/geo/climate.json` (lazy-loaded; poles coarsened), while **Growing
   Season Daylight** is drawn as land-only latitude bands valued by solar geometry (`growDaylight`),
   using the temperature grid only as a land mask. All

@@ -116,13 +116,13 @@ function setToggle(id, on, persist = true) {
 // ---- Heat maps (mutually exclusive) ----
 // A separate overlay group where only one is active at a time (or none): the flowering-time
 // surface (interpolated from the varieties), two land-only climate grids from data/geo/climate.json
-// (summer temperature, growing season rainfall), and a growing season daylight map drawn as latitude
+// (growing season temperature and rainfall), and a growing season daylight map drawn as latitude
 // bands from solar geometry. They live in their own toggle bar below the geometry toggles, so a gap
 // separates the two groups. A single setting persists which (if any) is on. 'flowering' drives the
 // point layer; the climate entries drive the shared climate renderer's active metric.
 const HEATMAPS = [
   { id: 'flowering', label: 'flowering heat map' },
-  { id: 'temp', label: 'summer temperature', metric: 'temp' },
+  { id: 'temp', label: 'growing season temperature', metric: 'temp' },
   { id: 'rain', label: 'growing season rainfall', metric: 'rain' },
   { id: 'daylight', label: 'growing season daylight', metric: 'day' }
 ];
@@ -530,7 +530,7 @@ function openLicense() {
       ['Code', 'MIT License.'],
       ['Data & write-ups', 'Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).'],
       ['Map data', 'World geometry, place labels (country names, states/provinces, cities, oceans and seas), lakes, rivers, admin-1 borders, mountain ranges and peaks — all from Natural Earth (public domain). Rendering by Leaflet (BSD-2-Clause) and marked (MIT).'],
-      ['Climate data', 'The summer temperature and growing season rainfall heat maps are derived from NASA POWER climatology (MERRA-2, 2001–2020), which is in the public domain. The growing season daylight map is computed from latitude.']
+      ['Climate data', 'The growing season temperature and rainfall heat maps are derived from NASA POWER climatology (MERRA-2, 2001–2020), which is in the public domain. The growing season daylight map is computed from latitude.']
     ]) {
       const dt = document.createElement('dt'); dt.textContent = t;
       const dd = document.createElement('dd'); dd.textContent = d;

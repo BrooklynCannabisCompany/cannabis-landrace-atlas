@@ -22,7 +22,7 @@ import { PANE_Z } from './panes.js';
 // green. Alpha is a flat tint since the field is continuous over land.
 export const METRICS = {
   temp: {
-    label: 'Summer Temperature', unit: '°C', lo: 5, hi: 30, fmt: (v) => `${Math.round(v)}°C`,
+    label: 'Growing Season Temperature', unit: '°C', lo: 5, hi: 30, fmt: (v) => `${Math.round(v)}°C`,
     // cold blue → faint blue-pink → red. Midpoint keeps B≥G so the crossing never reads green.
     stops: [[0, [42, 111, 200]], [0.5, [240, 232, 236]], [1, [208, 52, 44]]]
   },
