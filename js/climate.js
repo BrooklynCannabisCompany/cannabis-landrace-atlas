@@ -42,9 +42,10 @@ export const METRICS = {
   day: {
     label: 'Growing Season Daylight', unit: 'h', fmt: (v) => `${Math.round(v)}h`,
     bands: true,   // valued by latitude (solar geometry), rounded into hour bands; masked to land
-    // lo/hi are set below to the actual band range. Short day (equator) bright amber-yellow → long
-    // day (poles) vivid bright yellow — starts bright, but stays saturated so the steps read.
-    stops: [[0, [230, 176, 34]], [1, [255, 238, 96]]]
+    // lo/hi are set below to the actual band range. A high-contrast golden ramp — bright golden
+    // yellow at the short (equator) end deepening to burnt amber-gold at the long (polar) end — so
+    // each whole-hour band is a clearly distinct step (R≥G≥B throughout, so it never reads green).
+    stops: [[0, [255, 216, 92]], [1, [150, 82, 14]]]
   }
 };
 
@@ -218,13 +219,6 @@ export function createClimate(map) {
         // Coverage-scaled alpha (eased) keeps interiors solid but feathers the coastline.
         ctx.fillStyle = `rgba(${r},${g},${b},${MAX_ALPHA * Math.min(1, s[1] * 1.4)})`;
         ctx.fillRect(x, y, CELL, CELL);
-        // Daylight bands are low-contrast, so draw a boundary line at the top of any land cell whose
-        // hour-band differs from the cell above it — this delineates the steps without changing the
-        // fill. Land-masked because it only runs on filled cells.
-        if (day && Math.round(growDaylight(map.containerPointToLatLng([x + CELL / 2, y - CELL / 2]).lat)) !== val) {
-          ctx.fillStyle = 'rgba(60, 46, 16, 0.6)';
-          ctx.fillRect(x, y, CELL, 1.5);
-        }
       }
     }
     if (day) drawBandLabels(size);
