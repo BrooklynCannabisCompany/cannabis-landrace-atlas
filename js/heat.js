@@ -5,7 +5,7 @@
 // varieties in an area take to flower — bluish where flowering is shortest, reddish where it is
 // longest, with NO green anywhere in the ramp (green is reserved for the leaf pins, which always
 // render above this layer). The surface is a Gaussian inverse-distance average of nearby
-// strains' flowering midpoints, evaluated on a coarse pixel grid and painted onto a <canvas>.
+// strains' flowering maxima (the weeks a grower waits to finish), on a coarse pixel grid → <canvas>.
 // It describes regions, so it uses each strain's TRUE coordinates, not the declustered
 // sunflower-spiral render positions.
 //

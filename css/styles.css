@@ -60,7 +60,7 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   font: inherit; cursor: pointer; border-radius: 4px; color: var(--ink);
 }
 .app-menu-item:hover { background: #eef0e9; color: var(--green-dark); }
-.app-menu-divider { height: 1px; margin: 4px 8px; background: var(--line); }
+.app-menu-divider { height: 1px; margin: 4px -4px; background: var(--line); }
 /* Checkable menu items (Labels, States, Rivers, Terrain): a left-side marker so the row
    reads as toggleable in both states — a grey ✕ when off, a green ✓ when on. */
 .app-menu-check { display: flex; align-items: center; gap: 8px; }
