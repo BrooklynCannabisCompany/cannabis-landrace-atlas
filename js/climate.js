@@ -9,10 +9,12 @@
 //
 //   temp  mean temperature over each location's 6 warmest months (°C)   — from the grid
 //   rain  total precipitation over those months (mm)                    — from the grid
-//   day   mean growing-season daylight (h), rounded into latitude bands — from solar geometry,
-//         masked to land via the temperature grid (no data of its own)
+//   day   mean growing-season daylight (h), rounded into latitude bands — from solar geometry
+//   solar mean growing-season clear-sky surface insolation (kWh/m²·day) — from solar geometry
+// The last two are valued from latitude and masked to land via the temperature grid (no data of
+// their own).
 //
-// `createClimate(map)` → { setData(grid), show(metric|null) }; metric is 'temp' | 'rain' | 'day'.
+// `createClimate(map)` → { setData(grid), show(metric|null) }; metric is 'temp'|'rain'|'day'|'solar'.
 // Ramps avoid green (reserved for the leaf pins). Relies on the global `L`.
 
 import { PANE_Z } from './panes.js';
@@ -20,6 +22,10 @@ import { PANE_Z } from './panes.js';
 // Per-metric color ramps + absolute anchors (lo→hi weeks-style, chosen for cultivation relevance,
 // not the raw data min/max, so polar extremes can't stretch them). No stop pair passes through
 // green. Alpha is a flat tint since the field is continuous over land.
+// Shared daylight/solar ramp: dark at the lowest value → sun-badge gold (#ffd23f) at the highest,
+// so brightest always means "most". R≥G≥B throughout → never reads green.
+const SUN_RAMP = [[0, [150, 82, 14]], [1, [255, 210, 63]]];
+
 export const METRICS = {
   temp: {
     label: 'Growing Season Temperature', unit: '°C', lo: 5, hi: 30, fmt: (v) => `${Math.round(v)}°C`,
@@ -41,11 +47,16 @@ export const METRICS = {
   },
   day: {
     label: 'Growing Season Daylight', unit: 'h', fmt: (v) => `${Math.round(v)}h`,
-    bands: true,   // valued by latitude (solar geometry), rounded into hour bands; masked to land
-    // lo/hi are set below to the actual band range. A high-contrast golden ramp — the sun-badge
-    // gold (#ffd23f) at the short (equator) end deepening to burnt amber-gold at the long (polar)
-    // end — so each whole-hour band is a distinct step (R≥G≥B throughout, so it never reads green).
-    stops: [[0, [255, 210, 63]], [1, [150, 82, 14]]]
+    bands: true,    // rounded into whole-hour bands; valued by latitude (latFn set below); land-masked
+    // lo/hi set below to the actual band range. Dark (short equatorial days) → bright sun-gold (long
+    // polar days), so brightest = most daylight — matching the solar-energy map.
+    stops: SUN_RAMP
+  },
+  solar: {
+    label: 'Growing Season Solar Energy', unit: 'kWh/m²·day', fmt: (v) => `${v.toFixed(1)} kWh`,
+    // Clear-sky surface insolation, valued by latitude (latFn set below); smooth (not banded);
+    // land-masked. Same dark→bright ramp as daylight, so brightest = most energy.
+    stops: SUN_RAMP
   }
 };
 
@@ -82,6 +93,56 @@ export function growDaylight(latDeg) {
   METRICS.day.lo = Math.round(Math.min(...vals) * 10) / 10;
   METRICS.day.hi = Math.round(Math.max(...vals) * 10) / 10;
 }
+
+// Clear-sky SURFACE daily insolation (kWh/m²) at a latitude on a day of year: integrate the direct
+// beam on a horizontal surface across the day, attenuating each moment by air mass (low sun ⇒ more
+// atmosphere ⇒ weaker). Unlike daylight hours, this folds in the sun's angle — so it's not simply
+// pole- or equator-brightest. No clouds (idealized clear sky).
+const SOLAR_CONST = 1.361;   // kW/m² (solar constant)
+const CLEAR_TAU = 0.7;       // broadband clear-sky atmospheric transmittance at the zenith
+function dailyInsolation(latDeg, doy) {
+  const lat = (latDeg * Math.PI) / 180;
+  const decl = 0.409 * Math.sin((2 * Math.PI / 365) * doy - 1.39);
+  const cosH0 = -Math.tan(lat) * Math.tan(decl);
+  if (cosH0 >= 1) return 0;                                  // polar night — sun never rises
+  const H0 = cosH0 <= -1 ? Math.PI : Math.acos(cosH0);       // half-day arc (polar day → π)
+  const steps = 48;
+  const dtH = ((2 * H0) / (2 * Math.PI)) * 24 / steps;       // hours represented by each step
+  let energy = 0;                                            // kWh/m²
+  for (let k = 0; k < steps; k++) {
+    const H = -H0 + (k + 0.5) * (2 * H0) / steps;
+    const cosZ = Math.sin(lat) * Math.sin(decl) + Math.cos(lat) * Math.cos(decl) * Math.cos(H);
+    if (cosZ <= 0) continue;
+    energy += SOLAR_CONST * Math.pow(CLEAR_TAU, 1 / cosZ) * cosZ * dtH;   // kW/m² × h
+  }
+  return energy;
+}
+
+// Mean growing-season insolation (kWh/m²·day) at a latitude — averaged over the same 6 summer months
+// as growDaylight. Memoized by 0.5° latitude (the per-cell render loop hits many repeated lats).
+const _insol = new Map();
+export function growInsolation(latDeg) {
+  const key = Math.round(latDeg * 2) / 2;
+  let v = _insol.get(key);
+  if (v === undefined) {
+    const months = key >= 0 ? [3, 4, 5, 6, 7, 8] : [9, 10, 11, 0, 1, 2];
+    let s = 0;
+    for (const m of months) s += dailyInsolation(key, MID_DOY[m]);
+    v = s / 6;
+    _insol.set(key, v);
+  }
+  return v;
+}
+
+// Solar-energy scale uses the actual computed range; latFn marks the latitude-valued metrics.
+{
+  const vals = [];
+  for (let lat = -85; lat <= 85; lat += 1) vals.push(growInsolation(lat));
+  METRICS.solar.lo = Math.floor(Math.min(...vals) * 10) / 10;
+  METRICS.solar.hi = Math.ceil(Math.max(...vals) * 10) / 10;
+}
+METRICS.day.latFn = growDaylight;
+METRICS.solar.latFn = growInsolation;
 
 // Linear ramp lookup on a normalized value t (clamped to [0,1]) → [r,g,b] ints.
 export function rampColor(stops, t) {
@@ -204,24 +265,25 @@ export function createClimate(map) {
 
   function draw(size) {
     ctx.clearRect(0, 0, size.x, size.y);
-    if (!metric || !grid) return;         // every climate map (incl. daylight's land mask) needs the grid
+    if (!metric || !grid) return;         // every climate map (incl. the latitude ones' land mask) needs the grid
     const m = METRICS[metric];
-    const day = !!m.bands;
+    const latFn = m.latFn;                 // day/solar are valued by latitude; temp/rain read the grid
     for (let y = 0; y < size.y; y += CELL) {
       for (let x = 0; x < size.x; x += CELL) {
         const ll = map.containerPointToLatLng([x + CELL / 2, y + CELL / 2]);
-        // Daylight is valued by latitude (rounded into hour bands, so equal neighbours merge) but
-        // still masked to land via the temperature grid, so it never tints — and greens — the ocean.
-        const s = sample(ll.lat, ll.lng, day ? 'temp' : metric);
+        // Latitude-valued metrics (daylight, solar) still sample the temperature grid for their land
+        // mask, so they never tint — and, for daylight, green — the ocean.
+        const s = sample(ll.lat, ll.lng, latFn ? 'temp' : metric);
         if (!s) continue;
-        const val = day ? Math.round(growDaylight(ll.lat)) : s[0];
+        let val = latFn ? latFn(ll.lat) : s[0];
+        if (m.bands) val = Math.round(val);   // daylight quantizes into whole-hour bands
         const [r, g, b] = rampColor(m.stops, norm(val, m.lo, m.hi));
         // Coverage-scaled alpha (eased) keeps interiors solid but feathers the coastline.
         ctx.fillStyle = `rgba(${r},${g},${b},${MAX_ALPHA * Math.min(1, s[1] * 1.4)})`;
         ctx.fillRect(x, y, CELL, CELL);
       }
     }
-    if (day) drawBandLabels(size);
+    if (m.bands) drawBandLabels(size);
   }
 
   function reset() {

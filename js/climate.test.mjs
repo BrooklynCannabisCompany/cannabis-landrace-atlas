@@ -2,7 +2,18 @@
 // Copyright (c) 2026 The Cannabis Landrace Atlas contributors
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { rampColor, norm, legendGradient, growDaylight, METRICS } from './climate.js';
+import { rampColor, norm, legendGradient, growDaylight, growInsolation, METRICS } from './climate.js';
+
+test('growInsolation is a plausible clear-sky surface value that fades toward the poles', () => {
+  for (const lat of [0, 20, 45, 70, 88]) {
+    const v = growInsolation(lat);
+    assert.ok(v > 1 && v < 12, `insolation at ${lat}° = ${v} should be a sane kWh/m²·day figure`);
+  }
+  // air-mass attenuation makes the poles dimmer than the sun-favoured subtropics
+  assert.ok(growInsolation(20) > growInsolation(60), 'subtropics get more energy than 60°');
+  assert.ok(growInsolation(60) > growInsolation(85), '60° gets more energy than the high Arctic');
+  assert.ok(Math.abs(growInsolation(30) - growInsolation(-30)) < 0.05, 'hemispheres are symmetric');
+});
 
 test('rampColor returns exact stop colors at their stops and clamps', () => {
   const s = METRICS.temp.stops;

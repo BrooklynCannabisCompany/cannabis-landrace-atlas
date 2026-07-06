@@ -117,8 +117,9 @@ repo deploys.
   interpolates the varieties' flowering time from their true coordinates on an absolute grower scale
   (`valueToT`). In `js/climate.js`: **Growing Season Temperature** and **Growing Season Rainfall** bilinearly
   render the land-only grid `data/geo/climate.json` (lazy-loaded; poles coarsened), while **Growing
-  Season Daylight** is drawn as land-only latitude bands valued by solar geometry (`growDaylight`),
-  using the temperature grid only as a land mask. All
+  Season Daylight** (hour bands, `growDaylight`) and **Growing Season Solar Energy** (clear-sky
+  surface insolation, `growInsolation`) are valued by latitude from solar geometry, using the
+  temperature grid only as a land mask. All
   ramps avoid green (reserved for the leaf pins); each has a unit legend. Pure helpers unit-tested in
   `heat.test.mjs` / `climate.test.mjs`.
 - The **Index** (`openIndex` in `app.js`) is the single "browse by attribute" surface: clicking

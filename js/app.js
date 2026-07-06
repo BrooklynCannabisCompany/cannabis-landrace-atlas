@@ -124,7 +124,8 @@ const HEATMAPS = [
   { id: 'flowering', label: 'flowering heat map' },
   { id: 'temp', label: 'growing season temperature', metric: 'temp' },
   { id: 'rain', label: 'growing season rainfall', metric: 'rain' },
-  { id: 'daylight', label: 'growing season daylight', metric: 'day' }
+  { id: 'daylight', label: 'growing season daylight', metric: 'day' },
+  { id: 'solar', label: 'growing season solar energy', metric: 'solar' }
 ];
 const HEAT_KEY = 'cla-heatmap';
 let currentHeat = null;      // id of the active heat map, or null
