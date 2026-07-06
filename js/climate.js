@@ -27,9 +27,17 @@ export const METRICS = {
     stops: [[0, [42, 111, 200]], [0.5, [240, 232, 236]], [1, [208, 52, 44]]]
   },
   rain: {
-    label: 'Growing Season Rainfall', unit: 'mm', lo: 0, hi: 1000, fmt: (v) => `${Math.round(v)}mm`,
-    // dry amber → mauve → wet blue. Mauve midpoint (B≥G, R≥G) avoids the grey-green crossing.
-    stops: [[0, [201, 150, 58]], [0.5, [210, 196, 214]], [1, [36, 86, 168]]]
+    label: 'Growing Season Rainfall', unit: 'mm', lo: 0, hi: 1800, fmt: (v) => `${Math.round(v)}mm`,
+    // Brown is reserved for arid; blue dominates. 0mm brown → 400mm (arid) tan → 600mm (semi-arid)
+    // pale blue → deep blue at the wet end. Stops are placed at those mm thresholds (t = mm/1800).
+    // No stop pair reads green (R≥G in the browns, B≥G in the blues).
+    stops: [
+      [0, [172, 122, 50]],       // 0mm — brown (true desert)
+      [0.222, [216, 194, 158]],  // 400mm — tan (arid threshold)
+      [0.333, [196, 206, 226]],  // 600mm — pale blue (semi-arid → wet)
+      [0.65, [78, 134, 192]],    // ~1170mm — medium blue
+      [1, [22, 72, 148]]         // 1800mm+ — deep blue
+    ]
   },
   day: {
     label: 'Growing Season Daylight', unit: 'h', fmt: (v) => `${Math.round(v)}h`,
