@@ -27,16 +27,16 @@ export const METRICS = {
     stops: [[0, [42, 111, 200]], [0.5, [240, 232, 236]], [1, [208, 52, 44]]]
   },
   rain: {
-    label: 'Growing Season Rainfall', unit: 'mm', lo: 0, hi: 1800, fmt: (v) => `${Math.round(v)}mm`,
-    // Brown is reserved for arid; blue dominates. 0mm brown → 400mm (arid) tan → 600mm (semi-arid)
-    // pale blue → deep blue at the wet end. Stops are placed at those mm thresholds (t = mm/1800).
-    // No stop pair reads green (R≥G in the browns, B≥G in the blues).
+    label: 'Growing Season Rainfall', unit: 'mm', lo: 0, hi: 1600, fmt: (v) => `${Math.round(v)}mm`,
+    // Brown is reserved for arid; a vivid ROYAL blue (not slate) carries the wet range so humid
+    // regions read clearly wet. 0mm brown → 400mm (arid) tan → 600mm (semi-arid) medium royal blue →
+    // deep royal blue at the wet end. Stops at those mm thresholds (t = mm/1600). No stop pair reads
+    // green (R≥G in the browns, B≥G in the blues).
     stops: [
       [0, [172, 122, 50]],       // 0mm — brown (true desert)
-      [0.222, [216, 194, 158]],  // 400mm — tan (arid threshold)
-      [0.333, [196, 206, 226]],  // 600mm — pale blue (semi-arid → wet)
-      [0.65, [78, 134, 192]],    // ~1170mm — medium blue
-      [1, [22, 72, 148]]         // 1800mm+ — deep blue
+      [0.25, [210, 186, 150]],   // 400mm — tan (arid threshold)
+      [0.375, [100, 140, 225]],  // 600mm — medium royal blue (semi-arid → wet)
+      [1, [35, 75, 205]]         // 1600mm+ — deep royal blue
     ]
   },
   day: {
