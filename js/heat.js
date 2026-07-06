@@ -13,6 +13,8 @@
 // Modeled on js/relief.js (own pane, canvas repositioned/redrawn on move/zoom, hidden during the
 // zoom animation). Relies on the global `L`.
 
+import { PANE_Z } from './panes.js';
+
 // Color ramp (short → long). Linear RGB interpolation between stops; no stop pair passes through
 // green. Kept as [t, [r, g, b]] rows so heatColor can bracket-and-lerp.
 const STOPS = [
@@ -78,7 +80,7 @@ export function heatAlpha(weight) {
 export function createHeat(map) {
   map.createPane('heatPane');
   const pane = map.getPane('heatPane');
-  pane.style.zIndex = '420';            // above geometry panes (≤414), below labels (450)/markers (600)
+  pane.style.zIndex = String(PANE_Z.heat);   // a data tint — below the reference geometry/labels
   pane.style.pointerEvents = 'none';
 
   const canvas = L.DomUtil.create('canvas', 'heat-canvas', pane);

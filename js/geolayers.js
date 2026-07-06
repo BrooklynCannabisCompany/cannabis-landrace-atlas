@@ -12,23 +12,25 @@
 // data arrives via provide() — at boot for lakes, lazily on first toggle for rivers/borders.
 // Relies on the global `L` from lib/leaflet/leaflet.js.
 
+import { PANE_Z } from './panes.js';
+
+// Pane z-order lives in panes.js. These layers sit ABOVE the heat/climate tints so they stay
+// visible over an active heat map; the desert tint is the one that sits below (it's a base texture).
 const LAYERS = {
-  // pane z-order: deserts (408) < lakes (410) < borders (412) < rivers (414), below labels (450).
-  // Desert tint sits below the relief canvas (411) so mountains draw over the sand.
   deserts: {
-    pane: 'desertsPane', z: 408, minZoom: 3,
+    pane: 'desertsPane', z: PANE_Z.deserts, minZoom: 3,
     style: { fillColor: '#e8dcc0', fillOpacity: 0.55, stroke: false }
   },
   lakes: {
-    pane: 'lakesPane', z: 410, minZoom: 3,
+    pane: 'lakesPane', z: PANE_Z.lakes, minZoom: 3,
     style: { fillColor: '#cfe9ec', fillOpacity: 1, color: '#a9d2d9', weight: 0.5 } // aqua water
   },
   borders: {
-    pane: 'bordersPane', z: 412, minZoom: 4,
+    pane: 'bordersPane', z: PANE_Z.borders, minZoom: 4,
     style: { fill: false, color: '#bcae9c', weight: 0.6, dashArray: '3 2', opacity: 0.9 }
   },
   rivers: {
-    pane: 'riversPane', z: 414, minZoom: 3,
+    pane: 'riversPane', z: PANE_Z.rivers, minZoom: 3,
     style: { fill: false, color: '#4fa6bd', weight: 0.8, opacity: 0.95 } // aqua
   }
 };

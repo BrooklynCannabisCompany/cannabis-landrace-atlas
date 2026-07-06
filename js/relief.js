@@ -10,6 +10,7 @@
 // `createRelief(map, peaks)` → { setScatter(rows), setVisible(on) }. Relies on the global `L`.
 
 import { peakMinZoom, peakSizeTier, reliefMaxLevel } from './labels.js';
+import { PANE_Z } from './panes.js';
 
 const FILL = '#8a6f57';
 const EDGE = 'rgba(94, 75, 55, 0.85)';
@@ -26,7 +27,7 @@ export function baseSize(zoom) {
 export function createRelief(map, peaks) {
   map.createPane('reliefPane');
   const pane = map.getPane('reliefPane');
-  pane.style.zIndex = '411';            // above lakes (410), below borders/rivers/labels
+  pane.style.zIndex = String(PANE_Z.relief);   // above lakes, below borders/rivers/labels
   pane.style.pointerEvents = 'none';
 
   const canvas = L.DomUtil.create('canvas', 'relief-canvas', pane);

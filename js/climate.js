@@ -15,6 +15,8 @@
 // `createClimate(map)` → { setData(grid), show(metric|null) }; metric is 'temp' | 'rain' | 'day'.
 // Ramps avoid green (reserved for the leaf pins). Relies on the global `L`.
 
+import { PANE_Z } from './panes.js';
+
 // Per-metric color ramps + absolute anchors (lo→hi weeks-style, chosen for cultivation relevance,
 // not the raw data min/max, so polar extremes can't stretch them). No stop pair passes through
 // green. Alpha is a flat tint since the field is continuous over land.
@@ -107,7 +109,7 @@ export function legendGradient(stops) {
 export function createClimate(map) {
   map.createPane('climatePane');
   const pane = map.getPane('climatePane');
-  pane.style.zIndex = '419';            // beside the flowering heat pane, below labels(450)/markers(600)
+  pane.style.zIndex = String(PANE_Z.climate);   // a data tint — below the reference geometry/labels
   pane.style.pointerEvents = 'none';
 
   const canvas = L.DomUtil.create('canvas', 'heat-canvas', pane);

@@ -14,6 +14,8 @@
 // Relies on the global `L` from lib/leaflet/leaflet.js (used only inside createLabels, so
 // the pure gating helpers below remain importable under plain Node for tests).
 
+import { PANE_Z } from './panes.js';
+
 // --- Pure zoom-gating helpers (unit-tested in labels.test.mjs) --------------
 // The map's zoom range is 2..7. Each label carries a minZoom; it shows once the map is
 // zoomed to (or past) it. The mappings spread the layers across that range so the map fills
@@ -128,7 +130,7 @@ export function createLabels(map, data) {
   // A pane below the marker pane (z 600), above the basemap/geometry panes (z <= 414).
   map.createPane('labelPane');
   const pane = map.getPane('labelPane');
-  pane.style.zIndex = 450;
+  pane.style.zIndex = PANE_Z.labels;
   pane.style.pointerEvents = 'none';
 
   const groups = {

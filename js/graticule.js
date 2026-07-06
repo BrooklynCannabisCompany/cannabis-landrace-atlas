@@ -10,6 +10,8 @@
 //
 // `createGraticule(map)` → { setVisible(on) }. Relies on the global `L`.
 
+import { PANE_Z } from './panes.js';
+
 // Degree spacing between lines for a given zoom — halves roughly as you zoom in.
 export function graticuleStep(zoom) {
   if (zoom <= 2) return 30;
@@ -54,12 +56,12 @@ export function graticuleFeatures(step) {
 export function createGraticule(map) {
   map.createPane('graticulePane');
   const linePane = map.getPane('graticulePane');
-  linePane.style.zIndex = '421';         // above the heat tints (420), below labels (450) / markers (600)
+  linePane.style.zIndex = String(PANE_Z.graticule);   // above the reference geometry, below labels
   linePane.style.pointerEvents = 'none';
 
   map.createPane('graticuleLabelPane');
   const labelPane = map.getPane('graticuleLabelPane');
-  labelPane.style.zIndex = '422';
+  labelPane.style.zIndex = String(PANE_Z.graticuleLabel);
   labelPane.style.pointerEvents = 'none';
   const canvas = L.DomUtil.create('canvas', 'graticule-labels', labelPane);
   const ctx = canvas.getContext('2d');
@@ -105,21 +107,32 @@ export function createGraticule(map) {
     if (map.getZoom() > LABEL_MAX_ZOOM) return;   // only when zoomed out
     const step = graticuleStep(map.getZoom());
     ctx.font = 'bold 11px system-ui, -apple-system, sans-serif';
-    // Latitudes down the right edge (y depends on latitude alone in Web Mercator).
-    ctx.textAlign = 'right';
+
+    // Latitudes: anchored to the RIGHT END of the parallels (the 180°E meridian), so they hug the
+    // lines rather than floating at the map edge. If 180°E is at/off the viewport edge, fall back
+    // to the edge itself.
+    const parRight = map.latLngToContainerPoint([0, 180]).x;
+    const atEdge = parRight > size.x - 34;
+    ctx.textAlign = atEdge ? 'right' : 'left';
     ctx.textBaseline = 'middle';
+    const lx = atEdge ? size.x - 4 : parRight + 4;
     for (let lat = Math.ceil(-LAT_LIMIT / step) * step; lat <= LAT_LIMIT; lat += step) {
       const y = map.latLngToContainerPoint([lat, 0]).y;
       if (y < 9 || y > size.y - 9) continue;
-      label(fmtLat(lat), size.x - 4, y);
+      label(fmtLat(lat), lx, y);
     }
-    // Longitudes along the bottom edge (skip any that would sit under the latitude column).
+
+    // Longitudes along both the bottom and top edges. The top row skips the top-left toggle column.
     ctx.textAlign = 'center';
-    ctx.textBaseline = 'bottom';
     for (let lng = -180; lng <= 180; lng += step) {
       const x = map.latLngToContainerPoint([0, lng]).x;
-      if (x < 12 || x > size.x - 22) continue;
-      label(fmtLng(lng), x, size.y - 3);
+      if (x < 8 || x > size.x - 8) continue;
+      ctx.textBaseline = 'bottom';
+      label(fmtLng(lng), x, size.y - 2);
+      if (x > 34) {
+        ctx.textBaseline = 'top';
+        label(fmtLng(lng), x, 1);   // hug the top edge like the bottom row (top baseline pads down)
+      }
     }
   }
 
