@@ -42,10 +42,10 @@ export const METRICS = {
   day: {
     label: 'Growing Season Daylight', unit: 'h', fmt: (v) => `${Math.round(v)}h`,
     bands: true,   // valued by latitude (solar geometry), rounded into hour bands; masked to land
-    // lo/hi are set below to the actual band range. A high-contrast golden ramp — bright golden
-    // yellow at the short (equator) end deepening to burnt amber-gold at the long (polar) end — so
-    // each whole-hour band is a clearly distinct step (R≥G≥B throughout, so it never reads green).
-    stops: [[0, [255, 216, 92]], [1, [150, 82, 14]]]
+    // lo/hi are set below to the actual band range. A high-contrast golden ramp — the sun-badge
+    // gold (#ffd23f) at the short (equator) end deepening to burnt amber-gold at the long (polar)
+    // end — so each whole-hour band is a distinct step (R≥G≥B throughout, so it never reads green).
+    stops: [[0, [255, 210, 63]], [1, [150, 82, 14]]]
   }
 };
 
