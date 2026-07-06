@@ -122,16 +122,23 @@ export function createGraticule(map) {
       label(fmtLat(lat), lx, y);
     }
 
-    // Longitudes along both the bottom and top edges. The top row skips the top-left toggle column.
+    // Longitudes hug the TOP and BOTTOM ENDS of the meridians (±85°), so they stay pinned to the
+    // lines when the window is resized rather than floating in the ocean at the map edge. If a line
+    // end sits at/off the viewport edge (wide window), fall back to hugging that edge instead. The
+    // top row skips the top-left toggle column.
     ctx.textAlign = 'center';
+    const meridTop = map.latLngToContainerPoint([LAT_LIMIT, 0]).y;
+    const meridBot = map.latLngToContainerPoint([-LAT_LIMIT, 0]).y;
+    const topAtEdge = meridTop < 12;
+    const botAtEdge = meridBot > size.y - 12;
     for (let lng = -180; lng <= 180; lng += step) {
       const x = map.latLngToContainerPoint([0, lng]).x;
       if (x < 8 || x > size.x - 8) continue;
-      ctx.textBaseline = 'bottom';
-      label(fmtLng(lng), x, size.y - 2);
+      ctx.textBaseline = botAtEdge ? 'bottom' : 'top';
+      label(fmtLng(lng), x, botAtEdge ? size.y - 2 : meridBot + 1);   // just below the line bottom
       if (x > 34) {
-        ctx.textBaseline = 'top';
-        label(fmtLng(lng), x, 1);   // hug the top edge like the bottom row (top baseline pads down)
+        ctx.textBaseline = topAtEdge ? 'top' : 'bottom';
+        label(fmtLng(lng), x, topAtEdge ? 1 : meridTop - 1);          // just above the line top
       }
     }
   }
