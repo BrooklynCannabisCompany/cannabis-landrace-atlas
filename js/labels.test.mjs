@@ -7,8 +7,16 @@ import assert from 'node:assert/strict';
 import {
   visibleAtZoom, countryMinZoom, stateMinZoom, cityMinZoom, waterMinZoom,
   lakeMinZoom, riverMinZoom, rangeMinZoom, peakMinZoom, peakSizeTier, reliefMaxLevel,
-  landformMinZoom
+  landformMinZoom, rectsOverlap
 } from './labels.js';
+
+test('rectsOverlap detects overlap and separation, and honours padding', () => {
+  const a = { x: 0, y: 0, w: 10, h: 10 };
+  assert.equal(rectsOverlap(a, { x: 5, y: 5, w: 10, h: 10 }), true);   // corner overlap
+  assert.equal(rectsOverlap(a, { x: 12, y: 0, w: 10, h: 10 }), false); // 2px gap to the right
+  assert.equal(rectsOverlap(a, { x: 12, y: 0, w: 10, h: 10 }, 3), true); // pad closes the gap
+  assert.equal(rectsOverlap(a, { x: 0, y: 20, w: 10, h: 10 }), false);  // separated vertically
+});
 
 test('visibleAtZoom shows a label only at or above its minZoom', () => {
   assert.equal(visibleAtZoom(4, 4), true);

@@ -10,6 +10,8 @@
 // Lake *names* sit in 'place' so they follow the Labels toggle; only lake *shapes* (geolayers.js)
 // are always on. All labels are non-interactive and sit in a dedicated pane *below* the leaf
 // markers, so they never steal a click. `createLabels` returns a controller; app.js owns the toggles.
+// On each settle a declutter pass resolves state-vs-city label collisions — flipping the city's
+// text to the left of its dot when that side is clear, otherwise nudging the state label vertically.
 //
 // Relies on the global `L` from lib/leaflet/leaflet.js (used only inside createLabels, so
 // the pure gating helpers below remain importable under plain Node for tests).
@@ -112,6 +114,13 @@ export function reliefMaxLevel(zoom) {
   return 2;
 }
 
+// Do two axis-aligned rectangles ({x, y, w, h}) overlap, allowing an optional padding that grows
+// each box (used to account for the label's text-shadow halo)? Unit-tested in labels.test.mjs.
+export function rectsOverlap(a, b, pad = 0) {
+  return a.x - pad < b.x + b.w && a.x + a.w + pad > b.x &&
+         a.y - pad < b.y + b.h && a.y + a.h + pad > b.y;
+}
+
 // --- Runtime overlay --------------------------------------------------------
 
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
@@ -187,7 +196,71 @@ export function createLabels(map, data) {
       else if (!want && has) groups[e.key].removeLayer(e.marker);
     }
   };
+
+  // Declutter: when a state/province label overlaps a city label, flip the city's text to the other
+  // side of its dot (left instead of the default right) when that side is clear. Text sizes are
+  // measured once from the DOM and cached, so steady-state passes only reproject + toggle a class.
+  const sizeCache = new WeakMap();
+  const isCity = (e) => e.marker.options.icon.options.className.includes('lbl-city');
+  function labelSize(marker) {
+    let s = sizeCache.get(marker);
+    if (s) return s;
+    const t = marker._icon && marker._icon.querySelector('.lbl-t');
+    if (!t) return null;
+    const r = t.getBoundingClientRect();
+    if (!r.width) return null;
+    s = { w: r.width, h: r.height };
+    sizeCache.set(marker, s);
+    return s;
+  }
+  const NUDGE_GAP = 2;
+  function declutter() {
+    // 1) State label boxes, centered on their true (un-nudged) point.
+    const states = [];
+    if (on.states) {
+      for (const e of entries) {
+        if (e.key !== 'states' || !groups.states.hasLayer(e.marker)) continue;
+        const s = labelSize(e.marker);
+        if (!s) continue;
+        const a = map.latLngToContainerPoint(e.marker.getLatLng());
+        states.push({ marker: e.marker, rect: { x: a.x - s.w / 2, y: a.y - s.h / 2, w: s.w, h: s.h } });
+      }
+    }
+    // 2) City labels: flip the text to the LEFT of the dot when its default (right) side collides
+    //    with a state and the left side is clear. Collect each city's resulting box.
+    const cityRects = [];
+    for (const e of entries) {
+      if (!isCity(e) || !e.marker._icon) continue;
+      let flip = false;
+      const s = states.length && groups.place.hasLayer(e.marker) ? labelSize(e.marker) : null;
+      if (s) {
+        const a = map.latLngToContainerPoint(e.marker.getLatLng());
+        const right = { x: a.x + 5, y: a.y - s.h / 2, w: s.w, h: s.h };
+        const left = { x: a.x - 5 - s.w, y: a.y - s.h / 2, w: s.w, h: s.h };
+        flip = states.some((st) => rectsOverlap(right, st.rect, 1)) &&
+               !states.some((st) => rectsOverlap(left, st.rect, 1));
+        cityRects.push(flip ? left : right);
+      }
+      e.marker._icon.classList.toggle('lbl-flip', flip);
+    }
+    // 3) A state still overlapping a city (e.g. it straddles the dot, so the flip couldn't help) is
+    //    nudged vertically — up or down, whichever moves less — to clear every city it hits.
+    for (const st of states) {
+      const t = st.marker._icon && st.marker._icon.querySelector('.lbl-t');
+      if (!t) continue;
+      const hits = cityRects.filter((c) => rectsOverlap(st.rect, c, 1));
+      if (!hits.length) { t.style.transform = ''; continue; }
+      const top = Math.min(...hits.map((c) => c.y));
+      const bottom = Math.max(...hits.map((c) => c.y + c.h));
+      const up = top - NUDGE_GAP - (st.rect.y + st.rect.h);   // sit above the cities
+      const down = bottom + NUDGE_GAP - st.rect.y;            // ...or below them
+      const dy = Math.round(Math.abs(up) <= Math.abs(down) ? up : down);
+      t.style.transform = `translate(-50%, calc(-50% + ${dy}px))`;
+    }
+  }
+
   map.on('zoomend', applyZoom);
+  map.on('zoomend moveend', declutter);
 
   function setGroupVisible(key, vis) {
     if (!(key in on) || on[key] === vis) return;
@@ -195,6 +268,7 @@ export function createLabels(map, data) {
     if (vis) groups[key].addTo(map);
     else groups[key].remove();
     applyZoom();
+    declutter();
   }
 
   return { setGroupVisible };
