@@ -53,6 +53,11 @@ body { font-family: var(--sans); color: var(--ink); background: var(--paper); }
   background: #fff; border: 1px solid var(--line); border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1); padding: 4px; min-width: 160px;
   display: flex; flex-direction: column;
+  /* Scroll rather than overflow the viewport on short/landscape screens, so the lower items
+     (Heat Maps submenu, License, …) stay reachable. */
+  max-height: calc(100vh - var(--ribbon-h) - 16px);
+  max-height: calc(100dvh - var(--ribbon-h) - 16px);
+  overflow-y: auto; overscroll-behavior: contain;
 }
 .app-menu[hidden] { display: none; }
 .app-menu-item {
