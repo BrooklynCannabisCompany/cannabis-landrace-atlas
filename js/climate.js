@@ -62,6 +62,7 @@ export const METRICS = {
 
 const MAX_ALPHA = 0.52;                // land tint (all three maps)
 const CELL = 6;                        // screen sampling cell, px
+const MERCATOR_LAT = 85.05;            // Web Mercator clip; the basemap stops here, so the tint must too
 const BAND_STEP = 10;                  // latitude band width, degrees (0, 10, 20, …)
 const LAND = [0xe9, 0xe6, 0xdf];       // basemap land fill, for legend compositing
 const MID_DOY = [15, 45, 74, 105, 135, 166, 196, 227, 258, 288, 319, 349];
@@ -271,6 +272,10 @@ export function createClimate(map) {
     for (let y = 0; y < size.y; y += CELL) {
       for (let x = 0; x < size.x; x += CELL) {
         const ll = map.containerPointToLatLng([x + CELL / 2, y + CELL / 2]);
+        // The grid carries Antarctica data to −90°, but Leaflet clips the basemap at the Web Mercator
+        // limit (±85.05°), so below it there is no land to tint — skip those cells or the overlay
+        // paints a solid straight-edged block past the map's edge.
+        if (ll.lat > MERCATOR_LAT || ll.lat < -MERCATOR_LAT) continue;
         // Latitude-valued metrics (daylight, solar) still sample the temperature grid for their land
         // mask, so they never tint — and, for daylight, green — the ocean.
         const s = sample(ll.lat, ll.lng, latFn ? 'temp' : metric);
