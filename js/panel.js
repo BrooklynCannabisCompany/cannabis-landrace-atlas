@@ -90,18 +90,21 @@ export function renderStrain(container, strain, handlers = {}) {
   const { onClose, onSubmit, onFacet } = handlers;
   container.innerHTML = '';
 
+  // Sticky header: the close button + title stay pinned to the top while the body scrolls.
+  const header = el('div', 'panel-header');
   const closeBtn = el('button', 'panel-close', '×');
   closeBtn.type = 'button';
   closeBtn.setAttribute('aria-label', 'Close panel');
   if (onClose) closeBtn.addEventListener('click', onClose);
-  container.appendChild(closeBtn);
+  header.appendChild(closeBtn);
+  header.appendChild(el('h2', 'panel-name', strain.name));
+  container.appendChild(header);
 
   // Subtitle: region + country, but never echo the country if the region already names it.
   const place = (strain.region && strain.country &&
     strain.region.toLowerCase().includes(strain.country.toLowerCase()))
     ? strain.region
     : [strain.region, strain.country].filter(Boolean).join(', ');
-  container.appendChild(el('h2', 'panel-name', strain.name));
   if (place) container.appendChild(el('p', 'panel-place', place));
 
   // Classification badges: morphotype (primary) + vernacular type (one of the seven

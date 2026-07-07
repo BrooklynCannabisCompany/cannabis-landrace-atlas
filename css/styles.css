@@ -194,8 +194,15 @@ summary.index-h2 { font-size: 14px; color: var(--green-dark); cursor: pointer; p
   transition: flex-basis 0.22s ease, width 0.22s ease;
   padding: 0;
 }
-body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padding: 22px 24px 40px; }
+body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padding: 0 24px 40px; }
 
+/* Keeps the close button + title pinned to the top of the panel while the body scrolls under them.
+   The panel's top padding lives here so the bar sticks flush to the top edge. */
+.panel-header {
+  position: sticky; top: 0; z-index: 2;
+  background: #fff; display: flow-root; /* contain the floated close button */
+  padding: 20px 0 8px; box-shadow: 0 1px 0 var(--line);
+}
 .panel-close {
   float: right; border: none; background: none; cursor: pointer;
   font-size: 26px; line-height: 1; color: var(--muted);
@@ -585,7 +592,7 @@ body.panel-open .panel { flex-basis: var(--panel-w); width: var(--panel-w); padd
     border-radius: 14px 14px 0 0; transition: height 0.22s ease;
     box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.12); z-index: 1500;
   }
-  body.panel-open .panel { width: 100%; height: 80vh; padding: 18px 18px 40px; }
+  body.panel-open .panel { width: 100%; height: 80vh; padding: 0 18px 40px; }
 }
 
 /* Phones: reclaim width by dropping the wordmark. */
